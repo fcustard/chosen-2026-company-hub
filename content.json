@@ -1,6 +1,6 @@
 {
   "updated": "2026-08-30",
-  "notice": "Current script and music links will appear here as they are officially published.",
+  "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
     "appleCalendar": "https://calendar.google.com/calendar/ical/346797094726a81fdbe0c4f473f270de52aa9283f60b6e64c4971828081b00a4%40group.calendar.google.com/public/basic.ics",
@@ -9,34 +9,162 @@
     "help": "#"
   },
   "nextRehearsal": {
-    "title": "Check the live schedule",
-    "meta": "The live production schedule remains the source of truth for rehearsal dates, times and locations.",
-    "url": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec"
+    "day": "NEXT REHEARSAL",
+    "date": "View live schedule",
+    "time": "Current call times",
+    "location": "Current rehearsal location",
+    "focus": "Tap below for official rehearsal details.",
+    "url": "schedule.html"
   },
   "scripts": [
     {
+      "scene": "FULL",
       "title": "Current Full Script",
-      "meta": "Official company publication link pending",
-      "url": "#"
+      "status": "Publication link pending",
+      "readUrl": "#",
+      "pdfUrl": "#"
     },
     {
-      "title": "Scene Materials",
-      "meta": "Only CURRENT company versions will be linked here",
-      "url": "#"
+      "scene": "01",
+      "title": "Welcome to Nazareth",
+      "status": "Current company version pending",
+      "readUrl": "#",
+      "pdfUrl": "#"
+    },
+    {
+      "scene": "02",
+      "title": "Mary & Joseph / My Beloved",
+      "status": "Current company version pending",
+      "readUrl": "#",
+      "pdfUrl": "#"
+    },
+    {
+      "scene": "03",
+      "title": "Gabriel / Chosen",
+      "status": "Current company version pending",
+      "readUrl": "#",
+      "pdfUrl": "#"
+    },
+    {
+      "scene": "04",
+      "title": "The Secret",
+      "status": "Current company version pending",
+      "readUrl": "#",
+      "pdfUrl": "#"
+    },
+    {
+      "scene": "05",
+      "title": "Brotherhood",
+      "status": "Current company version pending",
+      "readUrl": "#",
+      "pdfUrl": "#"
+    },
+    {
+      "scene": "06",
+      "title": "Mary Tells Joseph / It\u2019s Not Mine",
+      "status": "Current company version pending",
+      "readUrl": "#",
+      "pdfUrl": "#"
+    },
+    {
+      "scene": "07",
+      "title": "Two Roads of Faith",
+      "status": "Current company version pending",
+      "readUrl": "#",
+      "pdfUrl": "#"
+    },
+    {
+      "scene": "08",
+      "title": "Reunion / Still Yours",
+      "status": "Current company version pending",
+      "readUrl": "#",
+      "pdfUrl": "#"
+    },
+    {
+      "scene": "09",
+      "title": "What Will He Be? / Town Turns",
+      "status": "Current company version pending",
+      "readUrl": "#",
+      "pdfUrl": "#"
+    },
+    {
+      "scene": "10",
+      "title": "Census / Journey",
+      "status": "Current company version pending",
+      "readUrl": "#",
+      "pdfUrl": "#"
+    },
+    {
+      "scene": "11",
+      "title": "No Room",
+      "status": "Current company version pending",
+      "readUrl": "#",
+      "pdfUrl": "#"
+    },
+    {
+      "scene": "12",
+      "title": "Good News / Shepherds / Finale",
+      "status": "Current company version pending",
+      "readUrl": "#",
+      "pdfUrl": "#"
     }
   ],
   "music": [
     {
-      "title": "Music & Rehearsal Tracks",
-      "meta": "Company track library will be published here",
-      "url": "#"
-    }
-  ],
-  "schedule": [
+      "title": "Welcome to Nazareth",
+      "type": "Opening Number",
+      "status": "Track in development",
+      "playUrl": "#",
+      "lyricsUrl": "#"
+    },
     {
-      "title": "Live CHOSEN 2026 Schedule",
-      "meta": "Current rehearsal dates, times and locations",
-      "url": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec"
+      "title": "My Beloved",
+      "type": "Mary / Joseph",
+      "status": "Track in development",
+      "playUrl": "#",
+      "lyricsUrl": "#"
+    },
+    {
+      "title": "Chosen",
+      "type": "Mary",
+      "status": "Track in development",
+      "playUrl": "#",
+      "lyricsUrl": "#"
+    },
+    {
+      "title": "Brotherhood",
+      "type": "Joseph & Friends",
+      "status": "Track in development",
+      "playUrl": "#",
+      "lyricsUrl": "#"
+    },
+    {
+      "title": "It\u2019s Not Mine",
+      "type": "Joseph",
+      "status": "Track in development",
+      "playUrl": "#",
+      "lyricsUrl": "#"
+    },
+    {
+      "title": "Still Yours",
+      "type": "Mary / Joseph",
+      "status": "Track in development",
+      "playUrl": "#",
+      "lyricsUrl": "#"
+    },
+    {
+      "title": "What Will He Be?",
+      "type": "Children / Company",
+      "status": "Track in development",
+      "playUrl": "#",
+      "lyricsUrl": "#"
+    },
+    {
+      "title": "Silent Night",
+      "type": "Birth Sequence",
+      "status": "Arrangement pending",
+      "playUrl": "#",
+      "lyricsUrl": "#"
     }
   ]
 }

@@ -1,32 +1,30 @@
-# CHOSEN 2026 Company Hub — GitHub Pages starter
+# CHOSEN 2026 Company Hub V1
 
-## One-time publishing
-1. Create a GitHub account.
-2. Create a PUBLIC repository named `chosen-2026-company-hub`.
-3. Upload the CONTENTS of this folder to the repository root.
-4. Go to Settings → Pages.
-5. Under Build and deployment choose **Deploy from a branch**.
-6. Choose **main** and **/(root)**, then Save.
-7. GitHub will display the live github.io address.
+Upload these files to the ROOT of the existing GitHub repository. Replace files with matching names.
 
-## Routine updates
-Edit `data/content.json` in GitHub and commit. This controls most changing Hub content without editing HTML.
+New structure:
+- index.html
+- this-week.html
+- scripts.html
+- music.html
+- schedule.html
+- company.html
+- styles.css
+- app.js
+- content.json
+- .nojekyll
 
-Replace the `#` placeholders for:
-- `links.absence`
-- `links.help`
-- current scripts
-- music/rehearsal tracks
+Most routine updates happen in content.json.
 
-## Reliability rules
-- Test every company link in a private/incognito browser while NOT signed into the owner's Google account.
-- Routine resources should not require Google login unless privacy genuinely requires it.
-- Never put private cast information, minors' information, passwords, or sensitive production documents in this public repository.
-- Do not rely on a client-side password for security.
-- Keep schedule information readable from the Hub; calendar subscription is secondary.
-- Direct links are preferred over critical iframe embeds.
-- Provide mobile-readable script content plus printable PDF where practical.
+Important placeholders still needed:
+- Absence/Late form URL
+- Production Help form URL
+- published script Read/PDF URLs
+- published music Play/Lyrics URLs
+- next rehearsal display
 
-## Launch testing
-Test iPhone Safari/Chrome, Android Chrome, iPad/tablet, Windows Chrome/Edge, Mac Safari/Chrome, incognito/private browsing, and a device without Google Drive installed.
-Verify no Request Access screens, no wrong-account dependency, readable pages, working audio, PDF fallback, and schedule access without subscription.
+Branding choice:
+V1 uses the established CHOSEN navy/gold/ivory and star/light language without a large poster image. A subtle key-art crop can be added later without changing the information architecture.
+
+Security:
+GitHub Pages is public. Do not place private contact details, minors' data, passwords, or sensitive notes in the repository.
