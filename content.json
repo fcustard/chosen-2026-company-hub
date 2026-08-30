@@ -1,0 +1,42 @@
+{
+  "updated": "2026-08-30",
+  "notice": "Current script and music links will appear here as they are officially published.",
+  "links": {
+    "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
+    "appleCalendar": "https://calendar.google.com/calendar/ical/346797094726a81fdbe0c4f473f270de52aa9283f60b6e64c4971828081b00a4%40group.calendar.google.com/public/basic.ics",
+    "whatsapp": "https://chat.whatsapp.com/GNAL7iuZQVFJ0iXei22wJ3",
+    "absence": "#",
+    "help": "#"
+  },
+  "nextRehearsal": {
+    "title": "Check the live schedule",
+    "meta": "The live production schedule remains the source of truth for rehearsal dates, times and locations.",
+    "url": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec"
+  },
+  "scripts": [
+    {
+      "title": "Current Full Script",
+      "meta": "Official company publication link pending",
+      "url": "#"
+    },
+    {
+      "title": "Scene Materials",
+      "meta": "Only CURRENT company versions will be linked here",
+      "url": "#"
+    }
+  ],
+  "music": [
+    {
+      "title": "Music & Rehearsal Tracks",
+      "meta": "Company track library will be published here",
+      "url": "#"
+    }
+  ],
+  "schedule": [
+    {
+      "title": "Live CHOSEN 2026 Schedule",
+      "meta": "Current rehearsal dates, times and locations",
+      "url": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec"
+    }
+  ]
+}
