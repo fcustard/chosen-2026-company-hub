@@ -120,3 +120,118 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
     text-align:center;
   }
 }
+
+/* ===== FIX: THIS WEEK REHEARSAL CARDS ===== */
+
+.weekList{
+  display:grid;
+  gap:22px;
+}
+
+.rehearsal{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:26px;
+  box-shadow:0 14px 34px rgba(13,23,38,.08);
+}
+
+.rehTop{
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+  align-items:flex-start;
+}
+
+.rehTop h2{
+  margin:4px 0 6px;
+  font:700 2rem Georgia,serif;
+  color:var(--ink);
+}
+
+.status{
+  display:inline-block;
+  background:#edf3e8;
+  color:#355b32;
+  border-radius:999px;
+  padding:7px 11px;
+  font-size:.72rem;
+  font-weight:900;
+  letter-spacing:.08em;
+}
+
+.rehFacts{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+  margin:18px 0;
+}
+
+.rehFacts div{
+  background:#f3efe6;
+  border-radius:12px;
+  padding:14px;
+}
+
+.rehFacts b,
+.rehBody b{
+  display:block;
+  color:#9b741f;
+  font-size:.7rem;
+  letter-spacing:.11em;
+  margin-bottom:5px;
+}
+
+.rehFacts span{
+  font-weight:800;
+}
+
+.rehBody{
+  display:grid;
+  gap:16px;
+  margin-top:8px;
+}
+
+.rehBody p{
+  margin:4px 0 0;
+}
+
+.callout{
+  background:#fff3cd;
+  border-left:4px solid var(--g);
+  border-radius:10px;
+  padding:14px 16px;
+}
+
+.rehearsal .actions{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:20px;
+}
+
+@media(max-width:650px){
+  .rehearsal{
+    padding:20px;
+  }
+
+  .rehTop{
+    display:block;
+  }
+
+  .status{
+    margin-top:8px;
+  }
+
+  .rehFacts{
+    grid-template-columns:1fr;
+  }
+
+  .rehTop h2{
+    font-size:1.65rem;
+  }
+
+  .rehearsal .actions .btn{
+    width:100%;
+  }
+}
