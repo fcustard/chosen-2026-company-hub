@@ -87,6 +87,7 @@
       "status": "Current company version pending",
       "approved": false,
       "companyPublish": false,
+      "source": "data/scenes/scene-02.json",
       "readUrl": "#",
       "pdfUrl": "#"
     },
