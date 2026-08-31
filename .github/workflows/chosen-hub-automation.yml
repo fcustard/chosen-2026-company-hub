@@ -1,0 +1,54 @@
+name: CHOSEN Hub Automation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/**"
+      - "tools/**"
+      - "package.json"
+      - ".github/workflows/chosen-hub-automation.yml"
+
+  workflow_dispatch:
+
+  schedule:
+    # Runs every morning at 5:15 AM Eastern during daylight time.
+    # GitHub cron itself uses UTC.
+    - cron: "15 9 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out CHOSEN Hub
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Validate production data
+        run: npm run validate
+
+      - name: Build Hub content
+        run: npm run build
+
+      - name: Publish generated content.json
+        run: |
+          if git diff --quiet -- content.json; then
+            echo "No generated Hub changes."
+            exit 0
+          fi
+
+          git config user.name "CHOSEN Hub Automation"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add content.json
+          git commit -m "Automated Hub content update"
+          git push
