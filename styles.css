@@ -18,3 +18,105 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
 @media(max-width:850px){.hero-grid{grid-template-columns:1fr}.dash{grid-template-columns:1fr 1fr}.util{grid-template-columns:1fr 1fr}}
 @media(max-width:650px){nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--n);padding:14px 18px 20px;flex-direction:column}.menu{display:block}.dash,.util{grid-template-columns:1fr}.row{grid-template-columns:auto 1fr}.actions{grid-column:1/-1}.actions .btn{flex:1}.nextline{grid-template-columns:1fr}.hero h1{font-size:2.8rem}}
 :focus-visible{outline:3px solid #c18c21;outline-offset:3px}
+
+/* ===== CHOSEN 2026 — THIS WEEK DASHBOARD ===== */
+
+.week-intro{
+  max-width:760px;
+  margin-bottom:28px;
+}
+
+.rehearsal-list{
+  display:grid;
+  gap:22px;
+}
+
+.rehearsal-card{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:26px;
+  box-shadow:0 14px 34px rgba(13,23,38,.07);
+}
+
+.rehearsal-card h2{
+  margin:4px 0 8px;
+  font:700 2rem Georgia,serif;
+  color:var(--ink);
+}
+
+.rehearsal-date{
+  color:#9b741f;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  font-size:.82rem;
+}
+
+.rehearsal-meta{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+  margin:18px 0;
+}
+
+.rehearsal-meta div{
+  background:var(--p);
+  border-radius:12px;
+  padding:14px;
+}
+
+.rehearsal-meta strong{
+  display:block;
+  color:var(--ink);
+  margin-bottom:4px;
+}
+
+.rehearsal-section{
+  border-top:1px solid var(--line);
+  padding-top:16px;
+  margin-top:16px;
+}
+
+.rehearsal-section h3{
+  margin:0 0 8px;
+  font-size:.8rem;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  color:#9b741f;
+}
+
+.rehearsal-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:20px;
+}
+
+.rehearsal-alert{
+  background:#fff3cd;
+  border-left:4px solid #d4a83f;
+  padding:14px 16px;
+  border-radius:10px;
+  margin-top:16px;
+  font-weight:700;
+}
+
+@media(max-width:650px){
+  .rehearsal-meta{
+    grid-template-columns:1fr;
+  }
+
+  .rehearsal-card{
+    padding:20px;
+  }
+
+  .rehearsal-card h2{
+    font-size:1.65rem;
+  }
+
+  .rehearsal-actions .btn{
+    width:100%;
+    text-align:center;
+  }
+}
