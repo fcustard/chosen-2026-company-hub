@@ -133,11 +133,12 @@
     {
       "scene": "07",
       "title": "Two Roads of Faith",
-      "status": "Current company version pending",
-      "approved": false,
-      "companyPublish": false,
-      "readUrl": "#",
-      "pdfUrl": "#"
+      "status": "CURRENT · Approved dialogue / staging",
+      "approved": true,
+      "companyPublish": true,
+      "source": "data/scenes/scene-07.json",
+      "readUrl": "scene-07.html",
+      "pdfUrl": "scene-07.pdf"
     },
     {
       "scene": "08",
