@@ -18,23 +18,23 @@
     "pdfUrl": "scene-01.pdf"
   },
   {
-  "scene": "02",
-  "title": "Mary & Joseph / My Beloved",
-  "status": "CURRENT · Approved dialogue / staging",
-"approved": true,
-"companyPublish": true,
-"readUrl": "scene-02.html",
-"pdfUrl": "scene-02.pdf"
+    "scene": "02",
+    "title": "Mary & Joseph / My Beloved",
+    "status": "CURRENT · Approved dialogue / staging",
+    "approved": true,
+    "companyPublish": true,
+    "readUrl": "scene-02.html",
+    "pdfUrl": "scene-02.pdf"
   },
-  {
-    "scene": "03",
-    "title": "Gabriel / Chosen",
-    "status": "Current company version pending",
-    "approved": false,
-    "companyPublish": false,
-    "readUrl": "#",
-    "pdfUrl": "#"
-  },
+{
+  "scene": "03",
+  "title": "Gabriel / Chosen",
+  "status": "CURRENT · APPROVED / LOCKED",
+  "approved": true,
+  "companyPublish": true,
+  "readUrl": "scene-03.html",
+  "pdfUrl": "scene-03.pdf"
+},
   {
     "scene": "04",
     "title": "The Secret",
