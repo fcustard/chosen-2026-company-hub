@@ -3,8 +3,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "validate": "node tools/validate.mjs",
-    "build": "node tools/build.mjs",
+    "validate:base": "node tools/validate.mjs",
+    "validate:scenes": "node tools/validate-scenes.mjs",
+    "validate": "npm run validate:base && npm run validate:scenes",
+
+    "build:scenes": "node tools/build-scenes.mjs",
+    "build:hub": "node tools/build.mjs",
+    "build": "npm run build:scenes && npm run build:hub",
+
     "check": "npm run validate && npm run build"
   }
 }
