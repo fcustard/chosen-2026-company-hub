@@ -1,0 +1,1792 @@
+{
+  "scene": "06",
+  "title": "Mary Tells Joseph / It’s Not Mine",
+  "eyebrow": "CURRENT · COMPANY VERSION",
+  "publicationNote": "This is the official company rehearsal version.",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
+    },
+    {
+      "type": "stage",
+      "text": "SCENE 6 - MARY & JOSEPH / \"IT'S NOT MINE\""
+    },
+    {
+      "type": "stage",
+      "text": "COMPANY VERSION"
+    },
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
+    },
+    {
+      "type": "heading",
+      "text": "SCENE 6 — MARY & JOSEPH / “IT’S NOT MINE”"
+    },
+    {
+      "type": "text",
+      "text": "Approximate Running Time: 7–8 minutes\nSpoken Dialogue Before Song: approximately 3 minutes\nMusical Number: “It’s Not Mine” — approximately 3–3½ minutes\nAftermath: approximately 45–60 seconds"
+    },
+    {
+      "type": "transition",
+      "text": "SCENE 6 — CONTINUOUS FROM SCENE 5"
+    },
+    {
+      "type": "stage",
+      "text": "No blackout."
+    },
+    {
+      "type": "stage",
+      "text": "The rhythm that filled the workshop has disappeared with Joseph’s friends."
+    },
+    {
+      "type": "stage",
+      "text": "The unfinished table remains. Joseph still wears the satchel Mary made for him."
+    },
+    {
+      "type": "stage",
+      "text": "Mary and Joseph are alone."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary..."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "What happened?"
+    },
+    {
+      "type": "stage",
+      "text": "Mary remembers Shira’s instruction: Start with the truth."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I need to tell you something."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "All right."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I need you to listen."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m listening."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "All the way through."
+    },
+    {
+      "type": "stage",
+      "text": "That changes him slightly."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary..."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Please."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph nods."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "All right."
+    },
+    {
+      "type": "stage",
+      "text": "Mary gathers herself."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m going to have a child."
+    },
+    {
+      "type": "stage",
+      "text": "SILENCE"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at her. For a moment the sentence does not fit anywhere in his understanding."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m with child."
+    },
+    {
+      "type": "stage",
+      "text": "A tiny disbelieving breath escapes him."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph—"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "No, I mean—"
+    },
+    {
+      "type": "stage",
+      "text": "He stops. Tries again."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Are you certain?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Certain."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph’s first instinct is not accusation. It is protection."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Did someone hurt you?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Did someone force you?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Are you protecting someone?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph searches her face."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then help me understand."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m trying."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then tell me what happened."
+    },
+    {
+      "type": "heading",
+      "text": "THE IMPOSSIBLE EXPLANATION"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "A messenger came to me."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "A messenger."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "From God."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph goes still."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "His name was Gabriel."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "You’re saying an angel came to you."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "And told you—"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "That I would have a son."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "And the father?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph—"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "What did he say?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "That the child comes from God."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph turns away. Not in disgust. He simply needs somewhere else to look."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Listen to what you’re asking me to believe."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I have."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "No one else saw him?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "He came to you alone."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "And then he was gone."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph turns back."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "So all I have is your word."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "You know?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know exactly what that means here."
+    },
+    {
+      "type": "stage",
+      "text": "The village outside the workshop remains ordinary and unchanged."
+    },
+    {
+      "type": "heading",
+      "text": "HE WANTS TO BELIEVE HER"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "You know me."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s why this hurts."
+    },
+    {
+      "type": "stage",
+      "text": "Mary takes that in."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then believe me."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I want to."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I want to believe you."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then do."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary, I can’t make something make sense because I want it to."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "It didn’t make sense to me either."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "But now it does?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "That surprises him."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not all of it."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then how can you stand there and be so certain?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Because I know what happened to me."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "And I know what this looks like."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Those are not the same thing."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "They are from where I’m standing."
+    },
+    {
+      "type": "stage",
+      "text": "Mary steps closer."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Look at me."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph does."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Have I ever given you a reason not to trust me?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then trust me now."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph wants to. That is visible before he answers."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t know how."
+    },
+    {
+      "type": "heading",
+      "text": "THE TABLE"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph turns away and finds the unfinished table in front of him."
+    },
+    {
+      "type": "stage",
+      "text": "His hand lands on it almost without thought."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I was building this today."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Six seats."
+    },
+    {
+      "type": "stage",
+      "text": "A small, broken breath that almost remembers the joke."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Maybe eight."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph—"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "The window. Your garden. That ridiculous fence I’m apparently rebuilding for the rest of my life."
+    },
+    {
+      "type": "stage",
+      "text": "Mary’s eyes fill. These were happy things only hours ago."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I could see it."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "So could I."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I knew where the door went. Where the table went. How much room we’d need."
+    },
+    {
+      "type": "stage",
+      "text": "He looks at her."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I had a plan."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "And now I don’t know what any of it is."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Neither do I."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "But you’re asking me to live inside it anyway."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m asking you to believe that I’m telling you the truth."
+    },
+    {
+      "type": "heading",
+      "text": "THE BREAK"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph searches for one final explanation."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Is there anything you haven’t told me?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Anything."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Something you’re afraid I won’t forgive?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph, no."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Because I would rather hear something terrible that I can understand than—"
+    },
+    {
+      "type": "stage",
+      "text": "He cannot finish."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t have an easier story to give you."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at her."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I wish you did."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "You think I betrayed you."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I think something happened."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Something did happen."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Something I understand."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "That doesn’t make it true."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "And saying an angel came doesn’t make this make sense!"
+    },
+    {
+      "type": "stage",
+      "text": "His first true emotional break. Silence immediately after it."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph regrets the volume, but not the confusion."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "No, you believe."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "And I don’t know how."
+    },
+    {
+      "type": "stage",
+      "text": "His eyes drop—not accusingly, but inevitably—to the reality of the child."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "The child..."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s not mine."
+    },
+    {
+      "type": "stage",
+      "text": "SILENCE"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph closes his eyes."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "But that doesn’t mean—"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s not mine."
+    },
+    {
+      "type": "music",
+      "text": "MUSIC BEGINS"
+    },
+    {
+      "type": "heading",
+      "text": "“IT’S NOT MINE”"
+    },
+    {
+      "type": "text",
+      "text": "TARGET: 3:00–3:15 MAX"
+    },
+    {
+      "type": "stage",
+      "text": "The song grows directly out of Joseph attempting to restore order."
+    },
+    {
+      "type": "stage",
+      "text": "A fractured version of the Brotherhood rhythm appears."
+    },
+    {
+      "type": "stage",
+      "text": "BANG. BANG. SCRAPE. CLAP. STOMP."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph reaches instinctively for a tool."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "stage",
+      "text": "Rhythmically"
+    },
+    {
+      "type": "stage",
+      "text": "Measure twice..."
+    },
+    {
+      "type": "stage",
+      "text": "He attempts the old pattern."
+    },
+    {
+      "type": "stage",
+      "text": "BANG. BANG."
+    },
+    {
+      "type": "stage",
+      "text": "Stops."
+    },
+    {
+      "type": "stage",
+      "text": "Nothing fits anymore."
+    },
+    {
+      "type": "heading",
+      "text": "VERSE 1 — WHAT HE KNOWS"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph's language stays concrete."
+    },
+    {
+      "type": "stage",
+      "text": "He knows:"
+    },
+    {
+      "type": "stage",
+      "text": "what they promised;"
+    },
+    {
+      "type": "stage",
+      "text": "what they planned;"
+    },
+    {
+      "type": "stage",
+      "text": "what he built;"
+    },
+    {
+      "type": "stage",
+      "text": "what the evidence appears to mean."
+    },
+    {
+      "type": "stage",
+      "text": "The musical thought moves toward:"
+    },
+    {
+      "type": "stage",
+      "text": "I know the road.\n I know the plan.\n I know what should have been.\n But this child is not mine."
+    },
+    {
+      "type": "stage",
+      "text": "Mary tries to reach him from inside the number."
+    },
+    {
+      "type": "stage",
+      "text": "She does not overpower him."
+    },
+    {
+      "type": "heading",
+      "text": "CHORUS — “IT’S NOT MINE”"
+    },
+    {
+      "type": "stage",
+      "text": "At first, the phrase means only:"
+    },
+    {
+      "type": "stage",
+      "text": "the child."
+    },
+    {
+      "type": "stage",
+      "text": "Then the meaning begins expanding."
+    },
+    {
+      "type": "stage",
+      "text": "It's not mine.\n This isn't what we planned.\n This isn't what I built."
+    },
+    {
+      "type": "heading",
+      "text": "VERSE 2 — THE FUTURE COLLAPSES"
+    },
+    {
+      "type": "stage",
+      "text": "The “My Beloved” motif appears underneath—distorted or incomplete."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at the table."
+    },
+    {
+      "type": "stage",
+      "text": "The phrase now means:"
+    },
+    {
+      "type": "stage",
+      "text": "The home I imagined isn't mine.\n The future I understood isn't mine.\n The story I thought I could control isn't mine."
+    },
+    {
+      "type": "stage",
+      "text": "Keep this section emotionally direct rather than wordy."
+    },
+    {
+      "type": "heading",
+      "text": "MARY'S SECTION"
+    },
+    {
+      "type": "stage",
+      "text": "Mary finally gets musical space."
+    },
+    {
+      "type": "stage",
+      "text": "Her territory:"
+    },
+    {
+      "type": "stage",
+      "text": "I didn't choose the fear.\n I didn't choose the cost.\n I didn't choose to hurt you.\n I chose to trust God."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph catches one word:"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "stage",
+      "text": "Spoken/sung"
+    },
+    {
+      "type": "stage",
+      "text": "You chose this."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I chose to believe God."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "And now you're asking me to choose it too."
+    },
+    {
+      "type": "stage",
+      "text": "That is the bridge."
+    },
+    {
+      "type": "stage",
+      "text": "Do not add another long argument inside the song."
+    },
+    {
+      "type": "heading",
+      "text": "FINAL CHORUS"
+    },
+    {
+      "type": "stage",
+      "text": "The first “It's not mine” was almost an accusation."
+    },
+    {
+      "type": "stage",
+      "text": "The final one is loss."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at the table."
+    },
+    {
+      "type": "stage",
+      "text": "Then Mary."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "stage",
+      "text": "Quietly"
+    },
+    {
+      "type": "stage",
+      "text": "It's not mine..."
+    },
+    {
+      "type": "stage",
+      "text": "The music ends unresolved."
+    },
+    {
+      "type": "stage",
+      "text": "SILENCE."
+    },
+    {
+      "type": "heading",
+      "text": "AFTERMATH"
+    },
+    {
+      "type": "stage",
+      "text": "Mary and Joseph are now farther apart than when the scene began."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph..."
+    },
+    {
+      "type": "stage",
+      "text": "He cannot look at her yet."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "What happens now?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t know."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Please don’t leave."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at her."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "What would you have me do?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Stay."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "And pretend I understand?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Pretend I believe something I don’t?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then what?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Believe me."
+    },
+    {
+      "type": "stage",
+      "text": "Long beat."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I want to."
+    },
+    {
+      "type": "stage",
+      "text": "Mary waits."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t know how."
+    },
+    {
+      "type": "heading",
+      "text": "JOSEPH’S CHOICE"
+    },
+    {
+      "type": "stage",
+      "text": "The anger has burned away. What remains is grief."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I won’t shame you."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at him."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I won’t make this public."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph—"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Whatever people say about me, I won’t hand them something they can use against you."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then don’t leave me."
+    },
+    {
+      "type": "stage",
+      "text": "That nearly undoes him."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I can’t marry you."
+    },
+    {
+      "type": "stage",
+      "text": "SILENCE"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "You said whatever comes."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at her."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "You said you’d walk with me."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then walk with me now."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph cannot."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "When I said that..."
+    },
+    {
+      "type": "stage",
+      "text": "He looks at the table."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I thought I knew what “whatever comes” meant."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "So did I."
+    },
+    {
+      "type": "stage",
+      "text": "That lands differently. Neither of them planned this."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "You still said yes."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "And you believe."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t."
+    },
+    {
+      "type": "stage",
+      "text": "There is the wall between them."
+    },
+    {
+      "type": "heading",
+      "text": "FINAL EXCHANGE"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph moves toward the exit."
+    },
+    {
+      "type": "stage",
+      "text": "He passes the unfinished table and stops. His hand rests on it once. He does not destroy it, overturn it, or remove anything from it."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph."
+    },
+    {
+      "type": "stage",
+      "text": "He stops."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Please."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Believe me."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph remains facing away."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t know how."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph exits."
+    },
+    {
+      "type": "stage",
+      "text": "Mary remains."
+    },
+    {
+      "type": "stage",
+      "text": "Do not have her collapse. She is devastated, but her yes still exists."
+    },
+    {
+      "type": "stage",
+      "text": "Her eyes find the unfinished table. She touches the edge Joseph had been working on."
+    },
+    {
+      "type": "stage",
+      "text": "A nearly imperceptible fragment of “Chosen” may return not triumphant, simply present."
+    },
+    {
+      "type": "stage",
+      "text": "Mary steadies herself."
+    },
+    {
+      "type": "stage",
+      "text": "The warm workshop environment remains. Nothing outside has changed."
+    },
+    {
+      "type": "heading",
+      "text": "END SCENE 6"
+    },
+    {
+      "type": "transition",
+      "text": "TRANSITION INTO SCENE 7"
+    },
+    {
+      "type": "stage",
+      "text": "The stage begins to divide without requiring a full reset: Mary’s road will lead toward Elizabeth; Joseph’s road will lead back toward the men."
+    },
+    {
+      "type": "stage",
+      "text": "Two people. Two wounds. Two roads of faith. Each now needs something the other cannot give in this moment.\n_______________________________________________________________________"
+    }
+  ]
+}
