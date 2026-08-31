@@ -9,12 +9,56 @@
     "help": "#"
   },
   "nextRehearsal": {
-    "day": "NEXT REHEARSAL",
-    "date": "View live schedule",
-    "time": "Current call times",
-    "location": "Current rehearsal location",
-    "focus": "Tap below for official rehearsal details.",
-    "url": "schedule.html"
+    "day": "WEDNESDAY \u00b7 SEPTEMBER 2",
+    "date": "Scenes 1 & 4",
+    "time": "6:30\u20139:30 PM",
+    "location": "The Faith Center \u00b7 Sunrise",
+    "focus": "Character development, dialogue and light blocking.",
+    "url": "this-week.html"
+  },
+  "thisWeek": {
+    "label": "SEPTEMBER 2\u20135",
+    "title": "This Week",
+    "intro": "Check your call time first. Then review exactly what you are working on before rehearsal.",
+    "rehearsals": [
+      {
+        "date": "WED \u00b7 SEP 2",
+        "time": "6:30\u20139:30 PM",
+        "title": "Scenes 1 & 4",
+        "status": "CONFIRMED",
+        "location": "The Faith Center \u00b7 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "Mary (Jordyn), Talia (Tasha), Shira (Tiffany), Adina (Jeovanie), Dafna (Ashley)",
+        "work": "Welcome to Nazareth / The Secret \u2014 character development, dialogue and light blocking.",
+        "prep": "Arrive ready to work at 6:30 PM with the applicable scenes available.",
+        "scriptUrl": "scripts.html",
+        "musicUrl": "music.html"
+      },
+      {
+        "date": "THU \u00b7 SEP 3",
+        "time": "6:30\u20139:30 PM",
+        "title": "Scenes 1, 3 & 5",
+        "status": "CONFIRMED",
+        "location": "The Faith Center \u00b7 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30\u20138:00 PM \u2014 Mary (Jordyn), Gabriel (Cedrick). 6:30\u20139:30 PM \u2014 Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris).",
+        "work": "Welcome to Nazareth / Chosen / Brotherhood \u2014 character development, dialogue and light blocking.",
+        "prep": "Check your individual call window and have the applicable scenes available.",
+        "scriptUrl": "scripts.html",
+        "musicUrl": "music.html"
+      },
+      {
+        "date": "SAT \u00b7 SEP 5",
+        "time": "10:00 AM\u20132:00 PM",
+        "title": "Scene 1 \u2014 Full Company Staging",
+        "status": "CONFIRMED",
+        "location": "The Faith Center \u00b7 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM\u20132:00 PM \u2014 Dance Ensemble. 12:00\u20132:00 PM \u2014 all other Scene 1 cast members.",
+        "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence and satchel transition.",
+        "prep": "Dance Ensemble: bring dance shoes. Everyone: bring a snack and drink for the 12:00\u201312:15 PM break. If you are unsure whether you are in Dance Ensemble, confirm with production.",
+        "notice": "Saturday staging is subject to a homegoing-service change. Check the live schedule before traveling.",
+        "scriptUrl": "scripts.html",
+        "musicUrl": "music.html"
+      }
+    ]
   },
   "scripts": [
     {
