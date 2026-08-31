@@ -86,15 +86,16 @@
   "readUrl": "scene-08.html",
   "pdfUrl": "scene-08.pdf"
 },
-  {
-    "scene": "09",
-    "title": "What Will He Be? / Town Turns",
-    "status": "Current company version pending",
-    "approved": false,
-    "companyPublish": false,
-    "readUrl": "#",
-    "pdfUrl": "#"
-  },
+ {
+  "scene": "09",
+  "title": "What Will He Be? / The Town Turns",
+  "status": "CURRENT · Approved dialogue / staging",
+  "approved": true,
+  "companyPublish": true,
+  "source": "data/scenes/scene-09.json",
+  "readUrl": "scene-09.html",
+  "pdfUrl": "scene-09.pdf"
+},
   {
     "scene": "10",
     "title": "Census / Journey",
