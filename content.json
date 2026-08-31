@@ -69,11 +69,11 @@
       "pdfUrl": "#"
     },
     {
-      "scene": "01",
-      "title": "Welcome to Nazareth",
-      "status": "Current company version pending",
-      "readUrl": "#",
-      "pdfUrl": "#"
+  "scene": "01",
+  "title": "Welcome to Nazareth",
+  "status": "CURRENT · Approved dialogue / staging",
+  "readUrl": "scene-01.html",
+  "pdfUrl": "scene-01.pdf"
     },
     {
       "scene": "02",
