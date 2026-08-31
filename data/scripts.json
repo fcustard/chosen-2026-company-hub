@@ -18,14 +18,15 @@
     "pdfUrl": "scene-01.pdf"
   },
   {
-    "scene": "02",
-    "title": "Mary & Joseph / My Beloved",
-    "status": "Current company version pending",
-    "approved": false,
-    "companyPublish": false,
-    "readUrl": "#",
-    "pdfUrl": "#"
-  },
+  "scene": "02",
+  "title": "Mary & Joseph / My Beloved",
+  "status": "Current company version pending",
+  "approved": false,
+  "companyPublish": false,
+  "source": "data/scenes/scene-02.json",
+  "readUrl": "scene-02.html",
+  "pdfUrl": "scene-02.pdf"
+}
   {
     "scene": "03",
     "title": "Gabriel / Chosen",
