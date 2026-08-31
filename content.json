@@ -113,11 +113,12 @@
     {
       "scene": "05",
       "title": "Brotherhood",
-      "status": "Current company version pending",
-      "approved": false,
-      "companyPublish": false,
-      "readUrl": "#",
-      "pdfUrl": "#"
+      "status": "CURRENT · Approved dialogue / staging",
+      "approved": true,
+      "companyPublish": true,
+      "source": "data/scenes/scene-05.json",
+      "readUrl": "scene-05.html",
+      "pdfUrl": "scene-05.pdf"
     },
     {
       "scene": "06",
