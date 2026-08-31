@@ -77,14 +77,15 @@
   "pdfUrl": "scene-07.pdf"
 },
   {
-    "scene": "08",
-    "title": "Reunion / Still Yours",
-    "status": "Current company version pending",
-    "approved": false,
-    "companyPublish": false,
-    "readUrl": "#",
-    "pdfUrl": "#"
-  },
+  "scene": "08",
+  "title": "Reunion / Still Yours",
+  "status": "CURRENT · Approved dialogue / staging",
+  "approved": true,
+  "companyPublish": true,
+  "source": "data/scenes/scene-08.json",
+  "readUrl": "scene-08.html",
+  "pdfUrl": "scene-08.pdf"
+},
   {
     "scene": "09",
     "title": "What Will He Be? / Town Turns",
