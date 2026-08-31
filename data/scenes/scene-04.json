@@ -1,0 +1,1612 @@
+{
+  "scene": "04",
+  "title": "The Secret",
+  "eyebrow": "CURRENT · COMPANY VERSION",
+  "publicationNote": "This is the official company rehearsal version.",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "SCENE 4 — THE SECRET"
+    },
+    {
+      "type": "text",
+      "text": "Approximate Running Time: 5–6 minutes"
+    },
+    {
+      "type": "heading",
+      "text": "OPENING"
+    },
+    {
+      "type": "stage",
+      "text": "Lights rise on a marketplace-adjacent work area."
+    },
+    {
+      "type": "stage",
+      "text": "SHIRA, TALIA, ADINA and DAFNA are occupied with ordinary tasks."
+    },
+    {
+      "type": "stage",
+      "text": "Possible activity: folding fabric; sorting jewelry; sewing; arranging clothing; preparing baskets; threading beads; organizing goods."
+    },
+    {
+      "type": "stage",
+      "text": "The scene should initially feel completely normal."
+    },
+    {
+      "type": "stage",
+      "text": "MARY enters. She is trying to appear normal. She is not succeeding. Shira sees her first."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary!"
+    },
+    {
+      "type": "stage",
+      "text": "Mary jumps. A small release of tension."
+    },
+    {
+      "type": "stage",
+      "text": "SHIRA, TALIA, ADINA and DAFNA enter carrying ordinary life with them: fabric, baskets, beads, clothing, market goods or another established task from the Living Village."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "There you are."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "We have been looking everywhere."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not everywhere."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Enough places to justify saying everywhere."
+    },
+    {
+      "type": "stage",
+      "text": "Shira sees Mary clearly."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "...Mary?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm here."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "We can see that."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Barely."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm fine."
+    },
+    {
+      "type": "stage",
+      "text": "Shira watches her. Mary tries to move with them."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Good. Then come on."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "stage",
+      "text": "Mary does not move."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm coming."
+    },
+    {
+      "type": "stage",
+      "text": "She still does not move."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You said that without moving any part of your body."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Maybe she's practicing."
+    },
+    {
+      "type": "stage",
+      "text": "Mary tries to smile. Shira does not."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "What happened?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nothing."
+    },
+    {
+      "type": "stage",
+      "text": "Shira waits."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at the four women who have known her for years."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I need to tell you something."
+    },
+    {
+      "type": "heading",
+      "text": "THEY THINK THEY KNOW THE SECRET"
+    },
+    {
+      "type": "stage",
+      "text": "The four women immediately become attentive in four different ways: Adina prepares to act, Talia studies Mary, Dafna anticipates a story, Shira watches Mary's face."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph moved the wedding."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You and Joseph argued."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph said something foolish."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "That remains statistically possible."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Talia."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Is something wrong with the house?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You're leaving Nazareth."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You kissed him."
+    },
+    {
+      "type": "stage",
+      "text": "Mary stares at her."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "That was not a no."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Dafna."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Done."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "For now."
+    },
+    {
+      "type": "stage",
+      "text": "Mary almost smiles. Then Shira sees her face again. The humor disappears for Shira first."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary. What happened?"
+    },
+    {
+      "type": "stage",
+      "text": "Mary takes a breath."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Something happened."
+    },
+    {
+      "type": "heading",
+      "text": "THE REVELATION"
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "What kind of something?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don't know how to explain it."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Start with what happened."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at Talia."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "That's the problem."
+    },
+    {
+      "type": "stage",
+      "text": "Silence."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Last night... I was alone."
+    },
+    {
+      "type": "stage",
+      "text": "She stops."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Take your time."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don't think more time is going to make it sound any better."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "That's not comforting."
+    },
+    {
+      "type": "stage",
+      "text": "Shira gives Dafna a look."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Sorry."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Someone came to me."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Who?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "A messenger."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "From whom?"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at them."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "God."
+    },
+    {
+      "type": "stage",
+      "text": "Silence. No music. Let the word sit."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "A messenger from God."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary..."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "His name was Gabriel."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Gabriel."
+    },
+    {
+      "type": "stage",
+      "text": "Mary nods."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "He told me I had been chosen."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen for what?"
+    },
+    {
+      "type": "stage",
+      "text": "Mary cannot soften it."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm going to have a child."
+    },
+    {
+      "type": "stage",
+      "text": "Silence."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Someday?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Now."
+    },
+    {
+      "type": "stage",
+      "text": "The four women absorb it."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Does Joseph know?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "The room changes."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "How?"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at her."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "That's the part you're not going to believe."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Gabriel told me the child comes from God."
+    },
+    {
+      "type": "heading",
+      "text": "THE FIRST TEST OF THE TRUTH"
+    },
+    {
+      "type": "stage",
+      "text": "Silence. Mary looks at the faces of four people who know her. Nobody has a prepared response."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary..."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Listen to what you're asking us to believe."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm not calling you a liar."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then what are you saying?"
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm saying I don't know how both things can be true."
+    },
+    {
+      "type": "stage",
+      "text": "Mary takes that in. It is painfully close to the questions she herself asked Gabriel."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Neither did I."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I asked him how."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I asked why me. I asked what happens now."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "And?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I didn't get all the answers either."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then help me understand what you did get."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I can't. Not completely."
+    },
+    {
+      "type": "stage",
+      "text": "Talia wants another question. Mary sees it."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know how it sounds."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then you understand why—"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes!"
+    },
+    {
+      "type": "stage",
+      "text": "The volume surprises everyone, including Mary."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "stage",
+      "text": "She steadies herself."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I understand exactly why."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I still know what happened to me."
+    },
+    {
+      "type": "heading",
+      "text": "FOUR FRIENDS, FOUR RESPONSES"
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "When are you telling Joseph?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Today."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Before anyone else knows."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Good."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Adina."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm trying to help."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "stage",
+      "text": "Dafna has been unusually quiet."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Dafna?"
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm trying very hard not to say the wrong thing."
+    },
+    {
+      "type": "stage",
+      "text": "A tiny breath of warmth."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "How is that going?"
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Poorly."
+    },
+    {
+      "type": "stage",
+      "text": "Then Dafna becomes sincere."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I believe you."
+    },
+    {
+      "type": "stage",
+      "text": "Everyone looks at her."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don't understand it."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "But I believe you. I'm still working on the rest."
+    },
+    {
+      "type": "stage",
+      "text": "Mary gives the smallest laugh through the tension."
+    },
+    {
+      "type": "stage",
+      "text": "Shira steps nearer, but does not crowd Mary."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Are you afraid?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then I'm staying."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at her."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I can't promise you Joseph will understand."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "And I can't promise you he won't be hurt."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "But you're not walking to him alone."
+    },
+    {
+      "type": "heading",
+      "text": "THE SECRET LEAVES THE CIRCLE"
+    },
+    {
+      "type": "stage",
+      "text": "The women continue speaking. Ordinary Nazareth traffic quietly resumes behind or around them. This is not a spy scene. People are simply living their lives."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Who else knows?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No one."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Your family?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Anyone could have seen Gabriel come in."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don't know."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "And Joseph doesn't know."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "A PASSING VILLAGER or MERCHANT crosses on a real errand. They hear only: 'Joseph doesn't know.' They do not stop."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "And you're saying the child comes from God."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "stage",
+      "text": "The passing villager hears only a fragment: 'the child' and perhaps 'God.' They keep moving. No suspicious glance. No ominous cue."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Oh, Mary."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "What are you going to tell him?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "The truth."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "And if he doesn't believe it?"
+    },
+    {
+      "type": "stage",
+      "text": "That lands."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then I don't know what happens next."
+    },
+    {
+      "type": "stage",
+      "text": "Shira holds Mary's gaze."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You don't have to know how it ends tonight."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Apparently, nobody does."
+    },
+    {
+      "type": "stage",
+      "text": "A small, human release."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then do the next thing."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph."
+    },
+    {
+      "type": "heading",
+      "text": "MARY CHOOSES THE NEXT STEP"
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Do you want us with you?"
+    },
+    {
+      "type": "stage",
+      "text": "Mary considers."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not when I tell him."
+    },
+    {
+      "type": "stage",
+      "text": "She looks at Shira."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "But... walk with me?"
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You don't even have to ask."
+    },
+    {
+      "type": "stage",
+      "text": "If physical contact is already consented and staged, Shira offers a hand. Mary chooses to take it."
+    },
+    {
+      "type": "stage",
+      "text": "They begin to move."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary."
+    },
+    {
+      "type": "stage",
+      "text": "Mary turns."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I still don't understand it."
+    },
+    {
+      "type": "stage",
+      "text": "Mary nods."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "But I don't have to understand everything tonight."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I do know you."
+    },
+    {
+      "type": "stage",
+      "text": "Mary absorbs that."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "And I'm with you."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Obviously."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nothing about you is obvious."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "My loyalty is."
+    },
+    {
+      "type": "stage",
+      "text": "That lands more deeply than Dafna intended."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Thank you."
+    },
+    {
+      "type": "stage",
+      "text": "Mary and Shira start away."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "What exactly are you going to say?"
+    },
+    {
+      "type": "stage",
+      "text": "Mary stops. For once, she has no answer."
+    },
+    {
+      "type": "stage",
+      "text": "Shira answers quietly."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Start with what you know."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at Shira."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Start with the truth."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "The truth."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "All right."
+    },
+    {
+      "type": "stage",
+      "text": "Mary and Shira exit toward Joseph. Adina, Talia and Dafna watch them go."
+    },
+    {
+      "type": "heading",
+      "text": "THE AUDIENCE KNOWS SOMETHING MARY DOESN'T"
+    },
+    {
+      "type": "stage",
+      "text": "Do not follow Mary."
+    },
+    {
+      "type": "stage",
+      "text": "The PASSING VILLAGER reappears elsewhere in the living marketplace and crosses paths with another villager. Keep it small enough that Mary and her friends do not see or hear it."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary?"
+    },
+    {
+      "type": "stage",
+      "text": "The first villager does not pretend to know the whole story."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "That's what I heard."
+    },
+    {
+      "type": "stage",
+      "text": "They move on."
+    },
+    {
+      "type": "stage",
+      "text": "The line should echo the harmless information-transmission comedy of Scene 1, but the meaning has changed."
+    },
+    {
+      "type": "heading",
+      "text": "TRANSITION INTO SCENE 5"
+    },
+    {
+      "type": "stage",
+      "text": "One beat of silence."
+    },
+    {
+      "type": "stage",
+      "text": "BANG!"
+    },
+    {
+      "type": "stage",
+      "text": "A hammer strikes wood."
+    },
+    {
+      "type": "stage",
+      "text": "BANG!"
+    },
+    {
+      "type": "stage",
+      "text": "Another."
+    },
+    {
+      "type": "stage",
+      "text": "BANG-BANG!"
+    },
+    {
+      "type": "stage",
+      "text": "A completely different energy takes over. Lights shift sharply to Joseph's world."
+    },
+    {
+      "type": "stage",
+      "text": "JOSEPH is working, laughing and completely unaware. LEVI, MALACHI, CALEB and EZRA are with him. The Scene 5 carpentry rhythm begins to emerge."
+    },
+    {
+      "type": "stage",
+      "text": "Mary is walking toward the most frightening conversation of her life."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph is having a wonderful day."
+    },
+    {
+      "type": "stage",
+      "text": "He is building the future the audience now knows is about to be tested."
+    },
+    {
+      "type": "heading",
+      "text": "END SCENE 4"
+    }
+  ]
+}
