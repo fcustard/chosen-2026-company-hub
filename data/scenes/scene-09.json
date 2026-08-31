@@ -1,0 +1,2296 @@
+{
+  "scene": "09",
+  "title": "What Will He Be? / The Town Turns",
+  "eyebrow": "CURRENT · COMPANY VERSION",
+  "publicationNote": "This is the official company rehearsal version.",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
+    },
+    {
+      "type": "stage",
+      "text": "SCENE 9 - \"WHAT WILL HE BE?\" / THE TOWN TURNS"
+    },
+    {
+      "type": "stage",
+      "text": "COMPANY VERSION"
+    },
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
+    },
+    {
+      "type": "heading",
+      "text": "SCENE 9 — “WHAT WILL HE BE?” / THE TOWN TURNS"
+    },
+    {
+      "type": "text",
+      "text": "Approximate Running Time: 6 minutes\nMusical Number: “What Will He Be?” — approximately 2–2½ minutes\nGossip Sequence: approximately 60–90 seconds"
+    },
+    {
+      "type": "text",
+      "text": "Characters:\nMary\nJoseph\nShira\nTalia\nAdina\nDafna\nLevi\nMalachi\nCaleb\nEzra\nNia\nSimon\nChildren\nVillagers\nRoman Announcer"
+    },
+    {
+      "type": "transition",
+      "text": "CONTINUOUS FROM SCENE 8"
+    },
+    {
+      "type": "stage",
+      "text": "No traditional blackout."
+    },
+    {
+      "type": "stage",
+      "text": "Mary and Joseph are walking home together."
+    },
+    {
+      "type": "stage",
+      "text": "The familiar sound of Nazareth begins before the marketplace is fully visible."
+    },
+    {
+      "type": "stage",
+      "text": "HAMMER. BASKET. FABRIC SNAP. CLAP."
+    },
+    {
+      "type": "stage",
+      "text": "The same work vocabulary from Scene 1."
+    },
+    {
+      "type": "stage",
+      "text": "The same stalls. The same baskets. The same fabric. The same people."
+    },
+    {
+      "type": "stage",
+      "text": "For a breath, it feels like home."
+    },
+    {
+      "type": "stage",
+      "text": "Mary and Joseph enter at the edge of the marketplace, still holding hands."
+    },
+    {
+      "type": "stage",
+      "text": "One villager notices."
+    },
+    {
+      "type": "stage",
+      "text": "Then another."
+    },
+    {
+      "type": "stage",
+      "text": "A conversation slows."
+    },
+    {
+      "type": "stage",
+      "text": "A woman stops folding fabric."
+    },
+    {
+      "type": "stage",
+      "text": "A merchant looks up."
+    },
+    {
+      "type": "stage",
+      "text": "No one has become a villain. They simply know—or think they know."
+    },
+    {
+      "type": "stage",
+      "text": "Mary feels the change in the room before anyone says anything."
+    },
+    {
+      "type": "stage",
+      "text": "Her hand tightens around Joseph’s."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph answers with his own."
+    },
+    {
+      "type": "stage",
+      "text": "They keep walking."
+    },
+    {
+      "type": "heading",
+      "text": "THE CHILDREN BREAK THE TENSION"
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary!"
+    },
+    {
+      "type": "stage",
+      "text": "Nia runs toward her before an adult can stop her."
+    },
+    {
+      "type": "stage",
+      "text": "Simon follows, more cautiously. Several children trail behind."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nia—"
+    },
+    {
+      "type": "stage",
+      "text": "Too late."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You’re back!"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m back."
+    },
+    {
+      "type": "stage",
+      "text": "Simon looks at Mary. Then Joseph. Then Mary again."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Is it true?"
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Simon!"
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?"
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You cannot just ask people things like that."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "You were going to ask."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I was going to ask better."
+    },
+    {
+      "type": "stage",
+      "text": "Mary cannot help a small laugh."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s all right."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Are you really having a baby?"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks briefly at Joseph, then back to the children."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "stage",
+      "text": "The children light up immediately."
+    },
+    {
+      "type": "stage",
+      "text": "No scandal. No hesitation. Just a baby."
+    },
+    {
+      "type": "character",
+      "text": "CHILD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "A boy or a girl?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "A boy."
+    },
+    {
+      "type": "character",
+      "text": "CHILD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "When is he coming?"
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Babies do not tell you that."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "How do you know?"
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Everybody knows that."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You didn’t even know where babies—"
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nia!"
+    },
+    {
+      "type": "stage",
+      "text": "A few adults react. Mary covers another laugh. Joseph does too."
+    },
+    {
+      "type": "character",
+      "text": "CHILD 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What will he be like?"
+    },
+    {
+      "type": "stage",
+      "text": "Mary pauses."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t know."
+    },
+    {
+      "type": "character",
+      "text": "CHILD 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You don’t?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not yet."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Will he be loud?"
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "All babies are loud."
+    },
+    {
+      "type": "character",
+      "text": "CHILD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Maybe he’ll like stories."
+    },
+    {
+      "type": "character",
+      "text": "CHILD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Maybe he’ll build things."
+    },
+    {
+      "type": "stage",
+      "text": "The child looks toward Joseph."
+    },
+    {
+      "type": "character",
+      "text": "CHILD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Like you."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph is caught off guard—not by the question, but by the future inside it."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Maybe."
+    },
+    {
+      "type": "character",
+      "text": "CHILD 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Will you teach him?"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at Mary."
+    },
+    {
+      "type": "stage",
+      "text": "This time he does not avoid the answer."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "If he wants to learn, I’ll teach him."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "What if he’s terrible at it?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then I’ll teach him twice."
+    },
+    {
+      "type": "stage",
+      "text": "The children laugh."
+    },
+    {
+      "type": "stage",
+      "text": "A light musical pulse begins."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "What do you think he’ll be?"
+    },
+    {
+      "type": "music",
+      "text": "“WHAT WILL HE BE?” BEGINS"
+    },
+    {
+      "type": "heading",
+      "text": "“WHAT WILL HE BE?” — MUSICAL TERRITORY"
+    },
+    {
+      "type": "stage",
+      "text": "The children lead. Warm, playful, imaginative. The number is entirely about possibility."
+    },
+    {
+      "type": "stage",
+      "text": "The adults remain in the marketplace, some working, some watching, some whispering."
+    },
+    {
+      "type": "stage",
+      "text": "The song must not explain who Jesus becomes. The audience supplies that knowledge."
+    },
+    {
+      "type": "heading",
+      "text": "LYRICAL TERRITORY — NOT FINAL LYRICS:"
+    },
+    {
+      "type": "stage",
+      "text": "Will he laugh too loud? / Will he sleep all day? / Will he race through every market stall / and leave his things in everybody’s way?"
+    },
+    {
+      "type": "stage",
+      "text": "Will he love stories? / Will he climb trees? / Will he ask a hundred questions / before anyone can breathe?"
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "A hundred?"
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You ask more than that."
+    },
+    {
+      "type": "stage",
+      "text": "The music continues."
+    },
+    {
+      "type": "stage",
+      "text": "The children imagine ordinary futures: animals, stories, running, helping, learning, teaching, courage, kindness."
+    },
+    {
+      "type": "character",
+      "text": "CHILD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Will he build things out of wood?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Maybe."
+    },
+    {
+      "type": "character",
+      "text": "CHILD 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Will you teach him everything?"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at the child, then at Mary."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Everything I know."
+    },
+    {
+      "type": "stage",
+      "text": "That line lands quietly."
+    },
+    {
+      "type": "stage",
+      "text": "The song grows more thoughtful without becoming prophetic."
+    },
+    {
+      "type": "stage",
+      "text": "Possible territory: Will he make somebody smile / when they’ve forgotten how? / Will he stand beside a friend / when everybody else walks out?"
+    },
+    {
+      "type": "stage",
+      "text": "Will he be gentle? / Will he be brave? / Will he make a difference / in somebody’s day?"
+    },
+    {
+      "type": "character",
+      "text": "NIA / CHILDREN"
+    },
+    {
+      "type": "dialogue",
+      "text": "What will he be?"
+    },
+    {
+      "type": "stage",
+      "text": "The audience knows more than the children do. That is where the emotion comes from."
+    },
+    {
+      "type": "heading",
+      "text": "THE SECOND QUESTION"
+    },
+    {
+      "type": "stage",
+      "text": "As the children repeat the bright question, a second question begins underneath them."
+    },
+    {
+      "type": "character",
+      "text": "CHILDREN"
+    },
+    {
+      "type": "dialogue",
+      "text": "What will he be?"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Whose child is it?"
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Before the wedding."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph knows?"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Claro que sabe. Of course, he knows."
+    },
+    {
+      "type": "character",
+      "text": "CHILDREN"
+    },
+    {
+      "type": "dialogue",
+      "text": "What will he be?"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then why is he still with her?"
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "She says there was an angel."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "¿Un ángel?"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s what I heard."
+    },
+    {
+      "type": "stage",
+      "text": "Villager 3 looks toward Mary."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Eso es lo que escuchaste."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s what you heard."
+    },
+    {
+      "type": "stage",
+      "text": "The children remain musically innocent."
+    },
+    {
+      "type": "stage",
+      "text": "Underneath them, the adults begin finding the old Scene 1 gossip rhythm."
+    },
+    {
+      "type": "stage",
+      "text": "Same machinery. Different consequence."
+    },
+    {
+      "type": "heading",
+      "text": "SONG ENDS"
+    },
+    {
+      "type": "stage",
+      "text": "The children finish joyfully."
+    },
+    {
+      "type": "character",
+      "text": "CHILDREN"
+    },
+    {
+      "type": "dialogue",
+      "text": "What will he be?"
+    },
+    {
+      "type": "stage",
+      "text": "A brief release—then an adult voice."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nia. Come here."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "But—"
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Now."
+    },
+    {
+      "type": "stage",
+      "text": "Another adult calls a child away."
+    },
+    {
+      "type": "character",
+      "text": "CHILD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Why?"
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Come along."
+    },
+    {
+      "type": "stage",
+      "text": "One by one, the children are removed from Mary’s orbit."
+    },
+    {
+      "type": "stage",
+      "text": "Mary watches a child who was laughing beside her moments ago get pulled away."
+    },
+    {
+      "type": "stage",
+      "text": "That hurts more than an insult."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "What happened?"
+    },
+    {
+      "type": "stage",
+      "text": "No adult answers him."
+    },
+    {
+      "type": "heading",
+      "text": "THE GOSSIP RHYTHM RETURNS"
+    },
+    {
+      "type": "stage",
+      "text": "A restrained fragment of “Welcome to Nazareth” lives underneath the dialogue, not celebratory now, but tight and repetitive."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Before the wedding—"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s what I heard."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph knows."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Ay, everybody knows Joseph knows."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then why—"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Don’t ask me."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "They say she claims—"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "God."
+    },
+    {
+      "type": "stage",
+      "text": "A few villagers react."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "God?"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s what she said."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Convenient."
+    },
+    {
+      "type": "stage",
+      "text": "In Scene 1, everybody knowing everybody was comedy."
+    },
+    {
+      "type": "stage",
+      "text": "Now everybody thinks they know enough."
+    },
+    {
+      "type": "heading",
+      "text": "MARY’S FRIENDS"
+    },
+    {
+      "type": "stage",
+      "text": "Shira moves to Mary immediately."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You all right?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "stage",
+      "text": "She is not completely all right."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "All right."
+    },
+    {
+      "type": "stage",
+      "text": "Shira stays."
+    },
+    {
+      "type": "stage",
+      "text": "Adina joins them, scanning the marketplace."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "This is getting worse."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "That is not helpful."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m not trying to be helpful. I’m trying to be accurate."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s Talia’s job."
+    },
+    {
+      "type": "stage",
+      "text": "Talia arrives."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "What is my job?"
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Being accurate."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then Adina is correct."
+    },
+    {
+      "type": "stage",
+      "text": "Dafna stares at her."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nobody here understands comfort."
+    },
+    {
+      "type": "stage",
+      "text": "A small breath of humor. Then—"
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You believe her?"
+    },
+    {
+      "type": "stage",
+      "text": "The question is aimed at Talia."
+    },
+    {
+      "type": "stage",
+      "text": "Talia does not pretend certainty she does not have."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I believe Mary told us what happened to her."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That is not what I asked."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "So you don’t believe it either."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I didn’t say that."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then what are you saying?"
+    },
+    {
+      "type": "stage",
+      "text": "Talia steps slightly closer to Mary."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m saying you weren’t there."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Neither were you."
+    },
+    {
+      "type": "stage",
+      "text": "Talia takes the point."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Which means neither of us gets to humiliate her over something we did not see."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at her."
+    },
+    {
+      "type": "stage",
+      "text": "Talia gives the smallest nod."
+    },
+    {
+      "type": "stage",
+      "text": "She stays."
+    },
+    {
+      "type": "heading",
+      "text": "JOSEPH’S FRIENDS"
+    },
+    {
+      "type": "stage",
+      "text": "Levi, Malachi, Caleb, and Ezra enter or emerge from the marketplace."
+    },
+    {
+      "type": "stage",
+      "text": "They see the crowd. Then Joseph. Then Mary holding Joseph’s hand."
+    },
+    {
+      "type": "stage",
+      "text": "Levi stops."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "You’re really doing this."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "After everything you told us?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "You believe her?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I do."
+    },
+    {
+      "type": "stage",
+      "text": "Levi lowers his voice."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then help me understand."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I can’t."
+    },
+    {
+      "type": "stage",
+      "text": "Levi did not expect that."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not all of it."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "But I know enough to know she told me the truth."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m trying to protect you."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then let me."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "This is me telling you what I chose."
+    },
+    {
+      "type": "stage",
+      "text": "Levi does not like it. But he hears him."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "You sure?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am."
+    },
+    {
+      "type": "stage",
+      "text": "Caleb nods and moves to Joseph’s side."
+    },
+    {
+      "type": "character",
+      "text": "EZRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "There are still several things about this that make absolutely no sense."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "Ezra."
+    },
+    {
+      "type": "character",
+      "text": "EZRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "There are."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "character",
+      "text": "EZRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "And you’re comfortable with that?"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph almost smiles at the absurdity."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "Ezra did not expect that either."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "But understanding everything and knowing what I need to do are not always the same thing."
+    },
+    {
+      "type": "stage",
+      "text": "Ezra considers it."
+    },
+    {
+      "type": "character",
+      "text": "MALACHI"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s enough for today."
+    },
+    {
+      "type": "stage",
+      "text": "Malachi stands beside Joseph."
+    },
+    {
+      "type": "stage",
+      "text": "Ezra hesitates, then joins them."
+    },
+    {
+      "type": "stage",
+      "text": "Levi remains slightly apart."
+    },
+    {
+      "type": "heading",
+      "text": "THE PUBLIC TEST"
+    },
+    {
+      "type": "stage",
+      "text": "A Villager Man steps forward. Not a villain. A neighbor who believes he is saying the obvious thing."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER MAN"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph. You don’t have to do this."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Do what?"
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER MAN"
+    },
+    {
+      "type": "dialogue",
+      "text": "Carry another man’s shame."
+    },
+    {
+      "type": "stage",
+      "text": "The marketplace quiets."
+    },
+    {
+      "type": "stage",
+      "text": "Mary stiffens."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph remains controlled."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "You don’t know what you’re talking about."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER MAN"
+    },
+    {
+      "type": "dialogue",
+      "text": "Everybody knows what happened."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Everybody knows what they heard."
+    },
+    {
+      "type": "stage",
+      "text": "The Villager Man looks at him."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER MAN"
+    },
+    {
+      "type": "dialogue",
+      "text": "And you’re willing to throw away your name for this?"
+    },
+    {
+      "type": "stage",
+      "text": "Levi reacts to the language."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph sees it."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "My name isn’t worth much if I have to destroy hers to protect it."
+    },
+    {
+      "type": "stage",
+      "text": "Silence."
+    },
+    {
+      "type": "stage",
+      "text": "The Villager Man turns toward Mary."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER MAN"
+    },
+    {
+      "type": "dialogue",
+      "text": "Is what they’re saying true?"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph does not step in front of Mary."
+    },
+    {
+      "type": "stage",
+      "text": "Mary steps forward herself."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I told the truth."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER MAN"
+    },
+    {
+      "type": "dialogue",
+      "text": "About an angel?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "stage",
+      "text": "Some villagers stare. A few whisper. One or two may laugh under their breath."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "And you expect all of us to believe that?"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks around at people she has known all her life."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "That surprises them."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I can’t make you believe me."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "But I will not call what happened to me a lie just to make you comfortable."
+    },
+    {
+      "type": "stage",
+      "text": "Silence."
+    },
+    {
+      "type": "stage",
+      "text": "This is Mary’s public choice."
+    },
+    {
+      "type": "heading",
+      "text": "JOSEPH TRIES TO FIX IT"
+    },
+    {
+      "type": "stage",
+      "text": "The whispers restart."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Did you hear—"
+    },
+    {
+      "type": "stage",
+      "text": "GOSSIPER  3"
+    },
+    {
+      "type": "stage",
+      "text": "She admitted—"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph actually—"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Enough!"
+    },
+    {
+      "type": "stage",
+      "text": "Mary gently touches his arm."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "They’re talking about you."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I can explain—"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "To all of them?"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks around."
+    },
+    {
+      "type": "stage",
+      "text": "Every face has an opinion."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "You don’t have to answer everyone."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I want to."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "But you can’t build your way out of this."
+    },
+    {
+      "type": "stage",
+      "text": "It lands without cruelty."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at the village."
+    },
+    {
+      "type": "stage",
+      "text": "For once, he lets the problem remain unsolved."
+    },
+    {
+      "type": "heading",
+      "text": "NIA AND SIMON"
+    },
+    {
+      "type": "stage",
+      "text": "Nia and Simon have watched all of this from nearby."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Why is everybody angry?"
+    },
+    {
+      "type": "stage",
+      "text": "No one answers."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s still a baby."
+    },
+    {
+      "type": "stage",
+      "text": "The simple line hangs there."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "We were just singing."
+    },
+    {
+      "type": "stage",
+      "text": "An adult calls."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nia."
+    },
+    {
+      "type": "stage",
+      "text": "Nia does not move immediately."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Come."
+    },
+    {
+      "type": "stage",
+      "text": "Nia looks at Mary."
+    },
+    {
+      "type": "stage",
+      "text": "Mary gives her a small reassuring smile."
+    },
+    {
+      "type": "stage",
+      "text": "Nia goes."
+    },
+    {
+      "type": "stage",
+      "text": "Simon follows, looking back once."
+    },
+    {
+      "type": "heading",
+      "text": "THE SAME TOWN — DIVIDED"
+    },
+    {
+      "type": "stage",
+      "text": "The ensemble reorganizes without becoming a cartoon of good people and bad people."
+    },
+    {
+      "type": "stage",
+      "text": "Near Mary and Joseph: Shira, Adina, Dafna, Talia, Caleb, Malachi, and Ezra."
+    },
+    {
+      "type": "stage",
+      "text": "At a distance: skeptical villagers, whisperers, people who simply do not know what to think."
+    },
+    {
+      "type": "stage",
+      "text": "Levi remains between the two groups."
+    },
+    {
+      "type": "stage",
+      "text": "Nobody wins the argument."
+    },
+    {
+      "type": "stage",
+      "text": "Nazareth does not apologize."
+    },
+    {
+      "type": "stage",
+      "text": "The gossip rhythm begins to peak."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph knows—"
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Before the wedding—"
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "An angel—"
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "A child—"
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "God—"
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Can you believe—"
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Everybody knows—"
+    },
+    {
+      "type": "stage",
+      "text": "BOOM."
+    },
+    {
+      "type": "stage",
+      "text": "A Roman drum cuts through the marketplace."
+    },
+    {
+      "type": "stage",
+      "text": "Everything stops."
+    },
+    {
+      "type": "stage",
+      "text": "BOOM."
+    },
+    {
+      "type": "stage",
+      "text": "A trumpet or unmistakable imperial sound."
+    },
+    {
+      "type": "stage",
+      "text": "Rome does not care about Nazareth’s scandal."
+    },
+    {
+      "type": "heading",
+      "text": "ROME ENTERS"
+    },
+    {
+      "type": "stage",
+      "text": "The Roman Announcer enters as though his arrival is unquestionably the most important event of the day."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "People of Nazareth!"
+    },
+    {
+      "type": "stage",
+      "text": "A few villagers are still murmuring."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "People."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "Of."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nazareth."
+    },
+    {
+      "type": "stage",
+      "text": "The village quiets."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "Thank you."
+    },
+    {
+      "type": "stage",
+      "text": "He unrolls the decree."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "By decree of Caesar Augustus—"
+    },
+    {
+      "type": "stage",
+      "text": "A villager groans."
+    },
+    {
+      "type": "stage",
+      "text": "The Announcer stops and looks directly at them."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "Your enthusiasm is noted."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "We haven’t even heard it yet."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "And still you’ve disappointed Rome."
+    },
+    {
+      "type": "stage",
+      "text": "A few villagers react."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "A census shall be taken. Every household is to be registered according to family line and ancestral city."
+    },
+    {
+      "type": "stage",
+      "text": "Immediate murmuring."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "We have to travel?"
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "If your ancestral city is elsewhere, yes."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Who pays for the journey?"
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "Excellent question."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "You do."
+    },
+    {
+      "type": "stage",
+      "text": "The village groans."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "You will present yourself, your household, and the required family information in the appropriate city."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER"
+    },
+    {
+      "type": "dialogue",
+      "text": "When?"
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "Immediately."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "Immediately?"
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "It is a wonderful word."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "It means now."
+    },
+    {
+      "type": "stage",
+      "text": "The marketplace explodes into practical anxiety: counting, packing, questions, arguments."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "Govern yourselves accordingly."
+    },
+    {
+      "type": "stage",
+      "text": "He begins to roll the decree."
+    },
+    {
+      "type": "character",
+      "text": "ROMAN ANNOUNCER"
+    },
+    {
+      "type": "dialogue",
+      "text": "Thank yooou."
+    },
+    {
+      "type": "stage",
+      "text": "He exits as the Roman drum resumes."
+    },
+    {
+      "type": "heading",
+      "text": "BETHLEHEM"
+    },
+    {
+      "type": "stage",
+      "text": "The marketplace is now moving for an entirely different reason."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at Joseph."
+    },
+    {
+      "type": "stage",
+      "text": "He is doing the calculation before she asks."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph?"
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Bethlehem."
+    },
+    {
+      "type": "stage",
+      "text": "Mary knows what that means: distance, travel, timing."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "When do we leave?"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at her."
+    },
+    {
+      "type": "stage",
+      "text": "His first instinct is to protect her."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary—"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "When?"
+    },
+    {
+      "type": "stage",
+      "text": "He sees that she is not asking whether she is going."
+    },
+    {
+      "type": "stage",
+      "text": "She has already decided that."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph exhales."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "As soon as we can."
+    },
+    {
+      "type": "stage",
+      "text": "Mary nods."
+    },
+    {
+      "type": "stage",
+      "text": "Their hands find each other again."
+    },
+    {
+      "type": "stage",
+      "text": "Around them, Nazareth prepares to move."
+    },
+    {
+      "type": "heading",
+      "text": "END SCENE 9"
+    }
+  ]
+}
