@@ -20,12 +20,11 @@
   {
   "scene": "02",
   "title": "Mary & Joseph / My Beloved",
-  "status": "Current company version pending",
-  "approved": false,
-  "companyPublish": false,
-  "source": "data/scenes/scene-02.json",
-  "readUrl": "scene-02.html",
-  "pdfUrl": "scene-02.pdf"
+  "status": "CURRENT · Approved dialogue / staging",
+"approved": true,
+"companyPublish": true,
+"readUrl": "scene-02.html",
+"pdfUrl": "scene-02.pdf"
   },
   {
     "scene": "03",
