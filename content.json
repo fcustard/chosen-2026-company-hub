@@ -93,11 +93,11 @@
     {
       "scene": "03",
       "title": "Gabriel / Chosen",
-      "status": "Current company version pending",
-      "approved": false,
-      "companyPublish": false,
-      "readUrl": "#",
-      "pdfUrl": "#"
+      "status": "CURRENT · APPROVED / LOCKED",
+      "approved": true,
+      "companyPublish": true,
+      "readUrl": "scene-03.html",
+      "pdfUrl": "scene-03.pdf"
     },
     {
       "scene": "04",
