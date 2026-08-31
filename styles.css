@@ -235,3 +235,24 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
     width:100%;
   }
 }
+
+/* ===== HOMEPAGE NEXT REHEARSAL CONTRAST FIX ===== */
+
+/* Date / rehearsal eyebrow */
+.next .ey,
+.nextline{
+  color:#6b7280;
+  opacity:1;
+}
+
+/* Rehearsal description */
+.next p,
+.next .muted{
+  color:#596579;
+  opacity:1;
+}
+
+/* Preserve strong dark rehearsal title */
+.next h2{
+  color:var(--ink);
+}
