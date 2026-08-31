@@ -1,0 +1,10 @@
+{
+  "name": "chosen-2026-company-hub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node tools/validate.mjs",
+    "build": "node tools/build.mjs",
+    "check": "npm run validate && npm run build"
+  }
+}
