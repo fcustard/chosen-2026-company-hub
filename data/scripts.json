@@ -57,14 +57,15 @@
   "pdfUrl": "scene-05.pdf"
 },
   {
-    "scene": "06",
-    "title": "Mary Tells Joseph / It’s Not Mine",
-    "status": "Current company version pending",
-    "approved": false,
-    "companyPublish": false,
-    "readUrl": "#",
-    "pdfUrl": "#"
-  },
+  "scene": "06",
+  "title": "Mary Tells Joseph / It’s Not Mine",
+  "status": "CURRENT · Approved dialogue / staging",
+  "approved": true,
+  "companyPublish": true,
+  "source": "data/scenes/scene-06.json",
+  "readUrl": "scene-06.html",
+  "pdfUrl": "scene-06.pdf"
+},
   {
     "scene": "07",
     "title": "Two Roads of Faith",
