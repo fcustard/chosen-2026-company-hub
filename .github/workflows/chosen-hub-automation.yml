@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "data/**"
+      - "templates/**"
       - "tools/**"
       - "package.json"
       - ".github/workflows/chosen-hub-automation.yml"
@@ -13,8 +14,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Runs every morning at 5:15 AM Eastern during daylight time.
-    # GitHub cron itself uses UTC.
+    # GitHub cron uses UTC.
     - cron: "15 9 * * *"
 
 permissions:
@@ -33,15 +33,15 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Validate production data
+      - name: Validate production data and scene publication
         run: npm run validate
 
-      - name: Build Hub content
+      - name: Build scene readers and Hub content
         run: npm run build
 
-      - name: Publish generated content.json
+      - name: Publish generated website files
         run: |
-          if git diff --quiet -- content.json; then
+          if git diff --quiet; then
             echo "No generated Hub changes."
             exit 0
           fi
@@ -50,5 +50,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
 
           git add content.json
+          git add scene-*.html
+
           git commit -m "Automated Hub content update"
           git push
