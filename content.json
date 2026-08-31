@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -9,51 +9,53 @@
     "help": "#"
   },
   "nextRehearsal": {
-    "day": "WEDNESDAY \u00b7 SEPTEMBER 2",
+    "day": "WEDNESDAY · SEPTEMBER 2",
     "date": "Scenes 1 & 4",
-    "time": "6:30\u20139:30 PM",
-    "location": "The Faith Center \u00b7 Sunrise",
+    "time": "6:30 PM–9:30 PM",
+    "location": "The Faith Center · Sunrise",
     "focus": "Character development, dialogue and light blocking.",
     "url": "this-week.html"
   },
   "thisWeek": {
-    "label": "SEPTEMBER 2\u20135",
+    "label": "THIS WEEK",
     "title": "This Week",
     "intro": "Check your call time first. Then review exactly what you are working on before rehearsal.",
     "rehearsals": [
       {
-        "date": "WED \u00b7 SEP 2",
-        "time": "6:30\u20139:30 PM",
+        "date": "WED · SEP 2",
+        "time": "6:30 PM–9:30 PM",
         "title": "Scenes 1 & 4",
         "status": "CONFIRMED",
-        "location": "The Faith Center \u00b7 5555 NW 95th Ave, Sunrise, FL 33351",
+        "location": "The Faith Center · 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "Mary (Jordyn), Talia (Tasha), Shira (Tiffany), Adina (Jeovanie), Dafna (Ashley)",
-        "work": "Welcome to Nazareth / The Secret \u2014 character development, dialogue and light blocking.",
+        "work": "Welcome to Nazareth / The Secret — character development, dialogue and light blocking.",
         "prep": "Arrive ready to work at 6:30 PM with the applicable scenes available.",
+        "notice": "",
         "scriptUrl": "scripts.html",
         "musicUrl": "music.html"
       },
       {
-        "date": "THU \u00b7 SEP 3",
-        "time": "6:30\u20139:30 PM",
+        "date": "THU · SEP 3",
+        "time": "6:30 PM–9:30 PM",
         "title": "Scenes 1, 3 & 5",
         "status": "CONFIRMED",
-        "location": "The Faith Center \u00b7 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30\u20138:00 PM \u2014 Mary (Jordyn), Gabriel (Cedrick). 6:30\u20139:30 PM \u2014 Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris).",
-        "work": "Welcome to Nazareth / Chosen / Brotherhood \u2014 character development, dialogue and light blocking.",
+        "location": "The Faith Center · 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30–8:00 PM — Mary (Jordyn), Gabriel (Cedrick). 6:30–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris).",
+        "work": "Welcome to Nazareth / Chosen / Brotherhood — character development, dialogue and light blocking.",
         "prep": "Check your individual call window and have the applicable scenes available.",
+        "notice": "",
         "scriptUrl": "scripts.html",
         "musicUrl": "music.html"
       },
       {
-        "date": "SAT \u00b7 SEP 5",
-        "time": "10:00 AM\u20132:00 PM",
-        "title": "Scene 1 \u2014 Full Company Staging",
+        "date": "SAT · SEP 5",
+        "time": "10:00 AM–2:00 PM",
+        "title": "Scene 1 — Full Company Staging",
         "status": "CONFIRMED",
-        "location": "The Faith Center \u00b7 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM\u20132:00 PM \u2014 Dance Ensemble. 12:00\u20132:00 PM \u2014 all other Scene 1 cast members.",
+        "location": "The Faith Center · 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–2:00 PM — Dance Ensemble. 12:00–2:00 PM — all other Scene 1 cast members.",
         "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence and satchel transition.",
-        "prep": "Dance Ensemble: bring dance shoes. Everyone: bring a snack and drink for the 12:00\u201312:15 PM break. If you are unsure whether you are in Dance Ensemble, confirm with production.",
+        "prep": "Dance Ensemble: bring dance shoes. Everyone: bring a snack and drink for the 12:00–12:15 PM break.",
         "notice": "Saturday staging is subject to a homegoing-service change. Check the live schedule before traveling.",
         "scriptUrl": "scripts.html",
         "musicUrl": "music.html"
@@ -65,20 +67,26 @@
       "scene": "FULL",
       "title": "Current Full Script",
       "status": "Publication link pending",
+      "approved": false,
+      "companyPublish": false,
       "readUrl": "#",
       "pdfUrl": "#"
     },
     {
-  "scene": "01",
-  "title": "Welcome to Nazareth",
-  "status": "CURRENT · Approved dialogue / staging",
-  "readUrl": "scene-01.html",
-  "pdfUrl": "scene-01.pdf"
+      "scene": "01",
+      "title": "Welcome to Nazareth",
+      "status": "CURRENT · Approved dialogue / staging",
+      "approved": true,
+      "companyPublish": true,
+      "readUrl": "scene-01.html",
+      "pdfUrl": "scene-01.pdf"
     },
     {
       "scene": "02",
       "title": "Mary & Joseph / My Beloved",
       "status": "Current company version pending",
+      "approved": false,
+      "companyPublish": false,
       "readUrl": "#",
       "pdfUrl": "#"
     },
@@ -86,6 +94,8 @@
       "scene": "03",
       "title": "Gabriel / Chosen",
       "status": "Current company version pending",
+      "approved": false,
+      "companyPublish": false,
       "readUrl": "#",
       "pdfUrl": "#"
     },
@@ -93,6 +103,8 @@
       "scene": "04",
       "title": "The Secret",
       "status": "Current company version pending",
+      "approved": false,
+      "companyPublish": false,
       "readUrl": "#",
       "pdfUrl": "#"
     },
@@ -100,13 +112,17 @@
       "scene": "05",
       "title": "Brotherhood",
       "status": "Current company version pending",
+      "approved": false,
+      "companyPublish": false,
       "readUrl": "#",
       "pdfUrl": "#"
     },
     {
       "scene": "06",
-      "title": "Mary Tells Joseph / It\u2019s Not Mine",
+      "title": "Mary Tells Joseph / It’s Not Mine",
       "status": "Current company version pending",
+      "approved": false,
+      "companyPublish": false,
       "readUrl": "#",
       "pdfUrl": "#"
     },
@@ -114,6 +130,8 @@
       "scene": "07",
       "title": "Two Roads of Faith",
       "status": "Current company version pending",
+      "approved": false,
+      "companyPublish": false,
       "readUrl": "#",
       "pdfUrl": "#"
     },
@@ -121,6 +139,8 @@
       "scene": "08",
       "title": "Reunion / Still Yours",
       "status": "Current company version pending",
+      "approved": false,
+      "companyPublish": false,
       "readUrl": "#",
       "pdfUrl": "#"
     },
@@ -128,6 +148,8 @@
       "scene": "09",
       "title": "What Will He Be? / Town Turns",
       "status": "Current company version pending",
+      "approved": false,
+      "companyPublish": false,
       "readUrl": "#",
       "pdfUrl": "#"
     },
@@ -135,6 +157,8 @@
       "scene": "10",
       "title": "Census / Journey",
       "status": "Current company version pending",
+      "approved": false,
+      "companyPublish": false,
       "readUrl": "#",
       "pdfUrl": "#"
     },
@@ -142,6 +166,8 @@
       "scene": "11",
       "title": "No Room",
       "status": "Current company version pending",
+      "approved": false,
+      "companyPublish": false,
       "readUrl": "#",
       "pdfUrl": "#"
     },
@@ -149,6 +175,8 @@
       "scene": "12",
       "title": "Good News / Shepherds / Finale",
       "status": "Current company version pending",
+      "approved": false,
+      "companyPublish": false,
       "readUrl": "#",
       "pdfUrl": "#"
     }
@@ -158,6 +186,8 @@
       "title": "Welcome to Nazareth",
       "type": "Opening Number",
       "status": "Track in development",
+      "approved": false,
+      "companyPublish": false,
       "playUrl": "#",
       "lyricsUrl": "#"
     },
@@ -165,6 +195,8 @@
       "title": "My Beloved",
       "type": "Mary / Joseph",
       "status": "Track in development",
+      "approved": false,
+      "companyPublish": false,
       "playUrl": "#",
       "lyricsUrl": "#"
     },
@@ -172,6 +204,8 @@
       "title": "Chosen",
       "type": "Mary",
       "status": "Track in development",
+      "approved": false,
+      "companyPublish": false,
       "playUrl": "#",
       "lyricsUrl": "#"
     },
@@ -179,13 +213,17 @@
       "title": "Brotherhood",
       "type": "Joseph & Friends",
       "status": "Track in development",
+      "approved": false,
+      "companyPublish": false,
       "playUrl": "#",
       "lyricsUrl": "#"
     },
     {
-      "title": "It\u2019s Not Mine",
+      "title": "It’s Not Mine",
       "type": "Joseph",
       "status": "Track in development",
+      "approved": false,
+      "companyPublish": false,
       "playUrl": "#",
       "lyricsUrl": "#"
     },
@@ -193,6 +231,8 @@
       "title": "Still Yours",
       "type": "Mary / Joseph",
       "status": "Track in development",
+      "approved": false,
+      "companyPublish": false,
       "playUrl": "#",
       "lyricsUrl": "#"
     },
@@ -200,6 +240,8 @@
       "title": "What Will He Be?",
       "type": "Children / Company",
       "status": "Track in development",
+      "approved": false,
+      "companyPublish": false,
       "playUrl": "#",
       "lyricsUrl": "#"
     },
@@ -207,6 +249,8 @@
       "title": "Silent Night",
       "type": "Birth Sequence",
       "status": "Arrangement pending",
+      "approved": false,
+      "companyPublish": false,
       "playUrl": "#",
       "lyricsUrl": "#"
     }
