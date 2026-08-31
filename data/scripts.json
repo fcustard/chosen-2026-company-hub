@@ -1,0 +1,119 @@
+[
+  {
+    "scene": "FULL",
+    "title": "Current Full Script",
+    "status": "Publication link pending",
+    "approved": false,
+    "companyPublish": false,
+    "readUrl": "#",
+    "pdfUrl": "#"
+  },
+  {
+    "scene": "01",
+    "title": "Welcome to Nazareth",
+    "status": "CURRENT · Approved dialogue / staging",
+    "approved": true,
+    "companyPublish": true,
+    "readUrl": "scene-01.html",
+    "pdfUrl": "scene-01.pdf"
+  },
+  {
+    "scene": "02",
+    "title": "Mary & Joseph / My Beloved",
+    "status": "Current company version pending",
+    "approved": false,
+    "companyPublish": false,
+    "readUrl": "#",
+    "pdfUrl": "#"
+  },
+  {
+    "scene": "03",
+    "title": "Gabriel / Chosen",
+    "status": "Current company version pending",
+    "approved": false,
+    "companyPublish": false,
+    "readUrl": "#",
+    "pdfUrl": "#"
+  },
+  {
+    "scene": "04",
+    "title": "The Secret",
+    "status": "Current company version pending",
+    "approved": false,
+    "companyPublish": false,
+    "readUrl": "#",
+    "pdfUrl": "#"
+  },
+  {
+    "scene": "05",
+    "title": "Brotherhood",
+    "status": "Current company version pending",
+    "approved": false,
+    "companyPublish": false,
+    "readUrl": "#",
+    "pdfUrl": "#"
+  },
+  {
+    "scene": "06",
+    "title": "Mary Tells Joseph / It’s Not Mine",
+    "status": "Current company version pending",
+    "approved": false,
+    "companyPublish": false,
+    "readUrl": "#",
+    "pdfUrl": "#"
+  },
+  {
+    "scene": "07",
+    "title": "Two Roads of Faith",
+    "status": "Current company version pending",
+    "approved": false,
+    "companyPublish": false,
+    "readUrl": "#",
+    "pdfUrl": "#"
+  },
+  {
+    "scene": "08",
+    "title": "Reunion / Still Yours",
+    "status": "Current company version pending",
+    "approved": false,
+    "companyPublish": false,
+    "readUrl": "#",
+    "pdfUrl": "#"
+  },
+  {
+    "scene": "09",
+    "title": "What Will He Be? / Town Turns",
+    "status": "Current company version pending",
+    "approved": false,
+    "companyPublish": false,
+    "readUrl": "#",
+    "pdfUrl": "#"
+  },
+  {
+    "scene": "10",
+    "title": "Census / Journey",
+    "status": "Current company version pending",
+    "approved": false,
+    "companyPublish": false,
+    "readUrl": "#",
+    "pdfUrl": "#"
+  },
+  {
+    "scene": "11",
+    "title": "No Room",
+    "status": "Current company version pending",
+    "approved": false,
+    "companyPublish": false,
+    "readUrl": "#",
+    "pdfUrl": "#"
+  },
+  {
+    "scene": "12",
+    "title": "Good News / Shepherds / Finale",
+    "status": "Current company version pending",
+    "approved": false,
+    "companyPublish": false,
+    "readUrl": "#",
+    "pdfUrl": "#"
+  }
+]
