@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0d1726">
+  <title>{{TITLE}} | CHOSEN 2026</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="scene-reader.css">
+</head>
+
+<body class="sceneReaderPage">
+
+  <header class="sitebar">
+    <div class="inner">
+      <a class="brand" href="index.html">
+        <small>THE FAITH CENTER PRESENTS</small>
+        <b>CHOSEN 2026</b>
+        <span>Company Hub</span>
+      </a>
+
+      <a class="btn" href="scripts.html">
+        Back to Scripts
+      </a>
+    </div>
+  </header>
+
+  <main class="sceneReader">
+
+    <section class="sceneHero">
+
+      <p class="ey">{{EYEBROW}}</p>
+
+      <h1>Scene {{SCENE}}</h1>
+
+      <h2>{{TITLE}}</h2>
+
+      <p class="sceneStatus">
+        {{STATUS}}
+      </p>
+
+      <div class="actions">
+        <a class="btn primary" href="#script">
+          Read scene
+        </a>
+
+        <a
+          class="btn"
+          href="{{PDF_URL}}"
+          target="_blank"
+          rel="noopener"
+        >
+          PDF / Print
+        </a>
+      </div>
+
+      <div class="announce">
+        <b>OFFICIAL COMPANY MATERIAL</b><br>
+        {{PUBLICATION_NOTE}}
+      </div>
+
+    </section>
+
+    <article id="script" class="scriptBody">
+{{CONTENT}}
+    </article>
+
+    <section class="sceneEnd">
+
+      <p class="ey">
+        END SCENE {{SCENE}}
+      </p>
+
+      <a class="btn" href="scripts.html">
+        Back to Scripts
+      </a>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <b>CHOSEN 2026</b>
+    <span>Company Hub</span>
+  </footer>
+
+</body>
+</html>
