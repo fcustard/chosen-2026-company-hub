@@ -103,11 +103,12 @@
     {
       "scene": "04",
       "title": "The Secret",
-      "status": "Current company version pending",
-      "approved": false,
-      "companyPublish": false,
-      "readUrl": "#",
-      "pdfUrl": "#"
+      "status": "CURRENT · APPROVED / LOCKED",
+      "approved": true,
+      "companyPublish": true,
+      "source": "data/scenes/scene-04.json",
+      "readUrl": "scene-04.html",
+      "pdfUrl": "scene-04.pdf"
     },
     {
       "scene": "05",
