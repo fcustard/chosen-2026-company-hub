@@ -46,15 +46,16 @@
   "readUrl": "scene-04.html",
   "pdfUrl": "scene-04.pdf"
 },
-  {
-    "scene": "05",
-    "title": "Brotherhood",
-    "status": "Current company version pending",
-    "approved": false,
-    "companyPublish": false,
-    "readUrl": "#",
-    "pdfUrl": "#"
-  },
+{
+  "scene": "05",
+  "title": "Brotherhood",
+  "status": "CURRENT · Approved dialogue / staging",
+  "approved": true,
+  "companyPublish": true,
+  "source": "data/scenes/scene-05.json",
+  "readUrl": "scene-05.html",
+  "pdfUrl": "scene-05.pdf"
+}
   {
     "scene": "06",
     "title": "Mary Tells Joseph / It’s Not Mine",
