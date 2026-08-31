@@ -1,0 +1,1432 @@
+{
+  "scene": "03",
+  "title": "Gabriel / Chosen",
+  "eyebrow": "CURRENT · COMPANY VERSION",
+  "publicationNote": "This is the official company rehearsal version.",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
+    },
+    {
+      "type": "heading",
+      "text": "SCENE 3 — GABRIEL / “CHOSEN”"
+    },
+    {
+      "type": "text",
+      "text": "Approximate Running Time: 5–6 minutes"
+    },
+    {
+      "type": "text",
+      "text": "Spoken Dialogue: Approximately 2½–3 minutes"
+    },
+    {
+      "type": "text",
+      "text": "Song: “Chosen” — approximately 2½–3 minutes"
+    },
+    {
+      "type": "transition",
+      "text": "CONTINUOUS FROM SCENE 2"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph has just exited."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Tomorrow?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Tomorrow."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph disappears."
+    },
+    {
+      "type": "stage",
+      "text": "Mary remains alone."
+    },
+    {
+      "type": "stage",
+      "text": "For several seconds, nothing happens."
+    },
+    {
+      "type": "stage",
+      "text": "Let the audience stay with her happiness."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks toward the place Joseph exited."
+    },
+    {
+      "type": "stage",
+      "text": "She smiles."
+    },
+    {
+      "type": "stage",
+      "text": "She begins quietly putting things in order."
+    },
+    {
+      "type": "stage",
+      "text": "Perhaps she: folds a piece of cloth; straightens the unfinished table piece Joseph showed her; moves one of the chairs; touches the wood and imagines the future they were just discussing."
+    },
+    {
+      "type": "stage",
+      "text": "She catches herself smiling."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Eight chairs."
+    },
+    {
+      "type": "stage",
+      "text": "She shakes her head."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph..."
+    },
+    {
+      "type": "stage",
+      "text": "Small laugh."
+    },
+    {
+      "type": "stage",
+      "text": "She resumes folding."
+    },
+    {
+      "type": "heading",
+      "text": "THE INTERRUPTION"
+    },
+    {
+      "type": "stage",
+      "text": "The distant sounds of Nazareth are still present."
+    },
+    {
+      "type": "stage",
+      "text": "A voice."
+    },
+    {
+      "type": "stage",
+      "text": "A cart."
+    },
+    {
+      "type": "stage",
+      "text": "A child somewhere outside."
+    },
+    {
+      "type": "stage",
+      "text": "A faint hammer."
+    },
+    {
+      "type": "stage",
+      "text": "Then—everything stops."
+    },
+    {
+      "type": "stage",
+      "text": "Not slowly."
+    },
+    {
+      "type": "stage",
+      "text": "Gone."
+    },
+    {
+      "type": "stage",
+      "text": "Mary notices."
+    },
+    {
+      "type": "stage",
+      "text": "She waits."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Hello?"
+    },
+    {
+      "type": "stage",
+      "text": "Nothing."
+    },
+    {
+      "type": "stage",
+      "text": "She listens."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Is someone there?"
+    },
+    {
+      "type": "stage",
+      "text": "A subtle musical texture enters."
+    },
+    {
+      "type": "stage",
+      "text": "Something completely different from the musical language of Nazareth."
+    },
+    {
+      "type": "stage",
+      "text": "Not loud."
+    },
+    {
+      "type": "stage",
+      "text": "Not threatening."
+    },
+    {
+      "type": "stage",
+      "text": "Unfamiliar."
+    },
+    {
+      "type": "stage",
+      "text": "The light begins changing."
+    },
+    {
+      "type": "stage",
+      "text": "Mary turns."
+    },
+    {
+      "type": "stage",
+      "text": "She sees GABRIEL."
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel does not rush toward her."
+    },
+    {
+      "type": "stage",
+      "text": "Stillness is part of the power of the moment."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary."
+    },
+    {
+      "type": "stage",
+      "text": "Mary steps backward."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Who are you?"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "Do not be afraid."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I wasn't—"
+    },
+    {
+      "type": "stage",
+      "text": "She stops."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I… ok, wait…"
+    },
+    {
+      "type": "stage",
+      "text": "Mary stops and backs away."
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel remains calm."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "You have found favor with God."
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel walks towards Mary."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Favor?"
+    },
+    {
+      "type": "stage",
+      "text": "Still walks away from Gabriel slowly."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "stage",
+      "text": "Continues walking towards Mary."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don't understand."
+    },
+    {
+      "type": "stage",
+      "text": "Still walks backwards away from Gabriel."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "You will."
+    },
+    {
+      "type": "stage",
+      "text": "Continues walking towards Mary."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Who are you?"
+    },
+    {
+      "type": "stage",
+      "text": "Still walks backwards away from Gabriel."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "Gabriel."
+    },
+    {
+      "type": "stage",
+      "text": "A beat."
+    },
+    {
+      "type": "stage",
+      "text": "Stops walking and stands still."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "I have been sent by God."
+    },
+    {
+      "type": "stage",
+      "text": "Mary stops, she absorbs that."
+    },
+    {
+      "type": "stage",
+      "text": "She looks toward the doorway, as though part of her still expects someone else to walk in and make this ordinary again."
+    },
+    {
+      "type": "stage",
+      "text": "No one does."
+    },
+    {
+      "type": "heading",
+      "text": "THE CALLING"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary..."
+    },
+    {
+      "type": "dialogue",
+      "text": "you have been chosen."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at him."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen for what?"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "You will bear a son."
+    },
+    {
+      "type": "stage",
+      "text": "Silence."
+    },
+    {
+      "type": "stage",
+      "text": "Mary does not respond."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm sorry—"
+    },
+    {
+      "type": "dialogue",
+      "text": "what did you say?"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "You will bear a son."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "Not rejection."
+    },
+    {
+      "type": "stage",
+      "text": "Her mind simply cannot make the words fit."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I mean—"
+    },
+    {
+      "type": "dialogue",
+      "text": "how?"
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "How can that be?"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "What will happen comes from God."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I understand the words."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don't understand how they can be true."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nothing God has spoken is beyond His power."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at him carefully."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Why me?"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "Because God has chosen you."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "That doesn't answer the question."
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel regards her."
+    },
+    {
+      "type": "stage",
+      "text": "Not offended."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "It may be the only answer you are given tonight."
+    },
+    {
+      "type": "stage",
+      "text": "That lands."
+    },
+    {
+      "type": "heading",
+      "text": "MARY SEARCHES FOR CERTAINTY"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "You expect me to believe this?"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "I expect you to decide whether you will trust the One who sent me."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Those aren't the same thing."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "dialogue",
+      "text": "They are not."
+    },
+    {
+      "type": "stage",
+      "text": "Mary studies him."
+    },
+    {
+      "type": "stage",
+      "text": "That answer surprises her."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "What happens now?"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "You live the answer."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "That's all?"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "Your relative Elizabeth is also expecting a child."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks up."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Elizabeth?"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "But she—"
+    },
+    {
+      "type": "stage",
+      "text": "Mary stops herself."
+    },
+    {
+      "type": "stage",
+      "text": "She knows what she was going to say."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "What seemed impossible..."
+    },
+    {
+      "type": "dialogue",
+      "text": "is already happening."
+    },
+    {
+      "type": "stage",
+      "text": "Mary takes that in."
+    },
+    {
+      "type": "stage",
+      "text": "This is the first piece of the message she can attach to something in her world."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Elizabeth."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "Go to her if you need to see what God has already begun."
+    },
+    {
+      "type": "heading",
+      "text": "THE COST ARRIVES"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks toward the unfinished table."
+    },
+    {
+      "type": "stage",
+      "text": "The future from Scene 2 is sitting in front of her."
+    },
+    {
+      "type": "stage",
+      "text": "The house."
+    },
+    {
+      "type": "stage",
+      "text": "The table."
+    },
+    {
+      "type": "stage",
+      "text": "The marriage."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph."
+    },
+    {
+      "type": "stage",
+      "text": "Her breathing changes slightly."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "What will people think?"
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel does not answer immediately."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "My family?"
+    },
+    {
+      "type": "dialogue",
+      "text": "The village?"
+    },
+    {
+      "type": "stage",
+      "text": "Still no false reassurance."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph..."
+    },
+    {
+      "type": "stage",
+      "text": "That name lands hardest."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "What am I supposed to tell Joseph?"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "The truth."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "And if the truth sounds impossible?"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "It will still be the truth."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "That doesn't mean he'll believe me."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at Gabriel."
+    },
+    {
+      "type": "stage",
+      "text": "That is not the answer she wanted."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "You don't know Joseph."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "God does."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "He has plans."
+    },
+    {
+      "type": "stage",
+      "text": "Her eyes move back to the table."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "We have plans."
+    },
+    {
+      "type": "dialogue",
+      "text": "A home."
+    },
+    {
+      "type": "dialogue",
+      "text": "A wedding."
+    },
+    {
+      "type": "dialogue",
+      "text": "A family."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "He thinks he knows how our life is supposed to go."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "And you?"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at him."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Until a moment ago..."
+    },
+    {
+      "type": "dialogue",
+      "text": "so did I."
+    },
+    {
+      "type": "music",
+      "text": "MUSICAL TRIGGER — “CHOSEN”"
+    },
+    {
+      "type": "stage",
+      "text": "The first musical phrase begins."
+    },
+    {
+      "type": "stage",
+      "text": "Not triumph."
+    },
+    {
+      "type": "stage",
+      "text": "Not celebration."
+    },
+    {
+      "type": "stage",
+      "text": "A question."
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel does not suddenly disappear."
+    },
+    {
+      "type": "stage",
+      "text": "He remains present, but the focus begins transferring to Mary."
+    },
+    {
+      "type": "stage",
+      "text": "The song begins because she has finally understood:"
+    },
+    {
+      "type": "stage",
+      "text": "This miracle has a cost."
+    },
+    {
+      "type": "heading",
+      "text": "“CHOSEN”"
+    },
+    {
+      "type": "heading",
+      "text": "SONG JOURNEY"
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 1 — WHY ME?"
+    },
+    {
+      "type": "text",
+      "text": "Mary confronts the word chosen."
+    },
+    {
+      "type": "text",
+      "text": "She is not royalty."
+    },
+    {
+      "type": "text",
+      "text": "Not powerful."
+    },
+    {
+      "type": "text",
+      "text": "Not extraordinary by the world's standards."
+    },
+    {
+      "type": "text",
+      "text": "Why would God place something this enormous in the hands of someone from Nazareth?"
+    },
+    {
+      "type": "text",
+      "text": "The lyrical thought should be:"
+    },
+    {
+      "type": "text",
+      "text": "Why would being chosen feel this frightening?"
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 2 — WHAT WILL THIS COST?"
+    },
+    {
+      "type": "text",
+      "text": "Mary sees everything from Scene 2 in a new light:"
+    },
+    {
+      "type": "text",
+      "text": "Joseph;"
+    },
+    {
+      "type": "text",
+      "text": "their wedding;"
+    },
+    {
+      "type": "text",
+      "text": "the house;"
+    },
+    {
+      "type": "text",
+      "text": "the table;"
+    },
+    {
+      "type": "text",
+      "text": "her family;"
+    },
+    {
+      "type": "text",
+      "text": "her name;"
+    },
+    {
+      "type": "text",
+      "text": "what Nazareth will say;"
+    },
+    {
+      "type": "text",
+      "text": "whether Joseph will stay."
+    },
+    {
+      "type": "text",
+      "text": "Fragments of the musical language of “My Beloved” may briefly appear underneath “Chosen.”"
+    },
+    {
+      "type": "text",
+      "text": "Not a full reprise."
+    },
+    {
+      "type": "text",
+      "text": "Just enough for the audience to feel the future that is now endangered."
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 3 — I CANNOT SEE THE ROAD"
+    },
+    {
+      "type": "text",
+      "text": "Mary begins understanding that Gabriel is not going to give her the entire future."
+    },
+    {
+      "type": "text",
+      "text": "She does not know:"
+    },
+    {
+      "type": "text",
+      "text": "what Joseph will do;"
+    },
+    {
+      "type": "text",
+      "text": "how people will react;"
+    },
+    {
+      "type": "text",
+      "text": "where this road ends;"
+    },
+    {
+      "type": "text",
+      "text": "what obedience will cost."
+    },
+    {
+      "type": "text",
+      "text": "The central realization:"
+    },
+    {
+      "type": "text",
+      "text": "I do not have to see the whole road to take the next step."
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 4 — CHOSEN BECOMES A CHOICE"
+    },
+    {
+      "type": "text",
+      "text": "The word changes meaning."
+    },
+    {
+      "type": "text",
+      "text": "At the beginning of the song:"
+    },
+    {
+      "type": "text",
+      "text": "God chose me."
+    },
+    {
+      "type": "text",
+      "text": "By the end:"
+    },
+    {
+      "type": "text",
+      "text": "Will I choose to trust God?"
+    },
+    {
+      "type": "text",
+      "text": "Possible central lyrical territory:"
+    },
+    {
+      "type": "text",
+      "text": "Chosen doesn't mean unafraid."
+    },
+    {
+      "type": "text",
+      "text": "and/or:"
+    },
+    {
+      "type": "text",
+      "text": "If You chose me, give me courage to choose You."
+    },
+    {
+      "type": "text",
+      "text": "The music grows emotionally—"
+    },
+    {
+      "type": "text",
+      "text": "but avoid turning it into a giant power-ballad finish."
+    },
+    {
+      "type": "text",
+      "text": "This should feel like Mary becoming steady, not invincible."
+    },
+    {
+      "type": "heading",
+      "text": "THE MUSIC APPROACHES ITS FINAL RESOLUTION"
+    },
+    {
+      "type": "stage",
+      "text": "Mary turns toward Gabriel."
+    },
+    {
+      "type": "stage",
+      "text": "The music holds."
+    },
+    {
+      "type": "stage",
+      "text": "Then—nearly stops."
+    },
+    {
+      "type": "stage",
+      "text": "Silence."
+    },
+    {
+      "type": "stage",
+      "text": "Mary breathes."
+    },
+    {
+      "type": "stage",
+      "text": "She is still afraid."
+    },
+    {
+      "type": "stage",
+      "text": "That matters."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don't understand what comes next."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "And I'm afraid."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "But if God has asked this of me..."
+    },
+    {
+      "type": "stage",
+      "text": "She gathers herself."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am the Lord's servant."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Let it be with me as He has said."
+    },
+    {
+      "type": "stage",
+      "text": "Silence."
+    },
+    {
+      "type": "stage",
+      "text": "No instant explosion of music."
+    },
+    {
+      "type": "stage",
+      "text": "No triumphant celebration."
+    },
+    {
+      "type": "stage",
+      "text": "Let the decision stand by itself."
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel regards her."
+    },
+    {
+      "type": "stage",
+      "text": "For the first time, there may be something almost tender in his expression."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "Do not be afraid, Mary."
+    },
+    {
+      "type": "stage",
+      "text": "Mary takes a breath."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm trying."
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL"
+    },
+    {
+      "type": "dialogue",
+      "text": "That is enough for tonight."
+    },
+    {
+      "type": "heading",
+      "text": "GABRIEL DEPARTS"
+    },
+    {
+      "type": "stage",
+      "text": "The light around Gabriel begins to change."
+    },
+    {
+      "type": "stage",
+      "text": "Do not make his departure a magic trick simply for spectacle."
+    },
+    {
+      "type": "stage",
+      "text": "It can be: a controlled fade; a shift in light; Gabriel moving into darkness; Mary's attention being pulled briefly elsewhere and finding him gone."
+    },
+    {
+      "type": "stage",
+      "text": "The divine musical texture recedes."
+    },
+    {
+      "type": "stage",
+      "text": "Mary is alone again."
+    },
+    {
+      "type": "stage",
+      "text": "Same room."
+    },
+    {
+      "type": "stage",
+      "text": "Same wood."
+    },
+    {
+      "type": "stage",
+      "text": "Same cloth."
+    },
+    {
+      "type": "stage",
+      "text": "Same unfinished table."
+    },
+    {
+      "type": "stage",
+      "text": "Nothing looks different."
+    },
+    {
+      "type": "stage",
+      "text": "Everything is different."
+    },
+    {
+      "type": "heading",
+      "text": "FINAL MOMENT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary stands quietly."
+    },
+    {
+      "type": "stage",
+      "text": "She touches the unfinished table."
+    },
+    {
+      "type": "stage",
+      "text": "A faint fragment of “My Beloved” is heard."
+    },
+    {
+      "type": "stage",
+      "text": "Perhaps only a few notes."
+    },
+    {
+      "type": "stage",
+      "text": "Mary remembers:"
+    },
+    {
+      "type": "text",
+      "text": "“Whatever comes, I'll walk with you.”"
+    },
+    {
+      "type": "stage",
+      "text": "Her expression changes."
+    },
+    {
+      "type": "stage",
+      "text": "Not because she regrets saying yes."
+    },
+    {
+      "type": "stage",
+      "text": "Because now she understands what she has to do next."
+    },
+    {
+      "type": "stage",
+      "text": "She looks toward the direction Joseph left."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph..."
+    },
+    {
+      "type": "stage",
+      "text": "Blackout or controlled transition."
+    },
+    {
+      "type": "transition",
+      "text": "END SCENE 3"
+    }
+  ]
+}
