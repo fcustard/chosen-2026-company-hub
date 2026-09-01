@@ -1,5 +1,5 @@
 
-:root{--n:#0d1726;--g:#d9ae57;--iv:#f6f1e7;--p:#fffdf8;--ink:#111a28;--m:#697384;--line:#ddd7ca;--max:1080px}
+:root{--n:#0d1726;--g:#d9ae57;--iv:#f6f1e7;--p:#fffdf8;--ink:#111a28;--m:#697384;--line:#ddd7ca;--max:1080px;--navy:var(--n);--gold:var(--g);--muted:var(--m)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--iv);color:var(--ink);font:16px/1.5 Arial,sans-serif}a{color:inherit}
 .sitebar{position:sticky;top:0;z-index:20;background:rgba(13,23,38,.98);color:#fff}.inner{max-width:var(--max);margin:auto;padding:12px 18px;display:flex;justify-content:space-between;align-items:center;gap:18px}
 .brand{display:grid;text-decoration:none;line-height:1}.brand small{font-size:.54rem;letter-spacing:.16em;color:#f1e3bf}.brand b{font:700 1.45rem Georgia,serif;color:var(--g)}.brand span{font-size:.76rem;margin-top:3px}
@@ -373,4 +373,68 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
 .disabledLink{
   opacity:.55;
   pointer-events:none;
+}
+
+
+/* ===== PERMANENT SCHEDULE DATE RELIABILITY LAYER =====
+   Keep this at the END of styles.css. It intentionally wins the cascade.
+*/
+.scheduleCardGrid{
+  display:grid !important;
+  grid-template-columns:92px minmax(0,1fr) !important;
+  gap:20px !important;
+}
+.dateBlock{
+  display:flex !important;
+  visibility:visible !important;
+  opacity:1 !important;
+  min-width:92px !important;
+  min-height:108px !important;
+  background:var(--n) !important;
+  color:#fff !important;
+  border:1px solid rgba(217,174,87,.45) !important;
+  border-radius:16px !important;
+  padding:12px 8px !important;
+  text-align:center !important;
+  align-self:start !important;
+  flex-direction:column !important;
+  justify-content:center !important;
+}
+.dateDow,.dateMonth,.dateDay{
+  display:block !important;
+  visibility:visible !important;
+  opacity:1 !important;
+}
+.dateDow{
+  color:var(--g) !important;
+  font-weight:900 !important;
+  letter-spacing:.13em !important;
+  font-size:.76rem !important;
+}
+.dateMonth{
+  color:#fff !important;
+  font-weight:900 !important;
+  letter-spacing:.08em !important;
+  font-size:.82rem !important;
+  margin-top:7px !important;
+}
+.dateDay{
+  color:#fff !important;
+  font:700 2.25rem/1 Georgia,serif !important;
+  margin-top:3px !important;
+}
+@media(max-width:650px){
+  .scheduleCardGrid{
+    grid-template-columns:68px minmax(0,1fr) !important;
+    gap:12px !important;
+  }
+  .dateBlock{
+    min-width:68px !important;
+    min-height:90px !important;
+    border-radius:12px !important;
+    padding:10px 5px !important;
+  }
+  .dateDow{font-size:.65rem !important}
+  .dateMonth{font-size:.68rem !important}
+  .dateDay{font-size:1.8rem !important}
 }

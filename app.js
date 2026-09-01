@@ -47,12 +47,40 @@ document.addEventListener('DOMContentLoaded',async()=>{
   const storageKey='chosen2026-call-groups';
 
   function parseDateParts(x){
-    const dt=new Date(x.start);
-    return {
-      dow:new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/New_York'}).format(dt).toUpperCase(),
-      mon:new Intl.DateTimeFormat('en-US',{month:'short',timeZone:'America/New_York'}).format(dt).toUpperCase(),
-      day:new Intl.DateTimeFormat('en-US',{day:'2-digit',timeZone:'America/New_York'}).format(dt)
-    };
+    const tz='America/New_York';
+    const fromDate=(dt)=>({
+      dow:new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:tz}).format(dt).toUpperCase(),
+      mon:new Intl.DateTimeFormat('en-US',{month:'short',timeZone:tz}).format(dt).toUpperCase(),
+      day:new Intl.DateTimeFormat('en-US',{day:'2-digit',timeZone:tz}).format(dt)
+    });
+
+    // Primary source: the published ISO start timestamp.
+    if(x.start){
+      const dt=new Date(x.start);
+      if(!Number.isNaN(dt.getTime())) return fromDate(dt);
+    }
+
+    // Fallback 1: labels already produced by the Master Calendar feed,
+    // e.g. "WED · SEP 2" or "WEDNESDAY · SEPTEMBER 2".
+    const label=String(x.date||x.day||x.dateLabel||x.dayLabel||'').trim();
+    const parts=label.replace(/·/g,' ').split(/\s+/).filter(Boolean);
+    if(parts.length>=3){
+      const dow=parts[0].slice(0,3).toUpperCase();
+      const mon=parts[1].slice(0,3).toUpperCase();
+      const rawDay=parts.findLast ? parts.findLast(p=>/^\d{1,2}$/.test(p)) : [...parts].reverse().find(p=>/^\d{1,2}$/.test(p));
+      if(rawDay) return {dow,mon,day:String(rawDay).padStart(2,'0')};
+    }
+
+    // Fallback 2: event id in YYYY-MM-DD form.
+    const idMatch=String(x.id||'').match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if(idMatch){
+      const dt=new Date(`${idMatch[1]}-${idMatch[2]}-${idMatch[3]}T12:00:00-05:00`);
+      if(!Number.isNaN(dt.getTime())) return fromDate(dt);
+    }
+
+    // Never return blank text; a bad feed record becomes visible instead of silent.
+    console.error('CHOSEN schedule date could not be rendered:',x);
+    return {dow:'DATE',mon:'TBD',day:'—'};
   }
 
   function locationInfo(x){
