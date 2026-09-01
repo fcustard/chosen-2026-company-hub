@@ -133,6 +133,13 @@ const content = {
   schedule: {
     title: 'Production Schedule',
     intro: 'Current published rehearsal dates, call times, locations, assignments and preparation.',
+    availableGroups: [...new Set(
+      publishedRehearsals
+        .flatMap(r => String(r.callGroups || '')
+          .split(';')
+          .map(g => g.trim())
+          .filter(Boolean))
+    )].sort((a, b) => a.localeCompare(b)),
     rehearsals: publishedRehearsals.map(r => ({
       id: r.id, start: r.start, end: r.end,
       date: r.dateLabel || r.dayLabel || r.id,
@@ -141,7 +148,11 @@ const content = {
       status: r.status || 'CONFIRMED',
       location: r.location || '',
       locationShort: r.locationShort || r.location || '',
-      called: r.called || '', callGroups: r.callGroups || '',
+      called: r.called || '',
+      callGroups: String(r.callGroups || '')
+        .split(';')
+        .map(g => g.trim())
+        .filter(Boolean),
       work: r.work || r.focus || '', prep: r.prep || '',
       notice: r.notice || '', changeType: r.changeType || '',
       eventKey: r.eventKey || ''
