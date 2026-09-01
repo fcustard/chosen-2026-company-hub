@@ -97,14 +97,15 @@
   "pdfUrl": "scene-09.pdf"
 },
   {
-    "scene": "10",
-    "title": "Census / Journey",
-    "status": "Current company version pending",
-    "approved": false,
-    "companyPublish": false,
-    "readUrl": "#",
-    "pdfUrl": "#"
-  },
+  "scene": "10",
+  "title": "The Census and the Journey",
+  "status": "CURRENT · Approved dialogue / staging",
+  "approved": true,
+  "companyPublish": true,
+  "source": "data/scenes/scene-10.json",
+  "readUrl": "scene-10.html",
+  "pdfUrl": "scene-10.pdf"
+},
   {
     "scene": "11",
     "title": "No Room",
