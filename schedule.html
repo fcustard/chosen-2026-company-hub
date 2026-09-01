@@ -1,15 +1,15 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0d1726"><title>Schedule | CHOSEN 2026</title><link rel="stylesheet" href="styles.css"><script defer src="app.js"></script></head>
 <body data-page="schedule"><header class="sitebar"><div class="inner"><a class="brand" href="index.html"><small>THE FAITH CENTER PRESENTS</small><b>CHOSEN 2026</b><span>Company Hub</span></a><button id="menuBtn" class="menu" aria-expanded="false">Menu</button><nav id="nav"><a href="this-week.html">This Week</a><a href="scripts.html">Scripts</a><a href="music.html">Music</a><a href="schedule.html">Schedule</a><a href="company.html">Company</a></nav></div></header>
 <main><section class="sub scheduleIntro"><p class="ey">LIVE PRODUCTION SCHEDULE</p><h1>Schedule</h1><p>This is the company schedule in the Hub. It updates from the CHOSEN Master Calendar.</p></section>
-<section class="scheduleSection"><div class="scheduleHeading"><div><p class="ey">UPCOMING</p><h2>Rehearsals & Calls</h2></div><a class="btn" data-link="liveSchedule" href="#">Full Calendar View</a></div>
+<section class="scheduleSection"><div class="scheduleHeading"><div><p class="ey">UPCOMING</p><h2>Rehearsals & Calls</h2><p class="schedulePromise">Find your call in seconds. Filter once and this device remembers it.</p></div></div>
 <div class="myCallsPanel">
   <div class="myCallsTop">
-    <div><p class="ey">MY CALLS</p><h3>Show only the rehearsals that apply to me</h3><p id="filterCount" class="note">Showing all calls</p></div>
+    <div><p class="ey">MY CALLS</p><h3>When am I needed?</h3><p class="myCallsLead">Choose your group(s) to see only the rehearsals that apply to you.</p><p id="filterCount" class="note">Showing all calls</p></div>
     <button id="clearCallFilters" class="textBtn" type="button" hidden>Clear filters</button>
   </div>
   <div id="callGroupFilters" class="filterChips" aria-label="Filter schedule by call group"></div>
-  <p class="filterHelp">Choose one or more groups. Your selection is remembered on this device. Full Company calls always remain visible.</p>
+  <p class="filterHelp">Your selection is remembered on this device. Full Company calls always remain visible.</p>
 </div><p id="upcomingEmpty" class="note" hidden>No upcoming published rehearsals.</p><div id="upcomingSchedule" class="scheduleList"></div></section>
-<section class="calendarTools"><div class="head"><p class="ey">OPTIONAL</p><h2>Add the calendar</h2><p>Subscriptions are optional. The Hub remains the company-facing source for rehearsal information.</p></div><div class="util"><a data-link="appleCalendar" href="#"><b>Apple Calendar</b><p class="note">iPhone, iPad or Mac</p></a><a data-link="liveSchedule" href="#"><b>Full Calendar View</b><p class="note">Opens the legacy live schedule</p></a></div></section>
+<section class="calendarTools"><div class="head"><p class="ey">OPTIONAL</p><h2>Add the calendar</h2><p>The Hub is the company source of truth. Add a personal calendar only if it helps you.</p></div><div class="util"><a data-link="appleCalendar" href="#"><b>Apple Calendar</b><p class="note">iPhone, iPad or Mac</p></a><a data-link="liveSchedule" href="#"><b>Legacy Calendar View</b><p class="note">Backup browser view</p></a></div></section>
 <section class="pastSection"><button id="pastToggle" class="btn" type="button" aria-expanded="false">Show past rehearsals</button><div id="pastWrap" hidden><div id="pastSchedule" class="scheduleList pastSchedule"></div></div></section></main>
 <footer><b>CHOSEN 2026</b><span>Company Hub</span><small id="updated"></small></footer></body></html>

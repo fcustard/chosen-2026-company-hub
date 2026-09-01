@@ -9,8 +9,15 @@ document.addEventListener('DOMContentLoaded',async()=>{
  const d=await load();if(!d)return;
  document.querySelectorAll('[data-link]').forEach(a=>link(a,d.links?.[a.dataset.link]));
  const u=document.querySelector('#updated');if(u)u.textContent=d.updated?`Updated ${d.updated}`:'';
- if(document.body.dataset.page==='home'){const x=d.nextRehearsal||{};nrDay.textContent=x.day||'NEXT REHEARSAL';nrDate.textContent=x.date||'See schedule';nrTime.textContent=x.time||'';nrLocation.textContent=x.location||'';nrFocus.textContent=x.focus||'';link(nrLink,x.url||'schedule.html')}
- if(document.body.dataset.page==='week'){const w=d.thisWeek||{};weekLabel.textContent=w.label||'THIS WEEK';weekTitle.textContent=w.title||'This Week';weekIntro.textContent=w.intro||'';weekList.innerHTML=(w.rehearsals||[]).map(x=>`<article class="rehearsal"><div class="rehTop"><div><p class="ey">${esc(x.date)}</p><h2>${esc(x.title)}</h2></div><span class="status">${esc(x.status)}</span></div><div class="rehFacts"><div><b>WHEN</b><span>${esc(x.time)}</span></div><div><b>WHERE</b><span>${esc(x.location)}</span></div></div><div class="rehBody"><div><b>WHO IS CALLED</b><p>${lines(x.called)}</p></div><div><b>WHAT WE'RE WORKING ON</b><p>${lines(x.work)}</p></div><div><b>PREP</b><p>${lines(x.prep)}</p></div>${x.notice?`<div class="callout"><b>IMPORTANT</b><p>${lines(x.notice)}</p></div>`:''}</div><div class="actions">${btn('Scripts',x.scriptUrl,'primary')}${btn('Music',x.musicUrl)}<a class="btn" href="schedule.html">Full schedule</a></div></article>`).join('')}
+ if(document.body.dataset.page==='home'){const x=d.nextRehearsal||{};nrDay.textContent=x.day||'NEXT REHEARSAL';nrDate.textContent=x.date||'See schedule';nrTime.textContent=x.time||'';nrLocation.textContent=x.location||'';nrFocus.textContent=x.focus||'';if(nrLink)nrLink.textContent='Open rehearsal plan';link(nrLink,x.url||'schedule.html')}
+ if(document.body.dataset.page==='week'){const w=d.thisWeek||{};weekLabel.textContent=w.label||'THIS WEEK';weekTitle.textContent=w.title||'This Week';weekIntro.textContent='Your call time, assignment and prep—everything you need before rehearsal.';weekList.innerHTML=(w.rehearsals||[]).map(x=>`<article class="rehearsal"><div class="rehTop"><div><p class="ey">${esc(x.date)}</p><h2>${esc(x.title)}</h2></div><span class="status">${esc(x.status)}</span></div><div class="rehFacts"><div><b>WHEN</b><span>${esc(x.time)}</span></div><div><b>WHERE</b><span>${esc(x.location)}</span></div></div><div class="rehBody"><div><b>WHO IS CALLED</b><p>${lines(x.called)}</p></div><div><b>WHAT WE'RE WORKING ON</b><p>${lines(x.work)}</p></div><div><b>PREP</b><p>${lines(x.prep)}</p></div>${x.notice?`<div class="callout"><b>IMPORTANT</b><p>${lines(x.notice)}</p></div>`:''}</div><div class="actions">${btn('Scripts',x.scriptUrl,'primary')}${btn('Music',x.musicUrl)}<a class="btn" href="schedule.html">Full schedule</a></div></article>`).join('');
+   const help=document.querySelector('.help');
+   if(help){
+     const h=help.querySelector('h2'); if(h)h.textContent='Before you leave home';
+     const p=help.querySelector('p'); if(p)p.textContent='Check the Hub before you leave. Call times, locations and assignments here are the current company information.';
+     const a=help.querySelector('a'); if(a){a.textContent='Open full schedule';a.href='schedule.html';a.removeAttribute('target');a.removeAttribute('rel');}
+   }
+  }
  if(document.body.dataset.page==='scripts'){scriptsList.innerHTML=(d.scripts||[]).map(s=>`<article class="row"><div class="badge">${esc(s.scene)}</div><div><h3>${esc(s.title)}</h3><p>${esc(s.status)}</p></div><div class="actions">${btn('Read',s.readUrl,'primary')}${btn('PDF',s.pdfUrl)}</div></article>`).join('')}
  if(document.body.dataset.page==='music'){musicList.innerHTML=(d.music||[]).map(x=>`<article class="row"><div class="badge">♪</div><div><h3>${esc(x.title)}</h3><p>${esc(x.type)} · ${esc(x.status)}</p></div><div class="actions">${btn('Play',x.playUrl,'primary')}${btn('Lyrics',x.lyricsUrl)}</div></article>`).join('')}
  if(document.body.dataset.page==='schedule'){
@@ -49,7 +56,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
     const apple=`https://maps.apple.com/?q=${q}`;
     const google=`https://www.google.com/maps/search/?api=1&query=${q}`;
     const waze=`https://www.waze.com/ul?q=${q}&navigate=yes`;
-    return `<details class="directionsMenu"><summary class="locationLink"><span class="locationName">${esc(loc.short)} <span aria-hidden="true">↗</span></span><span class="directionsCue">Get directions</span></summary><div class="directionsChoices"><a href="${google}" target="_blank" rel="noopener">Google Maps</a><a href="${apple}" target="_blank" rel="noopener">Apple Maps</a><a href="${waze}" target="_blank" rel="noopener">Waze</a></div></details>`;
+    return `<details class="directionsMenu"><summary class="locationLink">${esc(loc.short)} <span aria-hidden="true">↗</span></summary><div class="directionsChoices"><a href="${google}" target="_blank" rel="noopener">Google Maps</a><a href="${apple}" target="_blank" rel="noopener">Apple Maps</a><a href="${waze}" target="_blank" rel="noopener">Waze</a></div></details>`;
   }
 
   let selected=[];
@@ -74,10 +81,17 @@ document.addEventListener('DOMContentLoaded',async()=>{
 
   function renderFilters(){
     if(!filterWrap)return;
-    filterWrap.innerHTML=allGroups.map(g=>{
+    filterWrap.innerHTML=`<button type="button" class="filterChip${selected.length?'':' active'}" data-all-calls="true" aria-pressed="${selected.length?'false':'true'}">All Calls</button>`+allGroups.map(g=>{
       const on=selected.includes(g);
       return `<button type="button" class="filterChip${on?' active':''}" data-group="${esc(g)}" aria-pressed="${on?'true':'false'}">${esc(g)}</button>`;
     }).join('');
+    const allCallsBtn=filterWrap.querySelector('[data-all-calls]');
+    if(allCallsBtn)allCallsBtn.addEventListener('click',()=>{
+      selected=[];
+      localStorage.removeItem(storageKey);
+      renderFilters();
+      renderSchedule();
+    });
     filterWrap.querySelectorAll('[data-group]').forEach(b=>b.addEventListener('click',()=>{
       const g=b.dataset.group;
       selected=selected.includes(g)?selected.filter(x=>x!==g):[...selected,g];
