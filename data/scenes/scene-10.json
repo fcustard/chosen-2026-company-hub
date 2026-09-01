@@ -1,0 +1,1436 @@
+{
+  "scene": "10",
+  "title": "The Census and the Journey",
+  "eyebrow": "CURRENT · COMPANY VERSION",
+  "publicationNote": "This is the official company rehearsal version.",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
+    },
+    {
+      "type": "stage",
+      "text": "SCENE 10 - THE CENSUS AND THE JOURNEY"
+    },
+    {
+      "type": "stage",
+      "text": "COMPANY VERSION"
+    },
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
+    },
+    {
+      "type": "heading",
+      "text": "SCENE 10 — THE CENSUS AND THE JOURNEY"
+    },
+    {
+      "type": "text",
+      "text": "Approximate Running Time: 5 minutes\nMusical Treatment: Roman motif + 2–3-minute journey underscore\nNo full song"
+    },
+    {
+      "type": "text",
+      "text": "Characters:\nMary\nJoseph\nRoman Announcer\nShira\nTalia\nAdina\nDafna\nLevi\nMalachi\nCaleb\nEzra\nNia\nSimon\nVillagers / Travelers / Ensemble\nInnkeeper"
+    },
+    {
+      "type": "transition",
+      "text": "CONTINUOUS FROM SCENE 9"
+    },
+    {
+      "type": "stage",
+      "text": "No blackout."
+    },
+    {
+      "type": "stage",
+      "text": "The Roman Announcer has gone. The marketplace immediately breaks into urgent motion."
+    },
+    {
+      "type": "stage",
+      "text": "The people who were gossiping moments ago suddenly have their own problems: routes, family lines, supplies, money, children, travel."
+    },
+    {
+      "type": "stage",
+      "text": "The Roman motif continues briefly beneath the chaos."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph is no longer listening to the complaints. He is calculating."
+    },
+    {
+      "type": "stage",
+      "text": "Mary sees his face."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "We have to go to Bethlehem."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Bethlehem?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "My family line. The House of David."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s where I have to register."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "How far?"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph hesitates."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Far."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "How far is “far”?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Far enough that I don’t want you making the journey."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary—"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Listen. You can stay here. I’ll register and come back as quickly as I can."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "We just decided we weren’t doing the difficult things apart."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "This is different."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Why?"
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Because this difficulty has a road?"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph knows exactly what she means."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m trying to protect you."
+    },
+    {
+      "type": "stage",
+      "text": "Mary steps closer."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then protect me while we walk."
+    },
+    {
+      "type": "stage",
+      "text": "That stops him."
+    },
+    {
+      "type": "stage",
+      "text": "Mary offers her hand."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Together."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph takes it."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Together."
+    },
+    {
+      "type": "heading",
+      "text": "PREPARATION"
+    },
+    {
+      "type": "stage",
+      "text": "MUSIC SHIFTS INTO PREPARATION / JOURNEY UNDERSCORE"
+    },
+    {
+      "type": "stage",
+      "text": "The village moves quickly around them. No long farewell sequence. Every friend arrives with a purpose."
+    },
+    {
+      "type": "stage",
+      "text": "Shira gives Mary a blanket."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Take this."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "You need it."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I have another."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at her."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "No, you don’t."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then I’ll get another."
+    },
+    {
+      "type": "stage",
+      "text": "A small smile."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Come back."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I will."
+    },
+    {
+      "type": "stage",
+      "text": "They embrace briefly."
+    },
+    {
+      "type": "stage",
+      "text": "Adina arrives with practical supplies."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Food. Water. Extra cloth."
+    },
+    {
+      "type": "stage",
+      "text": "Caleb appears carrying far too much."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "And I brought everything else."
+    },
+    {
+      "type": "stage",
+      "text": "Ezra inspects the pile and removes one item."
+    },
+    {
+      "type": "character",
+      "text": "EZRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "No."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?"
+    },
+    {
+      "type": "character",
+      "text": "EZRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "They’re going to Bethlehem, not opening a restaurant."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Listen to Ezra."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "Marriage has changed you."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph keeps packing."
+    },
+    {
+      "type": "stage",
+      "text": "Levi approaches with a staff."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Take it.\nLevi gives Joseph a traveling staff"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Thank you."
+    },
+    {
+      "type": "stage",
+      "text": "Levi does not leave."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "I still don’t understand half of what you’re doing."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Doesn’t mean I’m sending you out unprepared."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at him."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know that too."
+    },
+    {
+      "type": "stage",
+      "text": "They clasp forearms. No larger reconciliation is needed."
+    },
+    {
+      "type": "stage",
+      "text": "Malachi approaches."
+    },
+    {
+      "type": "character",
+      "text": "MALACHI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Take care of them."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks toward Mary."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I will."
+    },
+    {
+      "type": "stage",
+      "text": "Malachi reads the old fixer instinct in him."
+    },
+    {
+      "type": "character",
+      "text": "MALACHI"
+    },
+    {
+      "type": "dialogue",
+      "text": "And let her take care of you."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks back at him."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’ll try."
+    },
+    {
+      "type": "character",
+      "text": "MALACHI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Good."
+    },
+    {
+      "type": "stage",
+      "text": "Nia and Simon slip through the adults."
+    },
+    {
+      "type": "stage",
+      "text": "Nia holds a small handmade item."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "For the baby."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nia..."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s small. He’ll be small."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "At first."
+    },
+    {
+      "type": "stage",
+      "text": "Everyone looks at Simon."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Babies grow."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "We know, Simon."
+    },
+    {
+      "type": "stage",
+      "text": "Mary laughs."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Thank you."
+    },
+    {
+      "type": "stage",
+      "text": "She accepts the gift."
+    },
+    {
+      "type": "stage",
+      "text": "The preparations are finished before anyone is ready for them to be."
+    },
+    {
+      "type": "heading",
+      "text": "DEPARTURE"
+    },
+    {
+      "type": "stage",
+      "text": "The village opens a path."
+    },
+    {
+      "type": "stage",
+      "text": "Mary and Joseph look back at Nazareth."
+    },
+    {
+      "type": "stage",
+      "text": "Do not sentimentalize the farewell. This is still the town that has just judged them, and still the home that contains the people they love."
+    },
+    {
+      "type": "stage",
+      "text": "Shira stays close to the edge. Caleb lifts a hand. Levi stands farther back. Nia and Simon watch."
+    },
+    {
+      "type": "stage",
+      "text": "A faint “Walk With You” motif emerges."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph reaches for Mary’s hand."
+    },
+    {
+      "type": "stage",
+      "text": "Mary takes it."
+    },
+    {
+      "type": "stage",
+      "text": "They begin."
+    },
+    {
+      "type": "stage",
+      "text": "Nazareth does not vanish at once. It recedes."
+    },
+    {
+      "type": "stage",
+      "text": "Then the road takes over."
+    },
+    {
+      "type": "heading",
+      "text": "THE JOURNEY"
+    },
+    {
+      "type": "stage",
+      "text": "The ensemble creates distance rather than literal geography."
+    },
+    {
+      "type": "stage",
+      "text": "Bodies, fabric, travelers, light, wind, and changing horizons form the road."
+    },
+    {
+      "type": "stage",
+      "text": "The LED moves from the recognizable Nazareth horizon into wider, less protected country. Slow environmental motion only."
+    },
+    {
+      "type": "stage",
+      "text": "Light shifts through morning, afternoon, and evening."
+    },
+    {
+      "type": "stage",
+      "text": "Moderate haze may make distance and moving shafts of light visible, but it must read as atmosphere—not magic."
+    },
+    {
+      "type": "stage",
+      "text": "The movement vocabulary repeats: PACK → LIFT → WALK → STOP → BREATHE → WALK AGAIN."
+    },
+    {
+      "type": "heading",
+      "text": "EARLY JOURNEY"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still all right?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "stage",
+      "text": "They walk."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "And now?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still yes."
+    },
+    {
+      "type": "stage",
+      "text": "More road."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at her again."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I didn’t say anything."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "You were thinking it."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I was."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Think quieter."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph smiles."
+    },
+    {
+      "type": "stage",
+      "text": "They continue."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph studies the road ahead."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "We should reach the next stopping place before dark."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "You planned that?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Of course."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I was afraid you’d stopped planning."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’ve grown spiritually."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I haven’t lost my mind."
+    },
+    {
+      "type": "stage",
+      "text": "Mary laughs."
+    },
+    {
+      "type": "stage",
+      "text": "The humor is affectionate. Planning itself is not Joseph’s flaw; believing a plan can guarantee the future is."
+    },
+    {
+      "type": "stage",
+      "text": "The music carries them forward."
+    },
+    {
+      "type": "heading",
+      "text": "TIME PASSES"
+    },
+    {
+      "type": "stage",
+      "text": "No dialogue for a stretch."
+    },
+    {
+      "type": "stage",
+      "text": "Day becomes night."
+    },
+    {
+      "type": "stage",
+      "text": "Mary rests."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph covers her."
+    },
+    {
+      "type": "stage",
+      "text": "He checks the road, then catches himself checking it again."
+    },
+    {
+      "type": "stage",
+      "text": "Instead of waking Mary or rearranging everything, he sits."
+    },
+    {
+      "type": "stage",
+      "text": "Dawn."
+    },
+    {
+      "type": "stage",
+      "text": "They walk again."
+    },
+    {
+      "type": "stage",
+      "text": "More travelers pass in both directions."
+    },
+    {
+      "type": "stage",
+      "text": "The terrain grows harder."
+    },
+    {
+      "type": "stage",
+      "text": "The movement phrase repeats with more ground time between actions."
+    },
+    {
+      "type": "stage",
+      "text": "Mary begins to slow."
+    },
+    {
+      "type": "heading",
+      "text": "FATIGUE"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph notices immediately."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "How are you?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I need a minute."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph helps her to a safe place to rest without taking over her movement."
+    },
+    {
+      "type": "stage",
+      "text": "He gives her water."
+    },
+    {
+      "type": "stage",
+      "text": "Then he looks down the long road."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "We should’ve stopped sooner."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph—"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I should’ve found another way. More help. Something—"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph."
+    },
+    {
+      "type": "stage",
+      "text": "He stops."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "You don’t have to fix every hard thing."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Just stay with me."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at her."
+    },
+    {
+      "type": "stage",
+      "text": "Then, instead of scanning the road for another solution, he lowers himself beside her."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m here."
+    },
+    {
+      "type": "stage",
+      "text": "Mary takes his hand."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s enough."
+    },
+    {
+      "type": "stage",
+      "text": "Allow real stillness here. The road continues around them for a few seconds while they do not move."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph cannot make the road shorter, Caesar disappear, Bethlehem closer, or Mary less tired."
+    },
+    {
+      "type": "stage",
+      "text": "For once, presence is the action."
+    },
+    {
+      "type": "heading",
+      "text": "ONE MORE STEP"
+    },
+    {
+      "type": "stage",
+      "text": "Mary takes a breath and prepares to stand."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph offers support without pulling her up."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "One more step."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "One more step."
+    },
+    {
+      "type": "stage",
+      "text": "They rise together."
+    },
+    {
+      "type": "stage",
+      "text": "A tiny musical fragment may surface—not a new number, simply memory."
+    },
+    {
+      "type": "stage",
+      "text": "MARY & JOSEPH"
+    },
+    {
+      "type": "stage",
+      "text": "Walk with me..."
+    },
+    {
+      "type": "stage",
+      "text": "They continue."
+    },
+    {
+      "type": "stage",
+      "text": "The journey phrase resumes: WALK → STOP → BREATHE → WALK AGAIN."
+    },
+    {
+      "type": "heading",
+      "text": "THE WARNING"
+    },
+    {
+      "type": "stage",
+      "text": "Time compresses."
+    },
+    {
+      "type": "stage",
+      "text": "Another stretch of road. Wind. Travelers. Changing light."
+    },
+    {
+      "type": "stage",
+      "text": "Then Mary stops."
+    },
+    {
+      "type": "stage",
+      "text": "Her breath catches."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph turns instantly."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary?"
+    },
+    {
+      "type": "stage",
+      "text": "Mary raises one hand: wait."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph waits."
+    },
+    {
+      "type": "stage",
+      "text": "He does not pepper her with questions."
+    },
+    {
+      "type": "stage",
+      "text": "The moment passes."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Was that—"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m all right."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "stage",
+      "text": "She is listening to her own body."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "But we should keep moving."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph understands."
+    },
+    {
+      "type": "stage",
+      "text": "The underscore gains urgency without becoming melodramatic."
+    },
+    {
+      "type": "stage",
+      "text": "They move."
+    },
+    {
+      "type": "heading",
+      "text": "BETHLEHEM"
+    },
+    {
+      "type": "stage",
+      "text": "The horizon changes."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph sees it first."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary."
+    },
+    {
+      "type": "stage",
+      "text": "She looks."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Bethlehem."
+    },
+    {
+      "type": "stage",
+      "text": "Relief."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Finally."
+    },
+    {
+      "type": "stage",
+      "text": "They share a tired smile."
+    },
+    {
+      "type": "stage",
+      "text": "Then the city reveals itself."
+    },
+    {
+      "type": "stage",
+      "text": "Crowds. Travelers. Bundles. Families. Animals. Noise. Arguments. Doors."
+    },
+    {
+      "type": "stage",
+      "text": "The visual arc completes: COMMUNITY → COUPLE → VASTNESS → CROWD."
+    },
+    {
+      "type": "stage",
+      "text": "Nazareth knew them too well. Bethlehem does not know them at all."
+    },
+    {
+      "type": "stage",
+      "text": "Mary takes in the scale of it."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Oh."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s..."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Crowded."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Very."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at him."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "We only need one room."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph takes that as a solvable problem."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Exactly."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "One room."
+    },
+    {
+      "type": "stage",
+      "text": "He spots a lodging place."
+    },
+    {
+      "type": "stage",
+      "text": "They cross."
+    },
+    {
+      "type": "stage",
+      "text": "KNOCK. KNOCK."
+    },
+    {
+      "type": "stage",
+      "text": "A door opens."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Excuse me. My wife needs a place to rest."
+    },
+    {
+      "type": "character",
+      "text": "INNKEEPER"
+    },
+    {
+      "type": "dialogue",
+      "text": "No room."
+    },
+    {
+      "type": "stage",
+      "text": "DOOR SHUTS."
+    },
+    {
+      "type": "stage",
+      "text": "Silence."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at the closed door."
+    },
+    {
+      "type": "stage",
+      "text": "Then at Mary."
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at him."
+    },
+    {
+      "type": "stage",
+      "text": "For the briefest instant, the old Joseph wants to solve the whole city at once."
+    },
+    {
+      "type": "stage",
+      "text": "Instead, he takes a breath."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "All right."
+    },
+    {
+      "type": "stage",
+      "text": "He looks toward the next door."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Next one."
+    },
+    {
+      "type": "stage",
+      "text": "He moves."
+    },
+    {
+      "type": "stage",
+      "text": "KNOCK. KNOCK."
+    },
+    {
+      "type": "stage",
+      "text": "No blackout."
+    },
+    {
+      "type": "stage",
+      "text": "The next knock belongs to Scene 11."
+    },
+    {
+      "type": "heading",
+      "text": "END SCENE 10"
+    }
+  ]
+}
