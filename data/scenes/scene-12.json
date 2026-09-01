@@ -1,0 +1,864 @@
+{
+  "scene": "12",
+  "title": "Good News / Shepherds / Finale",
+  "eyebrow": "CURRENT · COMPANY VERSION",
+  "publicationNote": "This is the official company rehearsal version.",
+  "blocks": [
+    {
+      "type": "transition",
+      "text": "CONTINUOUS FROM SCENE 11"
+    },
+    {
+      "type": "stage",
+      "text": "No blackout. The baby has cried. Mary has invited Joseph closer and placed the child into his arms. We begin inside the silence Scene 11 created."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks down at the child. Mary watches him. Another small sound from the baby."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "You’re good at that."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I have no idea what I’m doing."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Neither does he."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at the child again. A tiny smile."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then we’ll learn together."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph adjusts the cloth around the child with extraordinary care."
+    },
+    {
+      "type": "music",
+      "text": "\"SILENT NIGHT\""
+    },
+    {
+      "type": "stage",
+      "text": "Only now does the quiet musical phrase from Scene 11 continue. One voice. Then another. No full choir. Mary, Joseph and the child remain the center. Anna may remain just outside the family image."
+    },
+    {
+      "type": "stage",
+      "text": "As the final phrase settles, Joseph gently returns the child to Mary."
+    },
+    {
+      "type": "stage",
+      "text": "A separate pool of darkness slowly appears elsewhere. The manger remains visible."
+    },
+    {
+      "type": "heading",
+      "text": "THE SHEPHERD FIELD"
+    },
+    {
+      "type": "stage",
+      "text": "Night. Cold. Open land. Shepherd 1, Shepherd 2 and the Young Shepherd are working."
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "Come on."
+    },
+    {
+      "type": "stage",
+      "text": "Nothing."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Having trouble?"
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "A little."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s a sheep."
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know."
+    },
+    {
+      "type": "stage",
+      "text": "Shepherd 1 redirects the animal."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Don’t argue with sheep."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "You won’t win."
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m cold."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "We’re all cold."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Morning will come."
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "Good."
+    },
+    {
+      "type": "stage",
+      "text": "A tiny laugh. Then the animals become still. Shepherd 1 notices first."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Wait."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?"
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Listen."
+    },
+    {
+      "type": "stage",
+      "text": "SILENCE."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t hear anything."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Exactly."
+    },
+    {
+      "type": "stage",
+      "text": "A low atmospheric sound begins. The Young Shepherd looks into the changing darkness."
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "What’s that?"
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Stay close."
+    },
+    {
+      "type": "heading",
+      "text": "HEAVEN INTERRUPTS"
+    },
+    {
+      "type": "stage",
+      "text": "The night transforms. The shepherds are surrounded by something impossible."
+    },
+    {
+      "type": "character",
+      "text": "ANGEL VOICE"
+    },
+    {
+      "type": "dialogue",
+      "text": "Do not be afraid."
+    },
+    {
+      "type": "stage",
+      "text": "The shepherds freeze."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m trying."
+    },
+    {
+      "type": "stage",
+      "text": "A nervous breath of laughter may release, then disappears."
+    },
+    {
+      "type": "character",
+      "text": "ANGEL VOICE"
+    },
+    {
+      "type": "dialogue",
+      "text": "I bring you good news of great joy for all people."
+    },
+    {
+      "type": "character",
+      "text": "ANGEL VOICE"
+    },
+    {
+      "type": "dialogue",
+      "text": "Tonight, in the city of David, a Savior has been born."
+    },
+    {
+      "type": "character",
+      "text": "ANGEL VOICE"
+    },
+    {
+      "type": "dialogue",
+      "text": "You will know Him by this sign: you will find a baby wrapped in cloth, lying in a manger."
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "A manger?"
+    },
+    {
+      "type": "character",
+      "text": "HEAVENLY VOICES"
+    },
+    {
+      "type": "dialogue",
+      "text": "GLORY TO GOD IN THE HIGHEST!"
+    },
+    {
+      "type": "stage",
+      "text": "Powerful. Brief. EVERYTHING STOPS. Night returns. SILENCE."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Did that really happen?"
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes."
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "Let’s go."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Right now?"
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Right now."
+    },
+    {
+      "type": "stage",
+      "text": "They move."
+    },
+    {
+      "type": "heading",
+      "text": "THE SEARCH"
+    },
+    {
+      "type": "stage",
+      "text": "SHEPHERD UNDERSCORE. Bethlehem reappears around them: narrow passages, sleeping households, travelers and closed doors."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "How do we find one baby in Bethlehem?"
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Remember the sign."
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "A manger."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "So we’re looking for a baby where babies usually aren’t."
+    },
+    {
+      "type": "stage",
+      "text": "The Young Shepherd notices Eli and Anna’s lodging property."
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "There."
+    },
+    {
+      "type": "stage",
+      "text": "KNOCK. KNOCK. Eli opens the door, exhausted. Anna appears behind him."
+    },
+    {
+      "type": "character",
+      "text": "ELI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes?"
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Forgive us. We’re looking for a baby."
+    },
+    {
+      "type": "character",
+      "text": "ELI"
+    },
+    {
+      "type": "dialogue",
+      "text": "A baby?"
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "In a manger."
+    },
+    {
+      "type": "stage",
+      "text": "Eli and Anna exchange a look. Anna immediately understands."
+    },
+    {
+      "type": "character",
+      "text": "ANNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Eli."
+    },
+    {
+      "type": "stage",
+      "text": "Eli looks toward the rear of the property."
+    },
+    {
+      "type": "character",
+      "text": "ELI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Come with me."
+    },
+    {
+      "type": "character",
+      "text": "ANNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Quietly."
+    },
+    {
+      "type": "stage",
+      "text": "The shepherds follow."
+    },
+    {
+      "type": "heading",
+      "text": "THE SHEPHERDS ARRIVE"
+    },
+    {
+      "type": "stage",
+      "text": "Eli and Anna lead the shepherds toward the animal shelter. Their excitement becomes uncertainty as they realize they are approaching a sleeping family, not a palace. Joseph hears footsteps and rises."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Eli?"
+    },
+    {
+      "type": "character",
+      "text": "ELI"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s all right."
+    },
+    {
+      "type": "stage",
+      "text": "Anna gestures gently toward the shepherds."
+    },
+    {
+      "type": "character",
+      "text": "ANNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "They came looking for the baby."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at Mary. Then at the strangers."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Why?"
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "We were told we’d find Him here."
+    },
+    {
+      "type": "stage",
+      "text": "The Young Shepherd sees the feeding trough. Stops."
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "The manger."
+    },
+    {
+      "type": "stage",
+      "text": "SILENCE."
+    },
+    {
+      "type": "heading",
+      "text": "AT THE MANGER"
+    },
+    {
+      "type": "stage",
+      "text": "Mary watches these strangers carefully."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "How did you know?"
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "An angel came to us."
+    },
+    {
+      "type": "stage",
+      "text": "Mary and Joseph exchange a look."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "He said a Savior had been born tonight."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "And that we’d find Him here."
+    },
+    {
+      "type": "stage",
+      "text": "The Young Shepherd looks at the manger."
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "We found Him."
+    },
+    {
+      "type": "stage",
+      "text": "SILENCE. Mary looks at the child."
+    },
+    {
+      "type": "character",
+      "text": "SHEPHERD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m glad we came."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "So am I."
+    },
+    {
+      "type": "heading",
+      "text": "THE NAME"
+    },
+    {
+      "type": "stage",
+      "text": "The Young Shepherd looks at the child, then at Joseph."
+    },
+    {
+      "type": "character",
+      "text": "YOUNG SHEPHERD"
+    },
+    {
+      "type": "dialogue",
+      "text": "What’s His name?"
+    },
+    {
+      "type": "stage",
+      "text": "SILENCE. Give this time. Joseph looks at the child, then Mary. Mary looks back at Joseph."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "His name is..."
+    },
+    {
+      "type": "stage",
+      "text": "Music suspends."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Jesus."
+    },
+    {
+      "type": "stage",
+      "text": "The name lands simply. The Young Shepherd kneels first. Shepherd 1 follows. Shepherd 2 slowly kneels."
+    },
+    {
+      "type": "heading",
+      "text": "NIA AND SIMON RETURN"
+    },
+    {
+      "type": "stage",
+      "text": "A warm pool of light appears downstage. Nia and Simon step into it. Behind them, Mary, Joseph, Jesus and the kneeling shepherds remain visible. Orchestra continues softly underneath."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Remember Nazareth?"
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Small town. Ordinary people."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary thought she knew what came next."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph did too."
+    },
+    {
+      "type": "stage",
+      "text": "Beat."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then everything changed."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "And the story kept moving."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Beyond Nazareth."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Beyond Bethlehem."
+    },
+    {
+      "type": "stage",
+      "text": "The STAR begins to intensify."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "And more people were already on the road."
+    },
+    {
+      "type": "stage",
+      "text": "Nia and Simon look outward. A familiar musical sound begins almost beneath perception."
+    },
+    {
+      "type": "character",
+      "text": "COMPANY / ORCHESTRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "OHHH-OH... OOOH-OOH-OOH..."
+    },
+    {
+      "type": "stage",
+      "text": "The musical DNA of Scene 1. MUSIC SWELLS."
+    },
+    {
+      "type": "music",
+      "text": "FINAL MUSICAL NUMBER - \"WELCOME TO NAZARETH\" TRANSFORMED"
+    },
+    {
+      "type": "stage",
+      "text": "Three Wise Men appear in the aisles and begin a slow, dignified procession toward the stage."
+    },
+    {
+      "type": "heading",
+      "text": "RECOGNITION"
+    },
+    {
+      "type": "stage",
+      "text": "The opening musical identity becomes unmistakable. Mary’s friends, Joseph’s friends, children, villagers, dancers, praise team and choir return as the company telling the story. The manger remains visible and central."
+    },
+    {
+      "type": "character",
+      "text": "COMPANY"
+    },
+    {
+      "type": "dialogue",
+      "text": "OHHH-OH... OOOH-OOH-OOH..."
+    },
+    {
+      "type": "heading",
+      "text": "EXPANSION"
+    },
+    {
+      "type": "stage",
+      "text": "The Wise Men continue their procession. Children and Nia/Simon begin with recognizable Scene 1 movement vocabulary. Friends layer into the architecture. Shepherds rise and join the celebration."
+    },
+    {
+      "type": "heading",
+      "text": "DANCE"
+    },
+    {
+      "type": "stage",
+      "text": "The music opens into the final choreographic celebration. Use transformed Scene 1 movement vocabulary. Mary and Joseph remain with the child rather than joining the full-out choreography."
+    },
+    {
+      "type": "heading",
+      "text": "VOCAL PEAK"
+    },
+    {
+      "type": "stage",
+      "text": "Children, friends, shepherds, praise team / choir and full company layer into the production’s largest musical scale."
+    },
+    {
+      "type": "stage",
+      "text": "FINAL SUNG STATEMENT. FINAL CHORD."
+    },
+    {
+      "type": "heading",
+      "text": "SURRENDER"
+    },
+    {
+      "type": "stage",
+      "text": "Over the final sustained musical and lighting counts, the company simplifies. Dancers finish their final traveling phrase and become still. Eyelines return toward the child."
+    },
+    {
+      "type": "heading",
+      "text": "FINAL IMAGE"
+    },
+    {
+      "type": "stage",
+      "text": "Mary, Joseph and Jesus remain low and central. The Young Shepherd may kneel nearest the family. Shepherds occupy one side; Wise Men the opposite side, gifts visible. Nia and Simon remain offset. Friends, children, villagers, praise team and company form layered heights farther out. Dancers frame the outer picture."
+    },
+    {
+      "type": "stage",
+      "text": "HOLD. One. Two. Three. FAST, CLEAN BLACKOUT."
+    },
+    {
+      "type": "heading",
+      "text": "END OF CHOSEN: THE STORY BEFORE THE MANGER"
+    }
+  ]
+}
