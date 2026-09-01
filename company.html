@@ -6,26 +6,26 @@
 <body data-page="company">
 <header class="sitebar"><div class="inner"><a class="brand" href="index.html"><small>THE FAITH CENTER PRESENTS</small><b>CHOSEN 2026</b><span>Company Hub</span></a><button id="menuBtn" class="menu" aria-expanded="false">Menu</button><nav id="nav"><a href="this-week.html">This Week</a><a href="scripts.html">Scripts</a><a href="music.html">Music</a><a href="schedule.html">Schedule</a><a href="company.html">Company</a></nav></div></header>
 <main>
-<section class="sub companyIntro"><p class="ey">YOUR COMPANY</p><h1>Company</h1><p>Know your role, your scenes, your responsibilities, and where to get help.</p></section>
+<section class="sub companyIntro"><p class="ey">YOUR COMPANY</p><h1>Company</h1><p>Find your role, your scenes, and what you need for rehearsal.</p></section>
 <section class="companyStart">
 <div class="head"><p class="ey">START HERE</p><h2>What do you need?</h2></div>
 <div class="companyChoices">
-<a href="#my-role" class="companyChoice"><span>01</span><b>Find My Role</b><small>Roles, scenes + understudy assignments</small></a>
-<a href="#dance" class="companyChoice"><span>02</span><b>Dance Ensemble</b><small>Roster + dance scenes</small></a>
-<a href="#essentials" class="companyChoice"><span>03</span><b>Company Essentials</b><small>How CHOSEN works</small></a>
-<a href="#help" class="companyChoice"><span>04</span><b>Get Help</b><small>Forms, communication + support</small></a>
+<a href="#my-role" class="companyChoice"><span>01</span><b>My Role & Scenes</b><small>See your role, scenes, and understudy assignment</small></a>
+<a href="#dance" class="companyChoice"><span>02</span><b>Dance Ensemble</b><small>See who's dancing and in which scenes</small></a>
+<a href="#essentials" class="companyChoice"><span>03</span><b>Company Basics</b><small>What every cast member needs to know</small></a>
+<a href="#help" class="companyChoice"><span>04</span><b>Get Help</b><small>Absence, WhatsApp, and production help</small></a>
 </div></section>
 
 <section id="my-role" class="companySection">
-<p class="ey">MY ROLE</p><h2>Where do I fit in CHOSEN?</h2><p class="sectionLead">Choose your name. Your official role, scenes and understudy assignment will appear below.</p>
+<p class="ey">MY ROLE</p><h2>Find your role and scenes</h2><p class="sectionLead">Choose your name to see your role, scenes, and understudy assignment.</p>
 <div class="roleFinder">
-<label for="castSelect">Find your name</label>
+<label for="castSelect">Start here. Find your name.</label>
 <select id="castSelect"><option value="">Select your name…</option></select>
 <div id="roleResult" class="roleResult" hidden></div>
 </div></section>
 
 <section id="dance" class="companySection">
-<p class="ey">DANCE ENSEMBLE</p><h2>Dance assignments</h2><p class="sectionLead">The current Dance Ensemble is assigned to dance in Scenes <strong>1, 9 and 12</strong>.</p>
+<p class="ey">DANCE ENSEMBLE</p><h2>Dance assignments</h2><p class="sectionLead">Dance numbers are in Scenes <strong>1, 9 and 12</strong>.</p>
 <button id="danceToggle" class="btn" type="button" aria-expanded="false">View Dance Ensemble</button>
 <div id="danceRoster" class="danceRoster" hidden></div>
 </section>
@@ -33,25 +33,25 @@
 <section id="essentials" class="companySection">
 <p class="ey">COMPANY ESSENTIALS</p><h2>Be early. Be kind. Be ready.</h2>
 <div class="essentialGrid">
-<article><h3>Before rehearsal</h3><p>Check the Hub for your current call, time, location and assignment. Bring your script or rehearsal material, something to take notes with, water, and the shoes or attire requested for your work.</p></article>
-<article><h3>Attendance</h3><p>If you will be absent or late, report it as soon as you know. Same-day emergencies should be communicated promptly through the official production process.</p><a class="inlineAction" data-link="absence" href="#">Report absence / late →</a></article>
-<article><h3>In the room</h3><p>Arrive ready to work. Keep phones silent during rehearsal, avoid side conversations during notes, follow the rehearsal leader, and respect everyone's time.</p></article>
-<article><h3>Honor + safety</h3><p>Treat company members with kindness and respect. Report injuries, unsafe conditions, harassment or serious concerns to production leadership immediately.</p></article>
-<article><h3>Costumes + props</h3><p>Handle only assigned production materials. Treat costumes and props with care, return items to their proper place, and follow Wardrobe and Stage Management instructions.</p></article>
-<article><h3>Children + youth</h3><p>Parents and guardians should follow the production's check-in, pickup and communication procedures. Youth remain under designated production supervision during their call.</p></article>
+<article><h3>Before rehearsal</h3><p>Check the Hub before you leave home. Bring your script, notes, water, and anything listed for rehearsal.</p></article>
+<article><h3>Attendance</h3><p>Going to be late or absent? Tell us as soon as you know.</p><a class="inlineAction" data-link="absence" href="#">Report absence / late →</a></article>
+<article><h3>In the room</h3><p>Be ready to work. Keep phones silent. Hold side conversations during notes. Follow the rehearsal leader and respect everyone's time.</p></article>
+<article><h3>Honor + safety</h3><p>Treat everyone with respect. If something feels unsafe or someone is hurt, tell production leadership right away.</p></article>
+<article><h3>Costumes + props</h3><p>Use only the props and costumes assigned to you. Return everything where it belongs.</p></article>
+<article><h3>Children + youth</h3><p>Parents and guardians: follow the production's check-in, pickup, and communication instructions. Youth stay with their assigned production leader during rehearsal.</p></article>
 </div>
-<div class="sourceTruth"><strong>One source of truth.</strong><span>The Company Hub is the company-facing source for current rehearsal information. WhatsApp is used to announce important updates; check the Hub for the current plan.</span></div>
+<div class="sourceTruth"><strong>Before you leave home, check the Hub.</strong><span>WhatsApp tells you something changed. The Hub tells you the current plan.</span></div>
 </section>
 
 <section id="help" class="companySection">
 <p class="ey">GET HELP</p><h2>Go straight to the right place.</h2>
 <div class="helpGrid">
-<a data-link="absence" href="#"><b>Report Absence / Late</b><span>Tell production as soon as you know.</span></a>
-<a data-link="whatsapp" href="#"><b>Company WhatsApp</b><span>Announcements and rehearsal-critical communication.</span></a>
-<a href="schedule.html"><b>Schedule / My Calls</b><span>Dates, times, locations and who is called.</span></a>
-<a href="scripts.html"><b>Official Scripts</b><span>Current company rehearsal material.</span></a>
-<a href="music.html"><b>Music</b><span>Current rehearsal tracks and lyrics.</span></a>
-<a data-link="help" href="#"><b>Production Help</b><span>Technology or production assistance.</span></a>
+<a data-link="absence" href="#"><b>Report Absence / Late</b><span>Can't make rehearsal or running late?</span></a>
+<a data-link="whatsapp" href="#"><b>Company WhatsApp</b><span>Company announcements and updates.</span></a>
+<a href="schedule.html"><b>Schedule / My Calls</b><span>See when and where you're needed.</span></a>
+<a href="scripts.html"><b>Official Scripts</b><span>Read the current script.</span></a>
+<a href="music.html"><b>Music</b><span>Rehearsal tracks and lyrics.</span></a>
+<a data-link="help" href="#"><b>Production Help</b><span>Need help? Start here.</span></a>
 </div></section>
 </main>
 <footer><b>CHOSEN 2026</b><span>Company Hub</span><small id="updated"></small></footer>

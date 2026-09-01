@@ -38,3 +38,11 @@
  .companySection{padding-top:38px}
  .companyChoice,.helpGrid a{padding:17px}
 }
+
+/* ===== COMPANY CLARITY POLISH ===== */
+.roleMeta.single{grid-template-columns:1fr}
+.sourceTruth strong{max-width:280px}
+.sourceTruth span{font-size:.98rem}
+@media(max-width:560px){
+  .sourceTruth strong{max-width:none}
+}
