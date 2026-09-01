@@ -116,13 +116,14 @@
   "readUrl": "scene-11.html",
   "pdfUrl": "scene-11.pdf"
 },
-  {
-    "scene": "12",
-    "title": "Good News / Shepherds / Finale",
-    "status": "Current company version pending",
-    "approved": false,
-    "companyPublish": false,
-    "readUrl": "#",
-    "pdfUrl": "#"
-  }
+{
+  "scene": "12",
+  "title": "Good News / Shepherds / Finale",
+  "status": "CURRENT · Approved company version",
+  "approved": true,
+  "companyPublish": true,
+  "source": "data/scenes/scene-12.json",
+  "readUrl": "scene-12.html",
+  "pdfUrl": "scene-12.pdf"
+},
 ]
