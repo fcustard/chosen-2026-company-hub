@@ -173,11 +173,12 @@
     {
       "scene": "11",
       "title": "No Room",
-      "status": "Current company version pending",
-      "approved": false,
-      "companyPublish": false,
-      "readUrl": "#",
-      "pdfUrl": "#"
+      "status": "CURRENT · Approved dialogue / staging",
+      "approved": true,
+      "companyPublish": true,
+      "source": "data/scenes/scene-11.json",
+      "readUrl": "scene-11.html",
+      "pdfUrl": "scene-11.pdf"
     },
     {
       "scene": "12",
