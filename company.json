@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "source": "CHOSEN 2026 Company Roster",
+  "people": [
+    {
+      "id": "alexandria-platt",
+      "name": "Alexandria Platt",
+      "roles": "CHILD 3 / DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Children/Youth"
+      ]
+    },
+    {
+      "id": "allania-mitchell",
+      "name": "Allania Mitchell",
+      "roles": "DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "alyssa-johnson",
+      "name": "Alyssa Johnson",
+      "roles": "DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "amadeus-hills",
+      "name": "Amadeus Hills",
+      "roles": "ROMAN ANNOUNCER / DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "anaia-downer",
+      "name": "Anaia Downer",
+      "roles": "GOSSIPER 1 / DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": "Dafna",
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "annalise-mongeois",
+      "name": "Annalise Mongeois",
+      "roles": "CHILD 1 / DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Children/Youth"
+      ]
+    },
+    {
+      "id": "annette-jordan",
+      "name": "Annette Jordan",
+      "roles": "VILLAGE AUNTIE (Elizabeth's Friend) / ENSEMBLE",
+      "scenes": [
+        1,
+        7,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "ariella-davidson",
+      "name": "Ariella Davidson",
+      "roles": "CHILD 2 / DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Children/Youth"
+      ]
+    },
+    {
+      "id": "arielle-brown",
+      "name": "Arielle Brown",
+      "roles": "DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "ashley-pierre",
+      "name": "Ashley Pierre",
+      "roles": "DAFNA (Mary's Friend)",
+      "scenes": [
+        1,
+        4,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "aubrie-lewis",
+      "name": "Aubrie Lewis",
+      "roles": "DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "audrey-howell-mcclenney",
+      "name": "Audrey Howell-McClenney",
+      "roles": "ELIZABETH",
+      "scenes": [
+        1,
+        7,
+        8,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "caleb-davilmar",
+      "name": "Caleb Davilmar",
+      "roles": "JOSEPH",
+      "scenes": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "caris-hunte",
+      "name": "Caris Hunte",
+      "roles": "DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "carmen-brown",
+      "name": "Carmen Brown",
+      "roles": "DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "cedrick-massey",
+      "name": "Cedrick Massey",
+      "roles": "GABRIEL (Angel)",
+      "scenes": [
+        3,
+        7,
+        12
+      ],
+      "understudy": "Joseph",
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "charla-yvonne-cornelius",
+      "name": "Charla-Yvonne Cornelius",
+      "roles": "WOMAN CUSTOMER 1 / ANNA — Innkeeper's Wife",
+      "scenes": [
+        1,
+        11,
+        12
+      ],
+      "understudy": "Elizabeth",
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "chris-mcanuff",
+      "name": "Chris Mcanuff",
+      "roles": "EZRA (Joseph's Friend)",
+      "scenes": [
+        1,
+        5,
+        7,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "dana-quamina",
+      "name": "Dana Quamina",
+      "roles": "VILLAGER WOMAN 2 / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "deandra-gray",
+      "name": "DeAndra Gray",
+      "roles": "DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "delvin-rogers-jr",
+      "name": "Delvin Rogers Jr",
+      "roles": "YOUNG SHEPHERD / DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Children/Youth",
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "dorrien-jones",
+      "name": "Dorrien Jones",
+      "roles": "CALEB (Joseph's Friend)",
+      "scenes": [
+        1,
+        5,
+        7,
+        9,
+        10,
+        12
+      ],
+      "understudy": "Roman Announcer",
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "edison-browne",
+      "name": "Edison Browne",
+      "roles": "SHEPHERD 1 / ENSEMBLE",
+      "scenes": [
+        1,
+        12
+      ],
+      "understudy": "Malachi",
+      "danceEnsemble": false,
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "etta-wright",
+      "name": "Etta Wright",
+      "roles": "MERCHANT 1 / VILLAGER WOMAN 3 / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "fredrick-custard",
+      "name": "Fredrick Custard",
+      "roles": "VILLAGER MAN / INNKEEPER 1",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "gabriela-sardinas",
+      "name": "Gabriela Sardinas",
+      "roles": "GOSSIPER 4 / ENSEMBLE",
+      "scenes": [
+        1,
+        4,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "gabriella-fearon",
+      "name": "Gabriella Fearon",
+      "roles": "DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "gelvina-maxime",
+      "name": "Gelvina Maxime",
+      "roles": "NIA (Child Storyteller) / DANCER",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Children/Youth",
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "james-myers",
+      "name": "James Myers",
+      "roles": "SIMON (Child Storyteller) / DANCER",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Children/Youth",
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "jayden-harris",
+      "name": "Jayden Harris",
+      "roles": "MERCHANT 2 / SHEPHERD 2 / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": "Ezra (Joseph's Friend)",
+      "danceEnsemble": false,
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "jeovanie-andre",
+      "name": "Jéovanie André",
+      "roles": "ADINA (Mary's Friend)",
+      "scenes": [
+        1,
+        4,
+        9,
+        10,
+        12
+      ],
+      "understudy": "Mary",
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "jordyn-starks",
+      "name": "Jordyn Starks",
+      "roles": "MARY",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "kennedy-mccalla",
+      "name": "Kennedy McCalla",
+      "roles": "DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "kevin-hohn",
+      "name": "Kevin Hohn",
+      "roles": "CUSTOMER 1 / ELI — INNKEEPER 4",
+      "scenes": [
+        1,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "kourtney-ann-palmer",
+      "name": "Kourtney—Ann Palmer",
+      "roles": "DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "lauryn-butler",
+      "name": "Lauryn Butler",
+      "roles": "ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "marcus-mainer",
+      "name": "Marcus Mainer",
+      "roles": "LEVI (Joseph's Friend)",
+      "scenes": [
+        1,
+        5,
+        7,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "marissa-downie",
+      "name": "Marissa Downie",
+      "roles": "VILLAGER WOMAN 1 / DANCER",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers"
+      ]
+    },
+    {
+      "id": "michael-stover",
+      "name": "Michael Stover",
+      "roles": "MALACHI (Joseph's Friend)",
+      "scenes": [
+        1,
+        5,
+        7,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "moenike-custard",
+      "name": "Moenike Custard",
+      "roles": "DANCER / ENSEMBLE / INNKEEPER 2",
+      "scenes": [
+        1,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "nelcia-fosttin",
+      "name": "Nelcia Fosttin",
+      "roles": "DANCER / ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ]
+    },
+    {
+      "id": "sandra-johnson",
+      "name": "Sandra Johnson",
+      "roles": "VILLAGER / VILLAGE AUNTIE (Elizabeth's Friend) / ENSEMBLE",
+      "scenes": [
+        1,
+        7,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "shanice-palmer",
+      "name": "Shanice Palmer",
+      "roles": "GOSSIPER 2",
+      "scenes": [
+        1,
+        4,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": "Shira",
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "tasha-simeon",
+      "name": "Tasha Simeon",
+      "roles": "TALIA (Mary's Friend)",
+      "scenes": [
+        1,
+        4,
+        9,
+        10
+      ],
+      "understudy": "Innkeeper's Wife",
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "tyfany-adaka",
+      "name": "Tyfany Adaka",
+      "roles": "SHIRA (Mary's Friend)",
+      "scenes": [
+        1,
+        4,
+        6,
+        7,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    },
+    {
+      "id": "victorya-champagne",
+      "name": "Victorya Champagne",
+      "roles": "GOSSIPER 3",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": "Adina",
+      "danceEnsemble": false,
+      "groups": [
+        "Principals/Featured"
+      ]
+    }
+  ]
+}

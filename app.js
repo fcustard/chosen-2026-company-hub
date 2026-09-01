@@ -8,27 +8,6 @@ document.addEventListener('DOMContentLoaded',async()=>{
  if(m&&n){m.onclick=()=>{const o=n.classList.toggle('open');m.setAttribute('aria-expanded',o)};n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');m.setAttribute('aria-expanded','false')}))}
  const d=await load();if(!d)return;
  document.querySelectorAll('[data-link]').forEach(a=>link(a,d.links?.[a.dataset.link]));
-
- // Build Google Calendar subscribe link from the same public calendar feed used by Apple Calendar.
- const googleCalendarLink=document.querySelector('#googleCalendarLink');
- if(googleCalendarLink){
-   const ics=String(d.links?.appleCalendar||'');
-   let calendarId='';
-   try{
-     const m=ics.match(/\/calendar\/ical\/([^/]+)\/public\/basic\.ics/i);
-     if(m&&m[1]) calendarId=decodeURIComponent(m[1]);
-   }catch(e){}
-   if(calendarId){
-     googleCalendarLink.href=`https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(calendarId)}`;
-     googleCalendarLink.target='_blank';
-     googleCalendarLink.rel='noopener';
-   }else{
-     googleCalendarLink.setAttribute('aria-disabled','true');
-     googleCalendarLink.classList.add('disabledLink');
-     googleCalendarLink.title='Google Calendar subscription link unavailable';
-   }
- }
-
  const u=document.querySelector('#updated');if(u)u.textContent=d.updated?`Updated ${d.updated}`:'';
  if(document.body.dataset.page==='home'){const x=d.nextRehearsal||{};nrDay.textContent=x.day||'NEXT REHEARSAL';nrDate.textContent=x.date||'See schedule';nrTime.textContent=x.time||'';nrLocation.textContent=x.location||'';nrFocus.textContent=x.focus||'';if(nrLink)nrLink.textContent='Open rehearsal plan';link(nrLink,x.url||'schedule.html')}
  if(document.body.dataset.page==='week'){const w=d.thisWeek||{};weekLabel.textContent=w.label||'THIS WEEK';weekTitle.textContent=w.title||'This Week';weekIntro.textContent='Your call time, assignment and prep—everything you need before rehearsal.';weekList.innerHTML=(w.rehearsals||[]).map(x=>`<article class="rehearsal"><div class="rehTop"><div><p class="ey">${esc(x.date)}</p><h2>${esc(x.title)}</h2></div><span class="status">${esc(x.status)}</span></div><div class="rehFacts"><div><b>WHEN</b><span>${esc(x.time)}</span></div><div><b>WHERE</b><span>${esc(x.location)}</span></div></div><div class="rehBody"><div><b>WHO IS CALLED</b><p>${lines(x.called)}</p></div><div><b>WHAT WE'RE WORKING ON</b><p>${lines(x.work)}</p></div><div><b>PREP</b><p>${lines(x.prep)}</p></div>${x.notice?`<div class="callout"><b>IMPORTANT</b><p>${lines(x.notice)}</p></div>`:''}</div><div class="actions">${btn('Scripts',x.scriptUrl,'primary')}${btn('Music',x.musicUrl)}<a class="btn" href="schedule.html">Full schedule</a></div></article>`).join('');
@@ -45,42 +24,32 @@ document.addEventListener('DOMContentLoaded',async()=>{
   const all=d.schedule?.rehearsals||[], now=new Date();
   const allGroups=d.schedule?.availableGroups||[];
   const storageKey='chosen2026-call-groups';
+  const personKey='chosen2026-person';
+  let personalView=false;
+  let person=null;
+  try{
+    const personId=localStorage.getItem(personKey);
+    if(personId){
+      const rr=await fetch('company.json',{cache:'no-store'});
+      if(rr.ok){
+        const roster=await rr.json();
+        person=(roster.people||[]).find(p=>p.id===personId)||null;
+        personalView=!!person;
+      }
+    }
+  }catch(e){}
+
+  function norm(v=''){
+    return String(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  }
 
   function parseDateParts(x){
-    const tz='America/New_York';
-    const fromDate=(dt)=>({
-      dow:new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:tz}).format(dt).toUpperCase(),
-      mon:new Intl.DateTimeFormat('en-US',{month:'short',timeZone:tz}).format(dt).toUpperCase(),
-      day:new Intl.DateTimeFormat('en-US',{day:'2-digit',timeZone:tz}).format(dt)
-    });
-
-    // Primary source: the published ISO start timestamp.
-    if(x.start){
-      const dt=new Date(x.start);
-      if(!Number.isNaN(dt.getTime())) return fromDate(dt);
-    }
-
-    // Fallback 1: labels already produced by the Master Calendar feed,
-    // e.g. "WED · SEP 2" or "WEDNESDAY · SEPTEMBER 2".
-    const label=String(x.date||x.day||x.dateLabel||x.dayLabel||'').trim();
-    const parts=label.replace(/·/g,' ').split(/\s+/).filter(Boolean);
-    if(parts.length>=3){
-      const dow=parts[0].slice(0,3).toUpperCase();
-      const mon=parts[1].slice(0,3).toUpperCase();
-      const rawDay=parts.findLast ? parts.findLast(p=>/^\d{1,2}$/.test(p)) : [...parts].reverse().find(p=>/^\d{1,2}$/.test(p));
-      if(rawDay) return {dow,mon,day:String(rawDay).padStart(2,'0')};
-    }
-
-    // Fallback 2: event id in YYYY-MM-DD form.
-    const idMatch=String(x.id||'').match(/^(\d{4})-(\d{2})-(\d{2})$/);
-    if(idMatch){
-      const dt=new Date(`${idMatch[1]}-${idMatch[2]}-${idMatch[3]}T12:00:00-05:00`);
-      if(!Number.isNaN(dt.getTime())) return fromDate(dt);
-    }
-
-    // Never return blank text; a bad feed record becomes visible instead of silent.
-    console.error('CHOSEN schedule date could not be rendered:',x);
-    return {dow:'DATE',mon:'TBD',day:'—'};
+    const dt=new Date(x.start);
+    return {
+      dow:new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/New_York'}).format(dt).toUpperCase(),
+      mon:new Intl.DateTimeFormat('en-US',{month:'short',timeZone:'America/New_York'}).format(dt).toUpperCase(),
+      day:new Intl.DateTimeFormat('en-US',{day:'2-digit',timeZone:'America/New_York'}).format(dt)
+    };
   }
 
   function locationInfo(x){
@@ -97,6 +66,9 @@ document.addEventListener('DOMContentLoaded',async()=>{
     const loc=locationInfo(x);
     if(loc.isUrl){
       return `<a class="locationLink" href="${esc(loc.raw)}" target="_blank" rel="noopener">Join virtual rehearsal ↗</a>`;
+    }
+    if(loc.isVirtual){
+      return `<span class="locationPlain">${esc(loc.short)}</span>`;
     }
     if(!loc.address || loc.address==='TBD'){
       return `<span class="locationPlain">${esc(loc.short)}</span>`;
@@ -120,8 +92,34 @@ document.addEventListener('DOMContentLoaded',async()=>{
   const pastList=document.querySelector('#pastSchedule');
   const upcomingEmpty=document.querySelector('#upcomingEmpty');
   const clearBtn=document.querySelector('#clearCallFilters');
+  const personalPanel=document.querySelector('#personalSchedulePanel');
+  const personalTitle=document.querySelector('#personalScheduleTitle');
+  const personalLead=document.querySelector('#personalScheduleLead');
+  const showMine=document.querySelector('#showMyCalls');
+  const showAll=document.querySelector('#showAllCalls');
+  const groupPanel=document.querySelector('#groupFilterPanel');
+
+  function personMatches(x){
+    if(!person)return true;
+    const groups=Array.isArray(x.callGroups)?x.callGroups:[];
+    if(groups.includes('Full Company'))return true;
+
+    const called=norm(x.called||'');
+    const full=norm(person.name||'');
+    const parts=full.split(/\s+/).filter(Boolean);
+    const first=parts[0]||'';
+    const last=parts[parts.length-1]||'';
+
+    if(full && called.includes(full))return true;
+    if(first && first.length>=4 && called.includes(first))return true;
+    if(last && last.length>=4 && called.includes(last))return true;
+
+    const pg=Array.isArray(person.groups)?person.groups:[];
+    return pg.some(g=>groups.includes(g));
+  }
 
   function groupMatches(x){
+    if(personalView && person)return personMatches(x);
     if(!selected.length) return true;
     const groups=Array.isArray(x.callGroups)?x.callGroups:[];
     if(groups.includes('Full Company')) return true;
@@ -200,17 +198,47 @@ document.addEventListener('DOMContentLoaded',async()=>{
     if(pastList)pastList.innerHTML=past.map(card).join('');
     if(upcomingEmpty){
       upcomingEmpty.hidden=upcoming.length>0;
-      upcomingEmpty.textContent=selected.length
-        ? 'No upcoming rehearsals match your selected call group(s).'
-        : 'No upcoming published rehearsals.';
+      upcomingEmpty.textContent=personalView&&person
+        ? 'No upcoming rehearsals currently match your saved profile.'
+        : selected.length
+          ? 'No upcoming rehearsals match your selected call group(s).'
+          : 'No upcoming published rehearsals.';
     }
     if(filterCount){
-      filterCount.textContent=selected.length
-        ? `${selected.length} call group${selected.length===1?'':'s'} selected`
-        : 'Showing all calls';
+      filterCount.textContent=personalView&&person
+        ? `Personalized for ${person.name}`
+        : selected.length
+          ? `${selected.length} call group${selected.length===1?'':'s'} selected`
+          : 'Showing all calls';
     }
   }
 
+  function renderPersonalControls(){
+    if(!person){
+      if(personalPanel)personalPanel.hidden=true;
+      if(groupPanel)groupPanel.hidden=false;
+      return;
+    }
+    if(personalPanel){
+      personalPanel.hidden=false;
+      const first=String(person.name||'').split(/\s+/)[0]||'';
+      if(personalTitle)personalTitle.textContent=`${first}, here are your calls`;
+      if(personalLead)personalLead.textContent=personalView
+        ? 'Showing rehearsals that match your name or company groups.'
+        : 'Showing the full company schedule.';
+    }
+    if(groupPanel)groupPanel.hidden=personalView;
+    if(showMine){
+      showMine.classList.toggle('primary',personalView);
+      showMine.onclick=()=>{personalView=true;renderPersonalControls();renderSchedule();};
+    }
+    if(showAll){
+      showAll.classList.toggle('primary',!personalView);
+      showAll.onclick=()=>{personalView=false;renderPersonalControls();renderSchedule();};
+    }
+  }
+
+  renderPersonalControls();
   renderFilters();
   renderSchedule();
 

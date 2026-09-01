@@ -1,0 +1,23 @@
+
+/* ===== PERSONALIZATION V1 ===== */
+.personalSchedulePanel{
+  background:#fff;
+  border:1px solid var(--line);
+  border-top:3px solid var(--g);
+  border-radius:18px;
+  padding:20px;
+  margin-bottom:16px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+}
+.personalSchedulePanel[hidden]{display:none}
+.personalSchedulePanel h3{margin:4px 0;font:700 1.45rem Georgia,serif}
+.personalScheduleActions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.locationPlain{display:inline-block;font-weight:800;margin-top:6px}
+@media(max-width:700px){
+  .personalSchedulePanel{align-items:flex-start;flex-direction:column}
+  .personalScheduleActions{width:100%}
+  .personalScheduleActions .btn{flex:1}
+}
