@@ -1,4 +1,3 @@
-/* CHOSEN 2026 Schedule: All Calls + date badge fix verified 2026-08-31 */
 async function load(){try{const r=await fetch('content.json',{cache:'no-store'});return await r.json()}catch(e){return null}}
 function link(el,u){if(!el||!u||u==='#')return;el.href=u;if(u.startsWith('http')){el.target='_blank';el.rel='noopener'}}
 function esc(v=''){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
@@ -9,6 +8,27 @@ document.addEventListener('DOMContentLoaded',async()=>{
  if(m&&n){m.onclick=()=>{const o=n.classList.toggle('open');m.setAttribute('aria-expanded',o)};n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');m.setAttribute('aria-expanded','false')}))}
  const d=await load();if(!d)return;
  document.querySelectorAll('[data-link]').forEach(a=>link(a,d.links?.[a.dataset.link]));
+
+ // Build Google Calendar subscribe link from the same public calendar feed used by Apple Calendar.
+ const googleCalendarLink=document.querySelector('#googleCalendarLink');
+ if(googleCalendarLink){
+   const ics=String(d.links?.appleCalendar||'');
+   let calendarId='';
+   try{
+     const m=ics.match(/\/calendar\/ical\/([^/]+)\/public\/basic\.ics/i);
+     if(m&&m[1]) calendarId=decodeURIComponent(m[1]);
+   }catch(e){}
+   if(calendarId){
+     googleCalendarLink.href=`https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(calendarId)}`;
+     googleCalendarLink.target='_blank';
+     googleCalendarLink.rel='noopener';
+   }else{
+     googleCalendarLink.setAttribute('aria-disabled','true');
+     googleCalendarLink.classList.add('disabledLink');
+     googleCalendarLink.title='Google Calendar subscription link unavailable';
+   }
+ }
+
  const u=document.querySelector('#updated');if(u)u.textContent=d.updated?`Updated ${d.updated}`:'';
  if(document.body.dataset.page==='home'){const x=d.nextRehearsal||{};nrDay.textContent=x.day||'NEXT REHEARSAL';nrDate.textContent=x.date||'See schedule';nrTime.textContent=x.time||'';nrLocation.textContent=x.location||'';nrFocus.textContent=x.focus||'';if(nrLink)nrLink.textContent='Open rehearsal plan';link(nrLink,x.url||'schedule.html')}
  if(document.body.dataset.page==='week'){const w=d.thisWeek||{};weekLabel.textContent=w.label||'THIS WEEK';weekTitle.textContent=w.title||'This Week';weekIntro.textContent='Your call time, assignment and prep—everything you need before rehearsal.';weekList.innerHTML=(w.rehearsals||[]).map(x=>`<article class="rehearsal"><div class="rehTop"><div><p class="ey">${esc(x.date)}</p><h2>${esc(x.title)}</h2></div><span class="status">${esc(x.status)}</span></div><div class="rehFacts"><div><b>WHEN</b><span>${esc(x.time)}</span></div><div><b>WHERE</b><span>${esc(x.location)}</span></div></div><div class="rehBody"><div><b>WHO IS CALLED</b><p>${lines(x.called)}</p></div><div><b>WHAT WE'RE WORKING ON</b><p>${lines(x.work)}</p></div><div><b>PREP</b><p>${lines(x.prep)}</p></div>${x.notice?`<div class="callout"><b>IMPORTANT</b><p>${lines(x.notice)}</p></div>`:''}</div><div class="actions">${btn('Scripts',x.scriptUrl,'primary')}${btn('Music',x.musicUrl)}<a class="btn" href="schedule.html">Full schedule</a></div></article>`).join('');
