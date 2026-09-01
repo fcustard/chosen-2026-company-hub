@@ -10,10 +10,10 @@
   },
   "nextRehearsal": {
     "day": "WEDNESDAY · SEPTEMBER 2",
-    "date": "Scenes 1 & 4",
+    "date": "Scenes 1 & 4 — Character Development + Light Blocking",
     "time": "6:30 PM–9:30 PM",
-    "location": "The Faith Center · Sunrise",
-    "focus": "Character development, dialogue and light blocking.",
+    "location": "The Faith Center - Sunrise",
+    "focus": "Scenes 1 & 4 — Character Development + Light Blocking",
     "url": "this-week.html"
   },
   "thisWeek": {
@@ -24,12 +24,12 @@
       {
         "date": "WED · SEP 2",
         "time": "6:30 PM–9:30 PM",
-        "title": "Scenes 1 & 4",
+        "title": "Scenes 1 & 4 — Character Development + Light Blocking",
         "status": "CONFIRMED",
-        "location": "The Faith Center · 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "Mary (Jordyn), Talia (Tasha), Shira (Tiffany), Adina (Jeovanie), Dafna (Ashley)",
-        "work": "Welcome to Nazareth / The Secret — character development, dialogue and light blocking.",
-        "prep": "Arrive ready to work at 6:30 PM with the applicable scenes available.",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30–9:30 PM — Mary (Jordyn), Talia (Tasha), Shira (Tiffany), Adina (Jeovanie), Dafna (Ashley)",
+        "work": "Welcome to Nazareth / The Secret: character development, dialogue, and light blocking.",
+        "prep": "Actors: Please arrive ready to work at your scheduled call time with the applicable scenes available.",
         "notice": "",
         "scriptUrl": "scripts.html",
         "musicUrl": "music.html"
@@ -37,12 +37,12 @@
       {
         "date": "THU · SEP 3",
         "time": "6:30 PM–9:30 PM",
-        "title": "Scenes 1, 3 & 5",
+        "title": "Scenes 1, 3 & 5 — Character Development + Light Blocking",
         "status": "CONFIRMED",
-        "location": "The Faith Center · 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM — Mary (Jordyn), Gabriel (Cedrick). 6:30–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris).",
-        "work": "Welcome to Nazareth / Chosen / Brotherhood — character development, dialogue and light blocking.",
-        "prep": "Check your individual call window and have the applicable scenes available.",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30–8:00 PM — Mary (Jordyn), Gabriel (Cedrick)/\n6:30–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+        "work": "Welcome to Nazareth / \"Chosen\" / Brotherhood: character development, dialogue, and light blocking.",
+        "prep": "Actors: Please arrive ready to work at your scheduled call time with the applicable scenes available.",
         "notice": "",
         "scriptUrl": "scripts.html",
         "musicUrl": "music.html"
@@ -52,11 +52,11 @@
         "time": "10:00 AM–2:00 PM",
         "title": "Scene 1 — Full Company Staging",
         "status": "CONFIRMED",
-        "location": "The Faith Center · 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dance Ensemble. 12:00–2:00 PM — all other Scene 1 cast members.",
-        "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence and satchel transition.",
-        "prep": "Dance Ensemble: bring dance shoes. Everyone: bring a snack and drink for the 12:00–12:15 PM break.",
-        "notice": "Saturday staging is subject to a homegoing-service change. Check the live schedule before traveling.",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia / Child Storyteller, Simon / Child Storyteller, Mary (Jordyn), Talia (Tasha), Shira (Tiffany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela                     12:00 PM–2:00 PM —   All Other Cast Members",
+        "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
+        "prep": "Dance Ensemble: Bring dance shoes. *If you are not sure if you are apart of the Dance Ensemble, please confirm with Ms. Lounise immediately.*                                   Everyone: Bring a snack and drink for the 12:00–12:15 PM break.",
+        "notice": "",
         "scriptUrl": "scripts.html",
         "musicUrl": "music.html"
       }
