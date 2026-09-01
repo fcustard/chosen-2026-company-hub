@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
     const apple=`https://maps.apple.com/?q=${q}`;
     const google=`https://www.google.com/maps/search/?api=1&query=${q}`;
     const waze=`https://www.waze.com/ul?q=${q}&navigate=yes`;
-    return `<details class="directionsMenu"><summary class="locationLink">${esc(loc.short)} <span aria-hidden="true">↗</span></summary><div class="directionsChoices"><a href="${google}" target="_blank" rel="noopener">Google Maps</a><a href="${apple}" target="_blank" rel="noopener">Apple Maps</a><a href="${waze}" target="_blank" rel="noopener">Waze</a></div></details>`;
+    return `<details class="directionsMenu"><summary class="locationLink"><span class="locationName">${esc(loc.short)} <span aria-hidden="true">↗</span></span><span class="directionsCue">Get directions</span></summary><div class="directionsChoices"><a href="${google}" target="_blank" rel="noopener">Google Maps</a><a href="${apple}" target="_blank" rel="noopener">Apple Maps</a><a href="${waze}" target="_blank" rel="noopener">Waze</a></div></details>`;
   }
 
   let selected=[];
