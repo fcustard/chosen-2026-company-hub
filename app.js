@@ -1,3 +1,4 @@
+/* CHOSEN 2026 Schedule: All Calls + date badge fix verified 2026-08-31 */
 async function load(){try{const r=await fetch('content.json',{cache:'no-store'});return await r.json()}catch(e){return null}}
 function link(el,u){if(!el||!u||u==='#')return;el.href=u;if(u.startsWith('http')){el.target='_blank';el.rel='noopener'}}
 function esc(v=''){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}

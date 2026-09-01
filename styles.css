@@ -282,15 +282,15 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
   padding:9px 12px;font:800 .86rem/1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   cursor:pointer
 }
-.filterChip.active{background:var(--navy);color:white;border-color:var(--navy)}
-.filterHelp{font-size:.84rem;color:var(--muted);margin:12px 0 0}
+.filterChip.active{background:var(--n);color:white;border-color:var(--n)}
+.filterHelp{font-size:.84rem;color:var(--m);margin:12px 0 0}
 
 .scheduleCardGrid{display:grid;grid-template-columns:92px 1fr;gap:20px}
 .dateBlock{
-  background:var(--navy);color:#fff;border-radius:16px;padding:12px 8px;
+  background:var(--n);color:#fff;border-radius:16px;padding:12px 8px;
   text-align:center;align-self:start;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)
 }
-.dateDow{display:block;color:var(--gold);font-weight:900;letter-spacing:.13em;font-size:.76rem}
+.dateDow{display:block;color:var(--g);font-weight:900;letter-spacing:.13em;font-size:.76rem}
 .dateMonth{display:block;font-weight:900;letter-spacing:.08em;font-size:.82rem;margin-top:8px}
 .dateDay{display:block;font:700 2.25rem/1 Georgia,serif;margin-top:2px}
 .scheduleMain{min-width:0}
@@ -312,7 +312,7 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
   padding:8px 11px;border:1px solid #c8c0b2;border-radius:10px;
   color:var(--ink);font-weight:900;text-decoration:none;background:#faf8f2
 }
-.directionsChoices a:hover{border-color:var(--gold)}
+.directionsChoices a:hover{border-color:var(--g)}
 
 .groupTags{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}
 .groupTags span{
@@ -366,4 +366,34 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
   .hubTrust{font-size:.76rem}
   .schedulePromise{font-size:.9rem}
   .myCallsPanel{padding:16px}
+}
+
+
+/* ===== SCHEDULE HOTFIX — 2026-08-31 =====
+   Uses the Hub's existing variables: --n (navy), --g (gold), --m (muted).
+   This keeps All Calls visibly selected and restores the desktop date badge.
+*/
+.filterChip.active{
+  background:var(--n);
+  color:#fff;
+  border-color:var(--n);
+}
+.dateBlock{
+  background:var(--n);
+  color:#fff;
+}
+.dateDow{
+  color:var(--g);
+}
+.filterHelp{
+  color:var(--m);
+}
+@media(min-width:651px){
+  .scheduleCardGrid{
+    grid-template-columns:92px minmax(0,1fr);
+  }
+  .dateBlock{
+    display:block;
+    min-width:92px;
+  }
 }
