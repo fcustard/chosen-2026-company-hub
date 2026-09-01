@@ -65,6 +65,16 @@
   "schedule": {
     "title": "Production Schedule",
     "intro": "Current published rehearsal dates, call times, locations, assignments and preparation.",
+    "availableGroups": [
+      "Children/Youth",
+      "Choir/Vocalists",
+      "Crew/Tech",
+      "Dancers",
+      "Ensemble",
+      "Full Company",
+      "Principals/Featured",
+      "Targeted Cast"
+    ],
     "rehearsals": [
       {
         "id": "2026-08-27",
@@ -78,7 +88,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–9:30 PM — Full Company + core production team",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "Orientation; show overview; expectations; communication; music/delivery intro; Scene 1 company introduction",
         "prep": "Virtual rehearsal. Please have Scenes 1 & 2 available and be ready to work at your scheduled call time.",
         "notice": "",
@@ -97,7 +109,9 @@
         "location": "https://us02web.zoom.us/j/86440498367?pwd=l3xRoEgaPAlvf3PvPVBlIUsV2w6tJ8.1",
         "locationShort": "Virtual / Off-site",
         "called": "10:00 AM–11:15 AM —Child Storytellers;  Nia (Gelvina) &  Simon (James)/\n11:30 AM–12:45 PM — Mary (Jordyn), Talia (Tasha), Shira (Tiffany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/\n12:50 PM–2:00 PM — Mary (Jordyn), Joseph (Caleb)",
-        "callGroups": "Full Company",
+        "callGroups": [
+          "Full Company"
+        ],
         "work": "Principal actors: work through Scenes 1 & 2, develop character relationships, clarify objectives, and work through dialogue and scene beats.",
         "prep": "Please have Scenes 1 & 2 available and be ready for dialogue",
         "notice": "",
@@ -116,7 +130,10 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–9:30 PM — Mary (Jordyn), Talia (Tasha), Shira (Tiffany), Adina (Jeovanie), Dafna (Ashley)",
-        "callGroups": "Principals/Featured; Children/Youth",
+        "callGroups": [
+          "Principals/Featured",
+          "Children/Youth"
+        ],
         "work": "Welcome to Nazareth / The Secret: character development, dialogue, and light blocking.",
         "prep": "Actors: Please arrive ready to work at your scheduled call time with the applicable scenes available.",
         "notice": "",
@@ -135,7 +152,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–8:00 PM — Mary (Jordyn), Gabriel (Cedrick)/\n6:30–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": "Principals/Featured",
+        "callGroups": [
+          "Principals/Featured"
+        ],
         "work": "Welcome to Nazareth / \"Chosen\" / Brotherhood: character development, dialogue, and light blocking.",
         "prep": "Actors: Please arrive ready to work at your scheduled call time with the applicable scenes available.",
         "notice": "",
@@ -154,7 +173,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia / Child Storyteller, Simon / Child Storyteller, Mary (Jordyn), Talia (Tasha), Shira (Tiffany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela                     12:00 PM–2:00 PM —   All Other Cast Members",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
         "prep": "Dance Ensemble: Bring dance shoes. *If you are not sure if you are apart of the Dance Ensemble, please confirm with Ms. Lounise immediately.*                                   Everyone: Bring a snack and drink for the 12:00–12:15 PM break.",
         "notice": "",
@@ -173,7 +194,11 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tiffany), Adina (Jeovanie), Dafna (Ashley)                                                                      6:30–8:30 PM--- Dance Ensemble/\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)/",
-        "callGroups": "Principals/Featured; Dancers; Ensemble",
+        "callGroups": [
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
+        ],
         "work": "Scene 1 Dance Work; The Secret; The Truth / It's Not Mine table work and scene beats.",
         "prep": "Actors: Please have Scenes 1,4,6 available.",
         "notice": "",
@@ -192,7 +217,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–8:00 PM —Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/                                        6:30–8:30 PM----Dancers/\n8:00–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": "Principals/Featured",
+        "callGroups": [
+          "Principals/Featured"
+        ],
         "work": "Brotherhood scene work and Joseph-side material.",
         "prep": "Dance Ensemble: Come ready to review and learn new Choreography.    Actors: Come ready to go over dialouge and practice movement for Scene 5",
         "notice": "",
@@ -211,7 +238,9 @@
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site",
         "called": "10:00 AM–11:30 AM — Mary (Jordyn), Talia (Tasha), Shira (Tiffany), Adina (Jeovanie), Dafna (Ashley); 11:30 AM–12:30 PM- Mary + Friends, Joseph + Friends; 12:30 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": "Principals/Featured",
+        "callGroups": [
+          "Principals/Featured"
+        ],
         "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
         "prep": "Actors: Review dialouge, Learn songs",
         "notice": "",
@@ -230,7 +259,9 @@
         "location": "TBD",
         "locationShort": "TBD",
         "called": "6:30–8:00 PM — (Mary (Jordyn), Joseph (Caleb)/\n8:00–9:30 PM —  Mary (Jordyn), Elizabeth; Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": "Principals/Featured",
+        "callGroups": [
+          "Principals/Featured"
+        ],
         "work": "Two Roads of Faith; Mary/Elizabeth work; Joseph/Gabriel work.",
         "prep": "Actors: Dialouge & light blocking",
         "notice": "",
@@ -249,7 +280,10 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–8:30 PM — Dancers/\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
-        "callGroups": "Principals/Featured; Dancers",
+        "callGroups": [
+          "Principals/Featured",
+          "Dancers"
+        ],
         "work": "Scene 1 dance work; Reunion / Still Yours; Scene 2 music cleanup.",
         "prep": "Dance Ensemble: Be ready to transition to next part of the song. Actors: dialouge, light blocking and singing techniques.",
         "notice": "",
@@ -268,7 +302,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "FULL COMPANY REHEARSAL:                            10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)/  10:00AM-2:00PM- Dancers/ 11:00AM-2:00PM- Elizabeth(Audrey),Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris) /   12:00pm-2:00pm-ALL Other Cast Members",
-        "callGroups": "Full Company",
+        "callGroups": [
+          "Full Company"
+        ],
         "work": "Stage Scenes 6–8; transitions; spacing",
         "prep": "Dance Ensemble: Be ready to transition to next part of the song. Actors: dialouge, light blocking and singing techniques.",
         "notice": "",
@@ -287,7 +323,11 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–8:30 PM — Dancers, Child Storytellers Nia (Gelvina) Simon ( James)  Mary (Jordyn), Joseph (Caleb)/ 6:30PM-9:30PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey),Talia (Tasha), Shira (Tiffany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden),Gossip Girls (Annia, Victorya, Shanice, Gabriela)   Villagers (Etta), (Sandra) / Scene 9 Ensemble",
-        "callGroups": "Principals/Featured; Children/Youth; Ensemble",
+        "callGroups": [
+          "Principals/Featured",
+          "Children/Youth",
+          "Ensemble"
+        ],
         "work": "Children section + town/gossip setup",
         "prep": "Dance Ensemble: Starting Choreography to a New Song. Actors: Please look over Scene 9 so you are prepared for rehearsal",
         "notice": "",
@@ -306,7 +346,10 @@
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site",
         "called": "6:30PM-9:30PM- Mary (Jordyn), Caleb (Joseph)/        6:30PM-7:30PM- Actors ONLY: Child Speakers: (Child 1 (Neclia) Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina) Simon (James), Villager Woman 1 (Marissa), Village Woman 2 (Dana) /         7:15PM-9:30PM Nia (Gelvina) Simon (James),Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tiffany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Villager Man (Fredrick)  Gossip Girls (Annia, Victorya, Shanice, Gabriela) /Roman Announcer,(Amadeus Hills)",
-        "callGroups": "Principals/Featured; Ensemble",
+        "callGroups": [
+          "Principals/Featured",
+          "Ensemble"
+        ],
         "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
         "prep": "Virtual rehearsal because no TFC room is available. Physical journey work moves to Sept. 26 / Oct. 3. Connection details TBD.",
         "notice": "",
@@ -325,7 +368,10 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "10:00 AM–2:00 PM — Scene 9 Dancers/ Actors in Scene 9 & 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)/12:00 PM- 2:00 PM- All Other Cast Members",
-        "callGroups": "Principals/Featured; Ensemble",
+        "callGroups": [
+          "Principals/Featured",
+          "Ensemble"
+        ],
         "work": "Scene 9 blocking/choreography; recover physical Scene 10 journey work",
         "prep": "Specific scene-by-scene call list will be posted before rehearsal.",
         "notice": "",
@@ -344,7 +390,11 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–8:30 PM — Dancers/\n 6:30 PM- 9:30PM-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla",
-        "callGroups": "Principals/Featured; Children/Youth; Ensemble",
+        "callGroups": [
+          "Principals/Featured",
+          "Children/Youth",
+          "Ensemble"
+        ],
         "work": "No Room table/rhythm; birth staging discussion",
         "prep": "",
         "notice": "",
@@ -363,7 +413,11 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30PM-8:30PM- Dancers / 6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)/    8:00PM-9:30PM All Other Cast members, Choir, Praise Voices",
-        "callGroups": "Principals/Featured; Children/Youth; Choir/Vocalists",
+        "callGroups": [
+          "Principals/Featured",
+          "Children/Youth",
+          "Choir/Vocalists"
+        ],
         "work": "Good News — shepherd dialogue, angel message, finale music foundation",
         "prep": "",
         "notice": "",
@@ -382,7 +436,11 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "10:00 AM–2:00 PM — Dancers / 10:00 AM- 2:00 PM- Scene 9 Cast/ 11:00 AM- 2:00 PM- Scene 10 Cast/ 12:00 PM- 2:00 PM- Scene 11 Cast",
-        "callGroups": "Principals/Featured; Dancers; Ensemble",
+        "callGroups": [
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
+        ],
         "work": "Main-stage journey, crowd, No Room, birth picture",
         "prep": "Please Come at your assigned time slot. All rehearsals will end at 2:00PM",
         "notice": "",
@@ -401,7 +459,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30 PM–8:30 PM —Dancers    / 6:30 PM–9:30 PM Scene 12  Full Company",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "Music, storyteller return, shepherds, finale entries",
         "prep": "",
         "notice": "",
@@ -420,7 +480,10 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–8:30 PM — Dancers + Ensemble/ 8:30–9:30 PM — Adult Scene 11 Cast",
-        "callGroups": "Dancers; Ensemble",
+        "callGroups": [
+          "Dancers",
+          "Ensemble"
+        ],
         "work": "Scenes 1, 9 & 12 choreography cleanup; 8:30+ No Room rhythm.",
         "prep": "Studio-only rehearsal. No main-stage work. Final space-limited call list will be posted before rehearsal.",
         "notice": "",
@@ -439,7 +502,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "10:00 AM–2:00 PM— Dancers/                                       11:00 AM–2:00 PM/ Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)/           12:00 AM–2:00 PM-Scene 12 Full Company",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "Finale choreography/music/blocking that works in studio; no main-stage work",
         "prep": "",
         "notice": "",
@@ -458,7 +523,10 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30 PM–8:30 PM — Youth + Dancers\n8:30 PM–9:30 PM — Adult Scene 11 cast",
-        "callGroups": "Children/Youth; Ensemble",
+        "callGroups": [
+          "Children/Youth",
+          "Ensemble"
+        ],
         "work": "Music/choreo cleanup; 8:30+ Scene 11 cleanup",
         "prep": "",
         "notice": "",
@@ -477,7 +545,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30PM–8:30 PM- Dancers    /  6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick), Elizabeth, adult principals",
-        "callGroups": "Principals/Featured",
+        "callGroups": [
+          "Principals/Featured"
+        ],
         "work": "Principal cleanup",
         "prep": "",
         "notice": "",
@@ -496,7 +566,10 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "10:00 AM–2:00 PM — (Dancers, All Actors, Ensemble, EVERYONE!)",
-        "callGroups": "Full Company; Ensemble",
+        "callGroups": [
+          "Full Company",
+          "Ensemble"
+        ],
         "work": "Large ensemble sequence integration.",
         "prep": "",
         "notice": "",
@@ -515,7 +588,10 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30 PM-9:30PM — Mary + friends,Joseph + friends",
-        "callGroups": "Principals/Featured; Children/Youth",
+        "callGroups": [
+          "Principals/Featured",
+          "Children/Youth"
+        ],
         "work": "Off-book work + music review",
         "prep": "*Joseph and friends will work on Scene 5 dance and song from 6:30-8:00 pm, then go through the entire Scene from 8:00-9:30 pm",
         "notice": "",
@@ -534,7 +610,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick), Elizabeth, adult principals/  8:00PM–9:30 PM -Joseph +friends",
-        "callGroups": "Principals/Featured",
+        "callGroups": [
+          "Principals/Featured"
+        ],
         "work": "Off-book principals",
         "prep": "Specific scene-by-scene call list will be posted before rehearsal. Saturday access may shift if a homegoing service is scheduled; check the live calendar before traveling.",
         "notice": "",
@@ -553,7 +631,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "10:00 AM–2:00 PM — Dancers +Scenes 1–6 Cast",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "Scenes 1–6 with transitions",
         "prep": "Specific call list will be posted after the prior sequence run.",
         "notice": "",
@@ -572,7 +652,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30PM–9:30 PM —  Dancers + Scenes 7–9 Cast",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "Off-book / music / scene links",
         "prep": "",
         "notice": "",
@@ -591,7 +673,10 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30 PM–9:30 PM — Dancers + Scenes 10–12 Cast,  Choir / Vocal Company",
-        "callGroups": "Principals/Featured; Choir/Vocalists",
+        "callGroups": [
+          "Principals/Featured",
+          "Choir/Vocalists"
+        ],
         "work": "Journey / No Room / finale music and cue pickup",
         "prep": "Specific scene-by-scene call list will be posted before rehearsal. Saturday access may shift if a homegoing service is scheduled; check the live calendar before traveling.",
         "notice": "",
@@ -610,7 +695,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "10:00 AM–2:00 PM — Dancers + Cast for Scenes 7–12",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "Scenes 7–12 with transitions",
         "prep": "Specific call list will be posted after the Oct. 31 sequence run.",
         "notice": "",
@@ -629,7 +716,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30PM–9:30 PM — Targeted cast (specific names TBD after Oct. 31 run notes)",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "Music/choreo cleanup from sequence-run notes",
         "prep": "Specific call list will be posted after Nov. 4 rehearsal notes.",
         "notice": "",
@@ -648,7 +737,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–9:30 PM — Targeted cast + understudies/backups (specific names TBD after Nov. 4 notes)",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "Transition drill + understudies/backups",
         "prep": "Saturday access may shift if a homegoing service is scheduled; check the live calendar before traveling.",
         "notice": "",
@@ -667,7 +758,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "10:00 AM–2:00 PM — Full Company (Dancers, All Actors, Ensemble, EVERYONE!)",
-        "callGroups": "Full Company",
+        "callGroups": [
+          "Full Company"
+        ],
         "work": "Full staged run + director notes + captain assignments; all scenes/songs/choreo should exist",
         "prep": "Virtual rehearsal. Specific call list and connection link will be posted before rehearsal. No new blocking/choreography/creative changes.",
         "notice": "",
@@ -686,7 +779,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30PM–9:30 PM — Targeted cast (specific virtual call list TBD)",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "Lead-led virtual review; no new blocking/choreo/creative changes",
         "prep": "Virtual rehearsal. Specific call list and connection link will be posted before rehearsal. No new blocking/choreography/creative changes.",
         "notice": "",
@@ -705,7 +800,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–9:30 PM — Targeted cast (specific virtual call list TBD)",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "Lead-led virtual review; no new blocking/choreo/creative changes",
         "prep": "Virtual rehearsal. Specific call list and connection link will be posted before rehearsal. No new blocking/choreography/creative changes.",
         "notice": "",
@@ -724,7 +821,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "10:00 AM–2:00 PM — Targeted cast (specific virtual call list TBD)",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "Lead-led virtual review; no new blocking/choreo/creative changes",
         "prep": "Virtual/off-site format is not yet final. Specific call list and connection/location details will be posted before rehearsal.",
         "notice": "",
@@ -743,7 +842,9 @@
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site",
         "called": "6:30–9:30 PM — Targeted cast (specific call list TBD from captain reports)",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "Targeted cleanup using captain reports",
         "prep": "Virtual/off-site format is not yet final. Specific call list and connection/location details will be posted before rehearsal.",
         "notice": "",
@@ -762,7 +863,9 @@
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site",
         "called": "6:30–9:30 PM — Targeted cast + understudies/backups (specific call list TBD)",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "First-half/middle problem scenes; understudy practice",
         "prep": "No TFC room is available. An off-site large room is preferred; if unavailable, rehearsal will shift to sectional/virtual work. Final location/format will be posted before travel.",
         "notice": "",
@@ -781,7 +884,9 @@
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site",
         "called": "10:00 AM–2:00 PM — (Dancers, All Actors, Ensemble, EVERYONE!)",
-        "callGroups": "Full Company",
+        "callGroups": [
+          "Full Company"
+        ],
         "work": "Originally main-stage sequence runs, spacing, transitions, ensemble cleanup",
         "prep": "Location TBA",
         "notice": "",
@@ -800,7 +905,9 @@
         "location": "TBD",
         "locationShort": "TBD",
         "called": "6:30pm–9:30 PM — Full/targeted company (specific call list TBD pending approval)",
-        "callGroups": "Targeted Cast",
+        "callGroups": [
+          "Targeted Cast"
+        ],
         "work": "If approved: reintegration, sequence work, spacing priorities lost Nov. 21",
         "prep": "Youth release time will be posted once the reassembly plan is finalized.",
         "notice": "",
@@ -819,7 +926,10 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30 PM–8:30 PM-Dancers/ 6:30pm–9:30 PM — Full Company; Dancers + youth work first (youth release time TBD)",
-        "callGroups": "Full Company; Children/Youth",
+        "callGroups": [
+          "Full Company",
+          "Children/Youth"
+        ],
         "work": "Memory check; sequence cleanup; music/choreo refresh",
         "prep": "Section assignments will be posted after Dec. 2 reassembly notes.",
         "notice": "",
@@ -838,7 +948,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30PM–8:30 PM-Dancers/ 6:30PM–9:30 PM — Full Company /  targeted sections (section assignments TBD)",
-        "callGroups": "Full Company",
+        "callGroups": [
+          "Full Company"
+        ],
         "work": "Full or split run; microphone technique if equipment available",
         "prep": "Saturday access may shift if a homegoing service is scheduled; check the live calendar before traveling.",
         "notice": "",
@@ -857,7 +969,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "10:00 AM–2:00 PM — Full Company +Dancers",
-        "callGroups": "Full Company",
+        "callGroups": [
+          "Full Company"
+        ],
         "work": "Full run + structural lock",
         "prep": "",
         "notice": "",
@@ -876,7 +990,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30PM–9:30 PM — Full Company + Dance Ensemble",
-        "callGroups": "Full Company",
+        "callGroups": [
+          "Full Company"
+        ],
         "work": "No-stop run; notes after",
         "prep": "Specific call list will be posted after NO-STOP RUN #1.",
         "notice": "",
@@ -895,7 +1011,10 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–9:30 PM — Targeted problem-scene cast + vocal/band leads (specific call list TBD after Dec. 9 run notes)/ 6:30 PM- 8:30 PM Dance Ensemble",
-        "callGroups": "Choir/Vocalists; Crew/Tech",
+        "callGroups": [
+          "Choir/Vocalists",
+          "Crew/Tech"
+        ],
         "work": "Music transitions; mic technique; targeted fixes",
         "prep": "Saturday access may shift if a homegoing service is scheduled; check the live calendar before traveling.",
         "notice": "",
@@ -914,7 +1033,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "10:00 AM–2:00 PM — Full Company + Dancers",
-        "callGroups": "Full Company",
+        "callGroups": [
+          "Full Company"
+        ],
         "work": "Main-stage run + props/costume + tech elements available",
         "prep": "Emergency fixes only; no new creative material. Specific call list will be posted after NO-STOP RUN #2.",
         "notice": "",
@@ -933,7 +1054,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–9:30 PM — Targeted cast + Vocal Company (specific call list TBD after Dec. 12 run notes)/ 6:30-9:30PM Dance Ensemble/",
-        "callGroups": "Choir/Vocalists",
+        "callGroups": [
+          "Choir/Vocalists"
+        ],
         "work": "Vocals; dialogue trouble spots; emergency fixes only",
         "prep": "Final cue-pickup call list will be posted after Dec. 16 notes.",
         "notice": "",
@@ -952,7 +1075,10 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "6:30–9:30 PM — Full Company + Dancers +Crew as called (final department/cast call list TBD)",
-        "callGroups": "Full Company; Crew/Tech",
+        "callGroups": [
+          "Full Company",
+          "Crew/Tech"
+        ],
         "work": "Final room run / cue pickup; production crew check",
         "prep": "Approved access is 10:00 AM–2:00 PM. Do not assume extended access. Saturday access may shift if a homegoing service is scheduled.",
         "notice": "",
@@ -971,7 +1097,10 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "10:00 AM–2:00 PM — Full Company +Dancers + Full Crew + Band + All Departments",
-        "callGroups": "Full Company; Crew/Tech",
+        "callGroups": [
+          "Full Company",
+          "Crew/Tech"
+        ],
         "work": "Cue-to-cue + full run within approved block; seek extended access separately",
         "prep": "Official show-day call is 8:00 AM. Detailed performance-day schedule will be published separately.",
         "notice": "",
@@ -990,7 +1119,10 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center - Sunrise",
         "called": "1:00 PM — Full Company (EVERYONE!) + Crew/ 3:00PM CALL TIME! 6:00PM SHOW BEGINS!!!",
-        "callGroups": "Full Company; Crew/Tech",
+        "callGroups": [
+          "Full Company",
+          "Crew/Tech"
+        ],
         "work": "Official show-day call; performance day",
         "prep": "Focus: SHOW DAY. FOOD WILL BE PROVIDED.  Please check the live schedule for final room and call details.",
         "notice": "",
