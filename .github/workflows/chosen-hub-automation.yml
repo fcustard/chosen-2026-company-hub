@@ -43,7 +43,7 @@ jobs:
           CALENDAR_FEED_URL: ${{ vars.CALENDAR_FEED_URL }}
         run: node tools/sync-calendar.mjs
 
-       - name: Sync company people and assignments from Admin Master Sheets
+      - name: Sync company people and assignments from Admin Master Sheets
         env:
           COMPANY_FEED_URL: ${{ vars.COMPANY_FEED_URL }}
         run: node tools/sync-company.mjs
