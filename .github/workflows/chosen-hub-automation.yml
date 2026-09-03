@@ -65,6 +65,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
 
           git add data/rehearsals.json
+          git add data/company.json
           git add content.json
           git add scene-*.html
 
