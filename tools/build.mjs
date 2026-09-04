@@ -11,71 +11,45 @@ const scripts = read('data/scripts.json');
 const music = read('data/music.json');
 
 const now = new Date();
+
 const TZ = 'America/New_York';
 
 /*
  * ============================================================
- * BASIC HELPERS
+ * HELPERS
  * ============================================================
  */
 
-function isValidDateValue(value) {
-  if (!value) return false;
+function text(value) {
+  return String(
+    value ?? ''
+  ).trim();
+}
 
-  const date = new Date(value);
+function upper(value) {
+  return text(value)
+    .toUpperCase();
+}
+
+function validDate(value) {
+  if (!value) {
+    return false;
+  }
+
+  const date =
+    new Date(value);
 
   return !Number.isNaN(
     date.getTime()
   );
 }
 
-function hasRenderableDateFallback(r) {
-  if (
-    String(
-      r.dateLabel || ''
-    ).trim()
-  ) {
-    return true;
-  }
-
-  if (
-    String(
-      r.dayLabel || ''
-    ).trim()
-  ) {
-    return true;
-  }
-
-  return /^\d{4}-\d{2}-\d{2}$/.test(
-    String(r.id || '')
-  );
-}
-
-function normalizeText(value) {
-  return String(
-    value ?? ''
-  ).trim();
-}
-
-function normalizeUpper(value) {
-  return normalizeText(value)
-    .toUpperCase();
-}
-
-/*
- * Accept arrays OR legacy semicolon/comma strings.
- *
- * This is important because Exact Calls V1.1 stores
- * groups as arrays, while older Hub data used strings.
- */
 function normalizeList(value) {
   if (Array.isArray(value)) {
     return [
       ...new Set(
         value
-          .map(v =>
-            normalizeText(v)
-          )
+          .map(text)
           .filter(Boolean)
       )
     ];
@@ -85,227 +59,22 @@ function normalizeList(value) {
     ...new Set(
       String(value || '')
         .split(/[;,]/)
-        .map(v =>
-          normalizeText(v)
-        )
+        .map(text)
         .filter(Boolean)
     )
   ];
 }
 
-/*
- * ============================================================
- * PUBLICATION CONTRACT
- * ============================================================
- *
- * data/rehearsals.json is now a published-only Hub file.
- *
- * The preferred contract is:
- *   publish === true
- *
- * We retain a defensive Exact Calls V1.1 fallback so an older
- * cached/generated record cannot silently wipe out the Hub.
- *
- * Publication status controls Home / This Week / All Calls.
- * Exact Call status controls My Calls ONLY.
- */
-
-function isHubPublished(r) {
-  if (!r) return false;
-
-  if (r.publish === true) {
-    return true;
-  }
-
-  /*
-   * Defensive compatibility for Exact Calls V1.1.
-   *
-   * The hub-v2 feed itself is already filtered by the
-   * Master Calendar Publish? field.
-   */
-  if (
-    Number(r.callDataVersion) === 3 &&
-    r.eventKey
-  ) {
-    console.warn(
-      `⚠️ Publication compatibility warning: ` +
-      `${r.id || r.eventKey} is Exact Calls V1.1 data ` +
-      `without publish=true. Treating it as published.`
-    );
-
-    return true;
-  }
-
-  return false;
-}
-
 function isNoRehearsal(r) {
-  const status =
-    normalizeUpper(r.status);
-
-  const title =
-    normalizeUpper(r.title);
-
   return (
-    status === 'NO REHEARSAL' ||
-    title.includes('NO REHEARSAL')
+    upper(r?.status) ===
+      'NO REHEARSAL' ||
+    upper(r?.title)
+      .includes(
+        'NO REHEARSAL'
+      )
   );
 }
-
-/*
- * ============================================================
- * SOURCE VALIDATION
- * ============================================================
- */
-
-if (!Array.isArray(rehearsals)) {
-  throw new Error(
-    'BUILD ERROR: data/rehearsals.json must be an array.'
-  );
-}
-
-/*
- * Validate everything that is eligible for publication.
- */
-for (
-  const r of rehearsals.filter(
-    isHubPublished
-  )
-) {
-  const id =
-    r.id ||
-    r.eventKey ||
-    r.title ||
-    'unknown rehearsal';
-
-  if (isNoRehearsal(r)) {
-    throw new Error(
-      `BUILD ERROR: ${id} is a NO REHEARSAL/admin row ` +
-      `and must not be present in published Hub rehearsal data.`
-    );
-  }
-
-  if (
-    !isValidDateValue(r.start)
-  ) {
-    if (
-      hasRenderableDateFallback(r)
-    ) {
-      console.warn(
-        `⚠️ Schedule warning: ${id} has an invalid/missing ` +
-        `start timestamp; date badge will use fallback data.`
-      );
-    } else {
-      throw new Error(
-        `SCHEDULE PUBLISHING ERROR: ${id} has no valid start ` +
-        `timestamp, dateLabel, dayLabel, or YYYY-MM-DD id.`
-      );
-    }
-  }
-
-  if (
-    !isValidDateValue(r.end)
-  ) {
-    throw new Error(
-      `SCHEDULE PUBLISHING ERROR: ${id} has an invalid/missing ` +
-      `end timestamp.`
-    );
-  }
-
-  const start =
-    new Date(r.start);
-
-  const end =
-    new Date(r.end);
-
-  if (
-    !Number.isNaN(start.getTime()) &&
-    !Number.isNaN(end.getTime()) &&
-    end <= start
-  ) {
-    throw new Error(
-      `SCHEDULE PUBLISHING ERROR: ${id} end must be after start.`
-    );
-  }
-}
-
-/*
- * ============================================================
- * PUBLISHED SCHEDULE
- * ============================================================
- */
-
-const publishedRehearsals =
-  rehearsals
-    .filter(isHubPublished)
-    .filter(r =>
-      !isNoRehearsal(r)
-    )
-    .sort((a, b) => {
-      const aTime =
-        isValidDateValue(a.start)
-          ? new Date(a.start)
-              .getTime()
-          : Number.MAX_SAFE_INTEGER;
-
-      const bTime =
-        isValidDateValue(b.start)
-          ? new Date(b.start)
-              .getTime()
-          : Number.MAX_SAFE_INTEGER;
-
-      return aTime - bTime;
-    });
-
-/*
- * Permanent guard against the "green build, empty Hub" problem.
- */
-if (
-  rehearsals.length > 0 &&
-  publishedRehearsals.length === 0
-) {
-  throw new Error(
-    'BUILD CONTRACT ERROR: rehearsal source data exists, but ' +
-    'zero rehearsals qualified for Hub publication. ' +
-    'Build stopped to prevent an empty Home / This Week / Schedule.'
-  );
-}
-
-const futureRehearsals =
-  publishedRehearsals.filter(
-    r =>
-      isValidDateValue(r.end) &&
-      new Date(r.end) >= now
-  );
-
-/*
- * If published future rehearsal data exists, the build must not
- * silently lose it.
- */
-const sourceFutureCount =
-  rehearsals.filter(
-    r =>
-      isHubPublished(r) &&
-      !isNoRehearsal(r) &&
-      isValidDateValue(r.end) &&
-      new Date(r.end) >= now
-  ).length;
-
-if (
-  sourceFutureCount > 0 &&
-  futureRehearsals.length === 0
-) {
-  throw new Error(
-    'BUILD CONTRACT ERROR: upcoming published rehearsals exist ' +
-    'in source data, but none survived schedule generation.'
-  );
-}
-
-/*
- * ============================================================
- * TIME HELPERS
- * ============================================================
- */
 
 function formatTime(date) {
   if (
@@ -327,16 +96,12 @@ function formatTime(date) {
   ).format(date);
 }
 
-function timeRange(rehearsal) {
+function timeRange(r) {
   const start =
-    new Date(
-      rehearsal.start
-    );
+    new Date(r.start);
 
   const end =
-    new Date(
-      rehearsal.end
-    );
+    new Date(r.end);
 
   if (
     Number.isNaN(
@@ -357,12 +122,264 @@ function timeRange(rehearsal) {
 
 /*
  * ============================================================
- * NEXT REHEARSAL
+ * REHEARSAL SOURCE CONTRACT
  * ============================================================
  *
- * Home uses this company publication data.
- * It does NOT use personalization.
+ * data/rehearsals.json is now generated from the hub-v2 feed.
+ *
+ * hub-v2 already contains ONLY Master Calendar rows where:
+ *
+ *   Publish? = YES
+ *
+ * Therefore this file itself is the published schedule.
+ *
+ * We intentionally DO NOT filter again using r.publish.
+ *
+ * That prevents a missing compatibility flag from silently
+ * creating an empty Home / This Week / Schedule.
  */
+
+if (!Array.isArray(rehearsals)) {
+  throw new Error(
+    'BUILD ERROR: data/rehearsals.json must be an array.'
+  );
+}
+
+if (rehearsals.length === 0) {
+  throw new Error(
+    'BUILD ERROR: data/rehearsals.json contains zero rehearsals. ' +
+    'Hub publication stopped to prevent an empty schedule.'
+  );
+}
+
+/*
+ * ============================================================
+ * NORMALIZE + VALIDATE PUBLISHED REHEARSALS
+ * ============================================================
+ */
+
+const publishedRehearsals = rehearsals
+  .filter(r =>
+    !isNoRehearsal(r)
+  )
+  .map(r => {
+    const id =
+      text(
+        r.id ||
+        r.eventKey
+      );
+
+    if (!id) {
+      throw new Error(
+        'BUILD ERROR: published rehearsal missing id/eventKey.'
+      );
+    }
+
+    if (!text(r.title)) {
+      throw new Error(
+        `BUILD ERROR: ${id} is missing title.`
+      );
+    }
+
+    if (!validDate(r.start)) {
+      throw new Error(
+        `BUILD ERROR: ${id} has invalid start "${r.start}".`
+      );
+    }
+
+    if (!validDate(r.end)) {
+      throw new Error(
+        `BUILD ERROR: ${id} has invalid end "${r.end}".`
+      );
+    }
+
+    const start =
+      new Date(r.start);
+
+    const end =
+      new Date(r.end);
+
+    if (end <= start) {
+      throw new Error(
+        `BUILD ERROR: ${id} end must be after start.`
+      );
+    }
+
+    const exactCallStatus =
+      upper(
+        r.exactCallStatus ||
+        'REVIEW'
+      );
+
+    if (
+      ![
+        'READY',
+        'REVIEW',
+        'HOLD'
+      ].includes(
+        exactCallStatus
+      )
+    ) {
+      throw new Error(
+        `BUILD ERROR: ${id} has invalid exactCallStatus ` +
+        `"${r.exactCallStatus}".`
+      );
+    }
+
+    const calledPeopleIds =
+      Array.isArray(
+        r.calledPeopleIds
+      )
+        ? r.calledPeopleIds
+            .map(text)
+            .filter(Boolean)
+        : [];
+
+    const calledPeople =
+      Array.isArray(
+        r.calledPeople
+      )
+        ? r.calledPeople
+            .map(text)
+            .filter(Boolean)
+        : [];
+
+    const calledGroups =
+      normalizeList(
+        r.calledGroups
+      );
+
+    const callGroupsSource =
+      normalizeList(
+        r.callGroups
+      );
+
+    /*
+     * For general All Calls filtering:
+     * use broad callGroups when available,
+     * otherwise exact calledGroups.
+     */
+    const callGroups =
+      callGroupsSource.length
+        ? callGroupsSource
+        : calledGroups;
+
+    return {
+      ...r,
+
+      /*
+       * Canonical publication marker.
+       * Kept for compatibility with any remaining legacy code.
+       */
+      publish: true,
+
+      id,
+
+      eventKey:
+        text(
+          r.eventKey ||
+          id
+        ),
+
+      title:
+        text(r.title),
+
+      start:
+        text(r.start),
+
+      end:
+        text(r.end),
+
+      status:
+        text(
+          r.status ||
+          'CONFIRMED'
+        ),
+
+      location:
+        text(r.location),
+
+      locationShort:
+        text(
+          r.locationShort ||
+          r.location
+        ),
+
+      called:
+        text(r.called),
+
+      calledPeople,
+      calledPeopleIds,
+      calledGroups,
+      callGroups,
+
+      exactCallStatus,
+
+      callDataVersion:
+        Number(
+          r.callDataVersion
+        ) || 3,
+
+      work:
+        text(
+          r.work ||
+          r.focus
+        ),
+
+      focus:
+        text(
+          r.focus ||
+          r.work
+        ),
+
+      prep:
+        text(r.prep),
+
+      notice:
+        text(r.notice),
+
+      changeType:
+        text(r.changeType)
+    };
+  })
+  .sort(
+    (a, b) =>
+      new Date(a.start) -
+      new Date(b.start)
+  );
+
+/*
+ * Duplicate protection
+ */
+
+const seenIds =
+  new Set();
+
+for (
+  const r of publishedRehearsals
+) {
+  if (
+    seenIds.has(r.id)
+  ) {
+    throw new Error(
+      `BUILD ERROR: duplicate rehearsal id ${r.id}.`
+    );
+  }
+
+  seenIds.add(r.id);
+}
+
+/*
+ * ============================================================
+ * UPCOMING
+ * ============================================================
+ */
+
+const futureRehearsals =
+  publishedRehearsals.filter(
+    r =>
+      new Date(r.end) >= now
+  );
 
 const next =
   futureRehearsals[0] ||
@@ -370,28 +387,13 @@ const next =
 
 /*
  * ============================================================
- * THIS WEEK
+ * CURRENT WEEK
  * ============================================================
  *
- * Anchor the week to the next future rehearsal.
- *
- * If no future rehearsal exists, anchor to today.
+ * This Week means the actual current Monday-Sunday week
+ * in the production timezone.
  */
 
-const anchor =
-  futureRehearsals[0] &&
-  isValidDateValue(
-    futureRehearsals[0].start
-  )
-    ? new Date(
-        futureRehearsals[0].start
-      )
-    : now;
-
-/*
- * Use a date-only representation in the production timezone
- * to avoid UTC weekday drift.
- */
 function localDateParts(date) {
   const parts =
     new Intl.DateTimeFormat(
@@ -408,22 +410,28 @@ function localDateParts(date) {
   const get =
     type =>
       parts.find(
-        p => p.type === type
+        p =>
+          p.type === type
       )?.value;
 
   return {
-    year: Number(
-      get('year')
-    ),
-    month: Number(
-      get('month')
-    ),
-    day: Number(
-      get('day')
-    ),
-    weekday: get(
-      'weekday'
-    )
+    year:
+      Number(
+        get('year')
+      ),
+
+    month:
+      Number(
+        get('month')
+      ),
+
+    day:
+      Number(
+        get('day')
+      ),
+
+    weekday:
+      get('weekday')
   };
 }
 
@@ -437,18 +445,19 @@ const weekdayIndex = {
   Sun: 6
 };
 
-function localDateKey(date) {
-  const p =
-    localDateParts(date);
-
+function dateKeyFromParts(
+  year,
+  month,
+  day
+) {
   return (
-    `${String(p.year).padStart(4, '0')}-` +
-    `${String(p.month).padStart(2, '0')}-` +
-    `${String(p.day).padStart(2, '0')}`
+    `${String(year).padStart(4, '0')}-` +
+    `${String(month).padStart(2, '0')}-` +
+    `${String(day).padStart(2, '0')}`
   );
 }
 
-function shiftLocalDateKey(
+function shiftedDateKey(
   date,
   days
 ) {
@@ -456,8 +465,7 @@ function shiftLocalDateKey(
     localDateParts(date);
 
   /*
-   * Noon UTC avoids DST/date-edge problems while doing
-   * calendar-day arithmetic.
+   * Use UTC noon for safe calendar-day arithmetic.
    */
   const shifted =
     new Date(
@@ -472,99 +480,116 @@ function shiftLocalDateKey(
     );
 
   const sp =
-    localDateParts(shifted);
+    localDateParts(
+      shifted
+    );
 
-  return (
-    `${String(sp.year).padStart(4, '0')}-` +
-    `${String(sp.month).padStart(2, '0')}-` +
-    `${String(sp.day).padStart(2, '0')}`
+  return dateKeyFromParts(
+    sp.year,
+    sp.month,
+    sp.day
   );
 }
 
-const anchorParts =
-  localDateParts(anchor);
+function localDateKey(date) {
+  const p =
+    localDateParts(date);
 
-const anchorDow =
+  return dateKeyFromParts(
+    p.year,
+    p.month,
+    p.day
+  );
+}
+
+const todayParts =
+  localDateParts(now);
+
+const todayDow =
   weekdayIndex[
-    anchorParts.weekday
+    todayParts.weekday
   ] ?? 0;
 
-const weekStartKey =
-  shiftLocalDateKey(
-    anchor,
-    -anchorDow
+const currentWeekStart =
+  shiftedDateKey(
+    now,
+    -todayDow
   );
 
-const weekEndKey =
-  shiftLocalDateKey(
-    anchor,
-    7 - anchorDow
+const currentWeekEnd =
+  shiftedDateKey(
+    now,
+    7 - todayDow
   );
 
 const thisWeek =
   publishedRehearsals.filter(
     r => {
-      if (
-        !isValidDateValue(
-          r.start
-        )
-      ) {
-        return false;
-      }
-
       const key =
         localDateKey(
           new Date(r.start)
         );
 
       return (
-        key >= weekStartKey &&
-        key < weekEndKey
+        key >=
+          currentWeekStart &&
+        key <
+          currentWeekEnd
       );
     }
   );
 
 /*
  * ============================================================
- * SCRIPT / MUSIC PUBLICATION
+ * COMPANY SCRIPTS
  * ============================================================
  */
 
 const companyScripts =
-  scripts.map(s => {
-    if (
-      s.companyPublish &&
-      s.approved
-    ) {
-      return s;
+  scripts.map(
+    s => {
+      if (
+        s.companyPublish &&
+        s.approved
+      ) {
+        return s;
+      }
+
+      return {
+        ...s,
+        readUrl: '#',
+        pdfUrl: '#'
+      };
     }
-
-    return {
-      ...s,
-      readUrl: '#',
-      pdfUrl: '#'
-    };
-  });
-
-const companyMusic =
-  music.map(m => {
-    if (
-      m.companyPublish &&
-      m.approved
-    ) {
-      return m;
-    }
-
-    return {
-      ...m,
-      playUrl: '#',
-      lyricsUrl: '#'
-    };
-  });
+  );
 
 /*
  * ============================================================
- * CALL GROUPS
+ * COMPANY MUSIC
+ * ============================================================
+ */
+
+const companyMusic =
+  music.map(
+    m => {
+      if (
+        m.companyPublish &&
+        m.approved
+      ) {
+        return m;
+      }
+
+      return {
+        ...m,
+        playUrl: '#',
+        lyricsUrl: '#'
+      };
+    }
+  );
+
+/*
+ * ============================================================
+ * AVAILABLE CALL GROUPS
  * ============================================================
  */
 
@@ -572,29 +597,10 @@ const scheduleGroups =
   [
     ...new Set(
       publishedRehearsals
-        .flatMap(r => {
-          /*
-           * General schedule filtering can use the
-           * published call-group field.
-           *
-           * Exact calledGroups remains available separately
-           * for My Calls.
-           */
-          const broad =
-            normalizeList(
-              r.callGroups
-            );
-
-          const exact =
-            normalizeList(
-              r.calledGroups
-            );
-
-          return [
-            ...broad,
-            ...exact
-          ];
-        })
+        .flatMap(
+          r =>
+            r.callGroups
+        )
         .filter(Boolean)
     )
   ].sort(
@@ -607,179 +613,107 @@ const scheduleGroups =
  * SCHEDULE PAYLOAD
  * ============================================================
  *
- * CRITICAL:
- * Do NOT strip Exact Calls V1.1 fields here.
- *
- * app.js needs:
- * - exactCallStatus
- * - calledPeopleIds
- * - calledGroups
- * - callDataVersion
+ * IMPORTANT:
+ * Exact Calls fields MUST reach content.json.
  */
 
 const scheduleRehearsals =
   publishedRehearsals.map(
-    r => {
-      const broadCallGroups =
-        normalizeList(
-          r.callGroups
-        );
+    r => ({
+      id:
+        r.id,
 
-      const exactCalledGroups =
-        normalizeList(
-          r.calledGroups
-        );
+      eventKey:
+        r.eventKey,
 
-      const calledPeopleIds =
-        Array.isArray(
-          r.calledPeopleIds
-        )
-          ? r.calledPeopleIds
-              .map(v =>
-                normalizeText(v)
-              )
-              .filter(Boolean)
-          : [];
+      start:
+        r.start,
 
-      const calledPeople =
-        Array.isArray(
-          r.calledPeople
-        )
-          ? r.calledPeople
-              .map(v =>
-                normalizeText(v)
-              )
-              .filter(Boolean)
-          : [];
+      end:
+        r.end,
 
-      return {
-        /*
-         * Core schedule fields
-         */
-        id:
-          r.id ||
-          r.eventKey ||
-          '',
+      date:
+        r.dateLabel ||
+        r.dayLabel ||
+        r.id,
 
-        eventKey:
-          r.eventKey ||
-          r.id ||
-          '',
+      day:
+        r.dayLabel ||
+        r.dateLabel ||
+        r.id,
 
-        start:
-          r.start ||
-          '',
+      dateLabel:
+        text(
+          r.dateLabel
+        ),
 
-        end:
-          r.end ||
-          '',
+      dayLabel:
+        text(
+          r.dayLabel
+        ),
 
-        date:
-          r.dateLabel ||
-          r.dayLabel ||
-          r.id ||
-          '',
+      time:
+        timeRange(r),
 
-        day:
-          r.dayLabel ||
-          r.dateLabel ||
-          r.id ||
-          '',
+      title:
+        r.title,
 
-        dateLabel:
-          r.dateLabel ||
-          '',
+      status:
+        r.status,
 
-        dayLabel:
-          r.dayLabel ||
-          '',
+      location:
+        r.location,
 
-        time:
-          timeRange(r),
+      locationShort:
+        r.locationShort,
 
-        title:
-          r.title ||
-          '',
+      called:
+        r.called,
 
-        status:
-          r.status ||
-          'CONFIRMED',
+      /*
+       * General All Calls filter
+       */
+      callGroups:
+        r.callGroups,
 
-        location:
-          r.location ||
-          '',
+      /*
+       * Exact My Calls
+       */
+      calledPeople:
+        r.calledPeople,
 
-        locationShort:
-          r.locationShort ||
-          r.location ||
-          '',
+      calledPeopleIds:
+        r.calledPeopleIds,
 
-        called:
-          r.called ||
-          '',
+      calledGroups:
+        r.calledGroups,
 
-        /*
-         * General schedule filtering
-         */
-        callGroups:
-          broadCallGroups.length
-            ? broadCallGroups
-            : exactCalledGroups,
+      exactCallStatus:
+        r.exactCallStatus,
 
-        /*
-         * Exact Calls V1.1
-         */
-        calledPeople:
-          calledPeople,
+      callDataVersion:
+        r.callDataVersion,
 
-        calledPeopleIds:
-          calledPeopleIds,
+      work:
+        r.work,
 
-        calledGroups:
-          exactCalledGroups,
+      focus:
+        r.focus,
 
-        exactCallStatus:
-          normalizeUpper(
-            r.exactCallStatus
-          ) ||
-          'REVIEW',
+      prep:
+        r.prep,
 
-        callDataVersion:
-          Number(
-            r.callDataVersion
-          ) || 3,
+      notice:
+        r.notice,
 
-        /*
-         * Rehearsal detail
-         */
-        work:
-          r.work ||
-          r.focus ||
-          '',
-
-        focus:
-          r.focus ||
-          r.work ||
-          '',
-
-        prep:
-          r.prep ||
-          '',
-
-        notice:
-          r.notice ||
-          '',
-
-        changeType:
-          r.changeType ||
-          ''
-      };
-    }
+      changeType:
+        r.changeType
+    })
   );
 
 /*
  * ============================================================
- * CONTENT.JSON
+ * CONTENT
  * ============================================================
  */
 
@@ -800,9 +734,11 @@ const content = {
     site.links,
 
   /*
-   * Legacy nextRehearsal remains available for compatibility,
-   * even though current Home app.js can derive next rehearsal
-   * directly from schedule.rehearsals.
+   * HOME
+   *
+   * Kept for backwards compatibility.
+   * Current app.js may also calculate next rehearsal
+   * from schedule.rehearsals.
    */
   nextRehearsal:
     next
@@ -810,25 +746,21 @@ const content = {
           day:
             next.dayLabel ||
             next.dateLabel ||
-            next.id ||
             'NEXT REHEARSAL',
 
           date:
-            next.title ||
-            'See schedule',
+            next.title,
 
           time:
             timeRange(next),
 
           location:
             next.locationShort ||
-            next.location ||
-            '',
+            next.location,
 
           focus:
             next.focus ||
-            next.work ||
-            '',
+            next.work,
 
           url:
             'schedule.html'
@@ -853,6 +785,10 @@ const content = {
             'schedule.html'
         },
 
+  /*
+   * THIS WEEK
+   */
+
   thisWeek: {
     label:
       'THIS WEEK',
@@ -867,52 +803,39 @@ const content = {
       thisWeek.map(
         r => ({
           id:
-            r.id ||
-            r.eventKey ||
-            '',
+            r.id,
 
           eventKey:
-            r.eventKey ||
-            r.id ||
-            '',
+            r.eventKey,
 
           date:
             r.dateLabel ||
             r.dayLabel ||
-            r.id ||
-            '',
+            r.id,
 
           time:
             timeRange(r),
 
           title:
-            r.title ||
-            '',
+            r.title,
 
           status:
-            r.status ||
-            '',
+            r.status,
 
           location:
-            r.location ||
-            '',
+            r.location,
 
           called:
-            r.called ||
-            '',
+            r.called,
 
           work:
-            r.work ||
-            r.focus ||
-            '',
+            r.work,
 
           prep:
-            r.prep ||
-            '',
+            r.prep,
 
           notice:
-            r.notice ||
-            '',
+            r.notice,
 
           scriptUrl:
             'scripts.html',
@@ -922,6 +845,10 @@ const content = {
         })
       )
   },
+
+  /*
+   * SCHEDULE
+   */
 
   schedule: {
     title:
@@ -946,32 +873,65 @@ const content = {
 
 /*
  * ============================================================
- * FINAL OUTPUT GUARDS
+ * FINAL SAFETY CHECKS
  * ============================================================
  */
 
 if (
-  futureRehearsals.length > 0 &&
-  content.schedule.rehearsals.length === 0
+  publishedRehearsals.length ===
+  0
 ) {
   throw new Error(
-    'FINAL BUILD ERROR: future rehearsals exist, but content.json ' +
-    'schedule would be empty.'
+    'FINAL BUILD ERROR: zero published rehearsals. ' +
+    'Refusing to generate an empty Hub.'
   );
 }
 
 if (
-  futureRehearsals.length > 0 &&
-  !content.nextRehearsal
+  scheduleRehearsals.length !==
+  publishedRehearsals.length
 ) {
   throw new Error(
-    'FINAL BUILD ERROR: future rehearsals exist, but nextRehearsal ' +
-    'was not generated.'
+    'FINAL BUILD ERROR: schedule payload lost rehearsal records.'
   );
 }
 
+if (
+  futureRehearsals.length >
+    0 &&
+  !next
+) {
+  throw new Error(
+    'FINAL BUILD ERROR: upcoming rehearsals exist but no next rehearsal was selected.'
+  );
+}
+
+if (
+  futureRehearsals.length >
+    0 &&
+  content.schedule
+    .rehearsals
+    .filter(
+      r =>
+        new Date(r.end) >=
+        now
+    )
+    .length === 0
+) {
+  throw new Error(
+    'FINAL BUILD ERROR: upcoming rehearsals exist but Schedule would display none.'
+  );
+}
+
+/*
+ * ============================================================
+ * WRITE CONTENT.JSON
+ * ============================================================
+ */
+
 fs.writeFileSync(
   'content.json',
+
   JSON.stringify(
     content,
     null,
@@ -979,23 +939,62 @@ fs.writeFileSync(
   ) + '\n'
 );
 
+/*
+ * ============================================================
+ * BUILD REPORT
+ * ============================================================
+ */
+
 console.log(
-  `Generated content.json successfully: ` +
-  `${publishedRehearsals.length} published rehearsals, ` +
-  `${futureRehearsals.length} upcoming, ` +
-  `${thisWeek.length} this week, ` +
-  `${scheduleGroups.length} call groups.`
+  ''
 );
 
-if (
-  next
-) {
+console.log(
+  'CHOSEN HUB BUILD SUMMARY'
+);
+
+console.log(
+  '------------------------'
+);
+
+console.log(
+  `Source rehearsal records: ${rehearsals.length}`
+);
+
+console.log(
+  `Published Hub rehearsals: ${publishedRehearsals.length}`
+);
+
+console.log(
+  `Upcoming rehearsals: ${futureRehearsals.length}`
+);
+
+console.log(
+  `This Week rehearsals: ${thisWeek.length}`
+);
+
+console.log(
+  `Schedule payload rehearsals: ${scheduleRehearsals.length}`
+);
+
+console.log(
+  `Call groups: ${scheduleGroups.length}`
+);
+
+if (next) {
   console.log(
-    `Next published rehearsal: ` +
-    `${next.id || next.eventKey || next.title}`
+    `Next rehearsal: ${next.id} | ${next.title} | ${next.start}`
   );
 } else {
-  console.warn(
-    'No future published rehearsal is currently available.'
+  console.log(
+    'Next rehearsal: NONE'
   );
 }
+
+console.log(
+  '------------------------'
+);
+
+console.log(
+  'Generated content.json successfully.'
+);
