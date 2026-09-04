@@ -2,7 +2,7 @@
   "ok": true,
   "schemaVersion": 1,
   "source": "CHOSEN 2026 Admin Master Sheets",
-  "generatedAt": "2026-09-04T05:15:54.716Z",
+  "generatedAt": "2026-09-04T16:57:18.382Z",
   "people": [
     {
       "id": "P-abi",
@@ -13,7 +13,8 @@
         "Wardrobe / Props"
       ],
       "groups": [
-        "Wardrobe / Props"
+        "Wardrobe / Props",
+        "Crew/Tech"
       ],
       "roles": "",
       "scenes": [],
@@ -90,7 +91,8 @@
         "Wardrobe"
       ],
       "groups": [
-        "Wardrobe"
+        "Wardrobe",
+        "Crew/Tech"
       ],
       "roles": "",
       "scenes": [],
@@ -306,7 +308,8 @@
         "Media"
       ],
       "groups": [
-        "Media"
+        "Media",
+        "Crew/Tech"
       ],
       "roles": "",
       "scenes": [],
@@ -633,7 +636,8 @@
         "Stagehands"
       ],
       "groups": [
-        "Stagehands"
+        "Stagehands",
+        "Crew/Tech"
       ],
       "roles": "",
       "scenes": [],
@@ -918,7 +922,8 @@
         "Stagehands"
       ],
       "groups": [
-        "Stagehands"
+        "Stagehands",
+        "Crew/Tech"
       ],
       "roles": "",
       "scenes": [],
@@ -1160,15 +1165,13 @@
     {
       "id": "P-etta-wright",
       "name": "Etta Wright",
-      "companyType": "Performer + Production",
+      "companyType": "Performer",
       "primaryAssignment": "MERCHANT 1/ VILLAGER WOMAN 3 /ENSEMBLE",
       "departments": [
-        "Cast",
-        "Wardrobe"
+        "Cast"
       ],
       "groups": [
-        "Ensemble",
-        "Wardrobe"
+        "Ensemble"
       ],
       "roles": "MERCHANT 1/ VILLAGER WOMAN 3 /ENSEMBLE",
       "scenes": [
@@ -1562,7 +1565,8 @@
         "Administration"
       ],
       "groups": [
-        "Administration"
+        "Administration",
+        "Crew/Tech"
       ],
       "roles": "",
       "scenes": [],
@@ -1752,7 +1756,8 @@
         "Administration"
       ],
       "groups": [
-        "Administration"
+        "Administration",
+        "Crew/Tech"
       ],
       "roles": "",
       "scenes": [],
@@ -1948,7 +1953,8 @@
         "Wardrobe"
       ],
       "groups": [
-        "Wardrobe"
+        "Wardrobe",
+        "Crew/Tech"
       ],
       "roles": "",
       "scenes": [],
@@ -2023,7 +2029,8 @@
         "Media"
       ],
       "groups": [
-        "Media"
+        "Media",
+        "Crew/Tech"
       ],
       "roles": "",
       "scenes": [],
@@ -2052,7 +2059,8 @@
         "Media"
       ],
       "groups": [
-        "Media"
+        "Media",
+        "Crew/Tech"
       ],
       "roles": "",
       "scenes": [],
@@ -2164,7 +2172,8 @@
         "Wardrobe / Props"
       ],
       "groups": [
-        "Wardrobe / Props"
+        "Wardrobe / Props",
+        "Crew/Tech"
       ],
       "roles": "",
       "scenes": [],
@@ -2193,7 +2202,8 @@
         "Set / Scenic"
       ],
       "groups": [
-        "Scenic"
+        "Scenic",
+        "Crew/Tech"
       ],
       "roles": "",
       "scenes": [],
@@ -2347,7 +2357,8 @@
         "Administration"
       ],
       "groups": [
-        "Administration"
+        "Administration",
+        "Crew/Tech"
       ],
       "roles": "",
       "scenes": [],
