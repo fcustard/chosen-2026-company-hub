@@ -51,6 +51,9 @@ jobs:
       - name: Validate exact personalized calls
         run: node tools/validate-exact-personalization.mjs
 
+      - name: Validate publication integrity and upcoming schedule
+        run: node tools/validate-publication-integrity.mjs
+
       - name: Validate production data and scene publication
         run: npm run validate
 
