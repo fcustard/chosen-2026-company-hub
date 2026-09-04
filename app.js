@@ -99,24 +99,52 @@ document.addEventListener('DOMContentLoaded',async()=>{
   const showAll=document.querySelector('#showAllCalls');
   const groupPanel=document.querySelector('#groupFilterPanel');
 
-  function personMatches(x){
-    if(!person)return true;
-    const groups=Array.isArray(x.callGroups)?x.callGroups:[];
-    if(groups.includes('Full Company'))return true;
+ 
+function personMatches(x) {
+  if (!person) return true;
 
-    const called=norm(x.called||'');
-    const full=norm(person.name||'');
-    const parts=full.split(/\s+/).filter(Boolean);
-    const first=parts[0]||'';
-    const last=parts[parts.length-1]||'';
+  const status = String(x.exactCallStatus || '').trim().toUpperCase();
+  const hasExactCallData =
+    Number(x.callDataVersion) === 3 ||
+    Object.prototype.hasOwnProperty.call(x, 'exactCallStatus') ||
+    Array.isArray(x.calledPeopleIds) ||
+    Array.isArray(x.calledGroups);
 
-    if(full && called.includes(full))return true;
-    if(first && first.length>=4 && called.includes(first))return true;
-    if(last && last.length>=4 && called.includes(last))return true;
+  if (hasExactCallData) {
+    if (status !== 'READY') return false;
 
-    const pg=Array.isArray(person.groups)?person.groups:[];
-    return pg.some(g=>groups.includes(g));
+    const personId = String(person.id || '').trim();
+    const calledPeopleIds = Array.isArray(x.calledPeopleIds)
+      ? x.calledPeopleIds.map(v => String(v || '').trim()).filter(Boolean)
+      : [];
+    const calledGroups = Array.isArray(x.calledGroups)
+      ? x.calledGroups.map(v => String(v || '').trim()).filter(Boolean)
+      : [];
+
+    if (personId && calledPeopleIds.includes(personId)) return true;
+    if (calledGroups.includes('Full Company')) return true;
+
+    const personGroups = Array.isArray(person.groups)
+      ? person.groups.map(v => String(v || '').trim()).filter(Boolean)
+      : [];
+
+    return personGroups.some(group => calledGroups.includes(group));
   }
+
+  const calledText = String(x.called || '').toLowerCase();
+  const fullName = String(person.name || '').toLowerCase();
+  if (fullName && calledText.includes(fullName)) return true;
+
+  const legacyGroups = Array.isArray(x.callGroups) ? x.callGroups : [];
+  if (legacyGroups.includes('Full Company')) return true;
+
+  const safeLegacyGroups = new Set(['Dancers','Children/Youth','Choir/Vocalists','Crew/Tech']);
+  const personGroups = Array.isArray(person.groups) ? person.groups : [];
+
+  return personGroups.some(group =>
+    safeLegacyGroups.has(group) && legacyGroups.includes(group)
+  );
+}
 
   function groupMatches(x){
     if(personalView && person)return personMatches(x);
