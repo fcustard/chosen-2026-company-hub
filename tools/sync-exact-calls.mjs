@@ -9,8 +9,8 @@ if (!configured) {
 }
 
 /*
- * Keep the existing repository variable.
- * This script changes the requested feed to hub-v2 automatically.
+ * Use the existing calendar-feed URL, but request
+ * the Exact Calls V1.1 feed.
  */
 const url = new URL(configured);
 url.searchParams.set('feed', 'hub-v2');
@@ -18,18 +18,20 @@ url.searchParams.set('feed', 'hub-v2');
 const sleep = ms =>
   new Promise(resolve => setTimeout(resolve, ms));
 
-function normalizeStatus(value) {
-  return String(value || '')
-    .trim()
-    .toUpperCase();
+function normalizeText(value) {
+  return String(value || '').trim();
 }
 
-function isNoRehearsal(rehearsal) {
-  const publicStatus = normalizeStatus(rehearsal.status);
-  const title = normalizeStatus(rehearsal.title);
+function normalizeUpper(value) {
+  return normalizeText(value).toUpperCase();
+}
+
+function isNoRehearsal(record) {
+  const status = normalizeUpper(record.status);
+  const title = normalizeUpper(record.title);
 
   return (
-    publicStatus === 'NO REHEARSAL' ||
+    status === 'NO REHEARSAL' ||
     title.includes('NO REHEARSAL')
   );
 }
@@ -51,7 +53,7 @@ async function fetchWithTimeout(ms) {
 
     if (!response.ok) {
       throw new Error(
-        `Calendar feed returned HTTP ${response.status}`
+        `Exact Calls feed returned HTTP ${response.status}`
       );
     }
 
@@ -61,70 +63,105 @@ async function fetchWithTimeout(ms) {
   }
 }
 
-function validateFeedEnvelope(data) {
-  if (!data) {
+/*
+ * Validate the API envelope.
+ *
+ * Apps Script returns:
+ *
+ * {
+ *   ok: true,
+ *   schemaVersion: 3,
+ *   rehearsals: [...]
+ * }
+ */
+function getFeedRehearsals(feed) {
+  if (!feed) {
     throw new Error(
       'Exact Calls feed returned no data.'
     );
   }
 
-  if (data.ok !== true) {
+  if (feed.ok !== true) {
     throw new Error(
       'Exact Calls feed did not return ok=true.'
     );
   }
 
-  if (data.schemaVersion !== 3) {
+  if (feed.schemaVersion !== 3) {
     throw new Error(
-      `Unsupported Exact Calls schemaVersion: ${data.schemaVersion}`
+      `Unsupported Exact Calls schemaVersion: ${feed.schemaVersion}`
     );
   }
 
-  if (!Array.isArray(data.rehearsals)) {
+  if (!Array.isArray(feed.rehearsals)) {
     throw new Error(
       'Exact Calls feed rehearsals property is not an array.'
     );
   }
 
-  return data.rehearsals;
+  return feed.rehearsals;
 }
 
-function validateAndNormalizeRehearsals(rehearsals) {
-  const seen = new Set();
+/*
+ * Convert the Exact Calls API schema into the
+ * rehearsal schema already expected by the Hub.
+ *
+ * IMPORTANT:
+ * We preserve the old Hub contract instead of
+ * rewriting validate.mjs, build.mjs, and the UI.
+ */
+function adaptRehearsals(feedRehearsals) {
+  const output = [];
+  const seenIds = new Set();
 
-  const normalized = [];
+  let excludedNoRehearsal = 0;
 
-  for (const rehearsal of rehearsals) {
+  for (const source of feedRehearsals) {
     /*
-     * Preserve NO REHEARSAL entries in the public schedule,
-     * but ensure they can never become personalized calls.
+     * Administrative blackout / break rows stay in
+     * Google Calendar data, but are not rehearsal
+     * records for the Hub build pipeline.
      */
-    if (isNoRehearsal(rehearsal)) {
-      rehearsal.calledPeople = [];
-      rehearsal.calledPeopleIds = [];
-      rehearsal.calledGroups = [];
-      rehearsal.exactCallStatus = 'HOLD';
-
-      normalized.push(rehearsal);
+    if (isNoRehearsal(source)) {
+      excludedNoRehearsal += 1;
       continue;
     }
 
-    if (!rehearsal.eventKey) {
+    const id = normalizeText(
+      source.id || source.eventKey
+    );
+
+    if (!id) {
       throw new Error(
-        'Published rehearsal is missing eventKey.'
+        'Published rehearsal is missing both id and eventKey.'
       );
     }
 
-    if (seen.has(rehearsal.eventKey)) {
+    if (seenIds.has(id)) {
       throw new Error(
-        `Duplicate eventKey: ${rehearsal.eventKey}`
+        `Duplicate rehearsal id: ${id}`
       );
     }
 
-    seen.add(rehearsal.eventKey);
+    seenIds.add(id);
+
+    const start = normalizeText(source.start);
+    const end = normalizeText(source.end);
+    const title = normalizeText(source.title);
+
+    /*
+     * These are the exact fields required by
+     * tools/validate.mjs.
+     */
+    if (!start || !end || !title) {
+      throw new Error(
+        `Rehearsal ${id} is missing required Hub fields. ` +
+        `start="${start}", end="${end}", title="${title}"`
+      );
+    }
 
     const exactCallStatus =
-      normalizeStatus(rehearsal.exactCallStatus);
+      normalizeUpper(source.exactCallStatus);
 
     if (
       !['READY', 'REVIEW', 'HOLD']
@@ -132,53 +169,81 @@ function validateAndNormalizeRehearsals(rehearsals) {
     ) {
       throw new Error(
         `Invalid exactCallStatus ` +
-        `"${rehearsal.exactCallStatus}" ` +
-        `for ${rehearsal.eventKey}`
+        `"${source.exactCallStatus}" for ${id}`
       );
     }
 
-    /*
-     * Normalize the status before it reaches the Hub.
-     */
-    rehearsal.exactCallStatus =
-      exactCallStatus;
+    const calledPeopleIds =
+      Array.isArray(source.calledPeopleIds)
+        ? source.calledPeopleIds
+        : [];
 
-    if (
-      !Array.isArray(rehearsal.calledPeopleIds) ||
-      !Array.isArray(rehearsal.calledGroups)
-    ) {
-      throw new Error(
-        `Invalid Exact Calls arrays for ` +
-        `${rehearsal.eventKey}`
-      );
-    }
+    const calledGroups =
+      Array.isArray(source.calledGroups)
+        ? source.calledGroups
+        : [];
+
+    const calledPeople =
+      Array.isArray(source.calledPeople)
+        ? source.calledPeople
+        : [];
 
     /*
-     * Only READY events may contain authoritative
-     * personalized call targets.
+     * Only READY events may create confident
+     * personalized calls.
      */
     if (
       exactCallStatus !== 'READY' &&
       (
-        rehearsal.calledPeopleIds.length > 0 ||
-        rehearsal.calledGroups.length > 0
+        calledPeopleIds.length > 0 ||
+        calledGroups.length > 0
       )
     ) {
       throw new Error(
-        `Non-READY event ${rehearsal.eventKey} ` +
-        `contains personalized call targets.`
+        `Non-READY rehearsal ${id} contains ` +
+        `personalized call targets.`
       );
     }
 
-    normalized.push(rehearsal);
+    /*
+     * Compatibility object:
+     *
+     * - id satisfies the established Hub
+     * - eventKey is retained for traceability
+     * - Exact Calls fields ride alongside the
+     *   existing rehearsal fields
+     */
+    const rehearsal = {
+      ...source,
+
+      id,
+      eventKey: normalizeText(
+        source.eventKey || id
+      ),
+
+      start,
+      end,
+      title,
+
+      calledPeople,
+      calledPeopleIds,
+      calledGroups,
+
+      exactCallStatus,
+      callDataVersion: 3
+    };
+
+    output.push(rehearsal);
   }
 
-  return normalized;
+  return {
+    rehearsals: output,
+    excludedNoRehearsal
+  };
 }
 
 /*
- * Retry strategy protects against temporary
- * Google Apps Script/network delays.
+ * Retry transient Google Apps Script/network errors.
  */
 const attempts = [
   30000,
@@ -187,6 +252,7 @@ const attempts = [
 ];
 
 let rehearsals = null;
+let excludedNoRehearsal = 0;
 let lastError = null;
 
 for (
@@ -206,14 +272,21 @@ for (
       );
 
     const feedRehearsals =
-      validateFeedEnvelope(feed);
+      getFeedRehearsals(feed);
 
-    rehearsals =
-      validateAndNormalizeRehearsals(
+    const adapted =
+      adaptRehearsals(
         feedRehearsals
       );
 
+    rehearsals =
+      adapted.rehearsals;
+
+    excludedNoRehearsal =
+      adapted.excludedNoRehearsal;
+
     break;
+
   } catch (error) {
     lastError = error;
 
@@ -222,7 +295,10 @@ for (
       `${error.message}`
     );
 
-    if (i < attempts.length - 1) {
+    if (
+      i <
+      attempts.length - 1
+    ) {
       await sleep(
         (i + 1) * 3000
       );
@@ -241,32 +317,14 @@ if (!rehearsals) {
 }
 
 /*
- * IMPORTANT ARCHITECTURE RULE
- *
- * The Apps Script feed uses an envelope:
- *
- * {
- *   ok: true,
- *   schemaVersion: 3,
- *   rehearsals: [...]
- * }
- *
- * But the existing CHOSEN Hub expects:
+ * The established Hub expects:
  *
  * data/rehearsals.json
  *
- * to contain the rehearsal ARRAY itself.
+ * to be a plain rehearsal ARRAY.
  *
- * Therefore we deliberately write ONLY
- * the normalized rehearsals array below.
- *
- * This preserves compatibility with:
- * - tools/validate.mjs
- * - tools/build.mjs
- * - content generation
- * - existing Hub schedule rendering
+ * Do not write the Apps Script envelope here.
  */
-
 await fs.mkdir(
   'data',
   {
@@ -291,52 +349,49 @@ await fs.writeFile(
 );
 
 /*
- * Atomic replacement:
- * the old good file remains untouched
- * unless the new feed fully validates.
+ * Atomic replacement protects the last known-good
+ * Hub schedule if anything failed earlier.
  */
 await fs.rename(
   tempPath,
   finalPath
 );
 
+/*
+ * Reporting
+ */
 const ready =
   rehearsals.filter(
-    rehearsal =>
-      rehearsal.exactCallStatus ===
+    r =>
+      r.exactCallStatus ===
       'READY'
   ).length;
 
 const review =
   rehearsals.filter(
-    rehearsal =>
-      rehearsal.exactCallStatus ===
+    r =>
+      r.exactCallStatus ===
       'REVIEW'
   ).length;
 
 const hold =
   rehearsals.filter(
-    rehearsal =>
-      rehearsal.exactCallStatus ===
+    r =>
+      r.exactCallStatus ===
       'HOLD'
-  ).length;
-
-const noRehearsal =
-  rehearsals.filter(
-    rehearsal =>
-      isNoRehearsal(rehearsal)
   ).length;
 
 console.log(
   `Exact Calls sync OK: ` +
-  `${rehearsals.length} schedule entries; ` +
+  `${rehearsals.length} rehearsal records; ` +
   `${ready} READY; ` +
   `${review} REVIEW; ` +
   `${hold} HOLD; ` +
-  `${noRehearsal} NO REHEARSAL.`
+  `${excludedNoRehearsal} NO REHEARSAL rows excluded.`
 );
 
 console.log(
-  'data/rehearsals.json written as a rehearsal array ' +
-  'for compatibility with the existing Hub build pipeline.'
+  'Hub compatibility preserved: ' +
+  'data/rehearsals.json contains id, start, end, title ' +
+  'plus Exact Calls V1.1 fields.'
 );
