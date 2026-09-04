@@ -1,0 +1,2371 @@
+{
+  "ok": true,
+  "schemaVersion": 1,
+  "source": "CHOSEN 2026 Admin Master Sheets",
+  "generatedAt": "2026-09-04T04:30:27.005Z",
+  "people": [
+    {
+      "id": "P-abi",
+      "name": "Abi",
+      "companyType": "Production",
+      "primaryAssignment": "Wardrobe Props (Day of Show)",
+      "departments": [
+        "Wardrobe / Props"
+      ],
+      "groups": [
+        "Wardrobe / Props"
+      ],
+      "roles": "",
+      "scenes": [],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-abi",
+          "type": "Production Department",
+          "department": "Wardrobe / Props",
+          "assignment": "Wardrobe Props (Day of Show)",
+          "scope": "",
+          "callGroups": [
+            "Wardrobe / Props"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-alexandria-platt",
+      "name": "Alexandria Platt",
+      "companyType": "Performer",
+      "primaryAssignment": "CHILD 3/ DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Children/Youth"
+      ],
+      "roles": "CHILD 3/ DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-alexandria-platt",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "CHILD 3/ DANCER/ ENSEMBLE",
+          "scope": "1, 9, 10, 12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble",
+            "Children/Youth"
+          ]
+        },
+        {
+          "personId": "P-alexandria-platt",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-alicia-butler",
+      "name": "Alicia Butler",
+      "companyType": "Production",
+      "primaryAssignment": "Costumes",
+      "departments": [
+        "Wardrobe"
+      ],
+      "groups": [
+        "Wardrobe"
+      ],
+      "roles": "",
+      "scenes": [],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-alicia-butler",
+          "type": "Production Department",
+          "department": "Wardrobe",
+          "assignment": "Costumes",
+          "scope": "",
+          "callGroups": [
+            "Wardrobe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-allania-mitchell",
+      "name": "Allania Mitchell",
+      "companyType": "Performer",
+      "primaryAssignment": "DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ],
+      "roles": "DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-allania-mitchell",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "DANCER/ ENSEMBLE",
+          "scope": "1, 9, 10, 12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble"
+          ]
+        },
+        {
+          "personId": "P-allania-mitchell",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-alyssa-johnson",
+      "name": "Alyssa Johnson",
+      "companyType": "Performer",
+      "primaryAssignment": "DANCE /ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ],
+      "roles": "DANCE /ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-alyssa-johnson",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "DANCE /ENSEMBLE",
+          "scope": "1, 9, 10, 11,12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble"
+          ]
+        },
+        {
+          "personId": "P-alyssa-johnson",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-amadeus-hills",
+      "name": "Amadeus Hills",
+      "companyType": "Performer",
+      "primaryAssignment": "ROMAN ANNOUNCER/ DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ],
+      "roles": "ROMAN ANNOUNCER/ DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "REVIEW",
+      "assignments": [
+        {
+          "personId": "P-amadeus-hills",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "ROMAN ANNOUNCER/ DANCER/ ENSEMBLE",
+          "scope": "1, 10, 12",
+          "callGroups": [
+            "Ensemble",
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-anaia-downer",
+      "name": "Anaia Downer",
+      "companyType": "Performer",
+      "primaryAssignment": "GOSSIPER 1/ DANCER/ ENSEMBLE/Understudy for Dafna",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Principals/Featured"
+      ],
+      "roles": "GOSSIPER 1/ DANCER/ ENSEMBLE/Understudy for Dafna",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": "Dafna",
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-anaia-downer",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "GOSSIPER 1/ DANCER/ ENSEMBLE/Understudy for Dafna",
+          "scope": "1,9,10, 11,12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble",
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-anaia-downer",
+          "type": "Understudy",
+          "department": "Cast",
+          "assignment": "Dafna",
+          "scope": "1,9,10, 11,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-anaia-downer",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-andre-sartin",
+      "name": "Andre Sartin",
+      "companyType": "Production",
+      "primaryAssignment": "Stage Hand/ Acting Coach/Media",
+      "departments": [
+        "Media"
+      ],
+      "groups": [
+        "Media"
+      ],
+      "roles": "",
+      "scenes": [],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-andre-sartin",
+          "type": "Production Department",
+          "department": "Media",
+          "assignment": "Stage Hand/ Acting Coach/Media",
+          "scope": "",
+          "callGroups": [
+            "Media"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-annalise-mongeois",
+      "name": "Annalise Mongeois",
+      "companyType": "Performer",
+      "primaryAssignment": "CHILD 1/DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Children/Youth"
+      ],
+      "roles": "CHILD 1/DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-annalise-mongeois",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "CHILD 1/DANCER/ ENSEMBLE",
+          "scope": "1,9,10,12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble",
+            "Children/Youth"
+          ]
+        },
+        {
+          "personId": "P-annalise-mongeois",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-annetta-johnson",
+      "name": "Annetta Johnson",
+      "companyType": "Performer",
+      "primaryAssignment": "VILLAGE AUNTIE (Elizabeth's Friend)/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ],
+      "roles": "VILLAGE AUNTIE (Elizabeth's Friend)/ ENSEMBLE",
+      "scenes": [
+        1,
+        7,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-annetta-johnson",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "VILLAGE AUNTIE (Elizabeth's Friend)/ ENSEMBLE",
+          "scope": "1,7,10,12",
+          "callGroups": [
+            "Ensemble",
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-ariella-davidson",
+      "name": "Ariella Davidson",
+      "companyType": "Performer",
+      "primaryAssignment": "CHILD 2/ DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Children/Youth"
+      ],
+      "roles": "CHILD 2/ DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-ariella-davidson",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "CHILD 2/ DANCER/ ENSEMBLE",
+          "scope": "1, 9, 10,11, 12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble",
+            "Children/Youth"
+          ]
+        },
+        {
+          "personId": "P-ariella-davidson",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-arielle-brown",
+      "name": "Arielle Brown",
+      "companyType": "Performer",
+      "primaryAssignment": "DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ],
+      "roles": "DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-arielle-brown",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "DANCER/ ENSEMBLE",
+          "scope": "1, 9, 10,11, 12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble"
+          ]
+        },
+        {
+          "personId": "P-arielle-brown",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-ashley-pierre",
+      "name": "Ashley Pierre",
+      "companyType": "Performer",
+      "primaryAssignment": "DAFNA (Mary's Friend)",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "DAFNA (Mary's Friend)",
+      "scenes": [
+        1,
+        4,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-ashley-pierre",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "DAFNA (Mary's Friend)",
+          "scope": "1,4,9,10,11,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-aubrie-lewis",
+      "name": "Aubrie Lewis",
+      "companyType": "Performer",
+      "primaryAssignment": "DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ],
+      "roles": "DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-aubrie-lewis",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "DANCER/ ENSEMBLE",
+          "scope": "1,9,10,11,12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble"
+          ]
+        },
+        {
+          "personId": "P-aubrie-lewis",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-audrey-howell-mcclenney",
+      "name": "Audrey Howell-McClenney",
+      "companyType": "Performer",
+      "primaryAssignment": "ELIZABETH",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "ELIZABETH",
+      "scenes": [
+        1,
+        7,
+        8,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-audrey-howell-mcclenney",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "ELIZABETH",
+          "scope": "1,7,8,10,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-blaise",
+      "name": "Blaise",
+      "companyType": "Production",
+      "primaryAssignment": "Back Stage Crew, Props",
+      "departments": [
+        "Stagehands"
+      ],
+      "groups": [
+        "Stagehands"
+      ],
+      "roles": "",
+      "scenes": [],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-blaise",
+          "type": "Production Department",
+          "department": "Stagehands",
+          "assignment": "Back Stage Crew, Props",
+          "scope": "",
+          "callGroups": [
+            "Stagehands"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-caleb-davilmar",
+      "name": "Caleb Davilmar",
+      "companyType": "Performer",
+      "primaryAssignment": "JOSEPH",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "JOSEPH",
+      "scenes": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-caleb-davilmar",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "JOSEPH",
+          "scope": "1,2,5,6,7,8,9,10,11,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-caris-hunte",
+      "name": "Caris Hunte",
+      "companyType": "Performer",
+      "primaryAssignment": "DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ],
+      "roles": "DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-caris-hunte",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "DANCER/ ENSEMBLE",
+          "scope": "1, 9, 10,11, 12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble"
+          ]
+        },
+        {
+          "personId": "P-caris-hunte",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-carmen-brown",
+      "name": "Carmen Brown",
+      "companyType": "Performer",
+      "primaryAssignment": "DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ],
+      "roles": "DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-carmen-brown",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "DANCER/ ENSEMBLE",
+          "scope": "1, 9, 10,11, 12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble"
+          ]
+        },
+        {
+          "personId": "P-carmen-brown",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-cedrick-massey",
+      "name": "Cedrick Massey",
+      "companyType": "Performer",
+      "primaryAssignment": "GABRIEL (Angel)/ Understudy for Joseph",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "GABRIEL (Angel)/ Understudy for Joseph",
+      "scenes": [
+        3,
+        7,
+        12
+      ],
+      "understudy": "Joseph",
+      "danceEnsemble": false,
+      "reviewStatus": "REVIEW",
+      "assignments": [
+        {
+          "personId": "P-cedrick-massey",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "GABRIEL (Angel)/ Understudy for Joseph",
+          "scope": "3, 7, 12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-cedrick-massey",
+          "type": "Understudy",
+          "department": "Cast",
+          "assignment": "Joseph",
+          "scope": "3, 7, 12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-charla-yvonne-cornelius",
+      "name": "Charla-Yvonne Cornelius",
+      "companyType": "Performer",
+      "primaryAssignment": "WOMAN CUSTOMER 1 /Anna-Innkeeper's Wife/Understudy for Elizabeth",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "WOMAN CUSTOMER 1 /Anna-Innkeeper's Wife/Understudy for Elizabeth",
+      "scenes": [
+        1,
+        11,
+        12
+      ],
+      "understudy": "Elizabeth",
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-charla-yvonne-cornelius",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "WOMAN CUSTOMER 1 /Anna-Innkeeper's Wife/Understudy for Elizabeth",
+          "scope": "1,11,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-charla-yvonne-cornelius",
+          "type": "Understudy",
+          "department": "Cast",
+          "assignment": "Elizabeth",
+          "scope": "1,11,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-chris-mcanuff",
+      "name": "Chris Mcanuff",
+      "companyType": "Performer",
+      "primaryAssignment": "EZRA (Joseph's Friend)**",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "EZRA (Joseph's Friend)**",
+      "scenes": [
+        1,
+        5,
+        7,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-chris-mcanuff",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "EZRA (Joseph's Friend)**",
+          "scope": "1,5,7,9,10,,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-clifton-mcclenney",
+      "name": "Clifton MCclenney",
+      "companyType": "Production",
+      "primaryAssignment": "Sound and microphones, Lighting, Setup and cleanup",
+      "departments": [
+        "Stagehands"
+      ],
+      "groups": [
+        "Stagehands"
+      ],
+      "roles": "",
+      "scenes": [],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-clifton-mcclenney",
+          "type": "Production Department",
+          "department": "Stagehands",
+          "assignment": "Sound and microphones, Lighting, Setup and cleanup",
+          "scope": "",
+          "callGroups": [
+            "Stagehands"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-dana-quamina",
+      "name": "Dana Quamina",
+      "companyType": "Performer",
+      "primaryAssignment": "VILLAGER WOMAN 2/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Ensemble"
+      ],
+      "roles": "VILLAGER WOMAN 2/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-dana-quamina",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "VILLAGER WOMAN 2/ ENSEMBLE",
+          "scope": "1, 9, 10, 11,12",
+          "callGroups": [
+            "Ensemble"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-deandra-gray",
+      "name": "DeAndra Gray",
+      "companyType": "Performer",
+      "primaryAssignment": "DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ],
+      "roles": "DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-deandra-gray",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "DANCER/ ENSEMBLE",
+          "scope": "1, 9, 10,11,12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble"
+          ]
+        },
+        {
+          "personId": "P-deandra-gray",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-delvin-rogers-jr",
+      "name": "Delvin Rogers Jr",
+      "companyType": "Performer",
+      "primaryAssignment": "YOUNG SHEPERD/DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Children/Youth"
+      ],
+      "roles": "YOUNG SHEPERD/DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "REVIEW",
+      "assignments": [
+        {
+          "personId": "P-delvin-rogers-jr",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "YOUNG SHEPERD/DANCER/ ENSEMBLE",
+          "scope": "1, 9, 12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble",
+            "Children/Youth"
+          ]
+        },
+        {
+          "personId": "P-delvin-rogers-jr",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-dorrien-jones",
+      "name": "Dorrien Jones",
+      "companyType": "Performer",
+      "primaryAssignment": "CALEB (Joseph's Friend)/ Understudy for Roman Announcer**",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "CALEB (Joseph's Friend)/ Understudy for Roman Announcer**",
+      "scenes": [
+        1,
+        5,
+        7,
+        9,
+        10,
+        12
+      ],
+      "understudy": "Roman Announcer",
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-dorrien-jones",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "CALEB (Joseph's Friend)/ Understudy for Roman Announcer**",
+          "scope": "1,5,7,9,10,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-dorrien-jones",
+          "type": "Understudy",
+          "department": "Cast",
+          "assignment": "Roman Announcer",
+          "scope": "1,5,7,9,10,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-edison-browne",
+      "name": "Edison Browne",
+      "companyType": "Performer",
+      "primaryAssignment": "SHEPHERD 1/ ENSEMBLE//Understudy for Malachi",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ],
+      "roles": "SHEPHERD 1/ ENSEMBLE//Understudy for Malachi",
+      "scenes": [
+        1,
+        12
+      ],
+      "understudy": "Malachi",
+      "danceEnsemble": false,
+      "reviewStatus": "REVIEW",
+      "assignments": [
+        {
+          "personId": "P-edison-browne",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "SHEPHERD 1/ ENSEMBLE//Understudy for Malachi",
+          "scope": "1, 12",
+          "callGroups": [
+            "Ensemble",
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-edison-browne",
+          "type": "Understudy",
+          "department": "Cast",
+          "assignment": "Malachi",
+          "scope": "1, 12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-etta-wright",
+      "name": "Etta Wright",
+      "companyType": "Performer + Production",
+      "primaryAssignment": "MERCHANT 1/ VILLAGER WOMAN 3 /ENSEMBLE",
+      "departments": [
+        "Cast",
+        "Wardrobe"
+      ],
+      "groups": [
+        "Ensemble",
+        "Wardrobe"
+      ],
+      "roles": "MERCHANT 1/ VILLAGER WOMAN 3 /ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-etta-wright",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "MERCHANT 1/ VILLAGER WOMAN 3 /ENSEMBLE",
+          "scope": "1, 9, 10, 11,12",
+          "callGroups": [
+            "Ensemble"
+          ]
+        },
+        {
+          "personId": "P-etta-wright",
+          "type": "Production Department",
+          "department": "Wardrobe",
+          "assignment": "Back Stage Costumes, Props",
+          "scope": "",
+          "callGroups": [
+            "Wardrobe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-fredrick-custard",
+      "name": "Fredrick Custard",
+      "companyType": "Performer",
+      "primaryAssignment": "VILLAGER MAN/INNKEEPER 1",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ],
+      "roles": "VILLAGER MAN/INNKEEPER 1",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-fredrick-custard",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "VILLAGER MAN/INNKEEPER 1",
+          "scope": "1, 9,10, 11, 12",
+          "callGroups": [
+            "Ensemble",
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-gabriela-sardinas",
+      "name": "Gabriela Sardinas",
+      "companyType": "Performer",
+      "primaryAssignment": "GOSSIPER 4/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ],
+      "roles": "GOSSIPER 4/ ENSEMBLE",
+      "scenes": [
+        1,
+        4,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-gabriela-sardinas",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "GOSSIPER 4/ ENSEMBLE",
+          "scope": "1,4,9,10,11,12",
+          "callGroups": [
+            "Ensemble",
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-gabriella-fearon",
+      "name": "Gabriella Fearon",
+      "companyType": "Performer",
+      "primaryAssignment": "DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ],
+      "roles": "DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-gabriella-fearon",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "DANCER/ ENSEMBLE",
+          "scope": "1,9,10,11,12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble"
+          ]
+        },
+        {
+          "personId": "P-gabriella-fearon",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-gelvina-maxime",
+      "name": "Gelvina Maxime",
+      "companyType": "Performer",
+      "primaryAssignment": "NIA (Child Storyteller)/ DANCER",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Children/Youth",
+        "Principals/Featured"
+      ],
+      "roles": "NIA (Child Storyteller)/ DANCER",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-gelvina-maxime",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "NIA (Child Storyteller)/ DANCER",
+          "scope": "1, 9, 10, 12",
+          "callGroups": [
+            "Dancers",
+            "Children/Youth",
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-gelvina-maxime",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-james-myers",
+      "name": "James Myers",
+      "companyType": "Performer",
+      "primaryAssignment": "SIMON (Child Storyteller)/ DANCER",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Children/Youth",
+        "Principals/Featured"
+      ],
+      "roles": "SIMON (Child Storyteller)/ DANCER",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-james-myers",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "SIMON (Child Storyteller)/ DANCER",
+          "scope": "1, 9, 10, 12",
+          "callGroups": [
+            "Dancers",
+            "Children/Youth",
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-james-myers",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-jayden-harris",
+      "name": "Jayden Harris",
+      "companyType": "Performer",
+      "primaryAssignment": "MERCHANT 2/SHEPHERD 2/ ENSEMBLE/Understudy for Ezra (Joseph's Friend)",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ],
+      "roles": "MERCHANT 2/SHEPHERD 2/ ENSEMBLE/Understudy for Ezra (Joseph's Friend)",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": "Ezra (Joseph's Friend)",
+      "danceEnsemble": false,
+      "reviewStatus": "REVIEW",
+      "assignments": [
+        {
+          "personId": "P-jayden-harris",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "MERCHANT 2/SHEPHERD 2/ ENSEMBLE/Understudy for Ezra (Joseph's Friend)",
+          "scope": "1, 9, 10, 12",
+          "callGroups": [
+            "Ensemble",
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-jayden-harris",
+          "type": "Understudy",
+          "department": "Cast",
+          "assignment": "Ezra (Joseph's Friend)",
+          "scope": "1, 9, 10, 12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-jordyn-starks",
+      "name": "Jordyn Starks",
+      "companyType": "Performer",
+      "primaryAssignment": "MARY",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "MARY",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-jordyn-starks",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "MARY",
+          "scope": "1,2,3,4,6,7,8,9,10,11,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-jeovanie-andre",
+      "name": "Jéovanie André",
+      "companyType": "Performer",
+      "primaryAssignment": "ADINA (Mary's Friend)/ Understudy for Mary",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "ADINA (Mary's Friend)/ Understudy for Mary",
+      "scenes": [
+        1,
+        4,
+        9,
+        10
+      ],
+      "understudy": "Mary",
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-jeovanie-andre",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "ADINA (Mary's Friend)/ Understudy for Mary",
+          "scope": "1,4,9,10,",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-jeovanie-andre",
+          "type": "Understudy",
+          "department": "Cast",
+          "assignment": "Mary",
+          "scope": "1,4,9,10,",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-kaela-moses",
+      "name": "Kaela Moses",
+      "companyType": "Production",
+      "primaryAssignment": "Administration/Floater",
+      "departments": [
+        "Administration"
+      ],
+      "groups": [
+        "Administration"
+      ],
+      "roles": "",
+      "scenes": [],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-kaela-moses",
+          "type": "Production Department",
+          "department": "Administration",
+          "assignment": "Administration/Floater",
+          "scope": "",
+          "callGroups": [
+            "Administration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-kennedy-mccalla",
+      "name": "Kennedy McCalla",
+      "companyType": "Performer",
+      "primaryAssignment": "DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ],
+      "roles": "DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-kennedy-mccalla",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "DANCER/ ENSEMBLE",
+          "scope": "1, 9, 10, 12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble"
+          ]
+        },
+        {
+          "personId": "P-kennedy-mccalla",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-kevin-hohn",
+      "name": "Kevin Hohn",
+      "companyType": "Performer",
+      "primaryAssignment": "CUSTOMER 1/ ELI-INNKEEPER 4/",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "CUSTOMER 1/ ELI-INNKEEPER 4/",
+      "scenes": [
+        1,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "REVIEW",
+      "assignments": [
+        {
+          "personId": "P-kevin-hohn",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "CUSTOMER 1/ ELI-INNKEEPER 4/",
+          "scope": "1, 11, 12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-kourtney-ann-palmer",
+      "name": "Kourtney—Ann Palmer",
+      "companyType": "Performer",
+      "primaryAssignment": "DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ],
+      "roles": "DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-kourtney-ann-palmer",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "DANCER/ ENSEMBLE",
+          "scope": "1, 9, 10, 11,12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble"
+          ]
+        },
+        {
+          "personId": "P-kourtney-ann-palmer",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-lauryn-butler",
+      "name": "Lauryn Butler",
+      "companyType": "Performer",
+      "primaryAssignment": "ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Ensemble"
+      ],
+      "roles": "ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-lauryn-butler",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "ENSEMBLE",
+          "scope": "1, 9,10,11, 12",
+          "callGroups": [
+            "Ensemble"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-lounise-blaise",
+      "name": "Lounise Blaise",
+      "companyType": "Production",
+      "primaryAssignment": "Administration",
+      "departments": [
+        "Administration"
+      ],
+      "groups": [
+        "Administration"
+      ],
+      "roles": "",
+      "scenes": [],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-lounise-blaise",
+          "type": "Production Department",
+          "department": "Administration",
+          "assignment": "Administration",
+          "scope": "",
+          "callGroups": [
+            "Administration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-marcus-mainer",
+      "name": "Marcus Mainer",
+      "companyType": "Performer",
+      "primaryAssignment": "LEVI (Joseph's Friend)**",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "LEVI (Joseph's Friend)**",
+      "scenes": [
+        1,
+        5,
+        7,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-marcus-mainer",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "LEVI (Joseph's Friend)**",
+          "scope": "1,5,7,9,10,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-marissa-downie",
+      "name": "Marissa Downie",
+      "companyType": "Performer",
+      "primaryAssignment": "VILLAGER WOMAN 1 /DANCER",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ],
+      "roles": "VILLAGER WOMAN 1 /DANCER",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-marissa-downie",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "VILLAGER WOMAN 1 /DANCER",
+          "scope": "1, 9, 10,11,12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble"
+          ]
+        },
+        {
+          "personId": "P-marissa-downie",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-michael-stover",
+      "name": "Michael Stover",
+      "companyType": "Performer",
+      "primaryAssignment": "MALACHI (Joseph's Friend)",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "MALACHI (Joseph's Friend)",
+      "scenes": [
+        1,
+        5,
+        7,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-michael-stover",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "MALACHI (Joseph's Friend)",
+          "scope": "1,5,7,9,10,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-moenike-custard",
+      "name": "Moenike Custard",
+      "companyType": "Performer",
+      "primaryAssignment": "DANCER/ ENSEMBLE/ INNKEEPER 2",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Principals/Featured"
+      ],
+      "roles": "DANCER/ ENSEMBLE/ INNKEEPER 2",
+      "scenes": [
+        1,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-moenike-custard",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "DANCER/ ENSEMBLE/ INNKEEPER 2",
+          "scope": "1, 10,11, 12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble",
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-moenike-custard",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-natasha-thomas",
+      "name": "Natasha Thomas",
+      "companyType": "Production",
+      "primaryAssignment": "Costumes",
+      "departments": [
+        "Wardrobe"
+      ],
+      "groups": [
+        "Wardrobe"
+      ],
+      "roles": "",
+      "scenes": [],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-natasha-thomas",
+          "type": "Production Department",
+          "department": "Wardrobe",
+          "assignment": "Costumes",
+          "scope": "",
+          "callGroups": [
+            "Wardrobe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-nelcia-fosttin",
+      "name": "Nelcia Fosttin",
+      "companyType": "Performer",
+      "primaryAssignment": "DANCER/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble"
+      ],
+      "roles": "DANCER/ ENSEMBLE",
+      "scenes": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-nelcia-fosttin",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "DANCER/ ENSEMBLE",
+          "scope": "1, 9, 10, 12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble"
+          ]
+        },
+        {
+          "personId": "P-nelcia-fosttin",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scenes 1, 9, 12",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-nigel-adaka",
+      "name": "Nigel Adaka",
+      "companyType": "Production",
+      "primaryAssignment": "Pictures/ Videos",
+      "departments": [
+        "Media"
+      ],
+      "groups": [
+        "Media"
+      ],
+      "roles": "",
+      "scenes": [],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-nigel-adaka",
+          "type": "Production Department",
+          "department": "Media",
+          "assignment": "Pictures/ Videos",
+          "scope": "",
+          "callGroups": [
+            "Media"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-sanaa",
+      "name": "Sanaa",
+      "companyType": "Production",
+      "primaryAssignment": "Film, Edit",
+      "departments": [
+        "Media"
+      ],
+      "groups": [
+        "Media"
+      ],
+      "roles": "",
+      "scenes": [],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-sanaa",
+          "type": "Production Department",
+          "department": "Media",
+          "assignment": "Film, Edit",
+          "scope": "",
+          "callGroups": [
+            "Media"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-sandra-johnson",
+      "name": "Sandra Johnson",
+      "companyType": "Performer",
+      "primaryAssignment": "VILLAGER/Village Auntie (Elizabeth's Friend)/ ENSEMBLE",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ],
+      "roles": "VILLAGER/Village Auntie (Elizabeth's Friend)/ ENSEMBLE",
+      "scenes": [
+        1,
+        7,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-sandra-johnson",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "VILLAGER/Village Auntie (Elizabeth's Friend)/ ENSEMBLE",
+          "scope": "1,7,10,11,12",
+          "callGroups": [
+            "Ensemble",
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-shanice-palmer",
+      "name": "Shanice Palmer",
+      "companyType": "Performer",
+      "primaryAssignment": "GOSSIPER 2 /Understudy for Shira",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "GOSSIPER 2 /Understudy for Shira",
+      "scenes": [
+        1,
+        4,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": "Shira",
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-shanice-palmer",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "GOSSIPER 2 /Understudy for Shira",
+          "scope": "1,4,9,10,11,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-shanice-palmer",
+          "type": "Understudy",
+          "department": "Cast",
+          "assignment": "Shira",
+          "scope": "1,4,9,10,11,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-shavonne-adaka",
+      "name": "Shavonne Adaka",
+      "companyType": "Production",
+      "primaryAssignment": "Wardrobe Props (Day of Show)",
+      "departments": [
+        "Wardrobe / Props"
+      ],
+      "groups": [
+        "Wardrobe / Props"
+      ],
+      "roles": "",
+      "scenes": [],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-shavonne-adaka",
+          "type": "Production Department",
+          "department": "Wardrobe / Props",
+          "assignment": "Wardrobe Props (Day of Show)",
+          "scope": "",
+          "callGroups": [
+            "Wardrobe / Props"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-sheen-jospeh",
+      "name": "Sheen Jospeh",
+      "companyType": "Production",
+      "primaryAssignment": "Building Sets",
+      "departments": [
+        "Set / Scenic"
+      ],
+      "groups": [
+        "Scenic"
+      ],
+      "roles": "",
+      "scenes": [],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-sheen-jospeh",
+          "type": "Production Department",
+          "department": "Set / Scenic",
+          "assignment": "Building Sets",
+          "scope": "",
+          "callGroups": [
+            "Scenic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-tasha-simeon",
+      "name": "Tasha Simeon",
+      "companyType": "Performer",
+      "primaryAssignment": "TALIA (Mary's Friend) Understudy for Innkeeper's Wife",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "TALIA (Mary's Friend) Understudy for Innkeeper's Wife",
+      "scenes": [
+        1,
+        4,
+        9,
+        10
+      ],
+      "understudy": "Innkeeper's Wife",
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-tasha-simeon",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "TALIA (Mary's Friend) Understudy for Innkeeper's Wife",
+          "scope": "1,4,9,10,",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-tasha-simeon",
+          "type": "Understudy",
+          "department": "Cast",
+          "assignment": "Innkeeper's Wife",
+          "scope": "1,4,9,10,",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-tyfany-adaka",
+      "name": "Tyfany Adaka",
+      "companyType": "Performer",
+      "primaryAssignment": "SHIRA (Mary's Friend)",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "SHIRA (Mary's Friend)",
+      "scenes": [
+        1,
+        6,
+        7,
+        9,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-tyfany-adaka",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "SHIRA (Mary's Friend)",
+          "scope": "1,6,7,9,10,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-victorya-champagne",
+      "name": "Victorya Champagne",
+      "companyType": "Performer",
+      "primaryAssignment": "GOSSIPER 3/ Understudy for Adina",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Principals/Featured"
+      ],
+      "roles": "GOSSIPER 3/ Understudy for Adina",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": "Adina",
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-victorya-champagne",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "GOSSIPER 3/ Understudy for Adina",
+          "scope": "1,9,10,11,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-victorya-champagne",
+          "type": "Understudy",
+          "department": "Cast",
+          "assignment": "Adina",
+          "scope": "1,9,10,11,12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-zania",
+      "name": "Zania",
+      "companyType": "Production",
+      "primaryAssignment": "Wardrobe, Production Assistant",
+      "departments": [
+        "Administration"
+      ],
+      "groups": [
+        "Administration"
+      ],
+      "roles": "",
+      "scenes": [],
+      "understudy": null,
+      "danceEnsemble": false,
+      "reviewStatus": "READY",
+      "assignments": [
+        {
+          "personId": "P-zania",
+          "type": "Production Department",
+          "department": "Administration",
+          "assignment": "Wardrobe, Production Assistant",
+          "scope": "",
+          "callGroups": [
+            "Administration"
+          ]
+        }
+      ]
+    }
+  ]
+}
