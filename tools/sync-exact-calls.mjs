@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 import fs from 'node:fs/promises';
 
 const configured = process.env.CALENDAR_FEED_URL;
@@ -34,6 +33,22 @@ async function fetchWithTimeout(ms) {
   }
 }
 
+function normalizeStatus(value) {
+  return String(value || '')
+    .trim()
+    .toUpperCase();
+}
+
+function isNoRehearsal(r) {
+  const publicStatus = normalizeStatus(r.status);
+  const title = normalizeStatus(r.title);
+
+  return (
+    publicStatus === 'NO REHEARSAL' ||
+    title.includes('NO REHEARSAL')
+  );
+}
+
 function validate(data) {
   if (
     !data ||
@@ -46,74 +61,78 @@ function validate(data) {
 
   const seen = new Set();
 
-  for (const rehearsal of data.rehearsals) {
-    if (!rehearsal.eventKey) {
+  for (const r of data.rehearsals) {
+    /*
+     * Administrative / NO REHEARSAL rows are allowed in the public
+     * schedule but do not participate in personalized call matching.
+     */
+    if (isNoRehearsal(r)) {
+      r.calledPeople = [];
+      r.calledPeopleIds = [];
+      r.calledGroups = [];
+      r.exactCallStatus = 'HOLD';
+      continue;
+    }
+
+    if (!r.eventKey) {
       throw new Error('Rehearsal missing eventKey.');
     }
 
-    if (seen.has(rehearsal.eventKey)) {
-      throw new Error(`Duplicate eventKey: ${rehearsal.eventKey}`);
+    if (seen.has(r.eventKey)) {
+      throw new Error(`Duplicate eventKey: ${r.eventKey}`);
     }
 
-    seen.add(rehearsal.eventKey);
+    seen.add(r.eventKey);
 
-    const exactCallStatus = String(
-      rehearsal.exactCallStatus || ''
-    )
-      .trim()
-      .toUpperCase();
+    const status = normalizeStatus(r.exactCallStatus);
 
-    if (!['READY', 'REVIEW', 'HOLD'].includes(exactCallStatus)) {
+    if (!['READY', 'REVIEW', 'HOLD'].includes(status)) {
       throw new Error(
-        `Invalid exactCallStatus "${rehearsal.exactCallStatus}" for ${rehearsal.eventKey}`
+        `Invalid exactCallStatus "${r.exactCallStatus}" for ${r.eventKey}`
       );
     }
+
+    r.exactCallStatus = status;
 
     if (
-      !Array.isArray(rehearsal.calledPeopleIds) ||
-      !Array.isArray(rehearsal.calledGroups)
+      !Array.isArray(r.calledPeopleIds) ||
+      !Array.isArray(r.calledGroups)
     ) {
-      throw new Error(
-        `Invalid call arrays for ${rehearsal.eventKey}`
-      );
+      throw new Error(`Invalid call arrays for ${r.eventKey}`);
     }
 
+    /*
+     * Personalized targets are only allowed when the spreadsheet
+     * explicitly marks the call data READY.
+     */
     if (
-      exactCallStatus !== 'READY' &&
-      (
-        rehearsal.calledPeopleIds.length > 0 ||
-        rehearsal.calledGroups.length > 0
-      )
+      status !== 'READY' &&
+      (r.calledPeopleIds.length > 0 || r.calledGroups.length > 0)
     ) {
       throw new Error(
-        `Non-READY event ${rehearsal.eventKey} contains personalized call targets.`
+        `Non-READY event ${r.eventKey} contains personalized call targets.`
       );
     }
-
-    // Normalize before saving to data/rehearsals.json.
-    rehearsal.exactCallStatus = exactCallStatus;
   }
 
   return data;
 }
 
-let data = null;
-let lastError = null;
+let data;
+let lastErr;
 
 const attempts = [30000, 30000, 45000];
 
 for (let i = 0; i < attempts.length; i++) {
   try {
-    console.log(
-      `Exact Calls sync attempt ${i + 1}/${attempts.length}...`
-    );
+    console.log(`Exact Calls sync attempt ${i + 1}/${attempts.length}...`);
 
     const fetched = await fetchWithTimeout(attempts[i]);
     data = validate(fetched);
 
     break;
   } catch (error) {
-    lastError = error;
+    lastErr = error;
 
     console.warn(
       `Attempt ${i + 1} failed: ${error.message}`
@@ -128,16 +147,18 @@ for (let i = 0; i < attempts.length; i++) {
 if (!data) {
   console.error(
     `EXACT CALLS SYNC ERROR: ${
-      lastError?.message || 'unknown error'
+      lastErr?.message || 'unknown error'
     }. Existing Hub rehearsal data was NOT changed.`
   );
 
   process.exit(1);
 }
 
-await fs.mkdir('data', {
-  recursive: true
-});
+/*
+ * Write only after the entire feed has passed validation.
+ * This preserves the last known-good Hub data if anything fails.
+ */
+await fs.mkdir('data', { recursive: true });
 
 const tempPath = 'data/rehearsals.json.tmp';
 const finalPath = 'data/rehearsals.json';
@@ -148,24 +169,26 @@ await fs.writeFile(
   'utf8'
 );
 
-await fs.rename(
-  tempPath,
-  finalPath
-);
+await fs.rename(tempPath, finalPath);
 
 const ready = data.rehearsals.filter(
-  rehearsal => rehearsal.exactCallStatus === 'READY'
+  r => normalizeStatus(r.exactCallStatus) === 'READY'
 ).length;
 
 const review = data.rehearsals.filter(
-  rehearsal => rehearsal.exactCallStatus === 'REVIEW'
+  r => normalizeStatus(r.exactCallStatus) === 'REVIEW'
 ).length;
 
 const hold = data.rehearsals.filter(
-  rehearsal => rehearsal.exactCallStatus === 'HOLD'
+  r => normalizeStatus(r.exactCallStatus) === 'HOLD'
+).length;
+
+const noRehearsal = data.rehearsals.filter(
+  r => isNoRehearsal(r)
 ).length;
 
 console.log(
-  `Exact Calls sync OK: ${data.rehearsals.length} rehearsals; ` +
-  `${ready} READY; ${review} REVIEW; ${hold} HOLD.`
+  `Exact Calls sync OK: ${data.rehearsals.length} schedule entries; ` +
+  `${ready} READY; ${review} REVIEW; ${hold} HOLD; ` +
+  `${noRehearsal} NO REHEARSAL.`
 );
