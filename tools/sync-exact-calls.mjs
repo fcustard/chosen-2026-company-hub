@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import fs from 'node:fs/promises';
 
 const configured = process.env.CALENDAR_FEED_URL;
@@ -7,14 +8,39 @@ if (!configured) {
   throw new Error('CALENDAR_FEED_URL is not configured.');
 }
 
+/*
+ * Keep the existing repository variable.
+ * This script changes the requested feed to hub-v2 automatically.
+ */
 const url = new URL(configured);
 url.searchParams.set('feed', 'hub-v2');
 
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sleep = ms =>
+  new Promise(resolve => setTimeout(resolve, ms));
+
+function normalizeStatus(value) {
+  return String(value || '')
+    .trim()
+    .toUpperCase();
+}
+
+function isNoRehearsal(rehearsal) {
+  const publicStatus = normalizeStatus(rehearsal.status);
+  const title = normalizeStatus(rehearsal.title);
+
+  return (
+    publicStatus === 'NO REHEARSAL' ||
+    title.includes('NO REHEARSAL')
+  );
+}
 
 async function fetchWithTimeout(ms) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), ms);
+
+  const timer = setTimeout(
+    () => controller.abort(),
+    ms
+  );
 
   try {
     const response = await fetch(url, {
@@ -24,7 +50,9 @@ async function fetchWithTimeout(ms) {
     });
 
     if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
+      throw new Error(
+        `Calendar feed returned HTTP ${response.status}`
+      );
     }
 
     return await response.json();
@@ -33,162 +61,282 @@ async function fetchWithTimeout(ms) {
   }
 }
 
-function normalizeStatus(value) {
-  return String(value || '')
-    .trim()
-    .toUpperCase();
-}
-
-function isNoRehearsal(r) {
-  const publicStatus = normalizeStatus(r.status);
-  const title = normalizeStatus(r.title);
-
-  return (
-    publicStatus === 'NO REHEARSAL' ||
-    title.includes('NO REHEARSAL')
-  );
-}
-
-function validate(data) {
-  if (
-    !data ||
-    data.ok !== true ||
-    data.schemaVersion !== 3 ||
-    !Array.isArray(data.rehearsals)
-  ) {
-    throw new Error('Invalid Exact Calls feed envelope.');
+function validateFeedEnvelope(data) {
+  if (!data) {
+    throw new Error(
+      'Exact Calls feed returned no data.'
+    );
   }
 
+  if (data.ok !== true) {
+    throw new Error(
+      'Exact Calls feed did not return ok=true.'
+    );
+  }
+
+  if (data.schemaVersion !== 3) {
+    throw new Error(
+      `Unsupported Exact Calls schemaVersion: ${data.schemaVersion}`
+    );
+  }
+
+  if (!Array.isArray(data.rehearsals)) {
+    throw new Error(
+      'Exact Calls feed rehearsals property is not an array.'
+    );
+  }
+
+  return data.rehearsals;
+}
+
+function validateAndNormalizeRehearsals(rehearsals) {
   const seen = new Set();
 
-  for (const r of data.rehearsals) {
+  const normalized = [];
+
+  for (const rehearsal of rehearsals) {
     /*
-     * Administrative / NO REHEARSAL rows are allowed in the public
-     * schedule but do not participate in personalized call matching.
+     * Preserve NO REHEARSAL entries in the public schedule,
+     * but ensure they can never become personalized calls.
      */
-    if (isNoRehearsal(r)) {
-      r.calledPeople = [];
-      r.calledPeopleIds = [];
-      r.calledGroups = [];
-      r.exactCallStatus = 'HOLD';
+    if (isNoRehearsal(rehearsal)) {
+      rehearsal.calledPeople = [];
+      rehearsal.calledPeopleIds = [];
+      rehearsal.calledGroups = [];
+      rehearsal.exactCallStatus = 'HOLD';
+
+      normalized.push(rehearsal);
       continue;
     }
 
-    if (!r.eventKey) {
-      throw new Error('Rehearsal missing eventKey.');
-    }
-
-    if (seen.has(r.eventKey)) {
-      throw new Error(`Duplicate eventKey: ${r.eventKey}`);
-    }
-
-    seen.add(r.eventKey);
-
-    const status = normalizeStatus(r.exactCallStatus);
-
-    if (!['READY', 'REVIEW', 'HOLD'].includes(status)) {
+    if (!rehearsal.eventKey) {
       throw new Error(
-        `Invalid exactCallStatus "${r.exactCallStatus}" for ${r.eventKey}`
+        'Published rehearsal is missing eventKey.'
       );
     }
 
-    r.exactCallStatus = status;
+    if (seen.has(rehearsal.eventKey)) {
+      throw new Error(
+        `Duplicate eventKey: ${rehearsal.eventKey}`
+      );
+    }
+
+    seen.add(rehearsal.eventKey);
+
+    const exactCallStatus =
+      normalizeStatus(rehearsal.exactCallStatus);
 
     if (
-      !Array.isArray(r.calledPeopleIds) ||
-      !Array.isArray(r.calledGroups)
+      !['READY', 'REVIEW', 'HOLD']
+        .includes(exactCallStatus)
     ) {
-      throw new Error(`Invalid call arrays for ${r.eventKey}`);
+      throw new Error(
+        `Invalid exactCallStatus ` +
+        `"${rehearsal.exactCallStatus}" ` +
+        `for ${rehearsal.eventKey}`
+      );
     }
 
     /*
-     * Personalized targets are only allowed when the spreadsheet
-     * explicitly marks the call data READY.
+     * Normalize the status before it reaches the Hub.
      */
+    rehearsal.exactCallStatus =
+      exactCallStatus;
+
     if (
-      status !== 'READY' &&
-      (r.calledPeopleIds.length > 0 || r.calledGroups.length > 0)
+      !Array.isArray(rehearsal.calledPeopleIds) ||
+      !Array.isArray(rehearsal.calledGroups)
     ) {
       throw new Error(
-        `Non-READY event ${r.eventKey} contains personalized call targets.`
+        `Invalid Exact Calls arrays for ` +
+        `${rehearsal.eventKey}`
       );
     }
+
+    /*
+     * Only READY events may contain authoritative
+     * personalized call targets.
+     */
+    if (
+      exactCallStatus !== 'READY' &&
+      (
+        rehearsal.calledPeopleIds.length > 0 ||
+        rehearsal.calledGroups.length > 0
+      )
+    ) {
+      throw new Error(
+        `Non-READY event ${rehearsal.eventKey} ` +
+        `contains personalized call targets.`
+      );
+    }
+
+    normalized.push(rehearsal);
   }
 
-  return data;
+  return normalized;
 }
 
-let data;
-let lastErr;
+/*
+ * Retry strategy protects against temporary
+ * Google Apps Script/network delays.
+ */
+const attempts = [
+  30000,
+  30000,
+  45000
+];
 
-const attempts = [30000, 30000, 45000];
+let rehearsals = null;
+let lastError = null;
 
-for (let i = 0; i < attempts.length; i++) {
+for (
+  let i = 0;
+  i < attempts.length;
+  i++
+) {
   try {
-    console.log(`Exact Calls sync attempt ${i + 1}/${attempts.length}...`);
+    console.log(
+      `Exact Calls sync attempt ` +
+      `${i + 1}/${attempts.length}...`
+    );
 
-    const fetched = await fetchWithTimeout(attempts[i]);
-    data = validate(fetched);
+    const feed =
+      await fetchWithTimeout(
+        attempts[i]
+      );
+
+    const feedRehearsals =
+      validateFeedEnvelope(feed);
+
+    rehearsals =
+      validateAndNormalizeRehearsals(
+        feedRehearsals
+      );
 
     break;
   } catch (error) {
-    lastErr = error;
+    lastError = error;
 
     console.warn(
-      `Attempt ${i + 1} failed: ${error.message}`
+      `Attempt ${i + 1} failed: ` +
+      `${error.message}`
     );
 
     if (i < attempts.length - 1) {
-      await sleep((i + 1) * 3000);
+      await sleep(
+        (i + 1) * 3000
+      );
     }
   }
 }
 
-if (!data) {
+if (!rehearsals) {
   console.error(
-    `EXACT CALLS SYNC ERROR: ${
-      lastErr?.message || 'unknown error'
-    }. Existing Hub rehearsal data was NOT changed.`
+    `EXACT CALLS SYNC ERROR: ` +
+    `${lastError?.message || 'unknown error'}. ` +
+    `Existing Hub rehearsal data was NOT changed.`
   );
 
   process.exit(1);
 }
 
 /*
- * Write only after the entire feed has passed validation.
- * This preserves the last known-good Hub data if anything fails.
+ * IMPORTANT ARCHITECTURE RULE
+ *
+ * The Apps Script feed uses an envelope:
+ *
+ * {
+ *   ok: true,
+ *   schemaVersion: 3,
+ *   rehearsals: [...]
+ * }
+ *
+ * But the existing CHOSEN Hub expects:
+ *
+ * data/rehearsals.json
+ *
+ * to contain the rehearsal ARRAY itself.
+ *
+ * Therefore we deliberately write ONLY
+ * the normalized rehearsals array below.
+ *
+ * This preserves compatibility with:
+ * - tools/validate.mjs
+ * - tools/build.mjs
+ * - content generation
+ * - existing Hub schedule rendering
  */
-await fs.mkdir('data', { recursive: true });
 
-const tempPath = 'data/rehearsals.json.tmp';
-const finalPath = 'data/rehearsals.json';
+await fs.mkdir(
+  'data',
+  {
+    recursive: true
+  }
+);
+
+const tempPath =
+  'data/rehearsals.json.tmp';
+
+const finalPath =
+  'data/rehearsals.json';
 
 await fs.writeFile(
   tempPath,
-  JSON.stringify(data, null, 2) + '\n',
+  JSON.stringify(
+    rehearsals,
+    null,
+    2
+  ) + '\n',
   'utf8'
 );
 
-await fs.rename(tempPath, finalPath);
+/*
+ * Atomic replacement:
+ * the old good file remains untouched
+ * unless the new feed fully validates.
+ */
+await fs.rename(
+  tempPath,
+  finalPath
+);
 
-const ready = data.rehearsals.filter(
-  r => normalizeStatus(r.exactCallStatus) === 'READY'
-).length;
+const ready =
+  rehearsals.filter(
+    rehearsal =>
+      rehearsal.exactCallStatus ===
+      'READY'
+  ).length;
 
-const review = data.rehearsals.filter(
-  r => normalizeStatus(r.exactCallStatus) === 'REVIEW'
-).length;
+const review =
+  rehearsals.filter(
+    rehearsal =>
+      rehearsal.exactCallStatus ===
+      'REVIEW'
+  ).length;
 
-const hold = data.rehearsals.filter(
-  r => normalizeStatus(r.exactCallStatus) === 'HOLD'
-).length;
+const hold =
+  rehearsals.filter(
+    rehearsal =>
+      rehearsal.exactCallStatus ===
+      'HOLD'
+  ).length;
 
-const noRehearsal = data.rehearsals.filter(
-  r => isNoRehearsal(r)
-).length;
+const noRehearsal =
+  rehearsals.filter(
+    rehearsal =>
+      isNoRehearsal(rehearsal)
+  ).length;
 
 console.log(
-  `Exact Calls sync OK: ${data.rehearsals.length} schedule entries; ` +
-  `${ready} READY; ${review} REVIEW; ${hold} HOLD; ` +
+  `Exact Calls sync OK: ` +
+  `${rehearsals.length} schedule entries; ` +
+  `${ready} READY; ` +
+  `${review} REVIEW; ` +
+  `${hold} HOLD; ` +
   `${noRehearsal} NO REHEARSAL.`
+);
+
+console.log(
+  'data/rehearsals.json written as a rehearsal array ' +
+  'for compatibility with the existing Hub build pipeline.'
 );
