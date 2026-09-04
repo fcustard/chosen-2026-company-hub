@@ -48,6 +48,9 @@ jobs:
           COMPANY_FEED_URL: ${{ vars.COMPANY_FEED_URL }}
         run: node tools/sync-company.mjs
 
+      - name: Validate exact personalized calls
+        run: node tools/validate-exact-personalization.mjs
+
       - name: Validate production data and scene publication
         run: npm run validate
 
