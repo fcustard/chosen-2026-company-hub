@@ -46,63 +46,48 @@ function btn(t, u, c = '') {
       }>${esc(t)}</a>`;
 }
 
+function formatLongDate(value = '', fallbackValue = '') {
+  const raw = String(value || '').trim();
+  const fallback = String(fallbackValue || '').trim();
 
-/**
- * Resource payloads may arrive in either of these shapes:
- *
- *   scripts: [ ... ]
- *
- * or
- *
- *   scripts: {
- *     items: [ ... ],
- *     current: [ ... ],
- *     count: 12
- *   }
- *
- * The current build.mjs uses the object shape. Older app.js expected
- * the array shape, which made Scripts and Music render blank even when
- * content.json contained valid resources.
- */
-function resourceList(payload) {
-  if (!payload) return [];
+  const dateOnly =
+    raw.match(/^(\d{4})-(\d{2})-(\d{2})$/) ||
+    fallback.match(/^(\d{4})-(\d{2})-(\d{2})$/);
 
-  if (Array.isArray(payload)) {
-    return payload;
-  }
+  let dt = null;
 
-  if (typeof payload === 'object') {
-    if (Array.isArray(payload.current) && payload.current.length) {
-      return payload.current;
-    }
+  if (dateOnly) {
+    const year = Number(dateOnly[1]);
+    const month = Number(dateOnly[2]);
+    const day = Number(dateOnly[3]);
 
-    if (Array.isArray(payload.items)) {
-      return payload.items;
-    }
+    /*
+     * Use noon UTC for date-only values so Eastern time
+     * does not fall back to the previous calendar day.
+     */
+    dt = new Date(Date.UTC(year, month - 1, day, 12, 0, 0));
+  } else {
+    const source = raw || fallback;
 
-    if (Array.isArray(payload.resources)) {
-      return payload.resources;
-    }
+    if (source) {
+      const parsed = new Date(source);
 
-    if (Array.isArray(payload.files)) {
-      return payload.files;
+      if (!Number.isNaN(parsed.getTime())) {
+        dt = parsed;
+      }
     }
   }
 
-  return [];
-}
+  if (dt) {
+    return new Intl.DateTimeFormat('en-US', {
+      month: 'long',
+      day: 'numeric',
+      year: 'numeric',
+      timeZone: 'America/New_York'
+    }).format(dt);
+  }
 
-function emptyResourceCard(title, message) {
-  return `
-    <article class="row">
-      <div class="badge">—</div>
-
-      <div>
-        <h3>${esc(title)}</h3>
-        <p>${esc(message)}</p>
-      </div>
-    </article>
-  `;
+  return raw || fallback;
 }
 
 /**
@@ -218,13 +203,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         }).format(start);
 
       const dateLabel =
-        x.date ||
-        new Intl.DateTimeFormat('en-US', {
-          month: 'short',
-          day: 'numeric',
-          year: 'numeric',
-          timeZone: 'America/New_York'
-        }).format(start);
+        formatLongDate(
+          x.dateLabel ||
+            x.date ||
+            x.start,
+          x.start
+        );
 
       const startTime =
         new Intl.DateTimeFormat('en-US', {
@@ -331,7 +315,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           <article class="rehearsal">
             <div class="rehTop">
               <div>
-                <p class="ey">${esc(x.date)}</p>
+                <p class="ey">${esc(formatLongDate(x.dateLabel || x.date, x.start))}</p>
                 <h2>${esc(x.title)}</h2>
               </div>
               <span class="status">${esc(x.status)}</span>
@@ -378,15 +362,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             </div>
 
             <div class="actions">
-              ${btn(
-                'Scripts',
-                x.scriptUrl || (resourceList(d.scripts).length ? 'scripts.html' : '#'),
-                'primary'
-              )}
-              ${btn(
-                'Music',
-                x.musicUrl || (resourceList(d.music).length ? 'music.html' : '#')
-              )}
+              ${btn('Scripts', x.scriptUrl, 'primary')}
+              ${btn('Music', x.musicUrl)}
               <a class="btn" href="schedule.html">
                 Full schedule
               </a>
@@ -430,37 +407,27 @@ document.addEventListener('DOMContentLoaded', async () => {
    */
 
   if (document.body.dataset.page === 'scripts') {
-    const list = document.querySelector('#scriptsList');
-    const scripts = resourceList(d.scripts);
+    scriptsList.innerHTML = (d.scripts || [])
+      .map(
+        s => `
+          <article class="row">
+            <div class="badge">
+              ${esc(s.scene)}
+            </div>
 
-    if (list) {
-      list.innerHTML = scripts.length
-        ? scripts
-            .map(
-              s => `
-                <article class="row">
-                  <div class="badge">
-                    ${esc(s.scene || s.id || '')}
-                  </div>
+            <div>
+              <h3>${esc(s.title)}</h3>
+              <p>${esc(s.status)}</p>
+            </div>
 
-                  <div>
-                    <h3>${esc(s.title || s.name || 'Untitled script')}</h3>
-                    <p>${esc(s.status || 'Current company material')}</p>
-                  </div>
-
-                  <div class="actions">
-                    ${btn('Read', s.readUrl || s.url, 'primary')}
-                    ${btn('PDF', s.pdfUrl)}
-                  </div>
-                </article>
-              `
-            )
-            .join('')
-        : emptyResourceCard(
-            'Scripts coming soon',
-            'No current script materials are published to the company Hub yet.'
-          );
-    }
+            <div class="actions">
+              ${btn('Read', s.readUrl, 'primary')}
+              ${btn('PDF', s.pdfUrl)}
+            </div>
+          </article>
+        `
+      )
+      .join('');
   }
 
   /*
@@ -470,37 +437,27 @@ document.addEventListener('DOMContentLoaded', async () => {
    */
 
   if (document.body.dataset.page === 'music') {
-    const list = document.querySelector('#musicList');
-    const music = resourceList(d.music);
+    musicList.innerHTML = (d.music || [])
+      .map(
+        x => `
+          <article class="row">
+            <div class="badge">♪</div>
 
-    if (list) {
-      list.innerHTML = music.length
-        ? music
-            .map(
-              x => `
-                <article class="row">
-                  <div class="badge">♪</div>
+            <div>
+              <h3>${esc(x.title)}</h3>
+              <p>
+                ${esc(x.type)} · ${esc(x.status)}
+              </p>
+            </div>
 
-                  <div>
-                    <h3>${esc(x.title || x.name || 'Untitled track')}</h3>
-                    <p>
-                      ${esc(x.type || 'Music')} · ${esc(x.status || 'Current')}
-                    </p>
-                  </div>
-
-                  <div class="actions">
-                    ${btn('Play', x.playUrl || x.url, 'primary')}
-                    ${btn('Lyrics', x.lyricsUrl)}
-                  </div>
-                </article>
-              `
-            )
-            .join('')
-        : emptyResourceCard(
-            'Music coming soon',
-            'No current rehearsal tracks are published to the company Hub yet.'
-          );
-    }
+            <div class="actions">
+              ${btn('Play', x.playUrl, 'primary')}
+              ${btn('Lyrics', x.lyricsUrl)}
+            </div>
+          </article>
+        `
+      )
+      .join('');
   }
 
   /*
