@@ -465,6 +465,17 @@ function formatDateLabel(date) {
   }).format(date);
 }
 
+function formatLongDateLabel(date) {
+  if (!(date instanceof Date) || Number.isNaN(date.getTime())) return '';
+
+  return new Intl.DateTimeFormat('en-US', {
+    timeZone: TZ,
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  }).format(date);
+}
+
 function formatDayLabel(date) {
   if (!(date instanceof Date) || Number.isNaN(date.getTime())) return '';
 
@@ -990,9 +1001,10 @@ function canonicalizeRehearsal(record, index = 0) {
     start: startIso,
     end: endIso,
 
-    date: dateForLabels ? localYmd(dateForLabels) : normalizeText(getField(record, 'date', 'Date')),
+    date: dateForLabels ? formatLongDateLabel(dateForLabels) : normalizeText(getField(record, 'date', 'Date')),
+    dateIso: dateForLabels ? localYmd(dateForLabels) : normalizeText(getField(record, 'dateIso', 'Date ISO')),
     day: dateForLabels ? formatDayLabel(dateForLabels) : normalizeText(getField(record, 'day', 'Day')),
-    dateLabel: dateForLabels ? formatDateLabel(dateForLabels) : normalizeText(getField(record, 'dateLabel')),
+    dateLabel: dateForLabels ? formatLongDateLabel(dateForLabels) : normalizeText(getField(record, 'dateLabel')),
     dayLabel: dateForLabels ? formatDayLabel(dateForLabels) : normalizeText(getField(record, 'dayLabel')),
     time: startDate || endDate
       ? formatTimeRange(startDate, endDate)
@@ -1105,6 +1117,7 @@ function toPublicRehearsal(record) {
     start: record.start,
     end: record.end,
     date: record.date,
+    dateIso: record.dateIso,
     day: record.day,
     dateLabel: record.dateLabel,
     dayLabel: record.dayLabel,
