@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T04:04:38.565Z",
+  "updated": "2026-09-05T11:49:02.057Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -24,11 +24,85 @@
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
-    "callGroups": [],
-    "calledPeople": [],
-    "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "callGroups": [
+      "Full Company",
+      "Ensemble",
+      "Dancers"
+    ],
+    "calledPeople": [
+      {
+        "displayName": "Gelvina Maxime"
+      },
+      {
+        "displayName": "James Myers"
+      },
+      {
+        "displayName": "Jordyn Starks"
+      },
+      {
+        "displayName": "Tasha Simeon"
+      },
+      {
+        "displayName": "Tyfany Adaka"
+      },
+      {
+        "displayName": "Jéovanie André"
+      },
+      {
+        "displayName": "Ashley Pierre"
+      },
+      {
+        "displayName": "Caleb Davilmar"
+      },
+      {
+        "displayName": "Marcus Mainer"
+      },
+      {
+        "displayName": "Dorrien Jones"
+      },
+      {
+        "displayName": "Michael Stover"
+      },
+      {
+        "displayName": "Chris Mcanuff"
+      },
+      {
+        "displayName": "Kevin Hohn"
+      },
+      {
+        "displayName": "Etta Wright"
+      },
+      {
+        "displayName": "Sandra Johnson"
+      },
+      {
+        "displayName": "Marissa Downie"
+      }
+    ],
+    "calledPeopleIds": [
+      "P-gelvina-maxime",
+      "P-james-myers",
+      "P-jordyn-starks",
+      "P-tasha-simeon",
+      "P-tyfany-adaka",
+      "P-jeovanie-andre",
+      "P-ashley-pierre",
+      "P-caleb-davilmar",
+      "P-marcus-mainer",
+      "P-dorrien-jones",
+      "P-michael-stover",
+      "P-chris-mcanuff",
+      "P-kevin-hohn",
+      "P-etta-wright",
+      "P-sandra-johnson",
+      "P-marissa-downie"
+    ],
+    "calledGroups": [
+      "Full Company",
+      "Ensemble",
+      "Dancers"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
     "focus": "",
@@ -57,11 +131,85 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Etta Wright"
+          },
+          {
+            "displayName": "Sandra Johnson"
+          },
+          {
+            "displayName": "Marissa Downie"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-kevin-hohn",
+          "P-etta-wright",
+          "P-sandra-johnson",
+          "P-marissa-downie"
+        ],
+        "calledGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
         "focus": "",
@@ -86,7 +234,9 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [
-          "Dancers"
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
         ],
         "calledPeople": [
           {
@@ -117,7 +267,9 @@
           "P-caleb-davilmar"
         ],
         "calledGroups": [
-          "Dancers"
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
@@ -144,6 +296,7 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:00 PM —Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/                                        \n\n6:30–8:30 PM----Dancers\n\n8:00–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -179,6 +332,7 @@
           "P-chris-mcanuff"
         ],
         "calledGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -212,11 +366,85 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Etta Wright"
+          },
+          {
+            "displayName": "Sandra Johnson"
+          },
+          {
+            "displayName": "Marissa Downie"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-kevin-hohn",
+          "P-etta-wright",
+          "P-sandra-johnson",
+          "P-marissa-downie"
+        ],
+        "calledGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
         "focus": "",
@@ -241,7 +469,9 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [
-          "Dancers"
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
         ],
         "calledPeople": [
           {
@@ -272,7 +502,9 @@
           "P-caleb-davilmar"
         ],
         "calledGroups": [
-          "Dancers"
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
@@ -299,6 +531,7 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:00 PM —Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/                                        \n\n6:30–8:30 PM----Dancers\n\n8:00–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -334,6 +567,7 @@
           "P-chris-mcanuff"
         ],
         "calledGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -360,11 +594,57 @@
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site - details TBD",
         "called": "10:00 AM–11:30 AM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n 11:30 AM–12:30 PM- Mary + Friends, Joseph + Friends\n12:30 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Principals/Featured"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
+        ],
+        "calledGroups": [
+          "Principals/Featured"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
         "focus": "",
@@ -388,7 +668,9 @@
         "location": "TBD",
         "locationShort": "TBD",
         "called": "6:30–8:00 PM — (Mary (Jordyn), Joseph (Caleb)\n8:00–9:30 PM —  Mary (Jordyn), Elizabeth; Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [],
+        "callGroups": [
+          "Principals/Featured"
+        ],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -421,7 +703,9 @@
           "P-chris-mcanuff",
           "P-audrey-howell-mcclenney"
         ],
-        "calledGroups": [],
+        "calledGroups": [
+          "Principals/Featured"
+        ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Two Roads of Faith; Mary/Elizabeth work; Joseph/Gabriel work.",
@@ -447,6 +731,7 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -462,6 +747,7 @@
           "P-caleb-davilmar"
         ],
         "calledGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -488,11 +774,47 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "FULL COMPANY REHEARSAL:                            10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n10:00AM-2:00PM- Dancers\n11:00AM-2:00PM- Elizabeth(Audrey),Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n12:00pm-2:00pm-ALL Other Cast Members",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-audrey-howell-mcclenney",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
+        ],
+        "calledGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Stage Scenes 6–8; transitions; spacing",
         "focus": "",
@@ -516,11 +838,95 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers, Child Storytellers Nia (Gelvina) Simon ( James)  Mary (Jordyn), Joseph (Caleb)\n6:30PM-9:30PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey),Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden),Gossip Girls (Annia, Victorya, Shanice, Gabriela)   Villagers (Etta), (Sandra) / Scene 9 Ensemble",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Principals/Featured",
+          "Children/Youth",
+          "Ensemble",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Dana Quamina"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Etta Wright"
+          },
+          {
+            "displayName": "Sandra Johnson"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-audrey-howell-mcclenney",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-marissa-downie",
+          "P-dana-quamina",
+          "P-jayden-harris",
+          "P-etta-wright",
+          "P-sandra-johnson"
+        ],
+        "calledGroups": [
+          "Principals/Featured",
+          "Children/Youth",
+          "Ensemble",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Children section + town/gossip setup",
         "focus": "",
@@ -544,11 +950,95 @@
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site - details TBD",
         "called": "6:30PM-9:30PM- Mary (Jordyn), Caleb (Joseph)\n6:30PM-7:30PM- Actors ONLY: Child Speakers: (Child 1 (Neclia) Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina) Simon (James), Villager Woman 1 (Marissa), Village Woman 2 (Dana)\n7:15PM-9:30PM Nia (Gelvina) Simon (James),Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Villager Man (Fredrick)  Gossip Girls (Annia, Victorya, Shanice, Gabriela) /Roman Announcer,(Amadeus Hills)",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Principals/Featured",
+          "Ensemble"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Dana Quamina"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Amadeus Hills"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-nelcia-fosttin",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-marissa-downie",
+          "P-dana-quamina",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-fredrick-custard",
+          "P-amadeus-hills"
+        ],
+        "calledGroups": [
+          "Principals/Featured",
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
         "focus": "",
@@ -572,11 +1062,19 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM — Scene 9 Dancers / Actors in Scene 9 & 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n12:00 PM- 2:00 PM - All Other Cast Members",
-        "callGroups": [],
+        "callGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scene 9 blocking/choreography; recover physical Scene 10 journey work",
         "focus": "",
@@ -601,6 +1099,7 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers\n\n 6:30 PM- 9:30PM-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla",
         "callGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -620,6 +1119,7 @@
           "P-kevin-hohn"
         ],
         "calledGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -646,11 +1146,61 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30PM-8:30PM- Dancers \n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n 8:00PM-9:30PM All Other Cast members, Choir, Praise Voices",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Principals/Featured",
+          "Children/Youth",
+          "Full Company"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-kevin-hohn",
+          "P-charla-yvonne-cornelius",
+          "P-edison-browne",
+          "P-jayden-harris",
+          "P-delvin-rogers-jr",
+          "P-cedrick-massey"
+        ],
+        "calledGroups": [
+          "Principals/Featured",
+          "Children/Youth",
+          "Full Company"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Good News — shepherd dialogue, angel message, finale music foundation",
         "focus": "",
@@ -674,11 +1224,19 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM — Dancers\n10:00 AM- 2:00 PM- Scene 9 Cast\n11:00 AM- 2:00 PM- Scene 10 Cast\n12:00 PM- 2:00 PM- Scene 11 Cast",
-        "callGroups": [],
+        "callGroups": [
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Main-stage journey, crowd, No Room, birth picture",
         "focus": "",
@@ -702,11 +1260,17 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30 PM–8:30 PM —Dancers \n6:30 PM–9:30 PM Scene 12  Full Company",
-        "callGroups": [],
+        "callGroups": [
+          "Full Company",
+          "Dancers"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Music, storyteller return, shepherds, finale entries",
         "focus": "",
@@ -730,11 +1294,17 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers + Ensemble\n 8:30–9:30 PM — Adult Scene 11 Cast",
-        "callGroups": [],
+        "callGroups": [
+          "Dancers",
+          "Ensemble"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Dancers",
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scenes 1, 9 & 12 choreography cleanup; 8:30+ No Room rhythm.",
         "focus": "",
@@ -758,11 +1328,59 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 PM–2:00 PM-Scene 12 Full Company",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-kevin-hohn",
+          "P-charla-yvonne-cornelius",
+          "P-edison-browne",
+          "P-jayden-harris",
+          "P-delvin-rogers-jr",
+          "P-cedrick-massey"
+        ],
+        "calledGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Finale choreography/music/blocking that works in studio; no main-stage work",
         "focus": "",
@@ -786,11 +1404,19 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30 PM–8:30 PM — Youth + Dancers\n8:30 PM–9:30 PM — Adult Scene 11 cast",
-        "callGroups": [],
+        "callGroups": [
+          "Children/Youth",
+          "Ensemble",
+          "Dancers"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Children/Youth",
+          "Ensemble",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Music/choreo cleanup; 8:30+ Scene 11 cleanup",
         "focus": "",
@@ -814,11 +1440,35 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30PM–8:30 PM- Dancers\n 6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick), Elizabeth, adult principals",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Principals/Featured",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-cedrick-massey",
+          "P-audrey-howell-mcclenney"
+        ],
+        "calledGroups": [
+          "Principals/Featured",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Principal cleanup",
         "focus": "",
@@ -878,11 +1528,15 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30 PM-9:30PM — Mary + friends,Joseph + friends",
-        "callGroups": [],
+        "callGroups": [
+          "Principals/Featured"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Principals/Featured"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Off-book work + music review",
         "focus": "",
@@ -906,11 +1560,33 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick), Elizabeth, adult principals\n8:00PM–9:30 PM -Joseph +friends",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Principals/Featured"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-cedrick-massey",
+          "P-audrey-howell-mcclenney"
+        ],
+        "calledGroups": [
+          "Principals/Featured"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Off-book principals",
         "focus": "",
@@ -934,11 +1610,17 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM — Dancers +Scenes 1–6 Cast",
-        "callGroups": [],
+        "callGroups": [
+          "Full Company",
+          "Dancers"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scenes 1–6 with transitions",
         "focus": "",
@@ -962,11 +1644,17 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30PM–9:30 PM —  Dancers + Scenes 7–9 Cast",
-        "callGroups": [],
+        "callGroups": [
+          "Dancers",
+          "Ensemble"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Dancers",
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Off-book / music / scene links",
         "focus": "",
@@ -990,11 +1678,19 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30 PM–9:30 PM — Dancers + Scenes 10–12 Cast,  Choir / Vocal Company",
-        "callGroups": [],
+        "callGroups": [
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Journey / No Room / finale music and cue pickup",
         "focus": "",
@@ -1018,11 +1714,15 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM — Dancers + Cast for Scenes 7–12",
-        "callGroups": [],
+        "callGroups": [
+          "Principals/Featured"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Principals/Featured"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scenes 7–12 with transitions",
         "focus": "",
@@ -1765,10 +2465,60 @@
         "locationShort": "https://us02web.zoom.us/j/86440498367?pwd=l3xRoEgaPAlvf3PvPVBlIUsV2w6tJ8.1",
         "called": "10:00 AM–11:15 AM —Child Storytellers;  Nia (Gelvina) &  Simon (James)\n\n11:30 AM–12:45 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n\n12:50 PM–2:00 PM — Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
+        ],
         "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Principal actors: work through Scenes 1 & 2, develop character relationships, clarify objectives, and work through dialogue and scene beats.",
         "focus": "",
@@ -1826,11 +2576,85 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Etta Wright"
+          },
+          {
+            "displayName": "Sandra Johnson"
+          },
+          {
+            "displayName": "Marissa Downie"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-kevin-hohn",
+          "P-etta-wright",
+          "P-sandra-johnson",
+          "P-marissa-downie"
+        ],
+        "calledGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
         "focus": "",
@@ -1855,7 +2679,9 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [
-          "Dancers"
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
         ],
         "calledPeople": [
           {
@@ -1886,7 +2712,9 @@
           "P-caleb-davilmar"
         ],
         "calledGroups": [
-          "Dancers"
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
@@ -1913,6 +2741,7 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:00 PM —Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/                                        \n\n6:30–8:30 PM----Dancers\n\n8:00–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -1948,6 +2777,7 @@
           "P-chris-mcanuff"
         ],
         "calledGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -1974,11 +2804,57 @@
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site - details TBD",
         "called": "10:00 AM–11:30 AM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n 11:30 AM–12:30 PM- Mary + Friends, Joseph + Friends\n12:30 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Principals/Featured"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
+        ],
+        "calledGroups": [
+          "Principals/Featured"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
         "focus": "",
@@ -2002,7 +2878,9 @@
         "location": "TBD",
         "locationShort": "TBD",
         "called": "6:30–8:00 PM — (Mary (Jordyn), Joseph (Caleb)\n8:00–9:30 PM —  Mary (Jordyn), Elizabeth; Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [],
+        "callGroups": [
+          "Principals/Featured"
+        ],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -2035,7 +2913,9 @@
           "P-chris-mcanuff",
           "P-audrey-howell-mcclenney"
         ],
-        "calledGroups": [],
+        "calledGroups": [
+          "Principals/Featured"
+        ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Two Roads of Faith; Mary/Elizabeth work; Joseph/Gabriel work.",
@@ -2061,6 +2941,7 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -2076,6 +2957,7 @@
           "P-caleb-davilmar"
         ],
         "calledGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -2102,11 +2984,47 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "FULL COMPANY REHEARSAL:                            10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n10:00AM-2:00PM- Dancers\n11:00AM-2:00PM- Elizabeth(Audrey),Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n12:00pm-2:00pm-ALL Other Cast Members",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-audrey-howell-mcclenney",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
+        ],
+        "calledGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Stage Scenes 6–8; transitions; spacing",
         "focus": "",
@@ -2130,11 +3048,95 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers, Child Storytellers Nia (Gelvina) Simon ( James)  Mary (Jordyn), Joseph (Caleb)\n6:30PM-9:30PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey),Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden),Gossip Girls (Annia, Victorya, Shanice, Gabriela)   Villagers (Etta), (Sandra) / Scene 9 Ensemble",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Principals/Featured",
+          "Children/Youth",
+          "Ensemble",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Dana Quamina"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Etta Wright"
+          },
+          {
+            "displayName": "Sandra Johnson"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-audrey-howell-mcclenney",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-marissa-downie",
+          "P-dana-quamina",
+          "P-jayden-harris",
+          "P-etta-wright",
+          "P-sandra-johnson"
+        ],
+        "calledGroups": [
+          "Principals/Featured",
+          "Children/Youth",
+          "Ensemble",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Children section + town/gossip setup",
         "focus": "",
@@ -2158,11 +3160,95 @@
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site - details TBD",
         "called": "6:30PM-9:30PM- Mary (Jordyn), Caleb (Joseph)\n6:30PM-7:30PM- Actors ONLY: Child Speakers: (Child 1 (Neclia) Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina) Simon (James), Villager Woman 1 (Marissa), Village Woman 2 (Dana)\n7:15PM-9:30PM Nia (Gelvina) Simon (James),Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Villager Man (Fredrick)  Gossip Girls (Annia, Victorya, Shanice, Gabriela) /Roman Announcer,(Amadeus Hills)",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Principals/Featured",
+          "Ensemble"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Dana Quamina"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Amadeus Hills"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-nelcia-fosttin",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-marissa-downie",
+          "P-dana-quamina",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-fredrick-custard",
+          "P-amadeus-hills"
+        ],
+        "calledGroups": [
+          "Principals/Featured",
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
         "focus": "",
@@ -2186,11 +3272,19 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM — Scene 9 Dancers / Actors in Scene 9 & 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n12:00 PM- 2:00 PM - All Other Cast Members",
-        "callGroups": [],
+        "callGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scene 9 blocking/choreography; recover physical Scene 10 journey work",
         "focus": "",
@@ -2215,6 +3309,7 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers\n\n 6:30 PM- 9:30PM-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla",
         "callGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -2234,6 +3329,7 @@
           "P-kevin-hohn"
         ],
         "calledGroups": [
+          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -2260,11 +3356,61 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30PM-8:30PM- Dancers \n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n 8:00PM-9:30PM All Other Cast members, Choir, Praise Voices",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Principals/Featured",
+          "Children/Youth",
+          "Full Company"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-kevin-hohn",
+          "P-charla-yvonne-cornelius",
+          "P-edison-browne",
+          "P-jayden-harris",
+          "P-delvin-rogers-jr",
+          "P-cedrick-massey"
+        ],
+        "calledGroups": [
+          "Principals/Featured",
+          "Children/Youth",
+          "Full Company"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Good News — shepherd dialogue, angel message, finale music foundation",
         "focus": "",
@@ -2288,11 +3434,19 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM — Dancers\n10:00 AM- 2:00 PM- Scene 9 Cast\n11:00 AM- 2:00 PM- Scene 10 Cast\n12:00 PM- 2:00 PM- Scene 11 Cast",
-        "callGroups": [],
+        "callGroups": [
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Main-stage journey, crowd, No Room, birth picture",
         "focus": "",
@@ -2316,11 +3470,17 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30 PM–8:30 PM —Dancers \n6:30 PM–9:30 PM Scene 12  Full Company",
-        "callGroups": [],
+        "callGroups": [
+          "Full Company",
+          "Dancers"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Music, storyteller return, shepherds, finale entries",
         "focus": "",
@@ -2344,11 +3504,17 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers + Ensemble\n 8:30–9:30 PM — Adult Scene 11 Cast",
-        "callGroups": [],
+        "callGroups": [
+          "Dancers",
+          "Ensemble"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Dancers",
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scenes 1, 9 & 12 choreography cleanup; 8:30+ No Room rhythm.",
         "focus": "",
@@ -2372,11 +3538,59 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 PM–2:00 PM-Scene 12 Full Company",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-kevin-hohn",
+          "P-charla-yvonne-cornelius",
+          "P-edison-browne",
+          "P-jayden-harris",
+          "P-delvin-rogers-jr",
+          "P-cedrick-massey"
+        ],
+        "calledGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Finale choreography/music/blocking that works in studio; no main-stage work",
         "focus": "",
@@ -2400,11 +3614,19 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30 PM–8:30 PM — Youth + Dancers\n8:30 PM–9:30 PM — Adult Scene 11 cast",
-        "callGroups": [],
+        "callGroups": [
+          "Children/Youth",
+          "Ensemble",
+          "Dancers"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Children/Youth",
+          "Ensemble",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Music/choreo cleanup; 8:30+ Scene 11 cleanup",
         "focus": "",
@@ -2428,11 +3650,35 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30PM–8:30 PM- Dancers\n 6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick), Elizabeth, adult principals",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Principals/Featured",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-cedrick-massey",
+          "P-audrey-howell-mcclenney"
+        ],
+        "calledGroups": [
+          "Principals/Featured",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Principal cleanup",
         "focus": "",
@@ -2492,11 +3738,15 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30 PM-9:30PM — Mary + friends,Joseph + friends",
-        "callGroups": [],
+        "callGroups": [
+          "Principals/Featured"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Principals/Featured"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Off-book work + music review",
         "focus": "",
@@ -2520,11 +3770,33 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick), Elizabeth, adult principals\n8:00PM–9:30 PM -Joseph +friends",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "callGroups": [
+          "Principals/Featured"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-cedrick-massey",
+          "P-audrey-howell-mcclenney"
+        ],
+        "calledGroups": [
+          "Principals/Featured"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Off-book principals",
         "focus": "",
@@ -2548,11 +3820,17 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM — Dancers +Scenes 1–6 Cast",
-        "callGroups": [],
+        "callGroups": [
+          "Full Company",
+          "Dancers"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scenes 1–6 with transitions",
         "focus": "",
@@ -2576,11 +3854,17 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30PM–9:30 PM —  Dancers + Scenes 7–9 Cast",
-        "callGroups": [],
+        "callGroups": [
+          "Dancers",
+          "Ensemble"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Dancers",
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Off-book / music / scene links",
         "focus": "",
@@ -2604,11 +3888,19 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30 PM–9:30 PM — Dancers + Scenes 10–12 Cast,  Choir / Vocal Company",
-        "callGroups": [],
+        "callGroups": [
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Principals/Featured",
+          "Dancers",
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Journey / No Room / finale music and cue pickup",
         "focus": "",
@@ -2632,11 +3924,15 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM — Dancers + Cast for Scenes 7–12",
-        "callGroups": [],
+        "callGroups": [
+          "Principals/Featured"
+        ],
         "calledPeople": [],
         "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "calledGroups": [
+          "Principals/Featured"
+        ],
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scenes 7–12 with transitions",
         "focus": "",
@@ -3377,10 +4673,60 @@
         "locationShort": "https://us02web.zoom.us/j/86440498367?pwd=l3xRoEgaPAlvf3PvPVBlIUsV2w6tJ8.1",
         "called": "10:00 AM–11:15 AM —Child Storytellers;  Nia (Gelvina) &  Simon (James)\n\n11:30 AM–12:45 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n\n12:50 PM–2:00 PM — Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
+        ],
         "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Principal actors: work through Scenes 1 & 2, develop character relationships, clarify objectives, and work through dialogue and scene beats.",
         "focus": "",
@@ -3423,6 +4769,11 @@
     ],
     "groups": [
       {
+        "id": "children-youth",
+        "name": "Children/Youth",
+        "count": 6
+      },
+      {
         "id": "crew-tech",
         "name": "Crew/Tech",
         "count": 4
@@ -3430,17 +4781,22 @@
       {
         "id": "dancers",
         "name": "Dancers",
-        "count": 22
+        "count": 48
       },
       {
         "id": "ensemble",
         "name": "Ensemble",
-        "count": 6
+        "count": 26
       },
       {
         "id": "full-company",
         "name": "Full Company",
-        "count": 16
+        "count": 30
+      },
+      {
+        "id": "principals-featured",
+        "name": "Principals/Featured",
+        "count": 30
       }
     ],
     "count": 45,
@@ -3760,14 +5116,14 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-05T04:04:38.566Z",
+    "updated": "2026-09-05T11:49:02.058Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-05T04:04:38.566Z",
+    "updated": "2026-09-05T11:49:02.058Z",
     "kind": "music"
   }
 }

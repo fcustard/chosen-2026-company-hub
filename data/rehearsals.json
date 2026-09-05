@@ -28,10 +28,36 @@
     "called": "10:00 AM–11:15 AM —Child Storytellers;  Nia (Gelvina) &  Simon (James)\n\n11:30 AM–12:45 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n\n12:50 PM–2:00 PM — Mary (Jordyn), Joseph (Caleb)",
     "work": "Principal actors: work through Scenes 1 & 2, develop character relationships, clarify objectives, and work through dialogue and scene beats.",
     "prep": "Please have Scenes 1 & 2 available and be ready for dialogue",
-    "calledPeople": [],
-    "calledPeopleIds": [],
+    "calledPeople": [
+      "Gelvina Maxime",
+      "James Myers",
+      "Jordyn Starks",
+      "Tasha Simeon",
+      "Tyfany Adaka",
+      "Jéovanie André",
+      "Ashley Pierre",
+      "Caleb Davilmar",
+      "Marcus Mainer",
+      "Dorrien Jones",
+      "Michael Stover",
+      "Chris Mcanuff"
+    ],
+    "calledPeopleIds": [
+      "P-gelvina-maxime",
+      "P-james-myers",
+      "P-jordyn-starks",
+      "P-tasha-simeon",
+      "P-tyfany-adaka",
+      "P-jeovanie-andre",
+      "P-ashley-pierre",
+      "P-caleb-davilmar",
+      "P-marcus-mainer",
+      "P-dorrien-jones",
+      "P-michael-stover",
+      "P-chris-mcanuff"
+    ],
     "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260829-REH"
   },
@@ -107,10 +133,48 @@
     "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
     "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
     "prep": "Dance Ensemble: Bring dance shoes. *If you are not sure if you are apart of the Dance Ensemble, please confirm with Ms. Lounise immediately.*                                   Everyone: Bring a snack and drink for the 12:00–12:15 PM break.",
-    "calledPeople": [],
-    "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledPeople": [
+      "Gelvina Maxime",
+      "James Myers",
+      "Jordyn Starks",
+      "Tasha Simeon",
+      "Tyfany Adaka",
+      "Jéovanie André",
+      "Ashley Pierre",
+      "Caleb Davilmar",
+      "Marcus Mainer",
+      "Dorrien Jones",
+      "Michael Stover",
+      "Chris Mcanuff",
+      "Kevin Hohn",
+      "Etta Wright",
+      "Sandra Johnson",
+      "Marissa Downie"
+    ],
+    "calledPeopleIds": [
+      "P-gelvina-maxime",
+      "P-james-myers",
+      "P-jordyn-starks",
+      "P-tasha-simeon",
+      "P-tyfany-adaka",
+      "P-jeovanie-andre",
+      "P-ashley-pierre",
+      "P-caleb-davilmar",
+      "P-marcus-mainer",
+      "P-dorrien-jones",
+      "P-michael-stover",
+      "P-chris-mcanuff",
+      "P-kevin-hohn",
+      "P-etta-wright",
+      "P-sandra-johnson",
+      "P-marissa-downie"
+    ],
+    "calledGroups": [
+      "Full Company",
+      "Ensemble",
+      "Dancers"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260905-REH"
   },
@@ -141,7 +205,9 @@
       "P-caleb-davilmar"
     ],
     "calledGroups": [
-      "Dancers"
+      "Principals/Featured",
+      "Dancers",
+      "Ensemble"
     ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
@@ -176,6 +242,7 @@
       "P-chris-mcanuff"
     ],
     "calledGroups": [
+      "Principals/Featured",
       "Dancers"
     ],
     "exactCallStatus": "READY",
@@ -192,10 +259,34 @@
     "called": "10:00 AM–11:30 AM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n 11:30 AM–12:30 PM- Mary + Friends, Joseph + Friends\n12:30 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
     "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
     "prep": "Actors: Review dialouge, Learn songs",
-    "calledPeople": [],
-    "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledPeople": [
+      "Jordyn Starks",
+      "Tasha Simeon",
+      "Tyfany Adaka",
+      "Jéovanie André",
+      "Ashley Pierre",
+      "Caleb Davilmar",
+      "Marcus Mainer",
+      "Dorrien Jones",
+      "Michael Stover",
+      "Chris Mcanuff"
+    ],
+    "calledPeopleIds": [
+      "P-jordyn-starks",
+      "P-tasha-simeon",
+      "P-tyfany-adaka",
+      "P-jeovanie-andre",
+      "P-ashley-pierre",
+      "P-caleb-davilmar",
+      "P-marcus-mainer",
+      "P-dorrien-jones",
+      "P-michael-stover",
+      "P-chris-mcanuff"
+    ],
+    "calledGroups": [
+      "Principals/Featured"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260912-REH"
   },
@@ -227,7 +318,9 @@
       "P-chris-mcanuff",
       "P-audrey-howell-mcclenney"
     ],
-    "calledGroups": [],
+    "calledGroups": [
+      "Principals/Featured"
+    ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260916-REH"
@@ -251,6 +344,7 @@
       "P-caleb-davilmar"
     ],
     "calledGroups": [
+      "Principals/Featured",
       "Dancers"
     ],
     "exactCallStatus": "READY",
@@ -267,10 +361,29 @@
     "called": "FULL COMPANY REHEARSAL:                            10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n10:00AM-2:00PM- Dancers\n11:00AM-2:00PM- Elizabeth(Audrey),Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n12:00pm-2:00pm-ALL Other Cast Members",
     "work": "Stage Scenes 6–8; transitions; spacing",
     "prep": "Dance Ensemble: Be ready to transition to next part of the song. Actors: dialouge, light blocking and singing techniques.",
-    "calledPeople": [],
-    "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledPeople": [
+      "Jordyn Starks",
+      "Caleb Davilmar",
+      "Audrey Howell-McClenney",
+      "Marcus Mainer",
+      "Dorrien Jones",
+      "Michael Stover",
+      "Chris Mcanuff"
+    ],
+    "calledPeopleIds": [
+      "P-jordyn-starks",
+      "P-caleb-davilmar",
+      "P-audrey-howell-mcclenney",
+      "P-marcus-mainer",
+      "P-dorrien-jones",
+      "P-michael-stover",
+      "P-chris-mcanuff"
+    ],
+    "calledGroups": [
+      "Full Company",
+      "Dancers"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260919-REH"
   },
@@ -284,10 +397,53 @@
     "called": "6:30–8:30 PM — Dancers, Child Storytellers Nia (Gelvina) Simon ( James)  Mary (Jordyn), Joseph (Caleb)\n6:30PM-9:30PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey),Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden),Gossip Girls (Annia, Victorya, Shanice, Gabriela)   Villagers (Etta), (Sandra) / Scene 9 Ensemble",
     "work": "Children section + town/gossip setup",
     "prep": "Dance Ensemble: Starting Choreography to a New Song. Actors: Please look over Scene 9 so you are prepared for rehearsal",
-    "calledPeople": [],
-    "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledPeople": [
+      "Gelvina Maxime",
+      "James Myers",
+      "Jordyn Starks",
+      "Caleb Davilmar",
+      "Audrey Howell-McClenney",
+      "Tasha Simeon",
+      "Tyfany Adaka",
+      "Jéovanie André",
+      "Ashley Pierre",
+      "Marcus Mainer",
+      "Dorrien Jones",
+      "Michael Stover",
+      "Chris Mcanuff",
+      "Marissa Downie",
+      "Dana Quamina",
+      "Jayden Harris",
+      "Etta Wright",
+      "Sandra Johnson"
+    ],
+    "calledPeopleIds": [
+      "P-gelvina-maxime",
+      "P-james-myers",
+      "P-jordyn-starks",
+      "P-caleb-davilmar",
+      "P-audrey-howell-mcclenney",
+      "P-tasha-simeon",
+      "P-tyfany-adaka",
+      "P-jeovanie-andre",
+      "P-ashley-pierre",
+      "P-marcus-mainer",
+      "P-dorrien-jones",
+      "P-michael-stover",
+      "P-chris-mcanuff",
+      "P-marissa-downie",
+      "P-dana-quamina",
+      "P-jayden-harris",
+      "P-etta-wright",
+      "P-sandra-johnson"
+    ],
+    "calledGroups": [
+      "Principals/Featured",
+      "Children/Youth",
+      "Ensemble",
+      "Dancers"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260923-REH"
   },
@@ -301,10 +457,53 @@
     "called": "6:30PM-9:30PM- Mary (Jordyn), Caleb (Joseph)\n6:30PM-7:30PM- Actors ONLY: Child Speakers: (Child 1 (Neclia) Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina) Simon (James), Villager Woman 1 (Marissa), Village Woman 2 (Dana)\n7:15PM-9:30PM Nia (Gelvina) Simon (James),Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Villager Man (Fredrick)  Gossip Girls (Annia, Victorya, Shanice, Gabriela) /Roman Announcer,(Amadeus Hills)",
     "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
     "prep": "Virtual rehearsal because no TFC room is available. Physical journey work moves to Sept. 26 / Oct. 3. Connection details TBD.",
-    "calledPeople": [],
-    "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledPeople": [
+      "Jordyn Starks",
+      "Caleb Davilmar",
+      "Nelcia Fosttin",
+      "Annalise Mongeois",
+      "Ariella Davidson",
+      "Gelvina Maxime",
+      "James Myers",
+      "Marissa Downie",
+      "Dana Quamina",
+      "Tasha Simeon",
+      "Tyfany Adaka",
+      "Jéovanie André",
+      "Ashley Pierre",
+      "Marcus Mainer",
+      "Dorrien Jones",
+      "Michael Stover",
+      "Chris Mcanuff",
+      "Fredrick Custard",
+      "Amadeus Hills"
+    ],
+    "calledPeopleIds": [
+      "P-jordyn-starks",
+      "P-caleb-davilmar",
+      "P-nelcia-fosttin",
+      "P-annalise-mongeois",
+      "P-ariella-davidson",
+      "P-gelvina-maxime",
+      "P-james-myers",
+      "P-marissa-downie",
+      "P-dana-quamina",
+      "P-tasha-simeon",
+      "P-tyfany-adaka",
+      "P-jeovanie-andre",
+      "P-ashley-pierre",
+      "P-marcus-mainer",
+      "P-dorrien-jones",
+      "P-michael-stover",
+      "P-chris-mcanuff",
+      "P-fredrick-custard",
+      "P-amadeus-hills"
+    ],
+    "calledGroups": [
+      "Principals/Featured",
+      "Ensemble"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260924-REH"
   },
@@ -320,8 +519,12 @@
     "prep": "Specific scene-by-scene call list will be posted before rehearsal.",
     "calledPeople": [],
     "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledGroups": [
+      "Full Company",
+      "Ensemble",
+      "Dancers"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260926-REH"
   },
@@ -346,6 +549,7 @@
       "P-kevin-hohn"
     ],
     "calledGroups": [
+      "Principals/Featured",
       "Dancers"
     ],
     "exactCallStatus": "READY",
@@ -362,10 +566,36 @@
     "called": "6:30PM-8:30PM- Dancers \n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n 8:00PM-9:30PM All Other Cast members, Choir, Praise Voices",
     "work": "Good News — shepherd dialogue, angel message, finale music foundation",
     "prep": "",
-    "calledPeople": [],
-    "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledPeople": [
+      "Gelvina Maxime",
+      "James Myers",
+      "Jordyn Starks",
+      "Caleb Davilmar",
+      "Kevin Hohn",
+      "Charla-Yvonne Cornelius",
+      "Edison Browne",
+      "Jayden Harris",
+      "Delvin Rogers Jr",
+      "Cedrick Massey"
+    ],
+    "calledPeopleIds": [
+      "P-gelvina-maxime",
+      "P-james-myers",
+      "P-jordyn-starks",
+      "P-caleb-davilmar",
+      "P-kevin-hohn",
+      "P-charla-yvonne-cornelius",
+      "P-edison-browne",
+      "P-jayden-harris",
+      "P-delvin-rogers-jr",
+      "P-cedrick-massey"
+    ],
+    "calledGroups": [
+      "Principals/Featured",
+      "Children/Youth",
+      "Full Company"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261001-REH"
   },
@@ -381,8 +611,12 @@
     "prep": "Please Come at your assigned time slot. All rehearsals will end at 2:00PM",
     "calledPeople": [],
     "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledGroups": [
+      "Principals/Featured",
+      "Dancers",
+      "Ensemble"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261003-REH"
   },
@@ -398,8 +632,11 @@
     "prep": "",
     "calledPeople": [],
     "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledGroups": [
+      "Full Company",
+      "Dancers"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261007-REH"
   },
@@ -415,8 +652,11 @@
     "prep": "Studio-only rehearsal. No main-stage work. Final space-limited call list will be posted before rehearsal.",
     "calledPeople": [],
     "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledGroups": [
+      "Dancers",
+      "Ensemble"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261008-REH"
   },
@@ -430,10 +670,35 @@
     "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 PM–2:00 PM-Scene 12 Full Company",
     "work": "Finale choreography/music/blocking that works in studio; no main-stage work",
     "prep": "",
-    "calledPeople": [],
-    "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledPeople": [
+      "Gelvina Maxime",
+      "James Myers",
+      "Jordyn Starks",
+      "Caleb Davilmar",
+      "Kevin Hohn",
+      "Charla-Yvonne Cornelius",
+      "Edison Browne",
+      "Jayden Harris",
+      "Delvin Rogers Jr",
+      "Cedrick Massey"
+    ],
+    "calledPeopleIds": [
+      "P-gelvina-maxime",
+      "P-james-myers",
+      "P-jordyn-starks",
+      "P-caleb-davilmar",
+      "P-kevin-hohn",
+      "P-charla-yvonne-cornelius",
+      "P-edison-browne",
+      "P-jayden-harris",
+      "P-delvin-rogers-jr",
+      "P-cedrick-massey"
+    ],
+    "calledGroups": [
+      "Full Company",
+      "Dancers"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261010-REH"
   },
@@ -449,8 +714,12 @@
     "prep": "",
     "calledPeople": [],
     "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledGroups": [
+      "Children/Youth",
+      "Ensemble",
+      "Dancers"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261014-REH"
   },
@@ -464,10 +733,23 @@
     "called": "6:30PM–8:30 PM- Dancers\n 6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick), Elizabeth, adult principals",
     "work": "Principal cleanup",
     "prep": "",
-    "calledPeople": [],
-    "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledPeople": [
+      "Jordyn Starks",
+      "Caleb Davilmar",
+      "Cedrick Massey",
+      "Audrey Howell-McClenney"
+    ],
+    "calledPeopleIds": [
+      "P-jordyn-starks",
+      "P-caleb-davilmar",
+      "P-cedrick-massey",
+      "P-audrey-howell-mcclenney"
+    ],
+    "calledGroups": [
+      "Principals/Featured",
+      "Dancers"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261015-REH"
   },
@@ -504,8 +786,10 @@
     "prep": "*Joseph and friends will work on Scene 5 dance and song from 6:30-8:00 pm, then go through the entire Scene from 8:00-9:30 pm",
     "calledPeople": [],
     "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledGroups": [
+      "Principals/Featured"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261021-REH"
   },
@@ -519,10 +803,22 @@
     "called": "6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick), Elizabeth, adult principals\n8:00PM–9:30 PM -Joseph +friends",
     "work": "Off-book principals",
     "prep": "Specific scene-by-scene call list will be posted before rehearsal. Saturday access may shift if a homegoing service is scheduled; check the live calendar before traveling.",
-    "calledPeople": [],
-    "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledPeople": [
+      "Jordyn Starks",
+      "Caleb Davilmar",
+      "Cedrick Massey",
+      "Audrey Howell-McClenney"
+    ],
+    "calledPeopleIds": [
+      "P-jordyn-starks",
+      "P-caleb-davilmar",
+      "P-cedrick-massey",
+      "P-audrey-howell-mcclenney"
+    ],
+    "calledGroups": [
+      "Principals/Featured"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261022-REH"
   },
@@ -538,8 +834,11 @@
     "prep": "Specific call list will be posted after the prior sequence run.",
     "calledPeople": [],
     "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledGroups": [
+      "Full Company",
+      "Dancers"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261024-REH"
   },
@@ -555,8 +854,11 @@
     "prep": "",
     "calledPeople": [],
     "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledGroups": [
+      "Dancers",
+      "Ensemble"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261028-REH"
   },
@@ -572,8 +874,12 @@
     "prep": "Specific scene-by-scene call list will be posted before rehearsal. Saturday access may shift if a homegoing service is scheduled; check the live calendar before traveling.",
     "calledPeople": [],
     "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledGroups": [
+      "Principals/Featured",
+      "Dancers",
+      "Ensemble"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261029-REH"
   },
@@ -589,8 +895,10 @@
     "prep": "Specific call list will be posted after the Oct. 31 sequence run.",
     "calledPeople": [],
     "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "calledGroups": [
+      "Principals/Featured"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261031-REH"
   },

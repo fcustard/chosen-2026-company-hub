@@ -2,7 +2,7 @@
   "ok": true,
   "schemaVersion": 1,
   "source": "CHOSEN 2026 Admin Master Sheets",
-  "generatedAt": "2026-09-05T04:04:36.943Z",
+  "generatedAt": "2026-09-05T11:48:59.402Z",
   "people": [
     {
       "id": "P-abi",
@@ -225,7 +225,7 @@
       ],
       "understudy": null,
       "danceEnsemble": false,
-      "reviewStatus": "REVIEW",
+      "reviewStatus": "READY",
       "assignments": [
         {
           "personId": "P-amadeus-hills",
@@ -810,7 +810,7 @@
       ],
       "understudy": "Joseph",
       "danceEnsemble": false,
-      "reviewStatus": "REVIEW",
+      "reviewStatus": "READY",
       "assignments": [
         {
           "personId": "P-cedrick-massey",
@@ -1046,7 +1046,7 @@
       ],
       "understudy": null,
       "danceEnsemble": true,
-      "reviewStatus": "REVIEW",
+      "reviewStatus": "READY",
       "assignments": [
         {
           "personId": "P-delvin-rogers-jr",
@@ -1137,7 +1137,7 @@
       ],
       "understudy": "Malachi",
       "danceEnsemble": false,
-      "reviewStatus": "REVIEW",
+      "reviewStatus": "READY",
       "assignments": [
         {
           "personId": "P-edison-browne",
@@ -1446,7 +1446,7 @@
       ],
       "understudy": "Ezra (Joseph's Friend)",
       "danceEnsemble": false,
-      "reviewStatus": "REVIEW",
+      "reviewStatus": "READY",
       "assignments": [
         {
           "personId": "P-jayden-harris",
@@ -1651,7 +1651,7 @@
       ],
       "understudy": null,
       "danceEnsemble": false,
-      "reviewStatus": "REVIEW",
+      "reviewStatus": "READY",
       "assignments": [
         {
           "personId": "P-kevin-hohn",
