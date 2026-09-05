@@ -501,7 +501,228 @@ function hasRenderableDateFallback(record) {
   return normalizeText(dateLike) !== '';
 }
 
+
+function extractDatePartsFromText(value) {
+  const text = normalizeText(value);
+  if (!text) return null;
+
+  const iso = text.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (iso) {
+    return {
+      year: Number(iso[1]),
+      month: Number(iso[2]),
+      day: Number(iso[3]),
+    };
+  }
+
+  const compact = text.match(/(?:^|[^0-9])(\d{4})(\d{2})(\d{2})(?:[^0-9]|$)/);
+  if (compact) {
+    return {
+      year: Number(compact[1]),
+      month: Number(compact[2]),
+      day: Number(compact[3]),
+    };
+  }
+
+  const us = text.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+  if (us) {
+    return {
+      year: Number(us[3]),
+      month: Number(us[1]),
+      day: Number(us[2]),
+    };
+  }
+
+  return null;
+}
+
+function getAuthoredDateParts(record) {
+  return (
+    extractDatePartsFromText(getField(record, 'date', 'Date', 'publicDate', 'rehearsalDate')) ||
+    extractDatePartsFromText(getField(record, 'eventKey', 'Event Key', 'id', 'ID')) ||
+    extractDatePartsFromText(getField(record, 'start', 'Start', 'startDateTime', 'Start Date/Time', 'Start Date Time')) ||
+    extractDatePartsFromText(getField(record, 'start_date_time', 'startDate', 'Start Date')) ||
+    null
+  );
+}
+
+function toTwentyFourHour(hour, meridiem) {
+  let h = Number(hour);
+  const marker = normalizeText(meridiem).toLowerCase();
+
+  if (marker === 'pm' && h < 12) h += 12;
+  if (marker === 'am' && h === 12) h = 0;
+
+  return h;
+}
+
+function inferStartMeridiem(startHour, endHour, endMeridiem) {
+  const end = normalizeText(endMeridiem).toLowerCase();
+
+  if (!end) return '';
+
+  if (end === 'pm') {
+    if (Number(startHour) === 12) return 'pm';
+
+    // 10:00–2:00 PM usually means 10 AM–2 PM.
+    // 6:30–9:30 PM usually means 6:30 PM–9:30 PM.
+    if (Number(startHour) > Number(endHour)) return 'am';
+
+    return 'pm';
+  }
+
+  if (end === 'am') {
+    return 'am';
+  }
+
+  return end;
+}
+
+function parseAuthoredTimeRanges(value) {
+  const text = normalizeText(value)
+    .replace(/\u00a0/g, ' ')
+    .replace(/[—–]/g, '-');
+
+  if (!text) return [];
+
+  const ranges = [];
+  const rangePattern =
+    /\b(\d{1,2})(?::(\d{2}))?\s*(AM|PM|am|pm)?\s*-\s*(\d{1,2})(?::(\d{2}))?\s*(AM|PM|am|pm)\b/g;
+
+  let match;
+  while ((match = rangePattern.exec(text)) !== null) {
+    const [
+      ,
+      startHourRaw,
+      startMinuteRaw,
+      startMeridiemRaw,
+      endHourRaw,
+      endMinuteRaw,
+      endMeridiemRaw,
+    ] = match;
+
+    const startHour = Number(startHourRaw);
+    const startMinute = startMinuteRaw === undefined ? 0 : Number(startMinuteRaw);
+    const endHour = Number(endHourRaw);
+    const endMinute = endMinuteRaw === undefined ? 0 : Number(endMinuteRaw);
+
+    if (
+      startHour < 1 ||
+      startHour > 12 ||
+      endHour < 1 ||
+      endHour > 12 ||
+      startMinute < 0 ||
+      startMinute > 59 ||
+      endMinute < 0 ||
+      endMinute > 59
+    ) {
+      continue;
+    }
+
+    const startMeridiem =
+      normalizeText(startMeridiemRaw) ||
+      inferStartMeridiem(startHour, endHour, endMeridiemRaw);
+
+    if (!startMeridiem) continue;
+
+    const start24 = toTwentyFourHour(startHour, startMeridiem);
+    const end24 = toTwentyFourHour(endHour, endMeridiemRaw);
+
+    let startTotal = start24 * 60 + startMinute;
+    let endTotal = end24 * 60 + endMinute;
+
+    if (endTotal <= startTotal) {
+      endTotal += 24 * 60;
+    }
+
+    ranges.push({
+      startTotal,
+      endTotal,
+      source: match[0],
+    });
+  }
+
+  return ranges;
+}
+
+function getAuthoredTimeRange(record) {
+  const candidates = [
+    getField(record, 'time', 'Time', 'publicTime', 'Public Time'),
+    getField(record, 'called', 'Called', 'Who Is Called', 'whoIsCalled'),
+    getField(record, 'publicTitle', 'Public Title', 'title', 'Title'),
+  ]
+    .flatMap(value => Array.isArray(value) ? value : [value])
+    .map(normalizeText)
+    .filter(Boolean);
+
+  const ranges = candidates.flatMap(parseAuthoredTimeRanges);
+  if (!ranges.length) return null;
+
+  const startTotal = Math.min(...ranges.map(range => range.startTotal));
+  const endTotal = Math.max(...ranges.map(range => range.endTotal));
+
+  return { startTotal, endTotal };
+}
+
+function getAuthoredTimeRangeDates(record) {
+  const dateParts = getAuthoredDateParts(record);
+  const range = getAuthoredTimeRange(record);
+
+  if (!dateParts || !range) return null;
+
+  const startDayOffset = Math.floor(range.startTotal / (24 * 60));
+  const endDayOffset = Math.floor(range.endTotal / (24 * 60));
+
+  const startMinutes = range.startTotal % (24 * 60);
+  const endMinutes = range.endTotal % (24 * 60);
+
+  const startBase = zonedTimeToUtc({
+    ...dateParts,
+    hour: 0,
+    minute: 0,
+    second: 0,
+  });
+
+  if (!startBase || Number.isNaN(startBase.getTime())) return null;
+
+  const startLocal = addDays(startBase, startDayOffset);
+  const endLocal = addDays(startBase, endDayOffset);
+
+  const startParts = getZonedParts(startLocal, TZ);
+  const endParts = getZonedParts(endLocal, TZ);
+
+  if (!startParts || !endParts) return null;
+
+  const start = zonedTimeToUtc({
+    year: startParts.year,
+    month: startParts.month,
+    day: startParts.day,
+    hour: Math.floor(startMinutes / 60),
+    minute: startMinutes % 60,
+    second: 0,
+  });
+
+  const end = zonedTimeToUtc({
+    year: endParts.year,
+    month: endParts.month,
+    day: endParts.day,
+    hour: Math.floor(endMinutes / 60),
+    minute: endMinutes % 60,
+    second: 0,
+  });
+
+  return {
+    start,
+    end,
+  };
+}
+
 function extractStart(record) {
+  const authored = getAuthoredTimeRangeDates(record);
+  if (authored && authored.start && !Number.isNaN(authored.start.getTime())) {
+    return authored.start;
+  }
+
   const direct = firstNonEmpty(
     getField(record, 'start', 'Start', 'startDateTime', 'Start Date/Time', 'Start Date Time'),
     getField(record, 'start_date_time', 'startDate', 'Start Date')
@@ -520,6 +741,11 @@ function extractStart(record) {
 }
 
 function extractEnd(record, start = null) {
+  const authored = getAuthoredTimeRangeDates(record);
+  if (authored && authored.end && !Number.isNaN(authored.end.getTime())) {
+    return authored.end;
+  }
+
   const direct = firstNonEmpty(
     getField(record, 'end', 'End', 'endDateTime', 'End Date/Time', 'End Date Time'),
     getField(record, 'end_date_time', 'endDate', 'End Date')
@@ -536,13 +762,7 @@ function extractEnd(record, start = null) {
     });
   }
 
-  if (start) {
-    const id = normalizeText(firstNonEmpty(record.id, record.eventKey, record['Event Key'], record.title));
-    console.warn(`⚠️ ${id || 'A rehearsal record'} is missing an end time. Using start + 1 hour for Hub rendering.`);
-    return new Date(start.getTime() + 60 * 60 * 1000);
-  }
-
-  return null;
+  return start;
 }
 
 function getEventKey(record, index = 0) {
