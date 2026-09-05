@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T02:06:09.669Z",
+  "updated": "2026-09-05T03:09:23.482Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -726,18 +726,18 @@
       {
         "id": "CHOSEN-20261010-REH",
         "eventKey": "CHOSEN-20261010-REH",
-        "start": "2026-10-10T04:00:00.000Z",
+        "start": "2026-10-10T14:00:00.000Z",
         "end": "2026-10-10T18:00:00.000Z",
         "date": "2026-10-10",
         "day": "Saturday",
         "dateLabel": "Oct 10",
         "dayLabel": "Saturday",
-        "time": "12:00 AM–2:00 PM",
+        "time": "10:00 AM–2:00 PM",
         "title": "CHOSEN Rehearsal - Scene 12 — studio only",
         "status": "PENDING",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 AM–2:00 PM-Scene 12 Full Company",
+        "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 PM–2:00 PM-Scene 12 Full Company",
         "callGroups": [],
         "calledPeople": [],
         "calledPeopleIds": [],
@@ -2291,18 +2291,18 @@
       {
         "id": "CHOSEN-20261010-REH",
         "eventKey": "CHOSEN-20261010-REH",
-        "start": "2026-10-10T04:00:00.000Z",
+        "start": "2026-10-10T14:00:00.000Z",
         "end": "2026-10-10T18:00:00.000Z",
         "date": "2026-10-10",
         "day": "Saturday",
         "dateLabel": "Oct 10",
         "dayLabel": "Saturday",
-        "time": "12:00 AM–2:00 PM",
+        "time": "10:00 AM–2:00 PM",
         "title": "CHOSEN Rehearsal - Scene 12 — studio only",
         "status": "PENDING",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 AM–2:00 PM-Scene 12 Full Company",
+        "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 PM–2:00 PM-Scene 12 Full Company",
         "callGroups": [],
         "calledPeople": [],
         "calledPeopleIds": [],
@@ -3658,14 +3658,14 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-05T02:06:09.670Z",
+    "updated": "2026-09-05T03:09:23.483Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-05T02:06:09.670Z",
+    "updated": "2026-09-05T03:09:23.483Z",
     "kind": "music"
   }
 }
