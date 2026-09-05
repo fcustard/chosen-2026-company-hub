@@ -6,6 +6,98 @@ const ROOT = process.cwd();
 const SCRIPTS_FILE = path.join(ROOT, "data", "scripts.json");
 const SCENES_DIR = path.join(ROOT, "data", "scenes");
 
+const KNOWN_SPEAKERS = new Set([
+  "MARY",
+  "JOSEPH",
+  "GABRIEL",
+  "ELIZABETH",
+  "SHIRA",
+  "TALIA",
+  "ADINA",
+  "DAFNA",
+  "LEVI",
+  "MALACHI",
+  "CALEB",
+  "EZRA",
+  "NIA",
+  "SIMON",
+  "LUCIA",
+  "ANNA",
+  "HEROD",
+  "ROMAN",
+  "ROMAN ANNOUNCER",
+  "ANNOUNCER",
+  "KEEPER",
+  "INNKEEPER",
+  "INNKEEPER 1",
+  "INNKEEPER 2",
+  "INNKEEPER 3",
+  "INNKEEPER'S WIFE",
+  "BETHLEHEM WOMAN",
+  "WOMAN",
+  "MAN",
+  "CHILD",
+  "CHILD 1",
+  "CHILD 2",
+  "CHILD 3",
+  "SHEPHERD",
+  "SHEPHERD 1",
+  "SHEPHERD 2",
+  "SHEPHERD 3",
+  "YOUNG SHEPHERD",
+  "ANGEL",
+  "ANGELS",
+  "WISE MAN",
+  "WISE MEN",
+  "VILLAGER",
+  "VILLAGERS",
+  "MERCHANT",
+  "MERCHANT 1",
+  "MERCHANT 2",
+  "CUSTOMER",
+  "CUSTOMER 1",
+  "COSTUMER",
+  "GOSSIPER",
+  "GOSSIPER 1",
+  "GOSSIPER 2",
+  "GOSSIPER 3",
+  "GOSSIPER 4",
+  "GOSSIP GIRLS",
+  "COMPANY",
+  "ENSEMBLE",
+  "DANCERS",
+  "FRIENDS",
+  "MARY'S FRIENDS",
+  "JOSEPH'S FRIENDS"
+]);
+
+const NON_SPEAKER_ALL_CAPS = new Set([
+  "CHOSEN",
+  "CHOSEN: THE STORY BEFORE THE MANGER",
+  "THE STORY BEFORE THE MANGER",
+  "CURRENT",
+  "COMPANY VERSION",
+  "OFFICIAL COMPANY MATERIAL",
+  "PRESET",
+  "SCENE",
+  "SONG",
+  "MUSIC",
+  "MUSICAL NUMBER",
+  "MUSICAL SEQUENCE",
+  "CONTINUOUS FROM SCENE 1",
+  "CONTINUOUS FROM SCENE 2",
+  "CONTINUOUS FROM SCENE 3",
+  "CONTINUOUS FROM SCENE 4",
+  "CONTINUOUS FROM SCENE 5",
+  "CONTINUOUS FROM SCENE 6",
+  "CONTINUOUS FROM SCENE 7",
+  "CONTINUOUS FROM SCENE 8",
+  "CONTINUOUS FROM SCENE 9",
+  "CONTINUOUS FROM SCENE 10",
+  "CONTINUOUS FROM SCENE 11",
+  "CONTINUOUS FROM SCENE 12"
+]);
+
 function fail(message) {
   console.error(`❌ SCENE BUILD ERROR: ${message}`);
   process.exit(1);
@@ -39,6 +131,18 @@ function normalizeSceneNumber(value) {
   return numeric.padStart(2, "0");
 }
 
+function sceneDisplayNumber(sceneNumber) {
+  if (sceneNumber === "FULL") {
+    return "Full Script";
+  }
+
+  const n = Number(sceneNumber);
+
+  return Number.isFinite(n)
+    ? `Scene ${n}`
+    : `Scene ${sceneNumber}`;
+}
+
 function escapeHtml(value = "") {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -49,7 +153,168 @@ function escapeHtml(value = "") {
 }
 
 function cleanText(value = "") {
-  return String(value ?? "").trim();
+  return String(value ?? "")
+    .replace(/\u00a0/g, " ")
+    .replace(/[ \t]+/g, " ")
+    .trim();
+}
+
+function normalizeCaps(value = "") {
+  return cleanText(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[“”]/g, '"')
+    .replace(/[‘’]/g, "'")
+    .replace(/\s+/g, " ")
+    .toUpperCase();
+}
+
+function stripSpeakerPunctuation(value = "") {
+  return cleanText(value)
+    .replace(/[.:;,\-–—]+$/g, "")
+    .trim();
+}
+
+function isMostlyAllCaps(value = "") {
+  const text = cleanText(value);
+
+  if (!text) {
+    return false;
+  }
+
+  const letters = text.match(/[A-Za-z]/g) || [];
+
+  if (!letters.length) {
+    return false;
+  }
+
+  const lowercase = text.match(/[a-z]/g) || [];
+
+  return lowercase.length === 0;
+}
+
+function isKnownSpeaker(value = "") {
+  const normalized = normalizeCaps(stripSpeakerPunctuation(value));
+
+  return KNOWN_SPEAKERS.has(normalized);
+}
+
+function isNonSpeakerAllCaps(value = "") {
+  const normalized = normalizeCaps(stripSpeakerPunctuation(value));
+
+  if (NON_SPEAKER_ALL_CAPS.has(normalized)) {
+    return true;
+  }
+
+  if (/^SCENE\s+\d{1,2}\b/.test(normalized)) {
+    return true;
+  }
+
+  if (/^ACT\s+\d{1,2}\b/.test(normalized)) {
+    return true;
+  }
+
+  if (/^(APPROXIMATE|RUNNING TIME|MUSICAL|SPOKEN|SONG|CHARACTERS)\b/.test(normalized)) {
+    return true;
+  }
+
+  return false;
+}
+
+function splitInlineSpeakerCue(rawText = "") {
+  const text = cleanText(rawText);
+
+  if (!text) {
+    return null;
+  }
+
+  /*
+   * Handles:
+   *   LEVI Hold on.
+   *   JOSEPH Customer's.
+   *   EZRA And you've checked that corner four times.
+   *   MARY: I am here.
+   *   JOSEPH — I want to.
+   */
+  const withPunctuation = text.match(
+    /^([A-Z][A-Z0-9'’/&.\- ]{1,42}?)[\s]*[:–—-][\s]+(.+)$/
+  );
+
+  if (withPunctuation) {
+    const speaker = stripSpeakerPunctuation(withPunctuation[1]);
+    const dialogue = cleanText(withPunctuation[2]);
+
+    if (isKnownSpeaker(speaker) && dialogue) {
+      return {
+        speaker: normalizeCaps(speaker),
+        dialogue
+      };
+    }
+  }
+
+  const words = text.split(/\s+/);
+
+  for (let count = Math.min(4, words.length - 1); count >= 1; count -= 1) {
+    const candidate = words.slice(0, count).join(" ");
+    const remainder = words.slice(count).join(" ");
+
+    if (!remainder) {
+      continue;
+    }
+
+    if (!isMostlyAllCaps(candidate)) {
+      continue;
+    }
+
+    if (!isKnownSpeaker(candidate)) {
+      continue;
+    }
+
+    return {
+      speaker: normalizeCaps(candidate),
+      dialogue: remainder
+    };
+  }
+
+  return null;
+}
+
+function renderCharacterCue(text) {
+  return `<p class="character">${escapeHtml(normalizeCaps(text))}</p>`;
+}
+
+function renderDialogue(text) {
+  return `<p class="dialogue">${escapeHtml(text)}</p>`;
+}
+
+function renderStageDirection(text) {
+  return `<p class="stageDirection"><em>${escapeHtml(text)}</em></p>`;
+}
+
+function renderHeading(text) {
+  return `<h3 class="scriptHeading">${escapeHtml(text)}</h3>`;
+}
+
+function renderMusicCue(text) {
+  return `<p class="musicCue">${escapeHtml(text)}</p>`;
+}
+
+function renderLyric(text) {
+  return `<p class="lyric">${escapeHtml(text)}</p>`;
+}
+
+function renderPlain(text) {
+  return `<p>${escapeHtml(text)}</p>`;
+}
+
+function renderPossiblyInlineSpeaker(text, fallbackRenderer = renderPlain) {
+  const cue = splitInlineSpeakerCue(text);
+
+  if (cue) {
+    return `${renderCharacterCue(cue.speaker)}\n${renderDialogue(cue.dialogue)}`;
+  }
+
+  return fallbackRenderer(text);
 }
 
 function renderBlock(block) {
@@ -58,41 +323,80 @@ function renderBlock(block) {
   }
 
   const type = cleanText(block.type || "text").toLowerCase();
-  const text = escapeHtml(block.text || "");
+  const text = cleanText(block.text || block.content || block.line || "");
 
   if (!text && type !== "spacer") {
     return "";
   }
 
+  /*
+   * Some scene source files contain speaker/dialogue as separate fields.
+   * Preserve that cleanly when present.
+   */
+  const speakerField =
+    cleanText(block.speaker || block.character || block.name || "");
+
+  const dialogueField =
+    cleanText(block.dialogue || block.lineText || "");
+
+  if (speakerField && dialogueField && isKnownSpeaker(speakerField)) {
+    return `${renderCharacterCue(speakerField)}\n${renderDialogue(dialogueField)}`;
+  }
+
   switch (type) {
     case "heading":
-      return `<h3 class="scriptHeading">${text}</h3>`;
+      return renderHeading(text);
 
-    case "character":
-      return `<p class="character">${text}</p>`;
+    case "character": {
+      const inline = splitInlineSpeakerCue(text);
+
+      if (inline) {
+        return `${renderCharacterCue(inline.speaker)}\n${renderDialogue(inline.dialogue)}`;
+      }
+
+      if (isKnownSpeaker(text)) {
+        return renderCharacterCue(text);
+      }
+
+      return renderHeading(text);
+    }
 
     case "dialogue":
-      return `<p class="dialogue">${text}</p>`;
+      return renderPossiblyInlineSpeaker(text, renderDialogue);
 
     case "stage":
     case "direction":
-      return `<p class="stageDirection"><em>${text}</em></p>`;
+      /*
+       * Repair source files where dialogue lines were mislabeled as
+       * stage directions, e.g. "LEVI Hold on." The previous build
+       * rendered those as italic directions. This is the Scene 5 bug.
+       */
+      return renderPossiblyInlineSpeaker(text, renderStageDirection);
 
     case "lyric":
-      return `<p class="lyric">${text}</p>`;
+      return renderPossiblyInlineSpeaker(text, renderLyric);
 
     case "music":
-      return `<p class="musicCue">${text}</p>`;
+      return renderMusicCue(text);
 
     case "transition":
-      return `<p class="transition">${text}</p>`;
+      return renderMusicCue(text);
 
     case "spacer":
       return `<div class="scriptSpacer" aria-hidden="true"></div>`;
 
     case "text":
-    default:
-      return `<p>${text}</p>`;
+    default: {
+      if (isKnownSpeaker(text)) {
+        return renderCharacterCue(text);
+      }
+
+      if (isMostlyAllCaps(text) && isNonSpeakerAllCaps(text)) {
+        return renderHeading(text);
+      }
+
+      return renderPossiblyInlineSpeaker(text, renderPlain);
+    }
   }
 }
 
@@ -105,10 +409,7 @@ function renderSceneReader({
   publicationNote,
   content
 }) {
-  const displayScene =
-    sceneNumber === "FULL"
-      ? "Full Script"
-      : `Scene ${String(Number(sceneNumber))}`;
+  const displayScene = sceneDisplayNumber(sceneNumber);
 
   const safeTitle = escapeHtml(title || displayScene);
   const safeStatus = escapeHtml(status || "CURRENT");
@@ -135,8 +436,11 @@ function renderSceneReader({
       --chosen-ink: #111827;
       --chosen-muted: #566276;
       --chosen-line: rgba(13, 23, 38, 0.14);
-      --chosen-card: rgba(255, 255, 255, 0.72);
       --chosen-note: #fff2c7;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -283,6 +587,8 @@ function renderSceneReader({
     .scriptContent .dialogue {
       margin-left: 1.25rem;
       max-width: 690px;
+      color: var(--chosen-ink);
+      font-style: normal;
     }
 
     .scriptContent .stageDirection {
@@ -342,6 +648,34 @@ function renderSceneReader({
         flex-direction: column;
       }
     }
+
+    @media print {
+      .sitebar,
+      .readerActions,
+      .readerFooterNav {
+        display: none !important;
+      }
+
+      body {
+        background: white;
+      }
+
+      .readerShell {
+        max-width: none;
+        padding: 0;
+      }
+
+      .officialNotice {
+        border: 1px solid #ddd;
+        box-shadow: none;
+      }
+
+      .scriptPage {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -359,7 +693,7 @@ function renderSceneReader({
     </div>
   </header>
 
-  <main class="readerShell">
+  <main class="readerShell" id="top">
     <section class="readerHero" aria-labelledby="sceneTitle">
       <p class="readerEyebrow">${safeEyebrow}</p>
 
@@ -392,7 +726,7 @@ ${content}
 
     <nav class="readerFooterNav" aria-label="Scene reader navigation">
       <a class="btn" href="scripts.html">← Back to Scripts</a>
-      <a class="btn primary" href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">Back to top</a>
+      <a class="btn primary" href="#top">Back to top</a>
     </nav>
   </main>
 </body>
@@ -425,10 +759,8 @@ for (const fileName of sceneFiles) {
 
   const sceneNumber = normalizeSceneNumber(scene.scene);
 
-  if (!sceneNumber || sceneNumber === "FULL") {
-    fail(
-      `${path.relative(ROOT, scenePath)} has an invalid scene number: ${scene.scene}`
-    );
+  if (!sceneNumber) {
+    fail(`${path.relative(ROOT, scenePath)} has no scene number.`);
   }
 
   const manifest = scripts.find(
@@ -461,12 +793,12 @@ for (const fileName of sceneFiles) {
     );
   }
 
-  if (!manifest.readUrl) {
-    fail(`Scene ${sceneNumber} has no readUrl.`);
+  if (!manifest.readUrl || manifest.readUrl === "#") {
+    fail(`Scene ${sceneNumber} has no usable readUrl.`);
   }
 
-  if (!manifest.pdfUrl) {
-    fail(`Scene ${sceneNumber} has no pdfUrl.`);
+  if (!manifest.pdfUrl || manifest.pdfUrl === "#") {
+    fail(`Scene ${sceneNumber} has no usable pdfUrl.`);
   }
 
   const pdfPath = path.join(ROOT, manifest.pdfUrl);
