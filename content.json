@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T17:38:25.372Z",
+  "updated": "2026-09-05T19:27:53.220Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -9,33 +9,27 @@
     "help": "https://docs.google.com/forms/d/e/1FAIpQLSeiTsJrCmCAJ44woJG4mUNBHGJnb1fWSol5Xzc4Kvy-Hlha6Q/viewform?usp=header"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20260905-REH",
-    "eventKey": "CHOSEN-20260905-REH",
-    "start": "2026-09-05T14:00:00.000Z",
-    "end": "2026-09-05T18:00:00.000Z",
-    "date": "September 5, 2026",
-    "dateIso": "2026-09-05",
-    "day": "Saturday",
-    "dateLabel": "September 5, 2026",
-    "dayLabel": "Saturday",
-    "time": "10:00 AM–2:00 PM",
-    "title": "CHOSEN Rehearsal - Scene 1 staging",
+    "id": "CHOSEN-20260909-REH",
+    "eventKey": "CHOSEN-20260909-REH",
+    "start": "2026-09-09T22:30:00.000Z",
+    "end": "2026-09-10T01:30:00.000Z",
+    "date": "September 9, 2026",
+    "dateIso": "2026-09-09",
+    "day": "Wednesday",
+    "dateLabel": "September 9, 2026",
+    "dayLabel": "Wednesday",
+    "time": "6:30 PM–9:30 PM",
+    "title": "CHOSEN Rehearsal - Scenes 1 (Dance Only), 4 & 6",
     "status": "CONFIRMED",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
+    "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
     "callGroups": [
-      "Full Company",
-      "Ensemble",
-      "Dancers"
+      "Principals/Featured",
+      "Dancers",
+      "Ensemble"
     ],
     "calledPeople": [
-      {
-        "displayName": "Gelvina Maxime"
-      },
-      {
-        "displayName": "James Myers"
-      },
       {
         "displayName": "Jordyn Starks"
       },
@@ -53,60 +47,26 @@
       },
       {
         "displayName": "Caleb Davilmar"
-      },
-      {
-        "displayName": "Marcus Mainer"
-      },
-      {
-        "displayName": "Dorrien Jones"
-      },
-      {
-        "displayName": "Michael Stover"
-      },
-      {
-        "displayName": "Chris Mcanuff"
-      },
-      {
-        "displayName": "Kevin Hohn"
-      },
-      {
-        "displayName": "Etta Wright"
-      },
-      {
-        "displayName": "Sandra Johnson"
-      },
-      {
-        "displayName": "Marissa Downie"
       }
     ],
     "calledPeopleIds": [
-      "P-gelvina-maxime",
-      "P-james-myers",
       "P-jordyn-starks",
       "P-tasha-simeon",
       "P-tyfany-adaka",
       "P-jeovanie-andre",
       "P-ashley-pierre",
-      "P-caleb-davilmar",
-      "P-marcus-mainer",
-      "P-dorrien-jones",
-      "P-michael-stover",
-      "P-chris-mcanuff",
-      "P-kevin-hohn",
-      "P-etta-wright",
-      "P-sandra-johnson",
-      "P-marissa-downie"
+      "P-caleb-davilmar"
     ],
     "calledGroups": [
-      "Full Company",
-      "Ensemble",
-      "Dancers"
+      "Principals/Featured",
+      "Dancers",
+      "Ensemble"
     ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
+    "work": "Scene 1 Dance Work; The Secret; The Truth / It's Not Mine table work and scene beats.",
     "focus": "",
-    "prep": "Dance Ensemble: Bring dance shoes. *If you are not sure if you are apart of the Dance Ensemble, please confirm with Ms. Lounise immediately.*                                   Everyone: Bring a snack and drink for the 12:00–12:15 PM break.",
+    "prep": "Actors: Please have Scenes 1,4,6 available.",
     "notice": "",
     "changeType": ""
   },
@@ -115,108 +75,6 @@
     "start": "2026-09-05T04:00:00.000Z",
     "end": "2026-09-12T03:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20260905-REH",
-        "eventKey": "CHOSEN-20260905-REH",
-        "start": "2026-09-05T14:00:00.000Z",
-        "end": "2026-09-05T18:00:00.000Z",
-        "date": "September 5, 2026",
-        "dateIso": "2026-09-05",
-        "day": "Saturday",
-        "dateLabel": "September 5, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 1 staging",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
-        "callGroups": [
-          "Full Company",
-          "Ensemble",
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Etta Wright"
-          },
-          {
-            "displayName": "Sandra Johnson"
-          },
-          {
-            "displayName": "Marissa Downie"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-caleb-davilmar",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff",
-          "P-kevin-hohn",
-          "P-etta-wright",
-          "P-sandra-johnson",
-          "P-marissa-downie"
-        ],
-        "calledGroups": [
-          "Full Company",
-          "Ensemble",
-          "Dancers"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
-        "focus": "",
-        "prep": "Dance Ensemble: Bring dance shoes. *If you are not sure if you are apart of the Dance Ensemble, please confirm with Ms. Lounise immediately.*                                   Everyone: Bring a snack and drink for the 12:00–12:15 PM break.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260909-REH",
         "eventKey": "CHOSEN-20260909-REH",
@@ -344,114 +202,12 @@
         "changeType": ""
       }
     ],
-    "count": 3
+    "count": 2
   },
   "schedule": {
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20260905-REH",
-        "eventKey": "CHOSEN-20260905-REH",
-        "start": "2026-09-05T14:00:00.000Z",
-        "end": "2026-09-05T18:00:00.000Z",
-        "date": "September 5, 2026",
-        "dateIso": "2026-09-05",
-        "day": "Saturday",
-        "dateLabel": "September 5, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 1 staging",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
-        "callGroups": [
-          "Full Company",
-          "Ensemble",
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Etta Wright"
-          },
-          {
-            "displayName": "Sandra Johnson"
-          },
-          {
-            "displayName": "Marissa Downie"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-caleb-davilmar",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff",
-          "P-kevin-hohn",
-          "P-etta-wright",
-          "P-sandra-johnson",
-          "P-marissa-downie"
-        ],
-        "calledGroups": [
-          "Full Company",
-          "Ensemble",
-          "Dancers"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
-        "focus": "",
-        "prep": "Dance Ensemble: Bring dance shoes. *If you are not sure if you are apart of the Dance Ensemble, please confirm with Ms. Lounise immediately.*                                   Everyone: Bring a snack and drink for the 12:00–12:15 PM break.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260909-REH",
         "eventKey": "CHOSEN-20260909-REH",
@@ -2341,6 +2097,108 @@
     ],
     "pastRehearsals": [
       {
+        "id": "CHOSEN-20260905-REH",
+        "eventKey": "CHOSEN-20260905-REH",
+        "start": "2026-09-05T14:00:00.000Z",
+        "end": "2026-09-05T18:00:00.000Z",
+        "date": "September 5, 2026",
+        "dateIso": "2026-09-05",
+        "day": "Saturday",
+        "dateLabel": "September 5, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 1 staging",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
+        "callGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Etta Wright"
+          },
+          {
+            "displayName": "Sandra Johnson"
+          },
+          {
+            "displayName": "Marissa Downie"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-kevin-hohn",
+          "P-etta-wright",
+          "P-sandra-johnson",
+          "P-marissa-downie"
+        ],
+        "calledGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
+        "focus": "",
+        "prep": "Dance Ensemble: Bring dance shoes. *If you are not sure if you are apart of the Dance Ensemble, please confirm with Ms. Lounise immediately.*                                   Everyone: Bring a snack and drink for the 12:00–12:15 PM break.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260903-REH",
         "eventKey": "CHOSEN-20260903-REH",
         "start": "2026-09-03T22:30:00.000Z",
@@ -2560,108 +2418,6 @@
       }
     ],
     "allRehearsals": [
-      {
-        "id": "CHOSEN-20260905-REH",
-        "eventKey": "CHOSEN-20260905-REH",
-        "start": "2026-09-05T14:00:00.000Z",
-        "end": "2026-09-05T18:00:00.000Z",
-        "date": "September 5, 2026",
-        "dateIso": "2026-09-05",
-        "day": "Saturday",
-        "dateLabel": "September 5, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 1 staging",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
-        "callGroups": [
-          "Full Company",
-          "Ensemble",
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Etta Wright"
-          },
-          {
-            "displayName": "Sandra Johnson"
-          },
-          {
-            "displayName": "Marissa Downie"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-caleb-davilmar",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff",
-          "P-kevin-hohn",
-          "P-etta-wright",
-          "P-sandra-johnson",
-          "P-marissa-downie"
-        ],
-        "calledGroups": [
-          "Full Company",
-          "Ensemble",
-          "Dancers"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
-        "focus": "",
-        "prep": "Dance Ensemble: Bring dance shoes. *If you are not sure if you are apart of the Dance Ensemble, please confirm with Ms. Lounise immediately.*                                   Everyone: Bring a snack and drink for the 12:00–12:15 PM break.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260909-REH",
         "eventKey": "CHOSEN-20260909-REH",
@@ -4549,6 +4305,108 @@
         "changeType": ""
       },
       {
+        "id": "CHOSEN-20260905-REH",
+        "eventKey": "CHOSEN-20260905-REH",
+        "start": "2026-09-05T14:00:00.000Z",
+        "end": "2026-09-05T18:00:00.000Z",
+        "date": "September 5, 2026",
+        "dateIso": "2026-09-05",
+        "day": "Saturday",
+        "dateLabel": "September 5, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 1 staging",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
+        "callGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Etta Wright"
+          },
+          {
+            "displayName": "Sandra Johnson"
+          },
+          {
+            "displayName": "Marissa Downie"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-kevin-hohn",
+          "P-etta-wright",
+          "P-sandra-johnson",
+          "P-marissa-downie"
+        ],
+        "calledGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
+        "focus": "",
+        "prep": "Dance Ensemble: Bring dance shoes. *If you are not sure if you are apart of the Dance Ensemble, please confirm with Ms. Lounise immediately.*                                   Everyone: Bring a snack and drink for the 12:00–12:15 PM break.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260903-REH",
         "eventKey": "CHOSEN-20260903-REH",
         "start": "2026-09-03T22:30:00.000Z",
@@ -4781,17 +4639,17 @@
       {
         "id": "dancers",
         "name": "Dancers",
-        "count": 48
+        "count": 46
       },
       {
         "id": "ensemble",
         "name": "Ensemble",
-        "count": 26
+        "count": 24
       },
       {
         "id": "full-company",
         "name": "Full Company",
-        "count": 30
+        "count": 28
       },
       {
         "id": "principals-featured",
@@ -4799,8 +4657,8 @@
         "count": 30
       }
     ],
-    "count": 45,
-    "pastCount": 4
+    "count": 44,
+    "pastCount": 5
   },
   "scripts": {
     "items": [
@@ -5116,14 +4974,14 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-05T17:38:25.372Z",
+    "updated": "2026-09-05T19:27:53.221Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-05T17:38:25.372Z",
+    "updated": "2026-09-05T19:27:53.221Z",
     "kind": "music"
   }
 }
