@@ -6,7 +6,7 @@
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
     "appleCalendar": "https://calendar.google.com/calendar/ical/346797094726a81fdbe0c4f473f270de52aa9283f60b6e64c4971828081b00a4%40group.calendar.google.com/public/basic.ics",
     "whatsapp": "https://chat.whatsapp.com/GNAL7iuZQVFJ0iXei22wJ3",
-    "absence": "#",
-    "help": "#"
+    "absence": "https://docs.google.com/forms/d/e/1FAIpQLSfydkV5yUUG8YhAYWecuLeH-7TeJY48xZLhszhEketoanPNJg/viewform?usp=header",
+    "help": "https://docs.google.com/forms/d/e/1FAIpQLSeiTsJrCmCAJ44woJG4mUNBHGJnb1fWSol5Xzc4Kvy-Hlha6Q/viewform?usp=header"
   }
 }
