@@ -243,38 +243,45 @@ function getZonedParts(date, timeZone = TZ) {
 }
 
 function zonedTimeToUtc({ year, month, day, hour = 0, minute = 0, second = 0 }, timeZone = TZ) {
+  // Convert an America/New_York wall-clock time into the real UTC instant.
+  //
+  // Example:
+  //   Authored rehearsal time: 2026-09-05 10:00 AM in Sunrise, FL
+  //   Correct UTC instant:     2026-09-05T14:00:00.000Z
+  //
+  // Important: Google Sheets / Apps Script feeds can serialize local sheet times
+  // as if the local wall-clock value were UTC, such as "2026-09-05T10:00:00.000Z".
+  // For CHOSEN, those visible Y-M-D H:M values are the source of truth.
+  //
+  // This loop adjusts the instant until formatting that instant in New York
+  // matches the desired local wall-clock fields.
   const desiredAsUtc = Date.UTC(year, month - 1, day, hour, minute, second);
-  const guess = new Date(desiredAsUtc);
-  const rendered = getZonedParts(guess, timeZone);
+  let instant = new Date(desiredAsUtc);
 
-  if (!rendered) return new Date(Number.NaN);
+  for (let i = 0; i < 4; i += 1) {
+    const rendered = getZonedParts(instant, timeZone);
 
-  const renderedAsUtc = Date.UTC(
-    rendered.year,
-    rendered.month - 1,
-    rendered.day,
-    rendered.hour,
-    rendered.minute,
-    rendered.second
-  );
+    if (!rendered) return new Date(Number.NaN);
 
-  const offset = renderedAsUtc - desiredAsUtc;
-  const firstPass = new Date(desiredAsUtc - offset);
+    const renderedAsUtc = Date.UTC(
+      rendered.year,
+      rendered.month - 1,
+      rendered.day,
+      rendered.hour,
+      rendered.minute,
+      rendered.second
+    );
 
-  const renderedSecond = getZonedParts(firstPass, timeZone);
-  if (!renderedSecond) return firstPass;
+    const diff = renderedAsUtc - desiredAsUtc;
 
-  const renderedSecondAsUtc = Date.UTC(
-    renderedSecond.year,
-    renderedSecond.month - 1,
-    renderedSecond.day,
-    renderedSecond.hour,
-    renderedSecond.minute,
-    renderedSecond.second
-  );
+    if (diff === 0) {
+      return instant;
+    }
 
-  const secondOffset = renderedSecondAsUtc - desiredAsUtc;
-  return new Date(desiredAsUtc - secondOffset);
+    instant = new Date(instant.getTime() - diff);
+  }
+
+  return instant;
 }
 
 function parseDateValue(value, options = {}) {
@@ -355,6 +362,42 @@ function parseDateValue(value, options = {}) {
     });
   }
 
+  const date = new Date(text);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+
+function parseCanonicalDateValue(value, options = {}) {
+  const { defaultToEndOfDay = false } = options;
+
+  if (value instanceof Date) {
+    return Number.isNaN(value.getTime()) ? null : value;
+  }
+
+  if (typeof value === 'number') {
+    const date = new Date(value);
+    return Number.isNaN(date.getTime()) ? null : date;
+  }
+
+  const text = normalizeText(value);
+  if (!text) return null;
+
+  const dateOnly = text.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (dateOnly) {
+    const [, y, m, d] = dateOnly;
+    return zonedTimeToUtc({
+      year: Number(y),
+      month: Number(m),
+      day: Number(d),
+      hour: defaultToEndOfDay ? 23 : 0,
+      minute: defaultToEndOfDay ? 59 : 0,
+      second: defaultToEndOfDay ? 59 : 0,
+    });
+  }
+
+  // Canonical Hub records already store real UTC instants after source
+  // normalization. Do not treat these as spreadsheet wall-clock values again,
+  // or they will be shifted a second time.
   const date = new Date(text);
   return Number.isNaN(date.getTime()) ? null : date;
 }
@@ -762,8 +805,8 @@ function canonicalizeRehearsal(record, index = 0) {
 }
 
 function sortByStartThenTitle(a, b) {
-  const aStart = parseDateValue(a.start) || parseDateValue(a.date) || new Date(8640000000000000);
-  const bStart = parseDateValue(b.start) || parseDateValue(b.date) || new Date(8640000000000000);
+  const aStart = parseCanonicalDateValue(a.start) || parseCanonicalDateValue(a.date) || new Date(8640000000000000);
+  const bStart = parseCanonicalDateValue(b.start) || parseCanonicalDateValue(b.date) || new Date(8640000000000000);
 
   const diff = aStart.getTime() - bStart.getTime();
   if (diff !== 0) return diff;
@@ -809,13 +852,13 @@ function buildCanonicalPublishedRehearsals(sourceRecords) {
 }
 
 function isUpcoming(record) {
-  const end = parseDateValue(record.end, { defaultToEndOfDay: true });
+  const end = parseCanonicalDateValue(record.end, { defaultToEndOfDay: true });
   if (!end) return false;
   return end >= NOW;
 }
 
 function isPast(record) {
-  const end = parseDateValue(record.end, { defaultToEndOfDay: true });
+  const end = parseCanonicalDateValue(record.end, { defaultToEndOfDay: true });
   if (!end) return false;
   return end < NOW;
 }
@@ -828,7 +871,7 @@ function getThisWeekWindow(now = NOW) {
 }
 
 function isInThisWeek(record, window = getThisWeekWindow()) {
-  const start = parseDateValue(record.start) || parseDateValue(record.date);
+  const start = parseCanonicalDateValue(record.start) || parseCanonicalDateValue(record.date);
   if (!start) return false;
 
   return start >= window.start && start <= window.end;
