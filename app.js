@@ -560,10 +560,43 @@ document.addEventListener('DOMContentLoaded', async () => {
     const all = d.schedule?.rehearsals || [];
     const now = new Date();
 
-    const allGroups =
+    function groupLabel(value = '') {
+      if (typeof value === 'string') {
+        return value.trim();
+      }
+
+      if (value && typeof value === 'object') {
+        return String(
+          value.name ||
+            value.label ||
+            value.title ||
+            value.id ||
+            ''
+        ).trim();
+      }
+
+      return String(value || '').trim();
+    }
+
+    function normalizeGroupList(values) {
+      if (!Array.isArray(values)) {
+        return [];
+      }
+
+      return Array.from(
+        new Set(
+          values
+            .map(groupLabel)
+            .filter(Boolean)
+        )
+      );
+    }
+
+    const allGroups = normalizeGroupList(
       d.schedule?.availableGroups ||
-      d.schedule?.groups ||
-      [];
+        d.schedule?.groups ||
+        []
+    );
 
     const storageKey =
       'chosen2026-call-groups';
@@ -772,9 +805,18 @@ document.addEventListener('DOMContentLoaded', async () => {
       );
 
       if (Array.isArray(saved)) {
-        selected = saved.filter(
+        selected = normalizeGroupList(saved).filter(
           g => allGroups.includes(g)
         );
+
+        if (selected.length) {
+          localStorage.setItem(
+            storageKey,
+            JSON.stringify(selected)
+          );
+        } else {
+          localStorage.removeItem(storageKey);
+        }
       }
     } catch (e) {}
 
@@ -881,13 +923,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             : [];
 
         const calledGroups =
-          Array.isArray(x.calledGroups)
-            ? x.calledGroups
-                .map(v =>
-                  String(v || '').trim()
-                )
-                .filter(Boolean)
-            : [];
+          normalizeGroupList(x.calledGroups);
 
         if (
           personId &&
@@ -938,9 +974,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
 
       const legacyGroups =
-        Array.isArray(x.callGroups)
-          ? x.callGroups
-          : [];
+        normalizeGroupList(x.callGroups);
 
       if (
         legacyGroups.includes(
@@ -983,9 +1017,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
 
       const groups =
-        Array.isArray(x.callGroups)
-          ? x.callGroups
-          : [];
+        normalizeGroupList(x.callGroups);
 
       if (
         groups.includes('Full Company')
@@ -1167,7 +1199,7 @@ document.addEventListener('DOMContentLoaded', async () => {
               </div>
 
               <div class="groupTags">
-                ${(x.callGroups || [])
+                ${normalizeGroupList(x.callGroups)
                   .map(
                     g =>
                       `<span>${esc(g)}</span>`
@@ -1362,8 +1394,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         showAll.onclick = () => {
           personalView = false;
+          selected = [];
+
+          localStorage.removeItem(
+            storageKey
+          );
 
           renderPersonalControls();
+          renderFilters();
           renderSchedule();
         };
       }
