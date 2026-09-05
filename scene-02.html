@@ -15,8 +15,11 @@
       --chosen-ink: #111827;
       --chosen-muted: #566276;
       --chosen-line: rgba(13, 23, 38, 0.14);
-      --chosen-card: rgba(255, 255, 255, 0.72);
       --chosen-note: #fff2c7;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -163,6 +166,8 @@
     .scriptContent .dialogue {
       margin-left: 1.25rem;
       max-width: 690px;
+      color: var(--chosen-ink);
+      font-style: normal;
     }
 
     .scriptContent .stageDirection {
@@ -222,6 +227,34 @@
         flex-direction: column;
       }
     }
+
+    @media print {
+      .sitebar,
+      .readerActions,
+      .readerFooterNav {
+        display: none !important;
+      }
+
+      body {
+        background: white;
+      }
+
+      .readerShell {
+        max-width: none;
+        padding: 0;
+      }
+
+      .officialNotice {
+        border: 1px solid #ddd;
+        box-shadow: none;
+      }
+
+      .scriptPage {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -239,7 +272,7 @@
     </div>
   </header>
 
-  <main class="readerShell">
+  <main class="readerShell" id="top">
     <section class="readerHero" aria-labelledby="sceneTitle">
       <p class="readerEyebrow">CURRENT · COMPANY VERSION</p>
 
@@ -271,7 +304,7 @@
 <p>Approximate Running Time: 5–6 minutes</p>
 <p>Spoken Dialogue: Approximately 2–2½ minutes</p>
 <p>Song: “My Beloved” — approximately 3–3½ minutes</p>
-<p class="transition">CONTINUOUS FROM SCENE 1</p>
+<p class="musicCue">CONTINUOUS FROM SCENE 1</p>
 <p class="stageDirection"><em>Mary and Joseph slowly move toward one another. Joseph still carries the TOOL SATCHEL.</em></p>
 <p class="character">MARY</p>
 <p class="dialogue">You’re still wearing it.</p>
@@ -547,7 +580,8 @@
 <p>The song builds the future they believe they are choosing together.</p>
 <p>The lyrics should grow from what the audience has just heard rather than introducing unrelated imagery.</p>
 <h3 class="scriptHeading">LYRICAL TERRITORY TO DEVELOP</h3>
-<p>MARY and JOSEPH imagine:</p>
+<p class="character">MARY</p>
+<p class="dialogue">and JOSEPH imagine:</p>
 <p>the house;</p>
 <p>the doorway;</p>
 <p>morning light;</p>
@@ -570,7 +604,8 @@
 <p class="lyric">Whatever comes, I&#039;ll walk with you.</p>
 <p class="character">MARY</p>
 <p class="lyric">Whatever comes, I&#039;ll walk with you.</p>
-<p class="character">MARY &amp; JOSEPH</p>
+<p class="character">MARY</p>
+<p class="dialogue">&amp; JOSEPH</p>
 <p class="lyric">Whatever comes...</p>
 <p class="musicCue">[MUSICAL RESOLUTION / CONTINUATION]</p>
 <p>This phrase must be memorable enough that when it returns later, the audience immediately recognizes it.</p>
@@ -595,7 +630,7 @@
 <p class="character">MARY</p>
 <p class="dialogue">Tomorrow.</p>
 <p class="stageDirection"><em>Joseph exits.</em></p>
-<p class="transition">TRANSITION INTO SCENE 3 — THE FUTURE DISAPPEARS</p>
+<p class="musicCue">TRANSITION INTO SCENE 3 — THE FUTURE DISAPPEARS</p>
 <p class="stageDirection"><em>Mary remains alone inside the imagined future. Let her be completely happy. She may touch the unfinished table, look toward the imagined window, or simply take in the home they created.</em></p>
 <p class="character">MARY</p>
 <p class="dialogue">Eight chairs.</p>
@@ -603,17 +638,17 @@
 <p class="character">MARY</p>
 <p class="dialogue">Joseph…</p>
 <p class="stageDirection"><em>Then, on one precise cue, the future disappears. Do NOT crossfade it beautifully.</em></p>
-<p class="transition">RUPTURE</p>
+<p class="musicCue">RUPTURE</p>
 <p class="stageDirection"><em>LED atmosphere: GONE. Imagined window light: GONE. Garden/environmental texture: GONE. Nazareth ambiance: GONE. “My Beloved” harmonic warmth: GONE.</em></p>
 <p class="stageDirection"><em>Silence.</em></p>
 <p class="stageDirection"><em>Mary notices. Scene 3 must now introduce a visual and sonic language the production has never used before. Romantic subjective theatricality is over; genuine divine interruption is about to enter.</em></p>
-<p class="transition">END SCENE 2.</p>
+<p class="musicCue">END SCENE 2.</p>
       </div>
     </article>
 
     <nav class="readerFooterNav" aria-label="Scene reader navigation">
       <a class="btn" href="scripts.html">← Back to Scripts</a>
-      <a class="btn primary" href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">Back to top</a>
+      <a class="btn primary" href="#top">Back to top</a>
     </nav>
   </main>
 </body>

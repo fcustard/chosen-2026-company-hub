@@ -15,8 +15,11 @@
       --chosen-ink: #111827;
       --chosen-muted: #566276;
       --chosen-line: rgba(13, 23, 38, 0.14);
-      --chosen-card: rgba(255, 255, 255, 0.72);
       --chosen-note: #fff2c7;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -163,6 +166,8 @@
     .scriptContent .dialogue {
       margin-left: 1.25rem;
       max-width: 690px;
+      color: var(--chosen-ink);
+      font-style: normal;
     }
 
     .scriptContent .stageDirection {
@@ -222,6 +227,34 @@
         flex-direction: column;
       }
     }
+
+    @media print {
+      .sitebar,
+      .readerActions,
+      .readerFooterNav {
+        display: none !important;
+      }
+
+      body {
+        background: white;
+      }
+
+      .readerShell {
+        max-width: none;
+        padding: 0;
+      }
+
+      .officialNotice {
+        border: 1px solid #ddd;
+        box-shadow: none;
+      }
+
+      .scriptPage {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -239,7 +272,7 @@
     </div>
   </header>
 
-  <main class="readerShell">
+  <main class="readerShell" id="top">
     <section class="readerHero" aria-labelledby="sceneTitle">
       <p class="readerEyebrow">CURRENT · COMPANY VERSION</p>
 
@@ -268,13 +301,14 @@
       <div class="scriptContent">
 <h3 class="scriptHeading">CHOSEN: THE STORY BEFORE THE MANGER</h3>
 <p class="stageDirection"><em>SCENE 5 - BROTHERHOOD</em></p>
-<p class="stageDirection"><em>COMPANY VERSION</em></p>
+<p class="character">COMPANY</p>
+<p class="dialogue">VERSION</p>
 <h3 class="scriptHeading">CHOSEN: THE STORY BEFORE THE MANGER</h3>
 <h3 class="scriptHeading">SCENE 5 — BROTHERHOOD</h3>
 <p>Approximate Running Time: 4½–5 minutes
 Musical Sequence: “Brotherhood” — approximately 1½–2 minutes
 Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA</p>
-<p class="transition">TRANSITION FROM SCENE 4</p>
+<p class="musicCue">TRANSITION FROM SCENE 4</p>
 <p class="stageDirection"><em>Scene 4 ends somewhere else in Nazareth with the dangerous echo: &#039;That&#039;s what I heard.&#039;</em></p>
 <p class="stageDirection"><em>One beat.</em></p>
 <p class="stageDirection"><em>BANG!</em></p>
@@ -283,7 +317,8 @@ Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA</p>
 <p class="stageDirection"><em>A second strike.</em></p>
 <p class="stageDirection"><em>BANG-BANG!</em></p>
 <p class="stageDirection"><em>Lights cut to Joseph&#039;s work area. The tonal shift should be immediate: warmth, laughter, physical energy.</em></p>
-<p class="stageDirection"><em>JOSEPH, LEVI, MALACHI, CALEB, and EZRA are already working together. The unfinished table from Scene 2 is now unmistakably the project.</em></p>
+<p class="character">JOSEPH,</p>
+<p class="dialogue">LEVI, MALACHI, CALEB, and EZRA are already working together. The unfinished table from Scene 2 is now unmistakably the project.</p>
 <p class="stageDirection"><em>The satchel Mary made Joseph is on him. Do not feature it yet.</em></p>
 <p class="stageDirection"><em>A hand slaps a workbench.</em></p>
 <p class="stageDirection"><em>Suddenly—</em></p>
@@ -291,7 +326,8 @@ Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA</p>
 <p class="stageDirection"><em>Bright.</em></p>
 <p class="stageDirection"><em>Alive.</em></p>
 <p class="stageDirection"><em>Rhythmic.</em></p>
-<p class="stageDirection"><em>JOSEPH, LEVI, MALACHI, CALEB and EZRA are already working.</em></p>
+<p class="character">JOSEPH,</p>
+<p class="dialogue">LEVI, MALACHI, CALEB and EZRA are already working.</p>
 <p class="stageDirection"><em>They do not stand in a line.</em></p>
 <p class="stageDirection"><em>The worksite is constantly moving:</em></p>
 <p class="stageDirection"><em>wood passes from hand to hand;</em></p>
@@ -369,147 +405,144 @@ Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA</p>
 <p class="stageDirection"><em>The men laugh. Joseph resets the piece, and the music/movement picks back up.</em></p>
 <h3 class="scriptHeading">MARRIAGE BANTER</h3>
 <p class="stageDirection"><em>Levi notices Joseph working on another piece.</em></p>
-<p class="stageDirection"><em>LEVI
- Hold on.</em></p>
+<p class="character">LEVI</p>
+<p class="dialogue">Hold on.</p>
 <p class="stageDirection"><em>Whose is that?</em></p>
-<p class="stageDirection"><em>JOSEPH
- Customer&#039;s.</em></p>
-<p class="stageDirection"><em>EZRA
- No.</em></p>
-<p class="stageDirection"><em>JOSEPH
- No?</em></p>
-<p class="stageDirection"><em>EZRA
- Different wood.
- Different finish.</em></p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Customer&#039;s.</p>
+<p class="character">EZRA</p>
+<p class="dialogue">No.</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">No?</p>
+<p class="character">EZRA</p>
+<p class="dialogue">Different wood. Different finish.</p>
 <p class="stageDirection"><em>Ezra watches Joseph inspect the table.</em></p>
-<p class="stageDirection"><em>EZRA
- And you&#039;ve checked that corner four times.</em></p>
-<p class="stageDirection"><em>CALEB
- Four?</em></p>
+<p class="character">EZRA</p>
+<p class="dialogue">And you&#039;ve checked that corner four times.</p>
+<p class="character">CALEB</p>
+<p class="dialogue">Four?</p>
 <p class="stageDirection"><em>He GASPS.</em></p>
-<p class="stageDirection"><em>CALEB
- Oh, we&#039;ve lost him.</em></p>
-<p class="stageDirection"><em>JOSEPH
- I&#039;m standing right here.</em></p>
-<p class="stageDirection"><em>LEVI
- That&#039;s for Mary.</em></p>
+<p class="character">CALEB</p>
+<p class="dialogue">Oh, we&#039;ve lost him.</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">I&#039;m standing right here.</p>
+<p class="character">LEVI</p>
+<p class="dialogue">That&#039;s for Mary.</p>
 <p class="stageDirection"><em>Joseph continues working.</em></p>
-<p class="stageDirection"><em>LEVI
- Too late. They know.</em></p>
-<p class="stageDirection"><em>CALEB
- It&#039;s for the house!</em></p>
-<p class="stageDirection"><em>JOSEPH
- Caleb—</em></p>
-<p class="stageDirection"><em>CALEB
- He&#039;s building the house!</em></p>
-<p class="stageDirection"><em>LEVI
- Man hasn&#039;t even married her, and he&#039;s already building furniture.</em></p>
-<p class="stageDirection"><em>MALACHI
- At least he&#039;ll have somewhere to sleep after she gets tired of him.</em></p>
+<p class="character">LEVI</p>
+<p class="dialogue">Too late. They know.</p>
+<p class="character">CALEB</p>
+<p class="dialogue">It&#039;s for the house!</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Caleb—</p>
+<p class="character">CALEB</p>
+<p class="dialogue">He&#039;s building the house!</p>
+<p class="character">LEVI</p>
+<p class="dialogue">Man hasn&#039;t even married her, and he&#039;s already building furniture.</p>
+<p class="character">MALACHI</p>
+<p class="dialogue">At least he&#039;ll have somewhere to sleep after she gets tired of him.</p>
 <p class="stageDirection"><em>Joseph looks at Malachi.</em></p>
-<p class="stageDirection"><em>JOSEPH
- You too?</em></p>
-<p class="stageDirection"><em>MALACHI
- Wisdom comes in many forms.</em></p>
-<p class="stageDirection"><em>EZRA
- This one appears to be a table.</em></p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">You too?</p>
+<p class="character">MALACHI</p>
+<p class="dialogue">Wisdom comes in many forms.</p>
+<p class="character">EZRA</p>
+<p class="dialogue">This one appears to be a table.</p>
 <p class="stageDirection"><em>Joseph stops. Looks at Ezra.</em></p>
-<p class="stageDirection"><em>EZRA
- What?
- It&#039;s obviously a table.</em></p>
-<p class="stageDirection"><em>CALEB
- How big is this thing?</em></p>
-<p class="stageDirection"><em>JOSEPH
- Big enough.</em></p>
-<p class="stageDirection"><em>EZRA
- That is not a measurement.</em></p>
-<p class="stageDirection"><em>LEVI
- Who&#039;s sitting at it?</em></p>
-<p class="stageDirection"><em>JOSEPH
- People.</em></p>
-<p class="stageDirection"><em>CALEB
- How many people?</em></p>
-<p class="stageDirection"><em>JOSEPH
- Six.</em></p>
+<p class="character">EZRA</p>
+<p class="dialogue">What? It&#039;s obviously a table.</p>
+<p class="character">CALEB</p>
+<p class="dialogue">How big is this thing?</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Big enough.</p>
+<p class="character">EZRA</p>
+<p class="dialogue">That is not a measurement.</p>
+<p class="character">LEVI</p>
+<p class="dialogue">Who&#039;s sitting at it?</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">People.</p>
+<p class="character">CALEB</p>
+<p class="dialogue">How many people?</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Six.</p>
 <p class="stageDirection"><em>Ezra looks at the table.</em></p>
-<p class="stageDirection"><em>EZRA
- That&#039;s not a six-person table.</em></p>
-<p class="stageDirection"><em>JOSEPH
- It might be eight.</em></p>
+<p class="character">EZRA</p>
+<p class="dialogue">That&#039;s not a six-person table.</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">It might be eight.</p>
 <p class="stageDirection"><em>Beat.</em></p>
 <p class="stageDirection"><em>Caleb slowly turns toward Joseph.</em></p>
-<p class="stageDirection"><em>CALEB
- Eight?</em></p>
+<p class="character">CALEB</p>
+<p class="dialogue">Eight?</p>
 <p class="stageDirection"><em>Joseph keeps working.</em></p>
-<p class="stageDirection"><em>CALEB
- Joseph.</em></p>
-<p class="stageDirection"><em>JOSEPH
- What?</em></p>
-<p class="stageDirection"><em>CALEB
- Eight?</em></p>
-<p class="stageDirection"><em>JOSEPH
- People visit.</em></p>
-<p class="stageDirection"><em>LEVI
- Of course.</em></p>
-<p class="stageDirection"><em>EZRA
- Very small people, apparently.</em></p>
+<p class="character">CALEB</p>
+<p class="dialogue">Joseph.</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">What?</p>
+<p class="character">CALEB</p>
+<p class="dialogue">Eight?</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">People visit.</p>
+<p class="character">LEVI</p>
+<p class="dialogue">Of course.</p>
+<p class="character">EZRA</p>
+<p class="dialogue">Very small people, apparently.</p>
 <p class="stageDirection"><em>Caleb realizes.</em></p>
-<p class="stageDirection"><em>CALEB
- Children.</em></p>
-<p class="stageDirection"><em>JOSEPH
- I didn&#039;t say that.</em></p>
-<p class="stageDirection"><em>CALEB
- You built it.</em></p>
+<p class="character">CALEB</p>
+<p class="dialogue">Children.</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">I didn&#039;t say that.</p>
+<p class="character">CALEB</p>
+<p class="dialogue">You built it.</p>
 <p class="stageDirection"><em>The others laugh.</em></p>
-<p class="stageDirection"><em>CALEB
- How many?</em></p>
-<p class="stageDirection"><em>JOSEPH
- Caleb.</em></p>
-<p class="stageDirection"><em>CALEB
- You&#039;ve counted.</em></p>
-<p class="stageDirection"><em>JOSEPH
- I have not.</em></p>
-<p class="stageDirection"><em>EZRA
- He has.</em></p>
-<p class="stageDirection"><em>JOSEPH
- Ezra.</em></p>
-<p class="stageDirection"><em>EZRA
- Evidence suggests—</em></p>
-<p class="stageDirection"><em>JOSEPH
- Nobody asked for evidence.</em></p>
-<p class="stageDirection"><em>LEVI
- Eight means there&#039;s room.</em></p>
+<p class="character">CALEB</p>
+<p class="dialogue">How many?</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Caleb.</p>
+<p class="character">CALEB</p>
+<p class="dialogue">You&#039;ve counted.</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">I have not.</p>
+<p class="character">EZRA</p>
+<p class="dialogue">He has.</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Ezra.</p>
+<p class="character">EZRA</p>
+<p class="dialogue">Evidence suggests—</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Nobody asked for evidence.</p>
+<p class="character">LEVI</p>
+<p class="dialogue">Eight means there&#039;s room.</p>
 <p class="stageDirection"><em>Joseph&#039;s defensiveness softens.</em></p>
-<p class="stageDirection"><em>JOSEPH
- That&#039;s the idea.</em></p>
-<p class="stageDirection"><em>MALACHI
- Room for what?</em></p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">That&#039;s the idea.</p>
+<p class="character">MALACHI</p>
+<p class="dialogue">Room for what?</p>
 <p class="stageDirection"><em>Joseph looks at the table.</em></p>
 <p class="stageDirection"><em>This time he answers without joking.</em></p>
-<p class="stageDirection"><em>JOSEPH
- Family.
- Friends.</em></p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Family. Friends.</p>
 <p class="stageDirection"><em>Beat.</em></p>
-<p class="stageDirection"><em>JOSEPH
- Whoever needs a place.</em></p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Whoever needs a place.</p>
 <p class="stageDirection"><em>That quiets them for just a moment.</em></p>
 <p class="stageDirection"><em>Then—</em></p>
-<p class="stageDirection"><em>CALEB
- And children.</em></p>
-<p class="stageDirection"><em>JOSEPH
- Go cut something.</em></p>
-<p class="stageDirection"><em>CALEB
- Gladly.</em></p>
+<p class="character">CALEB</p>
+<p class="dialogue">And children.</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Go cut something.</p>
+<p class="character">CALEB</p>
+<p class="dialogue">Gladly.</p>
 <p class="stageDirection"><em>Caleb grabs the appropriate piece and launches back into the work.</em></p>
-<p class="stageDirection"><em>JOSEPH
- Not that one.</em></p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Not that one.</p>
 <p class="stageDirection"><em>Caleb freezes.</em></p>
-<p class="stageDirection"><em>CALEB
- I knew that.</em></p>
-<p class="stageDirection"><em>EZRA
- Evidence suggests—</em></p>
-<p class="stageDirection"><em>CALEB
- Nobody asked for evidence.</em></p>
+<p class="character">CALEB</p>
+<p class="dialogue">I knew that.</p>
+<p class="character">EZRA</p>
+<p class="dialogue">Evidence suggests—</p>
+<p class="character">CALEB</p>
+<p class="dialogue">Nobody asked for evidence.</p>
 <p class="stageDirection"><em>The men laugh.</em></p>
 <p class="stageDirection"><em>The men laugh and return to the work rhythm. Joseph tries to hide how pleased he is, which only confirms everything.</em></p>
 <h3 class="scriptHeading">SATCHEL CONTINUITY</h3>
@@ -565,7 +598,7 @@ Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA</p>
 <p class="dialogue">Again.</p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Lift.</p>
-<p class="character">ALL</p>
+<h3 class="scriptHeading">ALL</h3>
 <p class="dialogue">Set.</p>
 <p class="stageDirection"><em>BANG!</em></p>
 <p class="character">CALEB</p>
@@ -595,7 +628,7 @@ Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA</p>
 <p class="dialogue">We mend it.</p>
 <p class="character">CALEB</p>
 <p class="dialogue">If it&#039;s food—</p>
-<p class="character">ALL</p>
+<h3 class="scriptHeading">ALL</h3>
 <p class="dialogue">CALEB!</p>
 <p class="character">CALEB</p>
 <p class="dialogue">I was going to say share it.</p>
@@ -627,15 +660,15 @@ Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA</p>
 <p class="stageDirection"><em>The text can ultimately be shaped musically, but the dramatic territory is:</em></p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">You don&#039;t build alone.</p>
-<p class="character">MEN</p>
+<h3 class="scriptHeading">MEN</h3>
 <p class="dialogue">No.</p>
 <p class="character">LEVI</p>
 <p class="dialogue">You don&#039;t stand alone.</p>
-<p class="character">MEN</p>
+<h3 class="scriptHeading">MEN</h3>
 <p class="dialogue">No.</p>
 <p class="character">MALACHI</p>
 <p class="dialogue">When one man loses his footing—</p>
-<p class="character">MEN</p>
+<h3 class="scriptHeading">MEN</h3>
 <p class="dialogue">We hold him.</p>
 <p class="character">EZRA</p>
 <p class="dialogue">When one man misses the measure—</p>
@@ -647,10 +680,10 @@ Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA</p>
 <p class="dialogue">Caleb!</p>
 <p class="stageDirection"><em>Laughter inside the rhythm.</em></p>
 <p class="stageDirection"><em>Then—</em></p>
-<p class="character">ALL</p>
+<h3 class="scriptHeading">ALL</h3>
 <p class="dialogue">THE BROTHERHOOD Work together. Stand together. Build together.</p>
 <p class="stageDirection"><em>BANG!</em></p>
-<p class="character">ALL</p>
+<h3 class="scriptHeading">ALL</h3>
 <p class="dialogue">Brothers don&#039;t let brothers fall.</p>
 <p class="stageDirection"><em>The phrase should land clearly enough to return emotionally later.</em></p>
 <h3 class="scriptHeading">CHOREOGRAPHIC FEATURE</h3>
@@ -765,7 +798,8 @@ Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA</p>
 <p class="stageDirection"><em>The rhythm begins again—easy now. Familiar.</em></p>
 <p class="stageDirection"><em>Joseph has his back turned.</em></p>
 <p class="stageDirection"><em>At the edge of the space, MARY appears.</em></p>
-<p class="stageDirection"><em>SHIRA is with her.</em></p>
+<p class="character">SHIRA</p>
+<p class="dialogue">is with her.</p>
 <p class="stageDirection"><em>The audience sees them.</em></p>
 <p class="stageDirection"><em>The men do not.</em></p>
 <p class="stageDirection"><em>Mary watches Joseph laughing with his friends.</em></p>
@@ -777,82 +811,82 @@ Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA</p>
 <p class="dialogue">You want me to stay?</p>
 <p class="stageDirection"><em>Mary looks at Joseph.</em></p>
 <p class="stageDirection"><em>For a moment, she almost says yes.</em></p>
-<p class="stageDirection"><em>MARY
-   No.</em></p>
+<p class="character">MARY</p>
+<p class="dialogue">No.</p>
 <p class="stageDirection"><em>Beat.</em></p>
-<p class="stageDirection"><em>MARY
-    Thank you.</em></p>
+<p class="character">MARY</p>
+<p class="dialogue">Thank you.</p>
 <p class="stageDirection"><em>Shira offers her hand. Mary takes it briefly.</em></p>
-<p class="stageDirection"><em>SHIRA
-    Start with the truth.</em></p>
+<p class="character">SHIRA</p>
+<p class="dialogue">Start with the truth.</p>
 <p class="stageDirection"><em>Mary nods.</em></p>
 <p class="stageDirection"><em>Shira moves away but does not need to disappear immediately. Mary is now alone at the edge of Joseph&#039;s world.</em></p>
 <p class="stageDirection"><em>The men continue working.</em></p>
-<p class="stageDirection"><em>CALEB
-    I&#039;m just saying, eight chairs is a commitment.</em></p>
-<p class="stageDirection"><em>JOSEPH
-    Are you still talking?</em></p>
-<p class="stageDirection"><em>CALEB
-    I have questions.</em></p>
-<p class="stageDirection"><em>EZRA
-    No one doubts that.</em></p>
-<p class="stageDirection"><em>LEVI
-    Leave him alone.</em></p>
-<p class="stageDirection"><em>CALEB
-    I am leaving him alone.</em></p>
-<p class="stageDirection"><em>MALACHI
-    You are standing next to him.</em></p>
-<p class="stageDirection"><em>CALEB
-    Emotionally.</em></p>
+<p class="character">CALEB</p>
+<p class="dialogue">I&#039;m just saying, eight chairs is a commitment.</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Are you still talking?</p>
+<p class="character">CALEB</p>
+<p class="dialogue">I have questions.</p>
+<p class="character">EZRA</p>
+<p class="dialogue">No one doubts that.</p>
+<p class="character">LEVI</p>
+<p class="dialogue">Leave him alone.</p>
+<p class="character">CALEB</p>
+<p class="dialogue">I am leaving him alone.</p>
+<p class="character">MALACHI</p>
+<p class="dialogue">You are standing next to him.</p>
+<p class="character">CALEB</p>
+<p class="dialogue">Emotionally.</p>
 <p class="stageDirection"><em>Joseph laughs.</em></p>
 <p class="stageDirection"><em>Then he turns.</em></p>
 <p class="stageDirection"><em>He sees Mary.</em></p>
 <p class="stageDirection"><em>His face immediately lights up.</em></p>
-<p class="stageDirection"><em>JOSEPH
-    Mary!</em></p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Mary!</p>
 <p class="stageDirection"><em>That warmth should hurt.</em></p>
 <p class="stageDirection"><em>Joseph crosses toward her.</em></p>
-<p class="stageDirection"><em>JOSEPH
-    What are you doing here?</em></p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">What are you doing here?</p>
 <p class="stageDirection"><em>Then he sees her face.</em></p>
 <p class="stageDirection"><em>His smile doesn&#039;t disappear immediately.</em></p>
 <p class="stageDirection"><em>Concern replaces it.</em></p>
-<p class="stageDirection"><em>JOSEPH
-    Hey.</em></p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Hey.</p>
 <p class="stageDirection"><em>Beat.</em></p>
-<p class="stageDirection"><em>JOSEPH
-    What&#039;s wrong?</em></p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">What&#039;s wrong?</p>
 <p class="stageDirection"><em>Mary tries.</em></p>
-<p class="stageDirection"><em>MARY
-    Can we talk?</em></p>
+<p class="character">MARY</p>
+<p class="dialogue">Can we talk?</p>
 <p class="stageDirection"><em>Behind Joseph, the work begins to stop.</em></p>
 <p class="stageDirection"><em>Caleb starts toward them.</em></p>
 <p class="stageDirection"><em>Malachi catches his arm.</em></p>
-<p class="stageDirection"><em>CALEB
-    What?</em></p>
+<p class="character">CALEB</p>
+<p class="dialogue">What?</p>
 <p class="stageDirection"><em>Malachi gives him a look.</em></p>
-<p class="stageDirection"><em>CALEB
-    Right.</em></p>
+<p class="character">CALEB</p>
+<p class="dialogue">Right.</p>
 <p class="stageDirection"><em>Levi looks at Joseph.</em></p>
 <p class="stageDirection"><em>Joseph gives him the smallest nod: I&#039;ve got it.</em></p>
-<p class="stageDirection"><em>LEVI
-    We&#039;ll finish tomorrow.</em></p>
-<p class="stageDirection"><em>JOSEPH
-    All right.</em></p>
+<p class="character">LEVI</p>
+<p class="dialogue">We&#039;ll finish tomorrow.</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">All right.</p>
 <p class="stageDirection"><em>The men begin putting down and gathering their tools.</em></p>
 <p class="stageDirection"><em>Levi starts to leave, then turns back.</em></p>
-<p class="stageDirection"><em>LEVI
-   Joseph.</em></p>
+<p class="character">LEVI</p>
+<p class="dialogue">Joseph.</p>
 <p class="stageDirection"><em>Joseph looks at him.</em></p>
-<p class="stageDirection"><em>LEVI
-   Tomorrow.</em></p>
-<p class="stageDirection"><em>JOSEPH
-   Tomorrow.</em></p>
+<p class="character">LEVI</p>
+<p class="dialogue">Tomorrow.</p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Tomorrow.</p>
 <p class="stageDirection"><em>Levi exits.</em></p>
 <p class="stageDirection"><em>Ezra and Caleb follow.</em></p>
 <p class="stageDirection"><em>Malachi lingers for only a moment.</em></p>
-<p class="stageDirection"><em>MALACHI
-    We&#039;re here.</em></p>
+<p class="character">MALACHI</p>
+<p class="dialogue">We&#039;re here.</p>
 <p class="stageDirection"><em>Joseph nods.</em></p>
 <p class="stageDirection"><em>Malachi exits.</em></p>
 <p class="stageDirection"><em>The rhythm that filled the room is gone.</em></p>
@@ -860,7 +894,7 @@ Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA</p>
 <p class="stageDirection"><em>Mary gives her a small nod.</em></p>
 <p class="stageDirection"><em>I&#039;m ready.</em></p>
 <p class="stageDirection"><em>Shira exits.</em></p>
-<p class="transition">TRANSITION INTO SCENE 6</p>
+<p class="musicCue">TRANSITION INTO SCENE 6</p>
 <p class="stageDirection"><em>Mary and Joseph are alone.</em></p>
 <p class="stageDirection"><em>No blackout.</em></p>
 <p class="stageDirection"><em>No ominous music.</em></p>
@@ -870,23 +904,23 @@ Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA</p>
 <p class="stageDirection"><em>The satchel Mary made is still on Joseph.</em></p>
 <p class="stageDirection"><em>Everything Joseph believes his future will be is physically present around him.</em></p>
 <p class="stageDirection"><em>He sets down the tool in his hand.</em></p>
-<p class="stageDirection"><em>JOSEPH
-    Mary...</em></p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">Mary...</p>
 <p class="stageDirection"><em>Beat.</em></p>
-<p class="stageDirection"><em>JOSEPH
-     What happened?</em></p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">What happened?</p>
 <p class="stageDirection"><em>Mary looks at him.</em></p>
 <p class="stageDirection"><em>She remembers Shira&#039;s words.</em></p>
 <p class="stageDirection"><em>Start with the truth.</em></p>
-<p class="stageDirection"><em>MARY
-    I need to tell you something.</em></p>
+<p class="character">MARY</p>
+<p class="dialogue">I need to tell you something.</p>
 <p class="stageDirection"><em>Scene 6 begins.</em></p>
       </div>
     </article>
 
     <nav class="readerFooterNav" aria-label="Scene reader navigation">
       <a class="btn" href="scripts.html">← Back to Scripts</a>
-      <a class="btn primary" href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">Back to top</a>
+      <a class="btn primary" href="#top">Back to top</a>
     </nav>
   </main>
 </body>

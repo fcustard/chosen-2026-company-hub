@@ -15,8 +15,11 @@
       --chosen-ink: #111827;
       --chosen-muted: #566276;
       --chosen-line: rgba(13, 23, 38, 0.14);
-      --chosen-card: rgba(255, 255, 255, 0.72);
       --chosen-note: #fff2c7;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -163,6 +166,8 @@
     .scriptContent .dialogue {
       margin-left: 1.25rem;
       max-width: 690px;
+      color: var(--chosen-ink);
+      font-style: normal;
     }
 
     .scriptContent .stageDirection {
@@ -222,6 +227,34 @@
         flex-direction: column;
       }
     }
+
+    @media print {
+      .sitebar,
+      .readerActions,
+      .readerFooterNav {
+        display: none !important;
+      }
+
+      body {
+        background: white;
+      }
+
+      .readerShell {
+        max-width: none;
+        padding: 0;
+      }
+
+      .officialNotice {
+        border: 1px solid #ddd;
+        box-shadow: none;
+      }
+
+      .scriptPage {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -239,7 +272,7 @@
     </div>
   </header>
 
-  <main class="readerShell">
+  <main class="readerShell" id="top">
     <section class="readerHero" aria-labelledby="sceneTitle">
       <p class="readerEyebrow">CURRENT · COMPANY VERSION</p>
 
@@ -268,14 +301,15 @@
       <div class="scriptContent">
 <h3 class="scriptHeading">CHOSEN: THE STORY BEFORE THE MANGER</h3>
 <p class="stageDirection"><em>SCENE 6 - MARY &amp; JOSEPH / &quot;IT&#039;S NOT MINE&quot;</em></p>
-<p class="stageDirection"><em>COMPANY VERSION</em></p>
+<p class="character">COMPANY</p>
+<p class="dialogue">VERSION</p>
 <h3 class="scriptHeading">CHOSEN: THE STORY BEFORE THE MANGER</h3>
 <h3 class="scriptHeading">SCENE 6 — MARY &amp; JOSEPH / “IT’S NOT MINE”</h3>
 <p>Approximate Running Time: 7–8 minutes
 Spoken Dialogue Before Song: approximately 3 minutes
 Musical Number: “It’s Not Mine” — approximately 3–3½ minutes
 Aftermath: approximately 45–60 seconds</p>
-<p class="transition">SCENE 6 — CONTINUOUS FROM SCENE 5</p>
+<p class="musicCue">SCENE 6 — CONTINUOUS FROM SCENE 5</p>
 <p class="stageDirection"><em>No blackout.</em></p>
 <p class="stageDirection"><em>The rhythm that filled the workshop has disappeared with Joseph’s friends.</em></p>
 <p class="stageDirection"><em>The unfinished table remains. Joseph still wears the satchel Mary made for him.</em></p>
@@ -722,7 +756,7 @@ Aftermath: approximately 45–60 seconds</p>
 <p class="stageDirection"><em>Mary steadies herself.</em></p>
 <p class="stageDirection"><em>The warm workshop environment remains. Nothing outside has changed.</em></p>
 <h3 class="scriptHeading">END SCENE 6</h3>
-<p class="transition">TRANSITION INTO SCENE 7</p>
+<p class="musicCue">TRANSITION INTO SCENE 7</p>
 <p class="stageDirection"><em>The stage begins to divide without requiring a full reset: Mary’s road will lead toward Elizabeth; Joseph’s road will lead back toward the men.</em></p>
 <p class="stageDirection"><em>Two people. Two wounds. Two roads of faith. Each now needs something the other cannot give in this moment.
 _______________________________________________________________________</em></p>
@@ -731,7 +765,7 @@ _______________________________________________________________________</em></p>
 
     <nav class="readerFooterNav" aria-label="Scene reader navigation">
       <a class="btn" href="scripts.html">← Back to Scripts</a>
-      <a class="btn primary" href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">Back to top</a>
+      <a class="btn primary" href="#top">Back to top</a>
     </nav>
   </main>
 </body>

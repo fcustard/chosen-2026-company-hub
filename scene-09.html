@@ -15,8 +15,11 @@
       --chosen-ink: #111827;
       --chosen-muted: #566276;
       --chosen-line: rgba(13, 23, 38, 0.14);
-      --chosen-card: rgba(255, 255, 255, 0.72);
       --chosen-note: #fff2c7;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -163,6 +166,8 @@
     .scriptContent .dialogue {
       margin-left: 1.25rem;
       max-width: 690px;
+      color: var(--chosen-ink);
+      font-style: normal;
     }
 
     .scriptContent .stageDirection {
@@ -222,6 +227,34 @@
         flex-direction: column;
       }
     }
+
+    @media print {
+      .sitebar,
+      .readerActions,
+      .readerFooterNav {
+        display: none !important;
+      }
+
+      body {
+        background: white;
+      }
+
+      .readerShell {
+        max-width: none;
+        padding: 0;
+      }
+
+      .officialNotice {
+        border: 1px solid #ddd;
+        box-shadow: none;
+      }
+
+      .scriptPage {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -239,7 +272,7 @@
     </div>
   </header>
 
-  <main class="readerShell">
+  <main class="readerShell" id="top">
     <section class="readerHero" aria-labelledby="sceneTitle">
       <p class="readerEyebrow">CURRENT · COMPANY VERSION</p>
 
@@ -268,7 +301,8 @@
       <div class="scriptContent">
 <h3 class="scriptHeading">CHOSEN: THE STORY BEFORE THE MANGER</h3>
 <p class="stageDirection"><em>SCENE 9 - &quot;WHAT WILL HE BE?&quot; / THE TOWN TURNS</em></p>
-<p class="stageDirection"><em>COMPANY VERSION</em></p>
+<p class="character">COMPANY</p>
+<p class="dialogue">VERSION</p>
 <h3 class="scriptHeading">CHOSEN: THE STORY BEFORE THE MANGER</h3>
 <h3 class="scriptHeading">SCENE 9 — “WHAT WILL HE BE?” / THE TOWN TURNS</h3>
 <p>Approximate Running Time: 6 minutes
@@ -290,7 +324,7 @@ Simon
 Children
 Villagers
 Roman Announcer</p>
-<p class="transition">CONTINUOUS FROM SCENE 8</p>
+<p class="musicCue">CONTINUOUS FROM SCENE 8</p>
 <p class="stageDirection"><em>No traditional blackout.</em></p>
 <p class="stageDirection"><em>Mary and Joseph are walking home together.</em></p>
 <p class="stageDirection"><em>The familiar sound of Nazareth begins before the marketplace is fully visible.</em></p>
@@ -314,7 +348,8 @@ Roman Announcer</p>
 <p class="dialogue">Mary!</p>
 <p class="stageDirection"><em>Nia runs toward her before an adult can stop her.</em></p>
 <p class="stageDirection"><em>Simon follows, more cautiously. Several children trail behind.</em></p>
-<p class="character">VILLAGER WOMAN 1</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 1</p>
 <p class="dialogue">Nia—</p>
 <p class="stageDirection"><em>Too late.</em></p>
 <p class="character">NIA</p>
@@ -324,7 +359,8 @@ Roman Announcer</p>
 <p class="stageDirection"><em>Simon looks at Mary. Then Joseph. Then Mary again.</em></p>
 <p class="character">SIMON</p>
 <p class="dialogue">Is it true?</p>
-<p class="character">VILLAGER WOMAN 2</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 2</p>
 <p class="dialogue">Simon!</p>
 <p class="character">SIMON</p>
 <p class="dialogue">What?</p>
@@ -344,11 +380,13 @@ Roman Announcer</p>
 <p class="dialogue">Yes.</p>
 <p class="stageDirection"><em>The children light up immediately.</em></p>
 <p class="stageDirection"><em>No scandal. No hesitation. Just a baby.</em></p>
-<p class="character">CHILD 1</p>
+<p class="character">CHILD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">A boy or a girl?</p>
 <p class="character">MARY</p>
 <p class="dialogue">A boy.</p>
-<p class="character">CHILD 2</p>
+<p class="character">CHILD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">When is he coming?</p>
 <p class="character">SIMON</p>
 <p class="dialogue">Babies do not tell you that.</p>
@@ -361,12 +399,14 @@ Roman Announcer</p>
 <p class="character">SIMON</p>
 <p class="dialogue">Nia!</p>
 <p class="stageDirection"><em>A few adults react. Mary covers another laugh. Joseph does too.</em></p>
-<p class="character">CHILD 3</p>
+<p class="character">CHILD</p>
+<p class="dialogue">3</p>
 <p class="dialogue">What will he be like?</p>
 <p class="stageDirection"><em>Mary pauses.</em></p>
 <p class="character">MARY</p>
 <p class="dialogue">I don’t know.</p>
-<p class="character">CHILD 3</p>
+<p class="character">CHILD</p>
+<p class="dialogue">3</p>
 <p class="dialogue">You don’t?</p>
 <p class="character">MARY</p>
 <p class="dialogue">Not yet.</p>
@@ -374,17 +414,21 @@ Roman Announcer</p>
 <p class="dialogue">Will he be loud?</p>
 <p class="character">NIA</p>
 <p class="dialogue">All babies are loud.</p>
-<p class="character">CHILD 1</p>
+<p class="character">CHILD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Maybe he’ll like stories.</p>
-<p class="character">CHILD 2</p>
+<p class="character">CHILD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">Maybe he’ll build things.</p>
 <p class="stageDirection"><em>The child looks toward Joseph.</em></p>
-<p class="character">CHILD 2</p>
+<p class="character">CHILD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">Like you.</p>
 <p class="stageDirection"><em>Joseph is caught off guard—not by the question, but by the future inside it.</em></p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Maybe.</p>
-<p class="character">CHILD 3</p>
+<p class="character">CHILD</p>
+<p class="dialogue">3</p>
 <p class="dialogue">Will you teach him?</p>
 <p class="stageDirection"><em>Joseph looks at Mary.</em></p>
 <p class="stageDirection"><em>This time he does not avoid the answer.</em></p>
@@ -412,11 +456,13 @@ Roman Announcer</p>
 <p class="dialogue">You ask more than that.</p>
 <p class="stageDirection"><em>The music continues.</em></p>
 <p class="stageDirection"><em>The children imagine ordinary futures: animals, stories, running, helping, learning, teaching, courage, kindness.</em></p>
-<p class="character">CHILD 2</p>
+<p class="character">CHILD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">Will he build things out of wood?</p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Maybe.</p>
-<p class="character">CHILD 3</p>
+<p class="character">CHILD</p>
+<p class="dialogue">3</p>
 <p class="dialogue">Will you teach him everything?</p>
 <p class="stageDirection"><em>Joseph looks at the child, then at Mary.</em></p>
 <p class="character">JOSEPH</p>
@@ -425,55 +471,70 @@ Roman Announcer</p>
 <p class="stageDirection"><em>The song grows more thoughtful without becoming prophetic.</em></p>
 <p class="stageDirection"><em>Possible territory: Will he make somebody smile / when they’ve forgotten how? / Will he stand beside a friend / when everybody else walks out?</em></p>
 <p class="stageDirection"><em>Will he be gentle? / Will he be brave? / Will he make a difference / in somebody’s day?</em></p>
-<p class="character">NIA / CHILDREN</p>
+<p class="character">NIA</p>
+<p class="dialogue">/ CHILDREN</p>
 <p class="dialogue">What will he be?</p>
 <p class="stageDirection"><em>The audience knows more than the children do. That is where the emotion comes from.</em></p>
 <h3 class="scriptHeading">THE SECOND QUESTION</h3>
 <p class="stageDirection"><em>As the children repeat the bright question, a second question begins underneath them.</em></p>
-<p class="character">CHILDREN</p>
+<h3 class="scriptHeading">CHILDREN</h3>
 <p class="dialogue">What will he be?</p>
-<p class="character">GOSSIPER 1</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Whose child is it?</p>
-<p class="character">VILLAGER WOMAN 1</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 1</p>
 <p class="dialogue">Before the wedding.</p>
-<p class="character">GOSSIPER 2</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">2</p>
 <p class="dialogue">Joseph knows?</p>
-<p class="character">GOSSIPER 4</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">4</p>
 <p class="dialogue">Claro que sabe. Of course, he knows.</p>
-<p class="character">CHILDREN</p>
+<h3 class="scriptHeading">CHILDREN</h3>
 <p class="dialogue">What will he be?</p>
-<p class="character">GOSSIPER 3</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">3</p>
 <p class="dialogue">Then why is he still with her?</p>
-<p class="character">VILLAGER WOMAN 2</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 2</p>
 <p class="dialogue">She says there was an angel.</p>
-<p class="character">GOSSIPER 4</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">4</p>
 <p class="dialogue">¿Un ángel?</p>
-<p class="character">GOSSIPER 3</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">3</p>
 <p class="dialogue">That’s what I heard.</p>
 <p class="stageDirection"><em>Villager 3 looks toward Mary.</em></p>
-<p class="character">GOSSIPER 4</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">4</p>
 <p class="dialogue">Eso es lo que escuchaste.</p>
 <p class="stageDirection"><em>Beat.</em></p>
-<p class="character">GOSSIPER 3</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">3</p>
 <p class="dialogue">That’s what you heard.</p>
 <p class="stageDirection"><em>The children remain musically innocent.</em></p>
 <p class="stageDirection"><em>Underneath them, the adults begin finding the old Scene 1 gossip rhythm.</em></p>
 <p class="stageDirection"><em>Same machinery. Different consequence.</em></p>
 <h3 class="scriptHeading">SONG ENDS</h3>
 <p class="stageDirection"><em>The children finish joyfully.</em></p>
-<p class="character">CHILDREN</p>
+<h3 class="scriptHeading">CHILDREN</h3>
 <p class="dialogue">What will he be?</p>
 <p class="stageDirection"><em>A brief release—then an adult voice.</em></p>
-<p class="character">VILLAGER WOMAN 1</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 1</p>
 <p class="dialogue">Nia. Come here.</p>
 <p class="character">NIA</p>
 <p class="dialogue">But—</p>
-<p class="character">VILLAGER WOMAN 1</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 1</p>
 <p class="dialogue">Now.</p>
 <p class="stageDirection"><em>Another adult calls a child away.</em></p>
-<p class="character">CHILD 2</p>
+<p class="character">CHILD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">Why?</p>
-<p class="character">VILLAGER WOMAN 2</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 2</p>
 <p class="dialogue">Come along.</p>
 <p class="stageDirection"><em>One by one, the children are removed from Mary’s orbit.</em></p>
 <p class="stageDirection"><em>Mary watches a child who was laughing beside her moments ago get pulled away.</em></p>
@@ -483,28 +544,39 @@ Roman Announcer</p>
 <p class="stageDirection"><em>No adult answers him.</em></p>
 <h3 class="scriptHeading">THE GOSSIP RHYTHM RETURNS</h3>
 <p class="stageDirection"><em>A restrained fragment of “Welcome to Nazareth” lives underneath the dialogue, not celebratory now, but tight and repetitive.</em></p>
-<p class="character">GOSSIPER 1</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Before the wedding—</p>
-<p class="character">GOSSIPER 2</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">2</p>
 <p class="dialogue">That’s what I heard.</p>
-<p class="character">GOSSIPER 3</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">3</p>
 <p class="dialogue">Joseph knows.</p>
-<p class="character">GOSSIPER 4</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">4</p>
 <p class="dialogue">Ay, everybody knows Joseph knows.</p>
-<p class="character">GOSSIPER 1</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Then why—</p>
-<p class="character">GOSSIPER 2</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">2</p>
 <p class="dialogue">Don’t ask me.</p>
-<p class="character">GOSSIPER 4</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">4</p>
 <p class="dialogue">They say she claims—</p>
-<p class="character">GOSSIPER 3</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">3</p>
 <p class="dialogue">God.</p>
 <p class="stageDirection"><em>A few villagers react.</em></p>
-<p class="character">GOSSIPER 2</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">2</p>
 <p class="dialogue">God?</p>
-<p class="character">GOSSIPER 1</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">1</p>
 <p class="dialogue">That’s what she said.</p>
-<p class="character">GOSSIPER 4</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">4</p>
 <p class="dialogue">Convenient.</p>
 <p class="stageDirection"><em>In Scene 1, everybody knowing everybody was comedy.</em></p>
 <p class="stageDirection"><em>Now everybody thinks they know enough.</em></p>
@@ -538,26 +610,31 @@ Roman Announcer</p>
 <p class="character">DAFNA</p>
 <p class="dialogue">Nobody here understands comfort.</p>
 <p class="stageDirection"><em>A small breath of humor. Then—</em></p>
-<p class="character">VILLAGER WOMAN 3</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 3</p>
 <p class="dialogue">You believe her?</p>
 <p class="stageDirection"><em>The question is aimed at Talia.</em></p>
 <p class="stageDirection"><em>Talia does not pretend certainty she does not have.</em></p>
 <p class="character">TALIA</p>
 <p class="dialogue">I believe Mary told us what happened to her.</p>
-<p class="character">VILLAGER WOMAN 3</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 3</p>
 <p class="dialogue">That is not what I asked.</p>
 <p class="character">TALIA</p>
 <p class="dialogue">I know.</p>
-<p class="character">VILLAGER WOMAN 3</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 3</p>
 <p class="dialogue">So you don’t believe it either.</p>
 <p class="character">TALIA</p>
 <p class="dialogue">I didn’t say that.</p>
-<p class="character">VILLAGER WOMAN 3</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 3</p>
 <p class="dialogue">Then what are you saying?</p>
 <p class="stageDirection"><em>Talia steps slightly closer to Mary.</em></p>
 <p class="character">TALIA</p>
 <p class="dialogue">I’m saying you weren’t there.</p>
-<p class="character">VILLAGER WOMAN 3</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 3</p>
 <p class="dialogue">Neither were you.</p>
 <p class="stageDirection"><em>Talia takes the point.</em></p>
 <p class="character">TALIA</p>
@@ -633,18 +710,21 @@ Roman Announcer</p>
 <p class="stageDirection"><em>Levi remains slightly apart.</em></p>
 <h3 class="scriptHeading">THE PUBLIC TEST</h3>
 <p class="stageDirection"><em>A Villager Man steps forward. Not a villain. A neighbor who believes he is saying the obvious thing.</em></p>
-<p class="character">VILLAGER MAN</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">MAN</p>
 <p class="dialogue">Joseph. You don’t have to do this.</p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Do what?</p>
-<p class="character">VILLAGER MAN</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">MAN</p>
 <p class="dialogue">Carry another man’s shame.</p>
 <p class="stageDirection"><em>The marketplace quiets.</em></p>
 <p class="stageDirection"><em>Mary stiffens.</em></p>
 <p class="stageDirection"><em>Joseph remains controlled.</em></p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">You don’t know what you’re talking about.</p>
-<p class="character">VILLAGER MAN</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">MAN</p>
 <p class="dialogue">Everybody knows what happened.</p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">No.</p>
@@ -652,7 +732,8 @@ Roman Announcer</p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Everybody knows what they heard.</p>
 <p class="stageDirection"><em>The Villager Man looks at him.</em></p>
-<p class="character">VILLAGER MAN</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">MAN</p>
 <p class="dialogue">And you’re willing to throw away your name for this?</p>
 <p class="stageDirection"><em>Levi reacts to the language.</em></p>
 <p class="stageDirection"><em>Joseph sees it.</em></p>
@@ -660,18 +741,21 @@ Roman Announcer</p>
 <p class="dialogue">My name isn’t worth much if I have to destroy hers to protect it.</p>
 <p class="stageDirection"><em>Silence.</em></p>
 <p class="stageDirection"><em>The Villager Man turns toward Mary.</em></p>
-<p class="character">VILLAGER MAN</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">MAN</p>
 <p class="dialogue">Is what they’re saying true?</p>
 <p class="stageDirection"><em>Joseph does not step in front of Mary.</em></p>
 <p class="stageDirection"><em>Mary steps forward herself.</em></p>
 <p class="character">MARY</p>
 <p class="dialogue">I told the truth.</p>
-<p class="character">VILLAGER MAN</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">MAN</p>
 <p class="dialogue">About an angel?</p>
 <p class="character">MARY</p>
 <p class="dialogue">Yes.</p>
 <p class="stageDirection"><em>Some villagers stare. A few whisper. One or two may laugh under their breath.</em></p>
-<p class="character">VILLAGER WOMAN 2</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 2</p>
 <p class="dialogue">And you expect all of us to believe that?</p>
 <p class="stageDirection"><em>Mary looks around at people she has known all her life.</em></p>
 <p class="character">MARY</p>
@@ -686,11 +770,14 @@ Roman Announcer</p>
 <p class="stageDirection"><em>This is Mary’s public choice.</em></p>
 <h3 class="scriptHeading">JOSEPH TRIES TO FIX IT</h3>
 <p class="stageDirection"><em>The whispers restart.</em></p>
-<p class="character">GOSSIPER 2</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">2</p>
 <p class="dialogue">Did you hear—</p>
-<p class="stageDirection"><em>GOSSIPER  3</em></p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">3</p>
 <p class="stageDirection"><em>She admitted—</em></p>
-<p class="character">GOSSIPER 4</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">4</p>
 <p class="dialogue">Joseph actually—</p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Enough!</p>
@@ -730,10 +817,12 @@ Roman Announcer</p>
 <p class="character">NIA</p>
 <p class="dialogue">We were just singing.</p>
 <p class="stageDirection"><em>An adult calls.</em></p>
-<p class="character">VILLAGER WOMAN 1</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 1</p>
 <p class="dialogue">Nia.</p>
 <p class="stageDirection"><em>Nia does not move immediately.</em></p>
-<p class="character">VILLAGER WOMAN 1</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">WOMAN 1</p>
 <p class="dialogue">Come.</p>
 <p class="stageDirection"><em>Nia looks at Mary.</em></p>
 <p class="stageDirection"><em>Mary gives her a small reassuring smile.</em></p>
@@ -747,19 +836,26 @@ Roman Announcer</p>
 <p class="stageDirection"><em>Nobody wins the argument.</em></p>
 <p class="stageDirection"><em>Nazareth does not apologize.</em></p>
 <p class="stageDirection"><em>The gossip rhythm begins to peak.</em></p>
-<p class="character">VILLAGER 1</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Joseph knows—</p>
-<p class="character">VILLAGER 2</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">2</p>
 <p class="dialogue">Before the wedding—</p>
-<p class="character">VILLAGER 3</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">3</p>
 <p class="dialogue">An angel—</p>
-<p class="character">VILLAGER 1</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">1</p>
 <p class="dialogue">A child—</p>
-<p class="character">VILLAGER 2</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">2</p>
 <p class="dialogue">God—</p>
-<p class="character">VILLAGER 3</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">3</p>
 <p class="dialogue">Can you believe—</p>
-<p class="character">VILLAGER 2</p>
+<p class="character">VILLAGER</p>
+<p class="dialogue">2</p>
 <p class="dialogue">Everybody knows—</p>
 <p class="stageDirection"><em>BOOM.</em></p>
 <p class="stageDirection"><em>A Roman drum cuts through the marketplace.</em></p>
@@ -769,63 +865,81 @@ Roman Announcer</p>
 <p class="stageDirection"><em>Rome does not care about Nazareth’s scandal.</em></p>
 <h3 class="scriptHeading">ROME ENTERS</h3>
 <p class="stageDirection"><em>The Roman Announcer enters as though his arrival is unquestionably the most important event of the day.</em></p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">People of Nazareth!</p>
 <p class="stageDirection"><em>A few villagers are still murmuring.</em></p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">People.</p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">Of.</p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">Nazareth.</p>
 <p class="stageDirection"><em>The village quiets.</em></p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">Thank you.</p>
 <p class="stageDirection"><em>He unrolls the decree.</em></p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">By decree of Caesar Augustus—</p>
 <p class="stageDirection"><em>A villager groans.</em></p>
 <p class="stageDirection"><em>The Announcer stops and looks directly at them.</em></p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">Your enthusiasm is noted.</p>
 <p class="character">CALEB</p>
 <p class="dialogue">We haven’t even heard it yet.</p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">And still you’ve disappointed Rome.</p>
 <p class="stageDirection"><em>A few villagers react.</em></p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">A census shall be taken. Every household is to be registered according to family line and ancestral city.</p>
 <p class="stageDirection"><em>Immediate murmuring.</em></p>
 <p class="character">TALIA</p>
 <p class="dialogue">We have to travel?</p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">If your ancestral city is elsewhere, yes.</p>
 <p class="character">LEVI</p>
 <p class="dialogue">Who pays for the journey?</p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">Excellent question.</p>
 <p class="stageDirection"><em>Beat.</em></p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">You do.</p>
 <p class="stageDirection"><em>The village groans.</em></p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">You will present yourself, your household, and the required family information in the appropriate city.</p>
 <p class="character">VILLAGER</p>
 <p class="dialogue">When?</p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">Immediately.</p>
 <p class="character">CALEB</p>
 <p class="dialogue">Immediately?</p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">It is a wonderful word.</p>
 <p class="stageDirection"><em>Beat.</em></p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">It means now.</p>
 <p class="stageDirection"><em>The marketplace explodes into practical anxiety: counting, packing, questions, arguments.</em></p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">Govern yourselves accordingly.</p>
 <p class="stageDirection"><em>He begins to roll the decree.</em></p>
-<p class="character">ROMAN ANNOUNCER</p>
+<p class="character">ROMAN</p>
+<p class="dialogue">ANNOUNCER</p>
 <p class="dialogue">Thank yooou.</p>
 <p class="stageDirection"><em>He exits as the Roman drum resumes.</em></p>
 <h3 class="scriptHeading">BETHLEHEM</h3>
@@ -860,7 +974,7 @@ Roman Announcer</p>
 
     <nav class="readerFooterNav" aria-label="Scene reader navigation">
       <a class="btn" href="scripts.html">← Back to Scripts</a>
-      <a class="btn primary" href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">Back to top</a>
+      <a class="btn primary" href="#top">Back to top</a>
     </nav>
   </main>
 </body>

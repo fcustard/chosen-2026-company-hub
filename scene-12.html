@@ -15,8 +15,11 @@
       --chosen-ink: #111827;
       --chosen-muted: #566276;
       --chosen-line: rgba(13, 23, 38, 0.14);
-      --chosen-card: rgba(255, 255, 255, 0.72);
       --chosen-note: #fff2c7;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -163,6 +166,8 @@
     .scriptContent .dialogue {
       margin-left: 1.25rem;
       max-width: 690px;
+      color: var(--chosen-ink);
+      font-style: normal;
     }
 
     .scriptContent .stageDirection {
@@ -222,6 +227,34 @@
         flex-direction: column;
       }
     }
+
+    @media print {
+      .sitebar,
+      .readerActions,
+      .readerFooterNav {
+        display: none !important;
+      }
+
+      body {
+        background: white;
+      }
+
+      .readerShell {
+        max-width: none;
+        padding: 0;
+      }
+
+      .officialNotice {
+        border: 1px solid #ddd;
+        box-shadow: none;
+      }
+
+      .scriptPage {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -239,7 +272,7 @@
     </div>
   </header>
 
-  <main class="readerShell">
+  <main class="readerShell" id="top">
     <section class="readerHero" aria-labelledby="sceneTitle">
       <p class="readerEyebrow">CURRENT · COMPANY VERSION</p>
 
@@ -266,7 +299,7 @@
 
     <article id="script" class="scriptPage">
       <div class="scriptContent">
-<p class="transition">CONTINUOUS FROM SCENE 11</p>
+<p class="musicCue">CONTINUOUS FROM SCENE 11</p>
 <p class="stageDirection"><em>No blackout. The baby has cried. Mary has invited Joseph closer and placed the child into his arms. We begin inside the silence Scene 11 created.</em></p>
 <p class="stageDirection"><em>Joseph looks down at the child. Mary watches him. Another small sound from the baby.</em></p>
 <p class="character">MARY</p>
@@ -288,93 +321,119 @@
 <p class="character">YOUNG SHEPHERD</p>
 <p class="dialogue">Come on.</p>
 <p class="stageDirection"><em>Nothing.</em></p>
-<p class="character">SHEPHERD 2</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">Having trouble?</p>
 <p class="character">YOUNG SHEPHERD</p>
 <p class="dialogue">A little.</p>
-<p class="character">SHEPHERD 2</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">It’s a sheep.</p>
 <p class="character">YOUNG SHEPHERD</p>
 <p class="dialogue">I know.</p>
 <p class="stageDirection"><em>Shepherd 1 redirects the animal.</em></p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Don’t argue with sheep.</p>
-<p class="character">SHEPHERD 2</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">You won’t win.</p>
 <p class="character">YOUNG SHEPHERD</p>
 <p class="dialogue">I’m cold.</p>
-<p class="character">SHEPHERD 2</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">We’re all cold.</p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Morning will come.</p>
 <p class="character">YOUNG SHEPHERD</p>
 <p class="dialogue">Good.</p>
 <p class="stageDirection"><em>A tiny laugh. Then the animals become still. Shepherd 1 notices first.</em></p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Wait.</p>
-<p class="character">SHEPHERD 2</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">What?</p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Listen.</p>
 <p class="stageDirection"><em>SILENCE.</em></p>
-<p class="character">SHEPHERD 2</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">I don’t hear anything.</p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Exactly.</p>
 <p class="stageDirection"><em>A low atmospheric sound begins. The Young Shepherd looks into the changing darkness.</em></p>
 <p class="character">YOUNG SHEPHERD</p>
 <p class="dialogue">What’s that?</p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Stay close.</p>
 <h3 class="scriptHeading">HEAVEN INTERRUPTS</h3>
 <p class="stageDirection"><em>The night transforms. The shepherds are surrounded by something impossible.</em></p>
-<p class="character">ANGEL VOICE</p>
+<p class="character">ANGEL</p>
+<p class="dialogue">VOICE</p>
 <p class="dialogue">Do not be afraid.</p>
 <p class="stageDirection"><em>The shepherds freeze.</em></p>
-<p class="character">SHEPHERD 2</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">I’m trying.</p>
 <p class="stageDirection"><em>A nervous breath of laughter may release, then disappears.</em></p>
-<p class="character">ANGEL VOICE</p>
+<p class="character">ANGEL</p>
+<p class="dialogue">VOICE</p>
 <p class="dialogue">I bring you good news of great joy for all people.</p>
-<p class="character">ANGEL VOICE</p>
+<p class="character">ANGEL</p>
+<p class="dialogue">VOICE</p>
 <p class="dialogue">Tonight, in the city of David, a Savior has been born.</p>
-<p class="character">ANGEL VOICE</p>
+<p class="character">ANGEL</p>
+<p class="dialogue">VOICE</p>
 <p class="dialogue">You will know Him by this sign: you will find a baby wrapped in cloth, lying in a manger.</p>
 <p class="character">YOUNG SHEPHERD</p>
 <p class="dialogue">A manger?</p>
-<p class="character">HEAVENLY VOICES</p>
+<h3 class="scriptHeading">HEAVENLY VOICES</h3>
 <p class="dialogue">GLORY TO GOD IN THE HIGHEST!</p>
 <p class="stageDirection"><em>Powerful. Brief. EVERYTHING STOPS. Night returns. SILENCE.</em></p>
-<p class="character">SHEPHERD 2</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">Did that really happen?</p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Yes.</p>
 <p class="character">YOUNG SHEPHERD</p>
 <p class="dialogue">Let’s go.</p>
-<p class="character">SHEPHERD 2</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">Right now?</p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Right now.</p>
 <p class="stageDirection"><em>They move.</em></p>
 <h3 class="scriptHeading">THE SEARCH</h3>
-<p class="stageDirection"><em>SHEPHERD UNDERSCORE. Bethlehem reappears around them: narrow passages, sleeping households, travelers and closed doors.</em></p>
-<p class="character">SHEPHERD 2</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">UNDERSCORE. Bethlehem reappears around them: narrow passages, sleeping households, travelers and closed doors.</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">How do we find one baby in Bethlehem?</p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Remember the sign.</p>
 <p class="character">YOUNG SHEPHERD</p>
 <p class="dialogue">A manger.</p>
-<p class="character">SHEPHERD 2</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">So we’re looking for a baby where babies usually aren’t.</p>
 <p class="stageDirection"><em>The Young Shepherd notices Eli and Anna’s lodging property.</em></p>
 <p class="character">YOUNG SHEPHERD</p>
 <p class="dialogue">There.</p>
 <p class="stageDirection"><em>KNOCK. KNOCK. Eli opens the door, exhausted. Anna appears behind him.</em></p>
-<p class="character">ELI</p>
+<h3 class="scriptHeading">ELI</h3>
 <p class="dialogue">Yes?</p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">Forgive us. We’re looking for a baby.</p>
-<p class="character">ELI</p>
+<h3 class="scriptHeading">ELI</h3>
 <p class="dialogue">A baby?</p>
 <p class="character">YOUNG SHEPHERD</p>
 <p class="dialogue">In a manger.</p>
@@ -382,7 +441,7 @@
 <p class="character">ANNA</p>
 <p class="dialogue">Eli.</p>
 <p class="stageDirection"><em>Eli looks toward the rear of the property.</em></p>
-<p class="character">ELI</p>
+<h3 class="scriptHeading">ELI</h3>
 <p class="dialogue">Come with me.</p>
 <p class="character">ANNA</p>
 <p class="dialogue">Quietly.</p>
@@ -391,7 +450,7 @@
 <p class="stageDirection"><em>Eli and Anna lead the shepherds toward the animal shelter. Their excitement becomes uncertainty as they realize they are approaching a sleeping family, not a palace. Joseph hears footsteps and rises.</em></p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Eli?</p>
-<p class="character">ELI</p>
+<h3 class="scriptHeading">ELI</h3>
 <p class="dialogue">It’s all right.</p>
 <p class="stageDirection"><em>Anna gestures gently toward the shepherds.</em></p>
 <p class="character">ANNA</p>
@@ -399,7 +458,8 @@
 <p class="stageDirection"><em>Joseph looks at Mary. Then at the strangers.</em></p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Why?</p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">We were told we’d find Him here.</p>
 <p class="stageDirection"><em>The Young Shepherd sees the feeding trough. Stops.</em></p>
 <p class="character">YOUNG SHEPHERD</p>
@@ -409,18 +469,22 @@
 <p class="stageDirection"><em>Mary watches these strangers carefully.</em></p>
 <p class="character">MARY</p>
 <p class="dialogue">How did you know?</p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">An angel came to us.</p>
 <p class="stageDirection"><em>Mary and Joseph exchange a look.</em></p>
-<p class="character">SHEPHERD 2</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">2</p>
 <p class="dialogue">He said a Savior had been born tonight.</p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">And that we’d find Him here.</p>
 <p class="stageDirection"><em>The Young Shepherd looks at the manger.</em></p>
 <p class="character">YOUNG SHEPHERD</p>
 <p class="dialogue">We found Him.</p>
 <p class="stageDirection"><em>SILENCE. Mary looks at the child.</em></p>
-<p class="character">SHEPHERD 1</p>
+<p class="character">SHEPHERD</p>
+<p class="dialogue">1</p>
 <p class="dialogue">I’m glad we came.</p>
 <p class="character">MARY</p>
 <p class="dialogue">So am I.</p>
@@ -458,7 +522,8 @@
 <p class="character">NIA</p>
 <p class="dialogue">And more people were already on the road.</p>
 <p class="stageDirection"><em>Nia and Simon look outward. A familiar musical sound begins almost beneath perception.</em></p>
-<p class="character">COMPANY / ORCHESTRA</p>
+<p class="character">COMPANY</p>
+<p class="dialogue">/ ORCHESTRA</p>
 <p class="dialogue">OHHH-OH... OOOH-OOH-OOH...</p>
 <p class="stageDirection"><em>The musical DNA of Scene 1. MUSIC SWELLS.</em></p>
 <p class="musicCue">FINAL MUSICAL NUMBER - &quot;WELCOME TO NAZARETH&quot; TRANSFORMED</p>
@@ -485,7 +550,7 @@
 
     <nav class="readerFooterNav" aria-label="Scene reader navigation">
       <a class="btn" href="scripts.html">← Back to Scripts</a>
-      <a class="btn primary" href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">Back to top</a>
+      <a class="btn primary" href="#top">Back to top</a>
     </nav>
   </main>
 </body>

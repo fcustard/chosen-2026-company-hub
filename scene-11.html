@@ -15,8 +15,11 @@
       --chosen-ink: #111827;
       --chosen-muted: #566276;
       --chosen-line: rgba(13, 23, 38, 0.14);
-      --chosen-card: rgba(255, 255, 255, 0.72);
       --chosen-note: #fff2c7;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -163,6 +166,8 @@
     .scriptContent .dialogue {
       margin-left: 1.25rem;
       max-width: 690px;
+      color: var(--chosen-ink);
+      font-style: normal;
     }
 
     .scriptContent .stageDirection {
@@ -222,6 +227,34 @@
         flex-direction: column;
       }
     }
+
+    @media print {
+      .sitebar,
+      .readerActions,
+      .readerFooterNav {
+        display: none !important;
+      }
+
+      body {
+        background: white;
+      }
+
+      .readerShell {
+        max-width: none;
+        padding: 0;
+      }
+
+      .officialNotice {
+        border: 1px solid #ddd;
+        box-shadow: none;
+      }
+
+      .scriptPage {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -239,7 +272,7 @@
     </div>
   </header>
 
-  <main class="readerShell">
+  <main class="readerShell" id="top">
     <section class="readerHero" aria-labelledby="sceneTitle">
       <p class="readerEyebrow">CURRENT · COMPANY VERSION</p>
 
@@ -268,19 +301,21 @@
       <div class="scriptContent">
 <h3 class="scriptHeading">CHOSEN: THE STORY BEFORE THE MANGER</h3>
 <p class="stageDirection"><em>SCENE 11 - NO ROOM</em></p>
-<p class="stageDirection"><em>COMPANY VERSION</em></p>
+<p class="character">COMPANY</p>
+<p class="dialogue">VERSION</p>
 <h3 class="scriptHeading">CHOSEN: THE STORY BEFORE THE MANGER</h3>
 <h3 class="scriptHeading">SCENE 11 — NO ROOM</h3>
 <p>Approximate Running Time: 4–5 minutes plus musical transition
 Musical Treatment: Rhythmic “No Room” sequence + underscore + “Silent Night” transition
 Characters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Bethlehem Helper, optional Bethlehem Woman</p>
-<p class="transition">CONTINUOUS FROM SCENE 10</p>
+<p class="musicCue">CONTINUOUS FROM SCENE 10</p>
 <p class="stageDirection"><em>KNOCK. KNOCK.</em></p>
 <p class="stageDirection"><em>The knock that ended Scene 10 continues without blackout.</em></p>
 <p class="stageDirection"><em>A door opens.</em></p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Excuse me. My wife and I—</p>
-<p class="character">INNKEEPER 1</p>
+<p class="character">INNKEEPER</p>
+<p class="dialogue">1</p>
 <p class="dialogue">No room.</p>
 <p class="stageDirection"><em>DOOR SHUTS.</em></p>
 <p class="stageDirection"><em>Joseph stares at the closed door.</em></p>
@@ -296,15 +331,18 @@ Characters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Bethlehem Helper, op
 <p class="stageDirection"><em>A tired Innkeeper opens. Behind them, people are already packed into every usable space.</em></p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Please. We’ve traveled from Nazareth.</p>
-<p class="character">INNKEEPER 2</p>
+<p class="character">INNKEEPER</p>
+<p class="dialogue">2</p>
 <p class="dialogue">I’m sorry. We’re full.</p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Even a corner?</p>
 <p class="stageDirection"><em>The Innkeeper looks toward Mary and genuinely wishes the answer were different.</em></p>
-<p class="character">INNKEEPER 2</p>
+<p class="character">INNKEEPER</p>
+<p class="dialogue">2</p>
 <p class="dialogue">I already have families sleeping on the floor.</p>
 <p class="stageDirection"><em>Beat.</em></p>
-<p class="character">INNKEEPER 2</p>
+<p class="character">INNKEEPER</p>
+<p class="dialogue">2</p>
 <p class="dialogue">I don’t have anywhere else.</p>
 <p class="stageDirection"><em>Joseph takes that in.</em></p>
 <p class="character">JOSEPH</p>
@@ -325,22 +363,22 @@ Characters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Bethlehem Helper, op
 <p class="stageDirection"><em>UNDERSCORE BEGINS</em></p>
 <p class="stageDirection"><em>The knocking becomes part of the score.</em></p>
 <p class="stageDirection"><em>KNOCK.</em></p>
-<p class="character">VOICE</p>
+<h3 class="scriptHeading">VOICE</h3>
 <p class="dialogue">No room.</p>
 <p class="stageDirection"><em>KNOCK-KNOCK.</em></p>
-<p class="character">VOICE</p>
+<h3 class="scriptHeading">VOICE</h3>
 <p class="dialogue">Full.</p>
 <p class="stageDirection"><em>KNOCK.</em></p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Please—</p>
 <p class="stageDirection"><em>SHUT.</em></p>
-<p class="character">VOICE</p>
+<h3 class="scriptHeading">VOICE</h3>
 <p class="dialogue">Sorry.</p>
 <p class="stageDirection"><em>Joseph moves faster.</em></p>
 <p class="stageDirection"><em>KNOCK-KNOCK-KNOCK.</em></p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">My wife is—</p>
-<p class="character">VOICE</p>
+<h3 class="scriptHeading">VOICE</h3>
 <p class="dialogue">Nothing!</p>
 <p class="stageDirection"><em>SHUT.</em></p>
 <p class="stageDirection"><em>The rhythm builds: KNOCK. NO ROOM. KNOCK. FULL. KNOCK-KNOCK. SORRY.</em></p>
@@ -350,7 +388,7 @@ Characters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Bethlehem Helper, op
 <p class="stageDirection"><em>KNOCK.</em></p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Please.</p>
-<p class="character">VOICE</p>
+<h3 class="scriptHeading">VOICE</h3>
 <p class="dialogue">I’m sorry.</p>
 <p class="stageDirection"><em>SHUT.</em></p>
 <p class="stageDirection"><em>Everyone seems to have somewhere to go.</em></p>
@@ -403,7 +441,8 @@ Characters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Bethlehem Helper, op
 <p class="stageDirection"><em>Joseph reaches another door.</em></p>
 <p class="stageDirection"><em>KNOCK! KNOCK! KNOCK!</em></p>
 <p class="stageDirection"><em>The door opens.</em></p>
-<p class="character">INNKEEPER ELI</p>
+<p class="character">INNKEEPER</p>
+<p class="dialogue">ELI</p>
 <p class="dialogue">Yes?</p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Please.</p>
@@ -420,13 +459,16 @@ Characters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Bethlehem Helper, op
 <p class="character">JOSEPH</p>
 <p class="dialogue">Just somewhere safe.</p>
 <p class="stageDirection"><em>Eli is genuinely pained.</em></p>
-<p class="character">INNKEEPER ELI</p>
+<p class="character">INNKEEPER</p>
+<p class="dialogue">ELI</p>
 <p class="dialogue">I have people everywhere.</p>
 <p class="stageDirection"><em>He looks back inside.</em></p>
-<p class="character">INNKEEPER ELI</p>
+<p class="character">INNKEEPER</p>
+<p class="dialogue">ELI</p>
 <p class="dialogue">I don’t even have floor left.</p>
 <p class="stageDirection"><em>Joseph’s hope empties.</em></p>
-<p class="character">INNKEEPER ELI</p>
+<p class="character">INNKEEPER</p>
+<p class="dialogue">ELI</p>
 <p class="dialogue">I’m sorry.</p>
 <p class="stageDirection"><em>The door closes.</em></p>
 <p class="stageDirection"><em>SILENCE.</em></p>
@@ -644,7 +686,7 @@ Characters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Bethlehem Helper, op
 
     <nav class="readerFooterNav" aria-label="Scene reader navigation">
       <a class="btn" href="scripts.html">← Back to Scripts</a>
-      <a class="btn primary" href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">Back to top</a>
+      <a class="btn primary" href="#top">Back to top</a>
     </nav>
   </main>
 </body>

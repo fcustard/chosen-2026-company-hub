@@ -15,8 +15,11 @@
       --chosen-ink: #111827;
       --chosen-muted: #566276;
       --chosen-line: rgba(13, 23, 38, 0.14);
-      --chosen-card: rgba(255, 255, 255, 0.72);
       --chosen-note: #fff2c7;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -163,6 +166,8 @@
     .scriptContent .dialogue {
       margin-left: 1.25rem;
       max-width: 690px;
+      color: var(--chosen-ink);
+      font-style: normal;
     }
 
     .scriptContent .stageDirection {
@@ -222,6 +227,34 @@
         flex-direction: column;
       }
     }
+
+    @media print {
+      .sitebar,
+      .readerActions,
+      .readerFooterNav {
+        display: none !important;
+      }
+
+      body {
+        background: white;
+      }
+
+      .readerShell {
+        max-width: none;
+        padding: 0;
+      }
+
+      .officialNotice {
+        border: 1px solid #ddd;
+        box-shadow: none;
+      }
+
+      .scriptPage {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -239,7 +272,7 @@
     </div>
   </header>
 
-  <main class="readerShell">
+  <main class="readerShell" id="top">
     <section class="readerHero" aria-labelledby="sceneTitle">
       <p class="readerEyebrow">CURRENT · COMPANY VERSION</p>
 
@@ -268,7 +301,8 @@
       <div class="scriptContent">
 <h3 class="scriptHeading">CHOSEN: THE STORY BEFORE THE MANGER</h3>
 <p class="stageDirection"><em>SCENE 10 - THE CENSUS AND THE JOURNEY</em></p>
-<p class="stageDirection"><em>COMPANY VERSION</em></p>
+<p class="character">COMPANY</p>
+<p class="dialogue">VERSION</p>
 <h3 class="scriptHeading">CHOSEN: THE STORY BEFORE THE MANGER</h3>
 <h3 class="scriptHeading">SCENE 10 — THE CENSUS AND THE JOURNEY</h3>
 <p>Approximate Running Time: 5 minutes
@@ -290,7 +324,7 @@ Nia
 Simon
 Villagers / Travelers / Ensemble
 Innkeeper</p>
-<p class="transition">CONTINUOUS FROM SCENE 9</p>
+<p class="musicCue">CONTINUOUS FROM SCENE 9</p>
 <p class="stageDirection"><em>No blackout.</em></p>
 <p class="stageDirection"><em>The Roman Announcer has gone. The marketplace immediately breaks into urgent motion.</em></p>
 <p class="stageDirection"><em>The people who were gossiping moments ago suddenly have their own problems: routes, family lines, supplies, money, children, travel.</em></p>
@@ -555,7 +589,8 @@ Levi gives Joseph a traveling staff</p>
 <p class="dialogue">One more step.</p>
 <p class="stageDirection"><em>They rise together.</em></p>
 <p class="stageDirection"><em>A tiny musical fragment may surface—not a new number, simply memory.</em></p>
-<p class="stageDirection"><em>MARY &amp; JOSEPH</em></p>
+<p class="character">MARY</p>
+<p class="dialogue">&amp; JOSEPH</p>
 <p class="stageDirection"><em>Walk with me...</em></p>
 <p class="stageDirection"><em>They continue.</em></p>
 <p class="stageDirection"><em>The journey phrase resumes: WALK → STOP → BREATHE → WALK AGAIN.</em></p>
@@ -646,7 +681,7 @@ Levi gives Joseph a traveling staff</p>
 
     <nav class="readerFooterNav" aria-label="Scene reader navigation">
       <a class="btn" href="scripts.html">← Back to Scripts</a>
-      <a class="btn primary" href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">Back to top</a>
+      <a class="btn primary" href="#top">Back to top</a>
     </nav>
   </main>
 </body>

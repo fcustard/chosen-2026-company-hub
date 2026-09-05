@@ -15,8 +15,11 @@
       --chosen-ink: #111827;
       --chosen-muted: #566276;
       --chosen-line: rgba(13, 23, 38, 0.14);
-      --chosen-card: rgba(255, 255, 255, 0.72);
       --chosen-note: #fff2c7;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -163,6 +166,8 @@
     .scriptContent .dialogue {
       margin-left: 1.25rem;
       max-width: 690px;
+      color: var(--chosen-ink);
+      font-style: normal;
     }
 
     .scriptContent .stageDirection {
@@ -222,6 +227,34 @@
         flex-direction: column;
       }
     }
+
+    @media print {
+      .sitebar,
+      .readerActions,
+      .readerFooterNav {
+        display: none !important;
+      }
+
+      body {
+        background: white;
+      }
+
+      .readerShell {
+        max-width: none;
+        padding: 0;
+      }
+
+      .officialNotice {
+        border: 1px solid #ddd;
+        box-shadow: none;
+      }
+
+      .scriptPage {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -239,7 +272,7 @@
     </div>
   </header>
 
-  <main class="readerShell">
+  <main class="readerShell" id="top">
     <section class="readerHero" aria-labelledby="sceneTitle">
       <p class="readerEyebrow">CURRENT · COMPANY VERSION</p>
 
@@ -268,13 +301,14 @@
       <div class="scriptContent">
 <h3 class="scriptHeading">CHOSEN: THE STORY BEFORE THE MANGER</h3>
 <p class="stageDirection"><em>SCENE 8 - REUNION / &quot;STILL YOURS&quot;</em></p>
-<p class="stageDirection"><em>COMPANY VERSION</em></p>
+<p class="character">COMPANY</p>
+<p class="dialogue">VERSION</p>
 <h3 class="scriptHeading">CHOSEN: THE STORY BEFORE THE MANGER</h3>
 <h3 class="scriptHeading">SCENE 8 — REUNION / “STILL YOURS”</h3>
 <p>Target Runtime: 5:30–5:50
 Spoken Dialogue: approx. 3:40–4:00
 Musical Reprise: approx. 1:30–1:40</p>
-<p class="transition">CONTINUOUS FROM SCENE 7</p>
+<p class="musicCue">CONTINUOUS FROM SCENE 7</p>
 <p class="stageDirection"><em>Mary is still at Elizabeth’s home. She is calmer than when she arrived, but she is not healed.</em></p>
 <p class="stageDirection"><em>She sits with a piece of cloth or another simple household task. Elizabeth is nearby.</em></p>
 <p class="stageDirection"><em>Elizabeth notices someone approaching before Mary does.</em></p>
@@ -601,13 +635,15 @@ only that I’ll walk willingly.</em></p>
 <p class="stageDirection"><em>Joseph waits.</em></p>
 <p class="stageDirection"><em>Do not hurry this silence. The reconciliation belongs to Mary too.</em></p>
 <p class="stageDirection"><em>Finally—</em></p>
-<p class="stageDirection"><em>MARY TAKES HIS HAND</em></p>
+<p class="character">MARY</p>
+<p class="dialogue">TAKES HIS HAND</p>
 <p class="stageDirection"><em>The harmony opens. The physical choice is the climax.</em></p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Whatever comes...</p>
 <p class="character">MARY</p>
 <p class="dialogue">Whatever comes...</p>
-<p class="character">MARY &amp; JOSEPH</p>
+<p class="character">MARY</p>
+<p class="dialogue">&amp; JOSEPH</p>
 <p class="dialogue">We’ll walk together.</p>
 <p class="stageDirection"><em>Music resolves warmly, but not triumphantly.</em></p>
 <h3 class="scriptHeading">AFTER THE REPRISE</h3>
@@ -630,7 +666,7 @@ only that I’ll walk willingly.</em></p>
 <p class="character">JOSEPH</p>
 <p class="dialogue">Together.</p>
 <p class="stageDirection"><em>They begin walking side by side.</em></p>
-<p class="transition">TRANSITION INTO SCENE 9</p>
+<p class="musicCue">TRANSITION INTO SCENE 9</p>
 <p class="stageDirection"><em>No haze. No ominous lighting cue.</em></p>
 <p class="stageDirection"><em>The familiar Nazareth marketplace ambience from Scene 1 begins to return.</em></p>
 <p class="stageDirection"><em>For a moment, it sounds exactly like home.</em></p>
@@ -648,7 +684,7 @@ only that I’ll walk willingly.</em></p>
 
     <nav class="readerFooterNav" aria-label="Scene reader navigation">
       <a class="btn" href="scripts.html">← Back to Scripts</a>
-      <a class="btn primary" href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">Back to top</a>
+      <a class="btn primary" href="#top">Back to top</a>
     </nav>
   </main>
 </body>

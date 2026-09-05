@@ -15,8 +15,11 @@
       --chosen-ink: #111827;
       --chosen-muted: #566276;
       --chosen-line: rgba(13, 23, 38, 0.14);
-      --chosen-card: rgba(255, 255, 255, 0.72);
       --chosen-note: #fff2c7;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -163,6 +166,8 @@
     .scriptContent .dialogue {
       margin-left: 1.25rem;
       max-width: 690px;
+      color: var(--chosen-ink);
+      font-style: normal;
     }
 
     .scriptContent .stageDirection {
@@ -222,6 +227,34 @@
         flex-direction: column;
       }
     }
+
+    @media print {
+      .sitebar,
+      .readerActions,
+      .readerFooterNav {
+        display: none !important;
+      }
+
+      body {
+        background: white;
+      }
+
+      .readerShell {
+        max-width: none;
+        padding: 0;
+      }
+
+      .officialNotice {
+        border: 1px solid #ddd;
+        box-shadow: none;
+      }
+
+      .scriptPage {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -239,7 +272,7 @@
     </div>
   </header>
 
-  <main class="readerShell">
+  <main class="readerShell" id="top">
     <section class="readerHero" aria-labelledby="sceneTitle">
       <p class="readerEyebrow">CURRENT · COMPANY VERSION</p>
 
@@ -270,14 +303,17 @@
 <p>Approximate Running Time: 5–6 minutes</p>
 <h3 class="scriptHeading">OPENING</h3>
 <p class="stageDirection"><em>Lights rise on a marketplace-adjacent work area.</em></p>
-<p class="stageDirection"><em>SHIRA, TALIA, ADINA and DAFNA are occupied with ordinary tasks.</em></p>
+<p class="character">SHIRA,</p>
+<p class="dialogue">TALIA, ADINA and DAFNA are occupied with ordinary tasks.</p>
 <p class="stageDirection"><em>Possible activity: folding fabric; sorting jewelry; sewing; arranging clothing; preparing baskets; threading beads; organizing goods.</em></p>
 <p class="stageDirection"><em>The scene should initially feel completely normal.</em></p>
-<p class="stageDirection"><em>MARY enters. She is trying to appear normal. She is not succeeding. Shira sees her first.</em></p>
+<p class="character">MARY</p>
+<p class="dialogue">enters. She is trying to appear normal. She is not succeeding. Shira sees her first.</p>
 <p class="character">DAFNA</p>
 <p class="dialogue">Mary!</p>
 <p class="stageDirection"><em>Mary jumps. A small release of tension.</em></p>
-<p class="stageDirection"><em>SHIRA, TALIA, ADINA and DAFNA enter carrying ordinary life with them: fabric, baskets, beads, clothing, market goods or another established task from the Living Village.</em></p>
+<p class="character">SHIRA,</p>
+<p class="dialogue">TALIA, ADINA and DAFNA enter carrying ordinary life with them: fabric, baskets, beads, clothing, market goods or another established task from the Living Village.</p>
 <p class="character">ADINA</p>
 <p class="dialogue">There you are.</p>
 <p class="character">TALIA</p>
@@ -647,10 +683,12 @@
 <h3 class="scriptHeading">THE AUDIENCE KNOWS SOMETHING MARY DOESN&#039;T</h3>
 <p class="stageDirection"><em>Do not follow Mary.</em></p>
 <p class="stageDirection"><em>The PASSING VILLAGER reappears elsewhere in the living marketplace and crosses paths with another villager. Keep it small enough that Mary and her friends do not see or hear it.</em></p>
-<p class="character">GOSSIPER 4</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">4</p>
 <p class="dialogue">Mary?</p>
 <p class="stageDirection"><em>The first villager does not pretend to know the whole story.</em></p>
-<p class="character">GOSSIPER 2</p>
+<p class="character">GOSSIPER</p>
+<p class="dialogue">2</p>
 <p class="dialogue">That&#039;s what I heard.</p>
 <p class="stageDirection"><em>They move on.</em></p>
 <p class="stageDirection"><em>The line should echo the harmless information-transmission comedy of Scene 1, but the meaning has changed.</em></p>
@@ -662,7 +700,8 @@
 <p class="stageDirection"><em>Another.</em></p>
 <p class="stageDirection"><em>BANG-BANG!</em></p>
 <p class="stageDirection"><em>A completely different energy takes over. Lights shift sharply to Joseph&#039;s world.</em></p>
-<p class="stageDirection"><em>JOSEPH is working, laughing and completely unaware. LEVI, MALACHI, CALEB and EZRA are with him. The Scene 5 carpentry rhythm begins to emerge.</em></p>
+<p class="character">JOSEPH</p>
+<p class="dialogue">is working, laughing and completely unaware. LEVI, MALACHI, CALEB and EZRA are with him. The Scene 5 carpentry rhythm begins to emerge.</p>
 <p class="stageDirection"><em>Mary is walking toward the most frightening conversation of her life.</em></p>
 <p class="stageDirection"><em>Joseph is having a wonderful day.</em></p>
 <p class="stageDirection"><em>He is building the future the audience now knows is about to be tested.</em></p>
@@ -672,7 +711,7 @@
 
     <nav class="readerFooterNav" aria-label="Scene reader navigation">
       <a class="btn" href="scripts.html">← Back to Scripts</a>
-      <a class="btn primary" href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">Back to top</a>
+      <a class="btn primary" href="#top">Back to top</a>
     </nav>
   </main>
 </body>
