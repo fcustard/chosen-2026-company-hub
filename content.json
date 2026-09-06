@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T00:53:31.221Z",
+  "updated": "2026-09-06T05:15:49.931Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -72,8 +72,8 @@
   },
   "thisWeek": {
     "title": "This Week",
-    "start": "2026-09-05T04:00:00.000Z",
-    "end": "2026-09-12T03:59:59.000Z",
+    "start": "2026-09-06T04:00:00.000Z",
+    "end": "2026-09-13T03:59:59.000Z",
     "rehearsals": [
       {
         "id": "CHOSEN-20260909-REH",
@@ -200,9 +200,83 @@
         "prep": "Dance Ensemble: Come ready to review and learn new Choreography.    Actors: Come ready to go over dialouge and practice movement for Scene 5",
         "notice": "",
         "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20260912-REH",
+        "eventKey": "CHOSEN-20260912-REH",
+        "start": "2026-09-12T14:00:00.000Z",
+        "end": "2026-09-12T18:00:00.000Z",
+        "date": "September 12, 2026",
+        "dateIso": "2026-09-12",
+        "day": "Saturday",
+        "dateLabel": "September 12, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
+        "status": "VIRTUAL",
+        "location": "Virtual / Off-site - details TBD",
+        "locationShort": "Virtual / Off-site - details TBD",
+        "called": "10:00 AM–11:30 AM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n 11:30 AM–12:30 PM- Mary + Friends, Joseph + Friends\n12:30 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+        "callGroups": [
+          "Principals/Featured"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
+        ],
+        "calledGroups": [
+          "Principals/Featured"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
+        "focus": "",
+        "prep": "Actors: Review dialouge, Learn songs",
+        "notice": "",
+        "changeType": ""
       }
     ],
-    "count": 2
+    "count": 3
   },
   "schedule": {
     "title": "Schedule",
@@ -4974,14 +5048,14 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-06T00:53:31.221Z",
+    "updated": "2026-09-06T05:15:49.932Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-06T00:53:31.221Z",
+    "updated": "2026-09-06T05:15:49.932Z",
     "kind": "music"
   }
 }
