@@ -620,9 +620,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (rr.ok) {
           const roster = await rr.json();
 
+          const people =
+            Array.isArray(roster.people)
+              ? roster.people
+              : [];
+
           person =
-            (roster.people || []).find(
-              p => p.id === personId
+            people.find(
+              p =>
+                normalizePersonId(p.id) ===
+                normalizePersonId(personId)
             ) || null;
 
           personalView = !!person;
@@ -635,6 +642,49 @@ document.addEventListener('DOMContentLoaded', async () => {
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '')
         .toLowerCase();
+    }
+
+    function normalizePersonId(value = '') {
+      return String(value || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .trim()
+        .toLowerCase();
+    }
+
+    function normalizePersonName(value = '') {
+      return String(value || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[’]/g, "'")
+        .replace(/\s+/g, ' ')
+        .trim()
+        .toLowerCase();
+    }
+
+    function normalizedPersonNameCandidates(p) {
+      const values = [
+        p?.name,
+        p?.fullName,
+        p?.displayName,
+        p?.preferredName
+      ];
+
+      if (Array.isArray(p?.aliases)) {
+        values.push(...p.aliases);
+      }
+
+      if (Array.isArray(p?.alternateNames)) {
+        values.push(...p.alternateNames);
+      }
+
+      return Array.from(
+        new Set(
+          values
+            .map(normalizePersonName)
+            .filter(Boolean)
+        )
+      );
     }
 
     function parseDateParts(x) {
@@ -903,7 +953,8 @@ document.addEventListener('DOMContentLoaded', async () => {
           'exactCallStatus'
         ) ||
         Array.isArray(x.calledPeopleIds) ||
-        Array.isArray(x.calledGroups);
+        Array.isArray(x.calledGroups) ||
+        Array.isArray(x.calledPeople);
 
       if (hasExactCallData) {
         if (status !== 'READY') {
@@ -911,26 +962,52 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         const personId =
-          String(person.id || '').trim();
+          normalizePersonId(person.id);
 
         const calledPeopleIds =
           Array.isArray(x.calledPeopleIds)
             ? x.calledPeopleIds
-                .map(v =>
-                  String(v || '').trim()
-                )
+                .map(normalizePersonId)
                 .filter(Boolean)
             : [];
 
-        const calledGroups =
-          normalizeGroupList(x.calledGroups);
-
+        /*
+         * Exact person matching must work even when no group is called.
+         * This is what keeps targeted rehearsals from requiring broad
+         * groups such as Principals/Featured just to appear in My Calls.
+         */
         if (
           personId &&
           calledPeopleIds.includes(personId)
         ) {
           return true;
         }
+
+        /*
+         * Safe backup for generated content that carries exact names
+         * but not IDs. This is still exact-call data, not broad inference.
+         */
+        const calledPeopleNames =
+          Array.isArray(x.calledPeople)
+            ? x.calledPeople
+                .map(normalizePersonName)
+                .filter(Boolean)
+            : [];
+
+        const personNames =
+          normalizedPersonNameCandidates(person);
+
+        if (
+          personNames.some(
+            name =>
+              calledPeopleNames.includes(name)
+          )
+        ) {
+          return true;
+        }
+
+        const calledGroups =
+          normalizeGroupList(x.calledGroups);
 
         if (
           calledGroups.includes(
@@ -959,16 +1036,17 @@ document.addEventListener('DOMContentLoaded', async () => {
        * Legacy fallback only.
        */
       const calledText =
-        String(x.called || '')
-          .toLowerCase();
+        normalizePersonName(x.called || '');
 
-      const fullName =
-        String(person.name || '')
-          .toLowerCase();
+      const personNames =
+        normalizedPersonNameCandidates(person);
 
       if (
-        fullName &&
-        calledText.includes(fullName)
+        personNames.some(
+          name =>
+            name &&
+            calledText.includes(name)
+        )
       ) {
         return true;
       }
