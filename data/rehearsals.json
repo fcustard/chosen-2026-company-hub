@@ -298,9 +298,7 @@
       "P-victorya-champagne",
       "P-gabriela-sardinas"
     ],
-    "calledGroups": [
-      "Principals/Featured"
-    ],
+    "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260912-REH"
@@ -333,9 +331,7 @@
       "P-chris-mcanuff",
       "P-audrey-howell-mcclenney"
     ],
-    "calledGroups": [
-      "Principals/Featured"
-    ],
+    "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260916-REH"
@@ -358,10 +354,7 @@
       "P-jordyn-starks",
       "P-caleb-davilmar"
     ],
-    "calledGroups": [
-      "Principals/Featured",
-      "Dancers"
-    ],
+    "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260917-REH"

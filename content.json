@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T22:30:55.154Z",
+  "updated": "2026-09-06T23:02:59.059Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -213,9 +213,7 @@
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site - details TBD",
         "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [
-          "Principals/Featured"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -292,9 +290,7 @@
           "P-victorya-champagne",
           "P-gabriela-sardinas"
         ],
-        "calledGroups": [
-          "Principals/Featured"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
@@ -450,9 +446,7 @@
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site - details TBD",
         "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [
-          "Principals/Featured"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -529,9 +523,7 @@
           "P-victorya-champagne",
           "P-gabriela-sardinas"
         ],
-        "calledGroups": [
-          "Principals/Featured"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
@@ -556,9 +548,7 @@
         "location": "TBD",
         "locationShort": "TBD",
         "called": "6:30–8:00 PM — (Mary (Jordyn), Joseph (Caleb)\n8:00–9:30 PM —  Mary (Jordyn), Elizabeth; Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [
-          "Principals/Featured"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -591,9 +581,7 @@
           "P-chris-mcanuff",
           "P-audrey-howell-mcclenney"
         ],
-        "calledGroups": [
-          "Principals/Featured"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Two Roads of Faith; Mary/Elizabeth work; Joseph/Gabriel work.",
@@ -618,10 +606,7 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
-        "callGroups": [
-          "Principals/Featured",
-          "Dancers"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -634,10 +619,7 @@
           "P-jordyn-starks",
           "P-caleb-davilmar"
         ],
-        "calledGroups": [
-          "Principals/Featured",
-          "Dancers"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scene 1 dance work; Reunion / Still Yours; Scene 2 music cleanup.",
@@ -2690,9 +2672,7 @@
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site - details TBD",
         "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [
-          "Principals/Featured"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -2769,9 +2749,7 @@
           "P-victorya-champagne",
           "P-gabriela-sardinas"
         ],
-        "calledGroups": [
-          "Principals/Featured"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
@@ -2796,9 +2774,7 @@
         "location": "TBD",
         "locationShort": "TBD",
         "called": "6:30–8:00 PM — (Mary (Jordyn), Joseph (Caleb)\n8:00–9:30 PM —  Mary (Jordyn), Elizabeth; Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [
-          "Principals/Featured"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -2831,9 +2807,7 @@
           "P-chris-mcanuff",
           "P-audrey-howell-mcclenney"
         ],
-        "calledGroups": [
-          "Principals/Featured"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Two Roads of Faith; Mary/Elizabeth work; Joseph/Gabriel work.",
@@ -2858,10 +2832,7 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
-        "callGroups": [
-          "Principals/Featured",
-          "Dancers"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -2874,10 +2845,7 @@
           "P-jordyn-starks",
           "P-caleb-davilmar"
         ],
-        "calledGroups": [
-          "Principals/Featured",
-          "Dancers"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scene 1 dance work; Reunion / Still Yours; Scene 2 music cleanup.",
@@ -4801,7 +4769,7 @@
       {
         "id": "dancers",
         "name": "Dancers",
-        "count": 46
+        "count": 44
       },
       {
         "id": "ensemble",
@@ -4816,7 +4784,7 @@
       {
         "id": "principals-featured",
         "name": "Principals/Featured",
-        "count": 30
+        "count": 24
       }
     ],
     "count": 44,
@@ -5136,14 +5104,14 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-06T22:30:55.154Z",
+    "updated": "2026-09-06T23:02:59.060Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-06T22:30:55.154Z",
+    "updated": "2026-09-06T23:02:59.060Z",
     "kind": "music"
   }
 }
