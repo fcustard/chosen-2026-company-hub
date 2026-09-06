@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T22:19:42.373Z",
+  "updated": "2026-09-06T22:30:55.154Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -26,8 +26,7 @@
     "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
     "callGroups": [
       "Principals/Featured",
-      "Dancers",
-      "Ensemble"
+      "Dancers"
     ],
     "calledPeople": [
       {
@@ -59,8 +58,7 @@
     ],
     "calledGroups": [
       "Principals/Featured",
-      "Dancers",
-      "Ensemble"
+      "Dancers"
     ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
@@ -93,8 +91,7 @@
         "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [
           "Principals/Featured",
-          "Dancers",
-          "Ensemble"
+          "Dancers"
         ],
         "calledPeople": [
           {
@@ -126,8 +123,7 @@
         ],
         "calledGroups": [
           "Principals/Featured",
-          "Dancers",
-          "Ensemble"
+          "Dancers"
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
@@ -152,7 +148,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM —Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/                                        \n\n6:30–8:30 PM----Dancers\n\n8:00–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+        "called": "6:30–8:00 PM —Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                                     \n\n6:30–8:30 PM----Dancers\n\n8:00–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [
           "Principals/Featured",
           "Dancers"
@@ -216,7 +212,7 @@
         "status": "VIRTUAL",
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site - details TBD",
-        "called": "10:00 AM–11:30 AM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n 11:30 AM–12:30 PM- Mary + Friends, Joseph + Friends\n12:30 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+        "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [
           "Principals/Featured"
         ],
@@ -250,6 +246,30 @@
           },
           {
             "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Etta Wright"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
           }
         ],
         "calledPeopleIds": [
@@ -262,7 +282,15 @@
           "P-marcus-mainer",
           "P-dorrien-jones",
           "P-michael-stover",
-          "P-chris-mcanuff"
+          "P-chris-mcanuff",
+          "P-etta-wright",
+          "P-kevin-hohn",
+          "P-jayden-harris",
+          "P-charla-yvonne-cornelius",
+          "P-anaia-downer",
+          "P-shanice-palmer",
+          "P-victorya-champagne",
+          "P-gabriela-sardinas"
         ],
         "calledGroups": [
           "Principals/Featured"
@@ -271,7 +299,7 @@
         "callDataVersion": 3,
         "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
         "focus": "",
-        "prep": "Actors: Review dialouge, Learn songs",
+        "prep": "Actors: Review dialogue",
         "notice": "",
         "changeType": ""
       }
@@ -300,8 +328,7 @@
         "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [
           "Principals/Featured",
-          "Dancers",
-          "Ensemble"
+          "Dancers"
         ],
         "calledPeople": [
           {
@@ -333,8 +360,7 @@
         ],
         "calledGroups": [
           "Principals/Featured",
-          "Dancers",
-          "Ensemble"
+          "Dancers"
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
@@ -359,7 +385,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM —Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/                                        \n\n6:30–8:30 PM----Dancers\n\n8:00–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+        "called": "6:30–8:00 PM —Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                                     \n\n6:30–8:30 PM----Dancers\n\n8:00–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [
           "Principals/Featured",
           "Dancers"
@@ -423,7 +449,7 @@
         "status": "VIRTUAL",
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site - details TBD",
-        "called": "10:00 AM–11:30 AM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n 11:30 AM–12:30 PM- Mary + Friends, Joseph + Friends\n12:30 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+        "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [
           "Principals/Featured"
         ],
@@ -457,6 +483,30 @@
           },
           {
             "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Etta Wright"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
           }
         ],
         "calledPeopleIds": [
@@ -469,7 +519,15 @@
           "P-marcus-mainer",
           "P-dorrien-jones",
           "P-michael-stover",
-          "P-chris-mcanuff"
+          "P-chris-mcanuff",
+          "P-etta-wright",
+          "P-kevin-hohn",
+          "P-jayden-harris",
+          "P-charla-yvonne-cornelius",
+          "P-anaia-downer",
+          "P-shanice-palmer",
+          "P-victorya-champagne",
+          "P-gabriela-sardinas"
         ],
         "calledGroups": [
           "Principals/Featured"
@@ -478,7 +536,7 @@
         "callDataVersion": 3,
         "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
         "focus": "",
-        "prep": "Actors: Review dialouge, Learn songs",
+        "prep": "Actors: Review dialogue",
         "notice": "",
         "changeType": ""
       },
@@ -603,7 +661,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "FULL COMPANY REHEARSAL:                            10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n10:00AM-2:00PM- Dancers\n11:00AM-2:00PM- Elizabeth(Audrey),Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n12:00pm-2:00pm-ALL Other Cast Members",
+        "called": "FULL COMPANY REHEARSAL: \n 10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n\n11:00 AM- 2:00 PM- Elizabeth(Audrey), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                 \n\n10:00AM-2:00 PM- Dancers\n\n12:00 PM- 2:00pm- FULL COMPANY",
         "callGroups": [
           "Full Company",
           "Dancers"
@@ -2185,7 +2243,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
+        "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —  FULL COMPANY",
         "callGroups": [
           "Full Company",
           "Ensemble",
@@ -2510,8 +2568,7 @@
         "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [
           "Principals/Featured",
-          "Dancers",
-          "Ensemble"
+          "Dancers"
         ],
         "calledPeople": [
           {
@@ -2543,8 +2600,7 @@
         ],
         "calledGroups": [
           "Principals/Featured",
-          "Dancers",
-          "Ensemble"
+          "Dancers"
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
@@ -2569,7 +2625,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM —Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/                                        \n\n6:30–8:30 PM----Dancers\n\n8:00–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+        "called": "6:30–8:00 PM —Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                                     \n\n6:30–8:30 PM----Dancers\n\n8:00–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [
           "Principals/Featured",
           "Dancers"
@@ -2633,7 +2689,7 @@
         "status": "VIRTUAL",
         "location": "Virtual / Off-site - details TBD",
         "locationShort": "Virtual / Off-site - details TBD",
-        "called": "10:00 AM–11:30 AM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n 11:30 AM–12:30 PM- Mary + Friends, Joseph + Friends\n12:30 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+        "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [
           "Principals/Featured"
         ],
@@ -2667,6 +2723,30 @@
           },
           {
             "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Etta Wright"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
           }
         ],
         "calledPeopleIds": [
@@ -2679,7 +2759,15 @@
           "P-marcus-mainer",
           "P-dorrien-jones",
           "P-michael-stover",
-          "P-chris-mcanuff"
+          "P-chris-mcanuff",
+          "P-etta-wright",
+          "P-kevin-hohn",
+          "P-jayden-harris",
+          "P-charla-yvonne-cornelius",
+          "P-anaia-downer",
+          "P-shanice-palmer",
+          "P-victorya-champagne",
+          "P-gabriela-sardinas"
         ],
         "calledGroups": [
           "Principals/Featured"
@@ -2688,7 +2776,7 @@
         "callDataVersion": 3,
         "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
         "focus": "",
-        "prep": "Actors: Review dialouge, Learn songs",
+        "prep": "Actors: Review dialogue",
         "notice": "",
         "changeType": ""
       },
@@ -2813,7 +2901,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "FULL COMPANY REHEARSAL:                            10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n10:00AM-2:00PM- Dancers\n11:00AM-2:00PM- Elizabeth(Audrey),Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n12:00pm-2:00pm-ALL Other Cast Members",
+        "called": "FULL COMPANY REHEARSAL: \n 10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n\n11:00 AM- 2:00 PM- Elizabeth(Audrey), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                 \n\n10:00AM-2:00 PM- Dancers\n\n12:00 PM- 2:00pm- FULL COMPANY",
         "callGroups": [
           "Full Company",
           "Dancers"
@@ -4393,7 +4481,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
+        "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —  FULL COMPANY",
         "callGroups": [
           "Full Company",
           "Ensemble",
@@ -4718,7 +4806,7 @@
       {
         "id": "ensemble",
         "name": "Ensemble",
-        "count": 24
+        "count": 22
       },
       {
         "id": "full-company",
@@ -5048,14 +5136,14 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-06T22:19:42.374Z",
+    "updated": "2026-09-06T22:30:55.154Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-06T22:19:42.374Z",
+    "updated": "2026-09-06T22:30:55.154Z",
     "kind": "music"
   }
 }

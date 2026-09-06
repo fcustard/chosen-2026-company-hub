@@ -130,7 +130,7 @@
     "title": "CHOSEN Rehearsal - Scene 1 staging",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —   All Other Cast Members",
+    "called": "10:00 AM–2:00 PM — Dancers\n\n\n12:00 PM–2:00 PM —\nSpeakers: Nia (Gelvina), Simon (James), Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Customer 1 (Kevin), Merchant 1 (Etta), Merchant 2 (Sandra), Village Woman 1 (Marissa), Gossip Girls: Ania, Victorya, Shanice, Gabriela              \n\n       12:00 PM–2:00 PM —  FULL COMPANY",
     "work": "Scene 1 staging, dialogue, choreography, music, gossip sequence, and satchel transition.",
     "prep": "Dance Ensemble: Bring dance shoes. *If you are not sure if you are apart of the Dance Ensemble, please confirm with Ms. Lounise immediately.*                                   Everyone: Bring a snack and drink for the 12:00–12:15 PM break.",
     "calledPeople": [
@@ -206,8 +206,7 @@
     ],
     "calledGroups": [
       "Principals/Featured",
-      "Dancers",
-      "Ensemble"
+      "Dancers"
     ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
@@ -220,7 +219,7 @@
     "title": "CHOSEN Rehearsal - Scenes 1, 5, & 7",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "6:30–8:00 PM —Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/                                        \n\n6:30–8:30 PM----Dancers\n\n8:00–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+    "called": "6:30–8:00 PM —Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                                     \n\n6:30–8:30 PM----Dancers\n\n8:00–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
     "work": "Brotherhood scene work and Joseph-side material.",
     "prep": "Dance Ensemble: Come ready to review and learn new Choreography.    Actors: Come ready to go over dialouge and practice movement for Scene 5",
     "calledPeople": [
@@ -256,9 +255,9 @@
     "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
     "location": "Virtual / Off-site - details TBD",
     "status": "VIRTUAL",
-    "called": "10:00 AM–11:30 AM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n 11:30 AM–12:30 PM- Mary + Friends, Joseph + Friends\n12:30 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+    "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
     "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
-    "prep": "Actors: Review dialouge, Learn songs",
+    "prep": "Actors: Review dialogue",
     "calledPeople": [
       "Jordyn Starks",
       "Tasha Simeon",
@@ -269,7 +268,15 @@
       "Marcus Mainer",
       "Dorrien Jones",
       "Michael Stover",
-      "Chris Mcanuff"
+      "Chris Mcanuff",
+      "Etta Wright",
+      "Kevin Hohn",
+      "Jayden Harris",
+      "Charla-Yvonne Cornelius",
+      "Anaia Downer",
+      "Shanice Palmer",
+      "Victorya Champagne",
+      "Gabriela Sardinas"
     ],
     "calledPeopleIds": [
       "P-jordyn-starks",
@@ -281,7 +288,15 @@
       "P-marcus-mainer",
       "P-dorrien-jones",
       "P-michael-stover",
-      "P-chris-mcanuff"
+      "P-chris-mcanuff",
+      "P-etta-wright",
+      "P-kevin-hohn",
+      "P-jayden-harris",
+      "P-charla-yvonne-cornelius",
+      "P-anaia-downer",
+      "P-shanice-palmer",
+      "P-victorya-champagne",
+      "P-gabriela-sardinas"
     ],
     "calledGroups": [
       "Principals/Featured"
@@ -358,7 +373,7 @@
     "title": "CHOSEN Rehearsal - Scenes 1;  6–8",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "FULL COMPANY REHEARSAL:                            10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n10:00AM-2:00PM- Dancers\n11:00AM-2:00PM- Elizabeth(Audrey),Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n12:00pm-2:00pm-ALL Other Cast Members",
+    "called": "FULL COMPANY REHEARSAL: \n 10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n\n11:00 AM- 2:00 PM- Elizabeth(Audrey), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                 \n\n10:00AM-2:00 PM- Dancers\n\n12:00 PM- 2:00pm- FULL COMPANY",
     "work": "Stage Scenes 6–8; transitions; spacing",
     "prep": "Dance Ensemble: Be ready to transition to next part of the song. Actors: dialouge, light blocking and singing techniques.",
     "calledPeople": [
