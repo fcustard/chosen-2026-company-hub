@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T09:42:08.745Z",
+  "updated": "2026-09-07T15:12:09.500Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -25,7 +25,6 @@
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
     "callGroups": [
-      "Principals/Featured",
       "Dancers"
     ],
     "calledPeople": [
@@ -57,7 +56,6 @@
       "P-caleb-davilmar"
     ],
     "calledGroups": [
-      "Principals/Featured",
       "Dancers"
     ],
     "exactCallStatus": "READY",
@@ -90,7 +88,6 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -122,7 +119,6 @@
           "P-caleb-davilmar"
         ],
         "calledGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -323,7 +319,6 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -355,7 +350,6 @@
           "P-caleb-davilmar"
         ],
         "calledGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -2559,7 +2553,6 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -2591,7 +2584,6 @@
           "P-caleb-davilmar"
         ],
         "calledGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -4804,7 +4796,7 @@
       {
         "id": "principals-featured",
         "name": "Principals/Featured",
-        "count": 18
+        "count": 16
       }
     ],
     "count": 44,
@@ -5124,14 +5116,14 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-07T09:42:08.746Z",
+    "updated": "2026-09-07T15:12:09.500Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-07T09:42:08.746Z",
+    "updated": "2026-09-07T15:12:09.500Z",
     "kind": "music"
   }
 }
