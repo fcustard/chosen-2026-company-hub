@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T01:36:34.921Z",
+  "updated": "2026-09-07T04:52:48.584Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -70,8 +70,8 @@
   },
   "thisWeek": {
     "title": "This Week",
-    "start": "2026-09-06T04:00:00.000Z",
-    "end": "2026-09-13T03:59:59.000Z",
+    "start": "2026-09-07T04:00:00.000Z",
+    "end": "2026-09-14T03:59:59.000Z",
     "rehearsals": [
       {
         "id": "CHOSEN-20260909-REH",
@@ -210,8 +210,8 @@
         "time": "10:00 AM–2:00 PM",
         "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
         "status": "VIRTUAL",
-        "location": "Virtual / Off-site - details TBD",
-        "locationShort": "Virtual / Off-site - details TBD",
+        "location": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
+        "locationShort": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
         "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [],
         "calledPeople": [
@@ -443,8 +443,8 @@
         "time": "10:00 AM–2:00 PM",
         "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
         "status": "VIRTUAL",
-        "location": "Virtual / Off-site - details TBD",
-        "locationShort": "Virtual / Off-site - details TBD",
+        "location": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
+        "locationShort": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
         "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [],
         "calledPeople": [
@@ -545,8 +545,8 @@
         "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Scene 6 + Scene 7",
         "status": "VIRTUAL",
-        "location": "TBD",
-        "locationShort": "TBD",
+        "location": "https://us02web.zoom.us/j/83890862891?pwd=oiszQk3ekWaXS05dDYGBphHDYMJNhz.1",
+        "locationShort": "https://us02web.zoom.us/j/83890862891?pwd=oiszQk3ekWaXS05dDYGBphHDYMJNhz.1",
         "called": "6:30–8:00 PM — (Mary (Jordyn), Joseph (Caleb)\n8:00–9:30 PM —  Mary (Jordyn), Elizabeth; Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [],
         "calledPeople": [
@@ -817,13 +817,10 @@
         "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Scene 10 & 11",
         "status": "VIRTUAL",
-        "location": "Virtual / Off-site - details TBD",
-        "locationShort": "Virtual / Off-site - details TBD",
+        "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
+        "locationShort": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
         "called": "6:30PM-9:30PM- Mary (Jordyn), Caleb (Joseph)\n6:30PM-7:30PM- Actors ONLY: Child Speakers: (Child 1 (Neclia) Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina) Simon (James), Villager Woman 1 (Marissa), Village Woman 2 (Dana)\n7:15PM-9:30PM Nia (Gelvina) Simon (James),Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Villager Man (Fredrick)  Gossip Girls (Annia, Victorya, Shanice, Gabriela) /Roman Announcer,(Amadeus Hills)",
-        "callGroups": [
-          "Principals/Featured",
-          "Ensemble"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -881,6 +878,18 @@
           },
           {
             "displayName": "Amadeus Hills"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          },
+          {
+            "displayName": "Anaia Downer"
           }
         ],
         "calledPeopleIds": [
@@ -902,12 +911,13 @@
           "P-michael-stover",
           "P-chris-mcanuff",
           "P-fredrick-custard",
-          "P-amadeus-hills"
+          "P-amadeus-hills",
+          "P-gabriela-sardinas",
+          "P-shanice-palmer",
+          "P-victorya-champagne",
+          "P-anaia-downer"
         ],
-        "calledGroups": [
-          "Principals/Featured",
-          "Ensemble"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
@@ -969,7 +979,6 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers\n\n 6:30 PM- 9:30PM-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla",
         "callGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -981,15 +990,18 @@
           },
           {
             "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
           }
         ],
         "calledPeopleIds": [
           "P-jordyn-starks",
           "P-caleb-davilmar",
-          "P-kevin-hohn"
+          "P-kevin-hohn",
+          "P-charla-yvonne-cornelius"
         ],
         "calledGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -1311,7 +1323,6 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30PM–8:30 PM- Dancers\n 6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick), Elizabeth, adult principals",
         "callGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -1335,7 +1346,6 @@
           "P-audrey-howell-mcclenney"
         ],
         "calledGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -2669,8 +2679,8 @@
         "time": "10:00 AM–2:00 PM",
         "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
         "status": "VIRTUAL",
-        "location": "Virtual / Off-site - details TBD",
-        "locationShort": "Virtual / Off-site - details TBD",
+        "location": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
+        "locationShort": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
         "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [],
         "calledPeople": [
@@ -2771,8 +2781,8 @@
         "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Scene 6 + Scene 7",
         "status": "VIRTUAL",
-        "location": "TBD",
-        "locationShort": "TBD",
+        "location": "https://us02web.zoom.us/j/83890862891?pwd=oiszQk3ekWaXS05dDYGBphHDYMJNhz.1",
+        "locationShort": "https://us02web.zoom.us/j/83890862891?pwd=oiszQk3ekWaXS05dDYGBphHDYMJNhz.1",
         "called": "6:30–8:00 PM — (Mary (Jordyn), Joseph (Caleb)\n8:00–9:30 PM —  Mary (Jordyn), Elizabeth; Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [],
         "calledPeople": [
@@ -3043,13 +3053,10 @@
         "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Scene 10 & 11",
         "status": "VIRTUAL",
-        "location": "Virtual / Off-site - details TBD",
-        "locationShort": "Virtual / Off-site - details TBD",
+        "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
+        "locationShort": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
         "called": "6:30PM-9:30PM- Mary (Jordyn), Caleb (Joseph)\n6:30PM-7:30PM- Actors ONLY: Child Speakers: (Child 1 (Neclia) Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina) Simon (James), Villager Woman 1 (Marissa), Village Woman 2 (Dana)\n7:15PM-9:30PM Nia (Gelvina) Simon (James),Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Villager Man (Fredrick)  Gossip Girls (Annia, Victorya, Shanice, Gabriela) /Roman Announcer,(Amadeus Hills)",
-        "callGroups": [
-          "Principals/Featured",
-          "Ensemble"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -3107,6 +3114,18 @@
           },
           {
             "displayName": "Amadeus Hills"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          },
+          {
+            "displayName": "Anaia Downer"
           }
         ],
         "calledPeopleIds": [
@@ -3128,12 +3147,13 @@
           "P-michael-stover",
           "P-chris-mcanuff",
           "P-fredrick-custard",
-          "P-amadeus-hills"
+          "P-amadeus-hills",
+          "P-gabriela-sardinas",
+          "P-shanice-palmer",
+          "P-victorya-champagne",
+          "P-anaia-downer"
         ],
-        "calledGroups": [
-          "Principals/Featured",
-          "Ensemble"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
@@ -3195,7 +3215,6 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers\n\n 6:30 PM- 9:30PM-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla",
         "callGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -3207,15 +3226,18 @@
           },
           {
             "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
           }
         ],
         "calledPeopleIds": [
           "P-jordyn-starks",
           "P-caleb-davilmar",
-          "P-kevin-hohn"
+          "P-kevin-hohn",
+          "P-charla-yvonne-cornelius"
         ],
         "calledGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -3537,7 +3559,6 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30PM–8:30 PM- Dancers\n 6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick), Elizabeth, adult principals",
         "callGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "calledPeople": [
@@ -3561,7 +3582,6 @@
           "P-audrey-howell-mcclenney"
         ],
         "calledGroups": [
-          "Principals/Featured",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -4774,7 +4794,7 @@
       {
         "id": "ensemble",
         "name": "Ensemble",
-        "count": 22
+        "count": 20
       },
       {
         "id": "full-company",
@@ -4784,7 +4804,7 @@
       {
         "id": "principals-featured",
         "name": "Principals/Featured",
-        "count": 24
+        "count": 18
       }
     ],
     "count": 44,
@@ -5104,14 +5124,14 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-07T01:36:34.922Z",
+    "updated": "2026-09-07T04:52:48.585Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-07T01:36:34.922Z",
+    "updated": "2026-09-07T04:52:48.585Z",
     "kind": "music"
   }
 }

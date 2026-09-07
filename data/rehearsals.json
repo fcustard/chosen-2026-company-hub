@@ -253,7 +253,7 @@
     "start": "Sep 12, 2026 10:00 AM",
     "end": "Sep 12, 2026 2:00 PM",
     "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
-    "location": "Virtual / Off-site - details TBD",
+    "location": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
     "status": "VIRTUAL",
     "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
     "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
@@ -308,7 +308,7 @@
     "start": "Sep 16, 2026 6:30 PM",
     "end": "Sep 16, 2026 9:30 PM",
     "title": "CHOSEN Rehearsal - Scene 6 + Scene 7",
-    "location": "TBD",
+    "location": "https://us02web.zoom.us/j/83890862891?pwd=oiszQk3ekWaXS05dDYGBphHDYMJNhz.1",
     "status": "VIRTUAL",
     "called": "6:30–8:00 PM — (Mary (Jordyn), Joseph (Caleb)\n8:00–9:30 PM —  Mary (Jordyn), Elizabeth; Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
     "work": "Two Roads of Faith; Mary/Elizabeth work; Joseph/Gabriel work.",
@@ -460,7 +460,7 @@
     "start": "Sep 24, 2026 6:30 PM",
     "end": "Sep 24, 2026 9:30 PM",
     "title": "CHOSEN Rehearsal - Scene 10 & 11",
-    "location": "Virtual / Off-site - details TBD",
+    "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
     "status": "VIRTUAL",
     "called": "6:30PM-9:30PM- Mary (Jordyn), Caleb (Joseph)\n6:30PM-7:30PM- Actors ONLY: Child Speakers: (Child 1 (Neclia) Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina) Simon (James), Villager Woman 1 (Marissa), Village Woman 2 (Dana)\n7:15PM-9:30PM Nia (Gelvina) Simon (James),Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Villager Man (Fredrick)  Gossip Girls (Annia, Victorya, Shanice, Gabriela) /Roman Announcer,(Amadeus Hills)",
     "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
@@ -484,7 +484,11 @@
       "Michael Stover",
       "Chris Mcanuff",
       "Fredrick Custard",
-      "Amadeus Hills"
+      "Amadeus Hills",
+      "Gabriela Sardinas",
+      "Shanice Palmer",
+      "Victorya Champagne",
+      "Anaia Downer"
     ],
     "calledPeopleIds": [
       "P-jordyn-starks",
@@ -505,12 +509,13 @@
       "P-michael-stover",
       "P-chris-mcanuff",
       "P-fredrick-custard",
-      "P-amadeus-hills"
+      "P-amadeus-hills",
+      "P-gabriela-sardinas",
+      "P-shanice-palmer",
+      "P-victorya-champagne",
+      "P-anaia-downer"
     ],
-    "calledGroups": [
-      "Principals/Featured",
-      "Ensemble"
-    ],
+    "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260924-REH"
@@ -549,15 +554,16 @@
     "calledPeople": [
       "Jordyn Starks",
       "Caleb Davilmar",
-      "Kevin Hohn"
+      "Kevin Hohn",
+      "Charla-Yvonne Cornelius"
     ],
     "calledPeopleIds": [
       "P-jordyn-starks",
       "P-caleb-davilmar",
-      "P-kevin-hohn"
+      "P-kevin-hohn",
+      "P-charla-yvonne-cornelius"
     ],
     "calledGroups": [
-      "Principals/Featured",
       "Dancers"
     ],
     "exactCallStatus": "READY",
@@ -754,7 +760,6 @@
       "P-audrey-howell-mcclenney"
     ],
     "calledGroups": [
-      "Principals/Featured",
       "Dancers"
     ],
     "exactCallStatus": "READY",
