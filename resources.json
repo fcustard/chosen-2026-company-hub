@@ -1,0 +1,50 @@
+[
+  {
+    "id": "company-guide",
+    "title": "CHOSEN 2026 Company Guide",
+    "category": "Company Essentials",
+    "description": "Core company expectations, communication, rehearsal standards, and production information.",
+    "status": "COMING SOON",
+    "approved": false,
+    "companyPublish": false,
+    "fileUrl": "",
+    "linkLabel": "Open guide",
+    "featured": true
+  },
+  {
+    "id": "character-embodiment-workbook",
+    "title": "Character Embodiment Workbook",
+    "category": "Rehearsal Resources",
+    "description": "Actor-facing character embodiment work for rehearsal and preparation.",
+    "status": "COMING SOON",
+    "approved": false,
+    "companyPublish": false,
+    "fileUrl": "",
+    "linkLabel": "Open resource",
+    "featured": false
+  },
+  {
+    "id": "living-village-resource",
+    "title": "Nazareth Living Village Resource",
+    "category": "Rehearsal Resources",
+    "description": "Company material supporting the living, social world of Nazareth.",
+    "status": "COMING SOON",
+    "approved": false,
+    "companyPublish": false,
+    "fileUrl": "",
+    "linkLabel": "Open resource",
+    "featured": false
+  },
+  {
+    "id": "rehearsal-prep",
+    "title": "Rehearsal Prep & Assignments",
+    "category": "Rehearsal Resources",
+    "description": "Released rehearsal preparation, assignments, and supporting handouts.",
+    "status": "COMING SOON",
+    "approved": false,
+    "companyPublish": false,
+    "fileUrl": "",
+    "linkLabel": "Open resource",
+    "featured": false
+  }
+]
