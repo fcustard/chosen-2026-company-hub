@@ -607,6 +607,46 @@ document.addEventListener('DOMContentLoaded', async () => {
     let personalView = false;
     let person = null;
 
+    /*
+     * Person IDs can arrive from different sources with or without
+     * the Exact Calls "P-" prefix.
+     *
+     * Example:
+     *   company.json: charla-yvonne-cornelius
+     *   content.json: P-charla-yvonne-cornelius
+     *
+     * These helpers keep My Calls exact without relying on broad
+     * group fallbacks.
+     */
+    function canonicalPersonId(value = '') {
+      return String(value || '')
+        .trim()
+        .toLowerCase()
+        .replace(/^p[-_]/, '')
+        .replace(/[_\s]+/g, '-');
+    }
+
+    function samePersonId(a = '', b = '') {
+      const aa = canonicalPersonId(a);
+      const bb = canonicalPersonId(b);
+
+      return !!aa && !!bb && aa === bb;
+    }
+
+    function normalizedName(value = '') {
+      return norm(value)
+        .replace(/[^a-z0-9]+/g, ' ')
+        .trim()
+        .replace(/\s+/g, ' ');
+    }
+
+    function samePersonName(a = '', b = '') {
+      const aa = normalizedName(a);
+      const bb = normalizedName(b);
+
+      return !!aa && !!bb && aa === bb;
+    }
+
     try {
       const personId =
         localStorage.getItem(personKey);
@@ -620,17 +660,17 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (rr.ok) {
           const roster = await rr.json();
 
-          const people =
-            Array.isArray(roster.people)
-              ? roster.people
-              : [];
-
           person =
-            people.find(
-              p =>
-                normalizePersonId(p.id) ===
-                normalizePersonId(personId)
+            (roster.people || []).find(
+              p => samePersonId(p.id, personId)
             ) || null;
+
+          if (person?.id && person.id !== personId) {
+            localStorage.setItem(
+              personKey,
+              person.id
+            );
+          }
 
           personalView = !!person;
         }
@@ -642,49 +682,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '')
         .toLowerCase();
-    }
-
-    function normalizePersonId(value = '') {
-      return String(value || '')
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .trim()
-        .toLowerCase();
-    }
-
-    function normalizePersonName(value = '') {
-      return String(value || '')
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .replace(/[’]/g, "'")
-        .replace(/\s+/g, ' ')
-        .trim()
-        .toLowerCase();
-    }
-
-    function normalizedPersonNameCandidates(p) {
-      const values = [
-        p?.name,
-        p?.fullName,
-        p?.displayName,
-        p?.preferredName
-      ];
-
-      if (Array.isArray(p?.aliases)) {
-        values.push(...p.aliases);
-      }
-
-      if (Array.isArray(p?.alternateNames)) {
-        values.push(...p.alternateNames);
-      }
-
-      return Array.from(
-        new Set(
-          values
-            .map(normalizePersonName)
-            .filter(Boolean)
-        )
-      );
     }
 
     function parseDateParts(x) {
@@ -953,8 +950,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           'exactCallStatus'
         ) ||
         Array.isArray(x.calledPeopleIds) ||
-        Array.isArray(x.calledGroups) ||
-        Array.isArray(x.calledPeople);
+        Array.isArray(x.calledGroups);
 
       if (hasExactCallData) {
         if (status !== 'READY') {
@@ -962,56 +958,76 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         const personId =
-          normalizePersonId(person.id);
+          String(person.id || '').trim();
+
+        const personName =
+          String(
+            person.name ||
+              person.displayName ||
+              ''
+          ).trim();
 
         const calledPeopleIds =
           Array.isArray(x.calledPeopleIds)
             ? x.calledPeopleIds
-                .map(normalizePersonId)
+                .map(v =>
+                  String(v || '').trim()
+                )
                 .filter(Boolean)
             : [];
 
-        /*
-         * Exact person matching must work even when no group is called.
-         * This is what keeps targeted rehearsals from requiring broad
-         * groups such as Principals/Featured just to appear in My Calls.
-         */
-        if (
-          personId &&
-          calledPeopleIds.includes(personId)
-        ) {
-          return true;
-        }
-
-        /*
-         * Safe backup for generated content that carries exact names
-         * but not IDs. This is still exact-call data, not broad inference.
-         */
-        const calledPeopleNames =
+        const calledPeople =
           Array.isArray(x.calledPeople)
             ? x.calledPeople
-                .map(normalizePersonName)
+                .map(item => {
+                  if (
+                    item &&
+                    typeof item === 'object'
+                  ) {
+                    return String(
+                      item.displayName ||
+                        item.name ||
+                        item.id ||
+                        ''
+                    ).trim();
+                  }
+
+                  return String(item || '').trim();
+                })
                 .filter(Boolean)
             : [];
 
-        const personNames =
-          normalizedPersonNameCandidates(person);
+        const calledGroups =
+          normalizeGroupList(x.calledGroups);
+
+        const calledGroupKeys =
+          new Set(
+            calledGroups.map(group =>
+              norm(group)
+            )
+          );
 
         if (
-          personNames.some(
-            name =>
-              calledPeopleNames.includes(name)
+          personId &&
+          calledPeopleIds.some(id =>
+            samePersonId(id, personId)
           )
         ) {
           return true;
         }
 
-        const calledGroups =
-          normalizeGroupList(x.calledGroups);
+        if (
+          personName &&
+          calledPeople.some(name =>
+            samePersonName(name, personName)
+          )
+        ) {
+          return true;
+        }
 
         if (
-          calledGroups.includes(
-            'Full Company'
+          calledGroupKeys.has(
+            norm('Full Company')
           )
         ) {
           return true;
@@ -1028,7 +1044,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         return personGroups.some(
           group =>
-            calledGroups.includes(group)
+            calledGroupKeys.has(norm(group))
         );
       }
 
@@ -1036,17 +1052,16 @@ document.addEventListener('DOMContentLoaded', async () => {
        * Legacy fallback only.
        */
       const calledText =
-        normalizePersonName(x.called || '');
+        String(x.called || '')
+          .toLowerCase();
 
-      const personNames =
-        normalizedPersonNameCandidates(person);
+      const fullName =
+        String(person.name || '')
+          .toLowerCase();
 
       if (
-        personNames.some(
-          name =>
-            name &&
-            calledText.includes(name)
-        )
+        fullName &&
+        calledText.includes(fullName)
       ) {
         return true;
       }
