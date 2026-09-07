@@ -1,0 +1,14 @@
+[
+  {
+    "id": "company-guide",
+    "title": "CHOSEN 2026 Company Guide",
+    "category": "Company Essentials",
+    "description": "Core company expectations, communication, rehearsal standards, and production information.",
+    "status": "CURRENT",
+    "approved": true,
+    "companyPublish": true,
+    "fileUrl": "resources/chosen-2026-company-guide.pdf",
+    "linkLabel": "Open guide",
+    "featured": true
+  }
+]

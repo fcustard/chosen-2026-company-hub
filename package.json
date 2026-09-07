@@ -5,12 +5,12 @@
   "scripts": {
     "validate:base": "node tools/validate.mjs",
     "validate:scenes": "node tools/validate-scenes.mjs",
-    "validate": "npm run validate:base && npm run validate:scenes",
-
+    "validate:resources": "node tools/validate-resources.mjs",
+    "validate": "npm run validate:base && npm run validate:scenes && npm run validate:resources",
     "build:scenes": "node tools/build-scenes.mjs",
+    "build:resources": "node tools/build-resources.mjs",
     "build:hub": "node tools/build.mjs",
-    "build": "npm run build:scenes && npm run build:hub",
-
+    "build": "npm run build:scenes && npm run build:resources && npm run build:hub",
     "check": "npm run validate && npm run build"
   }
 }
