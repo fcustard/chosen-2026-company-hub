@@ -8,6 +8,7 @@ on:
       - "data/**"
       - "templates/**"
       - "tools/**"
+      - "resources/**"
       - "package.json"
       - ".github/workflows/chosen-hub-automation.yml"
 
@@ -23,7 +24,7 @@ permissions:
 
 concurrency:
   group: chosen-hub-automation
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   validate-and-build:
@@ -32,6 +33,8 @@ jobs:
     steps:
       - name: Check out CHOSEN Hub
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -54,26 +57,30 @@ jobs:
       - name: Validate publication integrity and upcoming schedule
         run: node tools/validate-publication-integrity.mjs
 
-      - name: Validate production data and scene publication
+      - name: Validate production data, scenes, and resources
         run: npm run validate
 
-      - name: Build scene readers and Hub content
+      - name: Build scene readers, resources, and Hub content
         run: npm run build
 
       - name: Publish generated website files
         run: |
-          if git diff --quiet; then
+          git config user.name "CHOSEN Hub Automation"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add data/rehearsals.json || true
+          git add data/company.json || true
+          git add data/content.json || true
+          git add content.json || true
+          git add scene-*.html || true
+          git add resources.html || true
+
+          if git diff --cached --quiet; then
             echo "No generated Hub changes."
             exit 0
           fi
 
-          git config user.name "CHOSEN Hub Automation"
-          git config user.email "actions@users.noreply.github.com"
-
-          git add data/rehearsals.json
-          git add data/company.json
-          git add content.json
-          git add scene-*.html
-
           git commit -m "Automated Hub content update"
+
+          git pull --rebase origin main
           git push
