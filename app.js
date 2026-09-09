@@ -152,6 +152,21 @@ function displayDateLabel(record) {
   );
 }
 
+function thisWeekLocationHtml(x = {}) {
+  const raw = String(x.location || '').trim();
+  const short = String(
+    x.locationShort ||
+      raw ||
+      'Location TBD'
+  ).trim();
+
+  if (/^https?:\/\//i.test(raw)) {
+    return `<a class="locationLink" href="${esc(raw)}" target="_blank" rel="noopener">Join virtual rehearsal ↗</a>`;
+  }
+
+  return esc(short || 'Location TBD');
+}
+
 /**
  * CHOSEN 2026 — Next Published Rehearsal
  *
@@ -392,7 +407,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
               <div>
                 <b>WHERE</b>
-                <span>${esc(x.location)}</span>
+                <span>${thisWeekLocationHtml(x)}</span>
               </div>
             </div>
 
