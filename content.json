@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T00:11:28.427Z",
+  "updated": "2026-09-10T04:37:16.083Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -9,22 +9,23 @@
     "help": "https://docs.google.com/forms/d/e/1FAIpQLSeiTsJrCmCAJ44woJG4mUNBHGJnb1fWSol5Xzc4Kvy-Hlha6Q/viewform?usp=header"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20260909-REH",
-    "eventKey": "CHOSEN-20260909-REH",
-    "start": "2026-09-09T22:30:00.000Z",
-    "end": "2026-09-10T01:30:00.000Z",
-    "date": "September 9, 2026",
-    "dateIso": "2026-09-09",
-    "day": "Wednesday",
-    "dateLabel": "September 9, 2026",
-    "dayLabel": "Wednesday",
+    "id": "CHOSEN-20260910-REH",
+    "eventKey": "CHOSEN-20260910-REH",
+    "start": "2026-09-10T22:30:00.000Z",
+    "end": "2026-09-11T01:30:00.000Z",
+    "date": "September 10, 2026",
+    "dateIso": "2026-09-10",
+    "day": "Thursday",
+    "dateLabel": "September 10, 2026",
+    "dayLabel": "Thursday",
     "time": "6:30 PM–9:30 PM",
-    "title": "CHOSEN Rehearsal - Scenes 1 (Dance Only), 4 & 6",
+    "title": "CHOSEN Rehearsal - Scenes 1, 5, & 7",
     "status": "CONFIRMED",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
+    "called": "6:30–8:00 PM —Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                                     \n\n6:30–8:30 PM----Dancers\n\n8:00–9:30 PM — Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
     "callGroups": [
+      "Principals/Featured",
       "Dancers"
     ],
     "calledPeople": [
@@ -32,103 +33,50 @@
         "displayName": "Jordyn Starks"
       },
       {
-        "displayName": "Tasha Simeon"
-      },
-      {
-        "displayName": "Tyfany Adaka"
-      },
-      {
-        "displayName": "Jéovanie André"
-      },
-      {
-        "displayName": "Ashley Pierre"
-      },
-      {
         "displayName": "Caleb Davilmar"
+      },
+      {
+        "displayName": "Audrey Howell-McClenney"
+      },
+      {
+        "displayName": "Marcus Mainer"
+      },
+      {
+        "displayName": "Dorrien Jones"
+      },
+      {
+        "displayName": "Michael Stover"
+      },
+      {
+        "displayName": "Chris Mcanuff"
       }
     ],
     "calledPeopleIds": [
       "P-jordyn-starks",
-      "P-tasha-simeon",
-      "P-tyfany-adaka",
-      "P-jeovanie-andre",
-      "P-ashley-pierre",
-      "P-caleb-davilmar"
+      "P-caleb-davilmar",
+      "P-audrey-howell-mcclenney",
+      "P-marcus-mainer",
+      "P-dorrien-jones",
+      "P-michael-stover",
+      "P-chris-mcanuff"
     ],
     "calledGroups": [
+      "Principals/Featured",
       "Dancers"
     ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Scene 1 Dance Work; The Secret; The Truth / It's Not Mine table work and scene beats.",
+    "work": "Brotherhood scene work and Joseph-side material.",
     "focus": "",
-    "prep": "Actors: Please have Scenes 1,4,6 available.",
+    "prep": "Dance Ensemble: Come ready to review and learn new Choreography.    Actors: Come ready to go over dialouge and practice movement for Scene 5",
     "notice": "",
     "changeType": ""
   },
   "thisWeek": {
     "title": "This Week",
-    "start": "2026-09-09T04:00:00.000Z",
-    "end": "2026-09-16T03:59:59.000Z",
+    "start": "2026-09-10T04:00:00.000Z",
+    "end": "2026-09-17T03:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20260909-REH",
-        "eventKey": "CHOSEN-20260909-REH",
-        "start": "2026-09-09T22:30:00.000Z",
-        "end": "2026-09-10T01:30:00.000Z",
-        "date": "September 9, 2026",
-        "dateIso": "2026-09-09",
-        "day": "Wednesday",
-        "dateLabel": "September 9, 2026",
-        "dayLabel": "Wednesday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 1 (Dance Only), 4 & 6",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
-        "callGroups": [
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-caleb-davilmar"
-        ],
-        "calledGroups": [
-          "Dancers"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scene 1 Dance Work; The Secret; The Truth / It's Not Mine table work and scene beats.",
-        "focus": "",
-        "prep": "Actors: Please have Scenes 1,4,6 available.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260910-REH",
         "eventKey": "CHOSEN-20260910-REH",
@@ -294,6 +242,64 @@
         "prep": "Actors: Review dialogue",
         "notice": "",
         "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20260916-REH",
+        "eventKey": "CHOSEN-20260916-REH",
+        "start": "2026-09-16T22:30:00.000Z",
+        "end": "2026-09-17T01:30:00.000Z",
+        "date": "September 16, 2026",
+        "dateIso": "2026-09-16",
+        "day": "Wednesday",
+        "dateLabel": "September 16, 2026",
+        "dayLabel": "Wednesday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 6 + Scene 7",
+        "status": "VIRTUAL",
+        "location": "https://us02web.zoom.us/j/83890862891?pwd=oiszQk3ekWaXS05dDYGBphHDYMJNhz.1",
+        "locationShort": "https://us02web.zoom.us/j/83890862891?pwd=oiszQk3ekWaXS05dDYGBphHDYMJNhz.1",
+        "called": "6:30–8:00 PM — (Mary (Jordyn), Joseph (Caleb)\n8:00–9:30 PM —  Mary (Jordyn), Elizabeth; Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-audrey-howell-mcclenney"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Two Roads of Faith; Mary/Elizabeth work; Joseph/Gabriel work.",
+        "focus": "",
+        "prep": "Actors: Dialouge & light blocking",
+        "notice": "",
+        "changeType": ""
       }
     ],
     "count": 3
@@ -302,64 +308,6 @@
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20260909-REH",
-        "eventKey": "CHOSEN-20260909-REH",
-        "start": "2026-09-09T22:30:00.000Z",
-        "end": "2026-09-10T01:30:00.000Z",
-        "date": "September 9, 2026",
-        "dateIso": "2026-09-09",
-        "day": "Wednesday",
-        "dateLabel": "September 9, 2026",
-        "dayLabel": "Wednesday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 1 (Dance Only), 4 & 6",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
-        "callGroups": [
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-caleb-davilmar"
-        ],
-        "calledGroups": [
-          "Dancers"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scene 1 Dance Work; The Secret; The Truth / It's Not Mine table work and scene beats.",
-        "focus": "",
-        "prep": "Actors: Please have Scenes 1,4,6 available.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260910-REH",
         "eventKey": "CHOSEN-20260910-REH",
@@ -2215,6 +2163,64 @@
     ],
     "pastRehearsals": [
       {
+        "id": "CHOSEN-20260909-REH",
+        "eventKey": "CHOSEN-20260909-REH",
+        "start": "2026-09-09T22:30:00.000Z",
+        "end": "2026-09-10T01:30:00.000Z",
+        "date": "September 9, 2026",
+        "dateIso": "2026-09-09",
+        "day": "Wednesday",
+        "dateLabel": "September 9, 2026",
+        "dayLabel": "Wednesday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scenes 1 (Dance Only), 4 & 6",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
+        "callGroups": [
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar"
+        ],
+        "calledGroups": [
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Scene 1 Dance Work; The Secret; The Truth / It's Not Mine table work and scene beats.",
+        "focus": "",
+        "prep": "Actors: Please have Scenes 1,4,6 available.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260905-REH",
         "eventKey": "CHOSEN-20260905-REH",
         "start": "2026-09-05T14:00:00.000Z",
@@ -2536,64 +2542,6 @@
       }
     ],
     "allRehearsals": [
-      {
-        "id": "CHOSEN-20260909-REH",
-        "eventKey": "CHOSEN-20260909-REH",
-        "start": "2026-09-09T22:30:00.000Z",
-        "end": "2026-09-10T01:30:00.000Z",
-        "date": "September 9, 2026",
-        "dateIso": "2026-09-09",
-        "day": "Wednesday",
-        "dateLabel": "September 9, 2026",
-        "dayLabel": "Wednesday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 1 (Dance Only), 4 & 6",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
-        "callGroups": [
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-caleb-davilmar"
-        ],
-        "calledGroups": [
-          "Dancers"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scene 1 Dance Work; The Secret; The Truth / It's Not Mine table work and scene beats.",
-        "focus": "",
-        "prep": "Actors: Please have Scenes 1,4,6 available.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260910-REH",
         "eventKey": "CHOSEN-20260910-REH",
@@ -4447,6 +4395,64 @@
         "changeType": ""
       },
       {
+        "id": "CHOSEN-20260909-REH",
+        "eventKey": "CHOSEN-20260909-REH",
+        "start": "2026-09-09T22:30:00.000Z",
+        "end": "2026-09-10T01:30:00.000Z",
+        "date": "September 9, 2026",
+        "dateIso": "2026-09-09",
+        "day": "Wednesday",
+        "dateLabel": "September 9, 2026",
+        "dayLabel": "Wednesday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scenes 1 (Dance Only), 4 & 6",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30–8:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)   \n\n6:30–8:30 PM--- Dancers\n\n8:00–9:30 PM — Mary (Jordyn), Joseph (Caleb)",
+        "callGroups": [
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar"
+        ],
+        "calledGroups": [
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Scene 1 Dance Work; The Secret; The Truth / It's Not Mine table work and scene beats.",
+        "focus": "",
+        "prep": "Actors: Please have Scenes 1,4,6 available.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260905-REH",
         "eventKey": "CHOSEN-20260905-REH",
         "start": "2026-09-05T14:00:00.000Z",
@@ -4781,7 +4787,7 @@
       {
         "id": "dancers",
         "name": "Dancers",
-        "count": 44
+        "count": 42
       },
       {
         "id": "ensemble",
@@ -4799,8 +4805,8 @@
         "count": 16
       }
     ],
-    "count": 44,
-    "pastCount": 5
+    "count": 43,
+    "pastCount": 6
   },
   "scripts": {
     "items": [
@@ -5116,14 +5122,14 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-10T00:11:28.428Z",
+    "updated": "2026-09-10T04:37:16.084Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-10T00:11:28.428Z",
+    "updated": "2026-09-10T04:37:16.084Z",
     "kind": "music"
   }
 }
