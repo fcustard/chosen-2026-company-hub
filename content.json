@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T16:16:24.286Z",
+  "updated": "2026-09-12T18:31:59.632Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -9,37 +9,25 @@
     "help": "https://docs.google.com/forms/d/e/1FAIpQLSeiTsJrCmCAJ44woJG4mUNBHGJnb1fWSol5Xzc4Kvy-Hlha6Q/viewform?usp=header"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20260912-REH",
-    "eventKey": "CHOSEN-20260912-REH",
-    "start": "2026-09-12T14:00:00.000Z",
-    "end": "2026-09-12T18:00:00.000Z",
-    "date": "September 12, 2026",
-    "dateIso": "2026-09-12",
-    "day": "Saturday",
-    "dateLabel": "September 12, 2026",
-    "dayLabel": "Saturday",
-    "time": "10:00 AM–2:00 PM",
-    "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
+    "id": "CHOSEN-20260916-REH",
+    "eventKey": "CHOSEN-20260916-REH",
+    "start": "2026-09-16T22:30:00.000Z",
+    "end": "2026-09-17T01:30:00.000Z",
+    "date": "September 16, 2026",
+    "dateIso": "2026-09-16",
+    "day": "Wednesday",
+    "dateLabel": "September 16, 2026",
+    "dayLabel": "Wednesday",
+    "time": "6:30 PM–9:30 PM",
+    "title": "CHOSEN Rehearsal - Scene 6 + Scene 7",
     "status": "VIRTUAL",
-    "location": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
-    "locationShort": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
-    "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+    "location": "https://us02web.zoom.us/j/83890862891?pwd=oiszQk3ekWaXS05dDYGBphHDYMJNhz.1",
+    "locationShort": "https://us02web.zoom.us/j/83890862891?pwd=oiszQk3ekWaXS05dDYGBphHDYMJNhz.1",
+    "called": "6:30–8:00 PM — (Mary (Jordyn), Joseph (Caleb)\n8:00–9:30 PM —  Mary (Jordyn), Elizabeth; Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
     "callGroups": [],
     "calledPeople": [
       {
         "displayName": "Jordyn Starks"
-      },
-      {
-        "displayName": "Tasha Simeon"
-      },
-      {
-        "displayName": "Tyfany Adaka"
-      },
-      {
-        "displayName": "Jéovanie André"
-      },
-      {
-        "displayName": "Ashley Pierre"
       },
       {
         "displayName": "Caleb Davilmar"
@@ -57,56 +45,24 @@
         "displayName": "Chris Mcanuff"
       },
       {
-        "displayName": "Etta Wright"
-      },
-      {
-        "displayName": "Kevin Hohn"
-      },
-      {
-        "displayName": "Jayden Harris"
-      },
-      {
-        "displayName": "Charla-Yvonne Cornelius"
-      },
-      {
-        "displayName": "Anaia Downer"
-      },
-      {
-        "displayName": "Shanice Palmer"
-      },
-      {
-        "displayName": "Victorya Champagne"
-      },
-      {
-        "displayName": "Gabriela Sardinas"
+        "displayName": "Audrey Howell-McClenney"
       }
     ],
     "calledPeopleIds": [
       "P-jordyn-starks",
-      "P-tasha-simeon",
-      "P-tyfany-adaka",
-      "P-jeovanie-andre",
-      "P-ashley-pierre",
       "P-caleb-davilmar",
       "P-marcus-mainer",
       "P-dorrien-jones",
       "P-michael-stover",
       "P-chris-mcanuff",
-      "P-etta-wright",
-      "P-kevin-hohn",
-      "P-jayden-harris",
-      "P-charla-yvonne-cornelius",
-      "P-anaia-downer",
-      "P-shanice-palmer",
-      "P-victorya-champagne",
-      "P-gabriela-sardinas"
+      "P-audrey-howell-mcclenney"
     ],
     "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
+    "work": "Two Roads of Faith; Mary/Elizabeth work; Joseph/Gabriel work.",
     "focus": "",
-    "prep": "Actors: Review dialogue",
+    "prep": "Actors: Dialouge & light blocking",
     "notice": "",
     "changeType": ""
   },
@@ -115,108 +71,6 @@
     "start": "2026-09-12T04:00:00.000Z",
     "end": "2026-09-19T03:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20260912-REH",
-        "eventKey": "CHOSEN-20260912-REH",
-        "start": "2026-09-12T14:00:00.000Z",
-        "end": "2026-09-12T18:00:00.000Z",
-        "date": "September 12, 2026",
-        "dateIso": "2026-09-12",
-        "day": "Saturday",
-        "dateLabel": "September 12, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
-        "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
-        "locationShort": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
-        "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Etta Wright"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Jayden Harris"
-          },
-          {
-            "displayName": "Charla-Yvonne Cornelius"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Victorya Champagne"
-          },
-          {
-            "displayName": "Gabriela Sardinas"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-caleb-davilmar",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff",
-          "P-etta-wright",
-          "P-kevin-hohn",
-          "P-jayden-harris",
-          "P-charla-yvonne-cornelius",
-          "P-anaia-downer",
-          "P-shanice-palmer",
-          "P-victorya-champagne",
-          "P-gabriela-sardinas"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
-        "focus": "",
-        "prep": "Actors: Review dialogue",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260916-REH",
         "eventKey": "CHOSEN-20260916-REH",
@@ -314,114 +168,12 @@
         "changeType": ""
       }
     ],
-    "count": 3
+    "count": 2
   },
   "schedule": {
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20260912-REH",
-        "eventKey": "CHOSEN-20260912-REH",
-        "start": "2026-09-12T14:00:00.000Z",
-        "end": "2026-09-12T18:00:00.000Z",
-        "date": "September 12, 2026",
-        "dateIso": "2026-09-12",
-        "day": "Saturday",
-        "dateLabel": "September 12, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
-        "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
-        "locationShort": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
-        "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Etta Wright"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Jayden Harris"
-          },
-          {
-            "displayName": "Charla-Yvonne Cornelius"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Victorya Champagne"
-          },
-          {
-            "displayName": "Gabriela Sardinas"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-caleb-davilmar",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff",
-          "P-etta-wright",
-          "P-kevin-hohn",
-          "P-jayden-harris",
-          "P-charla-yvonne-cornelius",
-          "P-anaia-downer",
-          "P-shanice-palmer",
-          "P-victorya-champagne",
-          "P-gabriela-sardinas"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
-        "focus": "",
-        "prep": "Actors: Review dialogue",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260916-REH",
         "eventKey": "CHOSEN-20260916-REH",
@@ -578,7 +330,7 @@
         "callDataVersion": 3,
         "work": "Stage Scenes 6–8; transitions; spacing",
         "focus": "",
-        "prep": "Dance Ensemble: Be ready to transition to next part of the song. Actors: dialouge, light blocking and singing techniques.",
+        "prep": "Dance Ensemble: Be ready to transition to next part of the song.\n Actors: SCENE 1 (MUST BE OFF SCRIPT), light blocking and singing techniques.",
         "notice": "",
         "changeType": ""
       },
@@ -597,7 +349,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — Dancers, Child Storytellers Nia (Gelvina) Simon ( James)  Mary (Jordyn), Joseph (Caleb)\n6:30PM-9:30PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey),Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden),Gossip Girls (Annia, Victorya, Shanice, Gabriela)   Villagers (Etta), (Sandra) / Scene 9 Ensemble",
+        "called": "6:30–8:30 PM — Child Storytellers Nia (Gelvina), Simon ( James),  Mary (Jordyn), Joseph (Caleb)\n6:30–8:30 PM — Dancers\n6:30 PM-9:30 PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden), Gossipers (Annia, Victorya, Shanice, Gabriela)   Villagers (Etta), (Sandra) / Scene 9 Ensemble",
         "callGroups": [
           "Principals/Featured",
           "Children/Youth",
@@ -2111,6 +1863,108 @@
     ],
     "pastRehearsals": [
       {
+        "id": "CHOSEN-20260912-REH",
+        "eventKey": "CHOSEN-20260912-REH",
+        "start": "2026-09-12T14:00:00.000Z",
+        "end": "2026-09-12T18:00:00.000Z",
+        "date": "September 12, 2026",
+        "dateIso": "2026-09-12",
+        "day": "Saturday",
+        "dateLabel": "September 12, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
+        "status": "VIRTUAL",
+        "location": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
+        "locationShort": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
+        "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Etta Wright"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-etta-wright",
+          "P-kevin-hohn",
+          "P-jayden-harris",
+          "P-charla-yvonne-cornelius",
+          "P-anaia-downer",
+          "P-shanice-palmer",
+          "P-victorya-champagne",
+          "P-gabriela-sardinas"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
+        "focus": "",
+        "prep": "Actors: Review dialogue",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260910-REH",
         "eventKey": "CHOSEN-20260910-REH",
         "start": "2026-09-10T22:30:00.000Z",
@@ -2555,108 +2409,6 @@
     ],
     "allRehearsals": [
       {
-        "id": "CHOSEN-20260912-REH",
-        "eventKey": "CHOSEN-20260912-REH",
-        "start": "2026-09-12T14:00:00.000Z",
-        "end": "2026-09-12T18:00:00.000Z",
-        "date": "September 12, 2026",
-        "dateIso": "2026-09-12",
-        "day": "Saturday",
-        "dateLabel": "September 12, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
-        "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
-        "locationShort": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
-        "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Etta Wright"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Jayden Harris"
-          },
-          {
-            "displayName": "Charla-Yvonne Cornelius"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Victorya Champagne"
-          },
-          {
-            "displayName": "Gabriela Sardinas"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-caleb-davilmar",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff",
-          "P-etta-wright",
-          "P-kevin-hohn",
-          "P-jayden-harris",
-          "P-charla-yvonne-cornelius",
-          "P-anaia-downer",
-          "P-shanice-palmer",
-          "P-victorya-champagne",
-          "P-gabriela-sardinas"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
-        "focus": "",
-        "prep": "Actors: Review dialogue",
-        "notice": "",
-        "changeType": ""
-      },
-      {
         "id": "CHOSEN-20260916-REH",
         "eventKey": "CHOSEN-20260916-REH",
         "start": "2026-09-16T22:30:00.000Z",
@@ -2812,7 +2564,7 @@
         "callDataVersion": 3,
         "work": "Stage Scenes 6–8; transitions; spacing",
         "focus": "",
-        "prep": "Dance Ensemble: Be ready to transition to next part of the song. Actors: dialouge, light blocking and singing techniques.",
+        "prep": "Dance Ensemble: Be ready to transition to next part of the song.\n Actors: SCENE 1 (MUST BE OFF SCRIPT), light blocking and singing techniques.",
         "notice": "",
         "changeType": ""
       },
@@ -2831,7 +2583,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — Dancers, Child Storytellers Nia (Gelvina) Simon ( James)  Mary (Jordyn), Joseph (Caleb)\n6:30PM-9:30PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey),Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden),Gossip Girls (Annia, Victorya, Shanice, Gabriela)   Villagers (Etta), (Sandra) / Scene 9 Ensemble",
+        "called": "6:30–8:30 PM — Child Storytellers Nia (Gelvina), Simon ( James),  Mary (Jordyn), Joseph (Caleb)\n6:30–8:30 PM — Dancers\n6:30 PM-9:30 PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden), Gossipers (Annia, Victorya, Shanice, Gabriela)   Villagers (Etta), (Sandra) / Scene 9 Ensemble",
         "callGroups": [
           "Principals/Featured",
           "Children/Youth",
@@ -4343,6 +4095,108 @@
         "changeType": ""
       },
       {
+        "id": "CHOSEN-20260912-REH",
+        "eventKey": "CHOSEN-20260912-REH",
+        "start": "2026-09-12T14:00:00.000Z",
+        "end": "2026-09-12T18:00:00.000Z",
+        "date": "September 12, 2026",
+        "dateIso": "2026-09-12",
+        "day": "Saturday",
+        "dateLabel": "September 12, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
+        "status": "VIRTUAL",
+        "location": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
+        "locationShort": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
+        "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Etta Wright"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-caleb-davilmar",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-etta-wright",
+          "P-kevin-hohn",
+          "P-jayden-harris",
+          "P-charla-yvonne-cornelius",
+          "P-anaia-downer",
+          "P-shanice-palmer",
+          "P-victorya-champagne",
+          "P-gabriela-sardinas"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Virtual table, music, and line review for Scenes 1, 4 & 5; physical staging deferred.",
+        "focus": "",
+        "prep": "Actors: Review dialogue",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260910-REH",
         "eventKey": "CHOSEN-20260910-REH",
         "start": "2026-09-10T22:30:00.000Z",
@@ -4817,8 +4671,8 @@
         "count": 14
       }
     ],
-    "count": 42,
-    "pastCount": 7
+    "count": 41,
+    "pastCount": 8
   },
   "scripts": {
     "items": [
@@ -5134,14 +4988,14 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-12T16:16:24.287Z",
+    "updated": "2026-09-12T18:31:59.632Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-12T16:16:24.287Z",
+    "updated": "2026-09-12T18:31:59.632Z",
     "kind": "music"
   }
 }
