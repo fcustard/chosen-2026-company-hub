@@ -1,6 +1,6 @@
 name: CHOSEN Hub Automation
 
-on:
+"on":
   push:
     branches:
       - main
@@ -9,15 +9,21 @@ on:
       - "templates/**"
       - "tools/**"
       - "resources/**"
+      - "app.js"
+      - "*.html"
+      - "styles.css"
+      - "personalization-v1.css"
+      - "company-personalization.css"
+      - "company-personalization.js"
       - "package.json"
       - ".github/workflows/chosen-hub-automation.yml"
 
   workflow_dispatch:
 
   schedule:
-    # Keep the Company Hub reasonably current throughout the day.
-    # GitHub cron uses UTC.
-    - cron: "*/15 * * * *"
+    # GitHub cron uses UTC. This is the fastest supported schedule cadence.
+    # Offset from :00 to reduce the chance of high-load schedule delay.
+    - cron: "2-59/5 * * * *"
 
 permissions:
   contents: write
@@ -29,6 +35,7 @@ concurrency:
 jobs:
   validate-and-build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Check out CHOSEN Hub
@@ -49,7 +56,20 @@ jobs:
       - name: Sync company people and assignments from Admin Master Sheets
         env:
           COMPANY_FEED_URL: ${{ vars.COMPANY_FEED_URL }}
-        run: node tools/sync-company.mjs
+        run: |
+          set +e
+          node tools/sync-company.mjs
+          status=$?
+          set -e
+
+          if [ "$status" -ne 0 ]; then
+            echo "::warning::Company sync failed. Continuing with existing data/company.json so Master Calendar changes can still publish."
+
+            if [ ! -s data/company.json ]; then
+              echo "::error::data/company.json is missing or empty, so the Hub cannot safely continue."
+              exit "$status"
+            fi
+          fi
 
       - name: Validate exact personalized calls
         run: node tools/validate-exact-personalization.mjs
@@ -81,6 +101,5 @@ jobs:
           fi
 
           git commit -m "Automated Hub content update"
-
           git pull --rebase origin main
           git push
