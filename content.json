@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T00:23:15.539Z",
+  "updated": "2026-09-13T04:37:56.043Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -68,8 +68,8 @@
   },
   "thisWeek": {
     "title": "This Week",
-    "start": "2026-09-12T04:00:00.000Z",
-    "end": "2026-09-19T03:59:59.000Z",
+    "start": "2026-09-13T04:00:00.000Z",
+    "end": "2026-09-20T03:59:59.000Z",
     "rehearsals": [
       {
         "id": "CHOSEN-20260916-REH",
@@ -166,9 +166,73 @@
         "prep": "Dance Ensemble: Be ready to transition to next part of the song. Actors: dialouge, light blocking and singing techniques.",
         "notice": "",
         "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20260919-REH",
+        "eventKey": "CHOSEN-20260919-REH",
+        "start": "2026-09-19T14:00:00.000Z",
+        "end": "2026-09-19T18:00:00.000Z",
+        "date": "September 19, 2026",
+        "dateIso": "2026-09-19",
+        "day": "Saturday",
+        "dateLabel": "September 19, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Scenes 1;  6–8",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "FULL COMPANY REHEARSAL: \n 10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n\n11:00 AM- 2:00 PM- Elizabeth(Audrey), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                 \n\n10:00AM-2:00 PM- Dancers\n\n12:00 PM- 2:00pm- FULL COMPANY",
+        "callGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-audrey-howell-mcclenney",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
+        ],
+        "calledGroups": [
+          "Full Company",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Stage Scenes 6–8; transitions; spacing",
+        "focus": "",
+        "prep": "Dance Ensemble: Be ready to transition to next part of the song.\n Actors: SCENE 1 (MUST BE OFF SCRIPT), light blocking and singing techniques.",
+        "notice": "",
+        "changeType": ""
       }
     ],
-    "count": 2
+    "count": 3
   },
   "schedule": {
     "title": "Schedule",
@@ -4988,14 +5052,14 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-13T00:23:15.539Z",
+    "updated": "2026-09-13T04:37:56.044Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-13T00:23:15.539Z",
+    "updated": "2026-09-13T04:37:56.044Z",
     "kind": "music"
   }
 }
