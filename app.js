@@ -319,10 +319,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
 
       if (nrLocation) {
-        nrLocation.textContent =
-          x.locationShort ||
-          x.location ||
-          'Location TBD';
+        nrLocation.innerHTML = thisWeekLocationHtml(x);
       }
 
       if (nrFocus) {
