@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * CHOSEN 2026 — Master Script Direct Publish Sync V1.3
+ * CHOSEN 2026 — Master Script Direct Publish Sync V1.5
  *
  * Purpose:
  * - Fetch the current master script feed from Google Docs Apps Script.
- * - Split the script into Scene 01–12 sections, including Google Doc line-break variants and split numbered speaker names.
+ * - Split the script into Scene 01–12 sections, including Google Doc line-break variants and split numbered speaker names across every scene.
  * - Overwrite data/scenes/scene-##.json.
  * - Overwrite data/scripts.json so the Hub builds the newest scene readers.
  *
@@ -264,19 +264,33 @@ function mergeBrokenSpeakerNumberLines(lines) {
 
   for (let index = 0; index < lines.length; index += 1) {
     const line = String(lines[index] || "").trim();
-    const next = String(lines[index + 1] || "").trim();
 
-    // Google Docs can export numbered character names as two lines:
+    // Google Docs can export numbered character names as:
     // MERCHANT
     // 1
+    // or:
+    // MERCHANT
+    //
+    // 1
+    //
     // This repairs them back to MERCHANT 1 before the scene reader is built.
-    if (line && /^\d{1,2}$/.test(next)) {
-      const combined = `${line} ${next}`.replace(/\s+/g, " ").trim();
+    if (line) {
+      let numberIndex = index + 1;
 
-      if (isKnownSpeaker(combined)) {
-        merged.push(combined);
-        index += 1;
-        continue;
+      while (numberIndex < lines.length && !String(lines[numberIndex] || "").trim()) {
+        numberIndex += 1;
+      }
+
+      const next = String(lines[numberIndex] || "").trim();
+
+      if (/^\d{1,2}$/.test(next)) {
+        const combined = `${line} ${next}`.replace(/\s+/g, " ").trim();
+
+        if (isKnownSpeaker(combined)) {
+          merged.push(combined);
+          index = numberIndex;
+          continue;
+        }
       }
     }
 
@@ -419,7 +433,7 @@ function extractScenesFromText(text) {
       scene: scene.scene,
       title: titleForManifest(scene.scene, title),
       sourceText: sceneText,
-      blocks: linesToBlocks(cleanedLines)
+      blocks: repairSpeakerNumberBlocks(linesToBlocks(cleanedLines))
     };
   });
 }
@@ -541,6 +555,108 @@ function linesToBlocks(lines) {
   return blocks;
 }
 
+function cleanBlockText(value = "") {
+  return String(value || "")
+    .trim()
+    .replace(/[:：]+$/, "")
+    .replace(/\s+/g, " ");
+}
+
+function repairSpeakerNumberBlocks(blocks = []) {
+  const repaired = [];
+
+  for (let index = 0; index < blocks.length; index += 1) {
+    const block = blocks[index] || {};
+    const text = cleanBlockText(block.text || "");
+
+    if (text) {
+      let numberIndex = index + 1;
+
+      // Some feeds include a spacer block between the speaker base and the number.
+      while (
+        numberIndex < blocks.length &&
+        String(blocks[numberIndex]?.type || "").trim() === "spacer"
+      ) {
+        numberIndex += 1;
+      }
+
+      const nextText = cleanBlockText(blocks[numberIndex]?.text || "");
+
+      if (/^\d{1,2}$/.test(nextText)) {
+        const combined = `${text} ${nextText}`.replace(/\s+/g, " ").trim();
+
+        if (isKnownSpeaker(combined)) {
+          repaired.push({
+            ...block,
+            type: "character",
+            text: combined
+          });
+
+          index = numberIndex;
+          continue;
+        }
+      }
+    }
+
+    repaired.push(block);
+  }
+
+  return repaired;
+}
+
+function blocksToSourceText(blocks = []) {
+  return blocks
+    .map((block) => {
+      if (!block || typeof block !== "object") return "";
+      if (String(block.type || "").trim() === "spacer") return "";
+      return String(block.text || "").trim();
+    })
+    .join("\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+
+function assertNoSplitSpeakerNumberBlocks(scenes = []) {
+  const problems = [];
+
+  for (const scene of scenes) {
+    const blocks = Array.isArray(scene.blocks) ? scene.blocks : [];
+
+    for (let index = 0; index < blocks.length; index += 1) {
+      const text = cleanBlockText(blocks[index]?.text || "");
+      if (!text) continue;
+
+      let numberIndex = index + 1;
+
+      while (
+        numberIndex < blocks.length &&
+        String(blocks[numberIndex]?.type || "").trim() === "spacer"
+      ) {
+        numberIndex += 1;
+      }
+
+      const nextText = cleanBlockText(blocks[numberIndex]?.text || "");
+
+      if (/^\d{1,2}$/.test(nextText)) {
+        const combined = `${text} ${nextText}`.replace(/\s+/g, " ").trim();
+
+        if (isKnownSpeaker(combined)) {
+          problems.push(`Scene ${scene.scene}: ${text} + ${nextText} should be ${combined}`);
+        }
+      }
+    }
+  }
+
+  if (problems.length) {
+    fail(
+      `Split numbered speaker names remain after repair: ${problems
+        .slice(0, 20)
+        .join("; ")}${problems.length > 20 ? " ..." : ""}`
+    );
+  }
+}
+
 async function fetchFeed() {
   if (process.env.SCRIPT_DOC_FEED_FILE) {
     const file = path.resolve(process.env.SCRIPT_DOC_FEED_FILE);
@@ -593,17 +709,21 @@ function normalizeFeedToScenes(feed) {
   let scenes = [];
 
   if (Array.isArray(feed.scenes) && feed.scenes.length) {
-    scenes = feed.scenes.map((scene) => ({
-      scene: normalizeSceneNumber(scene.scene || scene.sceneNumber),
-      title: titleForManifest(
-        normalizeSceneNumber(scene.scene || scene.sceneNumber),
-        scene.title || ""
-      ),
-      sourceText: normalizeNewlines(scene.text || scene.sourceText || ""),
-      blocks: Array.isArray(scene.blocks) && scene.blocks.length
+    scenes = feed.scenes.map((scene) => {
+      const sceneNumber = normalizeSceneNumber(scene.scene || scene.sceneNumber);
+      const rawText = normalizeNewlines(scene.text || scene.sourceText || "");
+      const rawBlocks = Array.isArray(scene.blocks) && scene.blocks.length
         ? scene.blocks
-        : linesToBlocks(normalizeNewlines(scene.text || scene.sourceText || "").split("\n"))
-    }));
+        : linesToBlocks(rawText.split("\n"));
+      const repairedBlocks = repairSpeakerNumberBlocks(rawBlocks);
+
+      return {
+        scene: sceneNumber,
+        title: titleForManifest(sceneNumber, scene.title || ""),
+        sourceText: blocksToSourceText(repairedBlocks) || rawText,
+        blocks: repairedBlocks
+      };
+    });
   } else {
     const text = feed.text || feed.sourceText || "";
     if (!text) {
@@ -721,6 +841,7 @@ function writeScriptsManifest(scenes, feedMeta = {}) {
 function main() {
   return fetchFeed().then((feed) => {
     const scenes = normalizeFeedToScenes(feed);
+    assertNoSplitSpeakerNumberBlocks(scenes);
     ensureDir(SCENES_DIR);
 
     for (const scene of scenes) {
@@ -732,6 +853,7 @@ function main() {
 
     console.log("");
     console.log(`✅ Synced ${scenes.length} scenes from master script.`);
+    console.log("✅ Verified no split numbered speaker names remain across all synced scenes.");
     console.log("✅ Wrote data/scripts.json.");
     console.log("✅ Wrote data/scenes/scene-##.json.");
   });
