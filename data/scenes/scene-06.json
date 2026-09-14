@@ -1,37 +1,15 @@
 {
   "scene": "06",
   "title": "Mary Tells Joseph / It’s Not Mine",
-  "eyebrow": "CURRENT · COMPANY VERSION",
-  "publicationNote": "This is the official company rehearsal version.",
+  "status": "CURRENT · Auto-published from master script",
+  "approved": true,
+  "companyPublish": true,
+  "source": "Master script Google Doc",
+  "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
+  "sourceUpdated": "2026-09-14T04:15:49.886Z",
+  "contentHash": "8a35e37e5de0445780912d9d3cb2455c741812087f37fa3db1b0dd873e859a82",
+  "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
-    {
-      "type": "heading",
-      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
-    },
-    {
-      "type": "stage",
-      "text": "SCENE 6 - MARY & JOSEPH / \"IT'S NOT MINE\""
-    },
-    {
-      "type": "stage",
-      "text": "COMPANY VERSION"
-    },
-    {
-      "type": "heading",
-      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
-    },
-    {
-      "type": "heading",
-      "text": "SCENE 6 — MARY & JOSEPH / “IT’S NOT MINE”"
-    },
-    {
-      "type": "text",
-      "text": "Approximate Running Time: 7–8 minutes\nSpoken Dialogue Before Song: approximately 3 minutes\nMusical Number: “It’s Not Mine” — approximately 3–3½ minutes\nAftermath: approximately 45–60 seconds"
-    },
-    {
-      "type": "transition",
-      "text": "SCENE 6 — CONTINUOUS FROM SCENE 5"
-    },
     {
       "type": "stage",
       "text": "No blackout."
@@ -113,7 +91,7 @@
       "text": "All the way through."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That changes him slightly."
     },
     {
@@ -157,7 +135,7 @@
       "text": "I’m going to have a child."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "SILENCE"
     },
     {
@@ -323,6 +301,10 @@
     {
       "type": "dialogue",
       "text": "Then tell me what happened."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -557,6 +539,10 @@
       "text": "The village outside the workshop remains ordinary and unchanged."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "HE WANTS TO BELIEVE HER"
     },
@@ -649,7 +635,7 @@
       "text": "No."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That surprises him."
     },
     {
@@ -751,6 +737,10 @@
     {
       "type": "dialogue",
       "text": "I don’t know how."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -897,6 +887,10 @@
       "text": "I’m asking you to believe that I’m telling you the truth."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "THE BREAK"
     },
@@ -1033,7 +1027,7 @@
       "text": "And saying an angel came doesn’t make this make sense!"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "His first true emotional break. Silence immediately after it."
     },
     {
@@ -1073,7 +1067,7 @@
       "text": "And I don’t know how."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "His eyes drop—not accusingly, but inevitably—to the reality of the child."
     },
     {
@@ -1097,7 +1091,7 @@
       "text": "It’s not mine."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "SILENCE"
     },
     {
@@ -1133,11 +1127,15 @@
       "text": "MUSIC BEGINS"
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "“IT’S NOT MINE”"
     },
     {
-      "type": "text",
+      "type": "heading",
       "text": "TARGET: 3:00–3:15 MAX"
     },
     {
@@ -1149,7 +1147,7 @@
       "text": "A fractured version of the Brotherhood rhythm appears."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "BANG. BANG. SCRAPE. CLAP. STOMP."
     },
     {
@@ -1161,11 +1159,11 @@
       "text": "JOSEPH"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Rhythmically"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Measure twice..."
     },
     {
@@ -1173,7 +1171,7 @@
       "text": "He attempts the old pattern."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "BANG. BANG."
     },
     {
@@ -1183,6 +1181,10 @@
     {
       "type": "stage",
       "text": "Nothing fits anymore."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1198,19 +1200,19 @@
     },
     {
       "type": "stage",
-      "text": "what they promised;"
+      "text": "● what they promised;"
     },
     {
       "type": "stage",
-      "text": "what they planned;"
+      "text": "● what they planned;"
     },
     {
       "type": "stage",
-      "text": "what he built;"
+      "text": "● what he built;"
     },
     {
       "type": "stage",
-      "text": "what the evidence appears to mean."
+      "text": "● what the evidence appears to mean."
     },
     {
       "type": "stage",
@@ -1218,7 +1220,19 @@
     },
     {
       "type": "stage",
-      "text": "I know the road.\n I know the plan.\n I know what should have been.\n But this child is not mine."
+      "text": "I know the road."
+    },
+    {
+      "type": "stage",
+      "text": "I know the plan."
+    },
+    {
+      "type": "stage",
+      "text": "I know what should have been."
+    },
+    {
+      "type": "stage",
+      "text": "But this child is not mine."
     },
     {
       "type": "stage",
@@ -1227,6 +1241,10 @@
     {
       "type": "stage",
       "text": "She does not overpower him."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1246,7 +1264,19 @@
     },
     {
       "type": "stage",
-      "text": "It's not mine.\n This isn't what we planned.\n This isn't what I built."
+      "text": "It's not mine."
+    },
+    {
+      "type": "stage",
+      "text": "This isn't what we planned."
+    },
+    {
+      "type": "stage",
+      "text": "This isn't what I built."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1266,11 +1296,23 @@
     },
     {
       "type": "stage",
-      "text": "The home I imagined isn't mine.\n The future I understood isn't mine.\n The story I thought I could control isn't mine."
+      "text": "The home I imagined isn't mine."
+    },
+    {
+      "type": "stage",
+      "text": "The future I understood isn't mine."
+    },
+    {
+      "type": "stage",
+      "text": "The story I thought I could control isn't mine."
     },
     {
       "type": "stage",
       "text": "Keep this section emotionally direct rather than wordy."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1286,7 +1328,19 @@
     },
     {
       "type": "stage",
-      "text": "I didn't choose the fear.\n I didn't choose the cost.\n I didn't choose to hurt you.\n I chose to trust God."
+      "text": "I didn't choose the fear."
+    },
+    {
+      "type": "stage",
+      "text": "I didn't choose the cost."
+    },
+    {
+      "type": "stage",
+      "text": "I didn't choose to hurt you."
+    },
+    {
+      "type": "stage",
+      "text": "I chose to trust God."
     },
     {
       "type": "stage",
@@ -1297,11 +1351,11 @@
       "text": "JOSEPH"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Spoken/sung"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "You chose this."
     },
     {
@@ -1321,15 +1375,19 @@
       "text": "And now you're asking me to choose it too."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That is the bridge."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Do not add another long argument inside the song."
     },
     {
-      "type": "heading",
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "transition",
       "text": "FINAL CHORUS"
     },
     {
@@ -1353,11 +1411,11 @@
       "text": "JOSEPH"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Quietly"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "It's not mine..."
     },
     {
@@ -1365,8 +1423,12 @@
       "text": "The music ends unresolved."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "SILENCE."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1481,7 +1543,7 @@
       "text": "Believe me."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Long beat."
     },
     {
@@ -1503,6 +1565,10 @@
     {
       "type": "dialogue",
       "text": "I don’t know how."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1557,7 +1623,7 @@
       "text": "Then don’t leave me."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That nearly undoes him."
     },
     {
@@ -1569,7 +1635,7 @@
       "text": "I can’t marry you."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "SILENCE"
     },
     {
@@ -1641,7 +1707,7 @@
       "text": "So did I."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That lands differently. Neither of them planned this."
     },
     {
@@ -1689,7 +1755,11 @@
       "text": "There is the wall between them."
     },
     {
-      "type": "heading",
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "transition",
       "text": "FINAL EXCHANGE"
     },
     {
@@ -1773,8 +1843,12 @@
       "text": "The warm workshop environment remains. Nothing outside has changed."
     },
     {
-      "type": "heading",
+      "type": "transition",
       "text": "END SCENE 6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "transition",
@@ -1786,7 +1860,43 @@
     },
     {
       "type": "stage",
-      "text": "Two people. Two wounds. Two roads of faith. Each now needs something the other cannot give in this moment.\n_______________________________________________________________________"
+      "text": "Two people. Two wounds. Two roads of faith. Each now needs something the other cannot give in this moment."
+    },
+    {
+      "type": "stage",
+      "text": "_______________________________________________________________________"
+    },
+    {
+      "type": "heading",
+      "text": "NOTES:"
+    },
+    {
+      "type": "stage",
+      "text": "Scene 6 needs to be one of the most carefully acted scenes in the entire production. The source architecture is very clear that Joseph must begin in concern, not accusation; he actively searches for another explanation because he wants Mary’s truth to fit the woman he knows. Only after exhausting those possibilities does the pain become personal."
+    },
+    {
+      "type": "stage",
+      "text": "The other key rule I’m preserving is that the song does not solve the argument. “It’s Not Mine” lets Joseph express what he cannot contain, but the actual separation happens afterward in quiet dialogue."
+    },
+    {
+      "type": "stage",
+      "text": "The key dramatic line I added is:"
+    },
+    {
+      "type": "stage",
+      "text": "JOSEPH: “I thought I knew what ‘whatever comes’ meant.”"
+    },
+    {
+      "type": "stage",
+      "text": "That gives the Scene 2 promise its first painful payoff without destroying it permanently. In Scene 2, “Whatever comes, I'll walk with you” sounds romantic because neither of them has imagined a cost this great. In Scene 6, Joseph discovers that he made a promise before he understood what it might require. Then Scene 8 can finally let him make that promise again with full knowledge of the cost. That gives the motif a real three-scene dramatic arc."
+    },
+    {
+      "type": "stage",
+      "text": "I also kept Joseph’s moral decision exactly where the source architecture calls for it: even believing Mary has betrayed him, he refuses to publicly humiliate her. His righteousness is demonstrated before he receives divine confirmation, which makes his later return much more meaningful."
+    },
+    {
+      "type": "stage",
+      "text": "And visually, the Scene 6 progression should be very controlled: they begin relatively close, move farther apart as trust deteriorates, occasionally attempt to cross the gap during the song, and finish completely separated. This is an acting scene first; the physical distance itself becomes part of the storytelling."
     }
   ]
 }

@@ -1,39 +1,93 @@
 {
   "scene": "10",
   "title": "The Census and the Journey",
-  "eyebrow": "CURRENT · COMPANY VERSION",
-  "publicationNote": "This is the official company rehearsal version.",
+  "status": "CURRENT · Auto-published from master script",
+  "approved": true,
+  "companyPublish": true,
+  "source": "Master script Google Doc",
+  "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
+  "sourceUpdated": "2026-09-14T04:15:49.886Z",
+  "contentHash": "b897b28e0c29e34676cc8fbe3d2178c3c9b618914367188b0dfa61ab6a89752d",
+  "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
-      "type": "heading",
-      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
+      "type": "music",
+      "text": "Musical Treatment: Roman motif + 2–3-minute journey underscore"
     },
     {
       "type": "stage",
-      "text": "SCENE 10 - THE CENSUS AND THE JOURNEY"
+      "text": "No full song"
     },
     {
       "type": "stage",
-      "text": "COMPANY VERSION"
+      "text": "Characters:"
+    },
+    {
+      "type": "character",
+      "text": "Mary"
+    },
+    {
+      "type": "character",
+      "text": "Joseph"
+    },
+    {
+      "type": "character",
+      "text": "Roman Announcer"
+    },
+    {
+      "type": "character",
+      "text": "Shira"
+    },
+    {
+      "type": "character",
+      "text": "Talia"
+    },
+    {
+      "type": "character",
+      "text": "Adina"
+    },
+    {
+      "type": "character",
+      "text": "Dafna"
+    },
+    {
+      "type": "character",
+      "text": "Levi"
+    },
+    {
+      "type": "character",
+      "text": "Malachi"
+    },
+    {
+      "type": "character",
+      "text": "Caleb"
+    },
+    {
+      "type": "character",
+      "text": "Ezra"
+    },
+    {
+      "type": "character",
+      "text": "Nia"
+    },
+    {
+      "type": "character",
+      "text": "Simon"
+    },
+    {
+      "type": "dialogue",
+      "text": "Villagers / Travelers / Ensemble"
+    },
+    {
+      "type": "character",
+      "text": "Innkeeper"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
-      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
-    },
-    {
-      "type": "heading",
-      "text": "SCENE 10 — THE CENSUS AND THE JOURNEY"
-    },
-    {
-      "type": "text",
-      "text": "Approximate Running Time: 5 minutes\nMusical Treatment: Roman motif + 2–3-minute journey underscore\nNo full song"
-    },
-    {
-      "type": "text",
-      "text": "Characters:\nMary\nJoseph\nRoman Announcer\nShira\nTalia\nAdina\nDafna\nLevi\nMalachi\nCaleb\nEzra\nNia\nSimon\nVillagers / Travelers / Ensemble\nInnkeeper"
-    },
-    {
-      "type": "transition",
       "text": "CONTINUOUS FROM SCENE 9"
     },
     {
@@ -241,7 +295,7 @@
       "text": "Then protect me while we walk."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That stops him."
     },
     {
@@ -269,11 +323,15 @@
       "text": "Together."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "PREPARATION"
     },
     {
-      "type": "stage",
+      "type": "music",
       "text": "MUSIC SHIFTS INTO PREPARATION / JOURNEY UNDERSCORE"
     },
     {
@@ -365,7 +423,7 @@
       "text": "Food. Water. Extra cloth."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Caleb appears carrying far too much."
     },
     {
@@ -377,7 +435,7 @@
       "text": "And I brought everything else."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Ezra inspects the pile and removes one item."
     },
     {
@@ -437,12 +495,20 @@
       "text": "Levi approaches with a staff."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "character",
       "text": "LEVI"
     },
     {
       "type": "dialogue",
-      "text": "Take it.\nLevi gives Joseph a traveling staff"
+      "text": "Take it."
+    },
+    {
+      "type": "dialogue",
+      "text": "Levi gives Joseph a traveling staff"
     },
     {
       "type": "character",
@@ -453,7 +519,7 @@
       "text": "Thank you."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Levi does not leave."
     },
     {
@@ -521,7 +587,7 @@
       "text": "I will."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Malachi reads the old fixer instinct in him."
     },
     {
@@ -553,11 +619,11 @@
       "text": "Good."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Nia and Simon slip through the adults."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Nia holds a small handmade item."
     },
     {
@@ -633,6 +699,10 @@
       "text": "The preparations are finished before anyone is ready for them to be."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "DEPARTURE"
     },
@@ -677,6 +747,10 @@
       "text": "Then the road takes over."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "THE JOURNEY"
     },
@@ -703,6 +777,10 @@
     {
       "type": "stage",
       "text": "The movement vocabulary repeats: PACK → LIFT → WALK → STOP → BREATHE → WALK AGAIN."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -745,7 +823,7 @@
       "text": "Still yes."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "More road."
     },
     {
@@ -869,6 +947,10 @@
       "text": "The music carries them forward."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "TIME PASSES"
     },
@@ -919,6 +1001,10 @@
     {
       "type": "stage",
       "text": "Mary begins to slow."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1053,6 +1139,10 @@
       "text": "For once, presence is the action."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "ONE MORE STEP"
     },
@@ -1089,11 +1179,11 @@
       "text": "A tiny musical fragment may surface—not a new number, simply memory."
     },
     {
-      "type": "stage",
+      "type": "character",
       "text": "MARY & JOSEPH"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Walk with me..."
     },
     {
@@ -1103,6 +1193,10 @@
     {
       "type": "stage",
       "text": "The journey phrase resumes: WALK → STOP → BREATHE → WALK AGAIN."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1197,6 +1291,10 @@
       "text": "They move."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "BETHLEHEM"
     },
@@ -1229,7 +1327,7 @@
       "text": "Bethlehem."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Relief."
     },
     {
@@ -1237,7 +1335,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "transition",
       "text": "Finally."
     },
     {
@@ -1269,7 +1367,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Oh."
     },
     {
@@ -1341,7 +1439,7 @@
       "text": "They cross."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "KNOCK. KNOCK."
     },
     {
@@ -1365,7 +1463,7 @@
       "text": "No room."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "DOOR SHUTS."
     },
     {
@@ -1417,7 +1515,7 @@
       "text": "He moves."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "KNOCK. KNOCK."
     },
     {
@@ -1429,8 +1527,48 @@
       "text": "The next knock belongs to Scene 11."
     },
     {
-      "type": "heading",
+      "type": "transition",
       "text": "END SCENE 10"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "NOTES:"
+    },
+    {
+      "type": "stage",
+      "text": "Scene 10 should feel like the musical suddenly accelerates. After several emotionally heavy scenes, the conflict becomes physical: distance, fatigue, preparation, crowds, and time. The source specifically calls for a lean scene with no full song—Rome gives us the initial disruption, then the journey is carried primarily through movement, underscoring, and short dialogue."
+    },
+    {
+      "type": "stage",
+      "text": "I’m also carrying forward both Nia and Simon in the departure, but keeping them brief so they do not slow the journey."
+    },
+    {
+      "type": "stage",
+      "text": "The strongest relationship payoff in this scene is:"
+    },
+    {
+      "type": "stage",
+      "text": "MARY: “You don't have to fix every hard thing. Just stay with me.”"
+    },
+    {
+      "type": "stage",
+      "text": "JOSEPH: “I'm here.”"
+    },
+    {
+      "type": "stage",
+      "text": "That continues Joseph's builder arc without repeating it. The source specifically identifies this section as the point where Joseph discovers that he cannot make the road shorter, Mary's body less tired, Caesar disappear, or Bethlehem come closer; Mary's lesson is that presence can sometimes be enough when fixing is impossible."
+    },
+    {
+      "type": "stage",
+      "text": "I would also protect the progression of the journey visually: community → couple → vastness → crowd. They leave Nazareth surrounded by people who know them perhaps too well, spend the road increasingly alone together, then arrive in Bethlehem surrounded by strangers who do not know them at all. That contrast prepares “No Room” before a single innkeeper rejects them."
+    },
+    {
+      "type": "stage",
+      "text": "And ending Scene 10 literally on “No room” with no blackout gives Scene 11 immediate momentum—the first rejection is not the climax; it is only the beginning."
     }
   ]
 }

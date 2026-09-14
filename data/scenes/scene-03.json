@@ -1,31 +1,17 @@
 {
   "scene": "03",
   "title": "Gabriel / Chosen",
-  "eyebrow": "CURRENT · COMPANY VERSION",
-  "publicationNote": "This is the official company rehearsal version.",
+  "status": "CURRENT · Auto-published from master script",
+  "approved": true,
+  "companyPublish": true,
+  "source": "Master script Google Doc",
+  "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
+  "sourceUpdated": "2026-09-14T04:15:49.886Z",
+  "contentHash": "41e1ae3795cacdf2e5ebe4cd2b1ea323f1d7ae6a4526fb61b3700e2802ffbe07",
+  "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
       "type": "heading",
-      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
-    },
-    {
-      "type": "heading",
-      "text": "SCENE 3 — GABRIEL / “CHOSEN”"
-    },
-    {
-      "type": "text",
-      "text": "Approximate Running Time: 5–6 minutes"
-    },
-    {
-      "type": "text",
-      "text": "Spoken Dialogue: Approximately 2½–3 minutes"
-    },
-    {
-      "type": "text",
-      "text": "Song: “Chosen” — approximately 2½–3 minutes"
-    },
-    {
-      "type": "transition",
       "text": "CONTINUOUS FROM SCENE 2"
     },
     {
@@ -78,7 +64,23 @@
     },
     {
       "type": "stage",
-      "text": "Perhaps she: folds a piece of cloth; straightens the unfinished table piece Joseph showed her; moves one of the chairs; touches the wood and imagines the future they were just discussing."
+      "text": "Perhaps she:"
+    },
+    {
+      "type": "stage",
+      "text": "● folds a piece of cloth;"
+    },
+    {
+      "type": "stage",
+      "text": "● straightens the unfinished table piece Joseph showed her;"
+    },
+    {
+      "type": "stage",
+      "text": "● moves one of the chairs;"
+    },
+    {
+      "type": "stage",
+      "text": "● touches the wood and imagines the future they were just discussing."
     },
     {
       "type": "stage",
@@ -105,12 +107,16 @@
       "text": "Joseph..."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Small laugh."
     },
     {
       "type": "stage",
       "text": "She resumes folding."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -138,7 +144,11 @@
     },
     {
       "type": "stage",
-      "text": "Then—everything stops."
+      "text": "Then—"
+    },
+    {
+      "type": "stage",
+      "text": "everything stops."
     },
     {
       "type": "stage",
@@ -165,7 +175,7 @@
       "text": "Hello?"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Nothing."
     },
     {
@@ -270,7 +280,7 @@
     },
     {
       "type": "stage",
-      "text": "Mary stops and backs away."
+      "text": "Mary stops and backs away"
     },
     {
       "type": "stage",
@@ -286,7 +296,7 @@
     },
     {
       "type": "stage",
-      "text": "Gabriel walks towards Mary."
+      "text": "Gabriel walks towards Mary"
     },
     {
       "type": "character",
@@ -297,8 +307,8 @@
       "text": "Favor?"
     },
     {
-      "type": "stage",
-      "text": "Still walks away from Gabriel slowly."
+      "type": "dialogue",
+      "text": "Still walks away from Gabriel slowly"
     },
     {
       "type": "character",
@@ -309,8 +319,8 @@
       "text": "Yes."
     },
     {
-      "type": "stage",
-      "text": "Continues walking towards Mary."
+      "type": "dialogue",
+      "text": "Continues walking towards Mary"
     },
     {
       "type": "character",
@@ -321,8 +331,8 @@
       "text": "I don't understand."
     },
     {
-      "type": "stage",
-      "text": "Still walks backwards away from Gabriel."
+      "type": "dialogue",
+      "text": "Still walks backwards away from Gabriel"
     },
     {
       "type": "character",
@@ -333,8 +343,8 @@
       "text": "You will."
     },
     {
-      "type": "stage",
-      "text": "Continues walking towards Mary."
+      "type": "dialogue",
+      "text": "Continues walking towards Mary"
     },
     {
       "type": "stage",
@@ -349,8 +359,8 @@
       "text": "Who are you?"
     },
     {
-      "type": "stage",
-      "text": "Still walks backwards away from Gabriel."
+      "type": "dialogue",
+      "text": "Still walks backwards away from Gabriel"
     },
     {
       "type": "character",
@@ -366,7 +376,7 @@
     },
     {
       "type": "stage",
-      "text": "Stops walking and stands still."
+      "text": "Stops walking and stands still"
     },
     {
       "type": "character",
@@ -387,6 +397,10 @@
     {
       "type": "stage",
       "text": "No one does."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -433,6 +447,10 @@
       "text": "Mary does not respond."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "character",
       "text": "MARY"
     },
@@ -461,7 +479,7 @@
       "text": "No."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Not rejection."
     },
     {
@@ -521,6 +539,10 @@
       "text": "I don't understand how they can be true."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "character",
       "text": "GABRIEL"
     },
@@ -573,8 +595,12 @@
       "text": "It may be the only answer you are given tonight."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That lands."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -613,7 +639,7 @@
       "text": "No."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "They are not."
     },
     {
@@ -741,6 +767,10 @@
       "text": "Go to her if you need to see what God has already begun."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "THE COST ARRIVES"
     },
@@ -793,7 +823,7 @@
       "text": "My family?"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "The village?"
     },
     {
@@ -809,7 +839,7 @@
       "text": "Joseph..."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That name lands hardest."
     },
     {
@@ -905,15 +935,15 @@
       "text": "We have plans."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "A home."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "A wedding."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "A family."
     },
     {
@@ -951,6 +981,10 @@
     {
       "type": "dialogue",
       "text": "so did I."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "music",
@@ -1001,172 +1035,188 @@
       "text": "SECTION 1 — WHY ME?"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "Mary confronts the word chosen."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "She is not royalty."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "Not powerful."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "Not extraordinary by the world's standards."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "Why would God place something this enormous in the hands of someone from Nazareth?"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "The lyrical thought should be:"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "Why would being chosen feel this frightening?"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
       "text": "SECTION 2 — WHAT WILL THIS COST?"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "Mary sees everything from Scene 2 in a new light:"
     },
     {
-      "type": "text",
-      "text": "Joseph;"
+      "type": "stage",
+      "text": "● Joseph;"
     },
     {
-      "type": "text",
-      "text": "their wedding;"
+      "type": "stage",
+      "text": "● their wedding;"
     },
     {
-      "type": "text",
-      "text": "the house;"
+      "type": "stage",
+      "text": "● the house;"
     },
     {
-      "type": "text",
-      "text": "the table;"
+      "type": "stage",
+      "text": "● the table;"
     },
     {
-      "type": "text",
-      "text": "her family;"
+      "type": "stage",
+      "text": "● her family;"
     },
     {
-      "type": "text",
-      "text": "her name;"
+      "type": "stage",
+      "text": "● her name;"
     },
     {
-      "type": "text",
-      "text": "what Nazareth will say;"
+      "type": "stage",
+      "text": "● what Nazareth will say;"
     },
     {
-      "type": "text",
-      "text": "whether Joseph will stay."
+      "type": "stage",
+      "text": "● whether Joseph will stay."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "Fragments of the musical language of “My Beloved” may briefly appear underneath “Chosen.”"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "Not a full reprise."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "Just enough for the audience to feel the future that is now endangered."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
       "text": "SECTION 3 — I CANNOT SEE THE ROAD"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "Mary begins understanding that Gabriel is not going to give her the entire future."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "She does not know:"
     },
     {
-      "type": "text",
-      "text": "what Joseph will do;"
+      "type": "stage",
+      "text": "● what Joseph will do;"
     },
     {
-      "type": "text",
-      "text": "how people will react;"
+      "type": "stage",
+      "text": "● how people will react;"
     },
     {
-      "type": "text",
-      "text": "where this road ends;"
+      "type": "stage",
+      "text": "● where this road ends;"
     },
     {
-      "type": "text",
-      "text": "what obedience will cost."
+      "type": "stage",
+      "text": "● what obedience will cost."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "The central realization:"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "I do not have to see the whole road to take the next step."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
       "text": "SECTION 4 — CHOSEN BECOMES A CHOICE"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "The word changes meaning."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "At the beginning of the song:"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "God chose me."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "By the end:"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "Will I choose to trust God?"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "Possible central lyrical territory:"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "Chosen doesn't mean unafraid."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "and/or:"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "If You chose me, give me courage to choose You."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "The music grows emotionally—"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "but avoid turning it into a giant power-ballad finish."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "This should feel like Mary becoming steady, not invincible."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1182,7 +1232,11 @@
     },
     {
       "type": "stage",
-      "text": "Then—nearly stops."
+      "text": "Then—"
+    },
+    {
+      "type": "stage",
+      "text": "nearly stops."
     },
     {
       "type": "stage",
@@ -1321,6 +1375,10 @@
       "text": "That is enough for tonight."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "GABRIEL DEPARTS"
     },
@@ -1334,7 +1392,23 @@
     },
     {
       "type": "stage",
-      "text": "It can be: a controlled fade; a shift in light; Gabriel moving into darkness; Mary's attention being pulled briefly elsewhere and finding him gone."
+      "text": "It can be:"
+    },
+    {
+      "type": "stage",
+      "text": "● a controlled fade;"
+    },
+    {
+      "type": "stage",
+      "text": "● a shift in light;"
+    },
+    {
+      "type": "stage",
+      "text": "● Gabriel moving into darkness;"
+    },
+    {
+      "type": "stage",
+      "text": "● Mary's attention being pulled briefly elsewhere and finding him gone."
     },
     {
       "type": "stage",
@@ -1369,7 +1443,11 @@
       "text": "Everything is different."
     },
     {
-      "type": "heading",
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "transition",
       "text": "FINAL MOMENT"
     },
     {
@@ -1393,7 +1471,7 @@
       "text": "Mary remembers:"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "“Whatever comes, I'll walk with you.”"
     },
     {
@@ -1421,12 +1499,24 @@
       "text": "Joseph..."
     },
     {
-      "type": "stage",
+      "type": "music",
       "text": "Blackout or controlled transition."
     },
     {
       "type": "transition",
       "text": "END SCENE 3"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "Notes:"
+    },
+    {
+      "type": "stage",
+      "text": "Mary begins in the emotional afterglow of Scene 2, Gabriel’s arrival interrupts rather than overwhelms the world, the dialogue carries the revelation and Mary’s questions, and “Chosen” begins only when Mary understands the personal cost of saying yes. This scene is about Mary’s calling"
     }
   ]
 }

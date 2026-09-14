@@ -1,35 +1,29 @@
 {
   "scene": "08",
   "title": "Reunion / Still Yours",
-  "eyebrow": "CURRENT · COMPANY VERSION",
-  "publicationNote": "This is the official company rehearsal version.",
+  "status": "CURRENT · Auto-published from master script",
+  "approved": true,
+  "companyPublish": true,
+  "source": "Master script Google Doc",
+  "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
+  "sourceUpdated": "2026-09-14T04:15:49.886Z",
+  "contentHash": "6dc2954686bdd7145be7405f747d660be6a91560e4748962057de92d6b412420",
+  "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
-      "type": "heading",
-      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
-    },
-    {
       "type": "stage",
-      "text": "SCENE 8 - REUNION / \"STILL YOURS\""
+      "text": "Target Runtime: 5:30–5:50"
     },
     {
-      "type": "stage",
-      "text": "COMPANY VERSION"
+      "type": "music",
+      "text": "Musical Reprise: approx. 1:30–1:40"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
-      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
-    },
-    {
-      "type": "heading",
-      "text": "SCENE 8 — REUNION / “STILL YOURS”"
-    },
-    {
-      "type": "text",
-      "text": "Target Runtime: 5:30–5:50\nSpoken Dialogue: approx. 3:40–4:00\nMusical Reprise: approx. 1:30–1:40"
-    },
-    {
-      "type": "transition",
       "text": "CONTINUOUS FROM SCENE 7"
     },
     {
@@ -81,7 +75,7 @@
       "text": "I’ll be nearby."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Elizabeth exits without ceremony."
     },
     {
@@ -95,6 +89,10 @@
     {
       "type": "stage",
       "text": "Silence."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -207,6 +205,10 @@
     {
       "type": "dialogue",
       "text": "What changed?"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -393,7 +395,7 @@
       "text": "But I still had you."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That lands."
     },
     {
@@ -463,6 +465,10 @@
     {
       "type": "dialogue",
       "text": "But I know I caused it."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -677,6 +683,10 @@
       "text": "Silence."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "THE COST HAS NOT DISAPPEARED"
     },
@@ -797,6 +807,10 @@
       "text": "He didn’t."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "WHAT JOSEPH CAN OFFER"
     },
@@ -873,6 +887,10 @@
       "text": "Mary lets the words reach her."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "THE CHILD"
     },
@@ -909,7 +927,7 @@
       "text": "And he told me that when the time comes... I will name him."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Do not say the name here. The public naming payoff remains protected for Scene 12."
     },
     {
@@ -1005,8 +1023,12 @@
       "text": "Because I choose to."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That distinction matters."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1161,7 +1183,7 @@
       "text": "Of course."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "For a breath, they are the young couple from Scene 2."
     },
     {
@@ -1221,11 +1243,15 @@
       "text": "MUSIC BEGINS"
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "“STILL YOURS” / “MY BELOVED” REPRISE"
     },
     {
-      "type": "text",
+      "type": "heading",
       "text": "TARGET: 1:30–1:40 MAX"
     },
     {
@@ -1242,7 +1268,19 @@
     },
     {
       "type": "stage",
-      "text": "I promised you a road\nI thought that I could see,\na house, a table, years ahead—\na life for you and me."
+      "text": "I promised you a road"
+    },
+    {
+      "type": "stage",
+      "text": "I thought that I could see,"
+    },
+    {
+      "type": "stage",
+      "text": "a house, a table, years ahead—"
+    },
+    {
+      "type": "stage",
+      "text": "a life for you and me."
     },
     {
       "type": "stage",
@@ -1250,7 +1288,19 @@
     },
     {
       "type": "stage",
-      "text": "The road I knew is gone,\nthe future isn’t clear,\nbut I can choose to stand beside you\neven while I’m scared."
+      "text": "The road I knew is gone,"
+    },
+    {
+      "type": "stage",
+      "text": "the future isn’t clear,"
+    },
+    {
+      "type": "stage",
+      "text": "but I can choose to stand beside you"
+    },
+    {
+      "type": "stage",
+      "text": "even while I’m scared."
     },
     {
       "type": "stage",
@@ -1258,11 +1308,27 @@
     },
     {
       "type": "stage",
-      "text": "I said yes before I knew\nwhat yes would ask of me.\nI cannot promise where this road goes—\nonly that I’ll walk willingly."
+      "text": "I said yes before I knew"
+    },
+    {
+      "type": "stage",
+      "text": "what yes would ask of me."
+    },
+    {
+      "type": "stage",
+      "text": "I cannot promise where this road goes—"
+    },
+    {
+      "type": "stage",
+      "text": "only that I’ll walk willingly."
     },
     {
       "type": "stage",
       "text": "The music returns to the familiar motif."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1297,11 +1363,15 @@
       "text": "Do not hurry this silence. The reconciliation belongs to Mary too."
     },
     {
-      "type": "stage",
+      "type": "transition",
       "text": "Finally—"
     },
     {
-      "type": "stage",
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
       "text": "MARY TAKES HIS HAND"
     },
     {
@@ -1333,8 +1403,12 @@
       "text": "We’ll walk together."
     },
     {
-      "type": "stage",
+      "type": "music",
       "text": "Music resolves warmly, but not triumphantly."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1465,8 +1539,56 @@
       "text": "They keep walking."
     },
     {
-      "type": "heading",
+      "type": "transition",
       "text": "END SCENE 8"
+    },
+    {
+      "type": "heading",
+      "text": "NOTES:"
+    },
+    {
+      "type": "stage",
+      "text": "Scene 8 should feel satisfying, but not easy. The locked architecture specifically says the reconciliation is a new commitment, not a return to the future they imagined in Scene 2. Mary has a decision to make too: Joseph now believes her, but she has to decide whether she can trust him with the difficult future she carries."
+    },
+    {
+      "type": "stage",
+      "text": "I am also protecting the Scene 12 decision we already locked: Joseph will not publicly say the baby's name in Scene 8. Instead, he will tell Mary that the messenger gave him a role in the child's life and instructed him to name the child when the time comes. That keeps Joseph's acceptance here while preserving the later “What is his name?” → “Jesus.” payoff with the shepherds."
+    },
+    {
+      "type": "stage",
+      "text": "The line I would especially protect is Joseph's answer to “What are you offering me?”"
+    },
+    {
+      "type": "stage",
+      "text": "JOSEPH: Me."
+    },
+    {
+      "type": "stage",
+      "text": "That completes his builder arc for this section of the show. In Scene 2, Joseph offers Mary a house, table, plan and future. Here, he cannot guarantee any of those things. What he can finally offer is his presence. That prepares us for the much later Scene 11 payoff when Mary says “Joseph” and all he needs to answer is “I'm here.”"
+    },
+    {
+      "type": "stage",
+      "text": "The hand is equally important. The source architecture specifically describes Joseph offering, rather than taking, Mary's hand, and Mary choosing to accept it. That makes the reconciliation physically belong to both characters rather than Joseph returning and automatically being welcomed back."
+    },
+    {
+      "type": "stage",
+      "text": "And the ending should remain exactly action-oriented rather than sentimental:"
+    },
+    {
+      "type": "stage",
+      "text": "JOSEPH: We go home."
+    },
+    {
+      "type": "stage",
+      "text": "MARY: Together?"
+    },
+    {
+      "type": "stage",
+      "text": "JOSEPH: Together."
+    },
+    {
+      "type": "stage",
+      "text": "Because Scene 8 repairs the private relationship. It does not solve what happens when they walk back into Nazareth together. That's Scene 9."
     }
   ]
 }

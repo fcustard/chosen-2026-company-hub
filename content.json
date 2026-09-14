@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T02:19:20.292Z",
+  "updated": "2026-09-14T04:15:58.864Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -68,8 +68,8 @@
   },
   "thisWeek": {
     "title": "This Week",
-    "start": "2026-09-13T04:00:00.000Z",
-    "end": "2026-09-20T03:59:59.000Z",
+    "start": "2026-09-14T04:00:00.000Z",
+    "end": "2026-09-21T03:59:59.000Z",
     "rehearsals": [
       {
         "id": "CHOSEN-20260915-REH",
@@ -4743,31 +4743,35 @@
       {
         "scene": "01",
         "title": "Welcome to Nazareth",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
+        "source": "data/scenes/scene-01.json",
         "readUrl": "scene-01.html",
         "pdfUrl": "scene-01.pdf",
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "02",
         "title": "Mary & Joseph / My Beloved",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
+        "source": "data/scenes/scene-02.json",
         "readUrl": "scene-02.html",
         "pdfUrl": "scene-02.pdf",
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "03",
         "title": "Gabriel / Chosen",
-        "status": "CURRENT · APPROVED / LOCKED",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-03.json",
@@ -4775,12 +4779,13 @@
         "pdfUrl": "scene-03.pdf",
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "04",
         "title": "The Secret",
-        "status": "CURRENT · APPROVED / LOCKED",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-04.json",
@@ -4788,12 +4793,13 @@
         "pdfUrl": "scene-04.pdf",
         "id": "the-secret",
         "name": "The Secret",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "05",
         "title": "Brotherhood",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-05.json",
@@ -4801,12 +4807,13 @@
         "pdfUrl": "scene-05.pdf",
         "id": "brotherhood",
         "name": "Brotherhood",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "06",
         "title": "Mary Tells Joseph / It’s Not Mine",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-06.json",
@@ -4814,12 +4821,13 @@
         "pdfUrl": "scene-06.pdf",
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "07",
         "title": "Two Roads of Faith",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-07.json",
@@ -4827,12 +4835,13 @@
         "pdfUrl": "scene-07.pdf",
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "08",
         "title": "Reunion / Still Yours",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-08.json",
@@ -4840,12 +4849,13 @@
         "pdfUrl": "scene-08.pdf",
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "09",
         "title": "What Will He Be? / The Town Turns",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-09.json",
@@ -4853,12 +4863,13 @@
         "pdfUrl": "scene-09.pdf",
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "10",
         "title": "The Census and the Journey",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-10.json",
@@ -4866,12 +4877,13 @@
         "pdfUrl": "scene-10.pdf",
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "11",
         "title": "No Room",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-11.json",
@@ -4879,12 +4891,13 @@
         "pdfUrl": "scene-11.pdf",
         "id": "no-room",
         "name": "No Room",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "12",
         "title": "Good News / Shepherds / Finale",
-        "status": "CURRENT · Approved company version",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-12.json",
@@ -4892,38 +4905,43 @@
         "pdfUrl": "scene-12.pdf",
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       }
     ],
     "current": [
       {
         "scene": "01",
         "title": "Welcome to Nazareth",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
+        "source": "data/scenes/scene-01.json",
         "readUrl": "scene-01.html",
         "pdfUrl": "scene-01.pdf",
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "02",
         "title": "Mary & Joseph / My Beloved",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
+        "source": "data/scenes/scene-02.json",
         "readUrl": "scene-02.html",
         "pdfUrl": "scene-02.pdf",
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "03",
         "title": "Gabriel / Chosen",
-        "status": "CURRENT · APPROVED / LOCKED",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-03.json",
@@ -4931,12 +4949,13 @@
         "pdfUrl": "scene-03.pdf",
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "04",
         "title": "The Secret",
-        "status": "CURRENT · APPROVED / LOCKED",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-04.json",
@@ -4944,12 +4963,13 @@
         "pdfUrl": "scene-04.pdf",
         "id": "the-secret",
         "name": "The Secret",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "05",
         "title": "Brotherhood",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-05.json",
@@ -4957,12 +4977,13 @@
         "pdfUrl": "scene-05.pdf",
         "id": "brotherhood",
         "name": "Brotherhood",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "06",
         "title": "Mary Tells Joseph / It’s Not Mine",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-06.json",
@@ -4970,12 +4991,13 @@
         "pdfUrl": "scene-06.pdf",
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "07",
         "title": "Two Roads of Faith",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-07.json",
@@ -4983,12 +5005,13 @@
         "pdfUrl": "scene-07.pdf",
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "08",
         "title": "Reunion / Still Yours",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-08.json",
@@ -4996,12 +5019,13 @@
         "pdfUrl": "scene-08.pdf",
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "09",
         "title": "What Will He Be? / The Town Turns",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-09.json",
@@ -5009,12 +5033,13 @@
         "pdfUrl": "scene-09.pdf",
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "10",
         "title": "The Census and the Journey",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-10.json",
@@ -5022,12 +5047,13 @@
         "pdfUrl": "scene-10.pdf",
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "11",
         "title": "No Room",
-        "status": "CURRENT · Approved dialogue / staging",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-11.json",
@@ -5035,12 +5061,13 @@
         "pdfUrl": "scene-11.pdf",
         "id": "no-room",
         "name": "No Room",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       },
       {
         "scene": "12",
         "title": "Good News / Shepherds / Finale",
-        "status": "CURRENT · Approved company version",
+        "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-12.json",
@@ -5048,18 +5075,19 @@
         "pdfUrl": "scene-12.pdf",
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
-        "current": false
+        "current": true,
+        "updated": "2026-09-14T04:15:49.886Z"
       }
     ],
     "count": 12,
-    "updated": "2026-09-14T02:19:20.292Z",
+    "updated": "2026-09-14T04:15:58.865Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-14T02:19:20.293Z",
+    "updated": "2026-09-14T04:15:58.865Z",
     "kind": "music"
   }
 }

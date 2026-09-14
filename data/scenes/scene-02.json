@@ -1,31 +1,17 @@
 {
   "scene": "02",
   "title": "Mary & Joseph / My Beloved",
-  "eyebrow": "CURRENT · COMPANY VERSION",
-  "publicationNote": "Official company material appears here only after approval and publication are enabled.",
+  "status": "CURRENT · Auto-published from master script",
+  "approved": true,
+  "companyPublish": true,
+  "source": "Master script Google Doc",
+  "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
+  "sourceUpdated": "2026-09-14T04:15:49.886Z",
+  "contentHash": "1623db93a0b841add0922aed9bfa40aa9d717e66c1c007aaf371eb31f0430003",
+  "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
       "type": "heading",
-      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
-    },
-    {
-      "type": "heading",
-      "text": "SCENE 2 — MARY & JOSEPH / “MY BELOVED”"
-    },
-    {
-      "type": "text",
-      "text": "Approximate Running Time: 5–6 minutes"
-    },
-    {
-      "type": "text",
-      "text": "Spoken Dialogue: Approximately 2–2½ minutes"
-    },
-    {
-      "type": "text",
-      "text": "Song: “My Beloved” — approximately 3–3½ minutes"
-    },
-    {
-      "type": "transition",
       "text": "CONTINUOUS FROM SCENE 1"
     },
     {
@@ -177,7 +163,7 @@
       "text": "Because you made the satchel."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That lands. Mary tries not to show how much she likes the answer."
     },
     {
@@ -207,6 +193,10 @@
     {
       "type": "stage",
       "text": "They laugh."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -489,6 +479,10 @@
       "text": "Clearly."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "THE HOUSE THAT DOESN’T EXIST"
     },
@@ -751,6 +745,10 @@
     {
       "type": "stage",
       "text": "Mary laughs. The imagined home is becoming emotionally tangible without becoming literal."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1097,11 +1095,15 @@
       "text": "Whatever comes."
     },
     {
-      "type": "music",
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
       "text": "“MY BELOVED” BEGINS"
     },
     {
-      "type": "stage",
+      "type": "music",
       "text": "Music rises naturally from the silence."
     },
     {
@@ -1109,7 +1111,7 @@
       "text": "It should feel as though Joseph's promise has created the need to sing."
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "MUSICAL NUMBER — “MY BELOVED”"
     },
     {
@@ -1117,11 +1119,11 @@
       "text": "DRAMATIC PURPOSE OF THE SONG"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "The song builds the future they believe they are choosing together."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "The lyrics should grow from what the audience has just heard rather than introducing unrelated imagery."
     },
     {
@@ -1129,79 +1131,83 @@
       "text": "LYRICAL TERRITORY TO DEVELOP"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "MARY and JOSEPH imagine:"
     },
     {
-      "type": "text",
-      "text": "the house;"
+      "type": "stage",
+      "text": "● the house;"
     },
     {
-      "type": "text",
-      "text": "the doorway;"
+      "type": "stage",
+      "text": "● the doorway;"
     },
     {
-      "type": "text",
-      "text": "morning light;"
+      "type": "stage",
+      "text": "● morning light;"
     },
     {
-      "type": "text",
-      "text": "the table;"
+      "type": "stage",
+      "text": "● the table;"
     },
     {
-      "type": "text",
-      "text": "six chairs becoming eight;"
+      "type": "stage",
+      "text": "● six chairs becoming eight;"
     },
     {
-      "type": "text",
-      "text": "friends and family gathered around it;"
+      "type": "stage",
+      "text": "● friends and family gathered around it;"
     },
     {
-      "type": "text",
-      "text": "Mary's garden;"
+      "type": "stage",
+      "text": "● Mary's garden;"
     },
     {
-      "type": "text",
-      "text": "Joseph's work;"
+      "type": "stage",
+      "text": "● Joseph's work;"
     },
     {
-      "type": "text",
-      "text": "ordinary disagreements;"
+      "type": "stage",
+      "text": "● ordinary disagreements;"
     },
     {
-      "type": "text",
-      "text": "laughter;"
+      "type": "stage",
+      "text": "● laughter;"
     },
     {
-      "type": "text",
-      "text": "children;"
+      "type": "stage",
+      "text": "● children;"
     },
     {
-      "type": "text",
-      "text": "knowing where the other person will be at the end of the day;"
+      "type": "stage",
+      "text": "● knowing where the other person will be at the end of the day;"
     },
     {
-      "type": "text",
-      "text": "growing older together;"
+      "type": "stage",
+      "text": "● growing older together;"
     },
     {
-      "type": "text",
-      "text": "being chosen by one another."
+      "type": "stage",
+      "text": "● being chosen by one another."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "This is not a song about perfect romance."
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "It is a song about the beauty of an ordinary shared life."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
       "text": "IMPORTANT SONG MOMENT"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "At some point near the emotional height of the duet, plant the recurring motif clearly:"
     },
     {
@@ -1209,7 +1215,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "lyric",
+      "type": "dialogue",
       "text": "Whatever comes, I'll walk with you."
     },
     {
@@ -1217,7 +1223,7 @@
       "text": "MARY"
     },
     {
-      "type": "lyric",
+      "type": "dialogue",
       "text": "Whatever comes, I'll walk with you."
     },
     {
@@ -1225,16 +1231,20 @@
       "text": "MARY & JOSEPH"
     },
     {
-      "type": "lyric",
+      "type": "dialogue",
       "text": "Whatever comes..."
     },
     {
-      "type": "music",
+      "type": "heading",
       "text": "[MUSICAL RESOLUTION / CONTINUATION]"
     },
     {
-      "type": "text",
+      "type": "stage",
       "text": "This phrase must be memorable enough that when it returns later, the audience immediately recognizes it."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1321,56 +1331,12 @@
       "text": "Joseph exits."
     },
     {
-      "type": "transition",
-      "text": "TRANSITION INTO SCENE 3 — THE FUTURE DISAPPEARS"
-    },
-    {
-      "type": "stage",
-      "text": "Mary remains alone inside the imagined future. Let her be completely happy. She may touch the unfinished table, look toward the imagined window, or simply take in the home they created."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Eight chairs."
-    },
-    {
-      "type": "stage",
-      "text": "A small laugh."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph…"
-    },
-    {
-      "type": "stage",
-      "text": "Then, on one precise cue, the future disappears. Do NOT crossfade it beautifully."
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "transition",
-      "text": "RUPTURE"
-    },
-    {
-      "type": "stage",
-      "text": "LED atmosphere: GONE. Imagined window light: GONE. Garden/environmental texture: GONE. Nazareth ambiance: GONE. “My Beloved” harmonic warmth: GONE."
-    },
-    {
-      "type": "stage",
-      "text": "Silence."
-    },
-    {
-      "type": "stage",
-      "text": "Mary notices. Scene 3 must now introduce a visual and sonic language the production has never used before. Romantic subjective theatricality is over; genuine divine interruption is about to enter."
-    },
-    {
-      "type": "transition",
-      "text": "END SCENE 2."
+      "text": "TRANSITION INTO"
     }
   ]
 }

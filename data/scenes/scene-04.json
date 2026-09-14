@@ -1,17 +1,15 @@
 {
   "scene": "04",
   "title": "The Secret",
-  "eyebrow": "CURRENT · COMPANY VERSION",
-  "publicationNote": "This is the official company rehearsal version.",
+  "status": "CURRENT · Auto-published from master script",
+  "approved": true,
+  "companyPublish": true,
+  "source": "Master script Google Doc",
+  "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
+  "sourceUpdated": "2026-09-14T04:15:49.886Z",
+  "contentHash": "51d4168a4b430dcd1124c9d92a98897b870a655a21c598e0ef953ff746ea39c0",
+  "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
-    {
-      "type": "heading",
-      "text": "SCENE 4 — THE SECRET"
-    },
-    {
-      "type": "text",
-      "text": "Approximate Running Time: 5–6 minutes"
-    },
     {
       "type": "heading",
       "text": "OPENING"
@@ -26,7 +24,35 @@
     },
     {
       "type": "stage",
-      "text": "Possible activity: folding fabric; sorting jewelry; sewing; arranging clothing; preparing baskets; threading beads; organizing goods."
+      "text": "Possible activity:"
+    },
+    {
+      "type": "stage",
+      "text": "● folding fabric;"
+    },
+    {
+      "type": "stage",
+      "text": "● sorting jewelry;"
+    },
+    {
+      "type": "stage",
+      "text": "● sewing;"
+    },
+    {
+      "type": "stage",
+      "text": "● arranging clothing;"
+    },
+    {
+      "type": "stage",
+      "text": "● preparing baskets;"
+    },
+    {
+      "type": "stage",
+      "text": "● threading beads;"
+    },
+    {
+      "type": "stage",
+      "text": "● organizing goods."
     },
     {
       "type": "stage",
@@ -34,7 +60,23 @@
     },
     {
       "type": "stage",
-      "text": "MARY enters. She is trying to appear normal. She is not succeeding. Shira sees her first."
+      "text": "MARY enters."
+    },
+    {
+      "type": "stage",
+      "text": "She is trying to appear normal."
+    },
+    {
+      "type": "stage",
+      "text": "She is not succeeding."
+    },
+    {
+      "type": "stage",
+      "text": "Shira sees her first."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "character",
@@ -50,7 +92,7 @@
     },
     {
       "type": "stage",
-      "text": "SHIRA, TALIA, ADINA and DAFNA enter carrying ordinary life with them: fabric, baskets, beads, clothing, market goods or another established task from the Living Village."
+      "text": "SHIRA, TALIA, ADINA, and DAFNA enter, carrying ordinary life with them: fabric, baskets, beads, clothing, market goods, or another established task from the Living Village."
     },
     {
       "type": "character",
@@ -85,7 +127,7 @@
       "text": "Enough places to justify saying everywhere."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Shira sees Mary clearly."
     },
     {
@@ -129,7 +171,7 @@
       "text": "I'm fine."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Shira watches her. Mary tries to move with them."
     },
     {
@@ -209,7 +251,7 @@
       "text": "Nothing."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Shira waits."
     },
     {
@@ -231,6 +273,10 @@
     {
       "type": "dialogue",
       "text": "I need to tell you something."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -374,7 +420,7 @@
     },
     {
       "type": "dialogue",
-      "text": "Done."
+      "text": "OK! I'm Done."
     },
     {
       "type": "stage",
@@ -411,6 +457,10 @@
     {
       "type": "dialogue",
       "text": "Something happened."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -493,7 +543,7 @@
       "text": "That's not comforting."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Shira gives Dafna a look."
     },
     {
@@ -590,11 +640,15 @@
     },
     {
       "type": "dialogue",
-      "text": "Gabriel."
+      "text": "Gabriel WHO?"
     },
     {
-      "type": "stage",
-      "text": "Mary nods."
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "The Angel!..shhh…"
     },
     {
       "type": "character",
@@ -707,6 +761,10 @@
     {
       "type": "dialogue",
       "text": "Gabriel told me the child comes from God."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -845,7 +903,7 @@
       "text": "I can't. Not completely."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Talia wants another question. Mary sees it."
     },
     {
@@ -894,7 +952,7 @@
     },
     {
       "type": "dialogue",
-      "text": "I understand exactly why."
+      "text": "I don't understand exactly why."
     },
     {
       "type": "stage",
@@ -906,7 +964,11 @@
     },
     {
       "type": "dialogue",
-      "text": "I still know what happened to me."
+      "text": "But, I still know what happened to me."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -977,7 +1039,7 @@
       "text": "I know."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Dafna has been unusually quiet."
     },
     {
@@ -1121,12 +1183,20 @@
       "text": "But you're not walking to him alone."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "THE SECRET LEAVES THE CIRCLE"
     },
     {
       "type": "stage",
       "text": "The women continue speaking. Ordinary Nazareth traffic quietly resumes behind or around them. This is not a spy scene. People are simply living their lives."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "character",
@@ -1221,7 +1291,7 @@
       "text": "DAFNA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Oh, Mary."
     },
     {
@@ -1249,7 +1319,7 @@
       "text": "And if he doesn't believe it?"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That lands."
     },
     {
@@ -1261,8 +1331,12 @@
       "text": "Then I don't know what happens next."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Shira holds Mary's gaze."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "character",
@@ -1309,6 +1383,10 @@
       "text": "Joseph."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "MARY CHOOSES THE NEXT STEP"
     },
@@ -1353,7 +1431,7 @@
       "text": "You don't even have to ask."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "If physical contact is already consented and staged, Shira offers a hand. Mary chooses to take it."
     },
     {
@@ -1441,7 +1519,7 @@
       "text": "My loyalty is."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That lands more deeply than Dafna intended."
     },
     {
@@ -1514,7 +1592,11 @@
     },
     {
       "type": "stage",
-      "text": "Mary and Shira exit toward Joseph. Adina, Talia and Dafna watch them go."
+      "text": "Mary and Shira exit toward Joseph. Adina, Talia, and Dafna watch them go."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1557,7 +1639,11 @@
       "text": "The line should echo the harmless information-transmission comedy of Scene 1, but the meaning has changed."
     },
     {
-      "type": "heading",
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "transition",
       "text": "TRANSITION INTO SCENE 5"
     },
     {
@@ -1565,7 +1651,7 @@
       "text": "One beat of silence."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "BANG!"
     },
     {
@@ -1573,7 +1659,7 @@
       "text": "A hammer strikes wood."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "BANG!"
     },
     {
@@ -1581,7 +1667,7 @@
       "text": "Another."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "BANG-BANG!"
     },
     {
@@ -1590,7 +1676,7 @@
     },
     {
       "type": "stage",
-      "text": "JOSEPH is working, laughing and completely unaware. LEVI, MALACHI, CALEB and EZRA are with him. The Scene 5 carpentry rhythm begins to emerge."
+      "text": "JOSEPH is working, laughing, and completely unaware. LEVI, MALACHI, CALEB and EZRA are with him. The Scene 5 carpentry rhythm begins to emerge."
     },
     {
       "type": "stage",
@@ -1605,8 +1691,24 @@
       "text": "He is building the future the audience now knows is about to be tested."
     },
     {
-      "type": "heading",
+      "type": "transition",
+      "text": "END SCENE 4."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "transition",
       "text": "END SCENE 4"
+    },
+    {
+      "type": "stage",
+      "text": "A few things in this version are doing important long-term work. Talia remains skeptical without becoming antagonistic, which gives her somewhere to go later. Adina’s questions come from a desire to protect Mary, not judgment. Dafna supplies release, but when the scene turns serious, her loyalty is real. And Shira does not offer Mary the false promise that Joseph will understand; she offers presence, which is more consistent with the show’s larger idea that faith and love do not always provide certainty—they sometimes provide someone willing to walk beside you."
+    },
+    {
+      "type": "stage",
+      "text": "The partial-overhearing moment is also deliberately small. Nobody betrays Mary. A person simply hears “…a child…” and “Joseph doesn’t know…” while passing by. That is enough to plant the social-pressure machinery we established in “Welcome to Nazareth” without starting the full town conflict before Scene 9."
     }
   ]
 }

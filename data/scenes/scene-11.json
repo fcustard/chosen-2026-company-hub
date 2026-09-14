@@ -1,39 +1,33 @@
 {
   "scene": "11",
   "title": "No Room",
-  "eyebrow": "CURRENT · COMPANY VERSION",
-  "publicationNote": "This is the official company rehearsal version.",
+  "status": "CURRENT · Auto-published from master script",
+  "approved": true,
+  "companyPublish": true,
+  "source": "Master script Google Doc",
+  "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
+  "sourceUpdated": "2026-09-14T04:15:49.886Z",
+  "contentHash": "6c78c9a72b9e072058869b6a1f07965b28048900586f842f5446284bfb45ef88",
+  "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
-      "type": "heading",
-      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
+      "type": "music",
+      "text": "Musical Treatment: Rhythmic “No Room” sequence + underscore + “Silent Night” transition"
     },
     {
       "type": "stage",
-      "text": "SCENE 11 - NO ROOM"
+      "text": "Characters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Bethlehem Helper, optional Bethlehem Woman"
     },
     {
-      "type": "stage",
-      "text": "COMPANY VERSION"
-    },
-    {
-      "type": "heading",
-      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
-      "text": "SCENE 11 — NO ROOM"
-    },
-    {
-      "type": "text",
-      "text": "Approximate Running Time: 4–5 minutes plus musical transition\nMusical Treatment: Rhythmic “No Room” sequence + underscore + “Silent Night” transition\nCharacters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Bethlehem Helper, optional Bethlehem Woman"
-    },
-    {
-      "type": "transition",
       "text": "CONTINUOUS FROM SCENE 10"
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "KNOCK. KNOCK."
     },
     {
@@ -61,7 +55,7 @@
       "text": "No room."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "DOOR SHUTS."
     },
     {
@@ -97,11 +91,15 @@
       "text": "They move."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "SECOND DOOR"
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "KNOCK. KNOCK."
     },
     {
@@ -217,11 +215,15 @@
       "text": "They move."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "THE “NO ROOM” RHYTHM"
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "UNDERSCORE BEGINS"
     },
     {
@@ -229,31 +231,31 @@
       "text": "The knocking becomes part of the score."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "KNOCK."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "VOICE"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "No room."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "KNOCK-KNOCK."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "VOICE"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Full."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "KNOCK."
     },
     {
@@ -265,15 +267,15 @@
       "text": "Please—"
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "SHUT."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "VOICE"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Sorry."
     },
     {
@@ -281,7 +283,7 @@
       "text": "Joseph moves faster."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "KNOCK-KNOCK-KNOCK."
     },
     {
@@ -293,15 +295,15 @@
       "text": "My wife is—"
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "VOICE"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Nothing!"
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "SHUT."
     },
     {
@@ -321,7 +323,7 @@
       "text": "Joseph’s explanations get shorter."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "KNOCK."
     },
     {
@@ -333,15 +335,15 @@
       "text": "Please."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "VOICE"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "I’m sorry."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "SHUT."
     },
     {
@@ -357,8 +359,12 @@
       "text": "Then Mary stops."
     },
     {
-      "type": "stage",
+      "type": "music",
       "text": "MUSIC CUTS."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -529,6 +535,10 @@
       "text": "Mary takes it."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "THE FINAL DOOR"
     },
@@ -537,7 +547,7 @@
       "text": "Joseph reaches another door."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "KNOCK! KNOCK! KNOCK!"
     },
     {
@@ -545,11 +555,11 @@
       "text": "The door opens."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "INNKEEPER ELI"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Yes?"
     },
     {
@@ -561,7 +571,7 @@
       "text": "Please."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That is all he has for a moment."
     },
     {
@@ -573,7 +583,7 @@
       "text": "My wife is having a child."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Eli looks toward Mary."
     },
     {
@@ -609,15 +619,15 @@
       "text": "Just somewhere safe."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Eli is genuinely pained."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "INNKEEPER ELI"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "I have people everywhere."
     },
     {
@@ -625,11 +635,11 @@
       "text": "He looks back inside."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "INNKEEPER ELI"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "I don’t even have floor left."
     },
     {
@@ -637,11 +647,11 @@
       "text": "Joseph’s hope empties."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "INNKEEPER ELI"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "I’m sorry."
     },
     {
@@ -649,7 +659,7 @@
       "text": "The door closes."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "SILENCE."
     },
     {
@@ -663,6 +673,10 @@
     {
       "type": "stage",
       "text": "For the first time, there is no next door in his mind."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -777,7 +791,7 @@
       "text": "I didn’t ask you to fix Bethlehem."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That lands."
     },
     {
@@ -809,7 +823,7 @@
       "text": "Stay."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "SILENCE."
     },
     {
@@ -845,8 +859,12 @@
       "text": "But we’re here."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Give the moment room."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1011,6 +1029,10 @@
     {
       "type": "dialogue",
       "text": "Come with me."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1201,6 +1223,10 @@
       "text": "No grand speech. She simply helps."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "THE WORLD BECOMES QUIET"
     },
@@ -1261,12 +1287,16 @@
       "text": "I’m here."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "SILENCE."
     },
     {
       "type": "stage",
       "text": "That is enough."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1313,11 +1343,11 @@
       "text": "Then—"
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "A BABY CRIES."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "SILENCE."
     },
     {
@@ -1345,15 +1375,15 @@
       "text": "The smallest warmth slowly reveals:"
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "MARY."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "THE CHILD."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "JOSEPH."
     },
     {
@@ -1379,6 +1409,10 @@
     {
       "type": "stage",
       "text": "After everything, they are here."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1441,6 +1475,10 @@
       "text": "This physical action completes the emotional thought. Scene 12 can give it words."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "“SILENT NIGHT” TRANSITION"
     },
@@ -1485,8 +1523,56 @@
       "text": "No blackout."
     },
     {
-      "type": "heading",
+      "type": "transition",
       "text": "END SCENE 11 / CONTINUE INTO SCENE 12"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "NOTES:"
+    },
+    {
+      "type": "stage",
+      "text": "Scene 11 should feel like the pressure cooker immediately before the birth. The source is very specific that Bethlehem is not a collection of villains; the tragedy is that there is need everywhere and no one seems to have room for one more need. The scene should therefore escalate through repetition, urgency, physical exhaustion, and finally silence rather than through shouting."
+    },
+    {
+      "type": "stage",
+      "text": "I’m also using your current locked musical choice of “Silent Night” after the birth rather than the earlier working title “Silent Wonder.”"
+    },
+    {
+      "type": "stage",
+      "text": "The emotional center of this scene is the sequence:"
+    },
+    {
+      "type": "stage",
+      "text": "JOSEPH: “I don't know what to do.”"
+    },
+    {
+      "type": "stage",
+      "text": "MARY: “Neither do I. But we're here.”"
+    },
+    {
+      "type": "stage",
+      "text": "followed later by:"
+    },
+    {
+      "type": "stage",
+      "text": "MARY: “Joseph.”"
+    },
+    {
+      "type": "stage",
+      "text": "JOSEPH: “I'm here.”"
+    },
+    {
+      "type": "stage",
+      "text": "That completes a major part of Joseph's builder arc. The source specifically frames this as the moment when his gifts become useful after he stops trying to control the entire story. He cannot create a room, shorten the road, control Caesar, or prevent labor. But when an imperfect shelter is offered, he knows how to clear it, prepare it and make it safer for Mary."
+    },
+    {
+      "type": "stage",
+      "text": "STtrongly preserve the beat before “Silent Night” begins: baby cry → silence → Mary, Joseph and Jesus. Give the audience several seconds to simply see the family before the first voice enters. That silence may be more emotionally powerful than adding another line. The source similarly recommends letting the frantic Bethlehem sound disappear and ending with the simple “Joseph / I'm here” exchange before the stylized birth."
     }
   ]
 }

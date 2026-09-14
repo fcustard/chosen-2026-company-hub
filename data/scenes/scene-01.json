@@ -1,0 +1,2006 @@
+{
+  "scene": "01",
+  "title": "Welcome to Nazareth",
+  "status": "CURRENT · Auto-published from master script",
+  "approved": true,
+  "companyPublish": true,
+  "source": "Master script Google Doc",
+  "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
+  "sourceUpdated": "2026-09-14T04:15:49.886Z",
+  "contentHash": "e1a9416892fe4219c52af704919dab455438e5379ecdbc6193b4bc5cef92a3c9",
+  "publicationNote": "This scene was auto-published from the CHOSEN master script.",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "PRESET"
+    },
+    {
+      "type": "stage",
+      "text": "The stage is almost completely dark."
+    },
+    {
+      "type": "stage",
+      "text": "The marketplace exists in the shadows, but the audience cannot yet clearly see it."
+    },
+    {
+      "type": "stage",
+      "text": "Villagers may already be preset in place behind the darkness."
+    },
+    {
+      "type": "stage",
+      "text": "A warm special rises on NIA."
+    },
+    {
+      "type": "stage",
+      "text": "A second special reveals SIMON."
+    },
+    {
+      "type": "stage",
+      "text": "For the opening moments of the production, the entire world belongs to these two children."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "character",
+      "text": "CHILD STORYTELLERS"
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Have you ever heard of Nazareth?"
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Probably not."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Simon."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "What? It’s true."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "We’re not Jerusalem."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "No palace."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "No great temple."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "And if Caesar ever came through here—"
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "He was lost."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Very lost."
+    },
+    {
+      "type": "stage",
+      "text": "They share a look."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "But it’s home."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Which means everybody knows everybody."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Who your family is."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Where you work."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Who you’re talking to."
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Who you’re supposed to be talking to."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "And if you don’t know your own business—"
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Someone will explain it to you."
+    },
+    {
+      "type": "stage",
+      "text": "They grin."
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "lyric",
+      "text": "Welcome to Nazareth."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "LIGHT CUE — VILLAGE REVEAL"
+    },
+    {
+      "type": "heading",
+      "text": "ON “NAZARETH!” THE ENTIRE STAGE BURSTS INTO WARM, VIBRANT LIGHT."
+    },
+    {
+      "type": "stage",
+      "text": "For the first time, the audience sees the full marketplace."
+    },
+    {
+      "type": "stage",
+      "text": "The village is already moving."
+    },
+    {
+      "type": "stage",
+      "text": "The light catches:"
+    },
+    {
+      "type": "stage",
+      "text": "● merchants arranging goods;"
+    },
+    {
+      "type": "stage",
+      "text": "● villagers carrying baskets;"
+    },
+    {
+      "type": "stage",
+      "text": "● fabric opening across stalls;"
+    },
+    {
+      "type": "stage",
+      "text": "● workers moving crates;"
+    },
+    {
+      "type": "stage",
+      "text": "● bread being displayed;"
+    },
+    {
+      "type": "stage",
+      "text": "● children weaving through adults;"
+    },
+    {
+      "type": "stage",
+      "text": "● carpenters working;"
+    },
+    {
+      "type": "stage",
+      "text": "● women sweeping;"
+    },
+    {
+      "type": "stage",
+      "text": "● neighbors greeting one another;"
+    },
+    {
+      "type": "stage",
+      "text": "● shoppers bargaining;"
+    },
+    {
+      "type": "stage",
+      "text": "● jewelry being arranged;"
+    },
+    {
+      "type": "stage",
+      "text": "● clothing and cloth being displayed;"
+    },
+    {
+      "type": "stage",
+      "text": "● water being carried;"
+    },
+    {
+      "type": "stage",
+      "text": "● families beginning their day."
+    },
+    {
+      "type": "stage",
+      "text": "The audience should feel as though Nia and Simon have suddenly opened a window into a world that was already alive."
+    },
+    {
+      "type": "heading",
+      "text": "HAMMER."
+    },
+    {
+      "type": "heading",
+      "text": "CLAP."
+    },
+    {
+      "type": "heading",
+      "text": "STEP."
+    },
+    {
+      "type": "heading",
+      "text": "BASKET."
+    },
+    {
+      "type": "heading",
+      "text": "FABRIC SNAP."
+    },
+    {
+      "type": "stage",
+      "text": "Christian's orchestration catches the practical rhythms of the village."
+    },
+    {
+      "type": "music",
+      "text": "MUSIC STARTS"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "OPENING MUSICAL HOOK"
+    },
+    {
+      "type": "character",
+      "text": "COMPANY"
+    },
+    {
+      "type": "heading",
+      "text": "OHHH-OH, OOOH-OOH-OOH..."
+    },
+    {
+      "type": "heading",
+      "text": "WELCOME TO NAZARETH!"
+    },
+    {
+      "type": "character",
+      "text": "COMPANY"
+    },
+    {
+      "type": "heading",
+      "text": "OOOH-OOOH-OOOH..."
+    },
+    {
+      "type": "heading",
+      "text": "WELCOME TO NAZARETH!"
+    },
+    {
+      "type": "stage",
+      "text": "The marketplace expands into full choreography."
+    },
+    {
+      "type": "stage",
+      "text": "Nia and Simon are absorbed naturally into the village."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "VERSE 1 — VILLAGE DIALOGUES"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "DIALOGUE 1-“EVERYBODY KNOWS YOUR BUSINESS”"
+    },
+    {
+      "type": "stage",
+      "text": "*Directly establishes the theme that everybody in Nazareth knows everybody—and their business. *"
+    },
+    {
+      "type": "stage",
+      "text": "Marketplace moving rapidly. A MERCHANT sees a MAN approaching."
+    },
+    {
+      "type": "character",
+      "text": "MERCHANT 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Hello! Your usual?"
+    },
+    {
+      "type": "character",
+      "text": "CUSTOMER"
+    },
+    {
+      "type": "dialogue",
+      "text": "Actually, today I thought—"
+    },
+    {
+      "type": "character",
+      "text": "MERCHANT 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Your wife already came by."
+    },
+    {
+      "type": "character",
+      "text": "CUSTOMER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "She did?"
+    },
+    {
+      "type": "character",
+      "text": "MERCHANT 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "She said, “Don’t sell him anything we don’t need.”"
+    },
+    {
+      "type": "character",
+      "text": "CUSTOMER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "She’s not even here."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "She doesn’t need to be."
+    },
+    {
+      "type": "character",
+      "text": "CUSTOMER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t even know what I’m buying."
+    },
+    {
+      "type": "character",
+      "text": "MERCHANT 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "We’ll tell you when we hear."
+    },
+    {
+      "type": "music",
+      "text": "Music punches forward."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "DIALOGUE 2- “NAZARETH BARGAINING”"
+    },
+    {
+      "type": "stage",
+      "text": "*Gives the marketplace more of a fast Broadway-comedy feeling.*"
+    },
+    {
+      "type": "stage",
+      "text": "A WOMAN examines an item at a merchant's stall."
+    },
+    {
+      "type": "character",
+      "text": "WOMAN CUSTOMER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "How much?"
+    },
+    {
+      "type": "character",
+      "text": "MERCHANT 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Three."
+    },
+    {
+      "type": "character",
+      "text": "WOMAN CUSTOMER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Two."
+    },
+    {
+      "type": "character",
+      "text": "WOMAN CUSTOMER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Two—and I tell everybody you're generous."
+    },
+    {
+      "type": "character",
+      "text": "MERCHANT 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Three—and you tell nobody anything."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Too late. I heard two."
+    },
+    {
+      "type": "character",
+      "text": "MERCHANT 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "I haven't sold it yet!"
+    },
+    {
+      "type": "heading",
+      "text": "GOSSIPER 1 & 2"
+    },
+    {
+      "type": "stage",
+      "text": "Give us a minute!"
+    },
+    {
+      "type": "stage",
+      "text": "Everyone moves."
+    },
+    {
+      "type": "character",
+      "text": "MERCHANT 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "I need a different village."
+    },
+    {
+      "type": "character",
+      "text": "WOMAN CUSTOMER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "They'd hear about you there too."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "CHORUS 1"
+    },
+    {
+      "type": "character",
+      "text": "COMPANY"
+    },
+    {
+      "type": "heading",
+      "text": "[WELCOME TO NAZARETH — CHORUS]"
+    },
+    {
+      "type": "stage",
+      "text": "The marketplace opens wider."
+    },
+    {
+      "type": "stage",
+      "text": "The choreography celebrates the life of the village:"
+    },
+    {
+      "type": "stage",
+      "text": "● basket exchanges becoming partner turns;"
+    },
+    {
+      "type": "stage",
+      "text": "● fabric moving overhead;"
+    },
+    {
+      "type": "stage",
+      "text": "● children weaving through formations;"
+    },
+    {
+      "type": "stage",
+      "text": "● merchants shifting stalls;"
+    },
+    {
+      "type": "stage",
+      "text": "● couples turning through the marketplace;"
+    },
+    {
+      "type": "stage",
+      "text": "● rhythmic clapping;"
+    },
+    {
+      "type": "stage",
+      "text": "● sweeping diagonals;"
+    },
+    {
+      "type": "stage",
+      "text": "● groups forming and reforming;"
+    },
+    {
+      "type": "stage",
+      "text": "● everyday work becoming dance."
+    },
+    {
+      "type": "stage",
+      "text": "The movement should feel as though Nazareth itself creates the rhythm."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "VERSE 2 — MARY AND HER FRIENDS"
+    },
+    {
+      "type": "stage",
+      "text": "MARY enters with SHIRA, TALIA, ADINA and DAFNA."
+    },
+    {
+      "type": "stage",
+      "text": "They are working among fabrics, garments, jewelry and marketplace goods."
+    },
+    {
+      "type": "stage",
+      "text": "The music continues underneath their dialogue."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary, we're late."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "We are not late."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "We are if someone is waiting for us."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Someone is waiting for Mary."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Dafna."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I didn't say who."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You didn't need to."
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Can we discuss Mary's future while walking?"
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Absolutely."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Can we not discuss Mary's future at all?"
+    },
+    {
+      "type": "character",
+      "text": "SHIRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You keep looking for him."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm not looking for anyone."
+    },
+    {
+      "type": "dialogue",
+      "text": "Talia catches Mary glancing across the marketplace."
+    },
+    {
+      "type": "character",
+      "text": "TALIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "That is clearly untrue."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know who she means."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then we're all caught up."
+    },
+    {
+      "type": "stage",
+      "text": "Mary laughs."
+    },
+    {
+      "type": "character",
+      "text": "ADINA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Good. Now move."
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "You see how she speaks to us?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Move, Dafna."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "character",
+      "text": "DAFNA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Now there are two of them."
+    },
+    {
+      "type": "stage",
+      "text": "The women laugh and are swept back into the choreography."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "MUSICAL TRANSITION INTO VERSE 2"
+    },
+    {
+      "type": "stage",
+      "text": "A carpentry rhythm emerges."
+    },
+    {
+      "type": "heading",
+      "text": "HAMMER."
+    },
+    {
+      "type": "heading",
+      "text": "HAMMER."
+    },
+    {
+      "type": "heading",
+      "text": "WOOD."
+    },
+    {
+      "type": "heading",
+      "text": "CLAP."
+    },
+    {
+      "type": "heading",
+      "text": "STEP."
+    },
+    {
+      "type": "heading",
+      "text": "VERSE 2 (con.) — JOSEPH AND HIS FRIENDS"
+    },
+    {
+      "type": "stage",
+      "text": "A carpentry rhythm emerges: HAMMER. HAMMER. WOOD. CLAP. STEP. JOSEPH enters with LEVI, MALACHI, CALEB and EZRA."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Caleb."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "Don’t say it."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s crooked."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s artistic."
+    },
+    {
+      "type": "character",
+      "text": "EZRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "It is crooked artistically."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Give it here."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "Why does everyone assume I need help?"
+    },
+    {
+      "type": "stage",
+      "text": "The piece slips. Levi catches it."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Instinct."
+    },
+    {
+      "type": "character",
+      "text": "MALACHI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Experience."
+    },
+    {
+      "type": "character",
+      "text": "EZRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Evidence."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph, defend me."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "It still holds. That is not the same as being right."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "I withdraw my request."
+    },
+    {
+      "type": "stage",
+      "text": "The men laugh."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Enjoy this while you can."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "Enjoy what?"
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "Freedom."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m getting married. I’m not being arrested."
+    },
+    {
+      "type": "character",
+      "text": "EZRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "There are similarities in the paperwork."
+    },
+    {
+      "type": "character",
+      "text": "MALACHI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Ezra."
+    },
+    {
+      "type": "character",
+      "text": "EZRA"
+    },
+    {
+      "type": "dialogue",
+      "text": "I said paperwork."
+    },
+    {
+      "type": "dialogue",
+      "text": "Laugh."
+    },
+    {
+      "type": "character",
+      "text": "LEVI"
+    },
+    {
+      "type": "dialogue",
+      "text": "Does Mary know how much time you spend talking to wood?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "The wood listens better than all of you."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then marry the wood."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m reconsidering my friendships."
+    },
+    {
+      "type": "stage",
+      "text": "The men pull Joseph back into the musical rhythm."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "CHORUS 2"
+    },
+    {
+      "type": "character",
+      "text": "COMPANY"
+    },
+    {
+      "type": "heading",
+      "text": "[WELCOME TO NAZARETH — CHORUS]"
+    },
+    {
+      "type": "heading",
+      "text": "NO SPOKEN DIALOGUE."
+    },
+    {
+      "type": "stage",
+      "text": "The stage divides into three simultaneous worlds."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "DOWNSTAGE LEFT — JOSEPH AND HIS FRIENDS"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph remains with:"
+    },
+    {
+      "type": "stage",
+      "text": "● Levi"
+    },
+    {
+      "type": "stage",
+      "text": "● Malachi"
+    },
+    {
+      "type": "stage",
+      "text": "● Caleb"
+    },
+    {
+      "type": "stage",
+      "text": "● Ezra"
+    },
+    {
+      "type": "stage",
+      "text": "They continue working with carpentry materials."
+    },
+    {
+      "type": "stage",
+      "text": "Their work stays connected rhythmically to the music:"
+    },
+    {
+      "type": "stage",
+      "text": "● measuring;"
+    },
+    {
+      "type": "stage",
+      "text": "● sanding;"
+    },
+    {
+      "type": "stage",
+      "text": "● carrying wood;"
+    },
+    {
+      "type": "stage",
+      "text": "● hammering;"
+    },
+    {
+      "type": "stage",
+      "text": "● checking angles;"
+    },
+    {
+      "type": "stage",
+      "text": "● passing tools;"
+    },
+    {
+      "type": "stage",
+      "text": "● repositioning benches or work pieces."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph remains visibly skilled."
+    },
+    {
+      "type": "stage",
+      "text": "His friends interact physically and comedically without speaking."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "DOWNSTAGE RIGHT — MARY AND HER FRIENDS"
+    },
+    {
+      "type": "stage",
+      "text": "Mary remains with:"
+    },
+    {
+      "type": "stage",
+      "text": "● Shira"
+    },
+    {
+      "type": "stage",
+      "text": "● Talia"
+    },
+    {
+      "type": "stage",
+      "text": "● Adina"
+    },
+    {
+      "type": "stage",
+      "text": "● Dafna"
+    },
+    {
+      "type": "stage",
+      "text": "They continue working with:"
+    },
+    {
+      "type": "stage",
+      "text": "● fabrics;"
+    },
+    {
+      "type": "stage",
+      "text": "● jewelry;"
+    },
+    {
+      "type": "stage",
+      "text": "● clothing;"
+    },
+    {
+      "type": "stage",
+      "text": "● thread;"
+    },
+    {
+      "type": "stage",
+      "text": "● cloth;"
+    },
+    {
+      "type": "stage",
+      "text": "● baskets;"
+    },
+    {
+      "type": "stage",
+      "text": "● decorative goods."
+    },
+    {
+      "type": "stage",
+      "text": "Their work may become choreographed through:"
+    },
+    {
+      "type": "stage",
+      "text": "● folding;"
+    },
+    {
+      "type": "stage",
+      "text": "● passing fabric;"
+    },
+    {
+      "type": "stage",
+      "text": "● measuring;"
+    },
+    {
+      "type": "stage",
+      "text": "● fastening jewelry;"
+    },
+    {
+      "type": "stage",
+      "text": "● displaying garments;"
+    },
+    {
+      "type": "stage",
+      "text": "● stretching cloth;"
+    },
+    {
+      "type": "stage",
+      "text": "● turning one another;"
+    },
+    {
+      "type": "stage",
+      "text": "● carrying goods through formations."
+    },
+    {
+      "type": "heading",
+      "text": "CENTER STAGE — VILLAGE DANCERS"
+    },
+    {
+      "type": "stage",
+      "text": "The village dancers own the center of the stage."
+    },
+    {
+      "type": "stage",
+      "text": "The featured choreography becomes the visual focus."
+    },
+    {
+      "type": "stage",
+      "text": "Use:"
+    },
+    {
+      "type": "stage",
+      "text": "● traveling movement;"
+    },
+    {
+      "type": "stage",
+      "text": "● turns;"
+    },
+    {
+      "type": "stage",
+      "text": "● partner work;"
+    },
+    {
+      "type": "stage",
+      "text": "● marketplace-inspired choreography;"
+    },
+    {
+      "type": "stage",
+      "text": "● rhythmic prop work;"
+    },
+    {
+      "type": "stage",
+      "text": "● villagers crossing through moving dance formations."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "MARY AND JOSEPH — SILENT CONNECTION"
+    },
+    {
+      "type": "stage",
+      "text": "The chorus reaches a musical punctuation. The orchestration reduces rather than implying anything supernatural. Ordinary village life shifts into extreme slow motion. Mary and Joseph remain at normal speed. Villagers continue bargaining, working, carrying, reaching and crossing around them. For a moment, the audience experiences the town through Mary and Joseph."
+    },
+    {
+      "type": "stage",
+      "text": "Mary crosses with a handmade TOOL SATCHEL."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "I made this for you. A new tool satchel."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "For me?"
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yours was falling apart."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I was calling it well-loved."
+    },
+    {
+      "type": "character",
+      "text": "MARY"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then cherish this one instead."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I will. Especially because you made it."
+    },
+    {
+      "type": "stage",
+      "text": "Mary smiles. Their hands may briefly meet naturally during the exchange, but the touch is not treated as a magical cue. Joseph puts the satchel over his shoulder. They remain together one beat longer than necessary."
+    },
+    {
+      "type": "stage",
+      "text": "Mary begins walking away. Joseph watches her one beat too long."
+    },
+    {
+      "type": "music",
+      "text": "MUSIC / MOVEMENT SNAP"
+    },
+    {
+      "type": "stage",
+      "text": "BANG. Full tempo, sound and marketplace movement return at once. Joseph is a fraction late returning to the world; a passing villager or carried object may nearly catch him unaware."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "You coming?"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m coming."
+    },
+    {
+      "type": "stage",
+      "text": "He is still looking toward Mary."
+    },
+    {
+      "type": "character",
+      "text": "CALEB"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph."
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I said I’m coming."
+    },
+    {
+      "type": "stage",
+      "text": "The musical number surges forward."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "MUSIC SLAMS BACK IN"
+    },
+    {
+      "type": "stage",
+      "text": "The village explodes out of the freeze."
+    },
+    {
+      "type": "stage",
+      "text": "Mary rejoins her friends downstage right."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph rejoins his friends downstage left."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph now visibly carries the satchel Mary made for him."
+    },
+    {
+      "type": "stage",
+      "text": "The choreography becomes increasingly energetic."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "INSTRUMENTAL BUILD"
+    },
+    {
+      "type": "stage",
+      "text": "The marketplace starts transforming into larger dance vocabulary."
+    },
+    {
+      "type": "stage",
+      "text": "Props may include:"
+    },
+    {
+      "type": "stage",
+      "text": "● baskets;"
+    },
+    {
+      "type": "stage",
+      "text": "● fabric;"
+    },
+    {
+      "type": "stage",
+      "text": "● stools;"
+    },
+    {
+      "type": "stage",
+      "text": "● crates;"
+    },
+    {
+      "type": "stage",
+      "text": "● staffs;"
+    },
+    {
+      "type": "stage",
+      "text": "● lightweight tools;"
+    },
+    {
+      "type": "stage",
+      "text": "● market goods."
+    },
+    {
+      "type": "stage",
+      "text": "Props should create:"
+    },
+    {
+      "type": "stage",
+      "text": "● levels;"
+    },
+    {
+      "type": "stage",
+      "text": "● pathways;"
+    },
+    {
+      "type": "stage",
+      "text": "● rotations;"
+    },
+    {
+      "type": "stage",
+      "text": "● exchanges;"
+    },
+    {
+      "type": "stage",
+      "text": "● visual reveals;"
+    },
+    {
+      "type": "stage",
+      "text": "● rhythmic accents."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "GOSSIP BREAK"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph proudly puts the new satchel over his shoulder."
+    },
+    {
+      "type": "stage",
+      "text": "GOSSIPER 1 watches them."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Did you see that?"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary made Joseph a new satchel."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "She gave him new tools?"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "No. A satchel."
+    },
+    {
+      "type": "dialogue",
+      "text": "But Gossiper 2 is already moving away."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary bought Joseph all new tools!"
+    },
+    {
+      "type": "dialogue",
+      "text": "GOSSIPER 3 hears only that."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "New tools?"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "That's what I heard."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "He must be opening his own workshop."
+    },
+    {
+      "type": "dialogue",
+      "text": "Gossiper 3 crosses immediately."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph's opening a new workshop!"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "¿Aquí?"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don't know. Maybe Jerusalem."
+    },
+    {
+      "type": "dialogue",
+      "text": "Gossiper 4 GASPS."
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "¿Jerusalén? Ay, Dios mío. Mary and Joseph are moving to Jerusalem!"
+    },
+    {
+      "type": "stage",
+      "text": "She immediately turns to another villager."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?!"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Right after the wedding."
+    },
+    {
+      "type": "character",
+      "text": "VILLAGER WOMAN 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Who told you?"
+    },
+    {
+      "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Everybody knoooows, mi amoooor."
+    },
+    {
+      "type": "stage",
+      "text": "The gossipers hurry away. The dancers reclaim center stage. The number builds through its dance climax into the final company chorus and button."
+    },
+    {
+      "type": "music",
+      "text": "MUSIC SLAMS BACK IN."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "DANCE CLIMAX"
+    },
+    {
+      "type": "heading",
+      "text": "FULL INSTRUMENTAL"
+    },
+    {
+      "type": "stage",
+      "text": "This is the major dance feature of the opening number."
+    },
+    {
+      "type": "stage",
+      "text": "The dance vocabulary can include:"
+    },
+    {
+      "type": "stage",
+      "text": "● barrel turns;"
+    },
+    {
+      "type": "stage",
+      "text": "● traveling turns;"
+    },
+    {
+      "type": "stage",
+      "text": "● jumps;"
+    },
+    {
+      "type": "stage",
+      "text": "● controlled flips by trained performers;"
+    },
+    {
+      "type": "stage",
+      "text": "● partner spins;"
+    },
+    {
+      "type": "stage",
+      "text": "● appropriate lifts;"
+    },
+    {
+      "type": "stage",
+      "text": "● floor-to-standing transitions;"
+    },
+    {
+      "type": "stage",
+      "text": "● rhythmic footwork;"
+    },
+    {
+      "type": "stage",
+      "text": "● fabric work;"
+    },
+    {
+      "type": "stage",
+      "text": "● basket choreography;"
+    },
+    {
+      "type": "stage",
+      "text": "● prop exchanges;"
+    },
+    {
+      "type": "stage",
+      "text": "● rotating circles;"
+    },
+    {
+      "type": "stage",
+      "text": "● intersecting diagonals;"
+    },
+    {
+      "type": "stage",
+      "text": "● athletic men's movement;"
+    },
+    {
+      "type": "stage",
+      "text": "● traveling turns;"
+    },
+    {
+      "type": "stage",
+      "text": "● children's choreographed pathways."
+    },
+    {
+      "type": "stage",
+      "text": "The choreography should build in layers."
+    },
+    {
+      "type": "stage",
+      "text": "One group gets a featured moment."
+    },
+    {
+      "type": "stage",
+      "text": "Another group answers."
+    },
+    {
+      "type": "stage",
+      "text": "Another section builds."
+    },
+    {
+      "type": "stage",
+      "text": "Then the full village joins."
+    },
+    {
+      "type": "stage",
+      "text": "It should feel like a Broadway company number—not a sequence of unrelated tricks."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "MUSICAL BUILD INTO FINAL CHORUS"
+    },
+    {
+      "type": "stage",
+      "text": "Christian drives the orchestration upward."
+    },
+    {
+      "type": "stage",
+      "text": "The dancers pull the full community back into the number."
+    },
+    {
+      "type": "stage",
+      "text": "Mary and her friends return."
+    },
+    {
+      "type": "stage",
+      "text": "Joseph and his friends return."
+    },
+    {
+      "type": "stage",
+      "text": "Children join."
+    },
+    {
+      "type": "stage",
+      "text": "Merchants join."
+    },
+    {
+      "type": "stage",
+      "text": "Families join."
+    },
+    {
+      "type": "stage",
+      "text": "Nia and Simon join."
+    },
+    {
+      "type": "stage",
+      "text": "The entire town fills the stage."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "transition",
+      "text": "FINAL CHORUS"
+    },
+    {
+      "type": "heading",
+      "text": "FULL COMPANY"
+    },
+    {
+      "type": "heading",
+      "text": "[FINAL “WELCOME TO NAZARETH” CHORUS]"
+    },
+    {
+      "type": "stage",
+      "text": "Everything established throughout the number now comes together:"
+    },
+    {
+      "type": "stage",
+      "text": "work"
+    },
+    {
+      "type": "stage",
+      "text": "family"
+    },
+    {
+      "type": "stage",
+      "text": "friendship"
+    },
+    {
+      "type": "stage",
+      "text": "community"
+    },
+    {
+      "type": "stage",
+      "text": "movement"
+    },
+    {
+      "type": "stage",
+      "text": "celebration"
+    },
+    {
+      "type": "stage",
+      "text": "Nazareth"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "character",
+      "text": "COMPANY"
+    },
+    {
+      "type": "heading",
+      "text": "OHHH-OH, OOOH-OOH-OOH..."
+    },
+    {
+      "type": "heading",
+      "text": "WELCOME TO NAZARETH!"
+    },
+    {
+      "type": "character",
+      "text": "COMPANY"
+    },
+    {
+      "type": "heading",
+      "text": "OOOH-OOOH-OOOH..."
+    },
+    {
+      "type": "heading",
+      "text": "WELCOME TO NAZARETH!"
+    },
+    {
+      "type": "transition",
+      "text": "FINAL MUSICAL BUTTON"
+    },
+    {
+      "type": "heading",
+      "text": "HIT."
+    },
+    {
+      "type": "transition",
+      "text": "FINAL POSE"
+    },
+    {
+      "type": "stage",
+      "text": "The company lands in multiple levels and varied positions."
+    },
+    {
+      "type": "stage",
+      "text": "Suggested visual composition:"
+    },
+    {
+      "type": "stage",
+      "text": "● featured dancers extended;"
+    },
+    {
+      "type": "stage",
+      "text": "● children lower;"
+    },
+    {
+      "type": "stage",
+      "text": "● vendors framing the stage;"
+    },
+    {
+      "type": "stage",
+      "text": "● workers with tools;"
+    },
+    {
+      "type": "stage",
+      "text": "● fabric creating height;"
+    },
+    {
+      "type": "stage",
+      "text": "● Mary's group downstage right;"
+    },
+    {
+      "type": "stage",
+      "text": "● Joseph's group downstage left;"
+    },
+    {
+      "type": "stage",
+      "text": "● Nia and Simon clearly visible;"
+    },
+    {
+      "type": "stage",
+      "text": "● Mary and Joseph visible within their separate worlds."
+    },
+    {
+      "type": "stage",
+      "text": "The picture should communicate:"
+    },
+    {
+      "type": "heading",
+      "text": "THIS IS NAZARETH."
+    },
+    {
+      "type": "heading",
+      "text": "HOLD FOR APPLAUSE."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "transition",
+      "text": "TRANSITION INTO"
+    }
+  ]
+}

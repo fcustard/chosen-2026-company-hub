@@ -1,39 +1,89 @@
 {
   "scene": "09",
   "title": "What Will He Be? / The Town Turns",
-  "eyebrow": "CURRENT · COMPANY VERSION",
-  "publicationNote": "This is the official company rehearsal version.",
+  "status": "CURRENT · Auto-published from master script",
+  "approved": true,
+  "companyPublish": true,
+  "source": "Master script Google Doc",
+  "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
+  "sourceUpdated": "2026-09-14T04:15:49.886Z",
+  "contentHash": "139aceb2df7336d4c38b08e834787009e8a2b2570fb5f89b993cdf070fbf2299",
+  "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
-      "type": "heading",
-      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
+      "type": "stage",
+      "text": "Gossip Sequence: approximately 60–90 seconds"
     },
     {
       "type": "stage",
-      "text": "SCENE 9 - \"WHAT WILL HE BE?\" / THE TOWN TURNS"
+      "text": "Characters:"
     },
     {
-      "type": "stage",
-      "text": "COMPANY VERSION"
+      "type": "character",
+      "text": "Mary"
+    },
+    {
+      "type": "character",
+      "text": "Joseph"
+    },
+    {
+      "type": "character",
+      "text": "Shira"
+    },
+    {
+      "type": "character",
+      "text": "Talia"
+    },
+    {
+      "type": "character",
+      "text": "Adina"
+    },
+    {
+      "type": "character",
+      "text": "Dafna"
+    },
+    {
+      "type": "character",
+      "text": "Levi"
+    },
+    {
+      "type": "character",
+      "text": "Malachi"
+    },
+    {
+      "type": "character",
+      "text": "Caleb"
+    },
+    {
+      "type": "character",
+      "text": "Ezra"
+    },
+    {
+      "type": "character",
+      "text": "Nia"
+    },
+    {
+      "type": "character",
+      "text": "Simon"
+    },
+    {
+      "type": "dialogue",
+      "text": "Children"
+    },
+    {
+      "type": "character",
+      "text": "Villagers"
+    },
+    {
+      "type": "character",
+      "text": "Roman Announcer"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
-      "text": "CHOSEN: THE STORY BEFORE THE MANGER"
-    },
-    {
-      "type": "heading",
-      "text": "SCENE 9 — “WHAT WILL HE BE?” / THE TOWN TURNS"
-    },
-    {
-      "type": "text",
-      "text": "Approximate Running Time: 6 minutes\nMusical Number: “What Will He Be?” — approximately 2–2½ minutes\nGossip Sequence: approximately 60–90 seconds"
-    },
-    {
-      "type": "text",
-      "text": "Characters:\nMary\nJoseph\nShira\nTalia\nAdina\nDafna\nLevi\nMalachi\nCaleb\nEzra\nNia\nSimon\nChildren\nVillagers\nRoman Announcer"
-    },
-    {
-      "type": "transition",
       "text": "CONTINUOUS FROM SCENE 8"
     },
     {
@@ -49,7 +99,7 @@
       "text": "The familiar sound of Nazareth begins before the marketplace is fully visible."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "HAMMER. BASKET. FABRIC SNAP. CLAP."
     },
     {
@@ -109,6 +159,10 @@
       "text": "They keep walking."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "THE CHILDREN BREAK THE TENSION"
     },
@@ -121,11 +175,11 @@
       "text": "Mary!"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Nia runs toward her before an adult can stop her."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Simon follows, more cautiously. Several children trail behind."
     },
     {
@@ -137,7 +191,7 @@
       "text": "Nia—"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Too late."
     },
     {
@@ -157,7 +211,7 @@
       "text": "I’m back."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Simon looks at Mary. Then Joseph. Then Mary again."
     },
     {
@@ -465,8 +519,12 @@
       "text": "What do you think he’ll be?"
     },
     {
-      "type": "music",
+      "type": "heading",
       "text": "“WHAT WILL HE BE?” BEGINS"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -557,7 +615,7 @@
       "text": "Everything I know."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That line lands quietly."
     },
     {
@@ -573,16 +631,20 @@
       "text": "Will he be gentle? / Will he be brave? / Will he make a difference / in somebody’s day?"
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "NIA / CHILDREN"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "What will he be?"
     },
     {
       "type": "stage",
       "text": "The audience knows more than the children do. That is where the emotion comes from."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -593,11 +655,11 @@
       "text": "As the children repeat the bright question, a second question begins underneath them."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "CHILDREN"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "What will he be?"
     },
     {
@@ -633,11 +695,11 @@
       "text": "Claro que sabe. Of course, he knows."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "CHILDREN"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "What will he be?"
     },
     {
@@ -673,7 +735,7 @@
       "text": "That’s what I heard."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Villager 3 looks toward Mary."
     },
     {
@@ -717,11 +779,11 @@
       "text": "The children finish joyfully."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "CHILDREN"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "What will he be?"
     },
     {
@@ -773,7 +835,7 @@
       "text": "Come along."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "One by one, the children are removed from Mary’s orbit."
     },
     {
@@ -793,8 +855,12 @@
       "text": "What happened?"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "No adult answers him."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -889,6 +955,10 @@
       "text": "That’s what she said."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "character",
       "text": "GOSSIPER 4"
     },
@@ -897,12 +967,16 @@
       "text": "Convenient."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "In Scene 1, everybody knowing everybody was comedy."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Now everybody thinks they know enough."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -941,7 +1015,7 @@
       "text": "All right."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Shira stays."
     },
     {
@@ -981,7 +1055,7 @@
       "text": "That’s Talia’s job."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Talia arrives."
     },
     {
@@ -1009,7 +1083,7 @@
       "text": "Then Adina is correct."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Dafna stares at her."
     },
     {
@@ -1025,11 +1099,11 @@
       "text": "A small breath of humor. Then—"
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "VILLAGER WOMAN 3"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "You believe her?"
     },
     {
@@ -1049,11 +1123,11 @@
       "text": "I believe Mary told us what happened to her."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "VILLAGER WOMAN 3"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "That is not what I asked."
     },
     {
@@ -1065,11 +1139,11 @@
       "text": "I know."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "VILLAGER WOMAN 3"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "So you don’t believe it either."
     },
     {
@@ -1081,11 +1155,11 @@
       "text": "I didn’t say that."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "VILLAGER WOMAN 3"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Then what are you saying?"
     },
     {
@@ -1101,11 +1175,11 @@
       "text": "I’m saying you weren’t there."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "VILLAGER WOMAN 3"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Neither were you."
     },
     {
@@ -1143,6 +1217,10 @@
     {
       "type": "stage",
       "text": "She stays."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1209,7 +1287,7 @@
       "text": "I do."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Levi lowers his voice."
     },
     {
@@ -1229,7 +1307,7 @@
       "text": "I can’t."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Levi did not expect that."
     },
     {
@@ -1285,7 +1363,7 @@
       "text": "This is me telling you what I chose."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Levi does not like it. But he hears him."
     },
     {
@@ -1305,7 +1383,7 @@
       "text": "I am."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Caleb nods and moves to Joseph’s side."
     },
     {
@@ -1361,7 +1439,7 @@
       "text": "No."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Ezra did not expect that either."
     },
     {
@@ -1373,7 +1451,7 @@
       "text": "But understanding everything and knowing what I need to do are not always the same thing."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Ezra considers it."
     },
     {
@@ -1385,16 +1463,20 @@
       "text": "That’s enough for today."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Malachi stands beside Joseph."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Ezra hesitates, then joins them."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Levi remains slightly apart."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1489,7 +1571,7 @@
       "text": "And you’re willing to throw away your name for this?"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Levi reacts to the language."
     },
     {
@@ -1553,7 +1635,7 @@
       "text": "Yes."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Some villagers stare. A few whisper. One or two may laugh under their breath."
     },
     {
@@ -1577,7 +1659,7 @@
       "text": "No."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "That surprises them."
     },
     {
@@ -1609,6 +1691,10 @@
       "text": "This is Mary’s public choice."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "JOSEPH TRIES TO FIX IT"
     },
@@ -1625,11 +1711,11 @@
       "text": "Did you hear—"
     },
     {
-      "type": "stage",
-      "text": "GOSSIPER  3"
+      "type": "character",
+      "text": "GOSSIPER 3"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "She admitted—"
     },
     {
@@ -1737,7 +1823,7 @@
       "text": "But you can’t build your way out of this."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "It lands without cruelty."
     },
     {
@@ -1747,6 +1833,10 @@
     {
       "type": "stage",
       "text": "For once, he lets the problem remain unsolved."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1765,7 +1855,7 @@
       "text": "Why is everybody angry?"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "No one answers."
     },
     {
@@ -1801,7 +1891,7 @@
       "text": "Nia."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Nia does not move immediately."
     },
     {
@@ -1813,7 +1903,7 @@
       "text": "Come."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Nia looks at Mary."
     },
     {
@@ -1827,6 +1917,10 @@
     {
       "type": "stage",
       "text": "Simon follows, looking back once."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -1861,63 +1955,63 @@
       "text": "The gossip rhythm begins to peak."
     },
     {
-      "type": "character",
+      "type": "heading",
       "text": "VILLAGER 1"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph knows—"
-    },
-    {
-      "type": "character",
-      "text": "VILLAGER 2"
-    },
-    {
-      "type": "dialogue",
-      "text": "Before the wedding—"
-    },
-    {
-      "type": "character",
-      "text": "VILLAGER 3"
-    },
-    {
-      "type": "dialogue",
-      "text": "An angel—"
-    },
-    {
-      "type": "character",
-      "text": "VILLAGER 1"
-    },
-    {
-      "type": "dialogue",
-      "text": "A child—"
-    },
-    {
-      "type": "character",
-      "text": "VILLAGER 2"
-    },
-    {
-      "type": "dialogue",
-      "text": "God—"
-    },
-    {
-      "type": "character",
-      "text": "VILLAGER 3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Can you believe—"
-    },
-    {
-      "type": "character",
-      "text": "VILLAGER 2"
-    },
-    {
-      "type": "dialogue",
-      "text": "Everybody knows—"
     },
     {
       "type": "stage",
+      "text": "Joseph knows—"
+    },
+    {
+      "type": "heading",
+      "text": "VILLAGER 2"
+    },
+    {
+      "type": "stage",
+      "text": "Before the wedding—"
+    },
+    {
+      "type": "heading",
+      "text": "VILLAGER 3"
+    },
+    {
+      "type": "stage",
+      "text": "An angel—"
+    },
+    {
+      "type": "heading",
+      "text": "VILLAGER 1"
+    },
+    {
+      "type": "stage",
+      "text": "A child—"
+    },
+    {
+      "type": "heading",
+      "text": "VILLAGER 2"
+    },
+    {
+      "type": "stage",
+      "text": "God—"
+    },
+    {
+      "type": "heading",
+      "text": "VILLAGER 3"
+    },
+    {
+      "type": "stage",
+      "text": "Can you believe—"
+    },
+    {
+      "type": "heading",
+      "text": "VILLAGER 2"
+    },
+    {
+      "type": "stage",
+      "text": "Everybody knows—"
+    },
+    {
+      "type": "heading",
       "text": "BOOM."
     },
     {
@@ -1929,7 +2023,7 @@
       "text": "Everything stops."
     },
     {
-      "type": "stage",
+      "type": "heading",
       "text": "BOOM."
     },
     {
@@ -2053,7 +2147,7 @@
       "text": "A census shall be taken. Every household is to be registered according to family line and ancestral city."
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Immediate murmuring."
     },
     {
@@ -2185,6 +2279,10 @@
       "text": "He exits as the Roman drum resumes."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "BETHLEHEM"
     },
@@ -2289,8 +2387,28 @@
       "text": "Around them, Nazareth prepares to move."
     },
     {
-      "type": "heading",
+      "type": "transition",
       "text": "END SCENE 9"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "NOTES:"
+    },
+    {
+      "type": "stage",
+      "text": "Scene 10 setup: Mary’s “When do we leave?” makes clear that the next conflict is not whether she will go, but how Joseph will handle the danger, logistics, and loss of control on the journey."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "Scene 9 should feel like a deliberate mirror of"
     }
   ]
 }
