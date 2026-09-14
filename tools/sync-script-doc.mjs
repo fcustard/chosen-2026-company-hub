@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * CHOSEN 2026 — Master Script Direct Publish Sync
+ * CHOSEN 2026 — Master Script Direct Publish Sync V1.2
  *
  * Purpose:
  * - Fetch the current master script feed from Google Docs Apps Script.
- * - Split the script into Scene 01–12 sections.
+ * - Split the script into Scene 01–12 sections, including Google Doc line-break variants.
  * - Overwrite data/scenes/scene-##.json.
  * - Overwrite data/scripts.json so the Hub builds the newest scene readers.
  *
@@ -189,6 +189,76 @@ function isStopLine(line) {
   return STOP_MARKERS.some((pattern) => pattern.test(text));
 }
 
+function splitEmbeddedSceneHeaders(line) {
+  const text = String(line || "")
+    .replace(/\u200b/g, "")
+    .replace(/\u00a0/g, " ")
+    .replace(/[ \t]+/g, " ")
+    .trim();
+
+  if (!text) return [""];
+
+  // Google Docs can sometimes export styled title pages as one paragraph.
+  // Split only on clear scene-heading patterns that use a dash/colon after the number.
+  // This avoids breaking ordinary references like "Scene 1 should feel..."
+  const prepared = text
+    .replace(/(CHOSEN:\s*THE STORY BEFORE THE\s*MANGER)/gi, "\n$1\n")
+    .replace(/(\bSCENE\s+\d{1,2}\s*[-—–:])/gi, "\n$1");
+
+  return prepared
+    .split(/\n+/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+}
+
+function mergeBrokenSceneHeaderLines(lines) {
+  const merged = [];
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = String(lines[index] || "").trim();
+    const next = String(lines[index + 1] || "").trim();
+    const afterNext = String(lines[index + 2] || "").trim();
+
+    // Handles Google Doc exports like:
+    // SCENE
+    // 1-WELCOME TO NAZARETH
+    const nextHasSceneNumberAndTitle = next.match(/^(\d{1,2})(?:\s*[-—–:]\s*(.+))$/);
+
+    if (/^SCENE$/i.test(line) && nextHasSceneNumberAndTitle) {
+      merged.push(`SCENE ${next}`);
+      index += 1;
+      continue;
+    }
+
+    // Handles exports like:
+    // SCENE
+    // 1
+    // WELCOME TO NAZARETH
+    if (/^SCENE$/i.test(line) && /^\d{1,2}$/.test(next) && afterNext) {
+      merged.push(`SCENE ${next} - ${afterNext}`);
+      index += 2;
+      continue;
+    }
+
+    // Handles exports like:
+    // SCENE 1
+    // WELCOME TO NAZARETH
+    // The canonical title map will still protect public titles, but this keeps
+    // the scene boundary obvious to the extractor.
+    if (/^SCENE\s+\d{1,2}$/i.test(line) && afterNext !== "" && next) {
+      if (/^[A-Z0-9\s&/'"“”’.!?(),-]+$/.test(next) && next.length <= 100) {
+        merged.push(`${line} - ${next}`);
+        index += 1;
+        continue;
+      }
+    }
+
+    merged.push(line);
+  }
+
+  return merged;
+}
+
 function sceneHeaderMatch(line) {
   const text = String(line || "").trim();
 
@@ -210,25 +280,36 @@ function sceneHeaderMatch(line) {
 
 function compactScriptLines(text) {
   const rawLines = normalizeNewlines(text).split("\n");
+  const expandedLines = [];
 
-  return rawLines
+  for (const rawLine of rawLines) {
+    for (const part of splitEmbeddedSceneHeaders(rawLine)) {
+      expandedLines.push(part);
+    }
+  }
+
+  const cleanedLines = expandedLines
     .map((line) =>
       String(line || "")
         .replace(/\u200b/g, "")
         .replace(/[ \t]+/g, " ")
         .trim()
     )
-    .filter((line, index, lines) => {
+    .filter((line) => {
       if (!line) return true;
 
       // Remove repeated page/source artifact lines.
       if (/^CHOSEN:\s*THE STORY BEFORE THE\s*MANGER$/i.test(line)) return false;
       if (/^THE STORY BEFORE THE MANGER$/i.test(line)) return false;
 
-      // Preserve single blank lines, but not runs.
-      if (!line && !lines[index - 1]) return false;
       return true;
     });
+
+  return mergeBrokenSceneHeaderLines(cleanedLines).filter((line, index, lines) => {
+    // Preserve single blank lines, but not runs.
+    if (!line && !lines[index - 1]) return false;
+    return true;
+  });
 }
 
 function extractScenesFromText(text) {
@@ -502,7 +583,8 @@ function normalizeFeedToScenes(feed) {
     scenes = extractScenesFromText(text);
   }
 
-  const missing = [];
+  const feedText = normalizeNewlines(feed.text || feed.sourceText || "");
+  let missing = [];
 
   for (const sceneNumber of EXPECTED_SCENES) {
     if (!scenes.find((scene) => scene.scene === sceneNumber)) {
@@ -510,7 +592,39 @@ function normalizeFeedToScenes(feed) {
     }
   }
 
+  // If a future feed sends scenes[] but one is missing, try the full text as a repair source.
+  if (missing.length && feedText) {
+    const parsedFromText = extractScenesFromText(feedText);
+    for (const repaired of parsedFromText) {
+      if (missing.includes(repaired.scene) && !scenes.find((scene) => scene.scene === repaired.scene)) {
+        scenes.push(repaired);
+      }
+    }
+
+    missing = [];
+    for (const sceneNumber of EXPECTED_SCENES) {
+      if (!scenes.find((scene) => scene.scene === sceneNumber)) {
+        missing.push(sceneNumber);
+      }
+    }
+  }
+
   if (missing.length) {
+    const found = scenes
+      .filter((scene) => EXPECTED_SCENES.has(scene.scene))
+      .map((scene) => scene.scene)
+      .sort()
+      .join(", ") || "none";
+
+    const sceneLikeLines = feedText
+      ? compactScriptLines(feedText)
+          .filter((line) => /\bSCENE\b/i.test(line))
+          .slice(0, 20)
+          .join(" | ")
+      : "no full text available";
+
+    console.error(`Found scene(s): ${found}.`);
+    console.error(`First scene-like feed lines: ${sceneLikeLines}`);
     fail(`Missing scene(s) from master script feed: ${missing.join(", ")}.`);
   }
 
