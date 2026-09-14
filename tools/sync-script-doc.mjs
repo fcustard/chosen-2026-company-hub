@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * CHOSEN 2026 — Master Script Direct Publish Sync V1.5
+ * CHOSEN 2026 — Master Script Direct Publish Sync V1.7 FINAL
  *
  * Purpose:
  * - Fetch the current master script feed from Google Docs Apps Script.
- * - Split the script into Scene 01–12 sections, including Google Doc line-break variants and split numbered speaker names across every scene.
+ * - Split the script into Scene 01–12 sections, including Google Doc line-break variants and split numbered speaker names across every scene, including split feed blocks, embedded line breaks, and final pre-write cleanup guards.
  * - Overwrite data/scenes/scene-##.json.
  * - Overwrite data/scripts.json so the Hub builds the newest scene readers.
  *
@@ -120,6 +120,19 @@ const KNOWN_SPEAKERS = new Set([
   "WOMAN CUSTOMER 1",
   "YOUNG SHEPHERD"
 ]);
+
+
+const NUMBERED_SPEAKER_BASES = new Set([
+  "CHILD",
+  "CUSTOMER",
+  "GOSSIPER",
+  "INNKEEPER",
+  "MERCHANT",
+  "SHEPHERD",
+  "VILLAGER WOMAN",
+  "WOMAN CUSTOMER"
+]);
+
 
 const STOP_MARKERS = [
   /^CHARACTERS BY SCENE\b/i,
@@ -473,6 +486,30 @@ function isKnownSpeaker(line) {
   return KNOWN_SPEAKERS.has(text);
 }
 
+function normalizedSpeakerText(line) {
+  return String(line || "")
+    .trim()
+    .replace(/[:：]+$/, "")
+    .replace(/\s+/g, " ")
+    .toUpperCase();
+}
+
+function isNumberedSpeakerBase(line) {
+  const text = normalizedSpeakerText(line);
+  return NUMBERED_SPEAKER_BASES.has(text);
+}
+
+function isRepairableNumberedSpeaker(base, number) {
+  const baseText = normalizedSpeakerText(base);
+  const numberText = String(number || "").trim();
+
+  if (!/^\d{1,2}$/.test(numberText)) return false;
+
+  const combined = `${baseText} ${numberText}`.replace(/\s+/g, " ").trim();
+
+  return isKnownSpeaker(combined) || isNumberedSpeakerBase(baseText);
+}
+
 function isHeadingLine(line) {
   const text = String(line || "").trim();
   if (!text) return false;
@@ -557,51 +594,136 @@ function linesToBlocks(lines) {
 
 function cleanBlockText(value = "") {
   return String(value || "")
+    .replace(/\r\n?/g, "\n")
+    .replace(/\u00a0/g, " ")
+    .replace(/\u200b/g, "")
     .trim()
     .replace(/[:：]+$/, "")
     .replace(/\s+/g, " ");
 }
 
-function repairSpeakerNumberBlocks(blocks = []) {
-  const repaired = [];
+function explodeBlocksForSpeakerRepair(blocks = []) {
+  const expanded = [];
 
-  for (let index = 0; index < blocks.length; index += 1) {
-    const block = blocks[index] || {};
-    const text = cleanBlockText(block.text || "");
+  for (const block of blocks) {
+    if (!block || typeof block !== "object") continue;
 
-    if (text) {
-      let numberIndex = index + 1;
+    const type = String(block.type || "").trim() || "text";
+    const rawText = String(block.text || "")
+      .replace(/\r\n?/g, "\n")
+      .replace(/\u00a0/g, " ")
+      .replace(/\u200b/g, "")
+      .trim();
 
-      // Some feeds include a spacer block between the speaker base and the number.
-      while (
-        numberIndex < blocks.length &&
-        String(blocks[numberIndex]?.type || "").trim() === "spacer"
-      ) {
-        numberIndex += 1;
-      }
-
-      const nextText = cleanBlockText(blocks[numberIndex]?.text || "");
-
-      if (/^\d{1,2}$/.test(nextText)) {
-        const combined = `${text} ${nextText}`.replace(/\s+/g, " ").trim();
-
-        if (isKnownSpeaker(combined)) {
-          repaired.push({
-            ...block,
-            type: "character",
-            text: combined
-          });
-
-          index = numberIndex;
-          continue;
-        }
-      }
+    if (!rawText) {
+      expanded.push({ ...block, type: "spacer", text: "" });
+      continue;
     }
 
-    repaired.push(block);
+    const parts = rawText
+      .split(/\n+/)
+      .map((part) => part.trim())
+      .filter(Boolean);
+
+    if (parts.length <= 1) {
+      expanded.push({ ...block, type, text: rawText });
+      continue;
+    }
+
+    for (const part of parts) {
+      expanded.push({ ...block, type, text: part });
+    }
   }
 
-  return repaired;
+  return expanded;
+}
+
+function nextNonEmptyBlockIndex(blocks, startIndex) {
+  let index = startIndex;
+
+  while (index < blocks.length) {
+    const text = cleanBlockText(blocks[index]?.text || "");
+    if (text) return index;
+    index += 1;
+  }
+
+  return -1;
+}
+
+function reclassifyBlocksForReader(blocks = []) {
+  const output = [];
+  let previousType = "";
+
+  for (const block of blocks) {
+    const text = cleanBlockText(block?.text || "");
+
+    if (!text) {
+      if (output.length && output[output.length - 1].type !== "spacer") {
+        output.push({ type: "spacer" });
+      }
+      previousType = "spacer";
+      continue;
+    }
+
+    const type = lineType(text, previousType);
+
+    output.push({ type, text });
+
+    if (type !== "spacer") {
+      previousType = type;
+    }
+  }
+
+  while (output[0]?.type === "spacer") output.shift();
+  while (output[output.length - 1]?.type === "spacer") output.pop();
+
+  return output;
+}
+
+function repairSpeakerNumberBlocks(blocks = []) {
+  const work = explodeBlocksForSpeakerRepair(blocks);
+  const repaired = [];
+
+  for (let index = 0; index < work.length; index += 1) {
+    const block = work[index] || {};
+    const text = cleanBlockText(block.text || "");
+
+    if (!text) {
+      if (repaired.length && repaired[repaired.length - 1].type !== "spacer") {
+        repaired.push({ type: "spacer" });
+      }
+      continue;
+    }
+
+    const numberIndex = nextNonEmptyBlockIndex(work, index + 1);
+    const nextText = numberIndex >= 0 ? cleanBlockText(work[numberIndex]?.text || "") : "";
+
+    if (isRepairableNumberedSpeaker(text, nextText)) {
+      const combined = `${text} ${nextText}`.replace(/\s+/g, " ").trim();
+
+      repaired.push({
+        ...block,
+        type: "character",
+        text: combined
+      });
+
+      index = numberIndex;
+      continue;
+    }
+
+    repaired.push({
+      ...block,
+      text
+    });
+  }
+
+  return reclassifyBlocksForReader(repaired);
+}
+
+function finalRepairBlocksForPublication(blocks = []) {
+  // Belt-and-suspenders cleanup immediately before writing JSON.
+  // This makes the fix permanent even if a future Google Docs feed shape changes.
+  return repairSpeakerNumberBlocks(blocks);
 }
 
 function blocksToSourceText(blocks = []) {
@@ -617,40 +739,54 @@ function blocksToSourceText(blocks = []) {
 }
 
 
+
+function normalizeBlocksForPublication(scene = {}) {
+  const rawText = normalizeNewlines(scene.text || scene.sourceText || "");
+  const rawBlocks = Array.isArray(scene.blocks) ? scene.blocks : [];
+
+  // Preferred path: treat the scene as lines, not already-classified blocks.
+  // This catches every form Google Docs has produced so far and keeps the repair global:
+  // - MERCHANT + 1 as separate blocks
+  // - MERCHANT + blank/spacer + 1
+  // - "MERCHANT\n1" inside one block
+  // - source text containing "MERCHANT\n1"
+  const textForLineRepair = rawText || blocksToSourceText(explodeBlocksForSpeakerRepair(rawBlocks));
+
+  if (textForLineRepair) {
+    return finalRepairBlocksForPublication(
+      linesToBlocks(compactScriptLines(textForLineRepair))
+    );
+  }
+
+  return finalRepairBlocksForPublication(rawBlocks);
+}
+
+
 function assertNoSplitSpeakerNumberBlocks(scenes = []) {
   const problems = [];
 
   for (const scene of scenes) {
-    const blocks = Array.isArray(scene.blocks) ? scene.blocks : [];
+    const blocks = explodeBlocksForSpeakerRepair(
+      Array.isArray(scene.blocks) ? scene.blocks : []
+    );
 
     for (let index = 0; index < blocks.length; index += 1) {
       const text = cleanBlockText(blocks[index]?.text || "");
       if (!text) continue;
 
-      let numberIndex = index + 1;
+      const numberIndex = nextNonEmptyBlockIndex(blocks, index + 1);
+      const nextText = numberIndex >= 0 ? cleanBlockText(blocks[numberIndex]?.text || "") : "";
 
-      while (
-        numberIndex < blocks.length &&
-        String(blocks[numberIndex]?.type || "").trim() === "spacer"
-      ) {
-        numberIndex += 1;
-      }
-
-      const nextText = cleanBlockText(blocks[numberIndex]?.text || "");
-
-      if (/^\d{1,2}$/.test(nextText)) {
+      if (isRepairableNumberedSpeaker(text, nextText)) {
         const combined = `${text} ${nextText}`.replace(/\s+/g, " ").trim();
-
-        if (isKnownSpeaker(combined)) {
-          problems.push(`Scene ${scene.scene}: ${text} + ${nextText} should be ${combined}`);
-        }
+        problems.push(`Scene ${scene.scene}: ${text} + ${nextText} should be ${combined}`);
       }
     }
   }
 
   if (problems.length) {
     fail(
-      `Split numbered speaker names remain after repair: ${problems
+      `Split numbered speaker names remain after final repair: ${problems
         .slice(0, 20)
         .join("; ")}${problems.length > 20 ? " ..." : ""}`
     );
@@ -712,10 +848,7 @@ function normalizeFeedToScenes(feed) {
     scenes = feed.scenes.map((scene) => {
       const sceneNumber = normalizeSceneNumber(scene.scene || scene.sceneNumber);
       const rawText = normalizeNewlines(scene.text || scene.sourceText || "");
-      const rawBlocks = Array.isArray(scene.blocks) && scene.blocks.length
-        ? scene.blocks
-        : linesToBlocks(rawText.split("\n"));
-      const repairedBlocks = repairSpeakerNumberBlocks(rawBlocks);
+      const repairedBlocks = normalizeBlocksForPublication(scene);
 
       return {
         scene: sceneNumber,
@@ -786,7 +919,8 @@ function normalizeFeedToScenes(feed) {
 function writeSceneJson(scene, feedMeta = {}) {
   const fileName = `scene-${scene.scene}.json`;
   const filePath = path.join(SCENES_DIR, fileName);
-  const sourceText = normalizeNewlines(scene.sourceText || scene.blocks.map((b) => b.text || "").join("\n"));
+  const finalBlocks = finalRepairBlocksForPublication(Array.isArray(scene.blocks) ? scene.blocks : []);
+  const sourceText = normalizeNewlines(blocksToSourceText(finalBlocks) || scene.sourceText || "");
 
   const payload = {
     scene: scene.scene,
@@ -799,7 +933,7 @@ function writeSceneJson(scene, feedMeta = {}) {
     sourceUpdated: feedMeta.updated || new Date().toISOString(),
     contentHash: sha256(sourceText),
     publicationNote: "This scene was auto-published from the CHOSEN master script.",
-    blocks: scene.blocks
+    blocks: finalBlocks
       .filter((block) => block && typeof block === "object")
       .map((block) => ({
         type: String(block.type || "text").trim() || "text",
@@ -853,7 +987,7 @@ function main() {
 
     console.log("");
     console.log(`✅ Synced ${scenes.length} scenes from master script.`);
-    console.log("✅ Verified no split numbered speaker names remain across all synced scenes.");
+    console.log("✅ Verified no split numbered speaker names remain across all synced scenes after final pre-write repair.");
     console.log("✅ Wrote data/scripts.json.");
     console.log("✅ Wrote data/scenes/scene-##.json.");
   });
