@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-14T04:45:58.957Z",
-  "contentHash": "139aceb2df7336d4c38b08e834787009e8a2b2570fb5f89b993cdf070fbf2299",
+  "sourceUpdated": "2026-09-14T05:09:51.714Z",
+  "contentHash": "e7f3e28df37779905d186178f61666f330f2ef721b5e121a9d9aab3ef6ae81e4",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "type": "stage",
-      "text": "Characters:"
+      "text": "Characters"
     },
     {
       "type": "character",
@@ -544,7 +544,7 @@
     },
     {
       "type": "heading",
-      "text": "LYRICAL TERRITORY — NOT FINAL LYRICS:"
+      "text": "LYRICAL TERRITORY — NOT FINAL LYRICS"
     },
     {
       "type": "stage",
@@ -2396,7 +2396,7 @@
     },
     {
       "type": "heading",
-      "text": "NOTES:"
+      "text": "NOTES"
     },
     {
       "type": "stage",
