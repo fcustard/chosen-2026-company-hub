@@ -1,0 +1,598 @@
+#!/usr/bin/env node
+/**
+ * CHOSEN 2026 — Master Script Direct Publish Sync
+ *
+ * Purpose:
+ * - Fetch the current master script feed from Google Docs Apps Script.
+ * - Split the script into Scene 01–12 sections.
+ * - Overwrite data/scenes/scene-##.json.
+ * - Overwrite data/scripts.json so the Hub builds the newest scene readers.
+ *
+ * This script intentionally does NOT touch:
+ * - app.js
+ * - schedule logic
+ * - company data
+ * - resources
+ * - music
+ *
+ * Required for live use:
+ * - GitHub Actions secret: SCRIPT_DOC_FEED_URL
+ *
+ * Optional for local testing:
+ * - SCRIPT_DOC_FEED_FILE=/path/to/feed.json
+ */
+
+import fs from "node:fs";
+import path from "node:path";
+import crypto from "node:crypto";
+
+const ROOT = process.cwd();
+const SCENES_DIR = path.join(ROOT, "data", "scenes");
+const SCRIPTS_FILE = path.join(ROOT, "data", "scripts.json");
+
+const EXPECTED_SCENES = new Set(
+  Array.from({ length: 12 }, (_, index) => String(index + 1).padStart(2, "0"))
+);
+
+const CANONICAL_TITLES = new Map([
+  ["01", "Welcome to Nazareth"],
+  ["02", "Mary & Joseph / My Beloved"],
+  ["03", "Gabriel / Chosen"],
+  ["04", "The Secret"],
+  ["05", "Brotherhood"],
+  ["06", "Mary Tells Joseph / It’s Not Mine"],
+  ["07", "Two Roads of Faith"],
+  ["08", "Reunion / Still Yours"],
+  ["09", "What Will He Be? / The Town Turns"],
+  ["10", "The Census and the Journey"],
+  ["11", "No Room"],
+  ["12", "Good News / Shepherds / Finale"]
+]);
+
+const KNOWN_SPEAKERS = new Set([
+  "ADINA",
+  "ANGEL",
+  "ANGEL VOICE",
+  "ANGELS",
+  "ANNA",
+  "ANNOUNCER",
+  "BETHLEHEM WOMAN",
+  "CALEB",
+  "CHILD",
+  "CHILD 1",
+  "CHILD 2",
+  "CHILD 3",
+  "CHILD STORYTELLERS",
+  "COMPANY",
+  "CUSTOMER",
+  "CUSTOMER 1",
+  "DAFNA",
+  "DANCERS",
+  "ELIZABETH",
+  "ENSEMBLE",
+  "EZRA",
+  "FRIENDS",
+  "GABRIEL",
+  "GOSSIPER",
+  "GOSSIPER 1",
+  "GOSSIPER 2",
+  "GOSSIPER 3",
+  "GOSSIPER 4",
+  "GOSSIP GIRLS",
+  "HEROD",
+  "INNKEEPER",
+  "INNKEEPER 1",
+  "INNKEEPER 2",
+  "INNKEEPER 3",
+  "INNKEEPER'S WIFE",
+  "JOSEPH",
+  "JOSEPH'S FRIENDS",
+  "KEEPER",
+  "LEVI",
+  "LUCIA",
+  "MALACHI",
+  "MAN",
+  "MARY",
+  "MARY & JOSEPH",
+  "MARY AND JOSEPH",
+  "MARY'S FRIENDS",
+  "MERCHANT",
+  "MERCHANT 1",
+  "MERCHANT 2",
+  "NIA",
+  "ROMAN",
+  "ROMAN ANNOUNCER",
+  "SHEPHERD",
+  "SHEPHERD 1",
+  "SHEPHERD 2",
+  "SHEPHERD 3",
+  "SHIRA",
+  "SIMON",
+  "TALIA",
+  "VILLAGER",
+  "VILLAGER MAN",
+  "VILLAGER WOMAN 1",
+  "VILLAGER WOMAN 2",
+  "VILLAGERS",
+  "WISE MAN",
+  "WISE MEN",
+  "WOMAN",
+  "WOMAN CUSTOMER 1",
+  "YOUNG SHEPHERD"
+]);
+
+const STOP_MARKERS = [
+  /^CHARACTERS BY SCENE\b/i,
+  /^SIMPLE CASTING GUIDE\b/i,
+  /^CASTING GUIDE\b/i,
+  /^CHARACTER BREAKDOWN\b/i,
+  /^APPENDIX\b/i,
+  /^PRODUCTION NOTES\b/i,
+  /^WARDROBE\b/i
+];
+
+function fail(message) {
+  console.error(`❌ SCRIPT SYNC ERROR: ${message}`);
+  process.exit(1);
+}
+
+function info(message) {
+  console.log(`🎭 ${message}`);
+}
+
+function ensureDir(dir) {
+  fs.mkdirSync(dir, { recursive: true });
+}
+
+function normalizeNewlines(value = "") {
+  return String(value ?? "")
+    .replace(/\r\n?/g, "\n")
+    .replace(/\u00a0/g, " ")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n{4,}/g, "\n\n\n")
+    .trim();
+}
+
+function normalizeSceneNumber(value) {
+  const match = String(value ?? "").match(/\d{1,2}/);
+  if (!match) return "";
+  return match[0].padStart(2, "0");
+}
+
+function cleanTitle(value = "") {
+  return String(value ?? "")
+    .replace(/^[-—:–\s]+/, "")
+    .replace(/\s+/g, " ")
+    .replace(/^["“]+|["”]+$/g, "")
+    .replace(/\s*-\s*/g, " - ")
+    .trim();
+}
+
+function slugify(value = "") {
+  return String(value || "script")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[’']/g, "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 80) || "script";
+}
+
+function sha256(value = "") {
+  return crypto.createHash("sha256").update(String(value), "utf8").digest("hex");
+}
+
+function isStopLine(line) {
+  const text = String(line || "").trim();
+  return STOP_MARKERS.some((pattern) => pattern.test(text));
+}
+
+function sceneHeaderMatch(line) {
+  const text = String(line || "").trim();
+
+  // Matches:
+  // SCENE 1-WELCOME TO NAZARETH
+  // SCENE 1 — WELCOME TO NAZARETH
+  // SCENE 3 — Mary (Jordyn), Talia...
+  const match = text.match(/^SCENE\s+(\d{1,2})(?:\s*[-—–:]\s*(.*))?$/i);
+  if (!match) return null;
+
+  const sceneNumber = normalizeSceneNumber(match[1]);
+  if (!EXPECTED_SCENES.has(sceneNumber)) return null;
+
+  return {
+    sceneNumber,
+    title: cleanTitle(match[2] || "")
+  };
+}
+
+function compactScriptLines(text) {
+  const rawLines = normalizeNewlines(text).split("\n");
+
+  return rawLines
+    .map((line) =>
+      String(line || "")
+        .replace(/\u200b/g, "")
+        .replace(/[ \t]+/g, " ")
+        .trim()
+    )
+    .filter((line, index, lines) => {
+      if (!line) return true;
+
+      // Remove repeated page/source artifact lines.
+      if (/^CHOSEN:\s*THE STORY BEFORE THE\s*MANGER$/i.test(line)) return false;
+      if (/^THE STORY BEFORE THE MANGER$/i.test(line)) return false;
+
+      // Preserve single blank lines, but not runs.
+      if (!line && !lines[index - 1]) return false;
+      return true;
+    });
+}
+
+function extractScenesFromText(text) {
+  const lines = compactScriptLines(text);
+  const candidates = [];
+
+  let current = null;
+
+  function closeCurrent() {
+    if (current && current.lines.join("").trim()) {
+      candidates.push(current);
+    }
+  }
+
+  for (const line of lines) {
+    if (isStopLine(line)) {
+      closeCurrent();
+      current = null;
+      break;
+    }
+
+    const header = sceneHeaderMatch(line);
+
+    if (header) {
+      closeCurrent();
+
+      current = {
+        scene: header.sceneNumber,
+        title: header.title,
+        lines: [],
+        header: line
+      };
+
+      continue;
+    }
+
+    if (current) {
+      current.lines.push(line);
+    }
+  }
+
+  closeCurrent();
+
+  const byScene = new Map();
+
+  for (const item of candidates) {
+    const existing = byScene.get(item.scene);
+    const currentLength = item.lines.join("\n").length;
+    const existingLength = existing ? existing.lines.join("\n").length : -1;
+
+    // If the same scene header appears twice because of title pages or exports,
+    // keep the longer scene section. This prevents short title-page fragments from winning.
+    if (!existing || currentLength > existingLength) {
+      byScene.set(item.scene, item);
+    }
+  }
+
+  const scenes = Array.from(byScene.values()).sort((a, b) =>
+    a.scene.localeCompare(b.scene)
+  );
+
+  return scenes.map((scene) => {
+    const title = scene.title || findTitleInScene(scene) || CANONICAL_TITLES.get(scene.scene) || `Scene ${Number(scene.scene)}`;
+
+    const cleanedLines = scene.lines
+      .filter((line) => !/^CHOSEN:\s*THE STORY BEFORE THE\s*MANGER$/i.test(line))
+      .filter((line) => !sceneHeaderMatch(line))
+      .filter((line) => !/^Approximate Running Time:/i.test(line))
+      .filter((line) => !/^Spoken Dialogue:/i.test(line))
+      .filter((line) => !/^Song:/i.test(line))
+      .filter((line) => !/^Musical Number:/i.test(line))
+      .filter((line) => !/^Musical Sequence:/i.test(line));
+
+    const sceneText = cleanedLines.join("\n").trim();
+
+    return {
+      scene: scene.scene,
+      title: titleForManifest(scene.scene, title),
+      sourceText: sceneText,
+      blocks: linesToBlocks(cleanedLines)
+    };
+  });
+}
+
+function findTitleInScene(scene) {
+  for (const line of scene.lines.slice(0, 8)) {
+    const match = String(line || "").match(/^SCENE\s+\d{1,2}\s*[-—–:]\s*(.+)$/i);
+    if (match) return cleanTitle(match[1]);
+  }
+
+  return "";
+}
+
+function titleForManifest(sceneNumber, title) {
+  const clean = cleanTitle(title);
+
+  // The source document sometimes has casting notes after the title.
+  // Keep canonical public titles for consistency with the existing Scripts page.
+  return CANONICAL_TITLES.get(sceneNumber) || clean || `Scene ${Number(sceneNumber)}`;
+}
+
+function isAllCaps(line) {
+  const text = String(line || "").trim();
+  if (!text) return false;
+  const letters = text.replace(/[^A-Za-zÀ-ÖØ-öø-ÿ]/g, "");
+  if (letters.length < 2) return false;
+  return text === text.toUpperCase();
+}
+
+function isKnownSpeaker(line) {
+  const text = String(line || "")
+    .trim()
+    .replace(/[:：]+$/, "")
+    .replace(/\s+/g, " ")
+    .toUpperCase();
+
+  return KNOWN_SPEAKERS.has(text);
+}
+
+function isHeadingLine(line) {
+  const text = String(line || "").trim();
+  if (!text) return false;
+
+  if (/^(PRESET|OPENING|NOTES?|VERSE\s|CHORUS\s|BRIDGE|SECTION\s|SONG JOURNEY|LYRICAL TERRITORY|IMPORTANT SONG MOMENT|MUSIC|LIGHT CUE|BLACKOUT|RUPTURE|TRANSITION|END SCENE|FINAL|DANCE|FULL INSTRUMENTAL|MUSICAL|GOSSIP BREAK|THE CALLING|THE REVELATION|THE FIRST TEST|THE COST ARRIVES|THE INTERRUPTION)/i.test(text)) {
+    return true;
+  }
+
+  return isAllCaps(text) && text.length <= 90 && !isKnownSpeaker(text);
+}
+
+function isLyricLine(line) {
+  const text = String(line || "").trim();
+  if (!text) return false;
+
+  if (/^\[.*\]$/.test(text)) return true;
+  if (/[♪]/.test(text)) return true;
+  if (/^(O+H+|O+O+H+|WELCOME TO|GLORIA|HALLELUJAH)/i.test(text)) return true;
+
+  return false;
+}
+
+function lineType(line, previousType) {
+  const text = String(line || "").trim();
+
+  if (!text) return "spacer";
+  if (isKnownSpeaker(text)) return "character";
+  if (isHeadingLine(text)) {
+    if (/^(MUSIC|MUSICAL|LIGHT CUE|SOUND|RUPTURE|BLACKOUT)/i.test(text)) return "music";
+    if (/^(TRANSITION|END SCENE|FINAL)/i.test(text)) return "transition";
+    return "heading";
+  }
+  if (/^[●•*-]\s+/.test(text)) return "stage";
+  if (/^\(.+\)$/.test(text)) return "stage";
+  if (isLyricLine(text)) return "lyric";
+  if (previousType === "character") return "dialogue";
+
+  // Short sentence after dialogue is often continuing dialogue only when prior type is dialogue.
+  if (previousType === "dialogue" && !/^(The|A|An|Beat|Silence|Lights?|Music|Mary|Joseph|Gabriel|They|He|She|Everyone|The stage)/.test(text)) {
+    return "dialogue";
+  }
+
+  return "stage";
+}
+
+function linesToBlocks(lines) {
+  const blocks = [];
+  let previousType = "";
+
+  for (const raw of lines) {
+    const text = String(raw || "").trim();
+
+    if (!text) {
+      if (blocks.length && blocks[blocks.length - 1].type !== "spacer") {
+        blocks.push({ type: "spacer" });
+      }
+      previousType = "spacer";
+      continue;
+    }
+
+    // Remove page/export artifacts and duplicated source document title lines.
+    if (/^CHOSEN:\s*THE STORY BEFORE THE\s*MANGER$/i.test(text)) continue;
+    if (/^THE STORY BEFORE THE MANGER$/i.test(text)) continue;
+
+    const type = lineType(text, previousType);
+
+    blocks.push({
+      type,
+      text
+    });
+
+    if (type !== "spacer") {
+      previousType = type;
+    }
+  }
+
+  while (blocks[0]?.type === "spacer") blocks.shift();
+  while (blocks[blocks.length - 1]?.type === "spacer") blocks.pop();
+
+  return blocks;
+}
+
+async function fetchFeed() {
+  if (process.env.SCRIPT_DOC_FEED_FILE) {
+    const file = path.resolve(process.env.SCRIPT_DOC_FEED_FILE);
+    if (!fs.existsSync(file)) {
+      fail(`SCRIPT_DOC_FEED_FILE does not exist: ${file}`);
+    }
+
+    return JSON.parse(fs.readFileSync(file, "utf8"));
+  }
+
+  const url = process.env.SCRIPT_DOC_FEED_URL;
+
+  if (!url) {
+    if (process.env.GITHUB_EVENT_NAME === "repository_dispatch") {
+      fail("SCRIPT_DOC_FEED_URL secret is required for publish-script dispatch runs.");
+    }
+
+    info("SCRIPT_DOC_FEED_URL is not set. Skipping master script sync.");
+    process.exit(0);
+  }
+
+  const response = await fetch(url, {
+    headers: {
+      "Accept": "application/json"
+    }
+  });
+
+  const body = await response.text();
+
+  if (!response.ok) {
+    fail(`Script feed request failed with HTTP ${response.status}: ${body.slice(0, 500)}`);
+  }
+
+  try {
+    return JSON.parse(body);
+  } catch (error) {
+    fail(`Script feed did not return JSON: ${error.message}. First 300 chars: ${body.slice(0, 300)}`);
+  }
+}
+
+function normalizeFeedToScenes(feed) {
+  if (!feed || typeof feed !== "object") {
+    fail("Script feed is empty or invalid.");
+  }
+
+  if (feed.ok === false) {
+    fail(feed.error || "Script feed returned ok=false.");
+  }
+
+  let scenes = [];
+
+  if (Array.isArray(feed.scenes) && feed.scenes.length) {
+    scenes = feed.scenes.map((scene) => ({
+      scene: normalizeSceneNumber(scene.scene || scene.sceneNumber),
+      title: titleForManifest(
+        normalizeSceneNumber(scene.scene || scene.sceneNumber),
+        scene.title || ""
+      ),
+      sourceText: normalizeNewlines(scene.text || scene.sourceText || ""),
+      blocks: Array.isArray(scene.blocks) && scene.blocks.length
+        ? scene.blocks
+        : linesToBlocks(normalizeNewlines(scene.text || scene.sourceText || "").split("\n"))
+    }));
+  } else {
+    const text = feed.text || feed.sourceText || "";
+    if (!text) {
+      fail("Script feed must include either scenes[] or text.");
+    }
+
+    scenes = extractScenesFromText(text);
+  }
+
+  const missing = [];
+
+  for (const sceneNumber of EXPECTED_SCENES) {
+    if (!scenes.find((scene) => scene.scene === sceneNumber)) {
+      missing.push(sceneNumber);
+    }
+  }
+
+  if (missing.length) {
+    fail(`Missing scene(s) from master script feed: ${missing.join(", ")}.`);
+  }
+
+  return scenes
+    .filter((scene) => EXPECTED_SCENES.has(scene.scene))
+    .sort((a, b) => a.scene.localeCompare(b.scene));
+}
+
+function writeSceneJson(scene, feedMeta = {}) {
+  const fileName = `scene-${scene.scene}.json`;
+  const filePath = path.join(SCENES_DIR, fileName);
+  const sourceText = normalizeNewlines(scene.sourceText || scene.blocks.map((b) => b.text || "").join("\n"));
+
+  const payload = {
+    scene: scene.scene,
+    title: scene.title,
+    status: "CURRENT · Auto-published from master script",
+    approved: true,
+    companyPublish: true,
+    source: "Master script Google Doc",
+    sourceDocTitle: feedMeta.documentName || feedMeta.title || "",
+    sourceUpdated: feedMeta.updated || new Date().toISOString(),
+    contentHash: sha256(sourceText),
+    publicationNote: "This scene was auto-published from the CHOSEN master script.",
+    blocks: scene.blocks
+      .filter((block) => block && typeof block === "object")
+      .map((block) => ({
+        type: String(block.type || "text").trim() || "text",
+        text: String(block.text || "").trim()
+      }))
+      .filter((block) => block.type === "spacer" || block.text)
+  };
+
+  if (!payload.blocks.length) {
+    fail(`Scene ${scene.scene} has no publishable blocks.`);
+  }
+
+  fs.writeFileSync(filePath, JSON.stringify(payload, null, 2) + "\n", "utf8");
+
+  return fileName;
+}
+
+function writeScriptsManifest(scenes, feedMeta = {}) {
+  const updated = feedMeta.updated || new Date().toISOString();
+
+  const items = scenes.map((scene) => ({
+    scene: scene.scene,
+    title: scene.title,
+    status: "CURRENT · Auto-published from master script",
+    approved: true,
+    companyPublish: true,
+    source: `data/scenes/scene-${scene.scene}.json`,
+    readUrl: `scene-${scene.scene}.html`,
+    pdfUrl: `scene-${scene.scene}.pdf`,
+    id: slugify(scene.title),
+    name: scene.title,
+    current: true,
+    updated
+  }));
+
+  fs.writeFileSync(SCRIPTS_FILE, JSON.stringify(items, null, 2) + "\n", "utf8");
+}
+
+function main() {
+  return fetchFeed().then((feed) => {
+    const scenes = normalizeFeedToScenes(feed);
+    ensureDir(SCENES_DIR);
+
+    for (const scene of scenes) {
+      writeSceneJson(scene, feed);
+      console.log(`✅ Scene ${scene.scene}: synced ${scene.title}`);
+    }
+
+    writeScriptsManifest(scenes, feed);
+
+    console.log("");
+    console.log(`✅ Synced ${scenes.length} scenes from master script.`);
+    console.log("✅ Wrote data/scripts.json.");
+    console.log("✅ Wrote data/scenes/scene-##.json.");
+  });
+}
+
+main().catch((error) => {
+  fail(error?.stack || error?.message || String(error));
+});
