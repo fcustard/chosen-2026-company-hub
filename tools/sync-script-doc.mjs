@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * CHOSEN 2026 — Master Script Direct Publish Sync V1.2
+ * CHOSEN 2026 — Master Script Direct Publish Sync V1.3
  *
  * Purpose:
  * - Fetch the current master script feed from Google Docs Apps Script.
- * - Split the script into Scene 01–12 sections, including Google Doc line-break variants.
+ * - Split the script into Scene 01–12 sections, including Google Doc line-break variants and split numbered speaker names.
  * - Overwrite data/scenes/scene-##.json.
  * - Overwrite data/scripts.json so the Hub builds the newest scene readers.
  *
@@ -259,6 +259,33 @@ function mergeBrokenSceneHeaderLines(lines) {
   return merged;
 }
 
+function mergeBrokenSpeakerNumberLines(lines) {
+  const merged = [];
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = String(lines[index] || "").trim();
+    const next = String(lines[index + 1] || "").trim();
+
+    // Google Docs can export numbered character names as two lines:
+    // MERCHANT
+    // 1
+    // This repairs them back to MERCHANT 1 before the scene reader is built.
+    if (line && /^\d{1,2}$/.test(next)) {
+      const combined = `${line} ${next}`.replace(/\s+/g, " ").trim();
+
+      if (isKnownSpeaker(combined)) {
+        merged.push(combined);
+        index += 1;
+        continue;
+      }
+    }
+
+    merged.push(line);
+  }
+
+  return merged;
+}
+
 function sceneHeaderMatch(line) {
   const text = String(line || "").trim();
 
@@ -305,7 +332,10 @@ function compactScriptLines(text) {
       return true;
     });
 
-  return mergeBrokenSceneHeaderLines(cleanedLines).filter((line, index, lines) => {
+  const mergedSceneHeaders = mergeBrokenSceneHeaderLines(cleanedLines);
+  const mergedSpeakerNumbers = mergeBrokenSpeakerNumberLines(mergedSceneHeaders);
+
+  return mergedSpeakerNumbers.filter((line, index, lines) => {
     // Preserve single blank lines, but not runs.
     if (!line && !lines[index - 1]) return false;
     return true;
