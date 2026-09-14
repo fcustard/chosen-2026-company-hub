@@ -20,6 +20,10 @@ name: CHOSEN Hub Automation
 
   workflow_dispatch:
 
+  repository_dispatch:
+    types:
+      - publish-script
+
   schedule:
     # GitHub cron uses UTC. This is the fastest supported schedule cadence.
     # Offset from :00 to reduce the chance of high-load schedule delay.
@@ -37,6 +41,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
+    env:
+      SCRIPT_DOC_FEED_URL: ${{ secrets.SCRIPT_DOC_FEED_URL }}
+
     steps:
       - name: Check out CHOSEN Hub
         uses: actions/checkout@v4
@@ -47,6 +54,20 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+
+      - name: Require Master Script feed for direct script publish
+        if: ${{ github.event_name == 'repository_dispatch' && env.SCRIPT_DOC_FEED_URL == '' }}
+        run: |
+          echo "::error::SCRIPT_DOC_FEED_URL secret is missing. Add the Google Doc script feed URL before using direct script publishing."
+          exit 1
+
+      - name: Sync script scenes from Master Script document
+        if: ${{ env.SCRIPT_DOC_FEED_URL != '' }}
+        run: node tools/sync-script-doc.mjs
+
+      - name: Skip script sync when Master Script feed is not configured
+        if: ${{ env.SCRIPT_DOC_FEED_URL == '' && github.event_name != 'repository_dispatch' }}
+        run: echo "SCRIPT_DOC_FEED_URL is not configured. Skipping script scene sync and continuing with existing script files."
 
       - name: Sync exact rehearsal calls from Master Calendar
         env:
@@ -63,7 +84,7 @@ jobs:
           set -e
 
           if [ "$status" -ne 0 ]; then
-            echo "::warning::Company sync failed. Continuing with existing data/company.json so Master Calendar changes can still publish."
+            echo "::warning::Company sync failed. Continuing with existing data/company.json so Master Calendar and script changes can still publish."
 
             if [ ! -s data/company.json ]; then
               echo "::error::data/company.json is missing or empty, so the Hub cannot safely continue."
@@ -91,6 +112,8 @@ jobs:
           git add data/rehearsals.json || true
           git add data/company.json || true
           git add data/content.json || true
+          git add data/scripts.json || true
+          git add data/scenes/scene-*.json || true
           git add content.json || true
           git add scene-*.html || true
           git add resources.html || true
