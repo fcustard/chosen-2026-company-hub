@@ -15,13 +15,13 @@
     "id": "character-embodiment-workbook",
     "title": "Character Embodiment Workbook",
     "category": "Rehearsal Resources",
-    "description": "Actor-facing character embodiment work for rehearsal and preparation.",
-    "status": "COMING SOON",
-    "approved": false,
-    "companyPublish": false,
-    "fileUrl": "",
-    "linkLabel": "Open resource",
-    "featured": false
+    "description": "Cast workbook for building character, relationships, sensory life, objectives, and truthful embodiment for CHOSEN.",
+    "status": "CURRENT",
+    "approved": true,
+    "companyPublish": true,
+    "fileUrl": "resources/CHOSEN_2026_Character_Embodiment_Workbook_Cast_Edition.pdf",
+    "linkLabel": "Open workbook",
+    "featured": true
   },
   {
     "id": "living-village-resource",
