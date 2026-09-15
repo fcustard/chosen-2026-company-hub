@@ -25,153 +25,138 @@
       <nav id="nav">
         <a href="this-week.html">This Week</a>
         <a href="scripts.html">Scripts</a>
+        <a href="lines.html">Lines</a>
         <a href="music.html">Music</a>
         <a href="schedule.html">Schedule</a>
         <a href="resources.html">Resources</a>
-        <a href="company.html">Company</a>
+        <a href="company.html" aria-current="page">Company</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="sub companyIntro">
+    <section class="sub">
       <p class="ey">YOUR COMPANY</p>
       <h1>Company</h1>
       <p>Find your role, your scenes, and what you need for rehearsal.</p>
     </section>
 
-    <section class="companyStart">
+    <section>
       <div class="head">
         <p class="ey">START HERE</p>
         <h2>What do you need?</h2>
       </div>
 
-      <div class="companyChoices">
-        <a href="#my-role" class="companyChoice">
-          <span>01</span>
-          <b>My Role & Scenes</b>
-          <small>See your role, scenes, and understudy assignment</small>
+      <div class="dash">
+        <a class="card" href="#myRole">
+          <i>01</i>
+          <b>My Role &amp; Scenes</b>
+          <span>See your role, scenes, and understudy assignment</span>
         </a>
 
-        <a href="#dance" class="companyChoice">
-          <span>02</span>
+        <a class="card" href="#danceEnsemble">
+          <i>02</i>
           <b>Dance Ensemble</b>
-          <small>See who's dancing and in which scenes</small>
+          <span>See who’s dancing and in which scenes</span>
         </a>
 
-        <a href="#essentials" class="companyChoice">
-          <span>03</span>
+        <a class="card" href="#companyBasics">
+          <i>03</i>
           <b>Company Basics</b>
-          <small>What every cast member needs to know</small>
+          <span>What every cast member needs to know</span>
         </a>
 
-        <a href="#help" class="companyChoice">
-          <span>04</span>
+        <a class="card" href="#getHelp">
+          <i>04</i>
           <b>Get Help</b>
-          <small>Absence, WhatsApp, and production help</small>
+          <span>Absence, WhatsApp, and production help</span>
         </a>
       </div>
     </section>
 
-    <section id="my-role" class="companySection">
-      <p class="ey">MY ROLE</p>
-      <h2>Find your role and scenes</h2>
-      <p class="sectionLead">Choose your name once. This device will remember you.</p>
+    <section id="myRole">
+      <div class="head">
+        <p class="ey">MY ROLE</p>
+        <h2>Find your role and scenes</h2>
+        <p>Choose your name once. This device will remember you.</p>
+      </div>
 
-      <div class="roleFinder">
-        <label for="castSelect">Start here. Find your name.</label>
-        <select id="castSelect">
-          <option value="">Select your name…</option>
-        </select>
-        <div id="roleResult" class="roleResult" hidden></div>
+      <div id="companyPersonPicker" class="myCallsPanel">
+        <div class="linesField">
+          <label for="companyPersonSelect">Choose your name</label>
+          <select id="companyPersonSelect">
+            <option value="">Select your name…</option>
+          </select>
+        </div>
+
+        <div class="actions" style="margin-top:1rem">
+          <button id="clearCompanyPerson" class="btn" type="button">Clear saved person</button>
+          <a class="btn primary" href="schedule.html">Open My Calls</a>
+          <a class="btn" href="lines.html">Practice Lines</a>
+        </div>
+      </div>
+
+      <div id="companyPersonCard" class="list" aria-live="polite">
+        <article class="row">
+          <div class="badge">…</div>
+          <div>
+            <h3>Loading company information…</h3>
+            <p>Reading roles and scene assignments.</p>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section id="dance" class="companySection">
-      <p class="ey">DANCE ENSEMBLE</p>
-      <h2>Dance assignments</h2>
-      <p class="sectionLead">Dance numbers are in Scenes <strong>1, 9 and 12</strong>.</p>
-      <button id="danceToggle" class="btn" type="button" aria-expanded="false">View Dance Ensemble</button>
-      <div id="danceRoster" class="danceRoster" hidden></div>
-    </section>
-
-    <section id="essentials" class="companySection">
-      <p class="ey">COMPANY ESSENTIALS</p>
-      <h2>Be early. Be kind. Be ready.</h2>
-
-      <div class="essentialGrid">
-        <article>
-          <h3>Before rehearsal</h3>
-          <p>Check the Hub before you leave home. Bring your script, notes, water, and anything listed for rehearsal.</p>
-        </article>
-
-        <article>
-          <h3>Attendance</h3>
-          <p>Going to be late or absent? Tell us as soon as you know.</p>
-          <a class="inlineAction" data-link="absence" href="#">Report absence / late →</a>
-        </article>
-
-        <article>
-          <h3>In the room</h3>
-          <p>Be ready to work. Keep phones silent. Hold side conversations during notes. Follow the rehearsal leader and respect everyone's time.</p>
-        </article>
-
-        <article>
-          <h3>Honor + safety</h3>
-          <p>Treat everyone with respect. If something feels unsafe or someone is hurt, tell production leadership right away.</p>
-        </article>
-
-        <article>
-          <h3>Costumes + props</h3>
-          <p>Use only the props and costumes assigned to you. Return everything where it belongs.</p>
-        </article>
-
-        <article>
-          <h3>Children + youth</h3>
-          <p>Parents and guardians: follow the production's check-in, pickup, and communication instructions. Youth stay with their assigned production leader during rehearsal.</p>
-        </article>
+    <section id="danceEnsemble">
+      <div class="head">
+        <p class="ey">DANCE</p>
+        <h2>Dance Ensemble</h2>
+        <p>Dance and movement assignments for rehearsal planning.</p>
       </div>
 
-      <div class="sourceTruth">
-        <strong>Before you leave home, check the Hub.</strong>
-        <span> WhatsApp tells you something changed. The Hub tells you the current plan.</span>
+      <div id="danceList" class="list">
+        <article class="row">
+          <div class="badge">♪</div>
+          <div>
+            <h3>Dance assignments loading…</h3>
+            <p>Published assignments will appear here.</p>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section id="help" class="companySection">
-      <p class="ey">GET HELP</p>
-      <h2>Go straight to the right place.</h2>
+    <section id="companyBasics">
+      <div class="head">
+        <p class="ey">BASICS</p>
+        <h2>Company Basics</h2>
+      </div>
 
-      <div class="helpGrid">
-        <a data-link="absence" href="#">
-          <b>Report Absence / Late</b>
-          <span>Can't make rehearsal or running late?</span>
-        </a>
-
-        <a data-link="whatsapp" href="#">
-          <b>Company WhatsApp</b>
-          <span>Company announcements and updates.</span>
-        </a>
-
-        <a href="schedule.html">
-          <b>Schedule / My Calls</b>
-          <span>See when and where you're needed.</span>
+      <div class="util">
+        <a href="this-week.html">
+          <b>Check This Week</b>
+          <p class="note">Your current call, focus, and prep</p>
         </a>
 
         <a href="scripts.html">
-          <b>Official Scripts</b>
-          <span>Read the current script.</span>
+          <b>Use Current Scripts</b>
+          <p class="note">Only rehearse from approved materials</p>
         </a>
 
-        <a href="music.html">
-          <b>Music</b>
-          <span>Rehearsal tracks and lyrics.</span>
+        <a href="resources.html">
+          <b>Open Resources</b>
+          <p class="note">Company guide and rehearsal materials</p>
         </a>
+      </div>
+    </section>
 
-        <a data-link="help" href="#">
-          <b>Production Help</b>
-          <span>Need help? Start here.</span>
-        </a>
+    <section id="getHelp" class="help">
+      <h2>Need help?</h2>
+      <p>Use the official company links so the production team can respond quickly.</p>
+
+      <div class="actions">
+        <a class="btn gold" data-link="absence" href="#">Report Absence / Late</a>
+        <a class="btn" data-link="whatsapp" href="#">Company WhatsApp</a>
+        <a class="btn" data-link="help" href="#">Production Help</a>
       </div>
     </section>
   </main>
