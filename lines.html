@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0d1726">
+  <title>Lines & Off-Book Practice | CHOSEN</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+  <script defer src="line-practice.js"></script>
+</head>
+
+<body data-page="lines">
+  <header class="sitebar">
+    <div class="inner">
+      <a class="brand" href="index.html">
+        <small>THE FAITH CENTER PRESENTS</small>
+        <b>CHOSEN 2026</b>
+        <span>Company Hub</span>
+      </a>
+
+      <button id="menuBtn" class="menu" aria-expanded="false">Menu</button>
+
+      <nav id="nav">
+        <a href="this-week.html">This Week</a>
+        <a href="scripts.html">Scripts</a>
+        <a href="lines.html">Lines</a>
+        <a href="music.html">Music</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="resources.html">Resources</a>
+        <a href="company.html">Company</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="sub linesIntro">
+      <p class="ey">OFF-BOOK PRACTICE</p>
+      <h1>Lines & Cue Practice</h1>
+      <p>Choose your role. Hear the cue. Hide your line. Practice until you can answer without looking.</p>
+    </section>
+
+    <section class="linesPractice">
+      <div id="linesLoading" class="linesNotice">
+        <b>Loading line practice…</b>
+        <p class="note">The Hub is reading the approved scene files.</p>
+      </div>
+
+      <div id="linesError" class="linesNotice error" hidden></div>
+
+      <div id="linesControls" class="linesControls" hidden>
+        <div class="linesField">
+          <label for="roleSelect">1. Choose your role</label>
+          <select id="roleSelect">
+            <option value="">Select a role…</option>
+          </select>
+        </div>
+
+        <div class="linesField">
+          <label for="sceneSelect">2. Choose a scene</label>
+          <select id="sceneSelect" disabled>
+            <option value="">Choose a role first…</option>
+          </select>
+        </div>
+
+        <div class="linesActions">
+          <button id="resetLineProgress" class="btn" type="button" disabled>Reset this role</button>
+        </div>
+      </div>
+
+      <div id="linesSummary" class="linesSummary" hidden></div>
+
+      <div id="lineCards" class="lineCards"></div>
+    </section>
+
+    <section class="help linesHelp">
+      <h2>How to get off book faster</h2>
+      <p>Do not start by staring at your own line. Read the cue first. Cover your line. Say it out loud. Then check yourself.</p>
+      <a class="btn gold" href="scripts.html">Open full scripts</a>
+    </section>
+  </main>
+
+  <footer>
+    <b>CHOSEN 2026</b>
+    <span>Company Hub</span>
+    <small id="updated"></small>
+  </footer>
+</body>
+</html>
