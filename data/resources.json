@@ -24,6 +24,30 @@
     "featured": true
   },
   {
+    "id": "actors-youtube-playlist",
+    "title": "Actors Rehearsal Playlist",
+    "category": "At-Home Rehearsal Videos",
+    "description": "Video playlist for actors to review scenes, blocking notes, rehearsal references, and preparation materials at home.",
+    "status": "CURRENT",
+    "approved": true,
+    "companyPublish": true,
+    "fileUrl": "PASTE_ACTORS_YOUTUBE_PLAYLIST_LINK_HERE",
+    "linkLabel": "Open actor playlist",
+    "featured": true
+  },
+  {
+    "id": "dancers-youtube-playlist",
+    "title": "Dancers Rehearsal Playlist",
+    "category": "At-Home Rehearsal Videos",
+    "description": "Video playlist for dancers to review choreography, movement references, counts, spacing, and rehearsal materials at home.",
+    "status": "CURRENT",
+    "approved": true,
+    "companyPublish": true,
+    "fileUrl": "PASTE_DANCERS_YOUTUBE_PLAYLIST_LINK_HERE",
+    "linkLabel": "Open dancer playlist",
+    "featured": true
+  },
+  {
     "id": "living-village-resource",
     "title": "Nazareth Living Village Resource",
     "category": "Rehearsal Resources",
