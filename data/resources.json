@@ -31,7 +31,7 @@
     "status": "CURRENT",
     "approved": true,
     "companyPublish": true,
-    "fileUrl": "PASTE_ACTORS_YOUTUBE_PLAYLIST_LINK_HERE",
+    "fileUrl": "https://www.youtube.com/playlist?list=PLRt3o2R55Vdw",
     "linkLabel": "Open actor playlist",
     "featured": true
   },
@@ -43,7 +43,7 @@
     "status": "CURRENT",
     "approved": true,
     "companyPublish": true,
-    "fileUrl": "PASTE_DANCERS_YOUTUBE_PLAYLIST_LINK_HERE",
+    "fileUrl": "https://www.youtube.com/playlist?list=PLDfGGNFvIyH8",
     "linkLabel": "Open dancer playlist",
     "featured": true
   },
