@@ -22,7 +22,8 @@
 
       <nav id="nav">
         <a href="this-week.html">This Week</a>
-        <a href="scripts.html">Scripts</a>
+        <a href="scripts.html" aria-current="page">Scripts</a>
+        <a href="lines.html">Lines</a>
         <a href="music.html">Music</a>
         <a href="schedule.html">Schedule</a>
         <a href="resources.html">Resources</a>
@@ -39,8 +40,15 @@
     </section>
 
     <section>
-      <div id="scriptsList" class="list"></div>
-      <p class="note">Read = mobile-friendly. PDF = print/traditional PDF.</p>
+      <div id="scriptsList" class="list">
+        <article class="row">
+          <div class="badge">…</div>
+          <div>
+            <h3>Loading scripts…</h3>
+            <p>Reading approved script materials.</p>
+          </div>
+        </article>
+      </div>
     </section>
   </main>
 
