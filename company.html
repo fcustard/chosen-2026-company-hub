@@ -9,6 +9,24 @@
   <link rel="stylesheet" href="company-personalization.css">
   <script defer src="app.js"></script>
   <script defer src="company-personalization.js"></script>
+
+  <style>
+    #myRole,
+    #danceEnsemble,
+    #companyBasics,
+    #getHelp {
+      scroll-margin-top: 96px;
+    }
+
+    @media (max-width: 650px) {
+      #myRole,
+      #danceEnsemble,
+      #companyBasics,
+      #getHelp {
+        scroll-margin-top: 82px;
+      }
+    }
+  </style>
 </head>
 
 <body data-page="company">
@@ -35,6 +53,475 @@
   </header>
 
   <main>
+    <section class="sub">
+      <p class="ey">YOUR COMPANY</p>
+      <h1>Company</h1>
+      <p>Find your role, your scenes, and what you need for rehearsal.</p>
+    </section>
+
+    <section>
+      <div class="head">
+        <p class="ey">START HERE</p>
+        <h2>What do you need?</h2>
+      </div>
+
+      <div class="dash">
+        <a class="card" href="#myRole">
+          <i>01</i>
+          <b>My Role &amp; Scenes</b>
+          <span>See your role, scenes, and understudy assignment</span>
+        </a>
+
+        <a class="card" href="#danceEnsemble">
+          <i>02</i>
+          <b>Dance Ensemble</b>
+          <span>See who’s dancing and in which scenes</span>
+        </a>
+
+        <a class="card" href="#companyBasics">
+          <i>03</i>
+          <b>Company Basics</b>
+          <span>What every cast member needs to know</span>
+        </a>
+
+        <a class="card" href="#getHelp">
+          <i>04</i>
+          <b>Get Help</b>
+          <span>Absence, WhatsApp, and production help</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="myRole">
+      <div class="head">
+        <p class="ey">MY ROLE</p>
+        <h2>Find your role and scenes</h2>
+        <p>Choose your name once. This device will remember you.</p>
+      </div>
+
+      <div id="companyPersonPicker" class="myCallsPanel">
+        <div class="linesField">
+          <label for="companyPersonSelect">Choose your name</label>
+          <select id="companyPersonSelect">
+            <option value="">Select your name…</option>
+          </select>
+        </div>
+
+        <div class="actions" style="margin-top:1rem">
+          <button id="clearCompanyPerson" class="btn" type="button">Clear saved person</button>
+          <a class="btn primary" href="schedule.html">Open My Calls</a>
+        </div>
+      </div>
+
+      <div id="companyPersonCard" class="list" aria-live="polite">
+        <article class="row">
+          <div class="badge">✓</div>
+          <div>
+            <h3>Choose your name to see your role and scenes.</h3>
+            <p>Your saved person connects to My Calls on this device.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="danceEnsemble">
+      <div class="head">
+        <p class="ey">DANCE</p>
+        <h2>Dance Ensemble</h2>
+        <p>Dance and movement assignments for rehearsal planning.</p>
+      </div>
+
+      <div id="danceList" class="list">
+        <article class="row">
+          <div class="badge">♪</div>
+          <div>
+            <h3>Dance assignments loading…</h3>
+            <p>Published assignments will appear here.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="companyBasics">
+      <div class="head">
+        <p class="ey">BASICS</p>
+        <h2>Company Basics</h2>
+      </div>
+
+      <div class="util">
+        <a href="this-week.html">
+          <b>Check This Week</b>
+          <p class="note">Your current call, focus, and prep</p>
+        </a>
+
+        <a href="scripts.html">
+          <b>Use Current Scripts</b>
+          <p class="note">Only rehearse from approved materials</p>
+        </a>
+
+        <a href="resources.html">
+          <b>Open Resources</b>
+          <p class="note">Company guide and rehearsal materials</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="getHelp" class="help">
+      <h2>Need help?</h2>
+      <p>Use the official company links so the production team can respond quickly.</p>
+
+      <div class="actions">
+        <a class="btn gold" data-link="absence" href="#">Report Absence / Late</a>
+        <a class="btn" data-link="whatsapp" href="#">Company WhatsApp</a>
+        <a class="btn" data-link="help" href="#">Production Help</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <b>CHOSEN 2026</b>
+    <span>Company Hub</span>
+    <small id="updated"></small>
+  </footer>
+
+  <script>
+    (() => {
+      const STORAGE_KEY = 'chosen2026-person';
+
+      function esc(value) {
+        return String(value ?? '')
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+
+      function slug(value) {
+        return String(value ?? '')
+          .normalize('NFD')
+          .replace(/[\u0300-\u036f]/g, '')
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-+|-+$/g, '');
+      }
+
+      function asArray(value) {
+        if (Array.isArray(value)) return value;
+        if (typeof value === 'string') {
+          return value
+            .split(/[,;\n]/)
+            .map(item => item.trim())
+            .filter(Boolean);
+        }
+        return [];
+      }
+
+      function firstText(...values) {
+        for (const value of values) {
+          if (value === 0) return '0';
+          const text = String(value ?? '').trim();
+          if (text) return text;
+        }
+        return '';
+      }
+
+      function personName(person) {
+        return firstText(
+          person.displayName,
+          person.name,
+          person.fullName,
+          person.performer,
+          person.actor,
+          person.castMember,
+          person.member
+        );
+      }
+
+      function personRole(person) {
+        return firstText(
+          person.role,
+          person.character,
+          person.characterName,
+          person.primaryRole,
+          person.assignment,
+          person.castRole
+        );
+      }
+
+      function personId(person) {
+        return firstText(person.id, person.personId, person.memberId, 'P-' + slug(personName(person)));
+      }
+
+      function personScenes(person) {
+        const scenes = asArray(
+          person.scenes ||
+          person.sceneNumbers ||
+          person.sceneList ||
+          person.sceneAssignments ||
+          person.assignedScenes
+        );
+
+        if (scenes.length) {
+          return scenes.join(', ');
+        }
+
+        return firstText(person.scene, person.sceneText, person.scenesText, person.sceneSummary);
+      }
+
+      function personUnderstudy(person) {
+        return firstText(
+          person.understudy,
+          person.understudyFor,
+          person.understudyAssignment,
+          person.cover,
+          person.covering
+        );
+      }
+
+      function personGroups(person) {
+        return asArray(person.groups || person.callGroups || person.ensembles || person.group);
+      }
+
+      function isDancePerson(person) {
+        const role = personRole(person).toLowerCase();
+        const groups = personGroups(person).join(' ').toLowerCase();
+
+        return Boolean(
+          person.dancer ||
+          person.isDancer ||
+          person.dance ||
+          role.includes('dance') ||
+          role.includes('dancer') ||
+          groups.includes('dance') ||
+          groups.includes('dancer')
+        );
+      }
+
+      function getPeople(data) {
+        if (Array.isArray(data)) return data;
+
+        return (
+          (Array.isArray(data.people) && data.people) ||
+          (Array.isArray(data.company) && data.company) ||
+          (Array.isArray(data.cast) && data.cast) ||
+          (Array.isArray(data.performers) && data.performers) ||
+          (Array.isArray(data.roster) && data.roster) ||
+          []
+        );
+      }
+
+      function getDanceItems(data, people) {
+        const direct =
+          (Array.isArray(data.dance) && data.dance) ||
+          (Array.isArray(data.dancers) && data.dancers) ||
+          (Array.isArray(data.danceEnsemble) && data.danceEnsemble) ||
+          (Array.isArray(data.danceAssignments) && data.danceAssignments) ||
+          [];
+
+        if (direct.length) return direct;
+
+        return people.filter(isDancePerson);
+      }
+
+      async function fetchCompanyData() {
+        const urls = [
+          'company.json?v=' + Date.now(),
+          'data/company.json?v=' + Date.now()
+        ];
+
+        let lastError = null;
+
+        for (const url of urls) {
+          try {
+            const response = await fetch(url, { cache: 'no-store' });
+
+            if (!response.ok) {
+              lastError = new Error(url + ' returned HTTP ' + response.status);
+              continue;
+            }
+
+            return await response.json();
+          } catch (error) {
+            lastError = error;
+          }
+        }
+
+        throw lastError || new Error('Company data could not load.');
+      }
+
+      function renderPersonCard(person) {
+        const card = document.getElementById('companyPersonCard');
+        if (!card) return;
+
+        if (!person) {
+          card.innerHTML = `
+            <article class="row">
+              <div class="badge">✓</div>
+              <div>
+                <h3>Choose your name to see your role and scenes.</h3>
+                <p>Your saved person connects to My Calls on this device.</p>
+              </div>
+            </article>
+          `;
+          return;
+        }
+
+        const name = personName(person);
+        const role = personRole(person) || 'Company Member';
+        const scenes = personScenes(person) || 'Scene information will appear when published.';
+        const understudy = personUnderstudy(person);
+        const groups = personGroups(person);
+
+        card.innerHTML = `
+          <article class="row">
+            <div class="badge">${esc(role.slice(0, 2).toUpperCase())}</div>
+            <div>
+              <h3>${esc(name)}</h3>
+              <p><b>Role:</b> ${esc(role)}</p>
+              <p><b>Scenes:</b> ${esc(scenes)}</p>
+              ${understudy ? `<p><b>Understudy:</b> ${esc(understudy)}</p>` : ''}
+              ${groups.length ? `<p><b>Groups:</b> ${esc(groups.join(', '))}</p>` : ''}
+            </div>
+          </article>
+        `;
+      }
+
+      function renderDanceList(items) {
+        const list = document.getElementById('danceList');
+        if (!list) return;
+
+        if (!items.length) {
+          list.innerHTML = `
+            <article class="row">
+              <div class="badge">♪</div>
+              <div>
+                <h3>Dance assignments not published yet.</h3>
+                <p>When dance assignments are added to the company data, they will appear here.</p>
+              </div>
+            </article>
+          `;
+          return;
+        }
+
+        list.innerHTML = items.map(item => {
+          const name = personName(item) || firstText(item.title, item.name, item.label, 'Dance Assignment');
+          const role = personRole(item);
+          const scenes = personScenes(item);
+          const note = firstText(item.notes, item.note, item.description, item.assignment);
+
+          return `
+            <article class="row">
+              <div class="badge">♪</div>
+              <div>
+                <h3>${esc(name)}</h3>
+                ${role ? `<p><b>Role:</b> ${esc(role)}</p>` : ''}
+                ${scenes ? `<p><b>Scenes:</b> ${esc(scenes)}</p>` : ''}
+                ${note ? `<p>${esc(note)}</p>` : ''}
+              </div>
+            </article>
+          `;
+        }).join('');
+      }
+
+      function populateSelect(select, people) {
+        const saved = localStorage.getItem(STORAGE_KEY) || '';
+
+        select.innerHTML = '<option value="">Select your name…</option>';
+
+        people
+          .filter(person => personName(person))
+          .sort((a, b) => personName(a).localeCompare(personName(b)))
+          .forEach(person => {
+            const option = document.createElement('option');
+            option.value = personId(person);
+            option.textContent = personName(person);
+            select.appendChild(option);
+          });
+
+        if (saved && Array.from(select.options).some(option => option.value === saved)) {
+          select.value = saved;
+        }
+      }
+
+      async function repairCompanyPage() {
+        const select = document.getElementById('companyPersonSelect');
+        const clear = document.getElementById('clearCompanyPerson');
+
+        if (!select) return;
+
+        try {
+          const data = await fetchCompanyData();
+          const people = getPeople(data);
+          const danceItems = getDanceItems(data, people);
+
+          populateSelect(select, people);
+          renderDanceList(danceItems);
+
+          function selectedPerson() {
+            return people.find(person => personId(person) === select.value) || null;
+          }
+
+          function saveAndRender() {
+            const person = selectedPerson();
+
+            if (person) {
+              localStorage.setItem(STORAGE_KEY, personId(person));
+            } else {
+              localStorage.removeItem(STORAGE_KEY);
+            }
+
+            renderPersonCard(person);
+          }
+
+          select.addEventListener('change', saveAndRender);
+
+          if (clear) {
+            clear.addEventListener('click', () => {
+              select.value = '';
+              localStorage.removeItem(STORAGE_KEY);
+              renderPersonCard(null);
+            });
+          }
+
+          saveAndRender();
+        } catch (error) {
+          const card = document.getElementById('companyPersonCard');
+          const danceList = document.getElementById('danceList');
+
+          if (card) {
+            card.innerHTML = `
+              <article class="row">
+                <div class="badge">!</div>
+                <div>
+                  <h3>Company information could not load.</h3>
+                  <p>${esc(error.message || error)}</p>
+                </div>
+              </article>
+            `;
+          }
+
+          if (danceList) {
+            danceList.innerHTML = `
+              <article class="row">
+                <div class="badge">!</div>
+                <div>
+                  <h3>Dance assignments could not load.</h3>
+                  <p>${esc(error.message || error)}</p>
+                </div>
+              </article>
+            `;
+          }
+        }
+      }
+
+      window.addEventListener('DOMContentLoaded', () => {
+        setTimeout(repairCompanyPage, 500);
+      });
+    })();
+  </script>
+</body>
+</html>  <main>
     <section class="sub">
       <p class="ey">YOUR COMPANY</p>
       <h1>Company</h1>
