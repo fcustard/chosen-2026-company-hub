@@ -910,7 +910,8 @@
     "calledPeople": [],
     "calledPeopleIds": [],
     "calledGroups": [
-      "Principals/Featured"
+      "Principals/Featured",
+      "Dancers"
     ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
