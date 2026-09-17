@@ -353,7 +353,9 @@
       "P-jordyn-starks",
       "P-caleb-davilmar"
     ],
-    "calledGroups": [],
+    "calledGroups": [
+      "Dancers"
+    ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260917-REH"

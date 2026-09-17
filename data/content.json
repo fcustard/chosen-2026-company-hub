@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T14:59:05.636Z",
+  "updated": "2026-09-17T18:14:13.446Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -24,7 +24,9 @@
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
-    "callGroups": [],
+    "callGroups": [
+      "Dancers"
+    ],
     "calledPeople": [
       {
         "displayName": "Jordyn Starks"
@@ -37,7 +39,9 @@
       "P-jordyn-starks",
       "P-caleb-davilmar"
     ],
-    "calledGroups": [],
+    "calledGroups": [
+      "Dancers"
+    ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
     "work": "Scene 1 dance work; Reunion / Still Yours; Scene 2 music cleanup.",
@@ -67,7 +71,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
-        "callGroups": [],
+        "callGroups": [
+          "Dancers"
+        ],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -80,7 +86,9 @@
           "P-jordyn-starks",
           "P-caleb-davilmar"
         ],
-        "calledGroups": [],
+        "calledGroups": [
+          "Dancers"
+        ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scene 1 dance work; Reunion / Still Yours; Scene 2 music cleanup.",
@@ -288,7 +296,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
-        "callGroups": [],
+        "callGroups": [
+          "Dancers"
+        ],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -301,7 +311,9 @@
           "P-jordyn-starks",
           "P-caleb-davilmar"
         ],
-        "calledGroups": [],
+        "calledGroups": [
+          "Dancers"
+        ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scene 1 dance work; Reunion / Still Yours; Scene 2 music cleanup.",
@@ -2522,7 +2534,9 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
-        "callGroups": [],
+        "callGroups": [
+          "Dancers"
+        ],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -2535,7 +2549,9 @@
           "P-jordyn-starks",
           "P-caleb-davilmar"
         ],
-        "calledGroups": [],
+        "calledGroups": [
+          "Dancers"
+        ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Scene 1 dance work; Reunion / Still Yours; Scene 2 music cleanup.",
@@ -4751,7 +4767,7 @@
       {
         "id": "dancers",
         "name": "Dancers",
-        "count": 40
+        "count": 42
       },
       {
         "id": "ensemble",
@@ -4786,7 +4802,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "02",
@@ -4800,7 +4816,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "03",
@@ -4814,7 +4830,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "04",
@@ -4828,7 +4844,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "05",
@@ -4842,7 +4858,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "06",
@@ -4856,7 +4872,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "07",
@@ -4870,7 +4886,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "08",
@@ -4884,7 +4900,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "09",
@@ -4898,7 +4914,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "10",
@@ -4912,7 +4928,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "11",
@@ -4926,7 +4942,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "12",
@@ -4940,7 +4956,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       }
     ],
     "current": [
@@ -4956,7 +4972,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "02",
@@ -4970,7 +4986,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "03",
@@ -4984,7 +5000,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "04",
@@ -4998,7 +5014,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "05",
@@ -5012,7 +5028,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "06",
@@ -5026,7 +5042,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "07",
@@ -5040,7 +5056,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "08",
@@ -5054,7 +5070,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "09",
@@ -5068,7 +5084,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "10",
@@ -5082,7 +5098,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "11",
@@ -5096,7 +5112,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       },
       {
         "scene": "12",
@@ -5110,18 +5126,18 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-17T14:58:43.700Z"
+        "updated": "2026-09-17T18:14:05.981Z"
       }
     ],
     "count": 12,
-    "updated": "2026-09-17T14:59:05.636Z",
+    "updated": "2026-09-17T18:14:13.447Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-17T14:59:05.636Z",
+    "updated": "2026-09-17T18:14:13.447Z",
     "kind": "music"
   }
 }
