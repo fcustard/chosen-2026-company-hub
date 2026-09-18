@@ -671,3 +671,52 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
     overflow: visible !important;
   }
 }
+
+/* ===== EMERGENCY MOBILE SCENE READER OVERLAY FIX =====
+   This forces the Back to Scripts / Back to top block to stop floating
+   over the script text on mobile scene pages.
+   Keep this as the final block in styles.css.
+*/
+
+@media (max-width: 760px) {
+  body:has(a[href="scripts.html"]) footer,
+  body:has(a[href="./scripts.html"]) footer,
+  body:has(a[href="scripts.html"]) .siteFooter,
+  body:has(a[href="./scripts.html"]) .siteFooter,
+  body:has(a[href="scripts.html"]) .readerFooter,
+  body:has(a[href="./scripts.html"]) .readerFooter,
+  body:has(a[href="scripts.html"]) .sceneFooter,
+  body:has(a[href="./scripts.html"]) .sceneFooter,
+  body:has(a[href="scripts.html"]) .sceneNav,
+  body:has(a[href="./scripts.html"]) .sceneNav,
+  body:has(a[href="scripts.html"]) .sceneActions,
+  body:has(a[href="./scripts.html"]) .sceneActions,
+  body:has(a[href="scripts.html"]) .actions,
+  body:has(a[href="./scripts.html"]) .actions {
+    position: static !important;
+    display: block !important;
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    inset: auto !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    transform: none !important;
+    z-index: 1 !important;
+  }
+
+  body:has(a[href="scripts.html"]) main,
+  body:has(a[href="./scripts.html"]) main {
+    padding-bottom: 48px !important;
+  }
+
+  body:has(a[href="scripts.html"]) a[href="scripts.html"],
+  body:has(a[href="./scripts.html"]) a[href="./scripts.html"],
+  body:has(a[href="scripts.html"]) a[href="#top"],
+  body:has(a[href="./scripts.html"]) a[href="#top"] {
+    position: static !important;
+  }
+}
