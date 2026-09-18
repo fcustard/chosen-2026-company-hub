@@ -616,3 +616,58 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
     margin-top: 0.4rem;
   }
 }
+
+/* ===== MOBILE SCENE READER FOOTER FIX =====
+   Prevent scene navigation/footer from floating over script text on phones.
+   Keep this as the final block in styles.css.
+*/
+
+@media (max-width: 760px) {
+  footer,
+  .sceneFooter,
+  .scene-footer,
+  .sceneNav,
+  .scene-nav,
+  .sceneActions,
+  .scene-actions,
+  .readerFooter,
+  .reader-footer,
+  .readerActions,
+  .reader-actions,
+  .scriptFooter,
+  .script-footer,
+  .scriptActions,
+  .script-actions,
+  .bottomNav,
+  .bottom-nav,
+  .bottomActions,
+  .bottom-actions {
+    position: static !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    inset: auto !important;
+    transform: none !important;
+    z-index: auto !important;
+  }
+
+  main,
+  .scenePage,
+  .scene-page,
+  .scriptPage,
+  .script-page,
+  .readerPage,
+  .reader-page {
+    padding-bottom: 48px !important;
+  }
+
+  .scriptCard,
+  .sceneCard,
+  .readerCard,
+  .script-card,
+  .scene-card,
+  .reader-card {
+    overflow: visible !important;
+  }
+}
