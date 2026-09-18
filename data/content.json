@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T23:44:42.407Z",
+  "updated": "2026-09-18T01:34:20.731Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -9,22 +9,23 @@
     "help": "https://docs.google.com/forms/d/e/1FAIpQLSeiTsJrCmCAJ44woJG4mUNBHGJnb1fWSol5Xzc4Kvy-Hlha6Q/viewform?usp=header"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20260917-REH",
-    "eventKey": "CHOSEN-20260917-REH",
-    "start": "2026-09-17T22:30:00.000Z",
-    "end": "2026-09-18T01:30:00.000Z",
-    "date": "September 17, 2026",
-    "dateIso": "2026-09-17",
-    "day": "Thursday",
-    "dateLabel": "September 17, 2026",
-    "dayLabel": "Thursday",
-    "time": "6:30 PM–9:30 PM",
-    "title": "CHOSEN Rehearsal - Scene 1 (Dance Only), Scene 2 & 8",
+    "id": "CHOSEN-20260919-REH",
+    "eventKey": "CHOSEN-20260919-REH",
+    "start": "2026-09-19T14:00:00.000Z",
+    "end": "2026-09-19T18:00:00.000Z",
+    "date": "September 19, 2026",
+    "dateIso": "2026-09-19",
+    "day": "Saturday",
+    "dateLabel": "September 19, 2026",
+    "dayLabel": "Saturday",
+    "time": "10:00 AM–2:00 PM",
+    "title": "CHOSEN Rehearsal - Scenes 1;  6–8",
     "status": "CONFIRMED",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
+    "called": "FULL COMPANY REHEARSAL: \n 10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n\n11:00 AM- 2:00 PM- Elizabeth(Audrey), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                 \n\n10:00AM-2:00 PM- Dancers\n\n12:00 PM- 2:00pm- FULL COMPANY",
     "callGroups": [
+      "Full Company",
       "Dancers"
     ],
     "calledPeople": [
@@ -33,20 +34,41 @@
       },
       {
         "displayName": "Caleb Davilmar"
+      },
+      {
+        "displayName": "Audrey Howell-McClenney"
+      },
+      {
+        "displayName": "Marcus Mainer"
+      },
+      {
+        "displayName": "Dorrien Jones"
+      },
+      {
+        "displayName": "Michael Stover"
+      },
+      {
+        "displayName": "Chris Mcanuff"
       }
     ],
     "calledPeopleIds": [
       "P-jordyn-starks",
-      "P-caleb-davilmar"
+      "P-caleb-davilmar",
+      "P-audrey-howell-mcclenney",
+      "P-marcus-mainer",
+      "P-dorrien-jones",
+      "P-michael-stover",
+      "P-chris-mcanuff"
     ],
     "calledGroups": [
+      "Full Company",
       "Dancers"
     ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Scene 1 dance work; Reunion / Still Yours; Scene 2 music cleanup.",
+    "work": "Stage Scenes 6–8; transitions; spacing",
     "focus": "",
-    "prep": "Dance Ensemble: Be ready to transition to next part of the song. Actors: dialouge, light blocking and singing techniques.",
+    "prep": "Dance Ensemble: Be ready to transition to next part of the song.\n Actors: SCENE 1 (MUST BE OFF SCRIPT), light blocking and singing techniques.",
     "notice": "",
     "changeType": ""
   },
@@ -55,48 +77,6 @@
     "start": "2026-09-17T04:00:00.000Z",
     "end": "2026-09-24T03:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20260917-REH",
-        "eventKey": "CHOSEN-20260917-REH",
-        "start": "2026-09-17T22:30:00.000Z",
-        "end": "2026-09-18T01:30:00.000Z",
-        "date": "September 17, 2026",
-        "dateIso": "2026-09-17",
-        "day": "Thursday",
-        "dateLabel": "September 17, 2026",
-        "dayLabel": "Thursday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 1 (Dance Only), Scene 2 & 8",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
-        "callGroups": [
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-caleb-davilmar"
-        ],
-        "calledGroups": [
-          "Dancers"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scene 1 dance work; Reunion / Still Yours; Scene 2 music cleanup.",
-        "focus": "",
-        "prep": "Dance Ensemble: Be ready to transition to next part of the song. Actors: dialouge, light blocking and singing techniques.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260919-REH",
         "eventKey": "CHOSEN-20260919-REH",
@@ -274,54 +254,12 @@
         "changeType": ""
       }
     ],
-    "count": 3
+    "count": 2
   },
   "schedule": {
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20260917-REH",
-        "eventKey": "CHOSEN-20260917-REH",
-        "start": "2026-09-17T22:30:00.000Z",
-        "end": "2026-09-18T01:30:00.000Z",
-        "date": "September 17, 2026",
-        "dateIso": "2026-09-17",
-        "day": "Thursday",
-        "dateLabel": "September 17, 2026",
-        "dayLabel": "Thursday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 1 (Dance Only), Scene 2 & 8",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
-        "callGroups": [
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-caleb-davilmar"
-        ],
-        "calledGroups": [
-          "Dancers"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scene 1 dance work; Reunion / Still Yours; Scene 2 music cleanup.",
-        "focus": "",
-        "prep": "Dance Ensemble: Be ready to transition to next part of the song. Actors: dialouge, light blocking and singing techniques.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260919-REH",
         "eventKey": "CHOSEN-20260919-REH",
@@ -1917,6 +1855,48 @@
     ],
     "pastRehearsals": [
       {
+        "id": "CHOSEN-20260917-REH",
+        "eventKey": "CHOSEN-20260917-REH",
+        "start": "2026-09-17T22:30:00.000Z",
+        "end": "2026-09-18T01:30:00.000Z",
+        "date": "September 17, 2026",
+        "dateIso": "2026-09-17",
+        "day": "Thursday",
+        "dateLabel": "September 17, 2026",
+        "dayLabel": "Thursday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 1 (Dance Only), Scene 2 & 8",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
+        "callGroups": [
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar"
+        ],
+        "calledGroups": [
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Scene 1 dance work; Reunion / Still Yours; Scene 2 music cleanup.",
+        "focus": "",
+        "prep": "Dance Ensemble: Be ready to transition to next part of the song. Actors: dialouge, light blocking and singing techniques.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260915-REH",
         "eventKey": "CHOSEN-20260915-REH",
         "start": "2026-09-15T22:30:00.000Z",
@@ -2520,48 +2500,6 @@
       }
     ],
     "allRehearsals": [
-      {
-        "id": "CHOSEN-20260917-REH",
-        "eventKey": "CHOSEN-20260917-REH",
-        "start": "2026-09-17T22:30:00.000Z",
-        "end": "2026-09-18T01:30:00.000Z",
-        "date": "September 17, 2026",
-        "dateIso": "2026-09-17",
-        "day": "Thursday",
-        "dateLabel": "September 17, 2026",
-        "dayLabel": "Thursday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 1 (Dance Only), Scene 2 & 8",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
-        "callGroups": [
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-caleb-davilmar"
-        ],
-        "calledGroups": [
-          "Dancers"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scene 1 dance work; Reunion / Still Yours; Scene 2 music cleanup.",
-        "focus": "",
-        "prep": "Dance Ensemble: Be ready to transition to next part of the song. Actors: dialouge, light blocking and singing techniques.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260919-REH",
         "eventKey": "CHOSEN-20260919-REH",
@@ -4155,6 +4093,48 @@
         "changeType": ""
       },
       {
+        "id": "CHOSEN-20260917-REH",
+        "eventKey": "CHOSEN-20260917-REH",
+        "start": "2026-09-17T22:30:00.000Z",
+        "end": "2026-09-18T01:30:00.000Z",
+        "date": "September 17, 2026",
+        "dateIso": "2026-09-17",
+        "day": "Thursday",
+        "dateLabel": "September 17, 2026",
+        "dayLabel": "Thursday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 1 (Dance Only), Scene 2 & 8",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30–8:30 PM — Dancers\n 6:30-9:30PM-Mary (Jordyn), Joseph (Caleb)",
+        "callGroups": [
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar"
+        ],
+        "calledGroups": [
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Scene 1 dance work; Reunion / Still Yours; Scene 2 music cleanup.",
+        "focus": "",
+        "prep": "Dance Ensemble: Be ready to transition to next part of the song. Actors: dialouge, light blocking and singing techniques.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260915-REH",
         "eventKey": "CHOSEN-20260915-REH",
         "start": "2026-09-15T22:30:00.000Z",
@@ -4771,7 +4751,7 @@
       {
         "id": "dancers",
         "name": "Dancers",
-        "count": 44
+        "count": 42
       },
       {
         "id": "ensemble",
@@ -4789,8 +4769,8 @@
         "count": 14
       }
     ],
-    "count": 40,
-    "pastCount": 9
+    "count": 39,
+    "pastCount": 10
   },
   "scripts": {
     "items": [
@@ -4806,7 +4786,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "02",
@@ -4820,7 +4800,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "03",
@@ -4834,7 +4814,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "04",
@@ -4848,7 +4828,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "05",
@@ -4862,7 +4842,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "06",
@@ -4876,7 +4856,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "07",
@@ -4890,7 +4870,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "08",
@@ -4904,7 +4884,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "09",
@@ -4918,7 +4898,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "10",
@@ -4932,7 +4912,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "11",
@@ -4946,7 +4926,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "12",
@@ -4960,7 +4940,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       }
     ],
     "current": [
@@ -4976,7 +4956,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "02",
@@ -4990,7 +4970,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "03",
@@ -5004,7 +4984,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "04",
@@ -5018,7 +4998,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "05",
@@ -5032,7 +5012,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "06",
@@ -5046,7 +5026,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "07",
@@ -5060,7 +5040,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "08",
@@ -5074,7 +5054,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "09",
@@ -5088,7 +5068,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "10",
@@ -5102,7 +5082,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "11",
@@ -5116,7 +5096,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       },
       {
         "scene": "12",
@@ -5130,18 +5110,18 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-17T23:44:25.424Z"
+        "updated": "2026-09-18T01:33:26.614Z"
       }
     ],
     "count": 12,
-    "updated": "2026-09-17T23:44:42.408Z",
+    "updated": "2026-09-18T01:34:20.732Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-17T23:44:42.408Z",
+    "updated": "2026-09-18T01:34:20.732Z",
     "kind": "music"
   }
 }
