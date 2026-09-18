@@ -109,6 +109,8 @@ jobs:
           git config user.name "CHOSEN Hub Automation"
           git config user.email "actions@users.noreply.github.com"
 
+          git pull --rebase --autostash origin main
+
           git add data/rehearsals.json || true
           git add data/company.json || true
           git add data/content.json || true
@@ -124,5 +126,4 @@ jobs:
           fi
 
           git commit -m "Automated Hub content update"
-          git pull --rebase origin main
-          git push
+          git push origin HEAD:main
