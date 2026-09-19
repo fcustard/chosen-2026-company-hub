@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T01:11:14.980Z",
+  "updated": "2026-09-19T04:54:32.238Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -23,7 +23,7 @@
     "status": "CONFIRMED",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "FULL COMPANY REHEARSAL: \n 10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n\n11:00 AM- 2:00 PM- Elizabeth(Audrey), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                 \n\n10:00AM-2:00 PM- Dancers\n\n12:00 PM- 2:00pm- FULL COMPANY",
+    "called": "10:00 AM–2:00 PM —Mary (Jordyn), Joseph (Caleb)\n\n10:00AM-2:00 PM- Dancers\n\n11:00 AM- 2:00 PM - Mary (Jordyn), Elizabeth (Audrey), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                 \n\n12:00 PM- 2:00pm- FULL COMPANY",
     "callGroups": [
       "Full Company",
       "Dancers"
@@ -66,7 +66,7 @@
     ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Stage Scenes 6–8; transitions; spacing",
+    "work": "Stage Scenes 1, 6–8; transitions; spacing",
     "focus": "",
     "prep": "Dance Ensemble: Be ready to transition to next part of the song.\n Actors: SCENE 1 (MUST BE OFF SCRIPT), light blocking and singing techniques.",
     "notice": "",
@@ -74,8 +74,8 @@
   },
   "thisWeek": {
     "title": "This Week",
-    "start": "2026-09-18T04:00:00.000Z",
-    "end": "2026-09-25T03:59:59.000Z",
+    "start": "2026-09-19T04:00:00.000Z",
+    "end": "2026-09-26T03:59:59.000Z",
     "rehearsals": [
       {
         "id": "CHOSEN-20260919-REH",
@@ -92,7 +92,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "FULL COMPANY REHEARSAL: \n 10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n\n11:00 AM- 2:00 PM- Elizabeth(Audrey), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                 \n\n10:00AM-2:00 PM- Dancers\n\n12:00 PM- 2:00pm- FULL COMPANY",
+        "called": "10:00 AM–2:00 PM —Mary (Jordyn), Joseph (Caleb)\n\n10:00AM-2:00 PM- Dancers\n\n11:00 AM- 2:00 PM - Mary (Jordyn), Elizabeth (Audrey), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                 \n\n12:00 PM- 2:00pm- FULL COMPANY",
         "callGroups": [
           "Full Company",
           "Dancers"
@@ -135,7 +135,7 @@
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Stage Scenes 6–8; transitions; spacing",
+        "work": "Stage Scenes 1, 6–8; transitions; spacing",
         "focus": "",
         "prep": "Dance Ensemble: Be ready to transition to next part of the song.\n Actors: SCENE 1 (MUST BE OFF SCRIPT), light blocking and singing techniques.",
         "notice": "",
@@ -397,7 +397,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "FULL COMPANY REHEARSAL: \n 10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n\n11:00 AM- 2:00 PM- Elizabeth(Audrey), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                 \n\n10:00AM-2:00 PM- Dancers\n\n12:00 PM- 2:00pm- FULL COMPANY",
+        "called": "10:00 AM–2:00 PM —Mary (Jordyn), Joseph (Caleb)\n\n10:00AM-2:00 PM- Dancers\n\n11:00 AM- 2:00 PM - Mary (Jordyn), Elizabeth (Audrey), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                 \n\n12:00 PM- 2:00pm- FULL COMPANY",
         "callGroups": [
           "Full Company",
           "Dancers"
@@ -440,7 +440,7 @@
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Stage Scenes 6–8; transitions; spacing",
+        "work": "Stage Scenes 1, 6–8; transitions; spacing",
         "focus": "",
         "prep": "Dance Ensemble: Be ready to transition to next part of the song.\n Actors: SCENE 1 (MUST BE OFF SCRIPT), light blocking and singing techniques.",
         "notice": "",
@@ -2637,7 +2637,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "FULL COMPANY REHEARSAL: \n 10:00 AM–2:00 PM —Mary(Jordyn) Joseph (Caleb)\n\n11:00 AM- 2:00 PM- Elizabeth(Audrey), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                 \n\n10:00AM-2:00 PM- Dancers\n\n12:00 PM- 2:00pm- FULL COMPANY",
+        "called": "10:00 AM–2:00 PM —Mary (Jordyn), Joseph (Caleb)\n\n10:00AM-2:00 PM- Dancers\n\n11:00 AM- 2:00 PM - Mary (Jordyn), Elizabeth (Audrey), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)                 \n\n12:00 PM- 2:00pm- FULL COMPANY",
         "callGroups": [
           "Full Company",
           "Dancers"
@@ -2680,7 +2680,7 @@
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Stage Scenes 6–8; transitions; spacing",
+        "work": "Stage Scenes 1, 6–8; transitions; spacing",
         "focus": "",
         "prep": "Dance Ensemble: Be ready to transition to next part of the song.\n Actors: SCENE 1 (MUST BE OFF SCRIPT), light blocking and singing techniques.",
         "notice": "",
@@ -4908,7 +4908,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "02",
@@ -4922,7 +4922,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "03",
@@ -4936,7 +4936,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "04",
@@ -4950,7 +4950,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "05",
@@ -4964,7 +4964,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "06",
@@ -4978,7 +4978,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "07",
@@ -4992,7 +4992,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "08",
@@ -5006,7 +5006,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "09",
@@ -5020,7 +5020,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "10",
@@ -5034,7 +5034,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "11",
@@ -5048,7 +5048,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "12",
@@ -5062,7 +5062,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       }
     ],
     "current": [
@@ -5078,7 +5078,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "02",
@@ -5092,7 +5092,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "03",
@@ -5106,7 +5106,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "04",
@@ -5120,7 +5120,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "05",
@@ -5134,7 +5134,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "06",
@@ -5148,7 +5148,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "07",
@@ -5162,7 +5162,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "08",
@@ -5176,7 +5176,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "09",
@@ -5190,7 +5190,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "10",
@@ -5204,7 +5204,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "11",
@@ -5218,7 +5218,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       },
       {
         "scene": "12",
@@ -5232,18 +5232,18 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-19T01:11:05.029Z"
+        "updated": "2026-09-19T04:54:23.967Z"
       }
     ],
     "count": 12,
-    "updated": "2026-09-19T01:11:14.980Z",
+    "updated": "2026-09-19T04:54:32.239Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-19T01:11:14.980Z",
+    "updated": "2026-09-19T04:54:32.239Z",
     "kind": "music"
   }
 }
