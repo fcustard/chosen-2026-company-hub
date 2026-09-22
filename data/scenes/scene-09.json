@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-22T19:06:55.702Z",
-  "contentHash": "0be44a4236e658473b5e299c7fd4487848db8fb29cac79c360c45fb06b4025f4",
+  "sourceUpdated": "2026-09-22T19:36:53.655Z",
+  "contentHash": "b4101366f25dfbcb15a943d6fe05bb105134560f07d417bff1d0dbcfb335ff40",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -668,7 +668,7 @@
     },
     {
       "type": "stage",
-      "text": "Will he help a friend along the way?"
+      "text": "Help a friend along the way?"
     },
     {
       "type": "stage",
@@ -679,12 +679,8 @@
       "text": "Will he laugh and scream and shout?"
     },
     {
-      "type": "heading",
-      "text": "CHORUS 2: CHILDREN"
-    },
-    {
-      "type": "stage",
-      "text": "What will he be?"
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "stage",
@@ -708,6 +704,14 @@
     },
     {
       "type": "heading",
+      "text": "CHORUS 2 (Part 2)"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
       "text": "CHILDREN"
     },
     {
@@ -723,6 +727,14 @@
       "text": "Whose child is it?"
     },
     {
+      "type": "heading",
+      "text": "CHILDREN"
+    },
+    {
+      "type": "stage",
+      "text": "What will he be?"
+    },
+    {
       "type": "character",
       "text": "VILLAGER WOMAN 1"
     },
@@ -731,20 +743,32 @@
       "text": "Before the wedding."
     },
     {
+      "type": "heading",
+      "text": "CHILDREN"
+    },
+    {
+      "type": "stage",
+      "text": "When he is born, for all to see?"
+    },
+    {
+      "type": "stage",
+      "text": "Will he be different or the same?"
+    },
+    {
+      "type": "stage",
+      "text": "Will the whole world know his name?"
+    },
+    {
+      "type": "stage",
+      "text": "What will he be?"
+    },
+    {
       "type": "character",
       "text": "GOSSIPER 2"
     },
     {
       "type": "dialogue",
       "text": "Joseph knows?"
-    },
-    {
-      "type": "character",
-      "text": "GOSSIPER 4"
-    },
-    {
-      "type": "dialogue",
-      "text": "Of course, he knows."
     },
     {
       "type": "heading",
@@ -756,11 +780,59 @@
     },
     {
       "type": "character",
+      "text": "GOSSIPER 4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Of course, he knows."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "Dance Break: Children Dance"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "CHORUS 3"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "CHILDREN"
+    },
+    {
+      "type": "stage",
+      "text": "What will he be?"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "character",
       "text": "GOSSIPER 3"
     },
     {
       "type": "dialogue",
       "text": "Then why is he still with her?"
+    },
+    {
+      "type": "heading",
+      "text": "CHILDREN"
+    },
+    {
+      "type": "stage",
+      "text": "What will he be?"
     },
     {
       "type": "character",
@@ -771,12 +843,36 @@
       "text": "She says there was an angel."
     },
     {
+      "type": "heading",
+      "text": "CHILDREN"
+    },
+    {
+      "type": "stage",
+      "text": "When he is born, for all to see?"
+    },
+    {
       "type": "character",
       "text": "GOSSIPER 4"
     },
     {
       "type": "dialogue",
       "text": "¿Un ángel?"
+    },
+    {
+      "type": "heading",
+      "text": "CHILDREN"
+    },
+    {
+      "type": "stage",
+      "text": "Will he be different or the same?"
+    },
+    {
+      "type": "stage",
+      "text": "Will the whole world know his name?"
+    },
+    {
+      "type": "stage",
+      "text": "What will he be?"
     },
     {
       "type": "character",
@@ -791,36 +887,24 @@
       "text": "Villager 3 looks toward Mary."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "CHILDREN"
+    },
+    {
+      "type": "stage",
+      "text": "What will he be?"
+    },
+    {
       "type": "character",
       "text": "GOSSIPER 4"
     },
     {
       "type": "dialogue",
       "text": "Eso es lo que escuchaste."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "GOSSIPER 3"
-    },
-    {
-      "type": "dialogue",
-      "text": "That’s what you heard."
-    },
-    {
-      "type": "stage",
-      "text": "The children remain musically innocent."
-    },
-    {
-      "type": "stage",
-      "text": "Underneath them, the adults begin finding the old Scene 1 gossip rhythm."
-    },
-    {
-      "type": "stage",
-      "text": "Same machinery. Different consequence."
     },
     {
       "type": "heading",
@@ -837,6 +921,10 @@
     {
       "type": "stage",
       "text": "What will he be? (all together, kids laughing)"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "stage",
