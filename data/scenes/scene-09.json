@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-22T15:37:17.307Z",
-  "contentHash": "e7f3e28df37779905d186178f61666f330f2ef721b5e121a9d9aab3ef6ae81e4",
+  "sourceUpdated": "2026-09-22T19:06:55.702Z",
+  "contentHash": "0be44a4236e658473b5e299c7fd4487848db8fb29cac79c360c45fb06b4025f4",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -547,36 +547,48 @@
       "text": "LYRICAL TERRITORY — NOT FINAL LYRICS"
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "stage",
-      "text": "Will he laugh too loud? / Will he sleep all day? / Will he race through every market stall / and leave his things in everybody’s way?"
+      "text": "INTRO: Will he laugh too loud? / Will he sleep all day? / Will he race through every market stall / and leave his things in everybody’s way?"
     },
     {
       "type": "stage",
       "text": "Will he love stories? / Will he climb trees? / Will he ask a hundred questions / before anyone can breathe?"
     },
     {
-      "type": "character",
-      "text": "SIMON"
-    },
-    {
-      "type": "dialogue",
-      "text": "A hundred?"
-    },
-    {
-      "type": "character",
-      "text": "NIA"
-    },
-    {
-      "type": "dialogue",
-      "text": "You ask more than that."
+      "type": "heading",
+      "text": "CHORUS 1: What will he be? What will he be?"
     },
     {
       "type": "stage",
-      "text": "The music continues."
+      "text": "When he is born, for all to see?"
+    },
+    {
+      "type": "stage",
+      "text": "Will he be different or the same?"
+    },
+    {
+      "type": "stage",
+      "text": "Will the whole world know his name?"
+    },
+    {
+      "type": "stage",
+      "text": "What will he be? What will he be?"
     },
     {
       "type": "stage",
       "text": "The children imagine ordinary futures: animals, stories, running, helping, learning, teaching, courage, kindness."
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "Verse 1"
     },
     {
       "type": "character",
@@ -595,8 +607,32 @@
       "text": "Maybe."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "character",
       "text": "CHILD 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Make a chair that’s strong and good?"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH"
+    },
+    {
+      "type": "dialogue",
+      "text": "I hope."
+    },
+    {
+      "type": "character",
+      "text": "CHILD 1"
     },
     {
       "type": "dialogue",
@@ -616,23 +652,35 @@
     },
     {
       "type": "dialogue",
-      "text": "That line lands quietly."
+      "text": "CHILD 1: That’s Good!"
     },
     {
-      "type": "stage",
-      "text": "The song grows more thoughtful without becoming prophetic."
-    },
-    {
-      "type": "stage",
-      "text": "Possible territory: Will he make somebody smile / when they’ve forgotten how? / Will he stand beside a friend / when everybody else walks out?"
-    },
-    {
-      "type": "stage",
-      "text": "Will he be gentle? / Will he be brave? / Will he make a difference / in somebody’s day?"
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
-      "text": "NIA / CHILDREN"
+      "text": "CHILDREN"
+    },
+    {
+      "type": "stage",
+      "text": "Will he like to run and play?"
+    },
+    {
+      "type": "stage",
+      "text": "Will he help a friend along the way?"
+    },
+    {
+      "type": "stage",
+      "text": "Will he dance and flip about?"
+    },
+    {
+      "type": "stage",
+      "text": "Will he laugh and scream and shout?"
+    },
+    {
+      "type": "heading",
+      "text": "CHORUS 2: CHILDREN"
     },
     {
       "type": "stage",
@@ -653,6 +701,10 @@
     {
       "type": "stage",
       "text": "As the children repeat the bright question, a second question begins underneath them."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
@@ -692,7 +744,7 @@
     },
     {
       "type": "dialogue",
-      "text": "Claro que sabe. Of course, he knows."
+      "text": "Of course, he knows."
     },
     {
       "type": "heading",
@@ -784,7 +836,7 @@
     },
     {
       "type": "stage",
-      "text": "What will he be?"
+      "text": "What will he be? (all together, kids laughing)"
     },
     {
       "type": "stage",
