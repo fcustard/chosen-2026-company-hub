@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T19:37:00.869Z",
+  "updated": "2026-09-22T22:02:55.537Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -23,7 +23,7 @@
     "status": "CONFIRMED",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "6:30–8:30 PM — Child Storytellers Nia (Gelvina), Simon ( James),  Mary (Jordyn), Joseph (Caleb)\n6:30–8:30 PM — Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n7:30 PM-9:30 PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden), Gossipers (Annia, Victorya, Shanice, Gabriela)   Villagers (E (Sandra) / Scene 9 Ensemble",
+    "called": "6:30–8:30 PM — Child Storytellers Nia (Gelvina), Simon ( James),  Mary (Jordyn), Joseph (Caleb)\n6:30-8:30PM— Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n7:30 PM-9:30 PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden), Gossipers (Annia, Victorya, Shanice, Gabriela)   Villagers (E (Sandra) / Scene 9 Ensemble",
     "callGroups": [
       "Principals/Featured",
       "Children/Youth",
@@ -160,7 +160,7 @@
     "callDataVersion": 3,
     "work": "Children section + town/gossip setup",
     "focus": "",
-    "prep": "Dancers (Child/Youth ONLY): Starting Choreography to a New Song. Actors: Please look over Scene 9 so you are prepared for rehearsal",
+    "prep": "Dancers (Child/Youth ONLY): Work on new choreography, speaking parts, and singing the \"What Will He Be\" song (new song). Actors: Please look over Scene 9 so you are prepared for rehearsal",
     "notice": "",
     "changeType": ""
   },
@@ -184,7 +184,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — Child Storytellers Nia (Gelvina), Simon ( James),  Mary (Jordyn), Joseph (Caleb)\n6:30–8:30 PM — Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n7:30 PM-9:30 PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden), Gossipers (Annia, Victorya, Shanice, Gabriela)   Villagers (E (Sandra) / Scene 9 Ensemble",
+        "called": "6:30–8:30 PM — Child Storytellers Nia (Gelvina), Simon ( James),  Mary (Jordyn), Joseph (Caleb)\n6:30-8:30PM— Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n7:30 PM-9:30 PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden), Gossipers (Annia, Victorya, Shanice, Gabriela)   Villagers (E (Sandra) / Scene 9 Ensemble",
         "callGroups": [
           "Principals/Featured",
           "Children/Youth",
@@ -321,7 +321,7 @@
         "callDataVersion": 3,
         "work": "Children section + town/gossip setup",
         "focus": "",
-        "prep": "Dancers (Child/Youth ONLY): Starting Choreography to a New Song. Actors: Please look over Scene 9 so you are prepared for rehearsal",
+        "prep": "Dancers (Child/Youth ONLY): Work on new choreography, speaking parts, and singing the \"What Will He Be\" song (new song). Actors: Please look over Scene 9 so you are prepared for rehearsal",
         "notice": "",
         "changeType": ""
       },
@@ -336,11 +336,11 @@
         "dateLabel": "September 24, 2026",
         "dayLabel": "Thursday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 10 & 11",
+        "title": "CHOSEN Rehearsal - Scene 9 & 10",
         "status": "VIRTUAL",
         "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
         "locationShort": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
-        "called": "6:30PM-8:30PM- Child Speakers: (Child 1 (Neclia) Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina) Simon (James), \n\n6:30PM-9:30PM- Mary (Jordyn), Caleb (Joseph)\n\n\n7:15PM-9:30PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Villager Man (Jayden), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
+        "called": "6:30PM-7:30PM- Child Speakers: Child 1 (Neclia) Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina) Simon (James),\n6:30PM-7:30PM-Dancers (Child/Youth ONLY)\n\n6:30PM-9:30PM- Mary (Jordyn), Caleb (Joseph)\n\n\n7:30PM-9:30PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Villager Man (Jayden), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -443,7 +443,7 @@
         "callDataVersion": 3,
         "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
         "focus": "",
-        "prep": "Virtual rehearsal because no TFC room is available. Physical journey work moves to Sept. 26 / Oct. 3. Connection details TBD.",
+        "prep": "Dancers: Work on Speaking Parts and the \"What Will He Be\" Song; Actors: Work on the script for Scenes 9& 10",
         "notice": "",
         "changeType": ""
       },
@@ -629,7 +629,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — Child Storytellers Nia (Gelvina), Simon ( James),  Mary (Jordyn), Joseph (Caleb)\n6:30–8:30 PM — Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n7:30 PM-9:30 PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden), Gossipers (Annia, Victorya, Shanice, Gabriela)   Villagers (E (Sandra) / Scene 9 Ensemble",
+        "called": "6:30–8:30 PM — Child Storytellers Nia (Gelvina), Simon ( James),  Mary (Jordyn), Joseph (Caleb)\n6:30-8:30PM— Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n7:30 PM-9:30 PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden), Gossipers (Annia, Victorya, Shanice, Gabriela)   Villagers (E (Sandra) / Scene 9 Ensemble",
         "callGroups": [
           "Principals/Featured",
           "Children/Youth",
@@ -766,7 +766,7 @@
         "callDataVersion": 3,
         "work": "Children section + town/gossip setup",
         "focus": "",
-        "prep": "Dancers (Child/Youth ONLY): Starting Choreography to a New Song. Actors: Please look over Scene 9 so you are prepared for rehearsal",
+        "prep": "Dancers (Child/Youth ONLY): Work on new choreography, speaking parts, and singing the \"What Will He Be\" song (new song). Actors: Please look over Scene 9 so you are prepared for rehearsal",
         "notice": "",
         "changeType": ""
       },
@@ -781,11 +781,11 @@
         "dateLabel": "September 24, 2026",
         "dayLabel": "Thursday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 10 & 11",
+        "title": "CHOSEN Rehearsal - Scene 9 & 10",
         "status": "VIRTUAL",
         "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
         "locationShort": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
-        "called": "6:30PM-8:30PM- Child Speakers: (Child 1 (Neclia) Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina) Simon (James), \n\n6:30PM-9:30PM- Mary (Jordyn), Caleb (Joseph)\n\n\n7:15PM-9:30PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Villager Man (Jayden), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
+        "called": "6:30PM-7:30PM- Child Speakers: Child 1 (Neclia) Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina) Simon (James),\n6:30PM-7:30PM-Dancers (Child/Youth ONLY)\n\n6:30PM-9:30PM- Mary (Jordyn), Caleb (Joseph)\n\n\n7:30PM-9:30PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Villager Man (Jayden), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -888,7 +888,7 @@
         "callDataVersion": 3,
         "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
         "focus": "",
-        "prep": "Virtual rehearsal because no TFC room is available. Physical journey work moves to Sept. 26 / Oct. 3. Connection details TBD.",
+        "prep": "Dancers: Work on Speaking Parts and the \"What Will He Be\" Song; Actors: Work on the script for Scenes 9& 10",
         "notice": "",
         "changeType": ""
       },
@@ -3159,7 +3159,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — Child Storytellers Nia (Gelvina), Simon ( James),  Mary (Jordyn), Joseph (Caleb)\n6:30–8:30 PM — Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n7:30 PM-9:30 PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden), Gossipers (Annia, Victorya, Shanice, Gabriela)   Villagers (E (Sandra) / Scene 9 Ensemble",
+        "called": "6:30–8:30 PM — Child Storytellers Nia (Gelvina), Simon ( James),  Mary (Jordyn), Joseph (Caleb)\n6:30-8:30PM— Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n7:30 PM-9:30 PM- Mary (Jordyn), Joseph (Caleb), Elizabeth (Audrey), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Villager Man (Jayden), Gossipers (Annia, Victorya, Shanice, Gabriela)   Villagers (E (Sandra) / Scene 9 Ensemble",
         "callGroups": [
           "Principals/Featured",
           "Children/Youth",
@@ -3296,7 +3296,7 @@
         "callDataVersion": 3,
         "work": "Children section + town/gossip setup",
         "focus": "",
-        "prep": "Dancers (Child/Youth ONLY): Starting Choreography to a New Song. Actors: Please look over Scene 9 so you are prepared for rehearsal",
+        "prep": "Dancers (Child/Youth ONLY): Work on new choreography, speaking parts, and singing the \"What Will He Be\" song (new song). Actors: Please look over Scene 9 so you are prepared for rehearsal",
         "notice": "",
         "changeType": ""
       },
@@ -3311,11 +3311,11 @@
         "dateLabel": "September 24, 2026",
         "dayLabel": "Thursday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 10 & 11",
+        "title": "CHOSEN Rehearsal - Scene 9 & 10",
         "status": "VIRTUAL",
         "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
         "locationShort": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
-        "called": "6:30PM-8:30PM- Child Speakers: (Child 1 (Neclia) Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina) Simon (James), \n\n6:30PM-9:30PM- Mary (Jordyn), Caleb (Joseph)\n\n\n7:15PM-9:30PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Villager Man (Jayden), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
+        "called": "6:30PM-7:30PM- Child Speakers: Child 1 (Neclia) Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina) Simon (James),\n6:30PM-7:30PM-Dancers (Child/Youth ONLY)\n\n6:30PM-9:30PM- Mary (Jordyn), Caleb (Joseph)\n\n\n7:30PM-9:30PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Dana), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Villager Man (Jayden), Gossip Girls (Annia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -3418,7 +3418,7 @@
         "callDataVersion": 3,
         "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
         "focus": "",
-        "prep": "Virtual rehearsal because no TFC room is available. Physical journey work moves to Sept. 26 / Oct. 3. Connection details TBD.",
+        "prep": "Dancers: Work on Speaking Parts and the \"What Will He Be\" Song; Actors: Work on the script for Scenes 9& 10",
         "notice": "",
         "changeType": ""
       },
@@ -5720,7 +5720,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "02",
@@ -5734,7 +5734,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "03",
@@ -5748,7 +5748,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "04",
@@ -5762,7 +5762,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "05",
@@ -5776,7 +5776,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "06",
@@ -5790,7 +5790,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "07",
@@ -5804,7 +5804,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "08",
@@ -5818,7 +5818,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "09",
@@ -5832,7 +5832,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "10",
@@ -5846,7 +5846,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "11",
@@ -5860,7 +5860,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "12",
@@ -5874,7 +5874,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       }
     ],
     "current": [
@@ -5890,7 +5890,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "02",
@@ -5904,7 +5904,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "03",
@@ -5918,7 +5918,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "04",
@@ -5932,7 +5932,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "05",
@@ -5946,7 +5946,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "06",
@@ -5960,7 +5960,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "07",
@@ -5974,7 +5974,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "08",
@@ -5988,7 +5988,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "09",
@@ -6002,7 +6002,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "10",
@@ -6016,7 +6016,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "11",
@@ -6030,7 +6030,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       },
       {
         "scene": "12",
@@ -6044,18 +6044,18 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-22T19:36:53.655Z"
+        "updated": "2026-09-22T22:02:46.280Z"
       }
     ],
     "count": 12,
-    "updated": "2026-09-22T19:37:00.869Z",
+    "updated": "2026-09-22T22:02:55.537Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-22T19:37:00.869Z",
+    "updated": "2026-09-22T22:02:55.538Z",
     "kind": "music"
   }
 }

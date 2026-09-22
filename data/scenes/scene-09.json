@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-22T19:36:53.655Z",
-  "contentHash": "b4101366f25dfbcb15a943d6fe05bb105134560f07d417bff1d0dbcfb335ff40",
+  "sourceUpdated": "2026-09-22T22:02:46.280Z",
+  "contentHash": "3a5f71130cc2b9cfe176adeb69a34de3bcdec19c309a4885c30dc7a59fcad46a",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -697,6 +697,34 @@
     {
       "type": "stage",
       "text": "As the children repeat the bright question, a second question begins underneath them."
+    },
+    {
+      "type": "heading",
+      "text": "CHORUS 2 (Part 1)"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "What will he be? What will he be?"
+    },
+    {
+      "type": "stage",
+      "text": "When he is born, for all to see?"
+    },
+    {
+      "type": "stage",
+      "text": "Will he be different or the same?"
+    },
+    {
+      "type": "stage",
+      "text": "Will the whole world know his name?"
+    },
+    {
+      "type": "stage",
+      "text": "What will he be? What will he be?"
     },
     {
       "type": "spacer",
