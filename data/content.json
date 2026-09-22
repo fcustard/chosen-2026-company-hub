@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T11:29:49.012Z",
+  "updated": "2026-09-22T14:24:39.097Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -370,11 +370,11 @@
         "dateLabel": "September 26, 2026",
         "dayLabel": "Saturday",
         "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 9 & 10 + recovery",
+        "title": "CHOSEN Rehearsal - Scene 9 & 10 + Scene 1 review",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dancers \n10:00 AM–2:00 PM -Actors in Scenes 9 & 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n12:30-2:00pm-Scene 1 Full Company",
+        "called": "10:00 AM–2:00 PM — Dancers\n10:00 AM–1:00 PM — Actors in Scenes 9 & 10 (Mary + Friends, Joseph + Friends, Child Speakers, Child Storytellers, Gossipers, Village Parents, Roman Announcer)\n1:00 PM–2:00 PM — Scene 1 Full Company",
         "callGroups": [
           "Full Company",
           "Ensemble",
@@ -386,95 +386,11 @@
           },
           {
             "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Dana Quamina"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Fredrick Custard"
-          },
-          {
-            "displayName": "Amadeus Hills"
-          },
-          {
-            "displayName": "Gabriela Sardinas"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Victorya Champagne"
-          },
-          {
-            "displayName": "Anaia Downer"
           }
         ],
         "calledPeopleIds": [
           "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-nelcia-fosttin",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-marissa-downie",
-          "P-dana-quamina",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff",
-          "P-fredrick-custard",
-          "P-amadeus-hills",
-          "P-gabriela-sardinas",
-          "P-shanice-palmer",
-          "P-victorya-champagne",
-          "P-anaia-downer"
+          "P-caleb-davilmar"
         ],
         "calledGroups": [
           "Full Company",
@@ -741,11 +657,11 @@
         "dateLabel": "September 26, 2026",
         "dayLabel": "Saturday",
         "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 9 & 10 + recovery",
+        "title": "CHOSEN Rehearsal - Scene 9 & 10 + Scene 1 review",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dancers \n10:00 AM–2:00 PM -Actors in Scenes 9 & 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n12:30-2:00pm-Scene 1 Full Company",
+        "called": "10:00 AM–2:00 PM — Dancers\n10:00 AM–1:00 PM — Actors in Scenes 9 & 10 (Mary + Friends, Joseph + Friends, Child Speakers, Child Storytellers, Gossipers, Village Parents, Roman Announcer)\n1:00 PM–2:00 PM — Scene 1 Full Company",
         "callGroups": [
           "Full Company",
           "Ensemble",
@@ -757,27 +673,65 @@
           },
           {
             "displayName": "Caleb Davilmar"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar"
+        ],
+        "calledGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "9 blocking/choreography; recover physical Scene 10 journey work;Scene1, Review Blocking & Choreography",
+        "focus": "",
+        "prep": "Specific scene-by-scene call list will be posted before rehearsal.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20260930-REH",
+        "eventKey": "CHOSEN-20260930-REH",
+        "start": "2026-09-30T22:30:00.000Z",
+        "end": "2026-10-01T01:30:00.000Z",
+        "date": "September 30, 2026",
+        "dateIso": "2026-09-30",
+        "day": "Wednesday",
+        "dateLabel": "September 30, 2026",
+        "dayLabel": "Wednesday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 9 (Dancers Only), Scene 10 & Scene 11",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30 PM–8:30 PM — Dancers\n6:30 PM–8:00 PM — Actors in Scene 10 (Mary + Friends, Joseph + Friends, Child Speakers, Child Storytellers, Gossipers, Village Parents, Roman Announcer)\n8:00 PM–9:30 PM — Scene 11: Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
+        "callGroups": [
+          "Principals/Featured",
+          "Children/Youth",
+          "Ensemble",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
           },
           {
-            "displayName": "Nelcia Fosttin"
+            "displayName": "Caleb Davilmar"
           },
           {
-            "displayName": "Annalise Mongeois"
+            "displayName": "Kevin Hohn"
           },
           {
-            "displayName": "Ariella Davidson"
+            "displayName": "Charla-Yvonne Cornelius"
           },
           {
             "displayName": "Gelvina Maxime"
           },
           {
             "displayName": "James Myers"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Dana Quamina"
           },
           {
             "displayName": "Tasha Simeon"
@@ -804,34 +758,37 @@
             "displayName": "Chris Mcanuff"
           },
           {
-            "displayName": "Fredrick Custard"
+            "displayName": "Marissa Downie"
           },
           {
-            "displayName": "Amadeus Hills"
+            "displayName": "Dana Quamina"
           },
           {
-            "displayName": "Gabriela Sardinas"
-          },
-          {
-            "displayName": "Shanice Palmer"
+            "displayName": "Anaia Downer"
           },
           {
             "displayName": "Victorya Champagne"
           },
           {
-            "displayName": "Anaia Downer"
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Amadeus Hills"
           }
         ],
         "calledPeopleIds": [
           "P-jordyn-starks",
           "P-caleb-davilmar",
-          "P-nelcia-fosttin",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
+          "P-kevin-hohn",
+          "P-charla-yvonne-cornelius",
           "P-gelvina-maxime",
           "P-james-myers",
-          "P-marissa-downie",
-          "P-dana-quamina",
           "P-tasha-simeon",
           "P-tyfany-adaka",
           "P-jeovanie-andre",
@@ -840,66 +797,19 @@
           "P-dorrien-jones",
           "P-michael-stover",
           "P-chris-mcanuff",
-          "P-fredrick-custard",
-          "P-amadeus-hills",
-          "P-gabriela-sardinas",
-          "P-shanice-palmer",
+          "P-marissa-downie",
+          "P-dana-quamina",
+          "P-anaia-downer",
           "P-victorya-champagne",
-          "P-anaia-downer"
+          "P-shanice-palmer",
+          "P-gabriela-sardinas",
+          "P-jayden-harris",
+          "P-amadeus-hills"
         ],
         "calledGroups": [
-          "Full Company",
+          "Principals/Featured",
+          "Children/Youth",
           "Ensemble",
-          "Dancers"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "9 blocking/choreography; recover physical Scene 10 journey work;Scene1, Review Blocking & Choreography",
-        "focus": "",
-        "prep": "Specific scene-by-scene call list will be posted before rehearsal.",
-        "notice": "",
-        "changeType": ""
-      },
-      {
-        "id": "CHOSEN-20260930-REH",
-        "eventKey": "CHOSEN-20260930-REH",
-        "start": "2026-09-30T22:30:00.000Z",
-        "end": "2026-10-01T01:30:00.000Z",
-        "date": "September 30, 2026",
-        "dateIso": "2026-09-30",
-        "day": "Wednesday",
-        "dateLabel": "September 30, 2026",
-        "dayLabel": "Wednesday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 11",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — Dancers\n\n 6:30 PM- 9:30PM-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla",
-        "callGroups": [
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Charla-Yvonne Cornelius"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-kevin-hohn",
-          "P-charla-yvonne-cornelius"
-        ],
-        "calledGroups": [
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -3075,11 +2985,11 @@
         "dateLabel": "September 26, 2026",
         "dayLabel": "Saturday",
         "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 9 & 10 + recovery",
+        "title": "CHOSEN Rehearsal - Scene 9 & 10 + Scene 1 review",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dancers \n10:00 AM–2:00 PM -Actors in Scenes 9 & 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n12:30-2:00pm-Scene 1 Full Company",
+        "called": "10:00 AM–2:00 PM — Dancers\n10:00 AM–1:00 PM — Actors in Scenes 9 & 10 (Mary + Friends, Joseph + Friends, Child Speakers, Child Storytellers, Gossipers, Village Parents, Roman Announcer)\n1:00 PM–2:00 PM — Scene 1 Full Company",
         "callGroups": [
           "Full Company",
           "Ensemble",
@@ -3091,27 +3001,65 @@
           },
           {
             "displayName": "Caleb Davilmar"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar"
+        ],
+        "calledGroups": [
+          "Full Company",
+          "Ensemble",
+          "Dancers"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "9 blocking/choreography; recover physical Scene 10 journey work;Scene1, Review Blocking & Choreography",
+        "focus": "",
+        "prep": "Specific scene-by-scene call list will be posted before rehearsal.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20260930-REH",
+        "eventKey": "CHOSEN-20260930-REH",
+        "start": "2026-09-30T22:30:00.000Z",
+        "end": "2026-10-01T01:30:00.000Z",
+        "date": "September 30, 2026",
+        "dateIso": "2026-09-30",
+        "day": "Wednesday",
+        "dateLabel": "September 30, 2026",
+        "dayLabel": "Wednesday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 9 (Dancers Only), Scene 10 & Scene 11",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30 PM–8:30 PM — Dancers\n6:30 PM–8:00 PM — Actors in Scene 10 (Mary + Friends, Joseph + Friends, Child Speakers, Child Storytellers, Gossipers, Village Parents, Roman Announcer)\n8:00 PM–9:30 PM — Scene 11: Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
+        "callGroups": [
+          "Principals/Featured",
+          "Children/Youth",
+          "Ensemble",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
           },
           {
-            "displayName": "Nelcia Fosttin"
+            "displayName": "Caleb Davilmar"
           },
           {
-            "displayName": "Annalise Mongeois"
+            "displayName": "Kevin Hohn"
           },
           {
-            "displayName": "Ariella Davidson"
+            "displayName": "Charla-Yvonne Cornelius"
           },
           {
             "displayName": "Gelvina Maxime"
           },
           {
             "displayName": "James Myers"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Dana Quamina"
           },
           {
             "displayName": "Tasha Simeon"
@@ -3138,34 +3086,37 @@
             "displayName": "Chris Mcanuff"
           },
           {
-            "displayName": "Fredrick Custard"
+            "displayName": "Marissa Downie"
           },
           {
-            "displayName": "Amadeus Hills"
+            "displayName": "Dana Quamina"
           },
           {
-            "displayName": "Gabriela Sardinas"
-          },
-          {
-            "displayName": "Shanice Palmer"
+            "displayName": "Anaia Downer"
           },
           {
             "displayName": "Victorya Champagne"
           },
           {
-            "displayName": "Anaia Downer"
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Amadeus Hills"
           }
         ],
         "calledPeopleIds": [
           "P-jordyn-starks",
           "P-caleb-davilmar",
-          "P-nelcia-fosttin",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
+          "P-kevin-hohn",
+          "P-charla-yvonne-cornelius",
           "P-gelvina-maxime",
           "P-james-myers",
-          "P-marissa-downie",
-          "P-dana-quamina",
           "P-tasha-simeon",
           "P-tyfany-adaka",
           "P-jeovanie-andre",
@@ -3174,66 +3125,19 @@
           "P-dorrien-jones",
           "P-michael-stover",
           "P-chris-mcanuff",
-          "P-fredrick-custard",
-          "P-amadeus-hills",
-          "P-gabriela-sardinas",
-          "P-shanice-palmer",
+          "P-marissa-downie",
+          "P-dana-quamina",
+          "P-anaia-downer",
           "P-victorya-champagne",
-          "P-anaia-downer"
+          "P-shanice-palmer",
+          "P-gabriela-sardinas",
+          "P-jayden-harris",
+          "P-amadeus-hills"
         ],
         "calledGroups": [
-          "Full Company",
+          "Principals/Featured",
+          "Children/Youth",
           "Ensemble",
-          "Dancers"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "9 blocking/choreography; recover physical Scene 10 journey work;Scene1, Review Blocking & Choreography",
-        "focus": "",
-        "prep": "Specific scene-by-scene call list will be posted before rehearsal.",
-        "notice": "",
-        "changeType": ""
-      },
-      {
-        "id": "CHOSEN-20260930-REH",
-        "eventKey": "CHOSEN-20260930-REH",
-        "start": "2026-09-30T22:30:00.000Z",
-        "end": "2026-10-01T01:30:00.000Z",
-        "date": "September 30, 2026",
-        "dateIso": "2026-09-30",
-        "day": "Wednesday",
-        "dateLabel": "September 30, 2026",
-        "dayLabel": "Wednesday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 11",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — Dancers\n\n 6:30 PM- 9:30PM-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla",
-        "callGroups": [
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Charla-Yvonne Cornelius"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-kevin-hohn",
-          "P-charla-yvonne-cornelius"
-        ],
-        "calledGroups": [
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -5165,7 +5069,7 @@
       {
         "id": "children-youth",
         "name": "Children/Youth",
-        "count": 6
+        "count": 8
       },
       {
         "id": "crew-tech",
@@ -5180,7 +5084,7 @@
       {
         "id": "ensemble",
         "name": "Ensemble",
-        "count": 20
+        "count": 22
       },
       {
         "id": "full-company",
@@ -5190,7 +5094,7 @@
       {
         "id": "principals-featured",
         "name": "Principals/Featured",
-        "count": 14
+        "count": 16
       }
     ],
     "count": 38,
@@ -5210,7 +5114,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "02",
@@ -5224,7 +5128,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "03",
@@ -5238,7 +5142,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "04",
@@ -5252,7 +5156,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "05",
@@ -5266,7 +5170,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "06",
@@ -5280,7 +5184,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "07",
@@ -5294,7 +5198,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "08",
@@ -5308,7 +5212,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "09",
@@ -5322,7 +5226,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "10",
@@ -5336,7 +5240,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "11",
@@ -5350,7 +5254,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "12",
@@ -5364,7 +5268,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       }
     ],
     "current": [
@@ -5380,7 +5284,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "02",
@@ -5394,7 +5298,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "03",
@@ -5408,7 +5312,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "04",
@@ -5422,7 +5326,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "05",
@@ -5436,7 +5340,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "06",
@@ -5450,7 +5354,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "07",
@@ -5464,7 +5368,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "08",
@@ -5478,7 +5382,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "09",
@@ -5492,7 +5396,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "10",
@@ -5506,7 +5410,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "11",
@@ -5520,7 +5424,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       },
       {
         "scene": "12",
@@ -5534,18 +5438,18 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-22T11:29:28.325Z"
+        "updated": "2026-09-22T14:24:16.405Z"
       }
     ],
     "count": 12,
-    "updated": "2026-09-22T11:29:49.012Z",
+    "updated": "2026-09-22T14:24:39.098Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-    "updated": "2026-09-22T11:29:49.012Z",
+    "updated": "2026-09-22T14:24:39.098Z",
     "kind": "music"
   }
 }
