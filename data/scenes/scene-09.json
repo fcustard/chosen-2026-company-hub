@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-23T21:41:23.541Z",
-  "contentHash": "34570ea3a8926001fd02373473b4ff4ab10e9969dcbabe06c168ecc399e28a21",
+  "sourceUpdated": "2026-09-23T22:39:13.073Z",
+  "contentHash": "7ce917c5a369acee5f2eead28d277c29bb91b71415224246145eda2944da556a",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -691,12 +691,20 @@
       "text": "I hope."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "character",
       "text": "CHILD 1"
     },
     {
       "type": "dialogue",
       "text": "Will you teach him everything?"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "stage",
@@ -715,8 +723,12 @@
       "text": "Everything I know."
     },
     {
+      "type": "character",
+      "text": "CHILD 1"
+    },
+    {
       "type": "dialogue",
-      "text": "CHILD 1: That’s Good!"
+      "text": "That’s Good!"
     },
     {
       "type": "spacer",
@@ -771,10 +783,6 @@
       "text": "What will he be? What will he be?"
     },
     {
-      "type": "spacer",
-      "text": ""
-    },
-    {
       "type": "heading",
       "text": "CHORUS 2 (Part 2)"
     },
@@ -789,6 +797,10 @@
     {
       "type": "stage",
       "text": "What will he be?"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "character",
