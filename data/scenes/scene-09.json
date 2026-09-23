@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-23T05:11:59.914Z",
-  "contentHash": "3a5f71130cc2b9cfe176adeb69a34de3bcdec19c309a4885c30dc7a59fcad46a",
+  "sourceUpdated": "2026-09-23T07:39:55.239Z",
+  "contentHash": "16df38bc6693a5a674a44faa584f9dba003d17ec4d6b6cd2d9640c4f1e116c15",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -551,12 +551,64 @@
       "text": ""
     },
     {
-      "type": "stage",
-      "text": "INTRO: Will he laugh too loud? / Will he sleep all day? / Will he race through every market stall / and leave his things in everybody’s way?"
+      "type": "heading",
+      "text": "INTRO"
     },
     {
-      "type": "stage",
-      "text": "Will he love stories? / Will he climb trees? / Will he ask a hundred questions / before anyone can breathe?"
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "character",
+      "text": "CHILD 3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Will he laugh too loud? / Will he sleep all day?"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "character",
+      "text": "CHILD 1"
+    },
+    {
+      "type": "dialogue",
+      "text": "Will he race through every market stall / and leave his things in everybody’s way?"
+    },
+    {
+      "type": "character",
+      "text": "CHILD 2"
+    },
+    {
+      "type": "dialogue",
+      "text": "Will he love stories?"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "character",
+      "text": "SIMON"
+    },
+    {
+      "type": "dialogue",
+      "text": "Will he climb trees?"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "character",
+      "text": "NIA"
+    },
+    {
+      "type": "dialogue",
+      "text": "Will he ask a hundred questions / before anyone can breathe?"
     },
     {
       "type": "heading",
@@ -588,7 +640,7 @@
     },
     {
       "type": "heading",
-      "text": "Verse 1"
+      "text": "VERSE 1"
     },
     {
       "type": "character",
@@ -643,6 +695,10 @@
       "text": "Joseph looks at the child, then at Mary."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "character",
       "text": "JOSEPH"
     },
@@ -677,26 +733,6 @@
     {
       "type": "stage",
       "text": "Will he laugh and scream and shout?"
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "stage",
-      "text": "The audience knows more than the children do. That is where the emotion comes from."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE SECOND QUESTION"
-    },
-    {
-      "type": "stage",
-      "text": "As the children repeat the bright question, a second question begins underneath them."
     },
     {
       "type": "heading",
@@ -779,16 +815,8 @@
       "text": "When he is born, for all to see?"
     },
     {
-      "type": "stage",
-      "text": "Will he be different or the same?"
-    },
-    {
-      "type": "stage",
-      "text": "Will the whole world know his name?"
-    },
-    {
-      "type": "stage",
-      "text": "What will he be?"
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "character",
@@ -796,11 +824,23 @@
     },
     {
       "type": "dialogue",
-      "text": "Joseph knows?"
+      "text": "Does Joseph know?"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
       "text": "CHILDREN"
+    },
+    {
+      "type": "stage",
+      "text": "Will he be different or the same?"
+    },
+    {
+      "type": "stage",
+      "text": "Will the whole world know his name?"
     },
     {
       "type": "stage",
@@ -815,12 +855,16 @@
       "text": "Of course, he knows."
     },
     {
-      "type": "spacer",
-      "text": ""
+      "type": "heading",
+      "text": "CHILDREN"
     },
     {
-      "type": "heading",
-      "text": "Dance Break: Children Dance"
+      "type": "stage",
+      "text": "What will he be?"
+    },
+    {
+      "type": "stage",
+      "text": "*Dance Break: Children Dance*"
     },
     {
       "type": "spacer",
@@ -884,7 +928,7 @@
     },
     {
       "type": "dialogue",
-      "text": "¿Un ángel?"
+      "text": "An Angel?!"
     },
     {
       "type": "heading",
@@ -932,7 +976,7 @@
     },
     {
       "type": "dialogue",
-      "text": "Eso es lo que escuchaste."
+      "text": "Ay Dios Mio! (eye roll)"
     },
     {
       "type": "heading",
@@ -964,7 +1008,7 @@
     },
     {
       "type": "dialogue",
-      "text": "Nia. Come here."
+      "text": "Nia. Come here!"
     },
     {
       "type": "character",

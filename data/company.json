@@ -2,7 +2,7 @@
   "ok": true,
   "schemaVersion": 1,
   "source": "CHOSEN 2026 Admin Master Sheets",
-  "generatedAt": "2026-09-23T05:12:09.193Z",
+  "generatedAt": "2026-09-23T07:40:03.046Z",
   "people": [
     {
       "id": "P-abi",
@@ -38,7 +38,7 @@
       "id": "P-alexandria-platt",
       "name": "Alexandria Platt",
       "companyType": "Performer",
-      "primaryAssignment": "CHILD 3/ DANCER/ ENSEMBLE",
+      "primaryAssignment": "DANCER/ ENSEMBLE",
       "departments": [
         "Cast"
       ],
@@ -47,7 +47,7 @@
         "Ensemble",
         "Children/Youth"
       ],
-      "roles": "CHILD 3/ DANCER/ ENSEMBLE",
+      "roles": "DANCER/ ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -333,7 +333,7 @@
       "id": "P-annalise-mongeois",
       "name": "Annalise Mongeois",
       "companyType": "Performer",
-      "primaryAssignment": "CHILD 1/DANCER/ ENSEMBLE",
+      "primaryAssignment": "CHILD 2/DANCER/ ENSEMBLE",
       "departments": [
         "Cast"
       ],
@@ -342,7 +342,7 @@
         "Ensemble",
         "Children/Youth"
       ],
-      "roles": "CHILD 1/DANCER/ ENSEMBLE",
+      "roles": "CHILD 2/DANCER/ ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -417,7 +417,7 @@
       "id": "P-ariella-davidson",
       "name": "Ariella Davidson",
       "companyType": "Performer",
-      "primaryAssignment": "CHILD 2/ DANCER/ ENSEMBLE",
+      "primaryAssignment": "CHILD 1/ DANCER/ ENSEMBLE",
       "departments": [
         "Cast"
       ],
@@ -426,7 +426,7 @@
         "Ensemble",
         "Children/Youth"
       ],
-      "roles": "CHILD 2/ DANCER/ ENSEMBLE",
+      "roles": "CHILD 1/ DANCER/ ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -1166,14 +1166,14 @@
       "id": "P-etta-wright",
       "name": "Etta Wright",
       "companyType": "Performer",
-      "primaryAssignment": "MERCHANT 1/ VILLAGER WOMAN 3 /ENSEMBLE",
+      "primaryAssignment": "MERCHANT 1 / VILLAGER WOMAN 3 / ENSEMBLE",
       "departments": [
         "Cast"
       ],
       "groups": [
         "Ensemble"
       ],
-      "roles": "MERCHANT 1/ VILLAGER WOMAN 3 /ENSEMBLE",
+      "roles": "MERCHANT 1 / VILLAGER WOMAN 3 / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -2121,14 +2121,14 @@
       "id": "P-shanice-palmer",
       "name": "Shanice Palmer",
       "companyType": "Performer",
-      "primaryAssignment": "GOSSIPER 2 /Understudy for Shira",
+      "primaryAssignment": "MERCHANT 1/GOSSIPER 2 /Understudy for Shira",
       "departments": [
         "Cast"
       ],
       "groups": [
         "Principals/Featured"
       ],
-      "roles": "GOSSIPER 2 /Understudy for Shira",
+      "roles": "MERCHANT 1/GOSSIPER 2 /Understudy for Shira",
       "scenes": [
         1,
         4,
@@ -2344,36 +2344,6 @@
           "scope": "1,9,10,11,12",
           "callGroups": [
             "Principals/Featured"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "P-zania",
-      "name": "Zania",
-      "companyType": "Production",
-      "primaryAssignment": "Wardrobe, Production Assistant",
-      "departments": [
-        "Administration"
-      ],
-      "groups": [
-        "Administration",
-        "Crew/Tech"
-      ],
-      "roles": "",
-      "scenes": [],
-      "understudy": null,
-      "danceEnsemble": false,
-      "reviewStatus": "READY",
-      "assignments": [
-        {
-          "personId": "P-zania",
-          "type": "Production Department",
-          "department": "Administration",
-          "assignment": "Wardrobe, Production Assistant",
-          "scope": "",
-          "callGroups": [
-            "Administration"
           ]
         }
       ]
