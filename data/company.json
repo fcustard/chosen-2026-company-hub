@@ -2,7 +2,7 @@
   "ok": true,
   "schemaVersion": 1,
   "source": "CHOSEN 2026 Admin Master Sheets",
-  "generatedAt": "2026-09-23T14:25:23.650Z",
+  "generatedAt": "2026-09-23T16:49:36.162Z",
   "people": [
     {
       "id": "P-abi",
@@ -2049,6 +2049,32 @@
           ]
         }
       ]
+    },
+    {
+      "id": "P-rodney-jean",
+      "name": "Rodney Jean",
+      "companyType": "Performer",
+      "primaryAssignment": "VILLAGER MAN 2/ DANCER/ Understudy for Shepherd 2",
+      "departments": [
+        "Cast"
+      ],
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Principals/Featured"
+      ],
+      "roles": "VILLAGER MAN 2/ DANCER/ Understudy for Shepherd 2",
+      "scenes": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": true,
+      "reviewStatus": "READY",
+      "assignments": []
     },
     {
       "id": "P-sanaa",
