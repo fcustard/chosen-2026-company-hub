@@ -39,6 +39,13 @@ function compactPreview(value, maxLength = 900) {
     .slice(0, maxLength);
 }
 
+function workflowCommandValue(value) {
+  return String(value ?? '')
+    .replace(/%/g, '%25')
+    .replace(/\r/g, '%0D')
+    .replace(/\n/g, '%0A');
+}
+
 function makeExactCallsUrl() {
   const url = new URL(configured);
   url.searchParams.set('feed', 'hub-v2');
@@ -318,22 +325,29 @@ for (let i = 0; i < attempts.length; i += 1) {
 
 if (!rehearsals) {
   const hasExisting = await existingRehearsalsLookUsable();
+  const failureMessage = lastError?.message || 'unknown error';
 
   console.error(
-    `EXACT CALLS SYNC ERROR: ${lastError?.message || 'unknown error'}.`
+    `::error title=CHOSEN Master Calendar feed rejected::` +
+    workflowCommandValue(failureMessage)
+  );
+
+  console.error(
+    `EXACT CALLS SYNC FAILED: ${failureMessage}.`
   );
 
   if (hasExisting) {
-    console.warn(
+    console.error(
       `Existing Hub rehearsal data was NOT changed. ` +
-      `Continuing with last known-good ${FINAL_PATH} so the live Hub is not broken.`
+      `The last known-good ${FINAL_PATH} was preserved, but this workflow is ` +
+      `failing so stale calendar data cannot be published silently.`
     );
-    process.exit(0);
+  } else {
+    console.error(
+      `No usable existing ${FINAL_PATH} was found, so the build cannot continue safely.`
+    );
   }
 
-  console.error(
-    `No usable existing ${FINAL_PATH} was found, so the build cannot continue safely.`
-  );
   process.exit(1);
 }
 

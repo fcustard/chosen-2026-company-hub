@@ -70,9 +70,26 @@ jobs:
         run: echo "SCRIPT_DOC_FEED_URL is not configured. Skipping script scene sync and continuing with existing script files."
 
       - name: Sync exact rehearsal calls from Master Calendar
+        id: calendar_sync
+        timeout-minutes: 3
         env:
           CALENDAR_FEED_URL: ${{ vars.CALENDAR_FEED_URL }}
         run: node tools/sync-exact-calls.mjs
+
+      - name: Report rejected Master Calendar feed
+        if: ${{ failure() && steps.calendar_sync.outcome == 'failure' }}
+        run: |
+          echo "::error title=CHOSEN Hub calendar update stopped::The feed=hub-v2 response was rejected. Existing rehearsal data was preserved, and no stale-data publish was allowed."
+          {
+            echo "## Master Calendar feed rejected"
+            echo
+            echo "The \`feed=hub-v2\` endpoint returned HTML, invalid JSON, an HTTP error, or data that failed schema validation."
+            echo
+            echo "- The existing \`data/rehearsals.json\` file was preserved."
+            echo "- The build and publish steps were stopped."
+            echo "- Review the **Sync exact rehearsal calls from Master Calendar** log for the precise response error."
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 1
 
       - name: Sync company people and assignments from Admin Master Sheets
         env:
