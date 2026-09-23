@@ -2,10 +2,10 @@
   {
     "title": "Welcome to Nazareth",
     "type": "Opening Number",
-    "status": "Track in development",
-    "approved": false,
-    "companyPublish": false,
-    "playUrl": "#",
+    "status": "Current rehearsal track",
+    "approved": true,
+    "companyPublish": true,
+    "playUrl": "https://drive.google.com/file/d/1PVbEMUPENMAUHJw26VyhIxe_K1HkaT4I/view?usp=drivesdk",
     "lyricsUrl": "#"
   },
   {
@@ -56,10 +56,10 @@
   {
     "title": "What Will He Be?",
     "type": "Children / Company",
-    "status": "Track in development",
-    "approved": false,
-    "companyPublish": false,
-    "playUrl": "#",
+    "status": "Current rehearsal track",
+    "approved": true,
+    "companyPublish": true,
+    "playUrl": "https://drive.google.com/file/d/1SBylb4IVEFIoVQvBXtksT8KthYhBYIlZ/view?usp=drivesdk",
     "lyricsUrl": "#"
   },
   {
