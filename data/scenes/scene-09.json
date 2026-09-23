@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-23T22:42:31.964Z",
-  "contentHash": "b6e7ca647d270680d0f9ef093b8f9a05aaffa0e24533bcc26b1c76e5c44b99eb",
+  "sourceUpdated": "2026-09-23T23:03:06.559Z",
+  "contentHash": "ef1eef912d1d69bcffacbd756f4ef5f5f8955cb2e076691428e6717bb8be51bd",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -1025,6 +1025,10 @@
     {
       "type": "stage",
       "text": "The children finish joyfully."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
