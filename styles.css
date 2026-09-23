@@ -474,3 +474,15 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
   .dateMonth{font-size:.68rem !important}
   .dateDay{font-size:1.8rem !important}
 }
+
+/* ===== CHOSEN MUSIC PLAYER ===== */
+.track-player{
+  display:block;
+  width:100%;
+  max-width:520px;
+  margin-top:12px;
+  accent-color:var(--n);
+}
+@media(max-width:650px){
+  .track-player{max-width:none}
+}

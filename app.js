@@ -571,10 +571,21 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <p>
                       ${esc(x.type || 'Music')} · ${esc(x.status || 'Current')}
                     </p>
+                    ${(x.playUrl || x.url) && (x.playUrl || x.url) !== '#'
+                      ? `<audio
+                           class="track-player"
+                           controls
+                           preload="metadata"
+                           src="${esc(x.playUrl || x.url)}"
+                           aria-label="Play ${esc(x.title || x.name || 'rehearsal track')}"
+                         >
+                           Your browser does not support audio playback.
+                         </audio>`
+                      : ''}
                   </div>
 
                   <div class="actions">
-                    ${btn('Play', x.playUrl || x.url, 'primary')}
+                    ${btn('Open audio', x.playUrl || x.url, 'primary')}
                     ${btn('Lyrics', x.lyricsUrl)}
                   </div>
                 </article>
