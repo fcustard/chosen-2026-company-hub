@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-23T01:27:13.975Z",
-  "contentHash": "4c2a215975cc0c62e2bee7a810a2f737c685e7238fa33f39404e266551a4d3dd",
+  "sourceUpdated": "2026-09-23T02:20:50.124Z",
+  "contentHash": "0d28527c126b0cb80c98231240f7558ba6b4e2a84f6c1c7439ff5c3b19015cfa",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -383,75 +383,75 @@
       "text": "The marketplace is moving rapidly. A MERCHANT sees a MAN approaching."
     },
     {
-      "type": "character",
-      "text": "MERCHANT 1"
+      "type": "heading",
+      "text": "MERCHANT-1"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Hello! Your usual?"
     },
     {
-      "type": "character",
-      "text": "CUSTOMER"
+      "type": "heading",
+      "text": "CUSTOMER-1"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Actually, today I thought—"
     },
     {
-      "type": "character",
-      "text": "MERCHANT 1"
+      "type": "heading",
+      "text": "MERCHANT-1"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Your wife already came by."
     },
     {
-      "type": "character",
-      "text": "CUSTOMER 1"
+      "type": "heading",
+      "text": "CUSTOMER-1"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "She did?"
     },
     {
-      "type": "character",
-      "text": "MERCHANT 1"
+      "type": "heading",
+      "text": "MERCHANT-1"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "She said, “Don’t sell him anything we don’t need.”"
     },
     {
-      "type": "character",
-      "text": "CUSTOMER 1"
+      "type": "heading",
+      "text": "CUSTOMER-1"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "She’s not even here."
     },
     {
-      "type": "character",
-      "text": "GOSSIPER 2"
+      "type": "heading",
+      "text": "GOSSIPER-2"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "She doesn’t need to be."
     },
     {
-      "type": "character",
-      "text": "CUSTOMER 1"
+      "type": "heading",
+      "text": "CUSTOMER-1"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "I don’t even know what I’m buying."
     },
     {
-      "type": "character",
-      "text": "MERCHANT 1"
+      "type": "heading",
+      "text": "MERCHANT-1"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "We’ll tell you when we hear."
     },
     {
@@ -475,59 +475,59 @@
       "text": "A WOMAN examines an item at a merchant's stall."
     },
     {
-      "type": "character",
-      "text": "WOMAN CUSTOMER 1"
+      "type": "heading",
+      "text": "WOMAN CUSTOMER-1"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "How much?"
     },
     {
-      "type": "character",
-      "text": "MERCHANT 2"
+      "type": "heading",
+      "text": "MERCHANT-2"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Three."
     },
     {
-      "type": "character",
-      "text": "WOMAN CUSTOMER 1"
+      "type": "heading",
+      "text": "WOMAN CUSTOMER-1"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Two."
     },
     {
-      "type": "character",
-      "text": "WOMAN CUSTOMER 1"
+      "type": "heading",
+      "text": "WOMAN CUSTOMER-1"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Two—and I tell everybody you're generous."
     },
     {
-      "type": "character",
-      "text": "MERCHANT 2"
+      "type": "heading",
+      "text": "MERCHANT-2"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Three—and you tell nobody anything."
     },
     {
-      "type": "character",
-      "text": "GOSSIPER 4"
+      "type": "heading",
+      "text": "GOSSIPER-4"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Too late. I heard two."
     },
     {
-      "type": "character",
-      "text": "MERCHANT 2"
+      "type": "heading",
+      "text": "MERCHANT-2"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "I haven't sold it yet!"
     },
     {
@@ -543,19 +543,19 @@
       "text": "Everyone moves."
     },
     {
-      "type": "character",
-      "text": "MERCHANT 2"
+      "type": "heading",
+      "text": "MERCHANT-2"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "I need a different village."
     },
     {
-      "type": "character",
-      "text": "WOMAN CUSTOMER 1"
+      "type": "heading",
+      "text": "WOMAN CUSTOMER-1"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "They'd hear about you there too."
     },
     {
