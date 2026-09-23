@@ -34,7 +34,9 @@ permissions:
 
 concurrency:
   group: chosen-hub-automation
-  cancel-in-progress: false
+  # Only one publisher may generate or push Hub files at a time. A newer run
+  # replaces an older run so two builds cannot merge generated output.
+  cancel-in-progress: true
 
 jobs:
   validate-and-build:
@@ -54,6 +56,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+
+      - name: Refresh main before generation
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
 
       - name: Require Master Script feed for direct script publish
         if: ${{ github.event_name == 'repository_dispatch' && env.SCRIPT_DOC_FEED_URL == '' }}
@@ -121,12 +128,48 @@ jobs:
       - name: Build scene readers, resources, and Hub content
         run: npm run build
 
+      - name: Reject unresolved Git conflict markers
+        run: |
+          if git grep -n -E '^(<{7}|={7}|>{7})( |$)' -- .; then
+            echo "::error title=Unresolved Git conflict markers::Generated Hub files contain unresolved merge markers. Publishing has been stopped."
+            exit 1
+          fi
+
+      - name: Parse every JSON file before publishing
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          const { execFileSync } = require('node:child_process');
+
+          const files = execFileSync('git', ['ls-files', '*.json'], {
+            encoding: 'utf8'
+          })
+            .split(/\r?\n/)
+            .filter(Boolean);
+
+          const failures = [];
+
+          for (const file of files) {
+            try {
+              JSON.parse(fs.readFileSync(file, 'utf8'));
+            } catch (error) {
+              failures.push(`${file}: ${error.message}`);
+            }
+          }
+
+          if (failures.length) {
+            console.error('Invalid JSON detected:\n' + failures.join('\n'));
+            process.exit(1);
+          }
+
+          console.log(`Parsed ${files.length} JSON files successfully.`);
+          NODE
+
       - name: Publish generated website files
         run: |
           git config user.name "CHOSEN Hub Automation"
           git config user.email "actions@users.noreply.github.com"
-
-          git pull --rebase --autostash origin main
 
           git add data/rehearsals.json || true
           git add data/company.json || true
