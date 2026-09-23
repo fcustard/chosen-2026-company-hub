@@ -2,7 +2,11 @@
   "ok": true,
   "schemaVersion": 1,
   "source": "CHOSEN 2026 Admin Master Sheets",
+<<<<<<< Updated upstream
   "generatedAt": "2026-09-23T01:21:22.617Z",
+=======
+  "generatedAt": "2026-09-23T01:27:22.642Z",
+>>>>>>> Stashed changes
   "people": [
     {
       "id": "P-abi",
