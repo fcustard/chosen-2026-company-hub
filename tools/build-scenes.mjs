@@ -90,6 +90,33 @@ const KNOWN_SPEAKERS = new Set([
   "JOSEPH'S FRIENDS"
 ]);
 
+/*
+ * Speaker cues that the Google Docs importer currently emits as headings,
+ * with their following dialogue emitted as a stage direction. Keep this
+ * deliberately narrower than KNOWN_SPEAKERS so real section headings such as
+ * "MARY'S FRIENDS" remain headings.
+ */
+const HEADING_SPEAKERS = new Set([
+  "ELI",
+  "INNKEEPER ELI",
+  "MERCHANT 1",
+  "MERCHANT 2",
+  "CUSTOMER 1",
+  "WOMAN CUSTOMER 1",
+  "GOSSIPER 2",
+  "GOSSIPER 4",
+  "GOSSIPER 1 & 2",
+  "ALL",
+  "MEN",
+  "CHILDREN",
+  "VILLAGER WOMAN 3",
+  "VILLAGER 1",
+  "VILLAGER 2",
+  "VILLAGER 3",
+  "VOICE",
+  "NIA & SIMON"
+]);
+
 const NON_SPEAKER_ALL_CAPS = new Set([
   "CHOSEN",
   "CHOSEN: THE STORY BEFORE THE MANGER",
@@ -194,6 +221,13 @@ function stripSpeakerPunctuation(value = "") {
     .trim();
 }
 
+function normalizeSpeakerLabel(value = "") {
+  return normalizeCaps(stripSpeakerPunctuation(value))
+    .replace(/([A-Z])[-–—]+(?=\d+\b)/g, "$1 ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function isMostlyAllCaps(value = "") {
   const text = cleanText(value);
 
@@ -213,9 +247,13 @@ function isMostlyAllCaps(value = "") {
 }
 
 function isKnownSpeaker(value = "") {
-  const normalized = normalizeCaps(stripSpeakerPunctuation(value));
+  const normalized = normalizeSpeakerLabel(value);
 
   return KNOWN_SPEAKERS.has(normalized);
+}
+
+function isKnownHeadingSpeaker(value = "") {
+  return HEADING_SPEAKERS.has(normalizeSpeakerLabel(value));
 }
 
 function isNonSpeakerAllCaps(value = "") {
@@ -299,7 +337,7 @@ function splitInlineSpeakerCue(rawText = "") {
 }
 
 function renderCharacterCue(text) {
-  return `<p class="character">${escapeHtml(normalizeCaps(text))}</p>`;
+  return `<p class="character">${escapeHtml(normalizeSpeakerLabel(text))}</p>`;
 }
 
 function renderDialogue(text) {
@@ -364,7 +402,7 @@ function renderBlock(block, index = 0, blocks = []) {
 
   switch (type) {
     case "heading":
-      if (isKnownSpeaker(text)) {
+      if (isKnownHeadingSpeaker(text)) {
         return renderCharacterCue(text);
       }
 
@@ -390,7 +428,7 @@ function renderBlock(block, index = 0, blocks = []) {
        */
       if (
         cleanText(blocks[index - 1]?.type).toLowerCase() === "heading" &&
-        isKnownSpeaker(blocks[index - 1]?.text)
+        isKnownHeadingSpeaker(blocks[index - 1]?.text)
       ) {
         return renderDialogue(text);
       }
@@ -425,6 +463,50 @@ function renderBlock(block, index = 0, blocks = []) {
       }
 
       return renderPossiblyInlineSpeaker(text, renderPlain);
+    }
+  }
+}
+
+function validateRendererContracts() {
+  const cases = [
+    {
+      label: "numbered character cue",
+      actual: renderBlock({ type: "character", text: "SHEPHERD 1" }),
+      expected: '<p class="character">SHEPHERD 1</p>'
+    },
+    {
+      label: "hyphenated imported character cue",
+      actual: renderBlock(
+        { type: "heading", text: "MERCHANT-1" },
+        0,
+        [{ type: "heading", text: "MERCHANT-1" }]
+      ),
+      expected: '<p class="character">MERCHANT 1</p>'
+    },
+    {
+      label: "imported dialogue following a speaker heading",
+      actual: renderBlock(
+        { type: "stage", text: "Hello!" },
+        1,
+        [
+          { type: "heading", text: "MERCHANT-1" },
+          { type: "stage", text: "Hello!" }
+        ]
+      ),
+      expected: '<p class="dialogue">Hello!</p>'
+    },
+    {
+      label: "true section heading",
+      actual: renderBlock({ type: "heading", text: "MARY'S FRIENDS" }),
+      expected: '<h3 class="scriptHeading">MARY&#039;S FRIENDS</h3>'
+    }
+  ];
+
+  for (const testCase of cases) {
+    if (testCase.actual !== testCase.expected) {
+      fail(
+        `Scene renderer regression (${testCase.label}). Expected ${testCase.expected}, received ${testCase.actual}.`
+      );
     }
   }
 }
@@ -762,6 +844,8 @@ ${content}
 </html>
 `;
 }
+
+validateRendererContracts();
 
 const scripts = readJson(SCRIPTS_FILE);
 
