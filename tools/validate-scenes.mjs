@@ -26,6 +26,47 @@ function normalizeSceneNumber(value) {
   return String(value).padStart(2, "0");
 }
 
+function cleanCharacterCue(value) {
+  return String(value ?? "")
+    .replace(/\u00a0/g, " ")
+    .replace(/[ \t]+/g, " ")
+    .trim();
+}
+
+function validateCharacterCues(scene, fileName) {
+  for (const [index, block] of scene.blocks.entries()) {
+    if (String(block?.type || "").trim().toLowerCase() !== "character") {
+      continue;
+    }
+
+    const cue = cleanCharacterCue(
+      block.text ||
+      block.content ||
+      block.line ||
+      block.speaker ||
+      block.character ||
+      block.name ||
+      ""
+    );
+
+    if (!cue) {
+      fail(`${fileName} block ${index + 1} has an empty character cue.`);
+    }
+
+    if (/\r|\n/.test(cue)) {
+      fail(
+        `${fileName} block ${index + 1} splits character cue "${cue}" across multiple lines.`
+      );
+    }
+
+    if (!/[A-Za-z]/.test(cue) || !/^[A-Za-z0-9 &'’.\/\-–—]+$/.test(cue)) {
+      fail(
+        `${fileName} block ${index + 1} contains a malformed character cue: "${cue}".`
+      );
+    }
+  }
+}
+
 const scripts = readJson(SCRIPTS_FILE);
 
 if (!Array.isArray(scripts)) {
@@ -67,6 +108,8 @@ for (const fileName of sceneFiles) {
   if (!Array.isArray(scene.blocks)) {
     fail(`${fileName} must contain a "blocks" array.`);
   }
+
+  validateCharacterCues(scene, fileName);
 
   const manifest = scripts.find(
     (item) => normalizeSceneNumber(item.scene) === sceneNumber

@@ -27,6 +27,8 @@ const KNOWN_SPEAKERS = new Set([
   "ROMAN",
   "ROMAN ANNOUNCER",
   "ANNOUNCER",
+  "ELI",
+  "INNKEEPER ELI",
   "KEEPER",
   "INNKEEPER",
   "INNKEEPER 1",
@@ -40,16 +42,26 @@ const KNOWN_SPEAKERS = new Set([
   "CHILD 1",
   "CHILD 2",
   "CHILD 3",
+  "CHILDREN",
+  "CHILD STORYTELLERS",
   "SHEPHERD",
   "SHEPHERD 1",
   "SHEPHERD 2",
   "SHEPHERD 3",
   "YOUNG SHEPHERD",
   "ANGEL",
+  "ANGEL VOICE",
   "ANGELS",
   "WISE MAN",
   "WISE MEN",
   "VILLAGER",
+  "VILLAGER 1",
+  "VILLAGER 2",
+  "VILLAGER 3",
+  "VILLAGER MAN",
+  "VILLAGER WOMAN 1",
+  "VILLAGER WOMAN 2",
+  "VILLAGER WOMAN 3",
   "VILLAGERS",
   "MERCHANT",
   "MERCHANT 1",
@@ -62,11 +74,18 @@ const KNOWN_SPEAKERS = new Set([
   "GOSSIPER 2",
   "GOSSIPER 3",
   "GOSSIPER 4",
+  "GOSSIPER 1 & 2",
   "GOSSIP GIRLS",
+  "WOMAN CUSTOMER 1",
+  "VOICE",
+  "MEN",
+  "ALL",
   "COMPANY",
   "ENSEMBLE",
   "DANCERS",
   "FRIENDS",
+  "MARY & JOSEPH",
+  "NIA & SIMON",
   "MARY'S FRIENDS",
   "JOSEPH'S FRIENDS"
 ]);
@@ -317,7 +336,7 @@ function renderPossiblyInlineSpeaker(text, fallbackRenderer = renderPlain) {
   return fallbackRenderer(text);
 }
 
-function renderBlock(block) {
+function renderBlock(block, index = 0, blocks = []) {
   if (!block || typeof block !== "object") {
     return "";
   }
@@ -339,33 +358,43 @@ function renderBlock(block) {
   const dialogueField =
     cleanText(block.dialogue || block.lineText || "");
 
-  if (speakerField && dialogueField && isKnownSpeaker(speakerField)) {
+  if (speakerField && dialogueField) {
     return `${renderCharacterCue(speakerField)}\n${renderDialogue(dialogueField)}`;
   }
 
   switch (type) {
     case "heading":
-      return renderHeading(text);
-
-    case "character": {
-      const inline = splitInlineSpeakerCue(text);
-
-      if (inline) {
-        return `${renderCharacterCue(inline.speaker)}\n${renderDialogue(inline.dialogue)}`;
-      }
-
       if (isKnownSpeaker(text)) {
         return renderCharacterCue(text);
       }
 
       return renderHeading(text);
-    }
+
+    case "character":
+      /*
+       * An explicit character block is authoritative. Never run it through
+       * the inline cue splitter: doing so turned cues such as "SHEPHERD 1"
+       * into speaker "SHEPHERD" plus dialogue "1".
+       */
+      return renderCharacterCue(text);
 
     case "dialogue":
       return renderPossiblyInlineSpeaker(text, renderDialogue);
 
     case "stage":
     case "direction":
+      /*
+       * The Google Docs importer occasionally labels a speaker as a heading
+       * and the immediately following dialogue as a stage direction. Repair
+       * that pair without changing the source text.
+       */
+      if (
+        cleanText(blocks[index - 1]?.type).toLowerCase() === "heading" &&
+        isKnownSpeaker(blocks[index - 1]?.text)
+      ) {
+        return renderDialogue(text);
+      }
+
       /*
        * Repair source files where dialogue lines were mislabeled as
        * stage directions, e.g. "LEVI Hold on." The previous build
@@ -809,8 +838,37 @@ for (const fileName of sceneFiles) {
     );
   }
 
-  const content = scene.blocks
-    .map(renderBlock)
+  const renderedBlocks = scene.blocks.map((block, index, blocks) => ({
+    block,
+    html: renderBlock(block, index, blocks)
+  }));
+
+  for (const [index, rendered] of renderedBlocks.entries()) {
+    if (cleanText(rendered.block?.type).toLowerCase() !== "character") {
+      continue;
+    }
+
+    const characterText = cleanText(
+      rendered.block.text ||
+      rendered.block.content ||
+      rendered.block.line ||
+      rendered.block.speaker ||
+      rendered.block.character ||
+      rendered.block.name ||
+      ""
+    );
+
+    const expectedCue = renderCharacterCue(characterText);
+
+    if (!rendered.html.startsWith(expectedCue)) {
+      fail(
+        `${fileName} block ${index + 1} split or restyled character cue "${characterText}".`
+      );
+    }
+  }
+
+  const content = renderedBlocks
+    .map((rendered) => rendered.html)
     .filter(Boolean)
     .join("\n");
 
