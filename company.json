@@ -109,23 +109,6 @@
       ]
     },
     {
-      "id": "annetta-johnson",
-      "name": "Annetta Johnson",
-      "roles": "VILLAGE AUNTIE (Elizabeth's Friend)/ ENSEMBLE",
-      "scenes": [
-        1,
-        7,
-        10,
-        12
-      ],
-      "understudy": null,
-      "danceEnsemble": false,
-      "groups": [
-        "Ensemble",
-        "Principals/Featured"
-      ]
-    },
-    {
       "id": "annette-jordan",
       "name": "Annette Jordan",
       "roles": "VILLAGE AUNTIE (Elizabeth's Friend) / ENSEMBLE",

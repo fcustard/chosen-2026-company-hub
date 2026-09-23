@@ -13,6 +13,7 @@
 import fs from 'node:fs/promises';
 
 const INPUT = 'data/company.json';
+const REHEARSALS_INPUT = 'data/rehearsals.json';
 const JSON_OUTPUT = 'company.json';
 
 function normalizeId(value) {
@@ -29,6 +30,13 @@ if (!source || !Array.isArray(source.people)) {
   throw new Error(`${INPUT} must contain a people array.`);
 }
 
+const rehearsalsSource = JSON.parse(await fs.readFile(REHEARSALS_INPUT, 'utf8'));
+const rehearsals = Array.isArray(rehearsalsSource)
+  ? rehearsalsSource
+  : Array.isArray(rehearsalsSource?.rehearsals)
+    ? rehearsalsSource.rehearsals
+    : [];
+
 let existing = { schemaVersion: 1, source: 'CHOSEN 2026 Company Roster', people: [] };
 try {
   existing = JSON.parse(await fs.readFile(JSON_OUTPUT, 'utf8'));
@@ -42,6 +50,14 @@ if (!Array.isArray(existing.people)) {
 const normalizedName = value => String(value || '').trim().toLowerCase();
 const sourceById = new Map(source.people.map(person => [normalizeId(person.id), person]));
 const sourceByName = new Map(source.people.map(person => [normalizedName(person.name), person]));
+const calledIds = new Set();
+const calledNames = new Set();
+for (const rehearsal of rehearsals) {
+  for (const id of rehearsal.calledPeopleIds || []) calledIds.add(normalizeId(id));
+  for (const person of rehearsal.calledPeople || []) {
+    calledNames.add(normalizedName(person?.displayName || person?.name || person));
+  }
+}
 
 const people = [];
 const includedIds = new Set();
@@ -61,6 +77,7 @@ for (const person of source.people) {
   if (String(person.companyType || '').trim().toLowerCase() !== 'performer') continue;
   const id = normalizeId(person.id);
   if (includedIds.has(id) || people.some(current => normalizedName(current.name) === normalizedName(person.name))) continue;
+  if (!calledIds.has(id) && !calledNames.has(normalizedName(person.name))) continue;
 
   people.push({
     id,
