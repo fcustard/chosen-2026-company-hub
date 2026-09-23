@@ -109,6 +109,23 @@
       ]
     },
     {
+      "id": "annetta-johnson",
+      "name": "Annetta Johnson",
+      "roles": "VILLAGE AUNTIE (Elizabeth's Friend)/ ENSEMBLE",
+      "scenes": [
+        1,
+        7,
+        10,
+        12
+      ],
+      "understudy": null,
+      "danceEnsemble": false,
+      "groups": [
+        "Ensemble",
+        "Principals/Featured"
+      ]
+    },
+    {
       "id": "annette-jordan",
       "name": "Annette Jordan",
       "roles": "VILLAGE AUNTIE (Elizabeth's Friend) / ENSEMBLE",
@@ -405,23 +422,6 @@
       "groups": [
         "Ensemble",
         "Principals/Featured"
-      ]
-    },
-    {
-      "id": "etta-wright",
-      "name": "Etta Wright",
-      "roles": "MERCHANT 1 / VILLAGER WOMAN 3 / ENSEMBLE",
-      "scenes": [
-        1,
-        9,
-        10,
-        11,
-        12
-      ],
-      "understudy": null,
-      "danceEnsemble": false,
-      "groups": [
-        "Ensemble"
       ]
     },
     {
@@ -724,6 +724,23 @@
       "groups": [
         "Dancers",
         "Ensemble"
+      ]
+    },
+    {
+      "id": "rodney-jean",
+      "name": "Rodney Jean",
+      "roles": "VILLAGER MAN 2 / DANCER / UNDERSTUDY FOR SHEPHERD 2",
+      "scenes": [
+        1,
+        9,
+        12
+      ],
+      "understudy": "SHEPHERD 2",
+      "danceEnsemble": true,
+      "groups": [
+        "Dancers",
+        "Ensemble",
+        "Principals/Featured"
       ]
     },
     {

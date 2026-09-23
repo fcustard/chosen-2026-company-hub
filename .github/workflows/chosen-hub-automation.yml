@@ -130,6 +130,7 @@ jobs:
 
           git add data/rehearsals.json || true
           git add data/company.json || true
+          git add company.json || true
           git add data/content.json || true
           git add data/scripts.json || true
           git add data/scenes/scene-*.json || true
