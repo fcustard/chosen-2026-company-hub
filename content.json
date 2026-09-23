@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updated": "2026-09-23T01:21:24.783Z",
-=======
-  "updated": "2026-09-23T01:27:27.042Z",
->>>>>>> Stashed changes
+  "updated": "2026-09-23T01:33:29.046Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -2405,14 +2401,14 @@
       {
         "id": "CHOSEN-20261220-SHOW",
         "eventKey": "CHOSEN-20261220-SHOW",
-        "start": "2026-12-20T08:00:00.000Z",
-        "end": "2026-12-20T13:00:00.000Z",
+        "start": "2026-12-20T14:00:00.000Z",
+        "end": "2026-12-20T19:00:00.000Z",
         "date": "December 20, 2026",
         "dateIso": "2026-12-20",
         "day": "Sunday",
         "dateLabel": "December 20, 2026",
         "dayLabel": "Sunday",
-        "time": "3:00 AM–8:00 AM",
+        "time": "9:00 AM–2:00 PM",
         "title": "CHOSEN 2026 - SHOW DAY",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
@@ -4935,14 +4931,14 @@
       {
         "id": "CHOSEN-20261220-SHOW",
         "eventKey": "CHOSEN-20261220-SHOW",
-        "start": "2026-12-20T08:00:00.000Z",
-        "end": "2026-12-20T13:00:00.000Z",
+        "start": "2026-12-20T14:00:00.000Z",
+        "end": "2026-12-20T19:00:00.000Z",
         "date": "December 20, 2026",
         "dateIso": "2026-12-20",
         "day": "Sunday",
         "dateLabel": "December 20, 2026",
         "dayLabel": "Sunday",
-        "time": "3:00 AM–8:00 AM",
+        "time": "9:00 AM–2:00 PM",
         "title": "CHOSEN 2026 - SHOW DAY",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
@@ -5724,11 +5720,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "02",
@@ -5742,11 +5734,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "03",
@@ -5760,11 +5748,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "04",
@@ -5778,11 +5762,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "05",
@@ -5796,11 +5776,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "06",
@@ -5814,11 +5790,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "07",
@@ -5832,11 +5804,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "08",
@@ -5850,11 +5818,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "09",
@@ -5868,11 +5832,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "10",
@@ -5886,11 +5846,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "11",
@@ -5904,11 +5860,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "12",
@@ -5922,11 +5874,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       }
     ],
     "current": [
@@ -5942,11 +5890,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "02",
@@ -5960,11 +5904,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "03",
@@ -5978,11 +5918,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "04",
@@ -5996,11 +5932,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "05",
@@ -6014,11 +5946,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "06",
@@ -6032,11 +5960,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "07",
@@ -6050,11 +5974,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "08",
@@ -6068,11 +5988,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "09",
@@ -6086,11 +6002,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "10",
@@ -6104,11 +6016,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "11",
@@ -6122,11 +6030,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-=======
         "updated": "2026-09-23T01:27:13.975Z"
->>>>>>> Stashed changes
       },
       {
         "scene": "12",
@@ -6140,30 +6044,18 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-<<<<<<< Updated upstream
-        "updated": "2026-09-23T01:21:15.078Z"
-      }
-    ],
-    "count": 12,
-    "updated": "2026-09-23T01:21:24.784Z",
-=======
         "updated": "2026-09-23T01:27:13.975Z"
       }
     ],
     "count": 12,
-    "updated": "2026-09-23T01:27:27.043Z",
->>>>>>> Stashed changes
+    "updated": "2026-09-23T01:33:29.047Z",
     "kind": "scripts"
   },
   "music": {
     "items": [],
     "current": [],
     "count": 0,
-<<<<<<< Updated upstream
-    "updated": "2026-09-23T01:21:24.784Z",
-=======
-    "updated": "2026-09-23T01:27:27.043Z",
->>>>>>> Stashed changes
+    "updated": "2026-09-23T01:33:29.047Z",
     "kind": "music"
   }
 }
