@@ -2,7 +2,7 @@
   "ok": true,
   "schemaVersion": 1,
   "source": "CHOSEN 2026 Admin Master Sheets",
-  "generatedAt": "2026-09-23T16:49:36.162Z",
+  "generatedAt": "2026-09-23T17:26:34.151Z",
   "people": [
     {
       "id": "P-abi",
@@ -1165,36 +1165,21 @@
     {
       "id": "P-etta-wright",
       "name": "Etta Wright",
-      "companyType": "Performer",
-      "primaryAssignment": "MERCHANT 1 / VILLAGER WOMAN 3 / ENSEMBLE",
+      "companyType": "Production",
+      "primaryAssignment": "Back Stage Costumes, Props",
       "departments": [
-        "Cast"
+        "Wardrobe"
       ],
       "groups": [
-        "Ensemble"
+        "Wardrobe",
+        "Crew/Tech"
       ],
-      "roles": "MERCHANT 1 / VILLAGER WOMAN 3 / ENSEMBLE",
-      "scenes": [
-        1,
-        9,
-        10,
-        11,
-        12
-      ],
+      "roles": "",
+      "scenes": [],
       "understudy": null,
       "danceEnsemble": false,
       "reviewStatus": "READY",
       "assignments": [
-        {
-          "personId": "P-etta-wright",
-          "type": "Cast Role",
-          "department": "Cast",
-          "assignment": "MERCHANT 1/ VILLAGER WOMAN 3 /ENSEMBLE",
-          "scope": "1, 9, 10, 11,12",
-          "callGroups": [
-            "Ensemble"
-          ]
-        },
         {
           "personId": "P-etta-wright",
           "type": "Production Department",
@@ -2054,7 +2039,7 @@
       "id": "P-rodney-jean",
       "name": "Rodney Jean",
       "companyType": "Performer",
-      "primaryAssignment": "VILLAGER MAN 2/ DANCER/ Understudy for Shepherd 2",
+      "primaryAssignment": "VILLAGER MAN 2 / DANCER / UNDERSTUDY FOR SHEPHERD 2",
       "departments": [
         "Cast"
       ],
@@ -2063,18 +2048,49 @@
         "Ensemble",
         "Principals/Featured"
       ],
-      "roles": "VILLAGER MAN 2/ DANCER/ Understudy for Shepherd 2",
+      "roles": "VILLAGER MAN 2 / DANCER / UNDERSTUDY FOR SHEPHERD 2",
       "scenes": [
         1,
         9,
-        10,
-        11,
         12
       ],
-      "understudy": null,
+      "understudy": "SHEPHERD 2",
       "danceEnsemble": true,
       "reviewStatus": "READY",
-      "assignments": []
+      "assignments": [
+        {
+          "personId": "P-rodney-jean",
+          "type": "Cast Role",
+          "department": "Cast",
+          "assignment": "VILLAGER MAN 2 / DANCER / UNDERSTUDY FOR SHEPHERD 2",
+          "scope": "1, 9, 12",
+          "callGroups": [
+            "Dancers",
+            "Ensemble",
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-rodney-jean",
+          "type": "Understudy",
+          "department": "Cast",
+          "assignment": "SHEPHERD 2",
+          "scope": "12",
+          "callGroups": [
+            "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-rodney-jean",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scene 1",
+          "callGroups": [
+            "Dancers"
+          ]
+        }
+      ]
     },
     {
       "id": "P-sanaa",

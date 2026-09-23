@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T16:49:38.257Z",
+  "updated": "2026-09-23T17:26:36.237Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -80,7 +80,7 @@
         "displayName": "Jayden Harris"
       },
       {
-        "displayName": "Etta Wright"
+        "displayName": "Rodney Jean"
       },
       {
         "displayName": "Sandra Johnson"
@@ -136,7 +136,7 @@
       "P-marissa-downie",
       "P-dana-quamina",
       "P-jayden-harris",
-      "P-etta-wright",
+      "P-rodney-jean",
       "P-sandra-johnson",
       "P-alexandria-platt",
       "P-allania-mitchell",
@@ -241,7 +241,7 @@
             "displayName": "Jayden Harris"
           },
           {
-            "displayName": "Etta Wright"
+            "displayName": "Rodney Jean"
           },
           {
             "displayName": "Sandra Johnson"
@@ -297,7 +297,7 @@
           "P-marissa-downie",
           "P-dana-quamina",
           "P-jayden-harris",
-          "P-etta-wright",
+          "P-rodney-jean",
           "P-sandra-johnson",
           "P-alexandria-platt",
           "P-allania-mitchell",
@@ -411,6 +411,9 @@
           },
           {
             "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Rodney Jean"
           }
         ],
         "calledPeopleIds": [
@@ -436,7 +439,8 @@
           "P-gabriela-sardinas",
           "P-shanice-palmer",
           "P-victorya-champagne",
-          "P-anaia-downer"
+          "P-anaia-downer",
+          "P-rodney-jean"
         ],
         "calledGroups": [],
         "exactCallStatus": "READY",
@@ -686,7 +690,7 @@
             "displayName": "Jayden Harris"
           },
           {
-            "displayName": "Etta Wright"
+            "displayName": "Rodney Jean"
           },
           {
             "displayName": "Sandra Johnson"
@@ -742,7 +746,7 @@
           "P-marissa-downie",
           "P-dana-quamina",
           "P-jayden-harris",
-          "P-etta-wright",
+          "P-rodney-jean",
           "P-sandra-johnson",
           "P-alexandria-platt",
           "P-allania-mitchell",
@@ -856,6 +860,9 @@
           },
           {
             "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Rodney Jean"
           }
         ],
         "calledPeopleIds": [
@@ -881,7 +888,8 @@
           "P-gabriela-sardinas",
           "P-shanice-palmer",
           "P-victorya-champagne",
-          "P-anaia-downer"
+          "P-anaia-downer",
+          "P-rodney-jean"
         ],
         "calledGroups": [],
         "exactCallStatus": "READY",
@@ -3216,7 +3224,7 @@
             "displayName": "Jayden Harris"
           },
           {
-            "displayName": "Etta Wright"
+            "displayName": "Rodney Jean"
           },
           {
             "displayName": "Sandra Johnson"
@@ -3272,7 +3280,7 @@
           "P-marissa-downie",
           "P-dana-quamina",
           "P-jayden-harris",
-          "P-etta-wright",
+          "P-rodney-jean",
           "P-sandra-johnson",
           "P-alexandria-platt",
           "P-allania-mitchell",
@@ -3386,6 +3394,9 @@
           },
           {
             "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Rodney Jean"
           }
         ],
         "calledPeopleIds": [
@@ -3411,7 +3422,8 @@
           "P-gabriela-sardinas",
           "P-shanice-palmer",
           "P-victorya-champagne",
-          "P-anaia-downer"
+          "P-anaia-downer",
+          "P-rodney-jean"
         ],
         "calledGroups": [],
         "exactCallStatus": "READY",
@@ -5720,7 +5732,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "02",
@@ -5734,7 +5746,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "03",
@@ -5748,7 +5760,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "04",
@@ -5762,7 +5774,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "05",
@@ -5776,7 +5788,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "06",
@@ -5790,7 +5802,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "07",
@@ -5804,7 +5816,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "08",
@@ -5818,7 +5830,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "09",
@@ -5832,7 +5844,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "10",
@@ -5846,7 +5858,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "11",
@@ -5860,7 +5872,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "12",
@@ -5874,7 +5886,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       }
     ],
     "current": [
@@ -5890,7 +5902,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "02",
@@ -5904,7 +5916,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "03",
@@ -5918,7 +5930,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "04",
@@ -5932,7 +5944,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "05",
@@ -5946,7 +5958,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "06",
@@ -5960,7 +5972,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "07",
@@ -5974,7 +5986,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "08",
@@ -5988,7 +6000,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "09",
@@ -6002,7 +6014,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "10",
@@ -6016,7 +6028,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "11",
@@ -6030,7 +6042,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       },
       {
         "scene": "12",
@@ -6044,11 +6056,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-23T16:49:28.494Z"
+        "updated": "2026-09-23T17:26:28.513Z"
       }
     ],
     "count": 12,
-    "updated": "2026-09-23T16:49:38.257Z",
+    "updated": "2026-09-23T17:26:36.238Z",
     "kind": "scripts"
   },
   "music": {
@@ -6105,7 +6117,7 @@
       }
     ],
     "count": 2,
-    "updated": "2026-09-23T16:49:38.257Z",
+    "updated": "2026-09-23T17:26:36.238Z",
     "kind": "music"
   }
 }

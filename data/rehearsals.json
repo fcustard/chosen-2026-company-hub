@@ -423,7 +423,7 @@
       "Marissa Downie",
       "Dana Quamina",
       "Jayden Harris",
-      "Etta Wright",
+      "Rodney Jean",
       "Sandra Johnson",
       "Alexandria Platt",
       "Allania Mitchell",
@@ -454,7 +454,7 @@
       "P-marissa-downie",
       "P-dana-quamina",
       "P-jayden-harris",
-      "P-etta-wright",
+      "P-rodney-jean",
       "P-sandra-johnson",
       "P-alexandria-platt",
       "P-allania-mitchell",
@@ -511,7 +511,8 @@
       "Gabriela Sardinas",
       "Shanice Palmer",
       "Victorya Champagne",
-      "Anaia Downer"
+      "Anaia Downer",
+      "Rodney Jean"
     ],
     "calledPeopleIds": [
       "P-jordyn-starks",
@@ -536,7 +537,8 @@
       "P-gabriela-sardinas",
       "P-shanice-palmer",
       "P-victorya-champagne",
-      "P-anaia-downer"
+      "P-anaia-downer",
+      "P-rodney-jean"
     ],
     "calledGroups": [],
     "exactCallStatus": "READY",
