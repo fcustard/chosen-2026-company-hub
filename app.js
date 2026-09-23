@@ -530,7 +530,33 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   if (document.body.dataset.page === 'music') {
     const list = document.querySelector('#musicList');
-    const music = resourceList(d.music);
+    let music = resourceList(d.music);
+
+    // Keep approved music available when the calendar-driven Hub build is
+    // temporarily blocked. data/music.json is independently validated and
+    // contains no rehearsal schedule or participant data.
+    if (!music.length) {
+      try {
+        const response = await fetch('data/music.json', { cache: 'no-store' });
+
+        if (!response.ok) {
+          throw new Error(`Music data returned HTTP ${response.status}`);
+        }
+
+        const sourceMusic = resourceList(await response.json());
+
+        music = sourceMusic.filter(
+          track =>
+            track &&
+            track.approved === true &&
+            track.companyPublish === true &&
+            track.playUrl &&
+            track.playUrl !== '#'
+        );
+      } catch (error) {
+        console.error('Unable to load approved music data.', error);
+      }
+    }
 
     if (list) {
       list.innerHTML = music.length
