@@ -678,7 +678,7 @@ function renderSceneReader({
     }
   </style>
 </head>
-<body>
+<body class="sceneReaderPage">
   <header class="sitebar">
     <div class="inner">
       <a class="brand" href="index.html">
@@ -687,7 +687,7 @@ function renderSceneReader({
         <span>Company Hub</span>
       </a>
 
-      <nav id="nav">
+      <nav id="nav" class="sceneBackNav" aria-label="Scene navigation">
         <a href="scripts.html">← Scripts</a>
       </nav>
     </div>
