@@ -6,1329 +6,24 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:58:45.505Z",
-  "contentHash": "853075577bb0efd26371620111b5598557b78c8557aa25e6a9b2dcf3476b603c",
+  "sourceUpdated": "2026-09-24T17:24:04.190Z",
+  "contentHash": "37214e8ea82e1c335ed159a262451f84dcb758bcc2b821a0648acffc9d663aa2",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
-      "type": "heading",
-      "text": "CONTINUOUS FROM SCENE 1"
+      "type": "production-note",
+      "text": "Approximate Running Time: 5–6 minutes",
+      "namedStyleType": "SUBTITLE"
     },
     {
-      "type": "stage",
-      "text": "Mary and Joseph slowly move toward one another. Joseph still carries the TOOL SATCHEL."
+      "type": "production-note",
+      "text": "Spoken Dialogue: Approximately 2–2½ minutes",
+      "namedStyleType": "SUBTITLE"
     },
     {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You’re still wearing it."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Of course I’m still wearing it."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You haven’t even put any tools in it yet."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I don’t want to ruin it."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph, it’s a tool satchel."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "A very nice tool satchel."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "It’s supposed to get dirty."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Eventually."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You’re impossible."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "And yet you made me a satchel."
-    },
-    {
-      "type": "stage",
-      "text": "Mary smiles."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I’m beginning to reconsider that decision."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Too late."
-    },
-    {
-      "type": "stage",
-      "text": "He adjusts it proudly."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "It’s mine now."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You seem very pleased with yourself."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I am."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Because of the satchel?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Because you made the satchel."
-    },
-    {
-      "type": "dialogue",
-      "text": "That lands. Mary tries not to show how much she likes the answer."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "That was almost charming."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Almost?"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Don’t ruin it."
-    },
-    {
-      "type": "stage",
-      "text": "They laugh."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE FUTURE BECOMES SPECIFIC"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph moves to a small, unfinished tabletop/workpiece left from the marketplace and checks it automatically."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You’re working again."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I’m looking."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "At work."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "That’s different."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Is it?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Completely."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "What is it?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "It’s not finished."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I gathered that."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "It’s for us."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "For us?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "The table."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "The table?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "For the house."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You already started it?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Of course I started it."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "We’re not married yet."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "That’s why I’m starting now."
-    },
-    {
-      "type": "stage",
-      "text": "Mary laughs."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "How big is this table?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "It can hold six."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Six what?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "People."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Six?"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph studies it."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Maybe eight."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Eight?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Eight gives us room."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "For whom?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Family. Friends. People passing through. Children."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Children?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Eventually."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "How did we go from six chairs to children this quickly?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I like to plan ahead."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Clearly."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE HOUSE THAT DOESN’T EXIST"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph begins seeing the home in his imagination. The stage may quietly begin to agree with them through lighting and restrained atmospheric LED content. Do not show a literal house."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "The table goes near the window."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "We have a window?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "We will."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Good. I wanted one."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I know."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "How?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "You told me."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "When?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Twice."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Three times."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I wanted to make sure you remembered."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I remember everything you tell me."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "That’s a dangerous promise."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I didn’t say I always agree."
-    },
-    {
-      "type": "stage",
-      "text": "Mary laughs."
-    },
-    {
-      "type": "stage",
-      "text": "A warm rectangular suggestion of window light may emerge. LED content, if used, remains abstract: warmth, architectural shadow, faint environmental texture."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "If you’re putting the table by the window, I want something growing outside it."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Something?"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "A garden."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "How large?"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Don’t plan my garden."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I’m asking."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You’re measuring it with your eyes."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph realizes she is right and stops."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Sorry."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Small."
-    },
-    {
-      "type": "stage",
-      "text": "She considers."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Maybe not that small."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Then I’ll build a fence."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "For my imaginary garden?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "For the goats that will eat your imaginary garden."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "There are no goats in my imaginary garden."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "That’s because I built the fence."
-    },
-    {
-      "type": "stage",
-      "text": "Mary laughs. The imagined home is becoming emotionally tangible without becoming literal."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE EMOTIONAL SHIFT"
-    },
-    {
-      "type": "stage",
-      "text": "The comedy settles. They look at the unfinished table."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You really see it, don’t you?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "What?"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "All of it. The house. The table. The garden. Us."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Don’t you?"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I do."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I just… sometimes I wonder if life ever really goes the way people plan it."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "What brought that on?"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Nothing."
-    },
-    {
-      "type": "stage",
-      "text": "A small shrug."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Look at Nazareth. Everyone thinks they know what comes next. Grow up. Marry. Build a home. Raise a family. Grow old."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Sounds terrible."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I’m listening."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "What if something changes?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Then something changes."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "That’s your answer?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "No."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Then we make another plan."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "And if that one doesn’t work?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Another one."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "What?"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You really believe there’s a plan for everything."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph considers it."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "For everything important."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "That’s a lot of confidence."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I’m building an eight-chair table for a house that doesn’t exist yet."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Confidence is required."
-    },
-    {
-      "type": "stage",
-      "text": "Mary smiles, but the question remains."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "What if something happens that you can’t plan for?"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at her. He does not yet have the mature answer he will earn later."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Then I’ll figure it out."
-    },
-    {
-      "type": "stage",
-      "text": "Mary studies him."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You make it sound very simple."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Maybe it is."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Maybe."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "God has always been faithful."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "He has."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "So I suppose whatever comes… We’ll find our way through it."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at her. This thought opens the door into the song."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Whatever comes… I’ll walk with you."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Whatever comes?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Whatever comes."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "“MY BELOVED” BEGINS"
-    },
-    {
-      "type": "music",
-      "text": "Music rises naturally from the silence."
-    },
-    {
-      "type": "stage",
-      "text": "It should feel as though Joseph's promise has created the need to sing."
-    },
-    {
-      "type": "music",
-      "text": "MUSICAL NUMBER — “MY BELOVED”"
-    },
-    {
-      "type": "heading",
-      "text": "DRAMATIC PURPOSE OF THE SONG"
-    },
-    {
-      "type": "lyric",
-      "text": "The song builds the future they believe they are choosing together."
-    },
-    {
-      "type": "lyric",
-      "text": "The lyrics should grow from what the audience has just heard rather than introducing unrelated imagery."
-    },
-    {
-      "type": "heading",
-      "text": "LYRICAL TERRITORY TO DEVELOP"
-    },
-    {
-      "type": "lyric",
-      "text": "MARY and JOSEPH imagine"
-    },
-    {
-      "type": "lyric",
-      "text": "● the house;"
-    },
-    {
-      "type": "lyric",
-      "text": "● the doorway;"
-    },
-    {
-      "type": "lyric",
-      "text": "● morning light;"
-    },
-    {
-      "type": "lyric",
-      "text": "● the table;"
-    },
-    {
-      "type": "lyric",
-      "text": "● six chairs becoming eight;"
-    },
-    {
-      "type": "lyric",
-      "text": "● friends and family gathered around it;"
-    },
-    {
-      "type": "lyric",
-      "text": "● Mary's garden;"
-    },
-    {
-      "type": "lyric",
-      "text": "● Joseph's work;"
-    },
-    {
-      "type": "lyric",
-      "text": "● ordinary disagreements;"
-    },
-    {
-      "type": "lyric",
-      "text": "● laughter;"
-    },
-    {
-      "type": "lyric",
-      "text": "● children;"
-    },
-    {
-      "type": "lyric",
-      "text": "● knowing where the other person will be at the end of the day;"
-    },
-    {
-      "type": "lyric",
-      "text": "● growing older together;"
-    },
-    {
-      "type": "lyric",
-      "text": "● being chosen by one another."
-    },
-    {
-      "type": "lyric",
-      "text": "This is not a song about perfect romance."
-    },
-    {
-      "type": "lyric",
-      "text": "It is a song about the beauty of an ordinary shared life."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "IMPORTANT SONG MOMENT"
-    },
-    {
-      "type": "lyric",
-      "text": "At some point near the emotional height of the duet, plant the recurring motif clearly"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "lyric",
-      "text": "Whatever comes, I'll walk with you."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "lyric",
-      "text": "Whatever comes, I'll walk with you."
-    },
-    {
-      "type": "character",
-      "text": "MARY & JOSEPH"
-    },
-    {
-      "type": "lyric",
-      "text": "Whatever comes..."
-    },
-    {
-      "type": "heading",
-      "text": "[MUSICAL RESOLUTION / CONTINUATION]"
-    },
-    {
-      "type": "lyric",
-      "text": "This phrase must be memorable enough that when it returns later, the audience immediately recognizes it."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "END OF “MY BELOVED”"
-    },
-    {
-      "type": "lyric",
-      "text": "The final chord resolves gently. Do not rush into Scene 3. For one moment, there is no crisis, prophecy, gossip or fear. They simply possess the future they believe belongs to them."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "lyric",
-      "text": "I should go."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "lyric",
-      "text": "Probably."
-    },
-    {
-      "type": "lyric",
-      "text": "He does not move."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "lyric",
-      "text": "Joseph."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "lyric",
-      "text": "I’m going."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "lyric",
-      "text": "You’re still here."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "lyric",
-      "text": "I’m going now."
-    },
-    {
-      "type": "stage",
-      "text": "Mary smiles. Joseph finally starts away, then turns back."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "lyric",
-      "text": "Tomorrow?"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "lyric",
-      "text": "Tomorrow."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph exits."
+      "type": "production-note",
+      "text": "Song: “My Beloved” — approximately 3–3½ minutes",
+      "namedStyleType": "SUBTITLE"
     },
     {
       "type": "spacer",
@@ -1336,7 +31,1740 @@
     },
     {
       "type": "transition",
-      "text": "TRANSITION INTO"
+      "text": "CONTINUOUS FROM SCENE 1",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "stage",
+      "text": "Mary and Joseph slowly move toward one another. Joseph still carries the TOOL SATCHEL.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You’re still wearing it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Of course I’m still wearing it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You haven’t even put any tools in it yet.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t want to ruin it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph, it’s a tool satchel.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "A very nice tool satchel.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s supposed to get dirty.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Eventually.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You’re impossible.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "And yet you made me a satchel.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary smiles.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m beginning to reconsider that decision.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Too late.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He adjusts it proudly.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s mine now.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You seem very pleased with yourself.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Because of the satchel?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Because you made the satchel.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "That lands. Mary tries not to show how much she likes the answer.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That was almost charming.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Almost?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Don’t ruin it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "They laugh.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "THE FUTURE BECOMES SPECIFIC",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph moves to a small, unfinished tabletop/workpiece left from the marketplace and checks it automatically.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You’re working again.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m looking.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "At work.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s different.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Is it?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Completely.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What is it?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s not finished.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I gathered that.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s for us.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "For us?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "The table.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "The table?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "For the house.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You already started it?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Of course I started it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We’re not married yet.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s why I’m starting now.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary laughs.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "How big is this table?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It can hold six.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Six what?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "People.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Six?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph studies it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Maybe eight.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Eight?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Eight gives us room.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "For whom?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Family. Friends. People passing through. Children.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Children?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Eventually.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "How did we go from six chairs to children this quickly?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I like to plan ahead.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Clearly.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "THE HOUSE THAT DOESN’T EXIST",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph begins seeing the home in his imagination. The stage may quietly begin to agree with them through lighting and restrained atmospheric LED content. Do not show a literal house.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "The table goes near the window.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We have a window?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We will.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Good. I wanted one.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "How?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You told me.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "When?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Twice.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Three times.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I wanted to make sure you remembered.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I remember everything you tell me.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s a dangerous promise.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I didn’t say I always agree.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary laughs.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "A warm rectangular suggestion of window light may emerge. LED content, if used, remains abstract: warmth, architectural shadow, faint environmental texture.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "If you’re putting the table by the window, I want something growing outside it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Something?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "A garden.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "How large?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Don’t plan my garden.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m asking.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You’re measuring it with your eyes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph realizes she is right and stops.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Sorry.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Small.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "She considers.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Maybe not that small.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then I’ll build a fence.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "For my imaginary garden?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "For the goats that will eat your imaginary garden.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "There are no goats in my imaginary garden.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s because I built the fence.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary laughs. The imagined home is becoming emotionally tangible without becoming literal.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "THE EMOTIONAL SHIFT",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "The comedy settles. They look at the unfinished table.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You really see it, don’t you?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "All of it. The house. The table. The garden. Us.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Don’t you?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I do.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I just… sometimes I wonder if life ever really goes the way people plan it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What brought that on?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nothing.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "A small shrug.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Look at Nazareth. Everyone thinks they know what comes next. Grow up. Marry. Build a home. Raise a family. Grow old.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Sounds terrible.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m listening.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What if something changes?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then something changes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s your answer?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then we make another plan.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "And if that one doesn’t work?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Another one.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You really believe there’s a plan for everything.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph considers it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "For everything important.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s a lot of confidence.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m building an eight-chair table for a house that doesn’t exist yet.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Confidence is required.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary smiles, but the question remains.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What if something happens that you can’t plan for?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at her. He does not yet have the mature answer he will earn later.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then I’ll figure it out.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary studies him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You make it sound very simple.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Maybe it is.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Maybe.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "God has always been faithful.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "He has.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "So I suppose whatever comes… We’ll find our way through it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at her. This thought opens the door into the song.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Whatever comes… I’ll walk with you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Whatever comes?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Whatever comes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "“MY BELOVED” BEGINS",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "music",
+      "text": "Music rises naturally from the silence.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "It should feel as though Joseph's promise has created the need to sing.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "MUSICAL NUMBER — “MY BELOVED”",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "heading",
+      "text": "DRAMATIC PURPOSE OF THE SONG",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "The song builds the future they believe they are choosing together.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The lyrics should grow from what the audience has just heard rather than introducing unrelated imagery.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "LYRICAL TERRITORY TO DEVELOP",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "MARY and JOSEPH imagine",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "the house;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "the doorway;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "morning light;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "the table;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "six chairs becoming eight;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "friends and family gathered around it;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary's garden;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph's work;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "ordinary disagreements;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "laughter;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "children;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "knowing where the other person will be at the end of the day;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "growing older together;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "being chosen by one another.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "This is not a song about perfect romance.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "It is a song about the beauty of an ordinary shared life.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "IMPORTANT SONG MOMENT",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "At some point near the emotional height of the duet, plant the recurring motif clearly",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "lyric",
+      "text": "Whatever comes, I'll walk with you.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "lyric",
+      "text": "Whatever comes, I'll walk with you.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "character",
+      "text": "MARY & JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "lyric",
+      "text": "Whatever comes...",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "music",
+      "text": "[MUSICAL RESOLUTION / CONTINUATION]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "This phrase must be memorable enough that when it returns later, the audience immediately recognizes it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "END OF “MY BELOVED”",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "The final chord resolves gently. Do not rush into Scene 3. For one moment, there is no crisis, prophecy, gossip or fear. They simply possess the future they believe belongs to them.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I should go.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Probably.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He does not move.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m going.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You’re still here.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m going now.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary smiles. Joseph finally starts away, then turns back.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Tomorrow?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Tomorrow.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph exits.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "transition",
+      "text": "TRANSITION INTO SCENE 3 — THE FUTURE DISAPPEARS",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "stage",
+      "text": "Mary remains alone inside the imagined future. Let her be completely happy. She may touch the unfinished table, look toward the imagined window, or simply take in the home they created.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Eight chairs.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "A small laugh.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph…",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Then, on one precise cue, the future disappears. Do NOT crossfade it beautifully.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "RUPTURE",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "LED atmosphere: GONE. Imagined window light: GONE. Garden/environmental texture: GONE. Nazareth ambiance: GONE. “My Beloved” harmonic warmth: GONE.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Silence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary notices. Scene 3 must now introduce a visual and sonic language the production has never used before. Romantic subjective theatricality is over; genuine divine interruption is about to enter.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "transition",
+      "text": "END SCENE 2.",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "Notes",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "production-note",
+      "text": "This scene must deepen Mary and Joseph rather than reintroduce them, make their imagined future tangible, establish Joseph’s builder/planner worldview, give Mary one small question about whether life always follows the plan, and then let “My Beloved” carry that imagined future further.",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "The table is now concrete enough to reappear in Scene 5 while Joseph builds it and in Scene 6 when that imagined future collapses. The tool satchel carries forward Mary's personal connection to Joseph's work. And the line “Then we make another plan” gives Joseph a wonderfully simple starting philosophy that Scene 11 will eventually destroy—because in Bethlehem he finally reaches a moment when there is no plan left and has to learn simply to say, “I'm here.”",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "Most importantly, the scene ends with Mary possessing exactly what Scene 3 is about to disrupt: love, certainty, a future she can picture, and a belief that God's faithfulness will make the road understandable",
+      "namedStyleType": "SUBTITLE"
     }
   ]
 }

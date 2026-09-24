@@ -385,6 +385,7 @@ function renderBlock(block, index = 0, blocks = []) {
 
   const type = cleanText(block.type || "text").toLowerCase();
   const text = cleanText(block.text || block.content || block.line || "");
+  const hasNamedStyle = Boolean(cleanText(block.namedStyleType || ""));
 
   if (!text && type !== "spacer") {
     return "";
@@ -406,6 +407,10 @@ function renderBlock(block, index = 0, blocks = []) {
 
   switch (type) {
     case "heading":
+      if (hasNamedStyle) {
+        return renderHeading(text);
+      }
+
       if (isKnownHeadingSpeaker(text)) {
         return renderCharacterCue(text);
       }
@@ -421,10 +426,18 @@ function renderBlock(block, index = 0, blocks = []) {
       return renderCharacterCue(text);
 
     case "dialogue":
+      if (hasNamedStyle) {
+        return renderDialogue(text);
+      }
+
       return renderPossiblyInlineSpeaker(text, renderDialogue);
 
     case "stage":
     case "direction":
+      if (hasNamedStyle) {
+        return renderStageDirection(text);
+      }
+
       /*
        * The Google Docs importer occasionally labels a speaker as a heading
        * and the immediately following dialogue as a stage direction. Repair
@@ -445,6 +458,10 @@ function renderBlock(block, index = 0, blocks = []) {
       return renderPossiblyInlineSpeaker(text, renderStageDirection);
 
     case "lyric":
+      if (hasNamedStyle) {
+        return renderLyric(text);
+      }
+
       return renderPossiblyInlineSpeaker(text, renderLyric);
 
     case "music":
@@ -501,6 +518,24 @@ function validateRendererContracts() {
         ]
       ),
       expected: '<p class="dialogue">Hello!</p>'
+    },
+    {
+      label: "styled stage direction beginning with a character name",
+      actual: renderBlock({
+        type: "stage",
+        text: "SHIRA, TALIA, ADINA and DAFNA are occupied with ordinary tasks.",
+        namedStyleType: "HEADING_6"
+      }),
+      expected: '<p class="stageDirection"><em>SHIRA, TALIA, ADINA and DAFNA are occupied with ordinary tasks.</em></p>'
+    },
+    {
+      label: "styled dialogue beginning with a character name",
+      actual: renderBlock({
+        type: "dialogue",
+        text: "MARY and Joseph already know.",
+        namedStyleType: "NORMAL_TEXT"
+      }),
+      expected: '<p class="dialogue">MARY and Joseph already know.</p>'
     },
     {
       label: "true section heading",

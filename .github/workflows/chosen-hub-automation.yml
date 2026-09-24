@@ -57,6 +57,14 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Set up Python for script PDFs
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PDF builder
+        run: python -m pip install --disable-pip-version-check -r requirements-pdf.txt
+
       - name: Refresh main before generation
         run: |
           git fetch origin main
@@ -78,6 +86,7 @@ jobs:
 
       - name: Sync exact rehearsal calls from Master Calendar
         id: calendar_sync
+        if: ${{ github.event.action != 'publish-script' && !contains(github.event.head_commit.message, '[skip calendar]') }}
         timeout-minutes: 3
         env:
           CALENDAR_FEED_URL: ${{ vars.CALENDAR_FEED_URL }}
@@ -179,6 +188,7 @@ jobs:
           git add data/scenes/scene-*.json || true
           git add content.json || true
           git add scene-*.html || true
+          git add scene-*.pdf || true
           git add resources.html || true
 
           if git diff --cached --quiet; then

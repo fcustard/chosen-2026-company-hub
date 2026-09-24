@@ -113,6 +113,10 @@ const KNOWN_SPEAKERS = new Set([
   "TALIA",
   "VILLAGER",
   "VILLAGER MAN",
+  "VILLAGER MAN 2",
+  "VILLAGER 1",
+  "VILLAGER 2",
+  "VILLAGER 3",
   "VILLAGER WOMAN 1",
   "VILLAGER WOMAN 2",
   "VILLAGERS",
@@ -120,7 +124,12 @@ const KNOWN_SPEAKERS = new Set([
   "WISE MEN",
   "WOMAN",
   "WOMAN CUSTOMER 1",
-  "YOUNG SHEPHERD"
+  "YOUNG SHEPHERD",
+  "GOSSIPER 1 & 2",
+  "MEN",
+  "THE BROTHERHOOD",
+  "HEAVENLY VOICES",
+  "NIA & SIMON"
 ]);
 
 
@@ -162,6 +171,10 @@ const STYLE_TO_BLOCK_TYPE = new Map([
   ["HEADING_6", "stage"],
   ["HEADING 6", "stage"],
   ["SUBTITLE", "production-note"],
+  // Google Docs has no user-definable paragraph-style names. TITLE is the
+  // otherwise-unused named style reserved by the CHOSEN source document for
+  // lyrics; the document applies script-sized formatting as a local override.
+  ["TITLE", "lyric"],
   ["NORMAL_TEXT", "dialogue"],
   ["NORMAL TEXT", "dialogue"]
 ]);
@@ -169,15 +182,15 @@ const STYLE_TO_BLOCK_TYPE = new Map([
 function explicitBlockType(block = {}) {
   const text = cleanBlockText(block.text || "");
 
-  // A known cast cue is never a section heading. This guard also repairs older
-  // feed payloads that flattened every Google Docs heading level to `heading`.
-  if (isKnownSpeaker(text)) return "character";
-
   const style = String(
-    block.styleName || block.namedStyleType || block.paragraphStyle || block.style || ""
+    block.namedStyleType || block.styleName || block.paragraphStyle || block.style || ""
   ).trim().toUpperCase().replace(/[\s-]+/g, " ");
   const styledType = STYLE_TO_BLOCK_TYPE.get(style) || STYLE_TO_BLOCK_TYPE.get(style.replace(/ /g, "_"));
   if (styledType) return styledType;
+
+  // Compatibility fallback for legacy feed payloads that omitted the exact
+  // named style. Styled records above always win.
+  if (isKnownSpeaker(text)) return "character";
 
   const rawType = String(block.type || block.blockType || block.semanticType || "")
     .trim()
@@ -717,11 +730,11 @@ function reclassifyBlocksForReader(blocks = []) {
       continue;
     }
 
-    const type = block._semantic === true && SEMANTIC_BLOCK_TYPES.has(block.type)
+    const type = (block._semantic === true || Boolean(block.namedStyleType)) && SEMANTIC_BLOCK_TYPES.has(block.type)
       ? block.type
       : lineType(text, previousType);
 
-    output.push({ type, text });
+    output.push({ ...block, type, text });
 
     if (type !== "spacer") {
       previousType = type;
@@ -777,7 +790,10 @@ function repairSpeakerNumberBlocks(blocks = []) {
 function finalRepairBlocksForPublication(blocks = []) {
   // Belt-and-suspenders cleanup immediately before writing JSON.
   // This makes the fix permanent even if a future Google Docs feed shape changes.
-  return repairContextualSemantics(repairSpeakerNumberBlocks(blocks));
+  return repairContextualSemantics(repairSpeakerNumberBlocks(blocks)).map((block) => {
+    const { _semantic, ...publishable } = block;
+    return publishable;
+  });
 }
 
 function isNarrativeStageDirection(text = "") {
@@ -808,6 +824,7 @@ function repairContextualSemantics(blocks = []) {
     const block = { ...original };
     const text = cleanBlockText(block.text || "");
     const type = String(block.type || "").toLowerCase();
+    const hasExactStyle = Boolean(block.namedStyleType) && SEMANTIC_BLOCK_TYPES.has(type);
 
     if (/^characters:?$/i.test(text)) {
       inCastList = true;
@@ -824,6 +841,13 @@ function repairContextualSemantics(blocks = []) {
         output.push(block);
         continue;
       }
+    }
+
+    // Exact Google Docs named styles are authoritative. Context remains only
+    // a safety net for legacy/untyped feed records.
+    if (hasExactStyle) {
+      output.push(block);
+      continue;
     }
 
     if (isSongEndHeading(text)) {
@@ -852,6 +876,32 @@ function repairContextualSemantics(blocks = []) {
   }
 
   return output;
+}
+
+function assertExactNamedStyles(feed) {
+  if (!Array.isArray(feed?.scenes) || !feed.scenes.length) return;
+
+  const missing = [];
+  for (const scene of feed.scenes) {
+    const sceneNumber = normalizeSceneNumber(scene.scene || scene.sceneNumber) || "?";
+    const blocks = Array.isArray(scene.blocks) ? scene.blocks : [];
+    for (let index = 0; index < blocks.length; index += 1) {
+      const block = blocks[index] || {};
+      if (!cleanBlockText(block.text || "")) continue;
+      if (!String(block.namedStyleType || "").trim()) {
+        missing.push(`Scene ${sceneNumber} block ${index + 1}`);
+      }
+    }
+  }
+
+  if (missing.length) {
+    fail(
+      `Structured script feed omitted exact namedStyleType values for ${missing
+        .slice(0, 20)
+        .join(", ")}${missing.length > 20 ? ` and ${missing.length - 20} more` : ""}. ` +
+      "Publishing stopped so contextual guessing cannot silently replace document structure."
+    );
+  }
 }
 
 function blocksToSourceText(blocks = []) {
@@ -982,6 +1032,8 @@ function normalizeFeedToScenes(feed) {
     fail(feed.error || "Script feed returned ok=false.");
   }
 
+  assertExactNamedStyles(feed);
+
   let scenes = [];
 
   if (Array.isArray(feed.scenes) && feed.scenes.length) {
@@ -1077,7 +1129,10 @@ function writeSceneJson(scene, feedMeta = {}) {
       .filter((block) => block && typeof block === "object")
       .map((block) => ({
         type: String(block.type || "text").trim() || "text",
-        text: String(block.text || "").trim()
+        text: String(block.text || "").trim(),
+        ...(String(block.namedStyleType || "").trim()
+          ? { namedStyleType: String(block.namedStyleType).trim().toUpperCase() }
+          : {})
       }))
       .filter((block) => block.type === "spacer" || block.text)
   };

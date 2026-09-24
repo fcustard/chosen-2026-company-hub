@@ -6,17 +6,24 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:58:45.505Z",
-  "contentHash": "f9d73db75156ed636f43655668cf01c14a5e01c4dfd3654c368fca9281c5ca30",
+  "sourceUpdated": "2026-09-24T17:24:04.190Z",
+  "contentHash": "7eb90c9cad38e23a1be6f0672149989d829415d146b066f052d8c356b57e1bba",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
-      "type": "music",
-      "text": "Musical Material: Short “Chosen” reprise — 45–60 seconds"
+      "type": "production-note",
+      "text": "Approximate Running Time: 7 minutes",
+      "namedStyleType": "SUBTITLE"
     },
     {
-      "type": "stage",
-      "text": "Characters: Mary, Elizabeth, Joseph, Levi, Malachi, Caleb, Ezra, Angel Voice / Messenger"
+      "type": "production-note",
+      "text": "Musical Material: Short “Chosen” reprise — 45–60 seconds",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "Characters: Mary, Elizabeth, Joseph, Levi, Malachi, Caleb, Ezra, Angel Voice / Messenger",
+      "namedStyleType": "SUBTITLE"
     },
     {
       "type": "spacer",
@@ -24,35 +31,43 @@
     },
     {
       "type": "transition",
-      "text": "TRANSITION FROM SCENE 6"
+      "text": "TRANSITION FROM SCENE 6",
+      "namedStyleType": "HEADING_5"
     },
     {
       "type": "stage",
-      "text": "No traditional blackout."
+      "text": "No traditional blackout.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Mary remains beside the unfinished table for one final breath after Joseph exits. A fragile trace of “Chosen” may remain underneath."
+      "text": "Mary remains beside the unfinished table for one final breath after Joseph exits. A fragile trace of “Chosen” may remain underneath.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The stage separates into two simultaneous worlds."
+      "text": "The stage separates into two simultaneous worlds.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "MARY’S ROAD: warm, domestic, safe. Simple elements suggest Elizabeth’s home."
+      "text": "MARY’S ROAD: warm, domestic, safe. Simple elements suggest Elizabeth’s home.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "JOSEPH’S ROAD: The workshop remains. The unfinished table, tools, and empty places where his friends stood are still visible."
+      "text": "JOSEPH’S ROAD: The workshop remains. The unfinished table, tools, and empty places where his friends stood are still visible.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Mary moves toward Elizabeth. Joseph moves back toward the men. They never see one another."
+      "text": "Mary moves toward Elizabeth. Joseph moves back toward the men. They never see one another.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Two people leaving the same wound in opposite directions."
+      "text": "Two people leaving the same wound in opposite directions.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -60,1763 +75,1243 @@
     },
     {
       "type": "heading",
-      "text": "MARY’S ROAD — ELIZABETH"
+      "text": "MARY’S ROAD — ELIZABETH",
+      "namedStyleType": "HEADING_2"
     },
     {
       "type": "stage",
-      "text": "Elizabeth is occupied with an ordinary household task. Mary appears at the edge of the space."
+      "text": "Elizabeth is occupied with an ordinary household task. Mary appears at the edge of the space.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Before entering, Mary wipes her face and tries to make herself presentable. She has been holding herself together since Joseph left."
+      "text": "Before entering, Mary wipes her face and tries to make herself presentable. She has been holding herself together since Joseph left.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "character",
-      "text": "ELIZABETH"
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
     },
     {
       "type": "dialogue",
-      "text": "Mary?"
+      "text": "Mary?",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
-      "text": "Mary stops."
+      "text": "Mary stops.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Something changes in Elizabeth before Mary explains anything. Elizabeth’s hand moves instinctively toward her own stomach."
+      "text": "Something changes in Elizabeth before Mary explains anything. Elizabeth’s hand moves instinctively toward her own stomach.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "character",
-      "text": "ELIZABETH"
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Oh...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "The moment I heard your voice...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Elizabeth feels the child move.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "She looks at her with wonder.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Blessed are you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary stares at her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What did you say?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "The child within me moved when he heard you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary’s breath catches.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "God has done something.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "For the first time since Gabriel, Mary does not have to explain herself.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You know?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know enough.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You believe me?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "That is what finally breaks through Mary’s composure. Not collapse—release.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Elizabeth opens her arms. Mary goes to her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "JOSEPH’S ROAD — THE MEN",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Mary remains with Elizabeth as Joseph’s side comes forward.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Levi, Caleb, Ezra, and Malachi are with Joseph. The ease of Scene 5 is gone. Joseph has told them enough.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Our Mary?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes, Caleb.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I just...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He cannot make the thought fit.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That was my reaction.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "A tiny breath of recognition, not a joke.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "She said an angel came to her.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "And the child comes from God.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s what she told me.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Ezra thinks. No conclusion comes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then you know what to do.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Do I?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "End it quietly.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Don’t shame her. Don’t drag her through the village. But don’t let this destroy you either.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Levi—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You love her. I know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "But protect yourself.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Malachi watches. Caleb looks miserable. Ezra is still thinking.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "BACK TO MARY — THE QUESTION SHE DOESN’T WANT",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph doesn’t believe me.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Elizabeth lets the sentence exist.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I thought if I told him the truth...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "He would understand.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "He looked at me like he didn’t know what was true anymore.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Elizabeth waits until Mary looks at her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "If Joseph had come to you yesterday and told you this story—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary already knows the question.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Would you have believed him?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary wants to answer quickly. She cannot.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Neither does he.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That doesn’t make it hurt less.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It doesn’t.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "No easy spiritual answer.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I said yes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I thought saying yes was the hard part.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Elizabeth understands.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Sometimes saying yes is only the beginning.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "JOSEPH’S ROAD — WHAT DO WE ACTUALLY KNOW?",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Say you’re done.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Levi—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know Mary.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "So does Joseph.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Exactly.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at Caleb.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s what makes this so...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Impossible?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yeah.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Malachi finally speaks.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Did you pray?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Did you pray?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Malachi, I know what happened.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You know what it looks like.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "That lands.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "There is a child. It isn’t mine. What exactly am I missing?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then why are you talking?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Because neither do you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph turns away.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "He’s right.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph turns back, almost offended.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You’re agreeing with him?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Don’t sound so surprised.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Ezra.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We know Mary is with child. We know what she told you. We know what it looks like.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We don’t know what happened.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know enough.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Do you?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph has no patience left for the question.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "MARY — FAITH AFTER THE COST",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "God was faithful.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then why does obedience feel like everything is falling apart?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Because faithful and easy are not the same thing.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks down.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I didn’t know my yes would cost Joseph.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You can’t give his answer for him.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "And if he never believes me?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Elizabeth does not promise what she cannot know.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then it will hurt.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "And God will still be faithful.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "That is harder to receive than reassurance.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "“CHOSEN” REPRISE",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "A quiet version of Mary's “Chosen” motif begins.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Not a second full song.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Not a power vocal.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The reprise should sound like someone remembering words she once believed more easily.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "MARY — MUSICAL TERRITORY",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "Earlier",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "lyric",
-      "text": "Oh..."
+      "text": "I will trust.",
+      "namedStyleType": "TITLE"
     },
     {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "What?"
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "The moment I heard your voice..."
-    },
-    {
-      "type": "dialogue",
-      "text": "Elizabeth feels the child move."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary."
-    },
-    {
-      "type": "stage",
-      "text": "She looks at her with wonder."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Blessed are you."
-    },
-    {
-      "type": "stage",
-      "text": "Mary stares at her."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "What did you say?"
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "The child within me moved when he heard you."
-    },
-    {
-      "type": "stage",
-      "text": "Mary’s breath catches."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "God has done something."
-    },
-    {
-      "type": "dialogue",
-      "text": "For the first time since Gabriel, Mary does not have to explain herself."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You know?"
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I know enough."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You believe me?"
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Yes."
-    },
-    {
-      "type": "dialogue",
-      "text": "That is what finally breaks through Mary’s composure. Not collapse—release."
-    },
-    {
-      "type": "dialogue",
-      "text": "Elizabeth opens her arms. Mary goes to her."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "JOSEPH’S ROAD — THE MEN"
-    },
-    {
-      "type": "stage",
-      "text": "Mary remains with Elizabeth as Joseph’s side comes forward."
-    },
-    {
-      "type": "stage",
-      "text": "Levi, Caleb, Ezra, and Malachi are with Joseph. The ease of Scene 5 is gone. Joseph has told them enough."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Yes."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Our Mary?"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at him."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Yes, Caleb."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "I just..."
-    },
-    {
-      "type": "stage",
-      "text": "He cannot make the thought fit."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "That was my reaction."
-    },
-    {
-      "type": "stage",
-      "text": "A tiny breath of recognition, not a joke."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "She said an angel came to her."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Yes."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "And the child comes from God."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "That’s what she told me."
-    },
-    {
-      "type": "dialogue",
-      "text": "Ezra thinks. No conclusion comes."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Then you know what to do."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Do I?"
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "End it quietly."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at him."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Don’t shame her. Don’t drag her through the village. But don’t let this destroy you either."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Levi—"
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "You love her. I know."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "But protect yourself."
-    },
-    {
-      "type": "stage",
-      "text": "Malachi watches. Caleb looks miserable. Ezra is still thinking."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "BACK TO MARY — THE QUESTION SHE DOESN’T WANT"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph doesn’t believe me."
-    },
-    {
-      "type": "dialogue",
-      "text": "Elizabeth lets the sentence exist."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I thought if I told him the truth..."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "He would understand."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Yes."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "He looked at me like he didn’t know what was true anymore."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary..."
-    },
-    {
-      "type": "dialogue",
-      "text": "Elizabeth waits until Mary looks at her."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "If Joseph had come to you yesterday and told you this story—"
-    },
-    {
-      "type": "stage",
-      "text": "Mary already knows the question."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Would you have believed him?"
-    },
-    {
-      "type": "stage",
-      "text": "Mary wants to answer quickly. She cannot."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I don’t know."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Neither does he."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "That doesn’t make it hurt less."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "No."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "It doesn’t."
-    },
-    {
-      "type": "dialogue",
-      "text": "No easy spiritual answer."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I said yes."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I know."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I thought saying yes was the hard part."
-    },
-    {
-      "type": "dialogue",
-      "text": "Elizabeth understands."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Sometimes saying yes is only the beginning."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "JOSEPH’S ROAD — WHAT DO WE ACTUALLY KNOW?"
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Say you’re done."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Levi—"
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "What?"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "I know Mary."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "So does Joseph."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Exactly."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at Caleb."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "That’s what makes this so..."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Impossible?"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Yeah."
-    },
-    {
-      "type": "dialogue",
-      "text": "Malachi finally speaks."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Did you pray?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "What?"
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Did you pray?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Malachi, I know what happened."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "No."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "You know what it looks like."
-    },
-    {
-      "type": "dialogue",
-      "text": "That lands."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "There is a child. It isn’t mine. What exactly am I missing?"
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "I don’t know."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Then why are you talking?"
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Because neither do you."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph turns away."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "He’s right."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph turns back, almost offended."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "You’re agreeing with him?"
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Don’t sound so surprised."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Ezra."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "We know Mary is with child. We know what she told you. We know what it looks like."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "We don’t know what happened."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I know enough."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Do you?"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph has no patience left for the question."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "MARY — FAITH AFTER THE COST"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "God was faithful."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Yes."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Then why does obedience feel like everything is falling apart?"
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Because faithful and easy are not the same thing."
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks down."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I didn’t know my yes would cost Joseph."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "You can’t give his answer for him."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "And if he never believes me?"
-    },
-    {
-      "type": "dialogue",
-      "text": "Elizabeth does not promise what she cannot know."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Then it will hurt."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "ELIZABETH"
-    },
-    {
-      "type": "dialogue",
-      "text": "And God will still be faithful."
-    },
-    {
-      "type": "dialogue",
-      "text": "That is harder to receive than reassurance."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "“CHOSEN” REPRISE"
-    },
-    {
-      "type": "stage",
-      "text": "A quiet version of Mary's “Chosen” motif begins."
-    },
-    {
-      "type": "stage",
-      "text": "Not a second full song."
-    },
-    {
-      "type": "stage",
-      "text": "Not a power vocal."
-    },
-    {
-      "type": "stage",
-      "text": "The reprise should sound like someone remembering words she once believed more easily."
-    },
-    {
-      "type": "heading",
-      "text": "MARY — MUSICAL TERRITORY"
-    },
-    {
-      "type": "stage",
-      "text": "Earlier"
-    },
-    {
-      "type": "stage",
-      "text": "I will trust."
-    },
-    {
-      "type": "stage",
-      "text": "Now"
-    },
-    {
-      "type": "stage",
-      "text": "I must keep trusting."
-    },
-    {
-      "type": "stage",
-      "text": "Possible lyrical territory"
-    },
-    {
-      "type": "stage",
-      "text": "I said yes before I knew"
-    },
-    {
-      "type": "stage",
-      "text": "how heavy yes could be."
-    },
-    {
-      "type": "stage",
-      "text": "I saw only the promise—"
-    },
-    {
-      "type": "stage",
-      "text": "not what it might ask of me."
-    },
-    {
-      "type": "stage",
-      "text": "Elizabeth may gently join in harmony."
-    },
-    {
-      "type": "stage",
-      "text": "Not preaching."
-    },
-    {
-      "type": "stage",
-      "text": "Supporting."
-    },
-    {
-      "type": "heading",
-      "text": "ELIZABETH — MUSICAL TERRITORY"
-    },
-    {
-      "type": "stage",
-      "text": "You don't need the whole road."
-    },
-    {
-      "type": "stage",
-      "text": "You only need the next step."
-    },
-    {
-      "type": "stage",
-      "text": "Mary's motif returns."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Chosen doesn't mean unafraid..."
-    },
-    {
-      "type": "stage",
-      "text": "She almost stops."
-    },
-    {
-      "type": "stage",
-      "text": "Then continues."
-    },
-    {
-      "type": "stage",
-      "text": "It means I trust Him even here."
-    },
-    {
-      "type": "stage",
-      "text": "The reprise resolves quietly."
-    },
-    {
-      "type": "stage",
-      "text": "Mary is not suddenly happy."
-    },
-    {
-      "type": "stage",
-      "text": "She is steadier."
-    },
-    {
-      "type": "stage",
-      "text": "Elizabeth takes her hand."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "JOSEPH — ENOUGH"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph’s side returns fully."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "What exactly am I supposed to pray?"
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "The truth."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I’ve been trying to find the truth all night."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "No. Your truth."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at him."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Tell God what you know."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Then tell Him what you don’t."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at all four men."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Go home."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph—"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Please."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I need everyone to stop talking."
-    },
-    {
-      "type": "stage",
-      "text": "They understand."
-    },
-    {
-      "type": "stage",
-      "text": "Levi puts a hand briefly on Joseph’s shoulder."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "We’re here tomorrow."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at him. The word lands after everything “tomorrow” has meant."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I know."
-    },
-    {
-      "type": "stage",
-      "text": "Levi exits."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "If you need me—"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I know."
-    },
-    {
-      "type": "stage",
-      "text": "Caleb exits."
-    },
-    {
-      "type": "stage",
-      "text": "Ezra notices a tool out of place. Instinctively he puts it where it belongs, then stops himself from trying to fix anything else."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "For what it’s worth..."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph waits."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "I still don’t understand it."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Neither do I."
-    },
-    {
-      "type": "stage",
-      "text": "Ezra exits."
-    },
-    {
-      "type": "stage",
-      "text": "Malachi remains."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "You’re still here."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "I know."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Malachi."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Ask Him."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "That’s all."
-    },
-    {
-      "type": "stage",
-      "text": "Malachi exits."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "JOSEPH ALONE — THE RHYTHM FAILS"
-    },
-    {
-      "type": "stage",
-      "text": "Silence."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph stands in the same workshop that was alive with Brotherhood only hours ago."
-    },
-    {
-      "type": "stage",
-      "text": "He picks up his hammer."
-    },
-    {
-      "type": "heading",
-      "text": "BANG"
-    },
-    {
-      "type": "stage",
-      "text": "He waits unconsciously for the answer that used to come from the other men."
-    },
-    {
-      "type": "stage",
-      "text": "Nothing."
-    },
-    {
-      "type": "heading",
-      "text": "BANG. BANG."
-    },
-    {
-      "type": "stage",
-      "text": "Still nothing."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph attempts the familiar sequence."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Measure."
-    },
-    {
-      "type": "stage",
-      "text": "He measures."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mark."
-    },
-    {
-      "type": "stage",
-      "text": "He marks."
-    },
-    {
-      "type": "stage",
-      "text": "He cannot continue."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Come on."
-    },
-    {
-      "type": "stage",
-      "text": "He resets."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Measure. Mark..."
-    },
-    {
-      "type": "dialogue",
-      "text": "Nothing."
-    },
-    {
-      "type": "dialogue",
-      "text": "His hand lowers."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I can’t fix this."
-    },
-    {
-      "type": "stage",
-      "text": "Silence."
-    },
-    {
-      "type": "stage",
-      "text": "For Joseph, that admission is enormous."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "JOSEPH’S PRAYER"
-    },
-    {
-      "type": "stage",
-      "text": "No polished posture. No sudden eloquence. Joseph sits or leans against the workbench because he is exhausted."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "God..."
-    },
-    {
-      "type": "dialogue",
-      "text": "Long silence."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I don’t know what to ask."
-    },
-    {
-      "type": "dialogue",
-      "text": "Nothing."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I know what it looks like."
-    },
-    {
-      "type": "stage",
-      "text": "He hears Malachi in the sentence."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I thought I knew what happened."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Maybe I don’t."
-    },
-    {
-      "type": "dialogue",
-      "text": "That costs him."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I know Mary."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I love Mary."
-    },
-    {
-      "type": "stage",
-      "text": "Silence."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "If she’s telling the truth..."
-    },
-    {
-      "type": "stage",
-      "text": "He cannot finish."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Please."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Show me what I can’t see."
-    },
-    {
-      "type": "stage",
-      "text": "He waits."
-    },
-    {
-      "type": "stage",
-      "text": "The exhaustion of the day finally overtakes him."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE DREAM"
-    },
-    {
-      "type": "stage",
-      "text": "This is the scene’s transformational LED moment."
-    },
-    {
-      "type": "stage",
-      "text": "Do not repeat Mary’s Gabriel visitation. Joseph’s familiar world remains recognizable at first, but it stops obeying the rules he trusts. Sound stretches. Straight workshop lines subtly lose reliable perspective. The unfinished table becomes silhouette. Depth becomes uncertain."
-    },
-    {
-      "type": "stage",
-      "text": "No clouds. No giant wings. No celestial spectacle for its own sake."
-    },
-    {
-      "type": "stage",
-      "text": "An angelic presence is revealed within the altered world."
-    },
-    {
-      "type": "character",
-      "text": "ANGEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph stirs within the dream."
-    },
-    {
-      "type": "character",
-      "text": "ANGEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph, son of David."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "ANGEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Do not be afraid to take Mary as your wife."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks toward the presence."
-    },
-    {
-      "type": "character",
-      "text": "ANGEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "She told you the truth."
-    },
-    {
-      "type": "dialogue",
-      "text": "That is the blow."
-    },
-    {
-      "type": "character",
-      "text": "ANGEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "The child she carries comes from God."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph can barely breathe."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary..."
-    },
-    {
-      "type": "character",
-      "text": "ANGEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "She will have a son."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "ANGEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "You will name him Jesus."
-    },
-    {
-      "type": "stage",
-      "text": "The name is delivered simply. No musical hit. No graphic. No public payoff."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "What am I supposed to do?"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph wants the blueprint."
-    },
-    {
-      "type": "character",
-      "text": "ANGEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Do not be afraid."
-    },
-    {
-      "type": "stage",
-      "text": "The presence begins to recede."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Wait."
-    },
-    {
-      "type": "stage",
-      "text": "The dream does not wait."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "What do I—"
-    },
-    {
-      "type": "heading",
-      "text": "THE DREAM ENDS"
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "JOSEPH WAKES"
-    },
-    {
-      "type": "stage",
-      "text": "Silence."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph wakes sharply."
-    },
-    {
-      "type": "stage",
-      "text": "The ordinary workshop has returned exactly as it was: table, tools, wood, satchel."
-    },
-    {
-      "type": "stage",
-      "text": "He sits for a moment."
-    },
-    {
-      "type": "stage",
-      "text": "Do not rush this. The audience must be allowed to watch the truth reach him and then watch him realize what Mary endured while he did not believe her."
-    },
-    {
-      "type": "stage",
-      "text": "His eyes find the unfinished table."
-    },
-    {
-      "type": "stage",
-      "text": "He touches it."
-    },
-    {
       "type": "stage",
-      "text": "Earlier, it represented the future Joseph planned. Now it represents something he has been entrusted to serve without controlling."
+      "text": "Now",
+      "namedStyleType": "HEADING_6"
     },
     {
-      "type": "stage",
-      "text": "He notices the satchel Mary made for him. He takes it with him not as a sentimental prop, but because he is going back to her."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph stands."
-    },
-    {
-      "type": "stage",
-      "text": "No speech explaining the dream. No declaration that Mary was telling the truth."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary."
-    },
-    {
-      "type": "stage",
-      "text": "He exits with urgency."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "transition",
-      "text": "FINAL CROSSCUT"
-    },
-    {
-      "type": "stage",
-      "text": "Before the transition completes, Mary and Elizabeth return softly to view."
-    },
-    {
-      "type": "stage",
-      "text": "Mary is sitting with Elizabeth. She does not know what has happened to Joseph."
-    },
-    {
-      "type": "stage",
-      "text": "She does not know he is coming."
-    },
-    {
-      "type": "stage",
-      "text": "The audience does."
-    },
-    {
-      "type": "stage",
-      "text": "For once, the audience is ahead of Mary."
+      "type": "lyric",
+      "text": "I must keep trusting.",
+      "namedStyleType": "TITLE"
     },
     {
       "type": "music",
-      "text": "Music begins carrying us toward Scene 8."
+      "text": "Possible lyrical territory",
+      "namedStyleType": "HEADING_4"
     },
     {
-      "type": "transition",
-      "text": "END SCENE 7"
+      "type": "lyric",
+      "text": "I said yes before I knew",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "lyric",
+      "text": "how heavy yes could be.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "lyric",
+      "text": "I saw only the promise—",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "lyric",
+      "text": "not what it might ask of me.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "stage",
+      "text": "Elizabeth may gently join in harmony.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Not preaching.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Supporting.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "ELIZABETH — MUSICAL TERRITORY",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "lyric",
+      "text": "You don't need the whole road.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "lyric",
+      "text": "You only need the next step.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "stage",
+      "text": "Mary's motif returns.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "lyric",
+      "text": "Chosen doesn't mean unafraid...",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "stage",
+      "text": "She almost stops.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Then continues.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "lyric",
+      "text": "It means I trust Him even here.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "stage",
+      "text": "The reprise resolves quietly.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary is not suddenly happy.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She is steadier.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Elizabeth takes her hand.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -1824,47 +1319,1005 @@
     },
     {
       "type": "heading",
-      "text": "NOTES"
+      "text": "JOSEPH — ENOUGH",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph’s side returns fully.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What exactly am I supposed to pray?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "The truth.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’ve been trying to find the truth all night.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No. Your truth.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Tell God what you know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then tell Him what you don’t.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at all four men.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Go home.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Please.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I need everyone to stop talking.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "They understand.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Levi puts a hand briefly on Joseph’s shoulder.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We’re here tomorrow.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at him. The word lands after everything “tomorrow” has meant.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Levi exits.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "If you need me—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Caleb exits.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Ezra notices a tool out of place. Instinctively he puts it where it belongs, then stops himself from trying to fix anything else.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "For what it’s worth...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph waits.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I still don’t understand it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Neither do I.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Ezra exits.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Malachi remains.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You’re still here.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Malachi.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Ask Him.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That’s all.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Malachi exits.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
       "text": ""
     },
     {
-      "type": "stage",
-      "text": "Scene 7 should feel structurally different from anything before it: Mary and Joseph are physically separated, but the audience watches them wrestle with the same crisis at the same time. The source architecture specifically calls for crosscutting their journeys—Mary receiving confirmation from Elizabeth while Joseph receives competing counsel from his friends—before Joseph is finally left alone to pray and receive his dream."
+      "type": "heading",
+      "text": "JOSEPH ALONE — THE RHYTHM FAILS",
+      "namedStyleType": "HEADING_2"
     },
     {
       "type": "stage",
-      "text": "For the naming continuity, I recommend that the angel does tell Joseph, quietly, “You will name him Jesus,” because that belongs to Joseph's biblical calling. But Joseph will not repeat the name here, and we will not musically spotlight it. Scene 12 remains the major public naming payoff, when Joseph himself answers the shepherds: “Jesus.”"
+      "text": "Silence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph stands in the same workshop that was alive with Brotherhood only hours ago.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He picks up his hammer.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "BANG",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "He waits unconsciously for the answer that used to come from the other men.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Nothing.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "BANG. BANG.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "Still nothing.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph attempts the familiar sequence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Measure.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He measures.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mark.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He marks.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He cannot continue.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Come on.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He resets.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Measure. Mark...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Nothing.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "His hand lowers.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I can’t fix this.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Silence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "For Joseph, that admission is enormous.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
       "text": ""
     },
     {
-      "type": "stage",
-      "text": "A key thing I would protect in rehearsal is that Elizabeth and Malachi perform parallel functions without sounding alike. Elizabeth helps Mary understand that God's faithfulness does not guarantee an easy road; Malachi helps Joseph admit that what something looks like and what it is may not be identical. Neither character solves the problem for them. Mary and Joseph still have to make their own choices. That is exactly what the locked architecture calls for."
+      "type": "heading",
+      "text": "JOSEPH’S PRAYER",
+      "namedStyleType": "HEADING_2"
     },
     {
       "type": "stage",
-      "text": "I also strongly recommend keeping Joseph's prayer “bad” in the best dramatic sense—raw, incomplete, and uncertain. The source specifically warns against suddenly making him eloquent. His breakthrough is simply moving from “I know what happened” to “Maybe I don't.” That humility is what makes the dream feel earned rather than convenient."
+      "text": "No polished posture. No sudden eloquence. Joseph sits or leans against the workbench because he is exhausted.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "God...",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
-      "text": "And the final symmetry is worth keeping"
+      "text": "Long silence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t know what to ask.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
-      "text": "Scene 3 ends: Mary — “Joseph.”"
+      "text": "Nothing.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know what it looks like.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
-      "text": "Scene 7 ends: Joseph — “Mary.”"
+      "text": "He hears Malachi in the sentence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I thought I knew what happened.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
-      "text": "That makes Scene 8 feel inevitable before either of them has even crossed the stage toward the other."
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Maybe I don’t.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "That costs him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know Mary.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I love Mary.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Silence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "If she’s telling the truth...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He cannot finish.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Please.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Show me what I can’t see.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He waits.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The exhaustion of the day finally overtakes him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "THE DREAM",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "This is the scene’s transformational LED moment.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Do not repeat Mary’s Gabriel visitation. Joseph’s familiar world remains recognizable at first, but it stops obeying the rules he trusts. Sound stretches. Straight workshop lines subtly lose reliable perspective. The unfinished table becomes silhouette. Depth becomes uncertain.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "No clouds. No giant wings. No celestial spectacle for its own sake.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "An angelic presence is revealed within the altered world.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANGEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph stirs within the dream.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANGEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph, son of David.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANGEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Do not be afraid to take Mary as your wife.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks toward the presence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANGEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "She told you the truth.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "That is the blow.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANGEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "The child she carries comes from God.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph can barely breathe.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ANGEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "She will have a son.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANGEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You will name him Jesus.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "The name is delivered simply. No musical hit. No graphic. No public payoff.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What am I supposed to do?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph wants the blueprint.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANGEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Do not be afraid.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "The presence begins to recede.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Wait.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "The dream does not wait.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What do I—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "transition",
+      "text": "THE DREAM ENDS",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "JOSEPH WAKES",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Silence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph wakes sharply.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The ordinary workshop has returned exactly as it was: table, tools, wood, satchel.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He sits for a moment.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Do not rush this. The audience must be allowed to watch the truth reach him and then watch him realize what Mary endured while he did not believe her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "His eyes find the unfinished table.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He touches it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Earlier, it represented the future Joseph planned. Now it represents something he has been entrusted to serve without controlling.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He notices the satchel Mary made for him. He takes it with him not as a sentimental prop, but because he is going back to her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph stands.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "No speech explaining the dream. No declaration that Mary was telling the truth.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He exits with urgency.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "transition",
+      "text": "FINAL CROSSCUT",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "stage",
+      "text": "Before the transition completes, Mary and Elizabeth return softly to view.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary is sitting with Elizabeth. She does not know what has happened to Joseph.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She does not know he is coming.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The audience does.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "For once, the audience is ahead of Mary.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "Music begins carrying us toward Scene 8.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "transition",
+      "text": "END SCENE 7",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "NOTES",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "production-note",
+      "text": "Scene 7 should feel structurally different from anything before it: Mary and Joseph are physically separated, but the audience watches them wrestle with the same crisis at the same time. The source architecture specifically calls for crosscutting their journeys—Mary receiving confirmation from Elizabeth while Joseph receives competing counsel from his friends—before Joseph is finally left alone to pray and receive his dream.",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "For the naming continuity, I recommend that the angel does tell Joseph, quietly, “You will name him Jesus,” because that belongs to Joseph's biblical calling. But Joseph will not repeat the name here, and we will not musically spotlight it. Scene 12 remains the major public naming payoff, when Joseph himself answers the shepherds: “Jesus.”",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "production-note",
+      "text": "A key thing I would protect in rehearsal is that Elizabeth and Malachi perform parallel functions without sounding alike. Elizabeth helps Mary understand that God's faithfulness does not guarantee an easy road; Malachi helps Joseph admit that what something looks like and what it is may not be identical. Neither character solves the problem for them. Mary and Joseph still have to make their own choices. That is exactly what the locked architecture calls for.",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "I also strongly recommend keeping Joseph's prayer “bad” in the best dramatic sense—raw, incomplete, and uncertain. The source specifically warns against suddenly making him eloquent. His breakthrough is simply moving from “I know what happened” to “Maybe I don't.” That humility is what makes the dream feel earned rather than convenient.",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "And the final symmetry is worth keeping",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "transition",
+      "text": "Scene 3 ends: Mary — “Joseph.”",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "transition",
+      "text": "Scene 7 ends: Joseph — “Mary.”",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "production-note",
+      "text": "That makes Scene 8 feel inevitable before either of them has even crossed the stage toward the other.",
+      "namedStyleType": "SUBTITLE"
     }
   ]
 }
