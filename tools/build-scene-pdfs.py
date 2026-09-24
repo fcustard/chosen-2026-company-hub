@@ -97,12 +97,6 @@ def build_scene(path: Path, sheet):
             # Actor PDFs intentionally omit internal production notes. The
             # structured scene JSON remains the complete source of truth.
             continue
-        if kind == "stage" and (
-            re.match(r"^Musical Reprise:\s*approx\.", text, re.I)
-            or re.search(r"\bpublic naming payoff remains protected for Scene \d+\b", text, re.I)
-        ):
-            # Source-styled stage paragraphs that are production planning notes.
-            continue
         if kind == "spacer" or not text:
             story.append(Spacer(1, 0.07 * inch))
             continue
