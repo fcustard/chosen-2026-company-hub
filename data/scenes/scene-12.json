@@ -6,7 +6,7 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T15:46:41.081Z",
+  "sourceUpdated": "2026-09-24T15:48:42.265Z",
   "contentHash": "9d93680de3763af146e37006f68493ee6e8618793e7d636e8a2454978cc61a58",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
@@ -715,11 +715,11 @@
       "text": "Eli opens the door, exhausted."
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "ELI"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Yes?"
     },
     {
@@ -731,11 +731,11 @@
       "text": "Forgive us. We’re looking for a baby."
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "ELI"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "A baby?"
     },
     {
@@ -747,11 +747,11 @@
       "text": "Born tonight."
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "ELI"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "There are quite a few people in Bethlehem tonight."
     },
     {
@@ -767,11 +767,11 @@
       "text": "Eli stops."
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "ELI"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "An angel?"
     },
     {
@@ -783,11 +783,11 @@
       "text": "That’s what we said."
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "ELI"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "What did he tell you?"
     },
     {
@@ -815,11 +815,11 @@
       "text": "Eli looks toward the rear of the property."
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "ELI"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "A manger."
     },
     {
@@ -827,11 +827,11 @@
       "text": "He understands enough."
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "ELI"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Come with me."
     },
     {
@@ -839,11 +839,11 @@
       "text": "They start."
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "ELI"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "Quietly."
     },
     {
@@ -879,11 +879,11 @@
       "text": "Eli?"
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "ELI"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "It’s all right."
     },
     {
@@ -891,11 +891,11 @@
       "text": "Joseph sees the shepherds."
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "ELI"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "They came looking for the baby."
     },
     {
