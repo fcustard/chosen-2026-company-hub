@@ -360,6 +360,10 @@ function renderLyric(text) {
   return `<p class="lyric">${escapeHtml(text)}</p>`;
 }
 
+function renderProductionNote(text) {
+  return `<p class="productionNote">${escapeHtml(text)}</p>`;
+}
+
 function renderPlain(text) {
   return `<p>${escapeHtml(text)}</p>`;
 }
@@ -448,6 +452,9 @@ function renderBlock(block, index = 0, blocks = []) {
 
     case "transition":
       return renderMusicCue(text);
+
+    case "production-note":
+      return renderProductionNote(text);
 
     case "spacer":
       return `<div class="scriptSpacer" aria-hidden="true"></div>`;
@@ -705,6 +712,13 @@ function renderSceneReader({
     .scriptContent .stageDirection {
       color: #41506a;
       font-style: italic;
+    }
+
+    .scriptContent .productionNote {
+      margin: 0.2rem 0;
+      color: #596273;
+      font-size: 0.94rem;
+      line-height: 1.45;
     }
 
     .scriptContent .lyric {
