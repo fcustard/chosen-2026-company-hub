@@ -133,6 +133,45 @@ const NUMBERED_SPEAKER_BASES = new Set([
   "WOMAN CUSTOMER"
 ]);
 
+const SEMANTIC_BLOCK_TYPES = new Set([
+  "character", "dialogue", "stage", "heading", "music", "transition",
+  "lyric", "production-note", "spacer"
+]);
+
+const STYLE_TO_BLOCK_TYPE = new Map([
+  ["SCRIPT CHARACTER", "character"],
+  ["SCRIPT DIALOGUE", "dialogue"],
+  ["SCRIPT STAGE DIRECTION", "stage"],
+  ["SCRIPT SECTION", "heading"],
+  ["SCRIPT MUSIC CUE", "music"],
+  ["SCRIPT TRANSITION", "transition"],
+  ["SCRIPT LYRIC", "lyric"],
+  ["SCRIPT PRODUCTION NOTE", "production-note"],
+  ["HEADING_3", "character"],
+  ["HEADING 3", "character"],
+  ["HEADING_2", "heading"],
+  ["HEADING 2", "heading"],
+  ["HEADING_4", "music"],
+  ["HEADING 4", "music"],
+  ["HEADING_5", "transition"],
+  ["HEADING 5", "transition"],
+  ["HEADING_6", "production-note"],
+  ["HEADING 6", "production-note"]
+]);
+
+function explicitBlockType(block = {}) {
+  const style = String(
+    block.styleName || block.namedStyleType || block.paragraphStyle || block.style || ""
+  ).trim().toUpperCase().replace(/[\s-]+/g, " ");
+  const styledType = STYLE_TO_BLOCK_TYPE.get(style) || STYLE_TO_BLOCK_TYPE.get(style.replace(/ /g, "_"));
+  if (styledType) return styledType;
+
+  const rawType = String(block.type || block.blockType || block.semanticType || "")
+    .trim()
+    .toLowerCase();
+  return SEMANTIC_BLOCK_TYPES.has(rawType) ? rawType : "";
+}
+
 
 const STOP_MARKERS = [
   /^CHARACTERS BY SCENE\b/i,
@@ -665,7 +704,9 @@ function reclassifyBlocksForReader(blocks = []) {
       continue;
     }
 
-    const type = lineType(text, previousType);
+    const type = block._semantic === true && SEMANTIC_BLOCK_TYPES.has(block.type)
+      ? block.type
+      : lineType(text, previousType);
 
     output.push({ type, text });
 
@@ -744,7 +785,19 @@ function normalizeBlocksForPublication(scene = {}) {
   const rawText = normalizeNewlines(scene.text || scene.sourceText || "");
   const rawBlocks = Array.isArray(scene.blocks) ? scene.blocks : [];
 
-  // Preferred path: treat the scene as lines, not already-classified blocks.
+  // Preferred path: preserve explicit semantic types/styles supplied by the
+  // document feed. Text heuristics are only a compatibility fallback.
+  const semanticBlocks = rawBlocks.map((block) => {
+    const semanticType = explicitBlockType(block);
+    return semanticType ? { ...block, type: semanticType, _semantic: true } : { ...block };
+  });
+  const hasSemanticBlocks = semanticBlocks.some((block) => block._semantic === true);
+
+  if (hasSemanticBlocks) {
+    return finalRepairBlocksForPublication(semanticBlocks);
+  }
+
+  // Legacy path: treat unstyled scene content as lines.
   // This catches every form Google Docs has produced so far and keeps the repair global:
   // - MERCHANT + 1 as separate blocks
   // - MERCHANT + blank/spacer + 1

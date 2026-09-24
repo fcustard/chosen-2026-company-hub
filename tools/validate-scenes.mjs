@@ -67,6 +67,53 @@ function validateCharacterCues(scene, fileName) {
   }
 }
 
+function normalizedCue(value) {
+  return cleanCharacterCue(value).replace(/[:：]+$/, "").toUpperCase();
+}
+
+function looksLikeCharacter(value) {
+  const cue = normalizedCue(value);
+  return /^[A-Z][A-Z0-9 &'’.\/\-–—]{1,50}$/.test(cue) && !/[.!?]$/.test(cue);
+}
+
+function validateSemanticSequence(scene, fileName) {
+  const blocks = scene.blocks || [];
+  let inCharacterList = false;
+  for (let index = 0; index < blocks.length; index += 1) {
+    const block = blocks[index] || {};
+    const type = String(block.type || "").trim().toLowerCase();
+    const text = cleanCharacterCue(block.text || "");
+    const next = blocks.slice(index + 1).find((item) => item?.type !== "spacer");
+
+    if (/^characters:?$/i.test(text)) inCharacterList = true;
+    if (inCharacterList && type === "spacer") inCharacterList = false;
+    if (inCharacterList && ["heading", "transition"].includes(type)) inCharacterList = false;
+
+    const isGroupLabel = /^(CHILD STORYTELLERS|MARY'S FRIENDS|JOSEPH'S FRIENDS|GOSSIP GIRLS|WISE MEN|VILLAGERS|DANCERS|ENSEMBLE|COMPANY)$/i.test(text);
+
+    if (type === "character" && !inCharacterList && !isGroupLabel && next && String(next.type).toLowerCase() === "character") {
+      fail(`${fileName} block ${index + 1} character "${text}" is followed by another character cue without dialogue.`);
+    }
+
+    if (type === "character" && /^(CHILD|CUSTOMER|GOSSIPER|INNKEEPER|MERCHANT|SHEPHERD|VILLAGER WOMAN|WOMAN CUSTOMER)$/i.test(text)) {
+      if (next && /^\d{1,2}$/.test(cleanCharacterCue(next.text || ""))) {
+        fail(`${fileName} block ${index + 1} splits numbered character name "${text} ${next.text}".`);
+      }
+    }
+
+    if (type === "heading" && looksLikeCharacter(text)) {
+      const followingType = String(next?.type || "").toLowerCase();
+      if (followingType === "dialogue") {
+        fail(`${fileName} block ${index + 1} classifies apparent character "${text}" as a section heading.`);
+      }
+    }
+
+    if (["text", "normal", "unknown", ""].includes(type) && text) {
+      fail(`${fileName} block ${index + 1} is ambiguous and must be classified as dialogue, stage, heading, music, transition, lyric, production-note, or character.`);
+    }
+  }
+}
+
 const scripts = readJson(SCRIPTS_FILE);
 
 if (!Array.isArray(scripts)) {
@@ -110,6 +157,7 @@ for (const fileName of sceneFiles) {
   }
 
   validateCharacterCues(scene, fileName);
+  validateSemanticSequence(scene, fileName);
 
   const manifest = scripts.find(
     (item) => normalizeSceneNumber(item.scene) === sceneNumber
