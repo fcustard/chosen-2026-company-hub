@@ -6,10 +6,20 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:24:04.190Z",
-  "contentHash": "248c27cb3c41764839134288ddeccae84855a2b6cebc97d61b951db43875d61e",
+  "sourceUpdated": "2026-09-24T19:48:26.845Z",
+  "contentHash": "5c93a2adb62157e9f7ca522897d253614d848b34ce265576cd6db91e80300f28",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER",
+      "namedStyleType": "HEADING_1"
+    },
+    {
+      "type": "heading",
+      "text": "SCENE 8 — REUNION / “STILL YOURS”",
+      "namedStyleType": "HEADING_1"
+    },
     {
       "type": "production-note",
       "text": "Target Runtime: 5:30–5:50",

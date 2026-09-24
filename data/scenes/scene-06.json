@@ -6,10 +6,20 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:24:04.190Z",
-  "contentHash": "a5fec0f31c5ac4fe2c11edd91ac763921d01c4cd885ca5a8bc29c186f909e2c6",
+  "sourceUpdated": "2026-09-24T19:48:26.845Z",
+  "contentHash": "933adec3cb665b0992cf589c63ee2f986b281c4c3933b351f906df17039ba525",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER",
+      "namedStyleType": "HEADING_1"
+    },
+    {
+      "type": "heading",
+      "text": "SCENE 6 — MARY & JOSEPH / “IT’S NOT MINE”",
+      "namedStyleType": "HEADING_1"
+    },
     {
       "type": "production-note",
       "text": "Approximate Running Time: 7–8 minutes",

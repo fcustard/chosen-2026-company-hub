@@ -6,10 +6,20 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:24:04.190Z",
-  "contentHash": "af5f03b35be1dc0777a7b088c928e41af39aba7170cb98d4e4ef9da1280b6a13",
+  "sourceUpdated": "2026-09-24T19:48:26.845Z",
+  "contentHash": "7f365a28299e4b7b265c5d65ff10d54e9a145976891379a504927027efe352ab",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER",
+      "namedStyleType": "HEADING_1"
+    },
+    {
+      "type": "heading",
+      "text": "SCENE 4 — THE SECRET",
+      "namedStyleType": "HEADING_1"
+    },
     {
       "type": "production-note",
       "text": "Approximate Running Time: 5–6 minutes",

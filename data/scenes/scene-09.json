@@ -6,10 +6,20 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:24:04.190Z",
-  "contentHash": "21262a570ab2c901aada19acc266a45e28edf11a395cf27a94f3f38e7e32ab9d",
+  "sourceUpdated": "2026-09-24T19:48:26.845Z",
+  "contentHash": "7281bcd9a1fda7415c3d01fff6196240e2f322337ab46240ad3269fcf3a8b6ce",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER",
+      "namedStyleType": "HEADING_1"
+    },
+    {
+      "type": "heading",
+      "text": "SCENE 9 — “WHAT WILL HE BE?” / THE TOWN TURNS",
+      "namedStyleType": "HEADING_1"
+    },
     {
       "type": "production-note",
       "text": "Approximate Running Time: 6 minutes",

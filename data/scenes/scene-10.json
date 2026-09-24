@@ -6,10 +6,20 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:24:04.190Z",
-  "contentHash": "7f95ea0f0a66321644b5c7bfa1801410e7b222ab3c03a5390a53855bc6a61878",
+  "sourceUpdated": "2026-09-24T19:48:26.845Z",
+  "contentHash": "85223b1a0de75d8620675ebe866479670e7aefbd323554e7c78e438bd5d76fc8",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER",
+      "namedStyleType": "HEADING_1"
+    },
+    {
+      "type": "heading",
+      "text": "SCENE 10 — THE CENSUS AND THE JOURNEY",
+      "namedStyleType": "HEADING_1"
+    },
     {
       "type": "production-note",
       "text": "Approximate Running Time: 5 minutes",

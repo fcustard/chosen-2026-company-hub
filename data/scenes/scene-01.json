@@ -6,10 +6,20 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:24:04.190Z",
-  "contentHash": "ad11995bf3cb425e51651a92048b8b89e2457ee7e9364df36a9345249985decc",
+  "sourceUpdated": "2026-09-24T19:48:26.845Z",
+  "contentHash": "a3da7da6eeba618539bbf322fb32adb0a6a8fcc3004e73a33c049e02b9d041d7",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER",
+      "namedStyleType": "HEADING_1"
+    },
+    {
+      "type": "heading",
+      "text": "SCENE 1 — WELCOME TO NAZARETH",
+      "namedStyleType": "HEADING_1"
+    },
     {
       "type": "production-note",
       "text": "Approximate Running Time: 5½–6 minutes",

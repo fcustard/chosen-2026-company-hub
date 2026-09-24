@@ -6,10 +6,20 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:24:04.190Z",
-  "contentHash": "4f15f3c1a83b27ef2cafcf91a625b896ad9e05d69f33f722c9bdc49a0159d720",
+  "sourceUpdated": "2026-09-24T19:48:26.845Z",
+  "contentHash": "b4c94d1aae00d303ab5a8df3bd11b8bead50d0b96869e1014262153cbba64d23",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER",
+      "namedStyleType": "HEADING_1"
+    },
+    {
+      "type": "heading",
+      "text": "SCENE 3 — Mary (Jordyn), Talia (Tasha), Shira(Tyfany), Adina(Jeovanie), Dafna(Ashley)",
+      "namedStyleType": "HEADING_1"
+    },
     {
       "type": "production-note",
       "text": "Approximate Running Time: 5–6 minutes",

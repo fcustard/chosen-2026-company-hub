@@ -6,10 +6,20 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:24:04.190Z",
-  "contentHash": "37214e8ea82e1c335ed159a262451f84dcb758bcc2b821a0648acffc9d663aa2",
+  "sourceUpdated": "2026-09-24T19:48:26.845Z",
+  "contentHash": "ff8e73e87d6f7d56a839a61af4f6edccbd9bca61b4867515e9c2d0baefae5e82",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER",
+      "namedStyleType": "HEADING_1"
+    },
+    {
+      "type": "heading",
+      "text": "SCENE 2 — MARY & JOSEPH / “MY BELOVED”",
+      "namedStyleType": "HEADING_1"
+    },
     {
       "type": "production-note",
       "text": "Approximate Running Time: 5–6 minutes",

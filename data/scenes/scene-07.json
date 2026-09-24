@@ -6,10 +6,20 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:24:04.190Z",
-  "contentHash": "7eb90c9cad38e23a1be6f0672149989d829415d146b066f052d8c356b57e1bba",
+  "sourceUpdated": "2026-09-24T19:48:26.845Z",
+  "contentHash": "4b8205b92137403d63db877ba2e82952158e01892eb428a76844af8c00e2fcaa",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
+    {
+      "type": "heading",
+      "text": "CHOSEN: THE STORY BEFORE THE MANGER",
+      "namedStyleType": "HEADING_1"
+    },
+    {
+      "type": "heading",
+      "text": "SCENE 7 — TWO ROADS OF FAITH",
+      "namedStyleType": "HEADING_1"
+    },
     {
       "type": "production-note",
       "text": "Approximate Running Time: 7 minutes",
