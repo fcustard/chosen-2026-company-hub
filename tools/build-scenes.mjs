@@ -360,12 +360,38 @@ function renderLyric(text) {
   return `<p class="lyric">${escapeHtml(text)}</p>`;
 }
 
-function renderProductionNote(text) {
-  return `<p class="productionNote">${escapeHtml(text)}</p>`;
-}
-
 function renderPlain(text) {
   return `<p>${escapeHtml(text)}</p>`;
+}
+
+function compactActorBlocks(blocks = []) {
+  // Everything after the final scene ending is an internal production
+  // postscript, even when the source document styles its prose as stage text.
+  const ending = blocks.findLastIndex((block) => {
+    const type = cleanText(block?.type).toLowerCase();
+    const label = cleanText(block?.text);
+    return (type === "transition" && /^(?:END SCENE\s*\d+|Scene\s*\d+\s+begins\.)/i.test(label)) ||
+      (type === "heading" && /^END OF CHOSEN:/i.test(label));
+  });
+  const script = ending >= 0 ? blocks.slice(0, ending + 1) : blocks;
+  const visible = script.filter(
+    (block) => {
+      const type = cleanText(block?.type).toLowerCase();
+      const text = cleanText(block?.text);
+      return type !== "production-note" &&
+        !(type === "stage" && (
+          /^Musical Reprise:\s*approx\./i.test(text) ||
+          /\bpublic naming payoff remains protected for Scene \d+\b/i.test(text)
+        ));
+    }
+  );
+
+  return visible.filter((block, index) => {
+    const type = cleanText(block?.type).toLowerCase();
+    if (type !== "spacer") return true;
+    if (index === 0 || index === visible.length - 1) return false;
+    return cleanText(visible[index - 1]?.type).toLowerCase() !== "spacer";
+  });
 }
 
 function renderPossiblyInlineSpeaker(text, fallbackRenderer = renderPlain) {
@@ -471,7 +497,8 @@ function renderBlock(block, index = 0, blocks = []) {
       return renderMusicCue(text);
 
     case "production-note":
-      return renderProductionNote(text);
+      // Internal notes stay in structured source data only.
+      return "";
 
     case "spacer":
       return `<div class="scriptSpacer" aria-hidden="true"></div>`;
@@ -541,6 +568,15 @@ function validateRendererContracts() {
       label: "true section heading",
       actual: renderBlock({ type: "heading", text: "MARY'S FRIENDS" }),
       expected: '<h3 class="scriptHeading">MARY&#039;S FRIENDS</h3>'
+    },
+    {
+      label: "production note excluded from actor script",
+      actual: renderBlock({
+        type: "production-note",
+        text: "Internal pacing note.",
+        namedStyleType: "SUBTITLE"
+      }),
+      expected: ""
     }
   ];
 
@@ -747,13 +783,6 @@ function renderSceneReader({
     .scriptContent .stageDirection {
       color: #41506a;
       font-style: italic;
-    }
-
-    .scriptContent .productionNote {
-      margin: 0.2rem 0;
-      color: #596273;
-      font-size: 0.94rem;
-      line-height: 1.45;
     }
 
     .scriptContent .lyric {
@@ -971,7 +1000,8 @@ for (const fileName of sceneFiles) {
     );
   }
 
-  const renderedBlocks = scene.blocks.map((block, index, blocks) => ({
+  const actorBlocks = compactActorBlocks(scene.blocks);
+  const renderedBlocks = actorBlocks.map((block, index, blocks) => ({
     block,
     html: renderBlock(block, index, blocks)
   }));
@@ -1004,6 +1034,10 @@ for (const fileName of sceneFiles) {
     .map((rendered) => rendered.html)
     .filter(Boolean)
     .join("\n");
+
+  if (/class="productionNote"/.test(content)) {
+    fail(`${fileName} leaked an internal production note into the actor script.`);
+  }
 
   const html = renderSceneReader({
     sceneNumber,
