@@ -9,9 +9,10 @@
     "validate": "npm run validate:base && npm run validate:scenes && npm run validate:resources",
     "build:company": "node tools/build-company-public.mjs",
     "build:scenes": "node tools/build-scenes.mjs",
+    "build:pdfs": "python3 tools/build-scene-pdfs.py",
     "build:resources": "node tools/build-resources.mjs",
     "build:hub": "node tools/build.mjs",
-    "build": "npm run build:company && npm run build:scenes && npm run build:resources && npm run build:hub",
+    "build": "npm run build:company && npm run build:scenes && npm run build:pdfs && npm run build:resources && npm run build:hub",
     "check": "npm run validate && npm run build"
   }
 }

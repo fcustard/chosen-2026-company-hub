@@ -6,1525 +6,113 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:58:45.505Z",
-  "contentHash": "98ab231d33d47b35ddd5a6fd13e0ce7d9bbb61e57ad9137bd54d2806d08fa989",
+  "sourceUpdated": "2026-09-24T17:24:04.190Z",
+  "contentHash": "69086f54521225d7292145da2f393ebdeeb824f2efdb0baf9a46e5874a9d6a01",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
-      "type": "music",
-      "text": "Musical Treatment: Rhythmic “No Room” sequence + underscore + “Silent Night” transition"
+      "type": "production-note",
+      "text": "Approximate Running Time: 4–5 minutes plus musical transition",
+      "namedStyleType": "SUBTITLE"
     },
     {
-      "type": "stage",
-      "text": "Characters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Bethlehem Helper, optional Bethlehem Woman"
+      "type": "production-note",
+      "text": "Musical Treatment: Rhythmic “No Room” sequence + underscore + “Silent Night” transition",
+      "namedStyleType": "SUBTITLE"
     },
     {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "CONTINUOUS FROM SCENE 10"
-    },
-    {
-      "type": "heading",
-      "text": "KNOCK. KNOCK."
-    },
-    {
-      "type": "stage",
-      "text": "The knock that ended Scene 10 continues without blackout."
-    },
-    {
-      "type": "stage",
-      "text": "A door opens."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Excuse me. My wife and I—"
-    },
-    {
-      "type": "character",
-      "text": "INNKEEPER 1"
-    },
-    {
-      "type": "dialogue",
-      "text": "No room."
-    },
-    {
-      "type": "heading",
-      "text": "DOOR SHUTS."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph stares at the closed door."
-    },
-    {
-      "type": "stage",
-      "text": "Mary waits behind him."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph turns and summons confidence."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "There’s another place."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "All right."
-    },
-    {
-      "type": "stage",
-      "text": "They move."
+      "type": "production-note",
+      "text": "Characters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Bethlehem Helper, optional Bethlehem Woman",
+      "namedStyleType": "SUBTITLE"
     },
     {
       "type": "spacer",
       "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "SECOND DOOR"
-    },
-    {
-      "type": "heading",
-      "text": "KNOCK. KNOCK."
-    },
-    {
-      "type": "stage",
-      "text": "A tired Innkeeper opens. Behind them, people are already packed into every usable space."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Please. We’ve traveled from Nazareth."
-    },
-    {
-      "type": "character",
-      "text": "INNKEEPER 2"
-    },
-    {
-      "type": "dialogue",
-      "text": "I’m sorry. We’re full."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Even a corner?"
-    },
-    {
-      "type": "stage",
-      "text": "The Innkeeper looks toward Mary and genuinely wishes the answer were different."
-    },
-    {
-      "type": "character",
-      "text": "INNKEEPER 2"
-    },
-    {
-      "type": "dialogue",
-      "text": "I already have families sleeping on the floor."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "INNKEEPER 2"
-    },
-    {
-      "type": "dialogue",
-      "text": "I don’t have anywhere else."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph takes that in."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Thank you."
-    },
-    {
-      "type": "stage",
-      "text": "The door closes."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "We’ll find somewhere."
-    },
-    {
-      "type": "stage",
-      "text": "Mary studies him. She hears the strain under the certainty."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "We’re fine."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I didn’t ask."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "stage",
-      "text": "They move."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE “NO ROOM” RHYTHM"
-    },
-    {
-      "type": "heading",
-      "text": "UNDERSCORE BEGINS"
-    },
-    {
-      "type": "stage",
-      "text": "The knocking becomes part of the score."
-    },
-    {
-      "type": "heading",
-      "text": "KNOCK."
-    },
-    {
-      "type": "heading",
-      "text": "VOICE"
-    },
-    {
-      "type": "stage",
-      "text": "No room."
-    },
-    {
-      "type": "heading",
-      "text": "KNOCK-KNOCK."
-    },
-    {
-      "type": "heading",
-      "text": "VOICE"
-    },
-    {
-      "type": "stage",
-      "text": "Full."
-    },
-    {
-      "type": "heading",
-      "text": "KNOCK."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Please—"
-    },
-    {
-      "type": "heading",
-      "text": "SHUT."
-    },
-    {
-      "type": "heading",
-      "text": "VOICE"
-    },
-    {
-      "type": "stage",
-      "text": "Sorry."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph moves faster."
-    },
-    {
-      "type": "heading",
-      "text": "KNOCK-KNOCK-KNOCK."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "My wife is—"
-    },
-    {
-      "type": "heading",
-      "text": "VOICE"
-    },
-    {
-      "type": "stage",
-      "text": "Nothing!"
-    },
-    {
-      "type": "heading",
-      "text": "SHUT."
-    },
-    {
-      "type": "stage",
-      "text": "The rhythm builds: KNOCK. NO ROOM. KNOCK. FULL. KNOCK-KNOCK. SORRY."
-    },
-    {
-      "type": "stage",
-      "text": "Bethlehem moves around them: travelers, children, bundles, animals, families, people searching for their own names and their own places."
-    },
-    {
-      "type": "stage",
-      "text": "No one is cruel by design. Everyone is already carrying something."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph’s explanations get shorter."
-    },
-    {
-      "type": "heading",
-      "text": "KNOCK."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Please."
-    },
-    {
-      "type": "heading",
-      "text": "VOICE"
-    },
-    {
-      "type": "stage",
-      "text": "I’m sorry."
-    },
-    {
-      "type": "heading",
-      "text": "SHUT."
-    },
-    {
-      "type": "stage",
-      "text": "Everyone seems to have somewhere to go."
-    },
-    {
-      "type": "stage",
-      "text": "No one has a place for them."
-    },
-    {
-      "type": "stage",
-      "text": "Then Mary stops."
-    },
-    {
-      "type": "music",
-      "text": "MUSIC CUTS."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "LABOR BECOMES REAL"
-    },
-    {
-      "type": "stage",
-      "text": "Mary steadies herself. Her breathing changes."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph turns instantly."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary?"
-    },
-    {
-      "type": "stage",
-      "text": "Mary raises one hand: wait."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph waits."
-    },
-    {
-      "type": "stage",
-      "text": "She breathes through it."
-    },
-    {
-      "type": "stage",
-      "text": "It passes."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Was that—"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I don’t know."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Is it time?"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Maybe."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph stares at her."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Maybe?"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph..."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "We need somewhere."
-    },
-    {
-      "type": "stage",
-      "text": "The objective changes."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph is no longer searching for a proper room. Only somewhere safe."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Stay here."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "No."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary—"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I’m not standing alone in the middle of Bethlehem."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph catches himself."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "All right."
-    },
-    {
-      "type": "stage",
-      "text": "He offers his hand."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Together."
-    },
-    {
-      "type": "stage",
-      "text": "Mary takes it."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE FINAL DOOR"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph reaches another door."
-    },
-    {
-      "type": "heading",
-      "text": "KNOCK! KNOCK! KNOCK!"
-    },
-    {
-      "type": "stage",
-      "text": "The door opens."
-    },
-    {
-      "type": "heading",
-      "text": "INNKEEPER ELI"
-    },
-    {
-      "type": "stage",
-      "text": "Yes?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Please."
-    },
-    {
-      "type": "dialogue",
-      "text": "That is all he has for a moment."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "My wife is having a child."
-    },
-    {
-      "type": "stage",
-      "text": "Eli looks toward Mary."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "We don’t need a room."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "A corner. A floor. Anything."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Just somewhere safe."
-    },
-    {
-      "type": "dialogue",
-      "text": "Eli is genuinely pained."
-    },
-    {
-      "type": "heading",
-      "text": "INNKEEPER ELI"
-    },
-    {
-      "type": "stage",
-      "text": "I have people everywhere."
-    },
-    {
-      "type": "stage",
-      "text": "He looks back inside."
-    },
-    {
-      "type": "heading",
-      "text": "INNKEEPER ELI"
-    },
-    {
-      "type": "stage",
-      "text": "I don’t even have floor left."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph’s hope empties."
-    },
-    {
-      "type": "heading",
-      "text": "INNKEEPER ELI"
-    },
-    {
-      "type": "stage",
-      "text": "I’m sorry."
-    },
-    {
-      "type": "stage",
-      "text": "The door closes."
-    },
-    {
-      "type": "stage",
-      "text": "SILENCE."
-    },
-    {
-      "type": "stage",
-      "text": "No music. No crowd rhythm."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks around Bethlehem."
-    },
-    {
-      "type": "stage",
-      "text": "For the first time, there is no next door in his mind."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "JOSEPH’S BREAKING POINT"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I’m sorry."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "For what?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "This."
-    },
-    {
-      "type": "stage",
-      "text": "He gestures helplessly at everything."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I should’ve found somewhere. I should’ve planned better. I should have—"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I should’ve—"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Stop."
-    },
-    {
-      "type": "stage",
-      "text": "He stops."
-    },
-    {
-      "type": "stage",
-      "text": "Mary moves toward him as much as she comfortably can."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Stay with me."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary, you need somewhere safe."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I know."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "And I can’t—"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I didn’t ask you to fix Bethlehem."
-    },
-    {
-      "type": "dialogue",
-      "text": "That lands."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I didn’t ask you to make a room appear."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at her, emptied of answers."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Then what am I supposed to do?"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Stay."
-    },
-    {
-      "type": "stage",
-      "text": "SILENCE."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I don’t know what to do."
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks directly at him."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Neither do I."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "But we’re here."
-    },
-    {
-      "type": "dialogue",
-      "text": "Give the moment room."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "ANNA MAKES ROOM"
-    },
-    {
-      "type": "character",
-      "text": "ANNA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Wait."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph turns."
-    },
-    {
-      "type": "stage",
-      "text": "Anna, Eli’s wife, has stepped out from the household. She has heard enough."
-    },
-    {
-      "type": "character",
-      "text": "ANNA"
-    },
-    {
-      "type": "dialogue",
-      "text": "We don’t have a room."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph’s face falls again."
-    },
-    {
-      "type": "character",
-      "text": "ANNA"
-    },
-    {
-      "type": "dialogue",
-      "text": "But there’s a place behind the house."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "A place?"
-    },
-    {
-      "type": "stage",
-      "text": "Anna hesitates, almost embarrassed to offer it."
-    },
-    {
-      "type": "character",
-      "text": "ANNA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Where we keep the animals."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at her."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "The animals."
-    },
-    {
-      "type": "character",
-      "text": "ANNA"
-    },
-    {
-      "type": "dialogue",
-      "text": "It’s covered. There’s straw."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "ANNA"
-    },
-    {
-      "type": "dialogue",
-      "text": "It’s not much, but it’s dry."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks toward Mary. This is not what he wanted for her."
-    },
-    {
-      "type": "stage",
-      "text": "Another contraction begins."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph moves toward Mary, but waits for her cue."
-    },
-    {
-      "type": "stage",
-      "text": "Mary breathes through it."
-    },
-    {
-      "type": "stage",
-      "text": "Then looks at Anna."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "We’ll take it."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary—"
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks at him."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "It’s a place."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph understands the lesson before she has to repeat it."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "All right."
-    },
-    {
-      "type": "stage",
-      "text": "Anna nods."
-    },
-    {
-      "type": "character",
-      "text": "ANNA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Come with me."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE SHELTER"
-    },
-    {
-      "type": "stage",
-      "text": "The animal shelter is revealed."
-    },
-    {
-      "type": "stage",
-      "text": "Do not make it beautiful yet."
-    },
-    {
-      "type": "stage",
-      "text": "It is rough, dim, straw-covered, practical and imperfect."
-    },
-    {
-      "type": "stage",
-      "text": "A feeding trough sits nearby. Animal sounds may be heard, but avoid comic animal business."
-    },
-    {
-      "type": "character",
-      "text": "ANNA"
-    },
-    {
-      "type": "dialogue",
-      "text": "It isn’t much."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "It’s enough."
-    },
-    {
-      "type": "stage",
-      "text": "Anna hears the gratitude in that."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at the space."
-    },
-    {
-      "type": "stage",
-      "text": "This time his builder instinct is useful."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "May I move this?"
-    },
-    {
-      "type": "character",
-      "text": "ANNA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Anything you need."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph clears straw, checks the ground, shifts a crate, tests what is stable."
-    },
-    {
-      "type": "stage",
-      "text": "He is not trying to transform the shelter into the house he imagined."
-    },
-    {
-      "type": "stage",
-      "text": "He is making this place safer for Mary."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary. This side is better."
-    },
-    {
-      "type": "stage",
-      "text": "He notices the feeding trough."
-    },
-    {
-      "type": "stage",
-      "text": "Stops."
-    },
-    {
-      "type": "stage",
-      "text": "He looks at it."
-    },
-    {
-      "type": "stage",
-      "text": "Then he cleans it carefully."
-    },
-    {
-      "type": "stage",
-      "text": "He takes cloth from their belongings and lays it out."
-    },
-    {
-      "type": "stage",
-      "text": "Anna returns with water and a clean cloth."
-    },
-    {
-      "type": "character",
-      "text": "ANNA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Here."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Thank you."
-    },
-    {
-      "type": "stage",
-      "text": "Anna looks toward Mary."
-    },
-    {
-      "type": "character",
-      "text": "ANNA"
-    },
-    {
-      "type": "dialogue",
-      "text": "I’ve helped with births before."
-    },
-    {
-      "type": "stage",
-      "text": "Mary’s relief is immediate."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You have?"
-    },
-    {
-      "type": "character",
-      "text": "ANNA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Yes."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "ANNA"
-    },
-    {
-      "type": "dialogue",
-      "text": "You won’t be alone."
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks at her."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Thank you, Anna."
-    },
-    {
-      "type": "stage",
-      "text": "Anna begins preparing."
-    },
-    {
-      "type": "stage",
-      "text": "No grand speech. She simply helps."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE WORLD BECOMES QUIET"
-    },
-    {
-      "type": "stage",
-      "text": "Bethlehem’s noise begins to disappear."
-    },
-    {
-      "type": "stage",
-      "text": "The knocking rhythm is gone."
-    },
-    {
-      "type": "stage",
-      "text": "Crowd movement thins."
-    },
-    {
-      "type": "stage",
-      "text": "The LED simplifies rather than becomes more spectacular."
-    },
-    {
-      "type": "stage",
-      "text": "Lighting narrows."
-    },
-    {
-      "type": "stage",
-      "text": "The production begins removing things."
-    },
-    {
-      "type": "stage",
-      "text": "Mary settles."
-    },
-    {
-      "type": "stage",
-      "text": "Anna prepares discreetly nearby."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph kneels beside Mary."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph."
-    },
-    {
-      "type": "stage",
-      "text": "He takes her hand."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I’m here."
-    },
-    {
-      "type": "stage",
-      "text": "SILENCE."
-    },
-    {
-      "type": "stage",
-      "text": "That is enough."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "STYLIZED BIRTH SEQUENCE"
-    },
-    {
-      "type": "stage",
-      "text": "A restrained instrumental underscore begins."
-    },
-    {
-      "type": "stage",
-      "text": "No literal childbirth."
-    },
-    {
-      "type": "stage",
-      "text": "Use fabric, silhouettes, scenic masking, carefully composed bodies, and light to preserve privacy and dignity."
-    },
-    {
-      "type": "stage",
-      "text": "Anna assists Mary discreetly."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph remains present without becoming the childbirth expert."
-    },
-    {
-      "type": "stage",
-      "text": "Time compresses through breath, light, movement, music and stillness."
-    },
-    {
-      "type": "stage",
-      "text": "Do not make the star the event yet. If visible, it should emerge with extraordinary restraint."
-    },
-    {
-      "type": "stage",
-      "text": "The stage moves toward near-darkness."
-    },
-    {
-      "type": "stage",
-      "text": "The underscore falls away."
-    },
-    {
-      "type": "stage",
-      "text": "Then—"
-    },
-    {
-      "type": "heading",
-      "text": "A BABY CRIES."
-    },
-    {
-      "type": "stage",
-      "text": "SILENCE."
-    },
-    {
-      "type": "stage",
-      "text": "Everything stops."
-    },
-    {
-      "type": "stage",
-      "text": "Do not immediately sing."
-    },
-    {
-      "type": "stage",
-      "text": "Do not immediately move."
-    },
-    {
-      "type": "stage",
-      "text": "Do not immediately brighten the LED."
-    },
-    {
-      "type": "stage",
-      "text": "Give the audience several seconds to hear the child and discover the image."
-    },
-    {
-      "type": "stage",
-      "text": "The smallest warmth slowly reveals"
-    },
-    {
-      "type": "heading",
-      "text": "MARY."
-    },
-    {
-      "type": "heading",
-      "text": "THE CHILD."
-    },
-    {
-      "type": "heading",
-      "text": "JOSEPH."
-    },
-    {
-      "type": "stage",
-      "text": "Anna remains slightly outside the central image."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph sees the baby."
-    },
-    {
-      "type": "stage",
-      "text": "He cannot speak."
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks at Joseph."
-    },
-    {
-      "type": "stage",
-      "text": "Then at the child."
-    },
-    {
-      "type": "stage",
-      "text": "After everything, they are here."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE CHILD INTO JOSEPH’S ARMS"
-    },
-    {
-      "type": "stage",
-      "text": "Protect silence before this action."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph remains close but does not assume."
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks at him."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph."
-    },
-    {
-      "type": "stage",
-      "text": "She invites him closer."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph comes."
-    },
-    {
-      "type": "stage",
-      "text": "Mary places the child into his arms."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph receives him carefully."
-    },
-    {
-      "type": "stage",
-      "text": "Do not rush to dialogue."
-    },
-    {
-      "type": "stage",
-      "text": "The man who once said, “The child... it’s not mine,” now holds the child without needing to explain himself."
-    },
-    {
-      "type": "stage",
-      "text": "Mary watches him."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at the baby."
-    },
-    {
-      "type": "stage",
-      "text": "This physical action completes the emotional thought. Scene 12 can give it words."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "“SILENT NIGHT” TRANSITION"
-    },
-    {
-      "type": "stage",
-      "text": "Only after the family has been allowed to exist in silence does the first musical phrase begin."
-    },
-    {
-      "type": "stage",
-      "text": "One soft voice begins “Silent Night.” It should emerge from the world rather than feel like a presented solo."
-    },
-    {
-      "type": "stage",
-      "text": "Anna may begin, or the first voice may come from offstage while Anna simply watches."
-    },
-    {
-      "type": "stage",
-      "text": "A second voice may join, then perhaps two or three more Bethlehem voices."
-    },
-    {
-      "type": "stage",
-      "text": "Do not build to full-company volume here."
-    },
-    {
-      "type": "stage",
-      "text": "The manger remains the emotional center."
-    },
-    {
-      "type": "stage",
-      "text": "The shelter itself has not transformed. What happened there has transformed its meaning."
-    },
-    {
-      "type": "stage",
-      "text": "As the musical transition continues, a separate pool of night slowly appears elsewhere: open field, darkness, the suggestion of shepherds."
-    },
-    {
-      "type": "stage",
-      "text": "Keep the manger visible simultaneously."
-    },
-    {
-      "type": "stage",
-      "text": "No blackout."
     },
     {
       "type": "transition",
-      "text": "END SCENE 11 / CONTINUE INTO SCENE 12"
+      "text": "CONTINUOUS FROM SCENE 10",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "music",
+      "text": "KNOCK. KNOCK.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "The knock that ended Scene 10 continues without blackout.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "A door opens.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Excuse me. My wife and I—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "INNKEEPER 1",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No room.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "heading",
+      "text": "DOOR SHUTS.",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph stares at the closed door.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary waits behind him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph turns and summons confidence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "There’s another place.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "All right.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "They move.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -1532,47 +120,1842 @@
     },
     {
       "type": "heading",
-      "text": "NOTES"
+      "text": "SECOND DOOR",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "music",
+      "text": "KNOCK. KNOCK.",
+      "namedStyleType": "HEADING_4"
     },
     {
       "type": "stage",
-      "text": "Scene 11 should feel like the pressure cooker immediately before the birth. The source is very specific that Bethlehem is not a collection of villains; the tragedy is that there is need everywhere and no one seems to have room for one more need. The scene should therefore escalate through repetition, urgency, physical exhaustion, and finally silence rather than through shouting."
+      "text": "A tired Innkeeper opens. Behind them, people are already packed into every usable space.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Please. We’ve traveled from Nazareth.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "INNKEEPER 2",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m sorry. We’re full.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Even a corner?",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
-      "text": "I’m also using your current locked musical choice of “Silent Night” after the birth rather than the earlier working title “Silent Wonder.”"
+      "text": "The Innkeeper looks toward Mary and genuinely wishes the answer were different.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "INNKEEPER 2",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I already have families sleeping on the floor.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
-      "text": "The emotional center of this scene is the sequence"
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "INNKEEPER 2",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t have anywhere else.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
-      "text": "JOSEPH: “I don't know what to do.”"
+      "text": "Joseph takes that in.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Thank you.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
-      "text": "MARY: “Neither do I. But we're here.”"
+      "text": "The door closes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We’ll find somewhere.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
-      "text": "followed later by"
+      "text": "Mary studies him. She hears the strain under the certainty.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We’re fine.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I didn’t ask.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
-      "text": "MARY: “Joseph.”"
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "JOSEPH: “I'm here.”"
+      "text": "They move.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "THE “NO ROOM” RHYTHM",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "music",
+      "text": "UNDERSCORE BEGINS",
+      "namedStyleType": "HEADING_4"
     },
     {
       "type": "stage",
-      "text": "That completes a major part of Joseph's builder arc. The source specifically frames this as the moment when his gifts become useful after he stops trying to control the entire story. He cannot create a room, shorten the road, control Caesar, or prevent labor. But when an imperfect shelter is offered, he knows how to clear it, prepare it and make it safer for Mary."
+      "text": "The knocking becomes part of the score.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "KNOCK.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "heading",
+      "text": "VOICE",
+      "namedStyleType": "HEADING_2"
     },
     {
       "type": "stage",
-      "text": "STtrongly preserve the beat before “Silent Night” begins: baby cry → silence → Mary, Joseph and Jesus. Give the audience several seconds to simply see the family before the first voice enters. That silence may be more emotionally powerful than adding another line. The source similarly recommends letting the frantic Bethlehem sound disappear and ending with the simple “Joseph / I'm here” exchange before the stylized birth."
+      "text": "No room.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "KNOCK-KNOCK.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "heading",
+      "text": "VOICE",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Full.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "KNOCK.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Please—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "heading",
+      "text": "SHUT.",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "heading",
+      "text": "VOICE",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Sorry.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph moves faster.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "KNOCK-KNOCK-KNOCK.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "My wife is—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "heading",
+      "text": "VOICE",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Nothing!",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "heading",
+      "text": "SHUT.",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "The rhythm builds: KNOCK. NO ROOM. KNOCK. FULL. KNOCK-KNOCK. SORRY.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Bethlehem moves around them: travelers, children, bundles, animals, families, people searching for their own names and their own places.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "No one is cruel by design. Everyone is already carrying something.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph’s explanations get shorter.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "KNOCK.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Please.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "heading",
+      "text": "VOICE",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "I’m sorry.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "heading",
+      "text": "SHUT.",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Everyone seems to have somewhere to go.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "No one has a place for them.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Then Mary stops.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "MUSIC CUTS.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "LABOR BECOMES REAL",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Mary steadies herself. Her breathing changes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph turns instantly.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary raises one hand: wait.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph waits.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She breathes through it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "It passes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Was that—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Is it time?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Maybe.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph stares at her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Maybe?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We need somewhere.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "The objective changes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph is no longer searching for a proper room. Only somewhere safe.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Stay here.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m not standing alone in the middle of Bethlehem.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph catches himself.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "All right.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He offers his hand.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Together.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary takes it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "THE FINAL DOOR",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph reaches another door.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "KNOCK! KNOCK! KNOCK!",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "The door opens.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "heading",
+      "text": "INNKEEPER ELI",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Yes?",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Please.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "That is all he has for a moment.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "My wife is having a child.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Eli looks toward Mary.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We don’t need a room.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "A corner. A floor. Anything.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Just somewhere safe.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Eli is genuinely pained.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "heading",
+      "text": "INNKEEPER ELI",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "I have people everywhere.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He looks back inside.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "heading",
+      "text": "INNKEEPER ELI",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "I don’t even have floor left.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph’s hope empties.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "heading",
+      "text": "INNKEEPER ELI",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "I’m sorry.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The door closes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "SILENCE.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "No music. No crowd rhythm.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks around Bethlehem.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "For the first time, there is no next door in his mind.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "JOSEPH’S BREAKING POINT",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m sorry.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "For what?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "This.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He gestures helplessly at everything.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I should’ve found somewhere. I should’ve planned better. I should have—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I should’ve—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Stop.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He stops.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary moves toward him as much as she comfortably can.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Stay with me.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary, you need somewhere safe.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "And I can’t—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I didn’t ask you to fix Bethlehem.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "That lands.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I didn’t ask you to make a room appear.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at her, emptied of answers.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then what am I supposed to do?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Stay.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "SILENCE.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t know what to do.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks directly at him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Neither do I.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "But we’re here.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Give the moment room.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "ANNA MAKES ROOM",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "character",
+      "text": "ANNA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Wait.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph turns.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Anna, Eli’s wife, has stepped out from the household. She has heard enough.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANNA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We don’t have a room.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph’s face falls again.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANNA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "But there’s a place behind the house.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "A place?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Anna hesitates, almost embarrassed to offer it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANNA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Where we keep the animals.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "The animals.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ANNA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s covered. There’s straw.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANNA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s not much, but it’s dry.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks toward Mary. This is not what he wanted for her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Another contraction begins.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph moves toward Mary, but waits for her cue.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary breathes through it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Then looks at Anna.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We’ll take it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s a place.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph understands the lesson before she has to repeat it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "All right.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Anna nods.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANNA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Come with me.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "THE SHELTER",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "The animal shelter is revealed.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Do not make it beautiful yet.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "It is rough, dim, straw-covered, practical and imperfect.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "A feeding trough sits nearby. Animal sounds may be heard, but avoid comic animal business.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANNA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It isn’t much.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It’s enough.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Anna hears the gratitude in that.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at the space.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "This time his builder instinct is useful.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "May I move this?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ANNA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Anything you need.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph clears straw, checks the ground, shifts a crate, tests what is stable.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He is not trying to transform the shelter into the house he imagined.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He is making this place safer for Mary.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary. This side is better.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He notices the feeding trough.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Stops.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He looks at it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Then he cleans it carefully.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He takes cloth from their belongings and lays it out.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Anna returns with water and a clean cloth.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANNA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Here.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Thank you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Anna looks toward Mary.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANNA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’ve helped with births before.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary’s relief is immediate.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You have?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ANNA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ANNA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You won’t be alone.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Thank you, Anna.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Anna begins preparing.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "No grand speech. She simply helps.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "THE WORLD BECOMES QUIET",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Bethlehem’s noise begins to disappear.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The knocking rhythm is gone.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Crowd movement thins.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The LED simplifies rather than becomes more spectacular.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Lighting narrows.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The production begins removing things.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary settles.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Anna prepares discreetly nearby.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph kneels beside Mary.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He takes her hand.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’m here.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "SILENCE.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "That is enough.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "STYLIZED BIRTH SEQUENCE",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "A restrained instrumental underscore begins.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "No literal childbirth.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Use fabric, silhouettes, scenic masking, carefully composed bodies, and light to preserve privacy and dignity.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Anna assists Mary discreetly.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph remains present without becoming the childbirth expert.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "production-note",
+      "text": "Time compresses through breath, light, movement, music and stillness.",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "stage",
+      "text": "Do not make the star the event yet. If visible, it should emerge with extraordinary restraint.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The stage moves toward near-darkness.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The underscore falls away.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Then—",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "heading",
+      "text": "A BABY CRIES.",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "SILENCE.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Everything stops.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Do not immediately sing.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Do not immediately move.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Do not immediately brighten the LED.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Give the audience several seconds to hear the child and discover the image.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The smallest warmth slowly reveals",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "MARY.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "THE CHILD.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "JOSEPH.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Anna remains slightly outside the central image.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph sees the baby.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He cannot speak.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at Joseph.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Then at the child.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "After everything, they are here.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "THE CHILD INTO JOSEPH’S ARMS",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Protect silence before this action.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph remains close but does not assume.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "She invites him closer.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph comes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary places the child into his arms.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph receives him carefully.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Do not rush to dialogue.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The man who once said, “The child... it’s not mine,” now holds the child without needing to explain himself.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary watches him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at the baby.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "This physical action completes the emotional thought. Scene 12 can give it words.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "“SILENT NIGHT” TRANSITION",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Only after the family has been allowed to exist in silence does the first musical phrase begin.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "One soft voice begins “Silent Night.” It should emerge from the world rather than feel like a presented solo.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Anna may begin, or the first voice may come from offstage while Anna simply watches.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "A second voice may join, then perhaps two or three more Bethlehem voices.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Do not build to full-company volume here.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The manger remains the emotional center.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The shelter itself has not transformed. What happened there has transformed its meaning.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "As the musical transition continues, a separate pool of night slowly appears elsewhere: open field, darkness, the suggestion of shepherds.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Keep the manger visible simultaneously.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "No blackout.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "transition",
+      "text": "END SCENE 11 / CONTINUE INTO SCENE 12",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "NOTES",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "production-note",
+      "text": "Scene 11 should feel like the pressure cooker immediately before the birth. The source is very specific that Bethlehem is not a collection of villains; the tragedy is that there is need everywhere and no one seems to have room for one more need. The scene should therefore escalate through repetition, urgency, physical exhaustion, and finally silence rather than through shouting.",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "I’m also using your current locked musical choice of “Silent Night” after the birth rather than the earlier working title “Silent Wonder.”",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "The emotional center of this scene is the sequence",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "JOSEPH: “I don't know what to do.”",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "MARY: “Neither do I. But we're here.”",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "followed later by",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "MARY: “Joseph.”",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "JOSEPH: “I'm here.”",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "That completes a major part of Joseph's builder arc. The source specifically frames this as the moment when his gifts become useful after he stops trying to control the entire story. He cannot create a room, shorten the road, control Caesar, or prevent labor. But when an imperfect shelter is offered, he knows how to clear it, prepare it and make it safer for Mary.",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "STtrongly preserve the beat before “Silent Night” begins: baby cry → silence → Mary, Joseph and Jesus. Give the audience several seconds to simply see the family before the first voice enters. That silence may be more emotionally powerful than adding another line. The source similarly recommends letting the frantic Bethlehem sound disappear and ending with the simple “Joseph / I'm here” exchange before the stylized birth.",
+      "namedStyleType": "SUBTITLE"
     }
   ]
 }

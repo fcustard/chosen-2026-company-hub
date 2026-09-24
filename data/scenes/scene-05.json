@@ -6,13 +6,24 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:58:45.505Z",
-  "contentHash": "a0c05e26d774f765bb4f29e59913de08f4eb44bdcd5d9f93cb15e2f17685019b",
+  "sourceUpdated": "2026-09-24T17:24:04.190Z",
+  "contentHash": "6939a29ce699a2268bbd9644505cd06824ac66d9a9e6a36d994f63edba20a418",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
-      "type": "stage",
-      "text": "Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA"
+      "type": "production-note",
+      "text": "Approximate Running Time: 4½–5 minutes",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "Musical Sequence: “Brotherhood” — approximately 1½–2 minutes",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "Characters: JOSEPH, LEVI, MALACHI, CALEB, EZRA, MARY, SHIRA",
+      "namedStyleType": "SUBTITLE"
     },
     {
       "type": "spacer",
@@ -20,2487 +31,58 @@
     },
     {
       "type": "transition",
-      "text": "TRANSITION FROM SCENE 4"
-    },
-    {
-      "type": "stage",
-      "text": "Scene 4 ends somewhere else in Nazareth with the dangerous echo: 'That's what I heard.'"
-    },
-    {
-      "type": "stage",
-      "text": "One beat."
-    },
-    {
-      "type": "heading",
-      "text": "BANG!"
-    },
-    {
-      "type": "stage",
-      "text": "A hammer strikes wood."
-    },
-    {
-      "type": "heading",
-      "text": "BANG!"
-    },
-    {
-      "type": "stage",
-      "text": "A second strike."
-    },
-    {
-      "type": "heading",
-      "text": "BANG-BANG!"
-    },
-    {
-      "type": "stage",
-      "text": "Lights cut to Joseph's work area. The tonal shift should be immediate: warmth, laughter, physical energy."
-    },
-    {
-      "type": "stage",
-      "text": "JOSEPH, LEVI, MALACHI, CALEB, and EZRA are already working together. The unfinished table from Scene 2 is now unmistakably the project."
-    },
-    {
-      "type": "stage",
-      "text": "The satchel Mary made Joseph is on him. Do not feature it yet."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "stage",
-      "text": "A hand slaps a workbench."
-    },
-    {
-      "type": "stage",
-      "text": "Suddenly—"
-    },
-    {
-      "type": "heading",
-      "text": "JOSEPH'S WORLD."
-    },
-    {
-      "type": "stage",
-      "text": "Bright."
-    },
-    {
-      "type": "stage",
-      "text": "Alive."
-    },
-    {
-      "type": "stage",
-      "text": "Rhythmic."
-    },
-    {
-      "type": "stage",
-      "text": "JOSEPH, LEVI, MALACHI, CALEB and EZRA are already working."
-    },
-    {
-      "type": "stage",
-      "text": "They do not stand in a line."
-    },
-    {
-      "type": "stage",
-      "text": "The worksite is constantly moving"
-    },
-    {
-      "type": "stage",
-      "text": "● wood passes from hand to hand;"
-    },
-    {
-      "type": "stage",
-      "text": "● tools change owners;"
-    },
-    {
-      "type": "stage",
-      "text": "● measurements are called;"
-    },
-    {
-      "type": "stage",
-      "text": "● benches move;"
-    },
-    {
-      "type": "stage",
-      "text": "● pieces are lifted;"
-    },
-    {
-      "type": "stage",
-      "text": "● someone climbs;"
-    },
-    {
-      "type": "stage",
-      "text": "● someone ducks;"
-    },
-    {
-      "type": "stage",
-      "text": "● someone catches something at the last second."
-    },
-    {
-      "type": "stage",
-      "text": "Everything feels practiced."
-    },
-    {
-      "type": "stage",
-      "text": "These men have worked together for years."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "WORK BEFORE WORDS"
-    },
-    {
-      "type": "stage",
-      "text": "Do not begin with dialogue. Let the audience watch the men work."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph checks a length. Levi takes weight. Ezra checks alignment. Malachi steadies a piece. Caleb tries to help and is just useful enough to remain employed."
-    },
-    {
-      "type": "stage",
-      "text": "The physical vocabulary beneath the sequence is MEASURE -> MARK -> CUT -> SET. It may be expressed through movement rather than repeated as lyrics."
-    },
-    {
-      "type": "stage",
-      "text": "Hammer strikes, scraping wood, footwork, hand-claps, and safe prop percussion begin to align into a musical pulse."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Hold that."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "I am holding it."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "You're leaning on it."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "That is a form of holding."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Move."
-    },
-    {
-      "type": "stage",
-      "text": "Levi takes the weight cleanly."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "See? Teamwork."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "That is not what happened."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "It's what I experienced."
-    },
-    {
-      "type": "stage",
-      "text": "They keep working. The rhythm continues underneath."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "JOSEPH IN HIS ELEMENT"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph stops and looks at a piece Caleb has handled."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Caleb."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "What?"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph points at it."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Look at it."
-    },
-    {
-      "type": "stage",
-      "text": "Caleb looks."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "I am."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "And?"
-    },
-    {
-      "type": "dialogue",
-      "text": "Caleb studies it harder."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Strong."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Caleb."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Very strong."
-    },
-    {
-      "type": "stage",
-      "text": "Ezra steps over, looks once."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "One side is higher."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Only if you compare it to the other side."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "That's usually how sides work."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph takes the piece from Caleb."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "You don't trust my work."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I trust you completely."
-    },
-    {
-      "type": "dialogue",
-      "text": "Caleb softens, pleased."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Thank you."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Your work is another matter."
-    },
-    {
-      "type": "stage",
-      "text": "The men laugh. Joseph resets the piece, and the music/movement picks back up."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "MARRIAGE BANTER"
-    },
-    {
-      "type": "stage",
-      "text": "Levi notices Joseph working on another piece."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Hold on."
-    },
-    {
-      "type": "dialogue",
-      "text": "Whose is that?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Customer's."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "No."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "No?"
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Different wood."
-    },
-    {
-      "type": "dialogue",
-      "text": "Different finish."
-    },
-    {
-      "type": "stage",
-      "text": "Ezra watches Joseph inspect the table."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "And you've checked that corner four times."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Four?"
-    },
-    {
-      "type": "stage",
-      "text": "He GASPS."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "lyric",
-      "text": "Oh, we've lost him."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I'm standing right here."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "That's for Mary."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph continues working."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Too late. They know."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "It's for the house!"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Caleb—"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "He's building the house!"
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Man hasn't even married her, and he's already building furniture."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "At least he'll have somewhere to sleep after she gets tired of him."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at Malachi."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "You too?"
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Wisdom comes in many forms."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "This one appears to be a table."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph stops. Looks at Ezra."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "What?"
-    },
-    {
-      "type": "dialogue",
-      "text": "It's obviously a table."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "How big is this thing?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Big enough."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "That is not a measurement."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Who's sitting at it?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "People."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "How many people?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Six."
-    },
-    {
-      "type": "stage",
-      "text": "Ezra looks at the table."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "That's not a six-person table."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "It might be eight."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "stage",
-      "text": "Caleb slowly turns toward Joseph."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Eight?"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph keeps working."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "What?"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Eight?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "People visit."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Of course."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Very small people, apparently."
-    },
-    {
-      "type": "dialogue",
-      "text": "Caleb realizes."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Children."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I didn't say that."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "You built it."
-    },
-    {
-      "type": "stage",
-      "text": "The others laugh."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "How many?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Caleb."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "You've counted."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I have not."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "He has."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Ezra."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Evidence suggests—"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Nobody asked for evidence."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Eight means there's room."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph's defensiveness softens."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "That's the idea."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Room for what?"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at the table."
-    },
-    {
-      "type": "stage",
-      "text": "This time he answers without joking."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Family."
-    },
-    {
-      "type": "dialogue",
-      "text": "Friends."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Whoever needs a place."
-    },
-    {
-      "type": "dialogue",
-      "text": "That quiets them for just a moment."
-    },
-    {
-      "type": "stage",
-      "text": "Then—"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "And children."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Go cut something."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Gladly."
-    },
-    {
-      "type": "dialogue",
-      "text": "Caleb grabs the appropriate piece and launches back into the work."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Not that one."
-    },
-    {
-      "type": "stage",
-      "text": "Caleb freezes."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "I knew that."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Evidence suggests—"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Nobody asked for evidence."
-    },
-    {
-      "type": "stage",
-      "text": "The men laugh."
-    },
-    {
-      "type": "stage",
-      "text": "The men laugh and return to the work rhythm. Joseph tries to hide how pleased he is, which only confirms everything."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "SATCHEL CONTINUITY"
-    },
-    {
-      "type": "stage",
-      "text": "Caleb reaches for a tool and notices Joseph's satchel."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "You still carrying that?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "It's a tool satchel."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Then where are the tools?"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph instinctively checks."
-    },
-    {
-      "type": "stage",
-      "text": "The others notice the satchel is nearly empty."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Interesting."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Don't."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "She made you a satchel, and now you're protecting it from the tools."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I use it."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "For what?"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at all of them."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "For carrying things."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Like feelings?"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph throws a rag at Caleb. Caleb catches it triumphantly."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "See? Now it's useful."
-    },
-    {
-      "type": "dialogue",
-      "text": "Back into the work."
-    },
-    {
-      "type": "heading",
-      "text": "“BROTHERHOOD” BEGINS"
-    },
-    {
-      "type": "stage",
-      "text": "The carpentry pulse now expands into the full Brotherhood sequence."
-    },
-    {
-      "type": "stage",
-      "text": "This should feel rehearsed and exciting, but never disconnected from the work. The men are not presenting choreography to the audience; they are working so instinctively together that the work becomes choreography."
-    },
-    {
-      "type": "stage",
-      "text": "Movement possibilities: passing wood in counter-rhythm; coordinated lifts; safe tool-handling phrases; turns generated by carrying material; foot-stomps; hand-claps; bench/wood percussion; a repeated lift-set-release pattern; Caleb adding unnecessary flourishes that the others repeatedly correct."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph should eventually stop supervising every beat and fully join the physical joy. We need to see him young, competitive, laughing and completely at home with these men."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "PERCUSSIVE PATTERN"
-    },
-    {
-      "type": "heading",
-      "text": "HAMMER — HAMMER — SAW — CLAP — FOOT"
-    },
-    {
-      "type": "heading",
-      "text": "HAMMER — HAMMER — SAW — CLAP — FOOT"
-    },
-    {
-      "type": "stage",
-      "text": "The men begin passing tools in rhythm."
-    },
-    {
-      "type": "stage",
-      "text": "Movement becomes sharper."
-    },
-    {
-      "type": "stage",
-      "text": "Angular."
-    },
-    {
-      "type": "stage",
-      "text": "Masculine."
-    },
-    {
-      "type": "stage",
-      "text": "Precise."
-    },
-    {
-      "type": "stage",
-      "text": "The dialogue starts locking into tempo."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Measure."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mark."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Cut."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Again."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Lift."
-    },
-    {
-      "type": "heading",
-      "text": "ALL"
-    },
-    {
-      "type": "stage",
-      "text": "Set."
-    },
-    {
-      "type": "heading",
-      "text": "BANG!"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Too high!"
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Too low."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Move!"
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Slow."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Together."
-    },
-    {
-      "type": "heading",
-      "text": "HIT."
-    },
-    {
-      "type": "stage",
-      "text": "The piece lands perfectly."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "RHYTHMIC SPOKEN SECTION"
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "If it's heavy—"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "We lift it."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "If it's crooked—"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "We fix it."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "If it's broken—"
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "We mend it."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "If it's food—"
-    },
-    {
-      "type": "heading",
-      "text": "ALL"
-    },
-    {
-      "type": "heading",
-      "text": "CALEB!"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "I was going to say share it."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "No, you weren't."
-    },
-    {
-      "type": "stage",
-      "text": "The audience laughs."
-    },
-    {
-      "type": "stage",
-      "text": "The work continues."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Side by side—"
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Hand to hand—"
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Know the measure—"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Know the plan—"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "And if the plan goes bad—"
-    },
-    {
-      "type": "stage",
-      "text": "Everyone stops."
-    },
-    {
-      "type": "stage",
-      "text": "Looks at Caleb."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "We blame Ezra."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Why me?"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "You look responsible."
-    },
-    {
-      "type": "stage",
-      "text": "The rhythm immediately resumes."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "“BROTHERHOOD” — CALL AND RESPONSE"
-    },
-    {
-      "type": "stage",
-      "text": "This portion may become sung/spoken/rap-adjacent depending on Christian's composition."
-    },
-    {
-      "type": "stage",
-      "text": "The text can ultimately be shaped musically, but the dramatic territory is"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "You don't build alone."
-    },
-    {
-      "type": "heading",
-      "text": "MEN"
-    },
-    {
-      "type": "stage",
-      "text": "No."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "You don't stand alone."
-    },
-    {
-      "type": "heading",
-      "text": "MEN"
-    },
-    {
-      "type": "stage",
-      "text": "No."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "When one man loses his footing—"
-    },
-    {
-      "type": "heading",
-      "text": "MEN"
-    },
-    {
-      "type": "stage",
-      "text": "We hold him."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "When one man misses the measure—"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "We tell everybody."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "That's not—"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Caleb!"
-    },
-    {
-      "type": "dialogue",
-      "text": "Laughter inside the rhythm."
-    },
-    {
-      "type": "stage",
-      "text": "Then—"
-    },
-    {
-      "type": "heading",
-      "text": "ALL"
-    },
-    {
-      "type": "heading",
-      "text": "THE BROTHERHOOD"
-    },
-    {
-      "type": "stage",
-      "text": "Work together."
-    },
-    {
-      "type": "stage",
-      "text": "Stand together."
-    },
-    {
-      "type": "stage",
-      "text": "Build together."
-    },
-    {
-      "type": "heading",
-      "text": "BANG!"
-    },
-    {
-      "type": "heading",
-      "text": "ALL"
-    },
-    {
-      "type": "stage",
-      "text": "Brothers don't let brothers fall."
-    },
-    {
-      "type": "stage",
-      "text": "The phrase should land clearly enough to return emotionally later."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "CHOREOGRAPHIC FEATURE"
-    },
-    {
-      "type": "stage",
-      "text": "The music expands into approximately 20–30 seconds of instrumental choreography."
-    },
-    {
-      "type": "stage",
-      "text": "This is the major visual payoff of the scene."
-    },
-    {
-      "type": "heading",
-      "text": "MOVEMENT LANGUAGE"
-    },
-    {
-      "type": "stage",
-      "text": "Use"
-    },
-    {
-      "type": "stage",
-      "text": "● sharp foot patterns;"
-    },
-    {
-      "type": "stage",
-      "text": "● synchronized stomps;"
-    },
-    {
-      "type": "stage",
-      "text": "● body percussion;"
-    },
-    {
-      "type": "stage",
-      "text": "● tool percussion;"
-    },
-    {
-      "type": "stage",
-      "text": "● bench work;"
-    },
-    {
-      "type": "stage",
-      "text": "● rhythmic passing of lumber;"
-    },
-    {
-      "type": "stage",
-      "text": "● jumps over low work pieces where safe;"
-    },
-    {
-      "type": "stage",
-      "text": "● sliding underneath beams;"
-    },
-    {
-      "type": "stage",
-      "text": "● controlled vaults by trained performers;"
-    },
-    {
-      "type": "stage",
-      "text": "● quick level changes;"
-    },
-    {
-      "type": "stage",
-      "text": "● canon movement;"
-    },
-    {
-      "type": "stage",
-      "text": "● tight unison sections;"
-    },
-    {
-      "type": "stage",
-      "text": "● athletic turns;"
-    },
-    {
-      "type": "stage",
-      "text": "● five-man formations that constantly break and reform."
-    },
-    {
-      "type": "stage",
-      "text": "The choreography should feel as though construction itself has become dance."
-    },
-    {
-      "type": "stage",
-      "text": "One man throws a lightweight piece of wood."
-    },
-    {
-      "type": "stage",
-      "text": "Another catches it on count."
-    },
-    {
-      "type": "stage",
-      "text": "Hammer."
-    },
-    {
-      "type": "stage",
-      "text": "Spin."
-    },
-    {
-      "type": "stage",
-      "text": "Pass."
-    },
-    {
-      "type": "stage",
-      "text": "Duck."
-    },
-    {
-      "type": "stage",
-      "text": "Stomp."
-    },
-    {
-      "type": "stage",
-      "text": "Clap."
-    },
-    {
-      "type": "heading",
-      "text": "BANG!"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph lands the last strike."
-    },
-    {
-      "type": "stage",
-      "text": "Silence."
-    },
-    {
-      "type": "heading",
-      "text": "APPLAUSE BUTTON OPPORTUNITY."
-    },
-    {
-      "type": "stage",
-      "text": "Laughter. Breath. The men remain in the world of the workshop rather than posing for applause."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "That is how you build a table."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "You contributed almost nothing."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Morale."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "You were the reason morale was necessary."
-    },
-    {
-      "type": "dialogue",
-      "text": "Caleb considers that."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Still counts."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at the table. He is pleased despite himself."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "You're happy."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at him."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Is that a question?"
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "No."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks toward the table again, then unconsciously touches or adjusts the satchel."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Good."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "That's it?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "What?"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "The man is getting married, building a table for half of Nazareth, and all we get is 'good.'"
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Leave him alone."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "I am celebrating him."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Aggressively."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "I am happy."
-    },
-    {
-      "type": "dialogue",
-      "text": "That lands. Joseph does not need a speech."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Very."
-    },
-    {
-      "type": "stage",
-      "text": "The others see that he means it."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE BROTHERHOOD PROMISE"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Then remember us when you become respectable."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Too late for you."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Exactly. Someone has to protect you from it."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "We're finishing this tomorrow."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Assuming Caleb does not improve anything overnight."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "You mock me now."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "We mocked you this morning."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Consistency. That's brotherhood."
-    },
-    {
-      "type": "dialogue",
-      "text": "Small laugh."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "When real trouble comes, you'll know the difference."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "lyric",
-      "text": "Oh?"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "When trouble comes, we stand together."
-    },
-    {
-      "type": "stage",
-      "text": "The line should not become solemn. It is simply true to Joseph in this moment."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "That, we can agree on."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "We can."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Within reason."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "There he goes."
-    },
-    {
-      "type": "stage",
-      "text": "Caleb looks at Ezra and shakes his head. They laugh again."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "stage",
-      "text": "MARY ARRIVES"
-    },
-    {
-      "type": "stage",
-      "text": "The men move back into the work."
-    },
-    {
-      "type": "stage",
-      "text": "The rhythm begins again—easy now. Familiar."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph has his back turned."
-    },
-    {
-      "type": "stage",
-      "text": "At the edge of the space, MARY appears."
-    },
-    {
-      "type": "stage",
-      "text": "SHIRA is with her."
-    },
-    {
-      "type": "stage",
-      "text": "The audience sees them."
-    },
-    {
-      "type": "stage",
-      "text": "The men do not."
-    },
-    {
-      "type": "stage",
-      "text": "Mary watches Joseph laughing with his friends."
-    },
-    {
-      "type": "stage",
-      "text": "Completely happy."
-    },
-    {
-      "type": "stage",
-      "text": "The unfinished table beside him."
-    },
-    {
-      "type": "stage",
-      "text": "The satchel she made him still on his shoulder."
-    },
-    {
-      "type": "stage",
-      "text": "Shira looks at Mary."
-    },
-    {
-      "type": "character",
-      "text": "SHIRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "You want me to stay?"
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks at Joseph."
-    },
-    {
-      "type": "stage",
-      "text": "For a moment, she almost says yes."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "No."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Thank you."
-    },
-    {
-      "type": "dialogue",
-      "text": "Shira offers her hand. Mary takes it briefly."
-    },
-    {
-      "type": "character",
-      "text": "SHIRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "Start with the truth."
-    },
-    {
-      "type": "stage",
-      "text": "Mary nods."
-    },
-    {
-      "type": "stage",
-      "text": "Shira moves away but does not need to disappear immediately. Mary is now alone at the edge of Joseph's world."
-    },
-    {
-      "type": "stage",
-      "text": "The men continue working."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "I'm just saying, eight chairs is a commitment."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Are you still talking?"
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "I have questions."
-    },
-    {
-      "type": "character",
-      "text": "EZRA"
-    },
-    {
-      "type": "dialogue",
-      "text": "No one doubts that."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Leave him alone."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "I am leaving him alone."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "You are standing next to him."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Emotionally."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph laughs."
-    },
-    {
-      "type": "stage",
-      "text": "Then he turns."
-    },
-    {
-      "type": "stage",
-      "text": "He sees Mary."
-    },
-    {
-      "type": "stage",
-      "text": "His face immediately lights up."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary!"
-    },
-    {
-      "type": "dialogue",
-      "text": "That warmth should hurt."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph crosses toward her."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "What are you doing here?"
-    },
-    {
-      "type": "stage",
-      "text": "Then he sees her face."
-    },
-    {
-      "type": "stage",
-      "text": "His smile doesn't disappear immediately."
-    },
-    {
-      "type": "stage",
-      "text": "Concern replaces it."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Hey."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "What's wrong?"
-    },
-    {
-      "type": "stage",
-      "text": "Mary tries."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Can we talk?"
-    },
-    {
-      "type": "dialogue",
-      "text": "Behind Joseph, the work begins to stop."
-    },
-    {
-      "type": "dialogue",
-      "text": "Caleb starts toward them."
-    },
-    {
-      "type": "dialogue",
-      "text": "Malachi catches his arm."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "What?"
-    },
-    {
-      "type": "dialogue",
-      "text": "Malachi gives him a look."
-    },
-    {
-      "type": "character",
-      "text": "CALEB"
-    },
-    {
-      "type": "dialogue",
-      "text": "Right."
-    },
-    {
-      "type": "stage",
-      "text": "Levi looks at Joseph."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph gives him the smallest nod: I've got it."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "We'll finish tomorrow."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "All right."
-    },
-    {
-      "type": "stage",
-      "text": "The men begin putting down and gathering their tools."
-    },
-    {
-      "type": "stage",
-      "text": "Levi starts to leave, then turns back."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at him."
-    },
-    {
-      "type": "character",
-      "text": "LEVI"
-    },
-    {
-      "type": "dialogue",
-      "text": "Tomorrow."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Tomorrow."
-    },
-    {
-      "type": "stage",
-      "text": "Levi exits."
-    },
-    {
-      "type": "dialogue",
-      "text": "Ezra and Caleb follow."
-    },
-    {
-      "type": "dialogue",
-      "text": "Malachi lingers for only a moment."
-    },
-    {
-      "type": "character",
-      "text": "MALACHI"
-    },
-    {
-      "type": "dialogue",
-      "text": "We're here."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph nods."
-    },
-    {
-      "type": "stage",
-      "text": "Malachi exits."
-    },
-    {
-      "type": "stage",
-      "text": "The rhythm that filled the room is gone."
-    },
-    {
-      "type": "stage",
-      "text": "Shira looks once more toward Mary."
-    },
-    {
-      "type": "stage",
-      "text": "Mary gives her a small nod."
-    },
-    {
-      "type": "stage",
-      "text": "I'm ready."
-    },
-    {
-      "type": "stage",
-      "text": "Shira exits."
+      "text": "TRANSITION FROM SCENE 4",
+      "namedStyleType": "HEADING_5"
     },
     {
       "type": "transition",
-      "text": "TRANSITION INTO SCENE 6"
+      "text": "Scene 4 ends somewhere else in Nazareth with the dangerous echo: 'That's what I heard.'",
+      "namedStyleType": "HEADING_5"
     },
     {
       "type": "stage",
-      "text": "Mary and Joseph are alone."
+      "text": "One beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "BANG!",
+      "namedStyleType": "HEADING_4"
     },
     {
       "type": "stage",
-      "text": "No blackout."
+      "text": "A hammer strikes wood.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "BANG!",
+      "namedStyleType": "HEADING_4"
     },
     {
       "type": "stage",
-      "text": "No ominous music."
+      "text": "A second strike.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "BANG-BANG!",
+      "namedStyleType": "HEADING_4"
     },
     {
       "type": "stage",
-      "text": "The LED remains warm."
+      "text": "Lights cut to Joseph's work area. The tonal shift should be immediate: warmth, laughter, physical energy.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Nothing about Nazareth has changed."
+      "text": "JOSEPH, LEVI, MALACHI, CALEB, and EZRA are already working together. The unfinished table from Scene 2 is now unmistakably the project.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The unfinished table remains."
-    },
-    {
-      "type": "stage",
-      "text": "The satchel Mary made is still on Joseph."
-    },
-    {
-      "type": "stage",
-      "text": "Everything Joseph believes his future will be is physically present around him."
-    },
-    {
-      "type": "stage",
-      "text": "He sets down the tool in his hand."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary..."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "What happened?"
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks at him."
-    },
-    {
-      "type": "stage",
-      "text": "She remembers Shira's words."
-    },
-    {
-      "type": "stage",
-      "text": "Start with the truth."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I need to tell you something."
-    },
-    {
-      "type": "dialogue",
-      "text": "Scene 6 begins."
+      "text": "The satchel Mary made Joseph is on him. Do not feature it yet.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -2508,23 +90,3067 @@
     },
     {
       "type": "stage",
-      "text": "The biggest theatrical opportunity here is that the scene has two completely different endings at once: musically, “Brotherhood” can earn a genuine applause button; dramatically, the applause is followed almost immediately by Mary appearing while Joseph is still glowing from everything he thinks his future will be. That contrast should make the audience uneasy even while they are enjoying the number."
+      "text": "A hand slaps a workbench.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "I would also have Mickey preserve a very recognizable five-beat carpentry motif from this scene—something like hammer / hammer / scrape / clap / stomp. Later, after Mary tells Joseph the truth, he can try to work and repeat that exact rhythm"
+      "text": "Suddenly—",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "heading",
-      "text": "BANG. BANG."
+      "text": "JOSEPH'S WORLD.",
+      "namedStyleType": "HEADING_2"
     },
     {
       "type": "stage",
-      "text": "…and stop."
+      "text": "Bright.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The audience will understand before Joseph says anything: his world no longer fits together. That possibility is explicitly planted in the Scene 5 architecture and is one of the strongest musical-storytelling opportunities in this section."
+      "text": "Alive.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Rhythmic.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "JOSEPH, LEVI, MALACHI, CALEB and EZRA are already working.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "They do not stand in a line.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The worksite is constantly moving",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "wood passes from hand to hand;",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "tools change owners;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "measurements are called;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "benches move;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "pieces are lifted;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "someone climbs;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "someone ducks;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "someone catches something at the last second.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Everything feels practiced.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "These men have worked together for years.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "WORK BEFORE WORDS",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Do not begin with dialogue. Let the audience watch the men work.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph checks a length. Levi takes weight. Ezra checks alignment. Malachi steadies a piece. Caleb tries to help and is just useful enough to remain employed.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The physical vocabulary beneath the sequence is MEASURE -> MARK -> CUT -> SET. It may be expressed through movement rather than repeated as lyrics.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "Hammer strikes, scraping wood, footwork, hand-claps, and safe prop percussion begin to align into a musical pulse.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Hold that.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am holding it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You're leaning on it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That is a form of holding.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Move.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Levi takes the weight cleanly.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "See? Teamwork.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That is not what happened.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It's what I experienced.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "They keep working. The rhythm continues underneath.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "JOSEPH IN HIS ELEMENT",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph stops and looks at a piece Caleb has handled.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Caleb.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph points at it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Look at it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Caleb looks.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "And?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Caleb studies it harder.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Strong.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Caleb.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Very strong.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Ezra steps over, looks once.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "One side is higher.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Only if you compare it to the other side.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That's usually how sides work.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph takes the piece from Caleb.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You don't trust my work.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I trust you completely.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Caleb softens, pleased.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Thank you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Your work is another matter.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "The men laugh. Joseph resets the piece, and the music/movement picks back up.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "MARRIAGE BANTER",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Levi notices Joseph working on another piece.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Hold on.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Whose is that?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Customer's.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Different wood.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Different finish.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Ezra watches Joseph inspect the table.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "And you've checked that corner four times.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Four?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "He GASPS.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Oh, we've lost him.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm standing right here.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That's for Mary.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph continues working.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Too late. They know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It's for the house!",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Caleb—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "He's building the house!",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Man hasn't even married her, and he's already building furniture.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "At least he'll have somewhere to sleep after she gets tired of him.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at Malachi.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You too?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Wisdom comes in many forms.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "This one appears to be a table.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph stops. Looks at Ezra.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "It's obviously a table.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "How big is this thing?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Big enough.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That is not a measurement.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Who's sitting at it?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "People.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "How many people?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Six.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Ezra looks at the table.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That's not a six-person table.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It might be eight.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Caleb slowly turns toward Joseph.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Eight?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph keeps working.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Eight?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "People visit.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Of course.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Very small people, apparently.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Caleb realizes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Children.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I didn't say that.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You built it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "The others laugh.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "How many?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Caleb.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You've counted.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I have not.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "He has.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Ezra.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Evidence suggests—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nobody asked for evidence.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Eight means there's room.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph's defensiveness softens.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That's the idea.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Room for what?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at the table.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "This time he answers without joking.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Family.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Friends.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Whoever needs a place.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "That quiets them for just a moment.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "And children.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Go cut something.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Gladly.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Caleb grabs the appropriate piece and launches back into the work.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not that one.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Caleb freezes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I knew that.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Evidence suggests—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nobody asked for evidence.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "The men laugh.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The men laugh and return to the work rhythm. Joseph tries to hide how pleased he is, which only confirms everything.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "SATCHEL CONTINUITY",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Caleb reaches for a tool and notices Joseph's satchel.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You still carrying that?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It's a tool satchel.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then where are the tools?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph instinctively checks.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The others notice the satchel is nearly empty.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Interesting.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Don't.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "She made you a satchel, and now you're protecting it from the tools.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I use it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "For what?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at all of them.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "For carrying things.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Like feelings?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph throws a rag at Caleb. Caleb catches it triumphantly.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "See? Now it's useful.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Back into the work.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "heading",
+      "text": "“BROTHERHOOD” BEGINS",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "The carpentry pulse now expands into the full Brotherhood sequence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "This should feel rehearsed and exciting, but never disconnected from the work. The men are not presenting choreography to the audience; they are working so instinctively together that the work becomes choreography.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Movement possibilities: passing wood in counter-rhythm; coordinated lifts; safe tool-handling phrases; turns generated by carrying material; foot-stomps; hand-claps; bench/wood percussion; a repeated lift-set-release pattern; Caleb adding unnecessary flourishes that the others repeatedly correct.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph should eventually stop supervising every beat and fully join the physical joy. We need to see him young, competitive, laughing and completely at home with these men.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "PERCUSSIVE PATTERN",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "music",
+      "text": "HAMMER — HAMMER — SAW — CLAP — FOOT",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "music",
+      "text": "HAMMER — HAMMER — SAW — CLAP — FOOT",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "The men begin passing tools in rhythm.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Movement becomes sharper.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Angular.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Masculine.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Precise.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The dialogue starts locking into tempo.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Measure.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mark.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Cut.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Again.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Lift.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ALL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Set.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "music",
+      "text": "BANG!",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Too high!",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Too low.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Move!",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Slow.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Together.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "music",
+      "text": "HIT.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "The piece lands perfectly.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "RHYTHMIC SPOKEN SECTION",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "If it's heavy—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We lift it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "If it's crooked—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We fix it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "If it's broken—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We mend it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "If it's food—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ALL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "CALEB!",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I was going to say share it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No, you weren't.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "The audience laughs.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The work continues.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Side by side—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Hand to hand—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Know the measure—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Know the plan—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "And if the plan goes bad—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Everyone stops.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Looks at Caleb.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We blame Ezra.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Why me?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You look responsible.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "The rhythm immediately resumes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "“BROTHERHOOD” — CALL AND RESPONSE",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "This portion may become sung/spoken/rap-adjacent depending on Christian's composition.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The text can ultimately be shaped musically, but the dramatic territory is",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You don't build alone.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MEN",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You don't stand alone.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MEN",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "When one man loses his footing—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MEN",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We hold him.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "When one man misses the measure—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We tell everybody.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That's not—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Caleb!",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Laughter inside the rhythm.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ALL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "music",
+      "text": "THE BROTHERHOOD",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "lyric",
+      "text": "Work together.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "lyric",
+      "text": "Stand together.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "lyric",
+      "text": "Build together.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "music",
+      "text": "BANG!",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "character",
+      "text": "ALL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "lyric",
+      "text": "Brothers don't let brothers fall.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "dialogue",
+      "text": "The phrase should land clearly enough to return emotionally later.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "CHOREOGRAPHIC FEATURE",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "The music expands into approximately 20–30 seconds of instrumental choreography.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "This is the major visual payoff of the scene.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "heading",
+      "text": "MOVEMENT LANGUAGE",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Use",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "sharp foot patterns;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "synchronized stomps;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "body percussion;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "tool percussion;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "bench work;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "rhythmic passing of lumber;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "jumps over low work pieces where safe;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "sliding underneath beams;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "controlled vaults by trained performers;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "quick level changes;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "canon movement;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "tight unison sections;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "athletic turns;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "five-man formations that constantly break and reform.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The choreography should feel as though construction itself has become dance.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "One man throws a lightweight piece of wood.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Another catches it on count.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "Hammer.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "Spin.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Pass.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Duck.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "Stomp.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "music",
+      "text": "Clap.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "music",
+      "text": "BANG!",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph lands the last strike.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Silence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "APPLAUSE BUTTON OPPORTUNITY.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Laughter. Breath. The men remain in the world of the workshop rather than posing for applause.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That is how you build a table.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You contributed almost nothing.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Morale.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You were the reason morale was necessary.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Caleb considers that.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still counts.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at the table. He is pleased despite himself.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You're happy.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Is that a question?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks toward the table again, then unconsciously touches or adjusts the satchel.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Good.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That's it?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "The man is getting married, building a table for half of Nazareth, and all we get is 'good.'",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Leave him alone.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am celebrating him.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Aggressively.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am happy.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "That lands. Joseph does not need a speech.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Very.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "The others see that he means it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "THE BROTHERHOOD PROMISE",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then remember us when you become respectable.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Too late for you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Exactly. Someone has to protect you from it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We're finishing this tomorrow.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Assuming Caleb does not improve anything overnight.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You mock me now.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We mocked you this morning.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Consistency. That's brotherhood.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Small laugh.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "When real trouble comes, you'll know the difference.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Oh?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "When trouble comes, we stand together.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "The line should not become solemn. It is simply true to Joseph in this moment.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That, we can agree on.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We can.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Within reason.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "There he goes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Caleb looks at Ezra and shakes his head. They laugh again.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "MARY ARRIVES",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "The men move back into the work.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The rhythm begins again—easy now. Familiar.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph has his back turned.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "At the edge of the space, MARY appears.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "SHIRA is with her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The audience sees them.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The men do not.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary watches Joseph laughing with his friends.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Completely happy.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The unfinished table beside him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The satchel she made him still on his shoulder.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Shira looks at Mary.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "SHIRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You want me to stay?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at Joseph.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "For a moment, she almost says yes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Thank you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Shira offers her hand. Mary takes it briefly.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "SHIRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Start with the truth.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary nods.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Shira moves away but does not need to disappear immediately. Mary is now alone at the edge of Joseph's world.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The men continue working.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm just saying, eight chairs is a commitment.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Are you still talking?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I have questions.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "EZRA",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No one doubts that.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Leave him alone.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am leaving him alone.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You are standing next to him.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Emotionally.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph laughs.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Then he turns.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He sees Mary.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "His face immediately lights up.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary!",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "That warmth should hurt.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph crosses toward her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What are you doing here?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Then he sees her face.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "His smile doesn't disappear immediately.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Concern replaces it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Hey.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What's wrong?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary tries.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Can we talk?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Behind Joseph, the work begins to stop.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Caleb starts toward them.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Malachi catches his arm.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Malachi gives him a look.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "CALEB",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Right.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Levi looks at Joseph.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph gives him the smallest nod: I've got it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We'll finish tomorrow.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "All right.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "The men begin putting down and gathering their tools.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Levi starts to leave, then turns back.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph looks at him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "LEVI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Tomorrow.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Tomorrow.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Levi exits.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Ezra and Caleb follow.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Malachi lingers for only a moment.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MALACHI",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We're here.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph nods.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Malachi exits.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The rhythm that filled the room is gone.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Shira looks once more toward Mary.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary gives her a small nod.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "I'm ready.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Shira exits.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "transition",
+      "text": "TRANSITION INTO SCENE 6",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "stage",
+      "text": "Mary and Joseph are alone.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "No blackout.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "No ominous music.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The LED remains warm.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Nothing about Nazareth has changed.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The unfinished table remains.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The satchel Mary made is still on Joseph.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Everything Joseph believes his future will be is physically present around him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He sets down the tool in his hand.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What happened?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She remembers Shira's words.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Start with the truth.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I need to tell you something.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "transition",
+      "text": "Scene 6 begins.",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "The biggest theatrical opportunity here is that the scene has two completely different endings at once: musically, “Brotherhood” can earn a genuine applause button; dramatically, the applause is followed almost immediately by Mary appearing while Joseph is still glowing from everything he thinks his future will be. That contrast should make the audience uneasy even while they are enjoying the number.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "heading",
+      "text": "I would also have Mickey preserve a very recognizable five-beat carpentry motif from this scene—something like hammer / hammer / scrape / clap / stomp. Later, after Mary tells Joseph the truth, he can try to work and repeat that exact rhythm",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "music",
+      "text": "BANG. BANG.",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "…and stop.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The audience will understand before Joseph says anything: his world no longer fits together. That possibility is explicitly planted in the Scene 5 architecture and is one of the strongest musical-storytelling opportunities in this section.",
+      "namedStyleType": "HEADING_6"
     }
   ]
 }

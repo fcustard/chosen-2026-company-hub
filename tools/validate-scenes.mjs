@@ -67,13 +67,63 @@ function validateCharacterCues(scene, fileName) {
   }
 }
 
+const STYLE_TYPES = new Map([
+  ["HEADING_1", "heading"],
+  ["HEADING_2", "heading"],
+  ["HEADING_3", "character"],
+  ["HEADING_4", "music"],
+  ["HEADING_5", "transition"],
+  ["HEADING_6", "stage"],
+  ["SUBTITLE", "production-note"],
+  ["TITLE", "lyric"],
+  ["NORMAL_TEXT", "dialogue"]
+]);
+
+function validateNamedStyles(scene, fileName) {
+  for (const [index, block] of scene.blocks.entries()) {
+    if (block?.type === "spacer" || !cleanCharacterCue(block?.text || "")) continue;
+
+    const namedStyleType = String(block?.namedStyleType || "").trim().toUpperCase();
+    if (!namedStyleType) {
+      fail(`${fileName} block ${index + 1} is missing the source namedStyleType.`);
+    }
+
+    const expectedType = STYLE_TYPES.get(namedStyleType);
+    if (!expectedType) {
+      fail(`${fileName} block ${index + 1} uses unsupported namedStyleType "${namedStyleType}".`);
+    }
+
+    const actualType = String(block?.type || "").trim().toLowerCase();
+    if (expectedType !== actualType) {
+      fail(
+        `${fileName} block ${index + 1} maps ${namedStyleType} to ${expectedType}, ` +
+        `but the generated block is ${actualType || "untyped"}.`
+      );
+    }
+  }
+}
+
 function normalizedCue(value) {
   return cleanCharacterCue(value).replace(/[:：]+$/, "").toUpperCase();
 }
 
+const KNOWN_CHARACTER_CUES = new Set([
+  "ADINA", "ANGEL", "ANGEL VOICE", "ANNA", "ANNOUNCER", "BETHLEHEM WOMAN",
+  "CALEB", "CHILD", "CHILD 1", "CHILD 2", "CHILD 3", "CUSTOMER", "CUSTOMER 1",
+  "DAFNA", "ELI", "ELIZABETH", "EZRA", "GABRIEL", "GOSSIPER", "GOSSIPER 1",
+  "GOSSIPER 2", "GOSSIPER 3", "GOSSIPER 4", "HEROD", "INNKEEPER", "INNKEEPER 1",
+  "INNKEEPER 2", "INNKEEPER 3", "INNKEEPER'S WIFE", "JOSEPH", "KEEPER", "LEVI",
+  "LUCIA", "MALACHI", "MAN", "MARY", "MERCHANT", "MERCHANT 1", "MERCHANT 2",
+  "NIA", "ROMAN", "ROMAN ANNOUNCER", "SHEPHERD", "SHEPHERD 1", "SHEPHERD 2",
+  "SHEPHERD 3", "SHIRA", "SIMON", "TALIA", "VILLAGER", "VILLAGER MAN",
+  "VILLAGER MAN 2", "VILLAGER 1", "VILLAGER 2", "VILLAGER 3", "VILLAGER WOMAN 1",
+  "VILLAGER WOMAN 2", "WISE MAN", "WOMAN", "WOMAN CUSTOMER 1", "YOUNG SHEPHERD"
+]);
+
 function looksLikeCharacter(value) {
   const cue = normalizedCue(value);
-  return /^[A-Z][A-Z0-9 &'’.\/\-–—]{1,50}$/.test(cue) && !/[.!?]$/.test(cue);
+  return KNOWN_CHARACTER_CUES.has(cue) ||
+    /^(?:CHILD|CUSTOMER|GOSSIPER|INNKEEPER|MERCHANT|SHEPHERD|VILLAGER(?: MAN| WOMAN)?|WOMAN CUSTOMER) \d{1,2}$/.test(cue);
 }
 
 function looksLikeStageDirection(value) {
@@ -173,6 +223,7 @@ for (const fileName of sceneFiles) {
   }
 
   validateCharacterCues(scene, fileName);
+  validateNamedStyles(scene, fileName);
   validateSemanticSequence(scene, fileName);
 
   const manifest = scripts.find(

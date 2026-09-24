@@ -6,1441 +6,24 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T17:58:45.505Z",
-  "contentHash": "e9e8ad536719407f9bb95e1049661ea86dd4f4a9eefc679df42b5e270af52169",
+  "sourceUpdated": "2026-09-24T17:24:04.190Z",
+  "contentHash": "4f15f3c1a83b27ef2cafcf91a625b896ad9e05d69f33f722c9bdc49a0159d720",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
-      "type": "heading",
-      "text": "CONTINUOUS FROM SCENE 2"
+      "type": "production-note",
+      "text": "Approximate Running Time: 5–6 minutes",
+      "namedStyleType": "SUBTITLE"
     },
     {
-      "type": "stage",
-      "text": "Joseph has just exited."
+      "type": "production-note",
+      "text": "Spoken Dialogue: Approximately 2½–3 minutes",
+      "namedStyleType": "SUBTITLE"
     },
     {
-      "type": "character",
-      "text": "JOSEPH"
-    },
-    {
-      "type": "dialogue",
-      "text": "Tomorrow?"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Tomorrow."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph disappears."
-    },
-    {
-      "type": "stage",
-      "text": "Mary remains alone."
-    },
-    {
-      "type": "stage",
-      "text": "For several seconds, nothing happens."
-    },
-    {
-      "type": "stage",
-      "text": "Let the audience stay with her happiness."
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks toward the place Joseph exited."
-    },
-    {
-      "type": "stage",
-      "text": "She smiles."
-    },
-    {
-      "type": "stage",
-      "text": "She begins quietly putting things in order."
-    },
-    {
-      "type": "stage",
-      "text": "Perhaps she"
-    },
-    {
-      "type": "stage",
-      "text": "● folds a piece of cloth;"
-    },
-    {
-      "type": "stage",
-      "text": "● straightens the unfinished table piece Joseph showed her;"
-    },
-    {
-      "type": "stage",
-      "text": "● moves one of the chairs;"
-    },
-    {
-      "type": "stage",
-      "text": "● touches the wood and imagines the future they were just discussing."
-    },
-    {
-      "type": "stage",
-      "text": "She catches herself smiling."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Eight chairs."
-    },
-    {
-      "type": "stage",
-      "text": "She shakes her head."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph..."
-    },
-    {
-      "type": "dialogue",
-      "text": "Small laugh."
-    },
-    {
-      "type": "stage",
-      "text": "She resumes folding."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE INTERRUPTION"
-    },
-    {
-      "type": "stage",
-      "text": "The distant sounds of Nazareth are still present."
-    },
-    {
-      "type": "stage",
-      "text": "A voice."
-    },
-    {
-      "type": "stage",
-      "text": "A cart."
-    },
-    {
-      "type": "stage",
-      "text": "A child somewhere outside."
-    },
-    {
-      "type": "stage",
-      "text": "A faint hammer."
-    },
-    {
-      "type": "stage",
-      "text": "Then—"
-    },
-    {
-      "type": "stage",
-      "text": "everything stops."
-    },
-    {
-      "type": "stage",
-      "text": "Not slowly."
-    },
-    {
-      "type": "stage",
-      "text": "Gone."
-    },
-    {
-      "type": "stage",
-      "text": "Mary notices."
-    },
-    {
-      "type": "stage",
-      "text": "She waits."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Hello?"
-    },
-    {
-      "type": "dialogue",
-      "text": "Nothing."
-    },
-    {
-      "type": "stage",
-      "text": "She listens."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Is someone there?"
-    },
-    {
-      "type": "stage",
-      "text": "A subtle musical texture enters."
-    },
-    {
-      "type": "stage",
-      "text": "Something completely different from the musical language of Nazareth."
-    },
-    {
-      "type": "stage",
-      "text": "Not loud."
-    },
-    {
-      "type": "stage",
-      "text": "Not threatening."
-    },
-    {
-      "type": "stage",
-      "text": "Unfamiliar."
-    },
-    {
-      "type": "stage",
-      "text": "The light begins changing."
-    },
-    {
-      "type": "stage",
-      "text": "Mary turns."
-    },
-    {
-      "type": "stage",
-      "text": "She sees GABRIEL."
-    },
-    {
-      "type": "stage",
-      "text": "Gabriel does not rush toward her."
-    },
-    {
-      "type": "stage",
-      "text": "Stillness is part of the power of the moment."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary."
-    },
-    {
-      "type": "stage",
-      "text": "Mary steps backward."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Who are you?"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Do not be afraid."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I wasn't—"
-    },
-    {
-      "type": "stage",
-      "text": "She stops."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I… ok, wait…"
-    },
-    {
-      "type": "stage",
-      "text": "Mary stops and backs away"
-    },
-    {
-      "type": "stage",
-      "text": "Gabriel remains calm."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "You have found favor with God."
-    },
-    {
-      "type": "stage",
-      "text": "Gabriel walks towards Mary"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Favor?"
-    },
-    {
-      "type": "dialogue",
-      "text": "Still walks away from Gabriel slowly"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Yes."
-    },
-    {
-      "type": "dialogue",
-      "text": "Continues walking towards Mary"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I don't understand."
-    },
-    {
-      "type": "dialogue",
-      "text": "Still walks backwards away from Gabriel"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "You will."
-    },
-    {
-      "type": "dialogue",
-      "text": "Continues walking towards Mary"
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Who are you?"
-    },
-    {
-      "type": "dialogue",
-      "text": "Still walks backwards away from Gabriel"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Gabriel."
-    },
-    {
-      "type": "stage",
-      "text": "A beat."
-    },
-    {
-      "type": "stage",
-      "text": "Stops walking and stands still"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "I have been sent by God."
-    },
-    {
-      "type": "stage",
-      "text": "Mary stops, she absorbs that."
-    },
-    {
-      "type": "stage",
-      "text": "She looks toward the doorway, as though part of her still expects someone else to walk in and make this ordinary again."
-    },
-    {
-      "type": "stage",
-      "text": "No one does."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE CALLING"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary..."
-    },
-    {
-      "type": "dialogue",
-      "text": "you have been chosen."
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks at him."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Chosen for what?"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "You will bear a son."
-    },
-    {
-      "type": "stage",
-      "text": "Silence."
-    },
-    {
-      "type": "stage",
-      "text": "Mary does not respond."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I'm sorry—"
-    },
-    {
-      "type": "dialogue",
-      "text": "what did you say?"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "You will bear a son."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "No."
-    },
-    {
-      "type": "dialogue",
-      "text": "Not rejection."
-    },
-    {
-      "type": "stage",
-      "text": "Her mind simply cannot make the words fit."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I mean—"
-    },
-    {
-      "type": "dialogue",
-      "text": "how?"
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "How can that be?"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "What will happen comes from God."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I understand the words."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "I don't understand how they can be true."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Nothing God has spoken is beyond His power."
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks at him carefully."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Why me?"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Because God has chosen you."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "That doesn't answer the question."
-    },
-    {
-      "type": "stage",
-      "text": "Gabriel regards her."
-    },
-    {
-      "type": "stage",
-      "text": "Not offended."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "It may be the only answer you are given tonight."
-    },
-    {
-      "type": "dialogue",
-      "text": "That lands."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "MARY SEARCHES FOR CERTAINTY"
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You expect me to believe this?"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "I expect you to decide whether you will trust the One who sent me."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Those aren't the same thing."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "No."
-    },
-    {
-      "type": "stage",
-      "text": "They are not."
-    },
-    {
-      "type": "stage",
-      "text": "Mary studies him."
-    },
-    {
-      "type": "stage",
-      "text": "That answer surprises her."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "What happens now?"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "You live the answer."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "That's all?"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "No."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Your relative Elizabeth is also expecting a child."
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks up."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Elizabeth?"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Yes."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "But she—"
-    },
-    {
-      "type": "stage",
-      "text": "Mary stops herself."
-    },
-    {
-      "type": "stage",
-      "text": "She knows what she was going to say."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "What seemed impossible..."
-    },
-    {
-      "type": "dialogue",
-      "text": "is already happening."
-    },
-    {
-      "type": "stage",
-      "text": "Mary takes that in."
-    },
-    {
-      "type": "stage",
-      "text": "This is the first piece of the message she can attach to something in her world."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Elizabeth."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "Go to her if you need to see what God has already begun."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE COST ARRIVES"
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks toward the unfinished table."
-    },
-    {
-      "type": "stage",
-      "text": "The future from Scene 2 is sitting in front of her."
-    },
-    {
-      "type": "stage",
-      "text": "The house."
-    },
-    {
-      "type": "stage",
-      "text": "The table."
-    },
-    {
-      "type": "stage",
-      "text": "The marriage."
-    },
-    {
-      "type": "stage",
-      "text": "Joseph."
-    },
-    {
-      "type": "stage",
-      "text": "Her breathing changes slightly."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "What will people think?"
-    },
-    {
-      "type": "stage",
-      "text": "Gabriel does not answer immediately."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "My family?"
-    },
-    {
-      "type": "stage",
-      "text": "The village?"
-    },
-    {
-      "type": "stage",
-      "text": "Still no false reassurance."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph..."
-    },
-    {
-      "type": "dialogue",
-      "text": "That name lands hardest."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "What am I supposed to tell Joseph?"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "The truth."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "And if the truth sounds impossible?"
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "It will still be the truth."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "That doesn't mean he'll believe me."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "No."
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks at Gabriel."
-    },
-    {
-      "type": "stage",
-      "text": "That is not the answer she wanted."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "You don't know Joseph."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "God does."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "He has plans."
-    },
-    {
-      "type": "stage",
-      "text": "Her eyes move back to the table."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "We have plans."
-    },
-    {
-      "type": "stage",
-      "text": "A home."
-    },
-    {
-      "type": "stage",
-      "text": "A wedding."
-    },
-    {
-      "type": "stage",
-      "text": "A family."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "He thinks he knows how our life is supposed to go."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "dialogue",
-      "text": "And you?"
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks at him."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "dialogue",
-      "text": "Until a moment ago..."
-    },
-    {
-      "type": "dialogue",
-      "text": "so did I."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "music",
-      "text": "MUSICAL TRIGGER — “CHOSEN”"
-    },
-    {
-      "type": "stage",
-      "text": "The first musical phrase begins."
-    },
-    {
-      "type": "stage",
-      "text": "Not triumph."
-    },
-    {
-      "type": "stage",
-      "text": "Not celebration."
-    },
-    {
-      "type": "stage",
-      "text": "A question."
-    },
-    {
-      "type": "stage",
-      "text": "Gabriel does not suddenly disappear."
-    },
-    {
-      "type": "stage",
-      "text": "He remains present, but the focus begins transferring to Mary."
-    },
-    {
-      "type": "stage",
-      "text": "The song begins because she has finally understood"
-    },
-    {
-      "type": "stage",
-      "text": "This miracle has a cost."
-    },
-    {
-      "type": "heading",
-      "text": "“CHOSEN”"
-    },
-    {
-      "type": "music",
-      "text": "SONG JOURNEY"
-    },
-    {
-      "type": "heading",
-      "text": "SECTION 1 — WHY ME?"
-    },
-    {
-      "type": "lyric",
-      "text": "Mary confronts the word chosen."
-    },
-    {
-      "type": "lyric",
-      "text": "She is not royalty."
-    },
-    {
-      "type": "lyric",
-      "text": "Not powerful."
-    },
-    {
-      "type": "lyric",
-      "text": "Not extraordinary by the world's standards."
-    },
-    {
-      "type": "lyric",
-      "text": "Why would God place something this enormous in the hands of someone from Nazareth?"
-    },
-    {
-      "type": "lyric",
-      "text": "The lyrical thought should be"
-    },
-    {
-      "type": "lyric",
-      "text": "Why would being chosen feel this frightening?"
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "SECTION 2 — WHAT WILL THIS COST?"
-    },
-    {
-      "type": "stage",
-      "text": "Mary sees everything from Scene 2 in a new light"
-    },
-    {
-      "type": "lyric",
-      "text": "● Joseph;"
-    },
-    {
-      "type": "lyric",
-      "text": "● their wedding;"
-    },
-    {
-      "type": "lyric",
-      "text": "● the house;"
-    },
-    {
-      "type": "lyric",
-      "text": "● the table;"
-    },
-    {
-      "type": "lyric",
-      "text": "● her family;"
-    },
-    {
-      "type": "lyric",
-      "text": "● her name;"
-    },
-    {
-      "type": "lyric",
-      "text": "● what Nazareth will say;"
-    },
-    {
-      "type": "lyric",
-      "text": "● whether Joseph will stay."
-    },
-    {
-      "type": "lyric",
-      "text": "Fragments of the musical language of “My Beloved” may briefly appear underneath “Chosen.”"
-    },
-    {
-      "type": "lyric",
-      "text": "Not a full reprise."
-    },
-    {
-      "type": "lyric",
-      "text": "Just enough for the audience to feel the future that is now endangered."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "SECTION 3 — I CANNOT SEE THE ROAD"
-    },
-    {
-      "type": "stage",
-      "text": "Mary begins understanding that Gabriel is not going to give her the entire future."
-    },
-    {
-      "type": "lyric",
-      "text": "She does not know"
-    },
-    {
-      "type": "lyric",
-      "text": "● what Joseph will do;"
-    },
-    {
-      "type": "lyric",
-      "text": "● how people will react;"
-    },
-    {
-      "type": "lyric",
-      "text": "● where this road ends;"
-    },
-    {
-      "type": "lyric",
-      "text": "● what obedience will cost."
-    },
-    {
-      "type": "lyric",
-      "text": "The central realization"
-    },
-    {
-      "type": "lyric",
-      "text": "I do not have to see the whole road to take the next step."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "SECTION 4 — CHOSEN BECOMES A CHOICE"
-    },
-    {
-      "type": "lyric",
-      "text": "The word changes meaning."
-    },
-    {
-      "type": "lyric",
-      "text": "At the beginning of the song"
-    },
-    {
-      "type": "lyric",
-      "text": "God chose me."
-    },
-    {
-      "type": "lyric",
-      "text": "By the end"
-    },
-    {
-      "type": "lyric",
-      "text": "Will I choose to trust God?"
-    },
-    {
-      "type": "lyric",
-      "text": "Possible central lyrical territory"
-    },
-    {
-      "type": "lyric",
-      "text": "Chosen doesn't mean unafraid."
-    },
-    {
-      "type": "lyric",
-      "text": "and/or"
-    },
-    {
-      "type": "lyric",
-      "text": "If You chose me, give me courage to choose You."
-    },
-    {
-      "type": "lyric",
-      "text": "The music grows emotionally—"
-    },
-    {
-      "type": "lyric",
-      "text": "but avoid turning it into a giant power-ballad finish."
-    },
-    {
-      "type": "lyric",
-      "text": "This should feel like Mary becoming steady, not invincible."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "THE MUSIC APPROACHES ITS FINAL RESOLUTION"
-    },
-    {
-      "type": "stage",
-      "text": "Mary turns toward Gabriel."
-    },
-    {
-      "type": "lyric",
-      "text": "The music holds."
-    },
-    {
-      "type": "lyric",
-      "text": "Then—"
-    },
-    {
-      "type": "lyric",
-      "text": "nearly stops."
-    },
-    {
-      "type": "stage",
-      "text": "Silence."
-    },
-    {
-      "type": "lyric",
-      "text": "Mary breathes."
-    },
-    {
-      "type": "lyric",
-      "text": "She is still afraid."
-    },
-    {
-      "type": "lyric",
-      "text": "That matters."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "lyric",
-      "text": "I don't understand what comes next."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "lyric",
-      "text": "I know."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "lyric",
-      "text": "And I'm afraid."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "lyric",
-      "text": "I know."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "lyric",
-      "text": "But if God has asked this of me..."
-    },
-    {
-      "type": "lyric",
-      "text": "She gathers herself."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "lyric",
-      "text": "I am the Lord's servant."
-    },
-    {
-      "type": "stage",
-      "text": "Beat."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "lyric",
-      "text": "Let it be with me as He has said."
-    },
-    {
-      "type": "stage",
-      "text": "Silence."
-    },
-    {
-      "type": "lyric",
-      "text": "No instant explosion of music."
-    },
-    {
-      "type": "lyric",
-      "text": "No triumphant celebration."
-    },
-    {
-      "type": "lyric",
-      "text": "Let the decision stand by itself."
-    },
-    {
-      "type": "lyric",
-      "text": "Gabriel regards her."
-    },
-    {
-      "type": "lyric",
-      "text": "For the first time, there may be something almost tender in his expression."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "lyric",
-      "text": "Do not be afraid, Mary."
-    },
-    {
-      "type": "stage",
-      "text": "Mary takes a breath."
-    },
-    {
-      "type": "character",
-      "text": "MARY"
-    },
-    {
-      "type": "lyric",
-      "text": "I'm trying."
-    },
-    {
-      "type": "character",
-      "text": "GABRIEL"
-    },
-    {
-      "type": "lyric",
-      "text": "That is enough for tonight."
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "GABRIEL DEPARTS"
-    },
-    {
-      "type": "lyric",
-      "text": "The light around Gabriel begins to change."
-    },
-    {
-      "type": "lyric",
-      "text": "Do not make his departure a magic trick simply for spectacle."
-    },
-    {
-      "type": "lyric",
-      "text": "It can be"
-    },
-    {
-      "type": "lyric",
-      "text": "● a controlled fade;"
-    },
-    {
-      "type": "lyric",
-      "text": "● a shift in light;"
-    },
-    {
-      "type": "lyric",
-      "text": "● Gabriel moving into darkness;"
-    },
-    {
-      "type": "lyric",
-      "text": "● Mary's attention being pulled briefly elsewhere and finding him gone."
-    },
-    {
-      "type": "lyric",
-      "text": "The divine musical texture recedes."
-    },
-    {
-      "type": "lyric",
-      "text": "Mary is alone again."
-    },
-    {
-      "type": "lyric",
-      "text": "Same room."
-    },
-    {
-      "type": "lyric",
-      "text": "Same wood."
-    },
-    {
-      "type": "lyric",
-      "text": "Same cloth."
-    },
-    {
-      "type": "lyric",
-      "text": "Same unfinished table."
-    },
-    {
-      "type": "lyric",
-      "text": "Nothing looks different."
-    },
-    {
-      "type": "lyric",
-      "text": "Everything is different."
+      "type": "production-note",
+      "text": "Song: “Chosen” — approximately 2½–3 minutes",
+      "namedStyleType": "SUBTITLE"
     },
     {
       "type": "spacer",
@@ -1448,63 +31,133 @@
     },
     {
       "type": "transition",
-      "text": "FINAL MOMENT"
-    },
-    {
-      "type": "lyric",
-      "text": "Mary stands quietly."
-    },
-    {
-      "type": "lyric",
-      "text": "She touches the unfinished table."
-    },
-    {
-      "type": "lyric",
-      "text": "A faint fragment of “My Beloved” is heard."
-    },
-    {
-      "type": "lyric",
-      "text": "Perhaps only a few notes."
-    },
-    {
-      "type": "lyric",
-      "text": "Mary remembers"
-    },
-    {
-      "type": "lyric",
-      "text": "“Whatever comes, I'll walk with you.”"
-    },
-    {
-      "type": "lyric",
-      "text": "Her expression changes."
-    },
-    {
-      "type": "lyric",
-      "text": "Not because she regrets saying yes."
-    },
-    {
-      "type": "lyric",
-      "text": "Because now she understands what she has to do next."
+      "text": "CONTINUOUS FROM SCENE 2",
+      "namedStyleType": "HEADING_5"
     },
     {
       "type": "stage",
-      "text": "She looks toward the direction Joseph left."
+      "text": "Joseph has just exited.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "character",
-      "text": "MARY"
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
     },
     {
-      "type": "lyric",
-      "text": "Joseph..."
+      "type": "dialogue",
+      "text": "Tomorrow?",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "music",
-      "text": "Blackout or controlled transition."
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
     },
     {
-      "type": "transition",
-      "text": "END SCENE 3"
+      "type": "dialogue",
+      "text": "Tomorrow.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph disappears.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary remains alone.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "For several seconds, nothing happens.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Let the audience stay with her happiness.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks toward the place Joseph exited.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She smiles.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She begins quietly putting things in order.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Perhaps she",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "folds a piece of cloth;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "straightens the unfinished table piece Joseph showed her;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "moves one of the chairs;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "touches the wood and imagines the future they were just discussing.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She catches herself smiling.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Eight chairs.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "She shakes her head.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Small laugh.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She resumes folding.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -1512,11 +165,1740 @@
     },
     {
       "type": "heading",
-      "text": "Notes"
+      "text": "THE INTERRUPTION",
+      "namedStyleType": "HEADING_2"
     },
     {
       "type": "stage",
-      "text": "Mary begins in the emotional afterglow of Scene 2, Gabriel’s arrival interrupts rather than overwhelms the world, the dialogue carries the revelation and Mary’s questions, and “Chosen” begins only when Mary understands the personal cost of saying yes. This scene is about Mary’s calling"
+      "text": "The distant sounds of Nazareth are still present.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "A voice.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "A cart.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "A child somewhere outside.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "A faint hammer.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Then—",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "everything stops.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Not slowly.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Gone.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary notices.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She waits.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Hello?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Nothing.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She listens.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Is someone there?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "A subtle musical texture enters.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Something completely different from the musical language of Nazareth.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Not loud.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Not threatening.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Unfamiliar.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The light begins changing.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary turns.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She sees GABRIEL.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel does not rush toward her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Stillness is part of the power of the moment.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary steps backward.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Who are you?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Do not be afraid.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I wasn't—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "She stops.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I… ok, wait…",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary stops and backs away",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel remains calm.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You have found favor with God.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel walks towards Mary",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Favor?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still walks away from Gabriel slowly",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Continues walking towards Mary",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don't understand.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still walks backwards away from Gabriel",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You will.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Continues walking towards Mary",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Who are you?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still walks backwards away from Gabriel",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Gabriel.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "A beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Stops walking and stands still",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I have been sent by God.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary stops, she absorbs that.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She looks toward the doorway, as though part of her still expects someone else to walk in and make this ordinary again.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "No one does.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "THE CALLING",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "you have been chosen.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen for what?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You will bear a son.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Silence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary does not respond.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm sorry—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "what did you say?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You will bear a son.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Not rejection.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Her mind simply cannot make the words fit.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I mean—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "how?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "How can that be?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What will happen comes from God.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I understand the words.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don't understand how they can be true.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Nothing God has spoken is beyond His power.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at him carefully.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Why me?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Because God has chosen you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That doesn't answer the question.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel regards her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Not offended.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It may be the only answer you are given tonight.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "That lands.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "MARY SEARCHES FOR CERTAINTY",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You expect me to believe this?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I expect you to decide whether you will trust the One who sent me.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Those aren't the same thing.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "They are not.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary studies him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "That answer surprises her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What happens now?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You live the answer.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That's all?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Your relative Elizabeth is also expecting a child.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks up.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Elizabeth?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Yes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "But she—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary stops herself.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She knows what she was going to say.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What seemed impossible...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "is already happening.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary takes that in.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "This is the first piece of the message she can attach to something in her world.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Elizabeth.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Go to her if you need to see what God has already begun.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "THE COST ARRIVES",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks toward the unfinished table.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The future from Scene 2 is sitting in front of her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The house.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The table.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The marriage.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Her breathing changes slightly.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What will people think?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel does not answer immediately.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "My family?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "The village?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Still no false reassurance.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "That name lands hardest.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "What am I supposed to tell Joseph?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "The truth.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "And if the truth sounds impossible?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "It will still be the truth.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That doesn't mean he'll believe me.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "No.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at Gabriel.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "That is not the answer she wanted.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "You don't know Joseph.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "God does.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "He has plans.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Her eyes move back to the table.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "We have plans.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "A home.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "A wedding.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "A family.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "He thinks he knows how our life is supposed to go.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "And you?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary looks at him.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Until a moment ago...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "so did I.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "MUSICAL TRIGGER — “CHOSEN”",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "The first musical phrase begins.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Not triumph.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Not celebration.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "A question.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel does not suddenly disappear.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "He remains present, but the focus begins transferring to Mary.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "The song begins because she has finally understood",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "This miracle has a cost.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "“CHOSEN”",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "heading",
+      "text": "SONG JOURNEY",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 1 — WHY ME?",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Mary confronts the word chosen.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She is not royalty.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Not powerful.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Not extraordinary by the world's standards.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Why would God place something this enormous in the hands of someone from Nazareth?",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The lyrical thought should be",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "lyric",
+      "text": "Why would being chosen feel this frightening?",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 2 — WHAT WILL THIS COST?",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Mary sees everything from Scene 2 in a new light",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Joseph;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "their wedding;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "the house;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "the table;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "her family;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "her name;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "what Nazareth will say;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "whether Joseph will stay.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Fragments of the musical language of “My Beloved” may briefly appear underneath “Chosen.”",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Not a full reprise.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Just enough for the audience to feel the future that is now endangered.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 3 — I CANNOT SEE THE ROAD",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "Mary begins understanding that Gabriel is not going to give her the entire future.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She does not know",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "what Joseph will do;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "how people will react;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "where this road ends;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "what obedience will cost.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The central realization",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "lyric",
+      "text": "I do not have to see the whole road to take the next step.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 4 — CHOSEN BECOMES A CHOICE",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "The word changes meaning.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "At the beginning of the song",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "lyric",
+      "text": "God chose me.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "stage",
+      "text": "By the end",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "lyric",
+      "text": "Will I choose to trust God?",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "music",
+      "text": "Possible central lyrical territory",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "lyric",
+      "text": "Chosen doesn't mean unafraid.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "stage",
+      "text": "and/or",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "lyric",
+      "text": "If You chose me, give me courage to choose You.",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "stage",
+      "text": "The music grows emotionally—",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "but avoid turning it into a giant power-ballad finish.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "This should feel like Mary becoming steady, not invincible.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "THE MUSIC APPROACHES ITS FINAL RESOLUTION",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "Mary turns toward Gabriel.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The music holds.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Then—",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "nearly stops.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Silence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary breathes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She is still afraid.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "That matters.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don't understand what comes next.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "And I'm afraid.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I know.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "But if God has asked this of me...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "She gathers herself.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am the Lord's servant.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Beat.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Let it be with me as He has said.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Silence.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "No instant explosion of music.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "No triumphant celebration.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Let the decision stand by itself.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel regards her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "For the first time, there may be something almost tender in his expression.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Do not be afraid, Mary.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "stage",
+      "text": "Mary takes a breath.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "I'm trying.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "GABRIEL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "That is enough for tonight.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "GABRIEL DEPARTS",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "stage",
+      "text": "The light around Gabriel begins to change.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Do not make his departure a magic trick simply for spectacle.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "It can be",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "a controlled fade;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "a shift in light;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Gabriel moving into darkness;",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary's attention being pulled briefly elsewhere and finding him gone.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The divine musical texture recedes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary is alone again.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Same room.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Same wood.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Same cloth.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Same unfinished table.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Nothing looks different.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Everything is different.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "transition",
+      "text": "FINAL MOMENT",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "stage",
+      "text": "Mary stands quietly.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She touches the unfinished table.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "A faint fragment of “My Beloved” is heard.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Perhaps only a few notes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Mary remembers",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "lyric",
+      "text": "“Whatever comes, I'll walk with you.”",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "stage",
+      "text": "Her expression changes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Not because she regrets saying yes.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Because now she understands what she has to do next.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "She looks toward the direction Joseph left.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "MARY",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph...",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "transition",
+      "text": "Blackout or controlled transition.",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "transition",
+      "text": "END SCENE 3",
+      "namedStyleType": "HEADING_5"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "Notes",
+      "namedStyleType": "HEADING_2"
+    },
+    {
+      "type": "production-note",
+      "text": "Mary begins in the emotional afterglow of Scene 2, Gabriel’s arrival interrupts rather than overwhelms the world, the dialogue carries the revelation and Mary’s questions, and “Chosen” begins only when Mary understands the personal cost of saying yes. This scene is about Mary’s calling",
+      "namedStyleType": "SUBTITLE"
     }
   ]
 }
