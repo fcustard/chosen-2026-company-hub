@@ -147,6 +147,8 @@ const STYLE_TO_BLOCK_TYPE = new Map([
   ["SCRIPT TRANSITION", "transition"],
   ["SCRIPT LYRIC", "lyric"],
   ["SCRIPT PRODUCTION NOTE", "production-note"],
+  ["HEADING_1", "heading"],
+  ["HEADING 1", "heading"],
   ["HEADING_3", "character"],
   ["HEADING 3", "character"],
   ["HEADING_2", "heading"],
@@ -155,11 +157,20 @@ const STYLE_TO_BLOCK_TYPE = new Map([
   ["HEADING 4", "music"],
   ["HEADING_5", "transition"],
   ["HEADING 5", "transition"],
-  ["HEADING_6", "production-note"],
-  ["HEADING 6", "production-note"]
+  ["HEADING_6", "stage"],
+  ["HEADING 6", "stage"],
+  ["SUBTITLE", "production-note"],
+  ["NORMAL_TEXT", "dialogue"],
+  ["NORMAL TEXT", "dialogue"]
 ]);
 
 function explicitBlockType(block = {}) {
+  const text = cleanBlockText(block.text || "");
+
+  // A known cast cue is never a section heading. This guard also repairs older
+  // feed payloads that flattened every Google Docs heading level to `heading`.
+  if (isKnownSpeaker(text)) return "character";
+
   const style = String(
     block.styleName || block.namedStyleType || block.paragraphStyle || block.style || ""
   ).trim().toUpperCase().replace(/[\s-]+/g, " ");
