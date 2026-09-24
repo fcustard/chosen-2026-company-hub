@@ -76,6 +76,14 @@ function looksLikeCharacter(value) {
   return /^[A-Z][A-Z0-9 &'’.\/\-–—]{1,50}$/.test(cue) && !/[.!?]$/.test(cue);
 }
 
+function looksLikeStageDirection(value) {
+  const text = cleanCharacterCue(value);
+  const subject = "(?:Mary|Joseph|Nia|Simon|Shira|Talia|Adina|Dafna|Levi|Caleb|Ezra|Gabriel|Eli|Malachi|Child(?:ren)?|Shepherd(?: \\d+)?|Villager(?: Woman| Man)?(?: \\d+)?|Gossiper(?: \\d+)?|The children|The company|Everyone|No one|He|She|They)";
+  const action = "(?:answers?|arrives?|begins?|crosses?|enters?|exits?|exhales?|finishes?|follows?|freezes?|hesitates?|imagines?|joins?|looks?|lowers?|moves?|nods?|notices?|pauses?|reacts?|remains?|runs?|sees?|shifts?|sits?|smiles?|stares?|stays?|steps?|stops?|takes?|turns?|walks?|watches?)";
+  return new RegExp(`^${subject}\\s+${action}\\b`, "i").test(text) ||
+    /^(Beat\.?|Silence\.?|Immediate murmuring\.?|A conversation slows\.?|A light musical pulse begins\.?|The simple line hangs there\.?|That (?:hurts|surprises)\b)/i.test(text);
+}
+
 function validateSemanticSequence(scene, fileName) {
   const blocks = scene.blocks || [];
   let inCharacterList = false;
@@ -110,6 +118,14 @@ function validateSemanticSequence(scene, fileName) {
 
     if (["text", "normal", "unknown", ""].includes(type) && text) {
       fail(`${fileName} block ${index + 1} is ambiguous and must be classified as dialogue, stage, heading, music, transition, lyric, production-note, or character.`);
+    }
+
+    if (type === "dialogue" && looksLikeStageDirection(text)) {
+      fail(`${fileName} block ${index + 1} looks like a stage direction but is classified as dialogue: "${text}".`);
+    }
+
+    if (inCharacterList && type === "character") {
+      fail(`${fileName} block ${index + 1} publishes cast-list entry "${text}" as an active character cue.`);
     }
   }
 }
