@@ -68,6 +68,7 @@ const KNOWN_SPEAKERS = new Set([
   "CUSTOMER 1",
   "DAFNA",
   "DANCERS",
+  "ELI",
   "ELIZABETH",
   "ENSEMBLE",
   "EZRA",
