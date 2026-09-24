@@ -375,15 +375,7 @@ function compactActorBlocks(blocks = []) {
   });
   const script = ending >= 0 ? blocks.slice(0, ending + 1) : blocks;
   const visible = script.filter(
-    (block) => {
-      const type = cleanText(block?.type).toLowerCase();
-      const text = cleanText(block?.text);
-      return type !== "production-note" &&
-        !(type === "stage" && (
-          /^Musical Reprise:\s*approx\./i.test(text) ||
-          /\bpublic naming payoff remains protected for Scene \d+\b/i.test(text)
-        ));
-    }
+    (block) => cleanText(block?.type).toLowerCase() !== "production-note"
   );
 
   return visible.filter((block, index) => {
