@@ -2,7 +2,7 @@
   "ok": true,
   "schemaVersion": 1,
   "source": "CHOSEN 2026 Admin Master Sheets",
-  "generatedAt": "2026-09-24T03:17:14.218Z",
+  "generatedAt": "2026-09-24T15:17:02.457Z",
   "people": [
     {
       "id": "P-abi",
@@ -947,7 +947,7 @@
       "id": "P-dana-quamina",
       "name": "Dana Quamina",
       "companyType": "Performer",
-      "primaryAssignment": "VILLAGER WOMAN 2/ ENSEMBLE",
+      "primaryAssignment": "ENSEMBLE",
       "departments": [
         "Cast"
       ],
@@ -1701,14 +1701,15 @@
       "id": "P-lauryn-butler",
       "name": "Lauryn Butler",
       "companyType": "Performer",
-      "primaryAssignment": "ENSEMBLE",
+      "primaryAssignment": "VILLAGER WOMAN 2/ENSEMBLE",
       "departments": [
         "Cast"
       ],
       "groups": [
-        "Ensemble"
+        "Ensemble",
+        "Principals/Featured"
       ],
-      "roles": "ENSEMBLE",
+      "roles": "VILLAGER WOMAN 2/ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -1724,7 +1725,7 @@
           "personId": "P-lauryn-butler",
           "type": "Cast Role",
           "department": "Cast",
-          "assignment": "ENSEMBLE",
+          "assignment": "VILLAGER WOMAN 2/ENSEMBLE",
           "scope": "1, 9,10,11, 12",
           "callGroups": [
             "Ensemble"
