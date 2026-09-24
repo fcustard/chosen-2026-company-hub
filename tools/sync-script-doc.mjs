@@ -62,6 +62,7 @@ const KNOWN_SPEAKERS = new Set([
   "CHILD 1",
   "CHILD 2",
   "CHILD 3",
+  "CHILDREN",
   "CHILD STORYTELLERS",
   "COMPANY",
   "CUSTOMER",
@@ -776,7 +777,81 @@ function repairSpeakerNumberBlocks(blocks = []) {
 function finalRepairBlocksForPublication(blocks = []) {
   // Belt-and-suspenders cleanup immediately before writing JSON.
   // This makes the fix permanent even if a future Google Docs feed shape changes.
-  return repairSpeakerNumberBlocks(blocks);
+  return repairContextualSemantics(repairSpeakerNumberBlocks(blocks));
+}
+
+function isNarrativeStageDirection(text = "") {
+  const value = cleanBlockText(text);
+  if (!value) return false;
+
+  const subject = "(?:Mary|Joseph|Nia|Simon|Shira|Talia|Adina|Dafna|Levi|Caleb|Ezra|Gabriel|Eli|Malachi|Child(?:ren)?|Shepherd(?: \\d+)?|Villager(?: Woman| Man)?(?: \\d+)?|Gossiper(?: \\d+)?|The children|The company|Everyone|No one|He|She|They)";
+  const action = "(?:answers?|arrives?|begins?|crosses?|enters?|exits?|exhales?|finishes?|follows?|freezes?|hesitates?|imagines?|joins?|looks?|lowers?|moves?|nods?|notices?|pauses?|reacts?|remains?|runs?|sees?|shifts?|sits?|smiles?|stares?|stays?|steps?|stops?|takes?|turns?|walks?|watches?)";
+
+  return new RegExp(`^${subject}\\s+${action}\\b`, "i").test(value) ||
+    /^(Beat\.?|Silence\.?|Immediate murmuring\.?|A conversation slows\.?|A light musical pulse begins\.?|The simple line hangs there\.?|That (?:hurts|surprises)\b)/i.test(value);
+}
+
+function isSongSectionHeading(text = "") {
+  return /^(?:VERSE|CHORUS|BRIDGE|REFRAIN|PRE-CHORUS|TAG|OUTRO|SONG(?: BEGINS)?|MUSICAL NUMBER)\b/i.test(cleanBlockText(text));
+}
+
+function isSongEndHeading(text = "") {
+  return /^(?:SONG|MUSIC|NUMBER)\s+ENDS?\b/i.test(cleanBlockText(text));
+}
+
+function repairContextualSemantics(blocks = []) {
+  const output = [];
+  let inCastList = false;
+  let inSong = false;
+
+  for (const original of blocks) {
+    const block = { ...original };
+    const text = cleanBlockText(block.text || "");
+    const type = String(block.type || "").toLowerCase();
+
+    if (/^characters:?$/i.test(text)) {
+      inCastList = true;
+      block.type = "production-note";
+      output.push(block);
+      continue;
+    }
+
+    if (inCastList) {
+      if (type === "spacer" || ["heading", "transition", "music"].includes(type)) {
+        inCastList = false;
+      } else {
+        block.type = "production-note";
+        output.push(block);
+        continue;
+      }
+    }
+
+    if (isSongEndHeading(text)) {
+      block.type = "transition";
+      inSong = false;
+      output.push(block);
+      continue;
+    }
+
+    if (isSongSectionHeading(text)) {
+      block.type = "music";
+      inSong = true;
+      output.push(block);
+      continue;
+    }
+
+    if (isKnownSpeaker(text)) {
+      block.type = "character";
+    } else if (isNarrativeStageDirection(text)) {
+      block.type = "stage";
+    } else if (inSong && ["dialogue", "stage", "lyric"].includes(type)) {
+      block.type = "lyric";
+    }
+
+    output.push(block);
+  }
+
+  return output;
 }
 
 function blocksToSourceText(blocks = []) {
