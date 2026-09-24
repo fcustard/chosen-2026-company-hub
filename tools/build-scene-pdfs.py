@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -51,7 +52,6 @@ def styles():
         "music": ParagraphStyle("Music", parent=base["Normal"], fontName="ChosenSans-Bold", fontSize=9.5, leading=12, textColor=GOLD, spaceBefore=10, spaceAfter=5, keepWithNext=True),
         "transition": ParagraphStyle("Transition", parent=base["Normal"], fontName="ChosenSans-Bold", fontSize=9.5, leading=12, textColor=NAVY, spaceBefore=11, spaceAfter=6),
         "lyric": ParagraphStyle("Lyric", parent=base["Normal"], fontName="ChosenSans-Oblique", fontSize=10.5, leading=14, textColor=NAVY, leftIndent=0.18 * inch, spaceAfter=7),
-        "production-note": ParagraphStyle("ProductionNote", parent=base["Normal"], fontName="ChosenSans", fontSize=8.8, leading=12, textColor=GRAY, borderColor=colors.HexColor("#E0C16A"), borderWidth=0.6, borderPadding=6, backColor=colors.HexColor("#FFF8DF"), spaceBefore=5, spaceAfter=8),
     }
 
 
@@ -80,9 +80,29 @@ def build_scene(path: Path, sheet):
         Paragraph("Current company version · generated from the structured master script", sheet["meta"]),
         Spacer(1, 0.04 * inch),
     ]
-    for block in scene.get("blocks", []):
+    blocks = scene.get("blocks", [])
+    ending = next((index for index in range(len(blocks) - 1, -1, -1)
+                   if (str(blocks[index].get("type", "")).lower() == "transition"
+                       and re.match(r"^(?:END SCENE\s*\d+|Scene\s*\d+\s+begins\.)",
+                                    str(blocks[index].get("text", "")).strip(), re.I))
+                   or (str(blocks[index].get("type", "")).lower() == "heading"
+                       and re.match(r"^END OF CHOSEN:",
+                                    str(blocks[index].get("text", "")).strip(), re.I))), -1)
+    if ending >= 0:
+        blocks = blocks[:ending + 1]
+    for block in blocks:
         kind = str(block.get("type", "")).strip().lower()
         text = str(block.get("text", "")).strip()
+        if kind == "production-note":
+            # Actor PDFs intentionally omit internal production notes. The
+            # structured scene JSON remains the complete source of truth.
+            continue
+        if kind == "stage" and (
+            re.match(r"^Musical Reprise:\s*approx\.", text, re.I)
+            or re.search(r"\bpublic naming payoff remains protected for Scene \d+\b", text, re.I)
+        ):
+            # Source-styled stage paragraphs that are production planning notes.
+            continue
         if kind == "spacer" or not text:
             story.append(Spacer(1, 0.07 * inch))
             continue

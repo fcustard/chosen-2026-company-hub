@@ -103,6 +103,27 @@ function validateNamedStyles(scene, fileName) {
   }
 }
 
+function validateProductionNotes(scene, fileName) {
+  for (const [index, block] of scene.blocks.entries()) {
+    const type = String(block?.type || "").trim().toLowerCase();
+    const namedStyleType = String(block?.namedStyleType || "").trim().toUpperCase();
+
+    if (namedStyleType === "SUBTITLE" && type !== "production-note") {
+      fail(
+        `${fileName} block ${index + 1} is a styled production note but was ` +
+        `classified as ${type || "untyped"}.`
+      );
+    }
+
+    if (type === "production-note" && namedStyleType !== "SUBTITLE") {
+      fail(
+        `${fileName} block ${index + 1} is classified as a production note ` +
+        `without the required SUBTITLE source style.`
+      );
+    }
+  }
+}
+
 function normalizedCue(value) {
   return cleanCharacterCue(value).replace(/[:：]+$/, "").toUpperCase();
 }
@@ -224,6 +245,7 @@ for (const fileName of sceneFiles) {
 
   validateCharacterCues(scene, fileName);
   validateNamedStyles(scene, fileName);
+  validateProductionNotes(scene, fileName);
   validateSemanticSequence(scene, fileName);
 
   const manifest = scripts.find(
