@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T16:12:24.592Z",
-  "contentHash": "ef1eef912d1d69bcffacbd756f4ef5f5f8955cb2e076691428e6717bb8be51bd",
+  "sourceUpdated": "2026-09-24T16:51:03.320Z",
+  "contentHash": "f1cb64f63f67df369f0d1e4bcbf5fae884234d2cd1a73c77c802b37f417e7c18",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -391,6 +391,10 @@
       "text": "I don’t know."
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "character",
       "text": "CHILD 3"
     },
@@ -485,6 +489,10 @@
     {
       "type": "dialogue",
       "text": "If he wants to learn, I’ll teach him."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "character",
@@ -609,6 +617,10 @@
     {
       "type": "dialogue",
       "text": "Will he ask a hundred questions / before anyone can breathe?"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "music",
@@ -755,6 +767,10 @@
       "text": "Will he laugh and scream and shout?"
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "music",
       "text": "CHORUS 2 (Part 1)"
     },
@@ -781,6 +797,10 @@
     {
       "type": "lyric",
       "text": "What will he be? What will he be?"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "music",
@@ -891,6 +911,10 @@
       "text": "What will he be?"
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "lyric",
       "text": "*Dance Break: Children Dance*"
     },
@@ -957,6 +981,10 @@
     {
       "type": "lyric",
       "text": "When he is born, for all to see?"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "character",
@@ -1055,6 +1083,10 @@
       "text": "Nia. Come here!"
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "character",
       "text": "NIA"
     },
@@ -1141,6 +1173,10 @@
     {
       "type": "dialogue",
       "text": "That’s what I heard."
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "character",
@@ -2653,6 +2689,10 @@
     {
       "type": "heading",
       "text": "NOTES"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "stage",

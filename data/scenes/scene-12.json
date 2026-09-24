@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T16:12:24.592Z",
-  "contentHash": "9d93680de3763af146e37006f68493ee6e8618793e7d636e8a2454978cc61a58",
+  "sourceUpdated": "2026-09-24T16:51:03.320Z",
+  "contentHash": "19b1fa87c50f8f1e7c37dc05a400147aeaf22f61711dfbe2bff27dcfca08218d",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -1165,6 +1165,10 @@
     {
       "type": "music",
       "text": "Music hold"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "stage",
