@@ -6,7 +6,7 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T15:48:42.265Z",
+  "sourceUpdated": "2026-09-24T16:12:24.592Z",
   "contentHash": "a0c05e26d774f765bb4f29e59913de08f4eb44bdcd5d9f93cb15e2f17685019b",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
@@ -207,7 +207,7 @@
       "text": "Move."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Levi takes the weight cleanly."
     },
     {
@@ -279,7 +279,7 @@
       "text": "Look at it."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Caleb looks."
     },
     {
@@ -327,7 +327,7 @@
       "text": "Very strong."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Ezra steps over, looks once."
     },
     {
@@ -463,7 +463,7 @@
       "text": "Different finish."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Ezra watches Joseph inspect the table."
     },
     {
@@ -663,7 +663,7 @@
       "text": "Six."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Ezra looks at the table."
     },
     {
@@ -951,7 +951,7 @@
       "text": "Not that one."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Caleb freezes."
     },
     {
@@ -2011,7 +2011,7 @@
       "text": "There he goes."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Caleb looks at Ezra and shakes his head. They laugh again."
     },
     {
@@ -2019,7 +2019,7 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "stage",
       "text": "MARY ARRIVES"
     },
     {
@@ -2311,7 +2311,7 @@
       "text": "Right."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Levi looks at Joseph."
     },
     {
@@ -2371,7 +2371,7 @@
       "text": "Tomorrow."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Levi exits."
     },
     {

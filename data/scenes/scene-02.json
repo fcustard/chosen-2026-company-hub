@@ -6,7 +6,7 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T15:48:42.265Z",
+  "sourceUpdated": "2026-09-24T16:12:24.592Z",
   "contentHash": "853075577bb0efd26371620111b5598557b78c8557aa25e6a9b2dcf3476b603c",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
@@ -1119,11 +1119,11 @@
       "text": "DRAMATIC PURPOSE OF THE SONG"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The song builds the future they believe they are choosing together."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The lyrics should grow from what the audience has just heard rather than introducing unrelated imagery."
     },
     {
@@ -1131,71 +1131,71 @@
       "text": "LYRICAL TERRITORY TO DEVELOP"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "MARY and JOSEPH imagine"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● the house;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● the doorway;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● morning light;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● the table;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● six chairs becoming eight;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● friends and family gathered around it;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Mary's garden;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Joseph's work;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● ordinary disagreements;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● laughter;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● children;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● knowing where the other person will be at the end of the day;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● growing older together;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● being chosen by one another."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "This is not a song about perfect romance."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "It is a song about the beauty of an ordinary shared life."
     },
     {
@@ -1207,7 +1207,7 @@
       "text": "IMPORTANT SONG MOMENT"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "At some point near the emotional height of the duet, plant the recurring motif clearly"
     },
     {
@@ -1215,7 +1215,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Whatever comes, I'll walk with you."
     },
     {
@@ -1223,7 +1223,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Whatever comes, I'll walk with you."
     },
     {
@@ -1231,7 +1231,7 @@
       "text": "MARY & JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Whatever comes..."
     },
     {
@@ -1239,7 +1239,7 @@
       "text": "[MUSICAL RESOLUTION / CONTINUATION]"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "This phrase must be memorable enough that when it returns later, the audience immediately recognizes it."
     },
     {
@@ -1251,7 +1251,7 @@
       "text": "END OF “MY BELOVED”"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The final chord resolves gently. Do not rush into Scene 3. For one moment, there is no crisis, prophecy, gossip or fear. They simply possess the future they believe belongs to them."
     },
     {
@@ -1259,7 +1259,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I should go."
     },
     {
@@ -1267,11 +1267,11 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Probably."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "He does not move."
     },
     {
@@ -1279,7 +1279,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Joseph."
     },
     {
@@ -1287,7 +1287,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I’m going."
     },
     {
@@ -1295,7 +1295,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "You’re still here."
     },
     {
@@ -1303,7 +1303,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I’m going now."
     },
     {
@@ -1315,7 +1315,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Tomorrow?"
     },
     {
@@ -1323,7 +1323,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Tomorrow."
     },
     {

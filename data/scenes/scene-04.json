@@ -6,7 +6,7 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T15:48:42.265Z",
+  "sourceUpdated": "2026-09-24T16:12:24.592Z",
   "contentHash": "75c239bf8f468f31129c745029187eb6bc64222b8710f7faebd3b8f006936a52",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
@@ -127,7 +127,7 @@
       "text": "Enough places to justify saying everywhere."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Shira sees Mary clearly."
     },
     {
@@ -171,7 +171,7 @@
       "text": "I'm fine."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Shira watches her. Mary tries to move with them."
     },
     {

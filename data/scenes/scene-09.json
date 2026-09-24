@@ -6,7 +6,7 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T15:48:42.265Z",
+  "sourceUpdated": "2026-09-24T16:12:24.592Z",
   "contentHash": "ef1eef912d1d69bcffacbd756f4ef5f5f8955cb2e076691428e6717bb8be51bd",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
@@ -15,67 +15,67 @@
       "text": "Gossip Sequence: approximately 60–90 seconds"
     },
     {
-      "type": "stage",
+      "type": "production-note",
       "text": "Characters"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Mary"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Joseph"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Shira"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Talia"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Adina"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Dafna"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Levi"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Malachi"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Caleb"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Ezra"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Nia"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Simon"
     },
     {
-      "type": "dialogue",
+      "type": "production-note",
       "text": "Children"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Villagers"
     },
     {
-      "type": "character",
+      "type": "production-note",
       "text": "Roman Announcer"
     },
     {
@@ -175,11 +175,11 @@
       "text": "Mary!"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Nia runs toward her before an adult can stop her."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Simon follows, more cautiously. Several children trail behind."
     },
     {
@@ -211,7 +211,7 @@
       "text": "I’m back."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Simon looks at Mary. Then Joseph. Then Mary again."
     },
     {
@@ -611,7 +611,7 @@
       "text": "Will he ask a hundred questions / before anyone can breathe?"
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "CHORUS 1"
     },
     {
@@ -619,23 +619,23 @@
       "text": ""
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "What will he be? What will he be?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "When he is born, for all to see?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Will he be different or the same?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Will the whole world know his name?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "What will he be? What will he be?"
     },
     {
@@ -647,7 +647,7 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "VERSE 1"
     },
     {
@@ -655,7 +655,7 @@
       "text": "CHILD 2"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Will he build things out of wood?"
     },
     {
@@ -663,7 +663,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Maybe."
     },
     {
@@ -675,7 +675,7 @@
       "text": "CHILD 3"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Make a chair that’s strong and good?"
     },
     {
@@ -687,7 +687,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I hope."
     },
     {
@@ -699,7 +699,7 @@
       "text": "CHILD 1"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Will you teach him everything?"
     },
     {
@@ -719,7 +719,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Everything I know."
     },
     {
@@ -727,7 +727,7 @@
       "text": "CHILD 1"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "That’s Good!"
     },
     {
@@ -735,27 +735,27 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "CHILDREN"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Will he like to run and play?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Help a friend along the way?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Will he dance and flip about?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Will he laugh and scream and shout?"
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "CHORUS 2 (Part 1)"
     },
     {
@@ -763,27 +763,27 @@
       "text": ""
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "What will he be? What will he be?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "When he is born, for all to see?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Will he be different or the same?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Will the whole world know his name?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "What will he be? What will he be?"
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "CHORUS 2 (Part 2)"
     },
     {
@@ -791,11 +791,11 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "CHILDREN"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "What will he be?"
     },
     {
@@ -807,15 +807,15 @@
       "text": "GOSSIPER 1"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Whose child is it?"
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "CHILDREN"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "What will he be?"
     },
     {
@@ -827,15 +827,15 @@
       "text": "VILLAGER WOMAN 1"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Before the wedding."
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "CHILDREN"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "When he is born, for all to see?"
     },
     {
@@ -847,7 +847,7 @@
       "text": "GOSSIPER 2"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Does Joseph know?"
     },
     {
@@ -855,19 +855,19 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "CHILDREN"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Will he be different or the same?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Will the whole world know his name?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "What will he be?"
     },
     {
@@ -875,7 +875,7 @@
       "text": "GOSSIPER 4"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Of course, he knows."
     },
     {
@@ -883,15 +883,15 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "CHILDREN"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "What will he be?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "*Dance Break: Children Dance*"
     },
     {
@@ -899,7 +899,7 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "CHORUS 3"
     },
     {
@@ -907,11 +907,11 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "CHILDREN"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "What will he be?"
     },
     {
@@ -923,15 +923,15 @@
       "text": "GOSSIPER 3"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Then why is he still with her?"
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "CHILDREN"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "What will he be?"
     },
     {
@@ -943,7 +943,7 @@
       "text": "VILLAGER WOMAN 2"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "She says there was an angel."
     },
     {
@@ -951,11 +951,11 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "CHILDREN"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "When he is born, for all to see?"
     },
     {
@@ -963,7 +963,7 @@
       "text": "GOSSIPER 4"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "An Angel?!"
     },
     {
@@ -971,19 +971,19 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "CHILDREN"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Will he be different or the same?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Will the whole world know his name?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "What will he be?"
     },
     {
@@ -991,11 +991,11 @@
       "text": "GOSSIPER 3"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "That’s what I heard."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Villager 3 looks toward Mary."
     },
     {
@@ -1003,11 +1003,11 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "CHILDREN"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "What will he be?"
     },
     {
@@ -1015,11 +1015,11 @@
       "text": "GOSSIPER 4"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Ay Dios Mio! (eye roll)"
     },
     {
-      "type": "heading",
+      "type": "transition",
       "text": "SONG ENDS"
     },
     {
@@ -1031,11 +1031,11 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "CHILDREN"
     },
     {
-      "type": "stage",
+      "type": "dialogue",
       "text": "What will he be? (all together, kids laughing)"
     },
     {
@@ -1271,7 +1271,7 @@
       "text": "All right."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Shira stays."
     },
     {
@@ -1311,7 +1311,7 @@
       "text": "That’s Talia’s job."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Talia arrives."
     },
     {
@@ -1339,7 +1339,7 @@
       "text": "Then Adina is correct."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Dafna stares at her."
     },
     {
@@ -1543,7 +1543,7 @@
       "text": "I do."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Levi lowers his voice."
     },
     {
@@ -1639,7 +1639,7 @@
       "text": "I am."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Caleb nods and moves to Joseph’s side."
     },
     {
@@ -1723,11 +1723,11 @@
       "text": "Malachi stands beside Joseph."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Ezra hesitates, then joins them."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Levi remains slightly apart."
     },
     {
@@ -1827,7 +1827,7 @@
       "text": "And you’re willing to throw away your name for this?"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Levi reacts to the language."
     },
     {
@@ -1915,7 +1915,7 @@
       "text": "No."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "That surprises them."
     },
     {
@@ -2111,7 +2111,7 @@
       "text": "Why is everybody angry?"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "No one answers."
     },
     {
@@ -2159,7 +2159,7 @@
       "text": "Come."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Nia looks at Mary."
     },
     {
@@ -2403,7 +2403,7 @@
       "text": "A census shall be taken. Every household is to be registered according to family line and ancestral city."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Immediate murmuring."
     },
     {

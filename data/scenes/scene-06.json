@@ -6,7 +6,7 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T15:48:42.265Z",
+  "sourceUpdated": "2026-09-24T16:12:24.592Z",
   "contentHash": "4880b45bd0bcf73f223e8bbccd2c2c485dd5b01f3def1f4d90cf13e32d9cd95e",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
@@ -135,7 +135,7 @@
       "text": "I’m going to have a child."
     },
     {
-      "type": "heading",
+      "type": "stage",
       "text": "SILENCE"
     },
     {
@@ -635,7 +635,7 @@
       "text": "No."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "That surprises him."
     },
     {
@@ -1091,7 +1091,7 @@
       "text": "It’s not mine."
     },
     {
-      "type": "heading",
+      "type": "stage",
       "text": "SILENCE"
     },
     {
@@ -1187,59 +1187,59 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "VERSE 1 — WHAT HE KNOWS"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Joseph's language stays concrete."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "He knows"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● what they promised;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● what they planned;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● what he built;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● what the evidence appears to mean."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The musical thought moves toward"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "I know the road."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "I know the plan."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "I know what should have been."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "But this child is not mine."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Mary tries to reach him from inside the number."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "She does not overpower him."
     },
     {
@@ -1247,31 +1247,31 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "CHORUS — “IT’S NOT MINE”"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "At first, the phrase means only"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "the child."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Then the meaning begins expanding."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "It's not mine."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "This isn't what we planned."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "This isn't what I built."
     },
     {
@@ -1279,11 +1279,11 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "VERSE 2 — THE FUTURE COLLAPSES"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The “My Beloved” motif appears underneath—distorted or incomplete."
     },
     {
@@ -1291,23 +1291,23 @@
       "text": "Joseph looks at the table."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The phrase now means"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The home I imagined isn't mine."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The future I understood isn't mine."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The story I thought I could control isn't mine."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Keep this section emotionally direct rather than wordy."
     },
     {
@@ -1319,31 +1319,31 @@
       "text": "MARY'S SECTION"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Mary finally gets musical space."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Her territory"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "I didn't choose the fear."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "I didn't choose the cost."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "I didn't choose to hurt you."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "I chose to trust God."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Joseph catches one word"
     },
     {
@@ -1351,11 +1351,11 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Spoken/sung"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "You chose this."
     },
     {
@@ -1363,7 +1363,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I chose to believe God."
     },
     {
@@ -1371,15 +1371,15 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "And now you're asking me to choose it too."
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "That is the bridge."
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Do not add another long argument inside the song."
     },
     {
@@ -1391,11 +1391,11 @@
       "text": "FINAL CHORUS"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The first “It's not mine” was almost an accusation."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The final one is loss."
     },
     {
@@ -1403,7 +1403,7 @@
       "text": "Joseph looks at the table."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Then Mary."
     },
     {
@@ -1411,19 +1411,19 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Quietly"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "It's not mine..."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The music ends unresolved."
     },
     {
-      "type": "heading",
+      "type": "stage",
       "text": "SILENCE."
     },
     {
@@ -1435,7 +1435,7 @@
       "text": "AFTERMATH"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Mary and Joseph are now farther apart than when the scene began."
     },
     {
@@ -1443,11 +1443,11 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Joseph..."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "He cannot look at her yet."
     },
     {
@@ -1455,7 +1455,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "What happens now?"
     },
     {
@@ -1463,7 +1463,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I don’t know."
     },
     {
@@ -1471,7 +1471,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Please don’t leave."
     },
     {
@@ -1483,7 +1483,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "What would you have me do?"
     },
     {
@@ -1491,7 +1491,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Stay."
     },
     {
@@ -1499,7 +1499,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "And pretend I understand?"
     },
     {
@@ -1507,7 +1507,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "No."
     },
     {
@@ -1515,7 +1515,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Pretend I believe something I don’t?"
     },
     {
@@ -1523,7 +1523,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "No."
     },
     {
@@ -1531,7 +1531,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Then what?"
     },
     {
@@ -1539,11 +1539,11 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Believe me."
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Long beat."
     },
     {
@@ -1551,11 +1551,11 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I want to."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Mary waits."
     },
     {
@@ -1563,7 +1563,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I don’t know how."
     },
     {
@@ -1575,7 +1575,7 @@
       "text": "JOSEPH’S CHOICE"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The anger has burned away. What remains is grief."
     },
     {
@@ -1583,7 +1583,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I won’t shame you."
     },
     {
@@ -1595,7 +1595,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I won’t make this public."
     },
     {
@@ -1603,7 +1603,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Joseph—"
     },
     {
@@ -1611,7 +1611,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Whatever people say about me, I won’t hand them something they can use against you."
     },
     {
@@ -1619,11 +1619,11 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Then don’t leave me."
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "That nearly undoes him."
     },
     {
@@ -1631,11 +1631,11 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I can’t marry you."
     },
     {
-      "type": "heading",
+      "type": "stage",
       "text": "SILENCE"
     },
     {
@@ -1643,7 +1643,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "You said whatever comes."
     },
     {
@@ -1655,7 +1655,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "You said you’d walk with me."
     },
     {
@@ -1663,7 +1663,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I know."
     },
     {
@@ -1671,11 +1671,11 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Then walk with me now."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Joseph cannot."
     },
     {
@@ -1683,7 +1683,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "When I said that..."
     },
     {
@@ -1695,7 +1695,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I thought I knew what “whatever comes” meant."
     },
     {
@@ -1703,11 +1703,11 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "So did I."
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "That lands differently. Neither of them planned this."
     },
     {
@@ -1715,7 +1715,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "You still said yes."
     },
     {
@@ -1723,7 +1723,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Yes."
     },
     {
@@ -1731,7 +1731,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "And you believe."
     },
     {
@@ -1739,7 +1739,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Yes."
     },
     {
@@ -1747,11 +1747,11 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I don’t."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "There is the wall between them."
     },
     {
@@ -1767,7 +1767,7 @@
       "text": "Joseph moves toward the exit."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "He passes the unfinished table and stops. His hand rests on it once. He does not destroy it, overturn it, or remove anything from it."
     },
     {
@@ -1775,7 +1775,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Joseph."
     },
     {
@@ -1787,7 +1787,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Please."
     },
     {
@@ -1799,7 +1799,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Believe me."
     },
     {
@@ -1811,7 +1811,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I don’t know how."
     },
     {
@@ -1823,23 +1823,23 @@
       "text": "Mary remains."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Do not have her collapse. She is devastated, but her yes still exists."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Her eyes find the unfinished table. She touches the edge Joseph had been working on."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "A nearly imperceptible fragment of “Chosen” may return not triumphant, simply present."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Mary steadies herself."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The warm workshop environment remains. Nothing outside has changed."
     },
     {
@@ -1855,15 +1855,15 @@
       "text": "TRANSITION INTO SCENE 7"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The stage begins to divide without requiring a full reset: Mary’s road will lead toward Elizabeth; Joseph’s road will lead back toward the men."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Two people. Two wounds. Two roads of faith. Each now needs something the other cannot give in this moment."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "_______________________________________________________________________"
     },
     {
@@ -1871,31 +1871,31 @@
       "text": "NOTES"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Scene 6 needs to be one of the most carefully acted scenes in the entire production. The source architecture is very clear that Joseph must begin in concern, not accusation; he actively searches for another explanation because he wants Mary’s truth to fit the woman he knows. Only after exhausting those possibilities does the pain become personal."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The other key rule I’m preserving is that the song does not solve the argument. “It’s Not Mine” lets Joseph express what he cannot contain, but the actual separation happens afterward in quiet dialogue."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The key dramatic line I added is"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "JOSEPH: “I thought I knew what ‘whatever comes’ meant.”"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "That gives the Scene 2 promise its first painful payoff without destroying it permanently. In Scene 2, “Whatever comes, I'll walk with you” sounds romantic because neither of them has imagined a cost this great. In Scene 6, Joseph discovers that he made a promise before he understood what it might require. Then Scene 8 can finally let him make that promise again with full knowledge of the cost. That gives the motif a real three-scene dramatic arc."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "I also kept Joseph’s moral decision exactly where the source architecture calls for it: even believing Mary has betrayed him, he refuses to publicly humiliate her. His righteousness is demonstrated before he receives divine confirmation, which makes his later return much more meaningful."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "And visually, the Scene 6 progression should be very controlled: they begin relatively close, move farther apart as trust deteriorates, occasionally attempt to cross the gap during the song, and finish completely separated. This is an acting scene first; the physical distance itself becomes part of the storytelling."
     }
   ]

@@ -6,7 +6,7 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T15:48:42.265Z",
+  "sourceUpdated": "2026-09-24T16:12:24.592Z",
   "contentHash": "0d28527c126b0cb80c98231240f7558ba6b4e2a84f6c1c7439ff5c3b19015cfa",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
@@ -363,7 +363,7 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "VERSE 1 — VILLAGE DIALOGUES"
     },
     {
@@ -375,11 +375,11 @@
       "text": "DIALOGUE 1-“EVERYBODY KNOWS YOUR BUSINESS”"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "*Directly establishes the theme that everybody in Nazareth knows everybody—and their business. *"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The marketplace is moving rapidly. A MERCHANT sees a MAN approaching."
     },
     {
@@ -387,7 +387,7 @@
       "text": "MERCHANT-1"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Hello! Your usual?"
     },
     {
@@ -395,7 +395,7 @@
       "text": "CUSTOMER-1"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Actually, today I thought—"
     },
     {
@@ -403,7 +403,7 @@
       "text": "MERCHANT-1"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Your wife already came by."
     },
     {
@@ -411,7 +411,7 @@
       "text": "CUSTOMER-1"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "She did?"
     },
     {
@@ -419,7 +419,7 @@
       "text": "MERCHANT-1"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "She said, “Don’t sell him anything we don’t need.”"
     },
     {
@@ -427,7 +427,7 @@
       "text": "CUSTOMER-1"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "She’s not even here."
     },
     {
@@ -435,7 +435,7 @@
       "text": "GOSSIPER-2"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "She doesn’t need to be."
     },
     {
@@ -443,7 +443,7 @@
       "text": "CUSTOMER-1"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "I don’t even know what I’m buying."
     },
     {
@@ -451,7 +451,7 @@
       "text": "MERCHANT-1"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "We’ll tell you when we hear."
     },
     {
@@ -467,11 +467,11 @@
       "text": "DIALOGUE 2- “NAZARETH BARGAINING”"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "*Gives the marketplace more of a fast Broadway-comedy feeling.*"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "A WOMAN examines an item at a merchant's stall."
     },
     {
@@ -479,7 +479,7 @@
       "text": "WOMAN CUSTOMER-1"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "How much?"
     },
     {
@@ -487,7 +487,7 @@
       "text": "MERCHANT-2"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Three."
     },
     {
@@ -495,7 +495,7 @@
       "text": "WOMAN CUSTOMER-1"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Two."
     },
     {
@@ -503,7 +503,7 @@
       "text": "WOMAN CUSTOMER-1"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Two—and I tell everybody you're generous."
     },
     {
@@ -511,7 +511,7 @@
       "text": "MERCHANT-2"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Three—and you tell nobody anything."
     },
     {
@@ -519,7 +519,7 @@
       "text": "GOSSIPER-4"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Too late. I heard two."
     },
     {
@@ -527,7 +527,7 @@
       "text": "MERCHANT-2"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "I haven't sold it yet!"
     },
     {
@@ -535,7 +535,7 @@
       "text": "GOSSIPER 1 & 2"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Give us a minute!"
     },
     {
@@ -547,7 +547,7 @@
       "text": "MERCHANT-2"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "I need a different village."
     },
     {
@@ -555,7 +555,7 @@
       "text": "WOMAN CUSTOMER-1"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "They'd hear about you there too."
     },
     {
@@ -563,7 +563,7 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "CHORUS 1"
     },
     {
@@ -575,51 +575,51 @@
       "text": "[WELCOME TO NAZARETH — CHORUS]"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The marketplace opens wider."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The choreography celebrates the life of the village"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● basket exchanges becoming partner turns;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● fabric moving overhead;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● children weaving through formations;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● merchants shifting stalls;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● couples turning through the marketplace;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● rhythmic clapping;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● sweeping diagonals;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● groups forming and reforming;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● everyday work becoming dance."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The movement should feel as though Nazareth itself creates the rhythm."
     },
     {
@@ -627,7 +627,7 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "VERSE 2 — MARY AND HER FRIENDS"
     },
     {
@@ -635,11 +635,11 @@
       "text": "MARY enters with SHIRA, TALIA, ADINA and DAFNA."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "They are working among fabrics, garments, jewelry and marketplace goods."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The music continues underneath their dialogue."
     },
     {
@@ -647,7 +647,7 @@
       "text": "ADINA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Mary, we're late."
     },
     {
@@ -655,7 +655,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "We are not late."
     },
     {
@@ -663,7 +663,7 @@
       "text": "TALIA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "We are if someone is waiting for us."
     },
     {
@@ -671,7 +671,7 @@
       "text": "DAFNA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Someone is waiting for Mary."
     },
     {
@@ -679,7 +679,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Dafna."
     },
     {
@@ -687,7 +687,7 @@
       "text": "DAFNA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I didn't say who."
     },
     {
@@ -695,7 +695,7 @@
       "text": "TALIA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "You didn't need to."
     },
     {
@@ -703,7 +703,7 @@
       "text": "SHIRA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Can we discuss Mary's future while walking?"
     },
     {
@@ -711,7 +711,7 @@
       "text": "DAFNA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Absolutely."
     },
     {
@@ -719,7 +719,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Can we not discuss Mary's future at all?"
     },
     {
@@ -727,7 +727,7 @@
       "text": "SHIRA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "You keep looking for him."
     },
     {
@@ -735,11 +735,11 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I'm not looking for anyone."
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Talia catches Mary glancing across the marketplace."
     },
     {
@@ -747,7 +747,7 @@
       "text": "TALIA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "That is clearly untrue."
     },
     {
@@ -755,7 +755,7 @@
       "text": "DAFNA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Joseph."
     },
     {
@@ -763,7 +763,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I know who she means."
     },
     {
@@ -771,11 +771,11 @@
       "text": "DAFNA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Then we're all caught up."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Mary laughs."
     },
     {
@@ -783,7 +783,7 @@
       "text": "ADINA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Good. Now move."
     },
     {
@@ -791,7 +791,7 @@
       "text": "DAFNA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "You see how she speaks to us?"
     },
     {
@@ -799,7 +799,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Move, Dafna."
     },
     {
@@ -811,11 +811,11 @@
       "text": "DAFNA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Now there are two of them."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The women laugh and are swept back into the choreography."
     },
     {
@@ -827,7 +827,7 @@
       "text": "MUSICAL TRANSITION INTO VERSE 2"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "A carpentry rhythm emerges."
     },
     {
@@ -851,11 +851,11 @@
       "text": "STEP."
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "VERSE 2 (con.) — JOSEPH AND HIS FRIENDS"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "A carpentry rhythm emerges: HAMMER. HAMMER. WOOD. CLAP. STEP. JOSEPH enters with LEVI, MALACHI, CALEB and EZRA."
     },
     {
@@ -863,7 +863,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Caleb."
     },
     {
@@ -871,7 +871,7 @@
       "text": "CALEB"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Don’t say it."
     },
     {
@@ -879,7 +879,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "It’s crooked."
     },
     {
@@ -887,7 +887,7 @@
       "text": "CALEB"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "It’s artistic."
     },
     {
@@ -895,7 +895,7 @@
       "text": "EZRA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "It is crooked artistically."
     },
     {
@@ -903,7 +903,7 @@
       "text": "LEVI"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Give it here."
     },
     {
@@ -911,11 +911,11 @@
       "text": "CALEB"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Why does everyone assume I need help?"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The piece slips. Levi catches it."
     },
     {
@@ -923,7 +923,7 @@
       "text": "LEVI"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Instinct."
     },
     {
@@ -931,7 +931,7 @@
       "text": "MALACHI"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Experience."
     },
     {
@@ -939,7 +939,7 @@
       "text": "EZRA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Evidence."
     },
     {
@@ -947,7 +947,7 @@
       "text": "CALEB"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Joseph, defend me."
     },
     {
@@ -955,7 +955,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "It still holds. That is not the same as being right."
     },
     {
@@ -963,11 +963,11 @@
       "text": "CALEB"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I withdraw my request."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The men laugh."
     },
     {
@@ -975,7 +975,7 @@
       "text": "LEVI"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Enjoy this while you can."
     },
     {
@@ -983,7 +983,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Enjoy what?"
     },
     {
@@ -991,7 +991,7 @@
       "text": "CALEB"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Freedom."
     },
     {
@@ -999,7 +999,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I’m getting married. I’m not being arrested."
     },
     {
@@ -1007,7 +1007,7 @@
       "text": "EZRA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "There are similarities in the paperwork."
     },
     {
@@ -1015,7 +1015,7 @@
       "text": "MALACHI"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Ezra."
     },
     {
@@ -1023,11 +1023,11 @@
       "text": "EZRA"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I said paperwork."
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Laugh."
     },
     {
@@ -1035,7 +1035,7 @@
       "text": "LEVI"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Does Mary know how much time you spend talking to wood?"
     },
     {
@@ -1043,7 +1043,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "The wood listens better than all of you."
     },
     {
@@ -1051,7 +1051,7 @@
       "text": "CALEB"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Then marry the wood."
     },
     {
@@ -1059,11 +1059,11 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I’m reconsidering my friendships."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The men pull Joseph back into the musical rhythm."
     },
     {
@@ -1071,7 +1071,7 @@
       "text": ""
     },
     {
-      "type": "heading",
+      "type": "music",
       "text": "CHORUS 2"
     },
     {
@@ -1087,7 +1087,7 @@
       "text": "NO SPOKEN DIALOGUE."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The stage divides into three simultaneous worlds."
     },
     {
@@ -1103,55 +1103,55 @@
       "text": "Joseph remains with"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Levi"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Malachi"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Caleb"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Ezra"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "They continue working with carpentry materials."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Their work stays connected rhythmically to the music"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● measuring;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● sanding;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● carrying wood;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● hammering;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● checking angles;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● passing tools;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● repositioning benches or work pieces."
     },
     {
@@ -1159,7 +1159,7 @@
       "text": "Joseph remains visibly skilled."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "His friends interact physically and comedically without speaking."
     },
     {
@@ -1175,87 +1175,87 @@
       "text": "Mary remains with"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Shira"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Talia"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Adina"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Dafna"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "They continue working with"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● fabrics;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● jewelry;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● clothing;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● thread;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● cloth;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● baskets;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● decorative goods."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Their work may become choreographed through"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● folding;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● passing fabric;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● measuring;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● fastening jewelry;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● displaying garments;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● stretching cloth;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● turning one another;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● carrying goods through formations."
     },
     {
@@ -1263,39 +1263,39 @@
       "text": "CENTER STAGE — VILLAGE DANCERS"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The village dancers own the center of the stage."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The featured choreography becomes the visual focus."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Use"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● traveling movement;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● turns;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● partner work;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● marketplace-inspired choreography;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● rhythmic prop work;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● villagers crossing through moving dance formations."
     },
     {
@@ -1307,7 +1307,7 @@
       "text": "MARY AND JOSEPH — SILENT CONNECTION"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The chorus reaches a musical punctuation. The orchestration reduces rather than implying anything supernatural. Ordinary village life shifts into extreme slow motion. Mary and Joseph remain at normal speed. Villagers continue bargaining, working, carrying, reaching and crossing around them. For a moment, the audience experiences the town through Mary and Joseph."
     },
     {
@@ -1319,7 +1319,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I made this for you. A new tool satchel."
     },
     {
@@ -1327,7 +1327,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "For me?"
     },
     {
@@ -1335,7 +1335,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Yours was falling apart."
     },
     {
@@ -1343,7 +1343,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I was calling it well-loved."
     },
     {
@@ -1351,7 +1351,7 @@
       "text": "MARY"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Then cherish this one instead."
     },
     {
@@ -1359,7 +1359,7 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I will. Especially because you made it."
     },
     {
@@ -1375,7 +1375,7 @@
       "text": "MUSIC / MOVEMENT SNAP"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "BANG. Full tempo, sound and marketplace movement return at once. Joseph is a fraction late returning to the world; a passing villager or carried object may nearly catch him unaware."
     },
     {
@@ -1383,7 +1383,7 @@
       "text": "CALEB"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "You coming?"
     },
     {
@@ -1391,11 +1391,11 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I’m coming."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "He is still looking toward Mary."
     },
     {
@@ -1403,7 +1403,7 @@
       "text": "CALEB"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Joseph."
     },
     {
@@ -1411,11 +1411,11 @@
       "text": "JOSEPH"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I said I’m coming."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The musical number surges forward."
     },
     {
@@ -1427,23 +1427,23 @@
       "text": "MUSIC SLAMS BACK IN"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The village explodes out of the freeze."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Mary rejoins her friends downstage right."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Joseph rejoins his friends downstage left."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Joseph now visibly carries the satchel Mary made for him."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The choreography becomes increasingly energetic."
     },
     {
@@ -1455,67 +1455,67 @@
       "text": "INSTRUMENTAL BUILD"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The marketplace starts transforming into larger dance vocabulary."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Props may include"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● baskets;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● fabric;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● stools;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● crates;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● staffs;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● lightweight tools;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● market goods."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Props should create"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● levels;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● pathways;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● rotations;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● exchanges;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● visual reveals;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● rhythmic accents."
     },
     {
@@ -1527,7 +1527,7 @@
       "text": "GOSSIP BREAK"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Joseph proudly puts the new satchel over his shoulder."
     },
     {
@@ -1539,7 +1539,7 @@
       "text": "GOSSIPER 1"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Did you see that?"
     },
     {
@@ -1547,7 +1547,7 @@
       "text": "GOSSIPER 2"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "What?"
     },
     {
@@ -1555,7 +1555,7 @@
       "text": "GOSSIPER 1"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Mary made Joseph a new satchel."
     },
     {
@@ -1563,7 +1563,7 @@
       "text": "GOSSIPER 2"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "She gave him new tools?"
     },
     {
@@ -1571,11 +1571,11 @@
       "text": "GOSSIPER 1"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "No. A satchel."
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "But Gossiper 2 is already moving away."
     },
     {
@@ -1583,11 +1583,11 @@
       "text": "GOSSIPER 2"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Mary bought Joseph all new tools!"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "GOSSIPER 3 hears only that."
     },
     {
@@ -1595,7 +1595,7 @@
       "text": "GOSSIPER 3"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "New tools?"
     },
     {
@@ -1603,7 +1603,7 @@
       "text": "GOSSIPER 2"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "That's what I heard."
     },
     {
@@ -1611,11 +1611,11 @@
       "text": "GOSSIPER 3"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "He must be opening his own workshop."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Gossiper 3 crosses immediately."
     },
     {
@@ -1623,7 +1623,7 @@
       "text": "GOSSIPER 3"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Joseph's opening a new workshop!"
     },
     {
@@ -1631,7 +1631,7 @@
       "text": "GOSSIPER 4"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "¿Aquí?"
     },
     {
@@ -1639,11 +1639,11 @@
       "text": "GOSSIPER 3"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "I don't know. Maybe Jerusalem."
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Gossiper 4 GASPS."
     },
     {
@@ -1651,11 +1651,11 @@
       "text": "GOSSIPER 4"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "¿Jerusalén? Ay, Dios mío. Mary and Joseph are moving to Jerusalem!"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "She immediately turns to another villager."
     },
     {
@@ -1663,7 +1663,7 @@
       "text": "VILLAGER WOMAN 1"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "What?!"
     },
     {
@@ -1671,7 +1671,7 @@
       "text": "GOSSIPER 4"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Right after the wedding."
     },
     {
@@ -1679,7 +1679,7 @@
       "text": "VILLAGER WOMAN 1"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Who told you?"
     },
     {
@@ -1687,11 +1687,11 @@
       "text": "GOSSIPER 4"
     },
     {
-      "type": "dialogue",
+      "type": "lyric",
       "text": "Everybody knoooows, mi amoooor."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The gossipers hurry away. The dancers reclaim center stage. The number builds through its dance climax into the final company chorus and button."
     },
     {
@@ -1711,99 +1711,99 @@
       "text": "FULL INSTRUMENTAL"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "This is the major dance feature of the opening number."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The dance vocabulary can include"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● barrel turns;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● traveling turns;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● jumps;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● controlled flips by trained performers;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● partner spins;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● appropriate lifts;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● floor-to-standing transitions;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● rhythmic footwork;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● fabric work;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● basket choreography;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● prop exchanges;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● rotating circles;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● intersecting diagonals;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● athletic men's movement;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● traveling turns;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● children's choreographed pathways."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The choreography should build in layers."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "One group gets a featured moment."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Another group answers."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Another section builds."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Then the full village joins."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "It should feel like a Broadway company number—not a sequence of unrelated tricks."
     },
     {
@@ -1815,19 +1815,19 @@
       "text": "MUSICAL BUILD INTO FINAL CHORUS"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Christian drives the orchestration upward."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The dancers pull the full community back into the number."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Mary and her friends return."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Joseph and his friends return."
     },
     {
@@ -1835,19 +1835,19 @@
       "text": "Children join."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Merchants join."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Families join."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Nia and Simon join."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The entire town fills the stage."
     },
     {
@@ -1867,35 +1867,35 @@
       "text": "[FINAL “WELCOME TO NAZARETH” CHORUS]"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Everything established throughout the number now comes together"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "work"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "family"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "friendship"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "community"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "movement"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "celebration"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Nazareth"
     },
     {
@@ -1939,51 +1939,51 @@
       "text": "FINAL POSE"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The company lands in multiple levels and varied positions."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "Suggested visual composition"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● featured dancers extended;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● children lower;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● vendors framing the stage;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● workers with tools;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● fabric creating height;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Mary's group downstage right;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Joseph's group downstage left;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Nia and Simon clearly visible;"
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "● Mary and Joseph visible within their separate worlds."
     },
     {
-      "type": "stage",
+      "type": "lyric",
       "text": "The picture should communicate"
     },
     {

@@ -6,7 +6,7 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T15:48:42.265Z",
+  "sourceUpdated": "2026-09-24T16:12:24.592Z",
   "contentHash": "f9d73db75156ed636f43655668cf01c14a5e01c4dfd3654c368fca9281c5ca30",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
@@ -395,7 +395,7 @@
       "text": "But protect yourself."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Malachi watches. Caleb looks miserable. Ezra is still thinking."
     },
     {
@@ -1191,7 +1191,7 @@
       "text": "I know."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Levi exits."
     },
     {
@@ -1211,11 +1211,11 @@
       "text": "I know."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Caleb exits."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Ezra notices a tool out of place. Instinctively he puts it where it belongs, then stops himself from trying to fix anything else."
     },
     {
@@ -1247,11 +1247,11 @@
       "text": "Neither do I."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Ezra exits."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Malachi remains."
     },
     {
@@ -1299,7 +1299,7 @@
       "text": "That’s all."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Malachi exits."
     },
     {

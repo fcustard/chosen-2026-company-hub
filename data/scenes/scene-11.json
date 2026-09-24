@@ -6,7 +6,7 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T15:48:42.265Z",
+  "sourceUpdated": "2026-09-24T16:12:24.592Z",
   "contentHash": "98ab231d33d47b35ddd5a6fd13e0ce7d9bbb61e57ad9137bd54d2806d08fa989",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
@@ -583,7 +583,7 @@
       "text": "My wife is having a child."
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Eli looks toward Mary."
     },
     {
@@ -659,7 +659,7 @@
       "text": "The door closes."
     },
     {
-      "type": "heading",
+      "type": "stage",
       "text": "SILENCE."
     },
     {
@@ -823,7 +823,7 @@
       "text": "Stay."
     },
     {
-      "type": "heading",
+      "type": "stage",
       "text": "SILENCE."
     },
     {
@@ -1287,7 +1287,7 @@
       "text": "I’m here."
     },
     {
-      "type": "heading",
+      "type": "stage",
       "text": "SILENCE."
     },
     {
@@ -1347,7 +1347,7 @@
       "text": "A BABY CRIES."
     },
     {
-      "type": "heading",
+      "type": "stage",
       "text": "SILENCE."
     },
     {
