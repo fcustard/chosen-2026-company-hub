@@ -959,18 +959,36 @@ function canonicalizeRehearsal(record, index = 0) {
     getField(record, 'groups', 'Groups')
   ));
 
-  const callGroups = normalizeList(firstNonEmpty(
+  const sourceCallGroups = normalizeList(firstNonEmpty(
     getField(record, 'callGroups', 'Call Groups'),
     calledGroups
   ));
 
-  const calledText = normalizeText(firstNonEmpty(
+  // Public group filters describe who is represented in a call. They must not
+  // expand exact calledGroups, which My Calls uses to decide who is called.
+  // The Sep 26 feed currently omits youth dancers from its public group tags.
+  const callGroups = normalizeList([
+    ...sourceCallGroups,
+    ...(eventKey === 'CHOSEN-20260926-REH' &&
+      /Dancers\s*\(Child\/Youth\)/i.test(String(getField(record, 'called', 'Called', 'Who Is Called') || ''))
+      ? ['Principals/Featured', 'Children/Youth', 'Dancers', 'Ensemble']
+      : []),
+  ]);
+
+  const sourceCalledText = normalizeText(firstNonEmpty(
     getField(record, 'called', 'Called', 'Who Is Called', 'whoIsCalled'),
     [
       ...calledGroups,
       ...calledPeople.map(person => person.displayName || person.name || person.id).filter(Boolean),
     ].join(', ')
   ));
+
+  // The Sep 30 source was published with a missing closing parenthesis. The
+  // Master Calendar is corrected; keep this display repair for stale feeds.
+  const calledText = eventKey === 'CHOSEN-20260930-REH' &&
+    sourceCalledText.endsWith("Innkeeper's Wife (Charla")
+    ? sourceCalledText + ')'
+    : sourceCalledText;
 
   const exactCallStatus = normalizeText(firstNonEmpty(
     getField(record, 'exactCallStatus', 'Exact Call Status'),
