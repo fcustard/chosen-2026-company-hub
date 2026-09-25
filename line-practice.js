@@ -15,7 +15,8 @@
     String(index + 1).padStart(2, '0')
   );
 
-  const STORAGE_KEY = 'chosen2026-line-progress-v1';
+  const STORAGE_KEY = 'chosen2026-line-progress-v2';
+  const LEGACY_STORAGE_KEY = 'chosen2026-line-progress-v1';
 
   const els = {
     loading: document.getElementById('linesLoading'),
@@ -30,6 +31,7 @@
 
   let allLines = [];
   let allScenes = [];
+  let memoryProgress = {};
 
   function text(value) {
     return String(value ?? '').replace(/\s+/g, ' ').trim();
@@ -49,7 +51,8 @@
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
       .replace(/[’‘]/g, "'")
-      .toUpperCase();
+      .toUpperCase()
+      .replace(/\b([A-Z]+)-(\d+)\b/g, '$1 $2');
   }
 
   function hashText(value) {
@@ -63,14 +66,50 @@
 
   function getProgress() {
     try {
-      return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      const value = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      return value && typeof value === 'object' && !Array.isArray(value)
+        ? value : memoryProgress;
     } catch (error) {
-      return {};
+      return memoryProgress;
     }
   }
 
   function setProgress(progress) {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    memoryProgress = progress;
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    } catch (error) {
+      // Keep the current session usable if browser storage is disabled.
+    }
+  }
+
+  function migrateProgress(lines) {
+    try {
+      if (localStorage.getItem(STORAGE_KEY) !== null) return;
+      const old = JSON.parse(localStorage.getItem(LEGACY_STORAGE_KEY) || '{}');
+      const migrated = {};
+      const frequencies = new Map();
+
+      for (const line of lines) {
+        const identity = `${line.sceneNumber}|${line.sourceSpeakerKey}|${hashText(line.text)}`;
+        frequencies.set(identity, (frequencies.get(identity) || 0) + 1);
+      }
+
+      for (const line of lines) {
+        const identity = `${line.sceneNumber}|${line.sourceSpeakerKey}|${hashText(line.text)}`;
+        if (frequencies.get(identity) !== 1) continue;
+        const prefix = `${line.sceneNumber}|${line.sourceSpeakerKey}|`;
+        const suffix = `|${hashText(line.text)}`;
+        const matches = Object.entries(old)
+          .filter(([key, status]) => key.startsWith(prefix) && key.endsWith(suffix) &&
+            (status === 'known' || status === 'work'));
+        if (matches.length === 1) migrated[line.key] = matches[0][1];
+      }
+
+      setProgress(migrated);
+    } catch (error) {
+      // Practice still works when storage is unavailable.
+    }
   }
 
   async function fetchJson(path) {
@@ -82,35 +121,14 @@
   }
 
   function getSceneBlocks(scene) {
-    if (!scene || typeof scene !== 'object') return [];
-
-    const candidates = [
-      scene.blocks,
-      scene.scriptBlocks,
-      scene.contentBlocks,
-      scene.lines,
-      scene.content,
-      scene.paragraphs,
-    ];
-
-    for (const candidate of candidates) {
-      if (Array.isArray(candidate)) return candidate;
+    if (!Array.isArray(scene?.blocks)) {
+      throw new Error('A scene has no approved script blocks. Please refresh and try again.');
     }
-
-    return [];
+    return scene.blocks;
   }
 
   function getBlockKind(block) {
-    if (!block || typeof block !== 'object') return '';
-    return normalize(
-      block.kind ||
-      block.type ||
-      block.style ||
-      block.blockType ||
-      block.format ||
-      block.paragraphType ||
-      ''
-    );
+    return normalize(block?.type || '');
   }
 
   function getBlockText(block) {
@@ -134,88 +152,12 @@
     return '';
   }
 
-  function getExplicitSpeaker(block) {
-    if (!block || typeof block !== 'object') return '';
-
-    const direct = [
-      block.speaker,
-      block.character,
-      block.characterName,
-      block.role,
-      block.name,
-    ];
-
-    for (const item of direct) {
-      if (typeof item === 'string' && text(item)) return text(item);
-    }
-
-    return '';
-  }
-
-  function isHeadingLike(value, kind) {
-    const t = normalize(value);
-    if (!t) return false;
-
-    if (
-      kind.includes('HEADING') ||
-      kind.includes('TITLE') ||
-      kind.includes('STAGE') ||
-      kind.includes('DIRECTION') ||
-      kind.includes('LYRIC') ||
-      kind.includes('NOTE')
-    ) {
-      return true;
-    }
-
-    return /^(SCENE|END SCENE|VERSE|PRESET|LIGHT CUE|BLACKOUT|TRANSITION|MUSICAL NUMBER|MUSIC|SONG|DIALOGUE|ACT|OPTIONAL|NOTE|CHOREOGRAPHY|SECTION)\b/.test(t);
-  }
-
-  function isSpeakerKind(kind) {
-    return (
-      kind.includes('CHARACTER') ||
-      kind.includes('SPEAKER') ||
-      kind.includes('ROLE')
-    );
-  }
-
-  function isLikelySpeaker(value, kind) {
-    const original = text(value);
-    const t = normalize(original);
-
-    if (!t) return false;
-    if (isHeadingLike(t, kind)) return false;
-
-    if (isSpeakerKind(kind)) return true;
-
-    if (original.length > 45) return false;
-    if (/[.!?]$/.test(original)) return false;
-    if (!/[A-Z]/.test(t)) return false;
-
-    const words = t.split(/\s+/).filter(Boolean);
-    if (words.length > 6) return false;
-
-    const allowed = /^[A-Z0-9 '&/+.-]+$/.test(t);
-    const hasLowercase = /[a-z]/.test(original);
-
-    return allowed && !hasLowercase;
-  }
-
-  function isSpeakerNumber(value) {
-    return /^\d{1,2}$/.test(text(value));
-  }
-
   function cleanSpeaker(value) {
     return text(value)
       .replace(/\s*\/\s*/g, ' / ')
       .replace(/\s*\+\s*/g, ' + ')
       .replace(/\s+/g, ' ')
       .trim();
-  }
-
-  function shouldCombineSpeakerNumber(speaker, nextValue) {
-    if (!speaker || !isSpeakerNumber(nextValue)) return false;
-    if (/\d$/.test(text(speaker))) return false;
-    return true;
   }
 
   function sceneNumberFrom(scene, fallback) {
@@ -228,18 +170,18 @@
     return text(scene?.title || scene?.name || scene?.label || `Scene ${sceneNo}`);
   }
 
-  function addLine(result, sceneMeta, speaker, lineText, cue, cueSpeaker) {
+  function addLine(result, sceneMeta, speaker, lineText, cue, cueSpeaker, blockIndex, occurrence) {
     const safeLine = text(lineText);
     const safeSpeaker = cleanSpeaker(speaker);
 
     if (!safeSpeaker || !safeLine) return;
 
-    const index = result.length + 1;
+    const sourceSpeakerKey = normalize(safeSpeaker);
     const key = [
       sceneMeta.number,
-      normalize(safeSpeaker),
-      index,
+      sourceSpeakerKey,
       hashText(safeLine),
+      occurrence,
     ].join('|');
 
     result.push({
@@ -247,11 +189,12 @@
       sceneNumber: sceneMeta.number,
       sceneTitle: sceneMeta.title,
       speaker: safeSpeaker,
-      speakerKey: normalize(safeSpeaker),
+      speakerKey: sourceSpeakerKey,
+      sourceSpeakerKey,
+      blockIndex,
       text: safeLine,
       cue: text(cue) || 'Opening line / no cue before this line.',
       cueSpeaker: text(cueSpeaker),
-      index,
     });
   }
 
@@ -268,76 +211,77 @@
     let currentSpeaker = '';
     let lastSpokenText = '';
     let lastSpokenSpeaker = '';
+    const occurrences = new Map();
 
-    for (const block of blocks) {
+    const ending = blocks.findLastIndex(block => {
+      const kind = getBlockKind(block);
+      const label = getBlockText(block);
+      return (kind === 'TRANSITION' && /^(?:END SCENE\s*\d+|Scene\s*\d+\s+begins\.)/i.test(label)) ||
+        (kind === 'HEADING' && /^END OF CHOSEN:/i.test(label));
+    });
+    const script = ending < 0 ? blocks : blocks.slice(0, ending + 1);
+
+    for (const [index, block] of script.entries()) {
       const kind = getBlockKind(block);
       const blockText = getBlockText(block);
-      const explicitSpeaker = getExplicitSpeaker(block);
 
-      if (explicitSpeaker && block && typeof block === 'object') {
-        const directLine = text(block.line || block.dialogue || block.text || block.content || '');
-        const speakerOnly = normalize(directLine) === normalize(explicitSpeaker);
-
-        if (directLine && !speakerOnly && !isHeadingLike(directLine, kind)) {
-          const speaker = cleanSpeaker(explicitSpeaker);
-          addLine(result, sceneMeta, speaker, directLine, lastSpokenText, lastSpokenSpeaker);
-          lastSpokenText = directLine;
-          lastSpokenSpeaker = speaker;
-          currentSpeaker = speaker;
-          continue;
-        }
-      }
-
-      if (!blockText) continue;
-
-      if (shouldCombineSpeakerNumber(currentSpeaker, blockText)) {
-        currentSpeaker = cleanSpeaker(`${currentSpeaker} ${blockText}`);
-        continue;
-      }
-
-      if (isLikelySpeaker(blockText, kind)) {
+      if (kind === 'CHARACTER') {
         currentSpeaker = cleanSpeaker(blockText);
         continue;
       }
+      if (kind !== 'DIALOGUE' || !blockText) continue;
+      if (!currentSpeaker) throw new Error(`Scene ${sceneNo} has dialogue without a character cue.`);
 
-      if (isHeadingLike(blockText, kind)) {
-        continue;
-      }
-
-      if (currentSpeaker) {
-        addLine(result, sceneMeta, currentSpeaker, blockText, lastSpokenText, lastSpokenSpeaker);
-        lastSpokenText = blockText;
-        lastSpokenSpeaker = currentSpeaker;
-      }
+      const identity = `${normalize(currentSpeaker)}|${hashText(blockText)}`;
+      const occurrence = (occurrences.get(identity) || 0) + 1;
+      occurrences.set(identity, occurrence);
+      addLine(result, sceneMeta, currentSpeaker, blockText, lastSpokenText, lastSpokenSpeaker, index, occurrence);
+      lastSpokenText = blockText;
+      lastSpokenSpeaker = currentSpeaker;
     }
 
     return result;
   }
 
   async function loadScenes() {
-    const loaded = [];
+    return Promise.all(SCENE_NUMBERS.map(async sceneNo => {
+      const scene = await fetchJson(`data/scenes/scene-${sceneNo}.json`);
+      return {
+        sceneNumber: sceneNumberFrom(scene, sceneNo),
+        sceneTitle: sceneTitleFrom(scene, sceneNo),
+        scene,
+      };
+    }));
+  }
 
-    for (const sceneNo of SCENE_NUMBERS) {
-      try {
-        const scene = await fetchJson(`data/scenes/scene-${sceneNo}.json`);
-        loaded.push({
-          sceneNumber: sceneNumberFrom(scene, sceneNo),
-          sceneTitle: sceneTitleFrom(scene, sceneNo),
-          scene,
-        });
-      } catch (error) {
-        console.warn(`Line practice skipped Scene ${sceneNo}:`, error);
+  function includeSharedLines(lines) {
+    const roles = new Set(lines.map(line => line.speakerKey));
+    const shared = [];
+
+    for (const line of lines) {
+      if (!line.speaker.includes('&')) continue;
+      const parts = line.speaker.split(/\s*&\s*/).map(text);
+      if (parts.length !== 2) continue;
+      const second = /^\d+$/.test(parts[1])
+        ? `${parts[0].replace(/\s+\d+$/, '')} ${parts[1]}`
+        : parts[1];
+
+      for (const role of [parts[0], second]) {
+        const key = normalize(role);
+        if (roles.has(key)) shared.push({ ...line, speakerKey: key });
       }
     }
 
-    return loaded;
+    return [...lines, ...shared].sort((a, b) =>
+      a.sceneNumber.localeCompare(b.sceneNumber) || a.blockIndex - b.blockIndex
+    );
   }
 
   function uniqueRoles(lines) {
     const map = new Map();
 
     for (const line of lines) {
-      if (!map.has(line.speakerKey)) {
+      if (!map.has(line.speakerKey) || line.speakerKey === line.sourceSpeakerKey) {
         map.set(line.speakerKey, line.speaker);
       }
     }
@@ -429,7 +373,7 @@
     els.summary.innerHTML = `
       <div>
         <p class="ey">PRACTICE SET</p>
-        <h2>${htmlEscape(lines[0].speaker)}</h2>
+        <h2>${htmlEscape(els.roleSelect.selectedOptions[0]?.textContent || lines[0].speaker)}</h2>
         <p class="note">${lines.length} line card${lines.length === 1 ? '' : 's'} loaded.</p>
       </div>
       <div class="lineStats" aria-label="Line progress">
@@ -559,14 +503,15 @@
       bindEvents();
 
       allScenes = await loadScenes();
-      allLines = allScenes.flatMap(item =>
+      allLines = includeSharedLines(allScenes.flatMap(item =>
         extractLinesFromScene(item.scene, item.sceneNumber)
-      );
+      ));
 
       if (!allLines.length) {
         throw new Error('No dialogue lines were found in data/scenes/scene-##.json.');
       }
 
+      migrateProgress(allLines);
       fillRoleSelect(allLines);
       fillSceneSelect(els.roleSelect.value);
 
