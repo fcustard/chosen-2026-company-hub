@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T01:17:18.722Z",
+  "updated": "2026-09-25T02:00:18.780Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -9,22 +9,24 @@
     "help": "https://docs.google.com/forms/d/e/1FAIpQLSeiTsJrCmCAJ44woJG4mUNBHGJnb1fWSol5Xzc4Kvy-Hlha6Q/viewform?usp=header"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20260924-REH",
-    "eventKey": "CHOSEN-20260924-REH",
-    "start": "2026-09-24T22:30:00.000Z",
-    "end": "2026-09-25T01:30:00.000Z",
-    "date": "September 24, 2026",
-    "dateIso": "2026-09-24",
-    "day": "Thursday",
-    "dateLabel": "September 24, 2026",
-    "dayLabel": "Thursday",
-    "time": "6:30 PM–9:30 PM",
+    "id": "CHOSEN-20260926-REH",
+    "eventKey": "CHOSEN-20260926-REH",
+    "start": "2026-09-26T14:00:00.000Z",
+    "end": "2026-09-26T18:00:00.000Z",
+    "date": "September 26, 2026",
+    "dateIso": "2026-09-26",
+    "day": "Saturday",
+    "dateLabel": "September 26, 2026",
+    "dayLabel": "Saturday",
+    "time": "10:00 AM–2:00 PM",
     "title": "CHOSEN Rehearsal - Scene 9 & 10",
-    "status": "VIRTUAL",
-    "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
-    "locationShort": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
-    "called": "6:30 PM- 7:30 PM- Child Speakers: Child 1 (Neclia), Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina), Simon (James)\n\n6:30 PM-9:30 PM- Mary (Jordyn), Caleb (Joseph), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela)\n\n7:30 PM-9:30 PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Lauryn), Villager Man 1  (Fredrick), Villager Man 2 (Rodney), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
-    "callGroups": [],
+    "status": "CONFIRMED",
+    "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+    "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+    "called": "10:00 AM–2:00 PM — Dancers (Child/Youth) Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP)\n \n10:00 AM–2:00 PM -Actors in Scenes 9 & 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents, Villager Man 1 & 2, Roman Announcer)",
+    "callGroups": [
+      "Ensemble"
+    ],
     "calledPeople": [
       {
         "displayName": "Jordyn Starks"
@@ -51,9 +53,6 @@
         "displayName": "Marissa Downie"
       },
       {
-        "displayName": "Lauryn Butler"
-      },
-      {
         "displayName": "Tasha Simeon"
       },
       {
@@ -78,6 +77,9 @@
         "displayName": "Chris Mcanuff"
       },
       {
+        "displayName": "Lauryn Butler"
+      },
+      {
         "displayName": "Fredrick Custard"
       },
       {
@@ -96,7 +98,28 @@
         "displayName": "Anaia Downer"
       },
       {
-        "displayName": "Rodney Jean"
+        "displayName": "Alexandria Platt"
+      },
+      {
+        "displayName": "Allania Mitchell"
+      },
+      {
+        "displayName": "Caris Hunte"
+      },
+      {
+        "displayName": "Delvin Rogers Jr"
+      },
+      {
+        "displayName": "Kennedy McCalla"
+      },
+      {
+        "displayName": "Kourtney—Ann Palmer"
+      },
+      {
+        "displayName": "Gabriella Fearon"
+      },
+      {
+        "displayName": "DeAndra Gray"
       }
     ],
     "calledPeopleIds": [
@@ -108,7 +131,6 @@
       "P-gelvina-maxime",
       "P-james-myers",
       "P-marissa-downie",
-      "P-lauryn-butler",
       "P-tasha-simeon",
       "P-tyfany-adaka",
       "P-jeovanie-andre",
@@ -117,20 +139,30 @@
       "P-dorrien-jones",
       "P-michael-stover",
       "P-chris-mcanuff",
+      "P-lauryn-butler",
       "P-fredrick-custard",
       "P-amadeus-hills",
       "P-gabriela-sardinas",
       "P-shanice-palmer",
       "P-victorya-champagne",
       "P-anaia-downer",
-      "P-rodney-jean"
+      "P-alexandria-platt",
+      "P-allania-mitchell",
+      "P-caris-hunte",
+      "P-delvin-rogers-jr",
+      "P-kennedy-mccalla",
+      "P-kourtney-ann-palmer",
+      "P-gabriella-fearon",
+      "P-deandra-gray"
     ],
-    "calledGroups": [],
+    "calledGroups": [
+      "Ensemble"
+    ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
+    "work": "9 blocking/choreography; recover physical Scene 10 journey work",
     "focus": "",
-    "prep": "Dancers: Work on Speaking Parts and the \"What Will He Be\" Song; Actors: Work on the script for Scenes 9& 10",
+    "prep": "Specific scene-by-scene call list will be posted before rehearsal.",
     "notice": "",
     "changeType": ""
   },
@@ -139,132 +171,6 @@
     "start": "2026-09-24T04:00:00.000Z",
     "end": "2026-10-01T03:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20260924-REH",
-        "eventKey": "CHOSEN-20260924-REH",
-        "start": "2026-09-24T22:30:00.000Z",
-        "end": "2026-09-25T01:30:00.000Z",
-        "date": "September 24, 2026",
-        "dateIso": "2026-09-24",
-        "day": "Thursday",
-        "dateLabel": "September 24, 2026",
-        "dayLabel": "Thursday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 9 & 10",
-        "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
-        "locationShort": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
-        "called": "6:30 PM- 7:30 PM- Child Speakers: Child 1 (Neclia), Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina), Simon (James)\n\n6:30 PM-9:30 PM- Mary (Jordyn), Caleb (Joseph), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela)\n\n7:30 PM-9:30 PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Lauryn), Villager Man 1  (Fredrick), Villager Man 2 (Rodney), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Lauryn Butler"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Fredrick Custard"
-          },
-          {
-            "displayName": "Amadeus Hills"
-          },
-          {
-            "displayName": "Gabriela Sardinas"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Victorya Champagne"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Rodney Jean"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-nelcia-fosttin",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-marissa-downie",
-          "P-lauryn-butler",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff",
-          "P-fredrick-custard",
-          "P-amadeus-hills",
-          "P-gabriela-sardinas",
-          "P-shanice-palmer",
-          "P-victorya-champagne",
-          "P-anaia-downer",
-          "P-rodney-jean"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
-        "focus": "",
-        "prep": "Dancers: Work on Speaking Parts and the \"What Will He Be\" Song; Actors: Work on the script for Scenes 9& 10",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260926-REH",
         "eventKey": "CHOSEN-20260926-REH",
@@ -596,138 +502,12 @@
         "changeType": ""
       }
     ],
-    "count": 3
+    "count": 2
   },
   "schedule": {
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20260924-REH",
-        "eventKey": "CHOSEN-20260924-REH",
-        "start": "2026-09-24T22:30:00.000Z",
-        "end": "2026-09-25T01:30:00.000Z",
-        "date": "September 24, 2026",
-        "dateIso": "2026-09-24",
-        "day": "Thursday",
-        "dateLabel": "September 24, 2026",
-        "dayLabel": "Thursday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 9 & 10",
-        "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
-        "locationShort": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
-        "called": "6:30 PM- 7:30 PM- Child Speakers: Child 1 (Neclia), Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina), Simon (James)\n\n6:30 PM-9:30 PM- Mary (Jordyn), Caleb (Joseph), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela)\n\n7:30 PM-9:30 PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Lauryn), Villager Man 1  (Fredrick), Villager Man 2 (Rodney), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Lauryn Butler"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Fredrick Custard"
-          },
-          {
-            "displayName": "Amadeus Hills"
-          },
-          {
-            "displayName": "Gabriela Sardinas"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Victorya Champagne"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Rodney Jean"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-nelcia-fosttin",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-marissa-downie",
-          "P-lauryn-butler",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff",
-          "P-fredrick-custard",
-          "P-amadeus-hills",
-          "P-gabriela-sardinas",
-          "P-shanice-palmer",
-          "P-victorya-champagne",
-          "P-anaia-downer",
-          "P-rodney-jean"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
-        "focus": "",
-        "prep": "Dancers: Work on Speaking Parts and the \"What Will He Be\" Song; Actors: Work on the script for Scenes 9& 10",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260926-REH",
         "eventKey": "CHOSEN-20260926-REH",
@@ -2269,6 +2049,132 @@
     ],
     "pastRehearsals": [
       {
+        "id": "CHOSEN-20260924-REH",
+        "eventKey": "CHOSEN-20260924-REH",
+        "start": "2026-09-24T22:30:00.000Z",
+        "end": "2026-09-25T01:30:00.000Z",
+        "date": "September 24, 2026",
+        "dateIso": "2026-09-24",
+        "day": "Thursday",
+        "dateLabel": "September 24, 2026",
+        "dayLabel": "Thursday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 9 & 10",
+        "status": "VIRTUAL",
+        "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
+        "locationShort": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
+        "called": "6:30 PM- 7:30 PM- Child Speakers: Child 1 (Neclia), Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina), Simon (James)\n\n6:30 PM-9:30 PM- Mary (Jordyn), Caleb (Joseph), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela)\n\n7:30 PM-9:30 PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Lauryn), Villager Man 1  (Fredrick), Villager Man 2 (Rodney), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Lauryn Butler"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Amadeus Hills"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Rodney Jean"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-nelcia-fosttin",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-marissa-downie",
+          "P-lauryn-butler",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-fredrick-custard",
+          "P-amadeus-hills",
+          "P-gabriela-sardinas",
+          "P-shanice-palmer",
+          "P-victorya-champagne",
+          "P-anaia-downer",
+          "P-rodney-jean"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
+        "focus": "",
+        "prep": "Dancers: Work on Speaking Parts and the \"What Will He Be\" Song; Actors: Work on the script for Scenes 9& 10",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260923-REH",
         "eventKey": "CHOSEN-20260923-REH",
         "start": "2026-09-23T22:30:00.000Z",
@@ -3134,132 +3040,6 @@
       }
     ],
     "allRehearsals": [
-      {
-        "id": "CHOSEN-20260924-REH",
-        "eventKey": "CHOSEN-20260924-REH",
-        "start": "2026-09-24T22:30:00.000Z",
-        "end": "2026-09-25T01:30:00.000Z",
-        "date": "September 24, 2026",
-        "dateIso": "2026-09-24",
-        "day": "Thursday",
-        "dateLabel": "September 24, 2026",
-        "dayLabel": "Thursday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 9 & 10",
-        "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
-        "locationShort": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
-        "called": "6:30 PM- 7:30 PM- Child Speakers: Child 1 (Neclia), Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina), Simon (James)\n\n6:30 PM-9:30 PM- Mary (Jordyn), Caleb (Joseph), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela)\n\n7:30 PM-9:30 PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Lauryn), Villager Man 1  (Fredrick), Villager Man 2 (Rodney), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Lauryn Butler"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Fredrick Custard"
-          },
-          {
-            "displayName": "Amadeus Hills"
-          },
-          {
-            "displayName": "Gabriela Sardinas"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Victorya Champagne"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Rodney Jean"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-nelcia-fosttin",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-marissa-downie",
-          "P-lauryn-butler",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff",
-          "P-fredrick-custard",
-          "P-amadeus-hills",
-          "P-gabriela-sardinas",
-          "P-shanice-palmer",
-          "P-victorya-champagne",
-          "P-anaia-downer",
-          "P-rodney-jean"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
-        "focus": "",
-        "prep": "Dancers: Work on Speaking Parts and the \"What Will He Be\" Song; Actors: Work on the script for Scenes 9& 10",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260926-REH",
         "eventKey": "CHOSEN-20260926-REH",
@@ -4799,6 +4579,132 @@
         "changeType": ""
       },
       {
+        "id": "CHOSEN-20260924-REH",
+        "eventKey": "CHOSEN-20260924-REH",
+        "start": "2026-09-24T22:30:00.000Z",
+        "end": "2026-09-25T01:30:00.000Z",
+        "date": "September 24, 2026",
+        "dateIso": "2026-09-24",
+        "day": "Thursday",
+        "dateLabel": "September 24, 2026",
+        "dayLabel": "Thursday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 9 & 10",
+        "status": "VIRTUAL",
+        "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
+        "locationShort": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
+        "called": "6:30 PM- 7:30 PM- Child Speakers: Child 1 (Neclia), Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina), Simon (James)\n\n6:30 PM-9:30 PM- Mary (Jordyn), Caleb (Joseph), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela)\n\n7:30 PM-9:30 PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Lauryn), Villager Man 1  (Fredrick), Villager Man 2 (Rodney), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Lauryn Butler"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Amadeus Hills"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Rodney Jean"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-nelcia-fosttin",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-marissa-downie",
+          "P-lauryn-butler",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-fredrick-custard",
+          "P-amadeus-hills",
+          "P-gabriela-sardinas",
+          "P-shanice-palmer",
+          "P-victorya-champagne",
+          "P-anaia-downer",
+          "P-rodney-jean"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
+        "focus": "",
+        "prep": "Dancers: Work on Speaking Parts and the \"What Will He Be\" Song; Actors: Work on the script for Scenes 9& 10",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260923-REH",
         "eventKey": "CHOSEN-20260923-REH",
         "start": "2026-09-23T22:30:00.000Z",
@@ -5695,8 +5601,8 @@
         "count": 14
       }
     ],
-    "count": 37,
-    "pastCount": 12
+    "count": 36,
+    "pastCount": 13
   },
   "scripts": {
     "items": [
@@ -5712,7 +5618,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "02",
@@ -5726,7 +5632,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "03",
@@ -5740,7 +5646,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "04",
@@ -5754,7 +5660,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "05",
@@ -5768,7 +5674,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "06",
@@ -5782,7 +5688,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "07",
@@ -5796,7 +5702,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "08",
@@ -5810,7 +5716,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "09",
@@ -5824,7 +5730,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "10",
@@ -5838,7 +5744,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "11",
@@ -5852,7 +5758,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "12",
@@ -5866,7 +5772,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       }
     ],
     "current": [
@@ -5882,7 +5788,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "02",
@@ -5896,7 +5802,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "03",
@@ -5910,7 +5816,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "04",
@@ -5924,7 +5830,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "05",
@@ -5938,7 +5844,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "06",
@@ -5952,7 +5858,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "07",
@@ -5966,7 +5872,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "08",
@@ -5980,7 +5886,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "09",
@@ -5994,7 +5900,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "10",
@@ -6008,7 +5914,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "11",
@@ -6022,7 +5928,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       },
       {
         "scene": "12",
@@ -6036,11 +5942,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-25T01:17:11.739Z"
+        "updated": "2026-09-25T02:00:09.309Z"
       }
     ],
     "count": 12,
-    "updated": "2026-09-25T01:17:18.722Z",
+    "updated": "2026-09-25T02:00:18.781Z",
     "kind": "scripts"
   },
   "music": {
@@ -6097,7 +6003,7 @@
       }
     ],
     "count": 2,
-    "updated": "2026-09-25T01:17:18.722Z",
+    "updated": "2026-09-25T02:00:18.781Z",
     "kind": "music"
   }
 }
