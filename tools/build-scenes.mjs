@@ -910,6 +910,10 @@ ${content}
       <a class="btn primary" href="#top">Back to top</a>
     </nav>
   </main>
+  <footer>
+    <b>CHOSEN 2026</b>
+    <span>Broadway Church Production & Dance System™</span>
+  </footer>
 </body>
 </html>
 `;
