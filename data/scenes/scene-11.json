@@ -6,7 +6,7 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-25T20:44:34.567Z",
+  "sourceUpdated": "2026-09-25T23:36:28.439Z",
   "contentHash": "b2c2008e7ae55474dc543c7adbd42e6defdafeea8f1a130dab4b8b0d9adf52e5",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
@@ -701,9 +701,9 @@
       "namedStyleType": "HEADING_6"
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "INNKEEPER ELI",
-      "namedStyleType": "HEADING_2"
+      "namedStyleType": "HEADING_3"
     },
     {
       "type": "stage",
@@ -786,9 +786,9 @@
       "namedStyleType": "HEADING_6"
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "INNKEEPER ELI",
-      "namedStyleType": "HEADING_2"
+      "namedStyleType": "HEADING_3"
     },
     {
       "type": "stage",
@@ -801,9 +801,9 @@
       "namedStyleType": "HEADING_6"
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "INNKEEPER ELI",
-      "namedStyleType": "HEADING_2"
+      "namedStyleType": "HEADING_3"
     },
     {
       "type": "stage",
@@ -816,9 +816,9 @@
       "namedStyleType": "HEADING_6"
     },
     {
-      "type": "heading",
+      "type": "character",
       "text": "INNKEEPER ELI",
-      "namedStyleType": "HEADING_2"
+      "namedStyleType": "HEADING_3"
     },
     {
       "type": "stage",
