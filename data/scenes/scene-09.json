@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-09-24T23:54:10.038Z",
-  "contentHash": "7281bcd9a1fda7415c3d01fff6196240e2f322337ab46240ad3269fcf3a8b6ce",
+  "sourceUpdated": "2026-09-25T00:33:26.510Z",
+  "contentHash": "4a9cfa8aa38d53655a7b1370b9c816a1fc46245ca3d932345716567aeeb3a221",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -3128,7 +3128,7 @@
     },
     {
       "type": "dialogue",
-      "text": "It is a wonderful word.",
+      "text": "Immediately! It is a wonderful word.",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
