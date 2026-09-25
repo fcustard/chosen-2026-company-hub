@@ -243,14 +243,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     link(a, d.links?.[a.dataset.link])
   );
 
-  const u = document.querySelector('#updated');
-
-  if (u) {
-    u.textContent = d.updated
-      ? `Updated ${d.updated}`
-      : '';
-  }
-
   /*
    * ============================================================
    * HOME
