@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T23:36:37.437Z",
+  "updated": "2026-09-26T01:56:53.333Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -352,12 +352,11 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — Dancers (Child/Youth Only)/ Alexandria Platt \r\nAllania Mitchell \r\nAnnalise Mongeois \r\nAriella Davidson \r\nCaris Hunte \r\nDelvin Rogers Jr \r\nGelvina Maxime \r\nJames Myers \r\nKennedy McCalla \r\nKourtney—Ann Palmer \r\nNelcia Fosttin\r\nGabriella Fearon (CAP) \r\n DeAndra Gray (CAP) \n\n6:30–8:00 PM- Actors in Scenes 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n\n 8:00 PM- 9:30PM- Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
+        "called": "6:30–8:30 PM — Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–8:00 PM- Actors in Scenes 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n\n 8:00 PM- 9:30PM- Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
         "callGroups": [
           "Principals/Featured",
           "Children/Youth",
-          "Ensemble",
-          "Dancers"
+          "Ensemble"
         ],
         "calledPeople": [
           {
@@ -498,8 +497,7 @@
         "calledGroups": [
           "Principals/Featured",
           "Children/Youth",
-          "Ensemble",
-          "Dancers"
+          "Ensemble"
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
@@ -524,11 +522,10 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM- 8:30 PM- Dancers (Child/Youth Only)/ Alexandria Platt \r\nAllania Mitchell \r\nAnnalise Mongeois \r\nAriella Davidson \r\nCaris Hunte \r\nDelvin Rogers Jr \r\nGelvina Maxime \r\nJames Myers \r\nKennedy McCalla \r\nKourtney—Ann Palmer \r\nNelcia Fosttin\r\nGabriella Fearon (CAP) \r\n DeAndra Gray (CAP) \n\n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n 8:00PM-9:30PM All Other Cast members, Choir, Praise Voices",
+        "called": "6:30 PM- 8:30 PM- Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [
           "Principals/Featured",
-          "Children/Youth",
-          "Full Company"
+          "Children/Youth"
         ],
         "calledPeople": [
           {
@@ -560,6 +557,30 @@
           },
           {
             "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Alexandria Platt"
+          },
+          {
+            "displayName": "Allania Mitchell"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Kennedy McCalla"
+          },
+          {
+            "displayName": "Kourtney—Ann Palmer"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
           }
         ],
         "calledPeopleIds": [
@@ -572,12 +593,19 @@
           "P-edison-browne",
           "P-jayden-harris",
           "P-delvin-rogers-jr",
-          "P-cedrick-massey"
+          "P-cedrick-massey",
+          "P-alexandria-platt",
+          "P-allania-mitchell",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-caris-hunte",
+          "P-kennedy-mccalla",
+          "P-kourtney-ann-palmer",
+          "P-nelcia-fosttin"
         ],
         "calledGroups": [
           "Principals/Featured",
-          "Children/Youth",
-          "Full Company"
+          "Children/Youth"
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
@@ -770,12 +798,11 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — Dancers (Child/Youth Only)/ Alexandria Platt \r\nAllania Mitchell \r\nAnnalise Mongeois \r\nAriella Davidson \r\nCaris Hunte \r\nDelvin Rogers Jr \r\nGelvina Maxime \r\nJames Myers \r\nKennedy McCalla \r\nKourtney—Ann Palmer \r\nNelcia Fosttin\r\nGabriella Fearon (CAP) \r\n DeAndra Gray (CAP) \n\n6:30–8:00 PM- Actors in Scenes 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n\n 8:00 PM- 9:30PM- Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
+        "called": "6:30–8:30 PM — Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–8:00 PM- Actors in Scenes 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n\n 8:00 PM- 9:30PM- Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
         "callGroups": [
           "Principals/Featured",
           "Children/Youth",
-          "Ensemble",
-          "Dancers"
+          "Ensemble"
         ],
         "calledPeople": [
           {
@@ -916,8 +943,7 @@
         "calledGroups": [
           "Principals/Featured",
           "Children/Youth",
-          "Ensemble",
-          "Dancers"
+          "Ensemble"
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
@@ -942,11 +968,10 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM- 8:30 PM- Dancers (Child/Youth Only)/ Alexandria Platt \r\nAllania Mitchell \r\nAnnalise Mongeois \r\nAriella Davidson \r\nCaris Hunte \r\nDelvin Rogers Jr \r\nGelvina Maxime \r\nJames Myers \r\nKennedy McCalla \r\nKourtney—Ann Palmer \r\nNelcia Fosttin\r\nGabriella Fearon (CAP) \r\n DeAndra Gray (CAP) \n\n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n 8:00PM-9:30PM All Other Cast members, Choir, Praise Voices",
+        "called": "6:30 PM- 8:30 PM- Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [
           "Principals/Featured",
-          "Children/Youth",
-          "Full Company"
+          "Children/Youth"
         ],
         "calledPeople": [
           {
@@ -978,6 +1003,30 @@
           },
           {
             "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Alexandria Platt"
+          },
+          {
+            "displayName": "Allania Mitchell"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Kennedy McCalla"
+          },
+          {
+            "displayName": "Kourtney—Ann Palmer"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
           }
         ],
         "calledPeopleIds": [
@@ -990,12 +1039,19 @@
           "P-edison-browne",
           "P-jayden-harris",
           "P-delvin-rogers-jr",
-          "P-cedrick-massey"
+          "P-cedrick-massey",
+          "P-alexandria-platt",
+          "P-allania-mitchell",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-caris-hunte",
+          "P-kennedy-mccalla",
+          "P-kourtney-ann-palmer",
+          "P-nelcia-fosttin"
         ],
         "calledGroups": [
           "Principals/Featured",
-          "Children/Youth",
-          "Full Company"
+          "Children/Youth"
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
@@ -1016,11 +1072,11 @@
         "dateLabel": "October 3, 2026",
         "dayLabel": "Saturday",
         "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scenes 9–11",
+        "title": "CHOSEN Rehearsal - Scene 1 (Dancers Only) Scenes 9–12",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dancers\n10:00 AM- 2:00 PM- Scene 9 Cast\n11:00 AM- 2:00 PM- Scene 10 Cast\n12:00 PM- 2:00 PM- Scene 11 Cast",
+        "called": "10:00 AM–12:00 PM — Scene 1 Dancers\n\n10:00 AM–2:00 PM — Scene 9 Dancers\n\n10:00 AM- 2:00 PM- Scene 9 Cast\n\n11:00 AM- 2:00 PM- Scene 10-11 Cast\n\n12:00 PM- 2:00 PM-  Scene 12 \nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [
           "Principals/Featured",
           "Dancers",
@@ -1037,7 +1093,7 @@
         "callDataVersion": 3,
         "work": "Main-stage journey, crowd, No Room, birth picture",
         "focus": "",
-        "prep": "Please Come at your assigned time slot. All rehearsals will end at 2:00PM",
+        "prep": "Everyone: Bring a snack and drink for the 12:00–12:15 PM break.\n\nPlease Come at your assigned time slot. All rehearsals will end at 2:00PM",
         "notice": "",
         "changeType": ""
       },
@@ -1056,7 +1112,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–8:30 PM — ALL Dancers \n6:30 PM–9:30 PM Scene 12  Full Company",
+        "called": "6:30 PM–8:30 PM — ALL Dancers \n\n6:30 PM–9:30 PM Scene 12 \nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [
           "Full Company",
           "Dancers"
@@ -3305,12 +3361,11 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — Dancers (Child/Youth Only)/ Alexandria Platt \r\nAllania Mitchell \r\nAnnalise Mongeois \r\nAriella Davidson \r\nCaris Hunte \r\nDelvin Rogers Jr \r\nGelvina Maxime \r\nJames Myers \r\nKennedy McCalla \r\nKourtney—Ann Palmer \r\nNelcia Fosttin\r\nGabriella Fearon (CAP) \r\n DeAndra Gray (CAP) \n\n6:30–8:00 PM- Actors in Scenes 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n\n 8:00 PM- 9:30PM- Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
+        "called": "6:30–8:30 PM — Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–8:00 PM- Actors in Scenes 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n\n 8:00 PM- 9:30PM- Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
         "callGroups": [
           "Principals/Featured",
           "Children/Youth",
-          "Ensemble",
-          "Dancers"
+          "Ensemble"
         ],
         "calledPeople": [
           {
@@ -3451,8 +3506,7 @@
         "calledGroups": [
           "Principals/Featured",
           "Children/Youth",
-          "Ensemble",
-          "Dancers"
+          "Ensemble"
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
@@ -3477,11 +3531,10 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM- 8:30 PM- Dancers (Child/Youth Only)/ Alexandria Platt \r\nAllania Mitchell \r\nAnnalise Mongeois \r\nAriella Davidson \r\nCaris Hunte \r\nDelvin Rogers Jr \r\nGelvina Maxime \r\nJames Myers \r\nKennedy McCalla \r\nKourtney—Ann Palmer \r\nNelcia Fosttin\r\nGabriella Fearon (CAP) \r\n DeAndra Gray (CAP) \n\n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n 8:00PM-9:30PM All Other Cast members, Choir, Praise Voices",
+        "called": "6:30 PM- 8:30 PM- Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [
           "Principals/Featured",
-          "Children/Youth",
-          "Full Company"
+          "Children/Youth"
         ],
         "calledPeople": [
           {
@@ -3513,6 +3566,30 @@
           },
           {
             "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Alexandria Platt"
+          },
+          {
+            "displayName": "Allania Mitchell"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Kennedy McCalla"
+          },
+          {
+            "displayName": "Kourtney—Ann Palmer"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
           }
         ],
         "calledPeopleIds": [
@@ -3525,12 +3602,19 @@
           "P-edison-browne",
           "P-jayden-harris",
           "P-delvin-rogers-jr",
-          "P-cedrick-massey"
+          "P-cedrick-massey",
+          "P-alexandria-platt",
+          "P-allania-mitchell",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-caris-hunte",
+          "P-kennedy-mccalla",
+          "P-kourtney-ann-palmer",
+          "P-nelcia-fosttin"
         ],
         "calledGroups": [
           "Principals/Featured",
-          "Children/Youth",
-          "Full Company"
+          "Children/Youth"
         ],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
@@ -3551,11 +3635,11 @@
         "dateLabel": "October 3, 2026",
         "dayLabel": "Saturday",
         "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scenes 9–11",
+        "title": "CHOSEN Rehearsal - Scene 1 (Dancers Only) Scenes 9–12",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dancers\n10:00 AM- 2:00 PM- Scene 9 Cast\n11:00 AM- 2:00 PM- Scene 10 Cast\n12:00 PM- 2:00 PM- Scene 11 Cast",
+        "called": "10:00 AM–12:00 PM — Scene 1 Dancers\n\n10:00 AM–2:00 PM — Scene 9 Dancers\n\n10:00 AM- 2:00 PM- Scene 9 Cast\n\n11:00 AM- 2:00 PM- Scene 10-11 Cast\n\n12:00 PM- 2:00 PM-  Scene 12 \nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [
           "Principals/Featured",
           "Dancers",
@@ -3572,7 +3656,7 @@
         "callDataVersion": 3,
         "work": "Main-stage journey, crowd, No Room, birth picture",
         "focus": "",
-        "prep": "Please Come at your assigned time slot. All rehearsals will end at 2:00PM",
+        "prep": "Everyone: Bring a snack and drink for the 12:00–12:15 PM break.\n\nPlease Come at your assigned time slot. All rehearsals will end at 2:00PM",
         "notice": "",
         "changeType": ""
       },
@@ -3591,7 +3675,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–8:30 PM — ALL Dancers \n6:30 PM–9:30 PM Scene 12  Full Company",
+        "called": "6:30 PM–8:30 PM — ALL Dancers \n\n6:30 PM–9:30 PM Scene 12 \nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [
           "Full Company",
           "Dancers"
@@ -5675,7 +5759,7 @@
       {
         "id": "dancers",
         "name": "Dancers",
-        "count": 37
+        "count": 35
       },
       {
         "id": "ensemble",
@@ -5685,7 +5769,7 @@
       {
         "id": "full-company",
         "name": "Full Company",
-        "count": 24
+        "count": 22
       },
       {
         "id": "principals-featured",
@@ -5710,7 +5794,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "02",
@@ -5724,7 +5808,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "03",
@@ -5738,7 +5822,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "04",
@@ -5752,7 +5836,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "05",
@@ -5766,7 +5850,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "06",
@@ -5780,7 +5864,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "07",
@@ -5794,7 +5878,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "08",
@@ -5808,7 +5892,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "09",
@@ -5822,7 +5906,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "10",
@@ -5836,7 +5920,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "11",
@@ -5850,7 +5934,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "12",
@@ -5864,7 +5948,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       }
     ],
     "current": [
@@ -5880,7 +5964,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "02",
@@ -5894,7 +5978,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "03",
@@ -5908,7 +5992,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "04",
@@ -5922,7 +6006,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "05",
@@ -5936,7 +6020,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "06",
@@ -5950,7 +6034,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "07",
@@ -5964,7 +6048,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "08",
@@ -5978,7 +6062,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "09",
@@ -5992,7 +6076,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "10",
@@ -6006,7 +6090,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "11",
@@ -6020,7 +6104,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       },
       {
         "scene": "12",
@@ -6034,11 +6118,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-25T23:36:28.439Z"
+        "updated": "2026-09-26T01:56:42.117Z"
       }
     ],
     "count": 12,
-    "updated": "2026-09-25T23:36:37.437Z",
+    "updated": "2026-09-26T01:56:53.334Z",
     "kind": "scripts"
   },
   "music": {
@@ -6095,7 +6179,7 @@
       }
     ],
     "count": 2,
-    "updated": "2026-09-25T23:36:37.438Z",
+    "updated": "2026-09-26T01:56:53.334Z",
     "kind": "music"
   }
 }

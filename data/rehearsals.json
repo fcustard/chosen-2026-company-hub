@@ -635,7 +635,7 @@
     "title": "CHOSEN Rehearsal - \nScene 9 (Dancers Only)\nScene 10 & Scene 11",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "6:30–8:30 PM — Dancers (Child/Youth Only)/ Alexandria Platt \r\nAllania Mitchell \r\nAnnalise Mongeois \r\nAriella Davidson \r\nCaris Hunte \r\nDelvin Rogers Jr \r\nGelvina Maxime \r\nJames Myers \r\nKennedy McCalla \r\nKourtney—Ann Palmer \r\nNelcia Fosttin\r\nGabriella Fearon (CAP) \r\n DeAndra Gray (CAP) \n\n6:30–8:00 PM- Actors in Scenes 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n\n 8:00 PM- 9:30PM- Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
+    "called": "6:30–8:30 PM — Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–8:00 PM- Actors in Scenes 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n\n 8:00 PM- 9:30PM- Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
     "work": "No Room table/rhythm; birth staging discussion",
     "prep": "",
     "calledPeople": [
@@ -711,8 +711,7 @@
     "calledGroups": [
       "Principals/Featured",
       "Children/Youth",
-      "Ensemble",
-      "Dancers"
+      "Ensemble"
     ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
@@ -725,7 +724,7 @@
     "title": "CHOSEN Rehearsal - Scene 9 (Dance Only) & 12",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "6:30 PM- 8:30 PM- Dancers (Child/Youth Only)/ Alexandria Platt \r\nAllania Mitchell \r\nAnnalise Mongeois \r\nAriella Davidson \r\nCaris Hunte \r\nDelvin Rogers Jr \r\nGelvina Maxime \r\nJames Myers \r\nKennedy McCalla \r\nKourtney—Ann Palmer \r\nNelcia Fosttin\r\nGabriella Fearon (CAP) \r\n DeAndra Gray (CAP) \n\n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n 8:00PM-9:30PM All Other Cast members, Choir, Praise Voices",
+    "called": "6:30 PM- 8:30 PM- Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
     "work": "Good News — shepherd dialogue, angel message, finale music foundation",
     "prep": "",
     "calledPeople": [
@@ -738,7 +737,15 @@
       "Edison Browne",
       "Jayden Harris",
       "Delvin Rogers Jr",
-      "Cedrick Massey"
+      "Cedrick Massey",
+      "Alexandria Platt",
+      "Allania Mitchell",
+      "Annalise Mongeois",
+      "Ariella Davidson",
+      "Caris Hunte",
+      "Kennedy McCalla",
+      "Kourtney—Ann Palmer",
+      "Nelcia Fosttin"
     ],
     "calledPeopleIds": [
       "P-gelvina-maxime",
@@ -750,12 +757,19 @@
       "P-edison-browne",
       "P-jayden-harris",
       "P-delvin-rogers-jr",
-      "P-cedrick-massey"
+      "P-cedrick-massey",
+      "P-alexandria-platt",
+      "P-allania-mitchell",
+      "P-annalise-mongeois",
+      "P-ariella-davidson",
+      "P-caris-hunte",
+      "P-kennedy-mccalla",
+      "P-kourtney-ann-palmer",
+      "P-nelcia-fosttin"
     ],
     "calledGroups": [
       "Principals/Featured",
-      "Children/Youth",
-      "Full Company"
+      "Children/Youth"
     ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
@@ -765,12 +779,12 @@
     "eventKey": "CHOSEN-20261003-REH",
     "start": "Oct 3, 2026 10:00 AM",
     "end": "Oct 3, 2026 2:00 PM",
-    "title": "CHOSEN Rehearsal - Scenes 9–11",
+    "title": "CHOSEN Rehearsal - Scene 1 (Dancers Only) Scenes 9–12",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "10:00 AM–2:00 PM — Dancers\n10:00 AM- 2:00 PM- Scene 9 Cast\n11:00 AM- 2:00 PM- Scene 10 Cast\n12:00 PM- 2:00 PM- Scene 11 Cast",
+    "called": "10:00 AM–12:00 PM — Scene 1 Dancers\n\n10:00 AM–2:00 PM — Scene 9 Dancers\n\n10:00 AM- 2:00 PM- Scene 9 Cast\n\n11:00 AM- 2:00 PM- Scene 10-11 Cast\n\n12:00 PM- 2:00 PM-  Scene 12 \nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
     "work": "Main-stage journey, crowd, No Room, birth picture",
-    "prep": "Please Come at your assigned time slot. All rehearsals will end at 2:00PM",
+    "prep": "Everyone: Bring a snack and drink for the 12:00–12:15 PM break.\n\nPlease Come at your assigned time slot. All rehearsals will end at 2:00PM",
     "calledPeople": [],
     "calledPeopleIds": [],
     "calledGroups": [
@@ -789,7 +803,7 @@
     "title": "CHOSEN Rehearsal - Scene 12",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "6:30 PM–8:30 PM — ALL Dancers \n6:30 PM–9:30 PM Scene 12  Full Company",
+    "called": "6:30 PM–8:30 PM — ALL Dancers \n\n6:30 PM–9:30 PM Scene 12 \nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
     "work": "Music, storyteller return, shepherds, finale entries",
     "prep": "",
     "calledPeople": [],
