@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T16:18:15.949Z",
+  "updated": "2026-09-26T19:15:41.770Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -11,26 +11,25 @@
     "incidentReport": "https://docs.google.com/forms/d/e/1FAIpQLScHrfCZhDqiW-0ODSZC66HDXM9KIMlWyaRa_g6IERFKLRsbQA/viewform"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20260926-REH",
-    "eventKey": "CHOSEN-20260926-REH",
-    "start": "2026-09-26T14:00:00.000Z",
-    "end": "2026-09-26T18:00:00.000Z",
-    "date": "September 26, 2026",
-    "dateIso": "2026-09-26",
-    "day": "Saturday",
-    "dateLabel": "September 26, 2026",
-    "dayLabel": "Saturday",
-    "time": "10:00 AM–2:00 PM",
-    "title": "CHOSEN Rehearsal - Scene 9 & 10",
+    "id": "CHOSEN-20260930-REH",
+    "eventKey": "CHOSEN-20260930-REH",
+    "start": "2026-09-30T22:30:00.000Z",
+    "end": "2026-10-01T01:30:00.000Z",
+    "date": "September 30, 2026",
+    "dateIso": "2026-09-30",
+    "day": "Wednesday",
+    "dateLabel": "September 30, 2026",
+    "dayLabel": "Wednesday",
+    "time": "6:30 PM–9:30 PM",
+    "title": "CHOSEN Rehearsal - \nScene 9\nScene 10 & Scene 11",
     "status": "CONFIRMED",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "10:00 AM–2:00 PM — Dancers (Child/Youth) Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP)\n \n10:00 AM–2:00 PM -Actors in Scenes 9 & 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents, Villager Man 1 & 2, Roman Announcer)",
+    "called": "6:30–8:30 PM — Dancers (Child/Youth Only)/ Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–8:00 PM- Actors in Scenes 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n\n 8:00 PM- 9:30PM- Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
     "callGroups": [
-      "Ensemble",
       "Principals/Featured",
       "Children/Youth",
-      "Dancers"
+      "Ensemble"
     ],
     "calledPeople": [
       {
@@ -40,22 +39,16 @@
         "displayName": "Caleb Davilmar"
       },
       {
-        "displayName": "Nelcia Fosttin"
+        "displayName": "Kevin Hohn"
       },
       {
-        "displayName": "Annalise Mongeois"
-      },
-      {
-        "displayName": "Ariella Davidson"
+        "displayName": "Charla-Yvonne Cornelius"
       },
       {
         "displayName": "Gelvina Maxime"
       },
       {
         "displayName": "James Myers"
-      },
-      {
-        "displayName": "Marissa Downie"
       },
       {
         "displayName": "Tasha Simeon"
@@ -82,31 +75,40 @@
         "displayName": "Chris Mcanuff"
       },
       {
-        "displayName": "Lauryn Butler"
+        "displayName": "Marissa Downie"
       },
       {
-        "displayName": "Fredrick Custard"
+        "displayName": "Dana Quamina"
       },
       {
-        "displayName": "Amadeus Hills"
-      },
-      {
-        "displayName": "Gabriela Sardinas"
-      },
-      {
-        "displayName": "Shanice Palmer"
+        "displayName": "Anaia Downer"
       },
       {
         "displayName": "Victorya Champagne"
       },
       {
-        "displayName": "Anaia Downer"
+        "displayName": "Shanice Palmer"
+      },
+      {
+        "displayName": "Jayden Harris"
+      },
+      {
+        "displayName": "Gabriela Sardinas"
+      },
+      {
+        "displayName": "Amadeus Hills"
       },
       {
         "displayName": "Alexandria Platt"
       },
       {
         "displayName": "Allania Mitchell"
+      },
+      {
+        "displayName": "Annalise Mongeois"
+      },
+      {
+        "displayName": "Ariella Davidson"
       },
       {
         "displayName": "Caris Hunte"
@@ -121,6 +123,9 @@
         "displayName": "Kourtney—Ann Palmer"
       },
       {
+        "displayName": "Nelcia Fosttin"
+      },
+      {
         "displayName": "Gabriella Fearon"
       },
       {
@@ -130,12 +135,10 @@
     "calledPeopleIds": [
       "P-jordyn-starks",
       "P-caleb-davilmar",
-      "P-nelcia-fosttin",
-      "P-annalise-mongeois",
-      "P-ariella-davidson",
+      "P-kevin-hohn",
+      "P-charla-yvonne-cornelius",
       "P-gelvina-maxime",
       "P-james-myers",
-      "P-marissa-downie",
       "P-tasha-simeon",
       "P-tyfany-adaka",
       "P-jeovanie-andre",
@@ -144,30 +147,36 @@
       "P-dorrien-jones",
       "P-michael-stover",
       "P-chris-mcanuff",
-      "P-lauryn-butler",
-      "P-fredrick-custard",
-      "P-amadeus-hills",
-      "P-gabriela-sardinas",
-      "P-shanice-palmer",
-      "P-victorya-champagne",
+      "P-marissa-downie",
+      "P-dana-quamina",
       "P-anaia-downer",
+      "P-victorya-champagne",
+      "P-shanice-palmer",
+      "P-jayden-harris",
+      "P-gabriela-sardinas",
+      "P-amadeus-hills",
       "P-alexandria-platt",
       "P-allania-mitchell",
+      "P-annalise-mongeois",
+      "P-ariella-davidson",
       "P-caris-hunte",
       "P-delvin-rogers-jr",
       "P-kennedy-mccalla",
       "P-kourtney-ann-palmer",
+      "P-nelcia-fosttin",
       "P-gabriella-fearon",
       "P-deandra-gray"
     ],
     "calledGroups": [
+      "Principals/Featured",
+      "Children/Youth",
       "Ensemble"
     ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "9 blocking/choreography; recover physical Scene 10 journey work",
+    "work": "No Room table/rhythm; birth staging discussion",
     "focus": "",
-    "prep": "Specific scene-by-scene call list will be posted before rehearsal.",
+    "prep": "",
     "notice": "",
     "changeType": ""
   },
@@ -176,167 +185,6 @@
     "start": "2026-09-26T04:00:00.000Z",
     "end": "2026-10-03T03:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20260926-REH",
-        "eventKey": "CHOSEN-20260926-REH",
-        "start": "2026-09-26T14:00:00.000Z",
-        "end": "2026-09-26T18:00:00.000Z",
-        "date": "September 26, 2026",
-        "dateIso": "2026-09-26",
-        "day": "Saturday",
-        "dateLabel": "September 26, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 9 & 10",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dancers (Child/Youth) Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP)\n \n10:00 AM–2:00 PM -Actors in Scenes 9 & 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents, Villager Man 1 & 2, Roman Announcer)",
-        "callGroups": [
-          "Ensemble",
-          "Principals/Featured",
-          "Children/Youth",
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Lauryn Butler"
-          },
-          {
-            "displayName": "Fredrick Custard"
-          },
-          {
-            "displayName": "Amadeus Hills"
-          },
-          {
-            "displayName": "Gabriela Sardinas"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Victorya Champagne"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
-            "displayName": "Caris Hunte"
-          },
-          {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
-            "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "DeAndra Gray"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-nelcia-fosttin",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-marissa-downie",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff",
-          "P-lauryn-butler",
-          "P-fredrick-custard",
-          "P-amadeus-hills",
-          "P-gabriela-sardinas",
-          "P-shanice-palmer",
-          "P-victorya-champagne",
-          "P-anaia-downer",
-          "P-alexandria-platt",
-          "P-allania-mitchell",
-          "P-caris-hunte",
-          "P-delvin-rogers-jr",
-          "P-kennedy-mccalla",
-          "P-kourtney-ann-palmer",
-          "P-gabriella-fearon",
-          "P-deandra-gray"
-        ],
-        "calledGroups": [
-          "Ensemble"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "9 blocking/choreography; recover physical Scene 10 journey work",
-        "focus": "",
-        "prep": "Specific scene-by-scene call list will be posted before rehearsal.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260930-REH",
         "eventKey": "CHOSEN-20260930-REH",
@@ -348,7 +196,7 @@
         "dateLabel": "September 30, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - \nScene 9 (Dancers Only)\nScene 10 & Scene 11",
+        "title": "CHOSEN Rehearsal - \nScene 9\nScene 10 & Scene 11",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
@@ -616,173 +464,12 @@
         "changeType": ""
       }
     ],
-    "count": 3
+    "count": 2
   },
   "schedule": {
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20260926-REH",
-        "eventKey": "CHOSEN-20260926-REH",
-        "start": "2026-09-26T14:00:00.000Z",
-        "end": "2026-09-26T18:00:00.000Z",
-        "date": "September 26, 2026",
-        "dateIso": "2026-09-26",
-        "day": "Saturday",
-        "dateLabel": "September 26, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 9 & 10",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dancers (Child/Youth) Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP)\n \n10:00 AM–2:00 PM -Actors in Scenes 9 & 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents, Villager Man 1 & 2, Roman Announcer)",
-        "callGroups": [
-          "Ensemble",
-          "Principals/Featured",
-          "Children/Youth",
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Lauryn Butler"
-          },
-          {
-            "displayName": "Fredrick Custard"
-          },
-          {
-            "displayName": "Amadeus Hills"
-          },
-          {
-            "displayName": "Gabriela Sardinas"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Victorya Champagne"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
-            "displayName": "Caris Hunte"
-          },
-          {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
-            "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "DeAndra Gray"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-nelcia-fosttin",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-marissa-downie",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff",
-          "P-lauryn-butler",
-          "P-fredrick-custard",
-          "P-amadeus-hills",
-          "P-gabriela-sardinas",
-          "P-shanice-palmer",
-          "P-victorya-champagne",
-          "P-anaia-downer",
-          "P-alexandria-platt",
-          "P-allania-mitchell",
-          "P-caris-hunte",
-          "P-delvin-rogers-jr",
-          "P-kennedy-mccalla",
-          "P-kourtney-ann-palmer",
-          "P-gabriella-fearon",
-          "P-deandra-gray"
-        ],
-        "calledGroups": [
-          "Ensemble"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "9 blocking/choreography; recover physical Scene 10 journey work",
-        "focus": "",
-        "prep": "Specific scene-by-scene call list will be posted before rehearsal.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20260930-REH",
         "eventKey": "CHOSEN-20260930-REH",
@@ -794,7 +481,7 @@
         "dateLabel": "September 30, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - \nScene 9 (Dancers Only)\nScene 10 & Scene 11",
+        "title": "CHOSEN Rehearsal - \nScene 9\nScene 10 & Scene 11",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
@@ -2194,6 +1881,167 @@
     ],
     "pastRehearsals": [
       {
+        "id": "CHOSEN-20260926-REH",
+        "eventKey": "CHOSEN-20260926-REH",
+        "start": "2026-09-26T14:00:00.000Z",
+        "end": "2026-09-26T18:00:00.000Z",
+        "date": "September 26, 2026",
+        "dateIso": "2026-09-26",
+        "day": "Saturday",
+        "dateLabel": "September 26, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 9 & 10",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–2:00 PM — Dancers (Child/Youth) Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP)\n \n10:00 AM–2:00 PM -Actors in Scenes 9 & 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents, Villager Man 1 & 2, Roman Announcer)",
+        "callGroups": [
+          "Ensemble",
+          "Principals/Featured",
+          "Children/Youth",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Lauryn Butler"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Amadeus Hills"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Alexandria Platt"
+          },
+          {
+            "displayName": "Allania Mitchell"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Kennedy McCalla"
+          },
+          {
+            "displayName": "Kourtney—Ann Palmer"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "DeAndra Gray"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-nelcia-fosttin",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-marissa-downie",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-lauryn-butler",
+          "P-fredrick-custard",
+          "P-amadeus-hills",
+          "P-gabriela-sardinas",
+          "P-shanice-palmer",
+          "P-victorya-champagne",
+          "P-anaia-downer",
+          "P-alexandria-platt",
+          "P-allania-mitchell",
+          "P-caris-hunte",
+          "P-delvin-rogers-jr",
+          "P-kennedy-mccalla",
+          "P-kourtney-ann-palmer",
+          "P-gabriella-fearon",
+          "P-deandra-gray"
+        ],
+        "calledGroups": [
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "9 blocking/choreography; recover physical Scene 10 journey work",
+        "focus": "",
+        "prep": "Specific scene-by-scene call list will be posted before rehearsal.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260924-REH",
         "eventKey": "CHOSEN-20260924-REH",
         "start": "2026-09-24T22:30:00.000Z",
@@ -3186,167 +3034,6 @@
     ],
     "allRehearsals": [
       {
-        "id": "CHOSEN-20260926-REH",
-        "eventKey": "CHOSEN-20260926-REH",
-        "start": "2026-09-26T14:00:00.000Z",
-        "end": "2026-09-26T18:00:00.000Z",
-        "date": "September 26, 2026",
-        "dateIso": "2026-09-26",
-        "day": "Saturday",
-        "dateLabel": "September 26, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 9 & 10",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — Dancers (Child/Youth) Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP)\n \n10:00 AM–2:00 PM -Actors in Scenes 9 & 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents, Villager Man 1 & 2, Roman Announcer)",
-        "callGroups": [
-          "Ensemble",
-          "Principals/Featured",
-          "Children/Youth",
-          "Dancers"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Lauryn Butler"
-          },
-          {
-            "displayName": "Fredrick Custard"
-          },
-          {
-            "displayName": "Amadeus Hills"
-          },
-          {
-            "displayName": "Gabriela Sardinas"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Victorya Champagne"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
-            "displayName": "Caris Hunte"
-          },
-          {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
-            "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "DeAndra Gray"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-nelcia-fosttin",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-marissa-downie",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff",
-          "P-lauryn-butler",
-          "P-fredrick-custard",
-          "P-amadeus-hills",
-          "P-gabriela-sardinas",
-          "P-shanice-palmer",
-          "P-victorya-champagne",
-          "P-anaia-downer",
-          "P-alexandria-platt",
-          "P-allania-mitchell",
-          "P-caris-hunte",
-          "P-delvin-rogers-jr",
-          "P-kennedy-mccalla",
-          "P-kourtney-ann-palmer",
-          "P-gabriella-fearon",
-          "P-deandra-gray"
-        ],
-        "calledGroups": [
-          "Ensemble"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "9 blocking/choreography; recover physical Scene 10 journey work",
-        "focus": "",
-        "prep": "Specific scene-by-scene call list will be posted before rehearsal.",
-        "notice": "",
-        "changeType": ""
-      },
-      {
         "id": "CHOSEN-20260930-REH",
         "eventKey": "CHOSEN-20260930-REH",
         "start": "2026-09-30T22:30:00.000Z",
@@ -3357,7 +3044,7 @@
         "dateLabel": "September 30, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - \nScene 9 (Dancers Only)\nScene 10 & Scene 11",
+        "title": "CHOSEN Rehearsal - \nScene 9\nScene 10 & Scene 11",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
@@ -4755,6 +4442,167 @@
         "changeType": ""
       },
       {
+        "id": "CHOSEN-20260926-REH",
+        "eventKey": "CHOSEN-20260926-REH",
+        "start": "2026-09-26T14:00:00.000Z",
+        "end": "2026-09-26T18:00:00.000Z",
+        "date": "September 26, 2026",
+        "dateIso": "2026-09-26",
+        "day": "Saturday",
+        "dateLabel": "September 26, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 9 & 10",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–2:00 PM — Dancers (Child/Youth) Alexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP)\n \n10:00 AM–2:00 PM -Actors in Scenes 9 & 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents, Villager Man 1 & 2, Roman Announcer)",
+        "callGroups": [
+          "Ensemble",
+          "Principals/Featured",
+          "Children/Youth",
+          "Dancers"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Lauryn Butler"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Amadeus Hills"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Alexandria Platt"
+          },
+          {
+            "displayName": "Allania Mitchell"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Kennedy McCalla"
+          },
+          {
+            "displayName": "Kourtney—Ann Palmer"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "DeAndra Gray"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-nelcia-fosttin",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-marissa-downie",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff",
+          "P-lauryn-butler",
+          "P-fredrick-custard",
+          "P-amadeus-hills",
+          "P-gabriela-sardinas",
+          "P-shanice-palmer",
+          "P-victorya-champagne",
+          "P-anaia-downer",
+          "P-alexandria-platt",
+          "P-allania-mitchell",
+          "P-caris-hunte",
+          "P-delvin-rogers-jr",
+          "P-kennedy-mccalla",
+          "P-kourtney-ann-palmer",
+          "P-gabriella-fearon",
+          "P-deandra-gray"
+        ],
+        "calledGroups": [
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "9 blocking/choreography; recover physical Scene 10 journey work",
+        "focus": "",
+        "prep": "Specific scene-by-scene call list will be posted before rehearsal.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260924-REH",
         "eventKey": "CHOSEN-20260924-REH",
         "start": "2026-09-24T22:30:00.000Z",
@@ -5749,7 +5597,7 @@
       {
         "id": "children-youth",
         "name": "Children/Youth",
-        "count": 7
+        "count": 6
       },
       {
         "id": "crew-tech",
@@ -5759,12 +5607,12 @@
       {
         "id": "dancers",
         "name": "Dancers",
-        "count": 35
+        "count": 34
       },
       {
         "id": "ensemble",
         "name": "Ensemble",
-        "count": 20
+        "count": 18
       },
       {
         "id": "full-company",
@@ -5774,11 +5622,11 @@
       {
         "id": "principals-featured",
         "name": "Principals/Featured",
-        "count": 15
+        "count": 14
       }
     ],
-    "count": 36,
-    "pastCount": 13
+    "count": 35,
+    "pastCount": 14
   },
   "scripts": {
     "items": [
@@ -5794,7 +5642,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "02",
@@ -5808,7 +5656,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "03",
@@ -5822,7 +5670,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "04",
@@ -5836,7 +5684,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "05",
@@ -5850,7 +5698,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "06",
@@ -5864,7 +5712,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "07",
@@ -5878,7 +5726,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "08",
@@ -5892,7 +5740,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "09",
@@ -5906,7 +5754,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "10",
@@ -5920,7 +5768,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "11",
@@ -5934,7 +5782,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "12",
@@ -5948,7 +5796,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       }
     ],
     "current": [
@@ -5964,7 +5812,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "02",
@@ -5978,7 +5826,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "03",
@@ -5992,7 +5840,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "04",
@@ -6006,7 +5854,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "05",
@@ -6020,7 +5868,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "06",
@@ -6034,7 +5882,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "07",
@@ -6048,7 +5896,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "08",
@@ -6062,7 +5910,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "09",
@@ -6076,7 +5924,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "10",
@@ -6090,7 +5938,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "11",
@@ -6104,7 +5952,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       },
       {
         "scene": "12",
@@ -6118,11 +5966,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-26T16:18:06.527Z"
+        "updated": "2026-09-26T19:15:32.330Z"
       }
     ],
     "count": 12,
-    "updated": "2026-09-26T16:18:15.949Z",
+    "updated": "2026-09-26T19:15:41.770Z",
     "kind": "scripts"
   },
   "music": {
@@ -6179,7 +6027,7 @@
       }
     ],
     "count": 2,
-    "updated": "2026-09-26T16:18:15.949Z",
+    "updated": "2026-09-26T19:15:41.770Z",
     "kind": "music"
   }
 }
