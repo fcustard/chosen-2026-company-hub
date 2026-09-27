@@ -1295,6 +1295,24 @@ document.addEventListener('DOMContentLoaded', async () => {
       const dp =
         parseDateParts(x);
 
+      const showDay = x.showDay;
+      const isCrew = person &&
+        Array.isArray(person.groups) &&
+        person.groups.some(group => norm(group) === norm('Crew/Tech'));
+      const reportTime = showDay && personalView && person
+        ? isCrew
+          ? `Your crew call: ${showDay.crewCall}`
+          : `Your company call: ${showDay.companyCall}`
+        : '';
+      const timeDetails = showDay
+        ? [
+            reportTime || `Crew call: ${showDay.crewCall}`,
+            ...(reportTime ? [] : [`Company call: ${showDay.companyCall}`]),
+            `Show begins: ${showDay.showtime}`,
+            `Tentative end: ${showDay.tentativeEnd}`
+          ].map(line => `<span class="callTimeLine">${esc(line)}</span>`).join('')
+        : `<span>${esc(x.time)}</span>`;
+
       return `
         <article class="scheduleCard">
           <div class="scheduleCardGrid">
@@ -1335,10 +1353,8 @@ document.addEventListener('DOMContentLoaded', async () => {
               <div class="scheduleFacts">
 
                 <div>
-                  <b>WHEN</b>
-                  <span>
-                    ${esc(x.time)}
-                  </span>
+                  <b>${showDay ? 'CALL & SHOW TIMES' : 'WHEN'}</b>
+                  ${timeDetails}
                 </div>
 
                 <div>
