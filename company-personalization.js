@@ -7,6 +7,10 @@ async function loadCompanyRoster(){
   return await r.json();
 }
 function cEsc(v=''){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function danceLabel(p){
+  const scenes=Array.isArray(p.danceScenes)?p.danceScenes:[];
+  return scenes.length ? `Dance Ensemble · ${scenes.length===1?'Scene':'Scenes'} ${scenes.join(', ')}` : 'Dance Ensemble';
+}
 
 document.addEventListener('DOMContentLoaded',async()=>{
   let roster;
@@ -32,7 +36,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
       `<div><small>MY SCENES</small><strong>${cEsc((p.scenes||[]).join(', '))}</strong></div>`
     ];
     if(p.understudy) cards.push(`<div><small>UNDERSTUDY</small><strong>${cEsc(p.understudy)}</strong></div>`);
-    if(p.danceEnsemble) cards.push(`<div><small>DANCE</small><strong>Dance Ensemble · Scenes 1, 9 & 12</strong></div>`);
+    if(p.danceEnsemble) cards.push(`<div><small>DANCE</small><strong>${cEsc(danceLabel(p))}</strong></div>`);
 
     result.innerHTML=`
       <div class="savedPersonTop"><span class="savedBadge">REMEMBERED ON THIS DEVICE</span><button id="forgetPerson" class="textBtn" type="button">Change person</button></div>
@@ -70,7 +74,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
     toggle.setAttribute('aria-expanded','false');
     toggle.textContent='View Dance Ensemble';
     const dancers=people.filter(p=>p.danceEnsemble);
-    rosterEl.innerHTML=dancers.map(p=>`<p><strong>${cEsc(p.name)}</strong> <span>— Scenes 1, 9, 12</span></p>`).join('');
+    rosterEl.innerHTML=dancers.map(p=>`<p><strong>${cEsc(p.name)}</strong> <span>— ${cEsc(danceLabel(p).replace(/^Dance Ensemble · /,''))}</span></p>`).join('');
     toggle.onclick=()=>{
       const open=rosterEl.hidden;
       rosterEl.hidden=!open;
