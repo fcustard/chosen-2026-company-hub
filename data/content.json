@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T22:01:00.259Z",
+  "updated": "2026-09-27T22:05:44.965Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -658,7 +658,7 @@
           "P-alexandria-platt": "10:00 AM",
           "P-allania-mitchell": "10:00 AM",
           "P-alyssa-johnson": "10:00 AM",
-          "P-amadeus-hills": "11:00 AM",
+          "P-amadeus-hills": "10:00 AM",
           "P-anaia-downer": "10:00 AM",
           "P-annalise-mongeois": "10:00 AM",
           "P-annetta-johnson": "11:00 AM",
@@ -1199,7 +1199,7 @@
           "P-alexandria-platt": "10:00 AM",
           "P-allania-mitchell": "10:00 AM",
           "P-alyssa-johnson": "10:00 AM",
-          "P-amadeus-hills": "11:00 AM",
+          "P-amadeus-hills": "10:00 AM",
           "P-anaia-downer": "10:00 AM",
           "P-annalise-mongeois": "10:00 AM",
           "P-annetta-johnson": "11:00 AM",
@@ -4028,7 +4028,7 @@
           "P-alexandria-platt": "10:00 AM",
           "P-allania-mitchell": "10:00 AM",
           "P-alyssa-johnson": "10:00 AM",
-          "P-amadeus-hills": "11:00 AM",
+          "P-amadeus-hills": "10:00 AM",
           "P-anaia-downer": "10:00 AM",
           "P-annalise-mongeois": "10:00 AM",
           "P-annetta-johnson": "11:00 AM",
@@ -6750,7 +6750,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-27T22:01:00.260Z",
+    "updated": "2026-09-27T22:05:44.965Z",
     "kind": "scripts"
   },
   "music": {
@@ -6807,7 +6807,7 @@
       }
     ],
     "count": 2,
-    "updated": "2026-09-27T22:01:00.260Z",
+    "updated": "2026-09-27T22:05:44.965Z",
     "kind": "music"
   }
 }
