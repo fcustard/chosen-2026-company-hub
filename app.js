@@ -233,6 +233,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         m.setAttribute('aria-expanded', 'false');
       })
     );
+
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && n.classList.contains('open')) {
+        n.classList.remove('open');
+        m.setAttribute('aria-expanded', 'false');
+        m.focus();
+      }
+    });
   }
 
   const d = await load();
