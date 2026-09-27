@@ -57,8 +57,9 @@ document.addEventListener('DOMContentLoaded',async()=>{
 
   select.addEventListener('change',renderPerson);
   const saved=localStorage.getItem(CHOSEN_PERSON_KEY);
-  if(saved && people.some(p=>p.id===saved)){
-    select.value=saved;
+  const remembered=people.find(p=>p.id===saved||(p.legacyIds||[]).includes(saved));
+  if(remembered){
+    select.value=remembered.id;
     renderPerson();
   }
 

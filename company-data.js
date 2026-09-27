@@ -37,7 +37,7 @@ window.CHOSEN_COMPANY_DATA = [
     "danceEnsemble": true
   },
   {
-    "name": "Annette Jordan",
+    "name": "Annetta Johnson",
     "roles": "VILLAGE AUNTIE (Elizabeth's Friend) / ENSEMBLE",
     "scenes": "1, 7, 10, 12",
     "danceEnsemble": false
