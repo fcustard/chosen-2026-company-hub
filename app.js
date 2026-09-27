@@ -387,7 +387,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       w.title || 'This Week';
 
     weekIntro.textContent =
-      'Your call time, assignment and prep—everything you need before rehearsal.';
+      'See each rehearsal’s call times, location, who is called, and what to prepare.';
 
     weekList.innerHTML = (w.rehearsals || [])
       .map(
@@ -473,14 +473,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       if (p) {
         p.textContent =
-          'Check the Hub before you leave. Call times, locations and assignments here are the current company information.';
+          'This page lists company rehearsals. Choose your name on Company to see only your personal calls.';
       }
 
       const a = help.querySelector('a');
 
       if (a) {
-        a.textContent = 'Open full schedule';
-        a.href = 'schedule.html';
+        a.textContent = 'Choose my name';
+        a.href = 'company.html#my-role';
         a.removeAttribute('target');
         a.removeAttribute('rel');
       }
