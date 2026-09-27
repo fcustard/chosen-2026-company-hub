@@ -1304,6 +1304,10 @@ document.addEventListener('DOMContentLoaded', async () => {
           ? `Your crew call: ${showDay.crewCall}`
           : `Your company call: ${showDay.companyCall}`
         : '';
+      const personalArrival = personalView && person
+        ? Object.entries(x.personalCallTimes || {})
+            .find(([id]) => samePersonId(id, person.id))?.[1]
+        : '';
       const timeDetails = showDay
         ? [
             reportTime || `Crew call: ${showDay.crewCall}`,
@@ -1311,6 +1315,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             `Show begins: ${showDay.showtime}`,
             `Tentative end: ${showDay.tentativeEnd}`
           ].map(line => `<span class="callTimeLine">${esc(line)}</span>`).join('')
+        : personalArrival
+          ? `<span class="callTimeLine">Report at ${esc(personalArrival)}</span>`
         : `<span>${esc(x.time)}</span>`;
 
       return `
@@ -1353,7 +1359,7 @@ document.addEventListener('DOMContentLoaded', async () => {
               <div class="scheduleFacts">
 
                 <div>
-                  <b>${showDay ? 'CALL & SHOW TIMES' : 'WHEN'}</b>
+                  <b>${showDay ? 'CALL & SHOW TIMES' : personalArrival ? 'YOUR CALL' : 'WHEN'}</b>
                   ${timeDetails}
                 </div>
 

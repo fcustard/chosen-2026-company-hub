@@ -60,6 +60,25 @@ for (const r of rehearsals) {
       `REHEARSAL ${r.id}: end must be after start`
     );
   }
+
+  if (r.personalCallTimes) {
+    const calledIds = r.calledPeopleIds || [];
+    const timedIds = Object.keys(r.personalCallTimes);
+    const expected = new Set(calledIds);
+
+    if (
+      r.exactCallStatus !== 'READY' ||
+      timedIds.length !== expected.size ||
+      timedIds.some(id => !expected.has(id)) ||
+      calledIds.some(id => !r.personalCallTimes[id])
+    ) {
+      errors.push(`REHEARSAL ${r.id}: personal call times must cover the exact called roster`);
+    }
+
+    if (timedIds.some(id => !/^\d{1,2}:\d{2} (?:AM|PM)$/.test(r.personalCallTimes[id]))) {
+      errors.push(`REHEARSAL ${r.id}: invalid personal call time`);
+    }
+  }
 }
 
 // STOP AUTOMATION IF SOMETHING IS WRONG
