@@ -2,7 +2,7 @@
   "ok": true,
   "schemaVersion": 1,
   "source": "CHOSEN 2026 Admin Master Sheets",
-  "generatedAt": "2026-09-27T21:37:55.922Z",
+  "generatedAt": "2026-09-27T22:00:56.444Z",
   "people": [
     {
       "id": "P-abi",
@@ -211,9 +211,11 @@
       "companyType": "Performer",
       "primaryAssignment": "ROMAN ANNOUNCER/ DANCER/ ENSEMBLE",
       "departments": [
-        "Cast"
+        "Cast",
+        "Dance"
       ],
       "groups": [
+        "Dancers",
         "Ensemble",
         "Principals/Featured"
       ],
@@ -224,7 +226,7 @@
         12
       ],
       "understudy": null,
-      "danceEnsemble": false,
+      "danceEnsemble": true,
       "reviewStatus": "READY",
       "assignments": [
         {
@@ -236,6 +238,16 @@
           "callGroups": [
             "Ensemble",
             "Principals/Featured"
+          ]
+        },
+        {
+          "personId": "P-amadeus-hills",
+          "type": "Dance Ensemble",
+          "department": "Dance",
+          "assignment": "Dance Ensemble",
+          "scope": "Scene 1",
+          "callGroups": [
+            "Dancers"
           ]
         }
       ]
