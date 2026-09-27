@@ -716,7 +716,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
           person =
             (roster.people || []).find(
-              p => samePersonId(p.id, personId)
+              p => samePersonId(p.id, personId) ||
+                (p.legacyIds || []).some(
+                  legacyId => samePersonId(legacyId, personId)
+                )
             ) || null;
 
           if (person?.id && person.id !== personId) {

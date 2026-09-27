@@ -50,6 +50,14 @@ if (!Array.isArray(existing.people)) {
 const normalizedName = value => String(value || '').trim().toLowerCase();
 const sourceById = new Map(source.people.map(person => [normalizeId(person.id), person]));
 const sourceByName = new Map(source.people.map(person => [normalizedName(person.name), person]));
+// A former public listing for the same performer. Keep the old device ID as
+// an alias, while publishing only the canonical Admin Master Sheets profile.
+const legacyProfileIds = new Map([
+  ['annette-jordan', 'annetta-johnson'],
+]);
+const aliasesFor = id => [...legacyProfileIds]
+  .filter(([, canonical]) => canonical === id)
+  .map(([legacy]) => legacy);
 const calledIds = new Set();
 const calledNames = new Set();
 for (const rehearsal of rehearsals) {
@@ -63,14 +71,18 @@ const people = [];
 const includedIds = new Set();
 
 for (const current of existing.people) {
-  const person = sourceById.get(normalizeId(current.id)) || sourceByName.get(normalizedName(current.name));
+  const currentId = normalizeId(current.id);
+  const successorId = legacyProfileIds.get(currentId);
+  if (successorId && sourceById.get(successorId)?.companyType === 'Performer') continue;
+  const person = sourceById.get(currentId) || sourceByName.get(normalizedName(current.name));
 
   // Preserve unmatched legacy profiles. Remove a profile only when the
   // canonical record explicitly says the person is no longer a performer.
   if (person && String(person.companyType || '').trim().toLowerCase() !== 'performer') continue;
 
-  people.push(current);
-  includedIds.add(normalizeId(current.id));
+  const legacyIds = aliasesFor(currentId);
+  people.push(legacyIds.length ? { ...current, legacyIds } : current);
+  includedIds.add(currentId);
 }
 
 for (const person of source.people) {
@@ -82,6 +94,7 @@ for (const person of source.people) {
   people.push({
     id,
     name: String(person.name || '').trim(),
+    ...(aliasesFor(id).length ? { legacyIds: aliasesFor(id) } : {}),
     roles: String(person.roles || person.primaryAssignment || '').trim(),
     scenes: normalizeScenes(person.scenes),
     understudy: person.understudy ? String(person.understudy).trim() : null,
