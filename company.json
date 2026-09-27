@@ -18,6 +18,11 @@
         "Dancers",
         "Ensemble",
         "Children/Youth"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -35,6 +40,11 @@
       "groups": [
         "Dancers",
         "Ensemble"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -53,6 +63,11 @@
       "groups": [
         "Dancers",
         "Ensemble"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -70,6 +85,9 @@
         "Dancers",
         "Ensemble",
         "Principals/Featured"
+      ],
+      "danceScenes": [
+        1
       ]
     },
     {
@@ -89,6 +107,11 @@
         "Dancers",
         "Ensemble",
         "Principals/Featured"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -107,6 +130,11 @@
         "Dancers",
         "Ensemble",
         "Children/Youth"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -146,6 +174,11 @@
         "Dancers",
         "Ensemble",
         "Children/Youth"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -164,6 +197,11 @@
       "groups": [
         "Dancers",
         "Ensemble"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -200,6 +238,11 @@
       "groups": [
         "Dancers",
         "Ensemble"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -257,6 +300,11 @@
       "groups": [
         "Dancers",
         "Ensemble"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -275,6 +323,11 @@
       "groups": [
         "Dancers",
         "Ensemble"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -358,6 +411,11 @@
       "groups": [
         "Dancers",
         "Ensemble"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -376,6 +434,11 @@
         "Ensemble",
         "Children/Youth",
         "Principals/Featured"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -463,6 +526,11 @@
       "groups": [
         "Dancers",
         "Ensemble"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -481,6 +549,11 @@
         "Dancers",
         "Children/Youth",
         "Principals/Featured"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -499,6 +572,11 @@
         "Dancers",
         "Children/Youth",
         "Principals/Featured"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -573,6 +651,11 @@
       "groups": [
         "Dancers",
         "Ensemble"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -606,6 +689,11 @@
       "groups": [
         "Dancers",
         "Ensemble"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -658,6 +746,11 @@
       "danceEnsemble": true,
       "groups": [
         "Dancers"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -694,6 +787,11 @@
         "Dancers",
         "Ensemble",
         "Principals/Featured"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -711,6 +809,11 @@
       "groups": [
         "Dancers",
         "Ensemble"
+      ],
+      "danceScenes": [
+        1,
+        9,
+        12
       ]
     },
     {
@@ -728,6 +831,9 @@
         "Dancers",
         "Ensemble",
         "Principals/Featured"
+      ],
+      "danceScenes": [
+        1
       ]
     },
     {

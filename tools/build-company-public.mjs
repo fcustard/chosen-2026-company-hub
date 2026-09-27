@@ -48,6 +48,10 @@ if (!Array.isArray(existing.people)) {
 }
 
 const normalizedName = value => String(value || '').trim().toLowerCase();
+const danceScenesFor = person => [...new Set((person?.assignments || [])
+  .filter(assignment => assignment.type === 'Dance Ensemble')
+  .flatMap(assignment => String(assignment.scope || '').match(/\b\d{1,2}\b/g) || [])
+  .map(Number))].sort((a, b) => a - b);
 const sourceById = new Map(source.people.map(person => [normalizeId(person.id), person]));
 const sourceByName = new Map(source.people.map(person => [normalizedName(person.name), person]));
 // A former public listing for the same performer. Keep the old device ID as
@@ -81,7 +85,14 @@ for (const current of existing.people) {
   if (person && String(person.companyType || '').trim().toLowerCase() !== 'performer') continue;
 
   const legacyIds = aliasesFor(currentId);
-  people.push(legacyIds.length ? { ...current, legacyIds } : current);
+  const { danceScenes: _oldDanceScenes, ...stableProfile } = current;
+  const dancer = person ? person.danceEnsemble === true : current.danceEnsemble;
+  people.push({
+    ...stableProfile,
+    danceEnsemble: dancer,
+    ...(person && dancer ? { danceScenes: danceScenesFor(person) } : {}),
+    ...(legacyIds.length ? { legacyIds } : {}),
+  });
   includedIds.add(currentId);
 }
 
@@ -99,6 +110,7 @@ for (const person of source.people) {
     scenes: normalizeScenes(person.scenes),
     understudy: person.understudy ? String(person.understudy).trim() : null,
     danceEnsemble: person.danceEnsemble === true,
+    ...(person.danceEnsemble === true ? { danceScenes: danceScenesFor(person) } : {}),
     groups: Array.isArray(person.groups) ? person.groups.map(String).map(v => v.trim()).filter(Boolean) : [],
   });
 }
