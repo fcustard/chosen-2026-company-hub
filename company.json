@@ -65,8 +65,9 @@
         12
       ],
       "understudy": null,
-      "danceEnsemble": false,
+      "danceEnsemble": true,
       "groups": [
+        "Dancers",
         "Ensemble",
         "Principals/Featured"
       ]
