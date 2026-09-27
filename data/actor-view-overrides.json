@@ -1,0 +1,8 @@
+[
+  { "scene": "03", "type": "dialogue", "text": "Still walks away from Gabriel slowly", "publicType": "stage", "count": 1 },
+  { "scene": "03", "type": "dialogue", "text": "Continues walking towards Mary", "publicType": "stage", "count": 2 },
+  { "scene": "03", "type": "dialogue", "text": "Still walks backwards away from Gabriel", "publicType": "stage", "count": 2 },
+  { "scene": "05", "type": "dialogue", "text": "The phrase should land clearly enough to return emotionally later.", "publicType": "exclude", "count": 1 },
+  { "scene": "06", "type": "dialogue", "text": "That is the bridge.", "publicType": "exclude", "count": 1 },
+  { "scene": "06", "type": "dialogue", "text": "Do not add another long argument inside the song.", "publicType": "exclude", "count": 1 }
+]

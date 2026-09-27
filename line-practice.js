@@ -40,6 +40,7 @@
 
   let allLines = [];
   let allScenes = [];
+  let actorViewOverrides = [];
   let memoryProgress = {};
 
   function text(value) {
@@ -222,7 +223,7 @@
     });
   }
 
-  function extractLinesFromScene(scene, fallbackSceneNo) {
+  function extractLinesFromScene(scene, fallbackSceneNo, overrides = actorViewOverrides) {
     const sceneNo = sceneNumberFrom(scene, fallbackSceneNo);
     const sceneMeta = {
       number: sceneNo,
@@ -253,6 +254,8 @@
         currentSpeaker = cleanSpeaker(blockText);
         continue;
       }
+      if (overrides.some(rule => rule.scene === sceneNo &&
+        normalize(rule.type) === kind && rule.text === blockText)) continue;
       const spokenStageLine = sceneNo === '11' &&
         normalize(currentSpeaker) === 'INNKEEPER ELI' &&
         kind === 'STAGE' && REVIEWED_SPOKEN_STAGE_LINES.has(blockText);
@@ -539,7 +542,9 @@
     try {
       bindEvents();
 
-      allScenes = await loadScenes();
+      [allScenes, actorViewOverrides] = await Promise.all([
+        loadScenes(), fetchJson('data/actor-view-overrides.json'),
+      ]);
       allLines = includeSharedLines(allScenes.flatMap(item =>
         extractLinesFromScene(item.scene, item.sceneNumber)
       ));
