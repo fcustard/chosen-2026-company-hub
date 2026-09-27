@@ -15,6 +15,15 @@
     String(index + 1).padStart(2, '0')
   );
 
+  // These four spoken lines in the master script carry its stage style.
+  // Keep the source styling intact, but include the exact lines in practice.
+  const REVIEWED_SPOKEN_STAGE_LINES = new Set([
+    'Yes?',
+    'I have people everywhere.',
+    'I don’t even have floor left.',
+    'I’m sorry.',
+  ]);
+
   const STORAGE_KEY = 'chosen2026-line-progress-v2';
   const LEGACY_STORAGE_KEY = 'chosen2026-line-progress-v1';
 
@@ -229,7 +238,10 @@
         currentSpeaker = cleanSpeaker(blockText);
         continue;
       }
-      if (kind !== 'DIALOGUE' || !blockText) continue;
+      const spokenStageLine = sceneNo === '11' &&
+        normalize(currentSpeaker) === 'INNKEEPER ELI' &&
+        kind === 'STAGE' && REVIEWED_SPOKEN_STAGE_LINES.has(blockText);
+      if ((kind !== 'DIALOGUE' && !spokenStageLine) || !blockText) continue;
       if (!currentSpeaker) throw new Error(`Scene ${sceneNo} has dialogue without a character cue.`);
 
       const identity = `${normalize(currentSpeaker)}|${hashText(blockText)}`;
