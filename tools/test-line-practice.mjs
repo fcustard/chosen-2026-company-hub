@@ -25,6 +25,15 @@ vm.runInNewContext(source.replace(entry, `
 const plain = value => JSON.parse(JSON.stringify(value));
 const base = [];
 let expectedTotal = 0;
+const eliStageLines = new Set([
+  'Yes?', 'I have people everywhere.', 'I don’t even have floor left.', 'I’m sorry.',
+]);
+const directionCues = new Set([
+  '06|JOSEPH|Rhythmically',
+  '06|JOSEPH|Spoken/sung',
+  '06|JOSEPH|Quietly',
+]);
+const reviewedStageCues = new Set();
 
 for (let number = 1; number <= 12; number += 1) {
   const sceneNo = String(number).padStart(2, '0');
@@ -36,9 +45,22 @@ for (let number = 1; number <= 12; number += 1) {
   let priorText = '';
   const expected = [];
 
-  for (const block of scene.blocks) {
+  for (let index = 0; index < scene.blocks.length; index += 1) {
+    const block = scene.blocks[index];
     if (block.type === 'character') speaker = block.text.trim();
-    if (block.type !== 'dialogue') continue;
+    if (block.type === 'character') {
+      const next = scene.blocks.slice(index + 1).find(item => item.type !== 'spacer');
+      if (next?.type === 'stage') {
+        const key = `${sceneNo}|${speaker}|${next.text}`;
+        assert.ok(directionCues.has(key) ||
+          (sceneNo === '11' && speaker === 'INNKEEPER ELI' && eliStageLines.has(next.text)),
+          `Review stage-styled text after a character cue: ${key}`);
+        reviewedStageCues.add(key);
+      }
+    }
+    const eliLine = sceneNo === '11' && speaker === 'INNKEEPER ELI' &&
+      block.type === 'stage' && eliStageLines.has(block.text);
+    if (block.type !== 'dialogue' && !eliLine) continue;
     assert.ok(speaker, `Scene ${sceneNo} has dialogue without a speaker`);
     expected.push({ speaker, text: block.text.replace(/\s+/g, ' ').trim(), cue: priorText });
     priorText = block.text.replace(/\s+/g, ' ').trim();
@@ -61,6 +83,12 @@ for (let number = 1; number <= 12; number += 1) {
 
   base.push(...actual);
 }
+
+assert.equal(reviewedStageCues.size, directionCues.size + eliStageLines.size,
+  'All reviewed stage-styled cues must still match the current script');
+const eliLines = base.filter(line => line.sceneNumber === '11' && line.speaker === 'INNKEEPER ELI');
+assert.deepEqual(eliLines.map(line => line.text), Array.from(eliStageLines),
+  'Innkeeper Eli must see all four Scene 11 lines in script order');
 
 const all = plain(scope.practice.includeSharedLines(base));
 const roles = plain(scope.practice.uniqueRoles(all));
