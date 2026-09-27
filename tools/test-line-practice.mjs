@@ -19,7 +19,7 @@ scope.localStorage = {
 };
 vm.runInNewContext(source.replace(entry, `
   globalThis.practice = { extractLinesFromScene, includeSharedLines, uniqueRoles,
-    migrateProgress, getProgress };
+    migrateProgress, migrateSharedProgress, getProgress };
 `), scope);
 
 const plain = value => JSON.parse(JSON.stringify(value));
@@ -94,7 +94,11 @@ const all = plain(scope.practice.includeSharedLines(base));
 const roles = plain(scope.practice.uniqueRoles(all));
 const sourceRoles = new Set(base.map(line => line.speakerKey));
 assert.equal(base.length, expectedTotal);
-assert.equal(roles.length, sourceRoles.size, 'Every role must come from a typed character cue');
+assert.equal(roles.length, sourceRoles.size - 3,
+  'Shared speaker labels must not look like incomplete standalone roles');
+for (const label of ['MARY & JOSEPH', 'NIA & SIMON', 'GOSSIPER 1 & 2']) {
+  assert.ok(!roles.includes(label), `${label} must be practiced under each individual role`);
+}
 assert.deepEqual(new Set(all.map(line => line.speakerKey)), sourceRoles);
 
 for (const line of base.filter(item => item.speaker.includes('&'))) {
@@ -105,7 +109,8 @@ for (const line of base.filter(item => item.speaker.includes('&'))) {
   for (const member of [parts[0], second]) {
     const key = member.toUpperCase();
     if (sourceRoles.has(key)) {
-      assert.ok(all.some(item => item.key === line.key && item.speakerKey === key),
+      assert.ok(all.some(item => item.sharedSourceKey === line.key &&
+        item.speakerKey === key && item.key !== line.key),
         `${member} must see the shared line in their practice set`);
     }
   }
@@ -124,5 +129,23 @@ storage.set('chosen2026-line-progress-v1', JSON.stringify({
 scope.practice.migrateProgress(base);
 assert.equal(scope.practice.getProgress()[remembered.key], 'known',
   'Existing actor progress must migrate when old card positions change');
+
+const sharedLine = base.find(line => line.speaker === 'MARY & JOSEPH');
+const maryShared = all.find(line => line.sharedSourceKey === sharedLine.key && line.speakerKey === 'MARY');
+const josephShared = all.find(line => line.sharedSourceKey === sharedLine.key && line.speakerKey === 'JOSEPH');
+assert.ok(maryShared && josephShared);
+assert.notEqual(maryShared.key, josephShared.key,
+  'Each actor must track their shared dialogue independently');
+storage.set('chosen2026-line-progress-v2', JSON.stringify({ [sharedLine.key]: 'work' }));
+scope.practice.migrateSharedProgress(all);
+assert.equal(scope.practice.getProgress()[maryShared.key], 'work');
+assert.equal(scope.practice.getProgress()[josephShared.key], 'work');
+storage.set('chosen2026-line-progress-v2', JSON.stringify({
+  ...scope.practice.getProgress(), [maryShared.key]: 'known',
+}));
+scope.practice.migrateSharedProgress(all);
+assert.equal(scope.practice.getProgress()[maryShared.key], 'known',
+  'An actor’s new progress must not be overwritten by an old shared mark');
+assert.equal(scope.practice.getProgress()[josephShared.key], 'work');
 
 console.log(`Line practice verified: ${base.length} spoken lines across 12 scenes, ${roles.length} roles.`);
