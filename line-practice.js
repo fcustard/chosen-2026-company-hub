@@ -99,12 +99,12 @@
       const migrated = {};
       const frequencies = new Map();
 
-      for (const line of lines) {
+      for (const line of lines.filter(item => !item.sharedSourceKey)) {
         const identity = `${line.sceneNumber}|${line.sourceSpeakerKey}|${hashText(line.text)}`;
         frequencies.set(identity, (frequencies.get(identity) || 0) + 1);
       }
 
-      for (const line of lines) {
+      for (const line of lines.filter(item => !item.sharedSourceKey)) {
         const identity = `${line.sceneNumber}|${line.sourceSpeakerKey}|${hashText(line.text)}`;
         if (frequencies.get(identity) !== 1) continue;
         const prefix = `${line.sceneNumber}|${line.sourceSpeakerKey}|`;
@@ -119,6 +119,21 @@
     } catch (error) {
       // Practice still works when storage is unavailable.
     }
+  }
+
+  function migrateSharedProgress(lines) {
+    const progress = getProgress();
+    let changed = false;
+
+    for (const line of lines) {
+      if (!line.sharedSourceKey || progress[line.key]) continue;
+      const oldStatus = progress[line.sharedSourceKey];
+      if (oldStatus !== 'known' && oldStatus !== 'work') continue;
+      progress[line.key] = oldStatus;
+      changed = true;
+    }
+
+    if (changed) setProgress(progress);
   }
 
   async function fetchJson(path) {
@@ -266,21 +281,25 @@
     }));
   }
 
+  function sharedMembers(speaker) {
+    if (!speaker.includes('&')) return [];
+    const parts = speaker.split(/\s*&\s*/).map(text);
+    if (parts.length !== 2) return [];
+    const second = /^\d+$/.test(parts[1])
+      ? `${parts[0].replace(/\s+\d+$/, '')} ${parts[1]}` : parts[1];
+    return [parts[0], second].map(normalize);
+  }
+
   function includeSharedLines(lines) {
     const roles = new Set(lines.map(line => line.speakerKey));
     const shared = [];
 
     for (const line of lines) {
-      if (!line.speaker.includes('&')) continue;
-      const parts = line.speaker.split(/\s*&\s*/).map(text);
-      if (parts.length !== 2) continue;
-      const second = /^\d+$/.test(parts[1])
-        ? `${parts[0].replace(/\s+\d+$/, '')} ${parts[1]}`
-        : parts[1];
-
-      for (const role of [parts[0], second]) {
-        const key = normalize(role);
-        if (roles.has(key)) shared.push({ ...line, speakerKey: key });
+      for (const key of sharedMembers(line.speaker)) {
+        if (roles.has(key)) shared.push({
+          ...line, speakerKey: key, sharedSourceKey: line.key,
+          key: `${line.key}|ROLE:${key}`,
+        });
       }
     }
 
@@ -298,7 +317,13 @@
       }
     }
 
-    return Array.from(map.values()).sort((a, b) => a.localeCompare(b));
+    return Array.from(map.entries())
+      .filter(([key, role]) => {
+        const members = sharedMembers(role);
+        return !members.length || !members.every(member => map.has(member));
+      })
+      .map(([, role]) => role)
+      .sort((a, b) => a.localeCompare(b));
   }
 
   function fillRoleSelect(lines) {
@@ -524,6 +549,7 @@
       }
 
       migrateProgress(allLines);
+      migrateSharedProgress(allLines);
       fillRoleSelect(allLines);
       fillSceneSelect(els.roleSelect.value);
 
