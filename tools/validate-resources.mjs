@@ -4,6 +4,10 @@ const ROOT=process.cwd(), FILE=path.join(ROOT,"data","resources.json");
 function fail(m){console.error(`❌ RESOURCE PUBLISHING ERROR: ${m}`);process.exit(1);}
 function readJson(f){if(!fs.existsSync(f))fail(`Required file not found: ${path.relative(ROOT,f)}`);try{return JSON.parse(fs.readFileSync(f,"utf8"));}catch(e){fail(`Invalid JSON in ${path.relative(ROOT,f)}: ${e.message}`);}}
 const items=readJson(FILE); if(!Array.isArray(items)) fail("data/resources.json must contain a JSON array.");
+const pageTemplate=fs.readFileSync(path.join(ROOT,"templates","resources-page.html"),"utf8");
+if(pageTemplate.includes('id="menuBtn"') && !/<script\b[^>]*\bsrc="app\.js"/.test(pageTemplate)){
+ fail("Resources mobile menu requires app.js in its page template.");
+}
 const ids=new Set();
 for(const item of items){
  if(!item||typeof item!=="object") fail("Every resource entry must be an object.");
