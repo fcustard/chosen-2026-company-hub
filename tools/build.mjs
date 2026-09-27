@@ -1140,6 +1140,7 @@ function toPublicRehearsal(record) {
     dateLabel: record.dateLabel,
     dayLabel: record.dayLabel,
     time: record.time,
+    showDay: record.showDay,
 
     title: record.title,
     status: record.status,

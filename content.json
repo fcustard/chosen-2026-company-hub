@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T19:02:56.455Z",
+  "updated": "2026-09-27T19:21:34.577Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -2252,26 +2252,32 @@
         "callDataVersion": 3,
         "work": "Cue-to-cue + full run within approved block; seek extended access separately",
         "focus": "",
-        "prep": "Official show-day call is 8:00 AM. Detailed performance-day schedule will be published separately.",
+        "prep": "Show day is Sunday, Dec 20: crew reports at 1:00 PM, performers and dancers at 3:00 PM, show begins at 6:00 PM, and the end is tentatively around 8:00 PM. Detailed performance-day schedule will be published separately.",
         "notice": "",
         "changeType": ""
       },
       {
         "id": "CHOSEN-20261220-SHOW",
         "eventKey": "CHOSEN-20261220-SHOW",
-        "start": "2026-12-20T08:00:00.000Z",
-        "end": "2026-12-20T13:00:00.000Z",
+        "start": "2026-12-20T18:00:00.000Z",
+        "end": "2026-12-21T01:00:00.000Z",
         "date": "December 20, 2026",
         "dateIso": "2026-12-20",
         "day": "Sunday",
         "dateLabel": "December 20, 2026",
         "dayLabel": "Sunday",
-        "time": "3:00 AM–8:00 AM",
+        "time": "1:00 PM–8:00 PM",
+        "showDay": {
+          "crewCall": "1:00 PM",
+          "companyCall": "3:00 PM",
+          "showtime": "6:00 PM",
+          "tentativeEnd": "8:00 PM"
+        },
         "title": "CHOSEN 2026 - SHOW DAY",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "1:00 PM — Full Company (EVERYONE!) + Crew\n3:00PM CALL TIME! \n6:00PM SHOW BEGINS!!!",
+        "called": "1:00 PM — Crew/Tech report\n3:00 PM — Full Company performers and dancers report\n6:00 PM — Show begins\nAround 8:00 PM — Tentative end",
         "callGroups": [
           "Full Company",
           "Crew/Tech"
@@ -2466,8 +2472,8 @@
         "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Scene 9 & 10",
         "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
-        "locationShort": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
+        "location": "Virtual (Zoom)",
+        "locationShort": "Virtual (Zoom)",
         "called": "6:30 PM- 7:30 PM- Child Speakers: Child 1 (Neclia), Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina), Simon (James)\n\n6:30 PM-9:30 PM- Mary (Jordyn), Caleb (Joseph), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela)\n\n7:30 PM-9:30 PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Lauryn), Villager Man 1  (Fredrick), Villager Man 2 (Rodney), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
         "callGroups": [],
         "calledPeople": [
@@ -2854,8 +2860,8 @@
         "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Scene 6 + Scene 7",
         "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/83890862891?pwd=oiszQk3ekWaXS05dDYGBphHDYMJNhz.1",
-        "locationShort": "https://us02web.zoom.us/j/83890862891?pwd=oiszQk3ekWaXS05dDYGBphHDYMJNhz.1",
+        "location": "Virtual (Zoom)",
+        "locationShort": "Virtual (Zoom)",
         "called": "6:30–8:00 PM — (Mary (Jordyn), Joseph (Caleb)\n8:00–9:30 PM —  Mary (Jordyn), Elizabeth; Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [],
         "calledPeople": [
@@ -2912,8 +2918,8 @@
         "time": "10:00 AM–2:00 PM",
         "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
         "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
-        "locationShort": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
+        "location": "Virtual (Zoom)",
+        "locationShort": "Virtual (Zoom)",
         "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [],
         "calledPeople": [
@@ -3346,8 +3352,8 @@
         "time": "10:00 AM–2:00 PM",
         "title": "CHOSEN Rehearsal - Scene 1 &2 development",
         "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/86440498367?pwd=l3xRoEgaPAlvf3PvPVBlIUsV2w6tJ8.1",
-        "locationShort": "https://us02web.zoom.us/j/86440498367?pwd=l3xRoEgaPAlvf3PvPVBlIUsV2w6tJ8.1",
+        "location": "Virtual (Zoom)",
+        "locationShort": "Virtual (Zoom)",
         "called": "10:00 AM–11:15 AM —Child Storytellers;  Nia (Gelvina) &  Simon (James)\n\n11:30 AM–12:45 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n\n12:50 PM–2:00 PM — Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [],
         "calledPeople": [
@@ -5027,26 +5033,32 @@
         "callDataVersion": 3,
         "work": "Cue-to-cue + full run within approved block; seek extended access separately",
         "focus": "",
-        "prep": "Official show-day call is 8:00 AM. Detailed performance-day schedule will be published separately.",
+        "prep": "Show day is Sunday, Dec 20: crew reports at 1:00 PM, performers and dancers at 3:00 PM, show begins at 6:00 PM, and the end is tentatively around 8:00 PM. Detailed performance-day schedule will be published separately.",
         "notice": "",
         "changeType": ""
       },
       {
         "id": "CHOSEN-20261220-SHOW",
         "eventKey": "CHOSEN-20261220-SHOW",
-        "start": "2026-12-20T08:00:00.000Z",
-        "end": "2026-12-20T13:00:00.000Z",
+        "start": "2026-12-20T18:00:00.000Z",
+        "end": "2026-12-21T01:00:00.000Z",
         "date": "December 20, 2026",
         "dateIso": "2026-12-20",
         "day": "Sunday",
         "dateLabel": "December 20, 2026",
         "dayLabel": "Sunday",
-        "time": "3:00 AM–8:00 AM",
+        "time": "1:00 PM–8:00 PM",
+        "showDay": {
+          "crewCall": "1:00 PM",
+          "companyCall": "3:00 PM",
+          "showtime": "6:00 PM",
+          "tentativeEnd": "8:00 PM"
+        },
         "title": "CHOSEN 2026 - SHOW DAY",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "1:00 PM — Full Company (EVERYONE!) + Crew\n3:00PM CALL TIME! \n6:00PM SHOW BEGINS!!!",
+        "called": "1:00 PM — Crew/Tech report\n3:00 PM — Full Company performers and dancers report\n6:00 PM — Show begins\nAround 8:00 PM — Tentative end",
         "callGroups": [
           "Full Company",
           "Crew/Tech"
@@ -5239,8 +5251,8 @@
         "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Scene 9 & 10",
         "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
-        "locationShort": "https://us02web.zoom.us/j/81964854384?pwd=Ai3a0IudMX2D6ks7JdNMDhVanfxKl0.1",
+        "location": "Virtual (Zoom)",
+        "locationShort": "Virtual (Zoom)",
         "called": "6:30 PM- 7:30 PM- Child Speakers: Child 1 (Neclia), Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina), Simon (James)\n\n6:30 PM-9:30 PM- Mary (Jordyn), Caleb (Joseph), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela)\n\n7:30 PM-9:30 PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Lauryn), Villager Man 1  (Fredrick), Villager Man 2 (Rodney), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
         "callGroups": [],
         "calledPeople": [
@@ -5627,8 +5639,8 @@
         "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Scene 6 + Scene 7",
         "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/83890862891?pwd=oiszQk3ekWaXS05dDYGBphHDYMJNhz.1",
-        "locationShort": "https://us02web.zoom.us/j/83890862891?pwd=oiszQk3ekWaXS05dDYGBphHDYMJNhz.1",
+        "location": "Virtual (Zoom)",
+        "locationShort": "Virtual (Zoom)",
         "called": "6:30–8:00 PM — (Mary (Jordyn), Joseph (Caleb)\n8:00–9:30 PM —  Mary (Jordyn), Elizabeth; Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [],
         "calledPeople": [
@@ -5685,8 +5697,8 @@
         "time": "10:00 AM–2:00 PM",
         "title": "CHOSEN Rehearsal - Scene 1 + Scene 4 & 5",
         "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
-        "locationShort": "https://us02web.zoom.us/j/86559413681?pwd=JpSHCdIBs4Mk5UCtdwLf94e6KiLlaU.1",
+        "location": "Virtual (Zoom)",
+        "locationShort": "Virtual (Zoom)",
         "called": "10:00 AM–11:00 AM- Merchant 1(Etta), Customer 1 (Kevin), Merchant 2 (Jayden), Customer 2 (Charla), G1 (Ania), G2 (Shanice), G3 (Victorya), G4 (Gabriela S)\n\n11:05 AM–12:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley)\n\n12:05 PM–1:00 PM - Mary + Friends, Joseph + Friends\n\n1:05 PM–2:00 PM- Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [],
         "calledPeople": [
@@ -6119,8 +6131,8 @@
         "time": "10:00 AM–2:00 PM",
         "title": "CHOSEN Rehearsal - Scene 1 &2 development",
         "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/86440498367?pwd=l3xRoEgaPAlvf3PvPVBlIUsV2w6tJ8.1",
-        "locationShort": "https://us02web.zoom.us/j/86440498367?pwd=l3xRoEgaPAlvf3PvPVBlIUsV2w6tJ8.1",
+        "location": "Virtual (Zoom)",
+        "locationShort": "Virtual (Zoom)",
         "called": "10:00 AM–11:15 AM —Child Storytellers;  Nia (Gelvina) &  Simon (James)\n\n11:30 AM–12:45 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n\n12:50 PM–2:00 PM — Mary (Jordyn), Joseph (Caleb)",
         "callGroups": [],
         "calledPeople": [
@@ -6594,7 +6606,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-27T19:02:56.456Z",
+    "updated": "2026-09-27T19:21:34.578Z",
     "kind": "scripts"
   },
   "music": {
@@ -6651,7 +6663,7 @@
       }
     ],
     "count": 2,
-    "updated": "2026-09-27T19:02:56.456Z",
+    "updated": "2026-09-27T19:21:34.578Z",
     "kind": "music"
   }
 }
