@@ -258,6 +258,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const nrTime = document.querySelector('#nrTime');
     const nrLocation = document.querySelector('#nrLocation');
     const nrFocus = document.querySelector('#nrFocus');
+    const nrNote = document.querySelector('#nrNote');
     const nrLink = document.querySelector('#nrLink');
 
     if (x) {
@@ -323,14 +324,18 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
 
       if (nrLink) {
-        nrLink.textContent = 'Open rehearsal plan';
+        nrLink.textContent = 'View full schedule';
         nrLink.href = 'schedule.html';
         nrLink.removeAttribute('target');
         nrLink.removeAttribute('rel');
       }
     } else {
+      if (nrNote) {
+        nrNote.hidden = true;
+      }
+
       if (nrDay) {
-        nrDay.textContent = 'NEXT REHEARSAL';
+        nrDay.textContent = '';
       }
 
       if (nrDate) {

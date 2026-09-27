@@ -18,15 +18,15 @@
         <span>Company Hub</span>
       </a>
 
-      <button id="menuBtn" class="menu" aria-expanded="false">Menu</button>
+      <button id="menuBtn" class="menu" type="button" aria-controls="nav" aria-expanded="false">Menu</button>
 
       <nav id="nav">
         <a href="this-week.html">This Week</a>
         <a href="scripts.html">Scripts</a>
+        <a href="lines.html">Lines</a>
         <a href="music.html">Music</a>
         <a href="schedule.html">Schedule</a>
         <a href="resources.html">Resources</a>
-        <a href="lines.html">Lines</a>
         <a href="company.html">Company</a>
       </nav>
     </div>
@@ -36,15 +36,15 @@
     <section class="hero">
       <div class="hero-grid">
         <div>
-          <p class="k">THE STORY BEFORE THE MANGER</p>
-          <h1>CHOSEN</h1>
-          <p>Know where to be, when to be there, and what to prepare—without digging through messages.</p>
+          <p class="k">CHOSEN · THE STORY BEFORE THE MANGER</p>
+          <h1>Ready for rehearsal.</h1>
+          <p>Find your call, location, scripts, and practice materials in one place.</p>
           <p class="hubTrust">Official company information</p>
           <div id="announcement" class="announce" hidden></div>
         </div>
 
         <div class="next">
-          <p class="ey" id="nrDay">NEXT REHEARSAL</p>
+          <p class="ey">NEXT REHEARSAL <span id="nrDay"></span></p>
           <h2 id="nrDate">Loading…</h2>
 
           <div class="nextline">
@@ -53,7 +53,11 @@
           </div>
 
           <p id="nrFocus"></p>
-          <a id="nrLink" class="btn primary" href="schedule.html">Open rehearsal plan</a>
+          <p id="nrNote" class="nextNote">This is the full rehearsal window. Check your individual call time before you leave.</p>
+          <div class="actions nextActions">
+            <a class="btn primary" href="company.html#my-role">Find my call</a>
+            <a id="nrLink" class="btn" href="schedule.html">View full schedule</a>
+          </div>
         </div>
       </div>
     </section>
@@ -61,74 +65,81 @@
     <section>
       <div class="head">
         <p class="ey">START HERE</p>
-        <h2>Get what you need.</h2>
+        <h2>Start with your call.</h2>
       </div>
 
-      <div class="dash">
-        <a class="card" href="this-week.html">
+      <div class="dash homeTasks">
+        <a class="card" href="company.html#my-role">
           <i>01</i>
-          <b>This Week</b>
-          <span>Your calls, focus and prep</span>
+          <b>Find my role & calls</b>
+          <span>Choose your name to see your role and personal schedule</span>
         </a>
 
-        <a class="card" href="scripts.html">
+        <a class="card" href="this-week.html">
           <i>02</i>
-          <b>Scripts</b>
-          <span>Official current company versions</span>
-        </a>
-
-        <a class="card" href="music.html">
-          <i>03</i>
-          <b>Music</b>
-          <span>Current rehearsal tracks and lyrics</span>
+          <b>See this week's plan</b>
+          <span>Rehearsal times, who is called, and what we're working on</span>
         </a>
 
         <a class="card" href="schedule.html">
-          <i>04</i>
-          <b>Schedule</b>
-          <span>All calls + My Calls filter</span>
-        </a>
-
-        <a class="card" href="resources.html">
-          <i>05</i>
-          <b>Resources</b>
-          <span>Company guide and official rehearsal materials</span>
-        </a>
-
-        <a class="card" href="lines.html">
-          <i>06</i>
-          <b>Lines</b>
-          <span>Practice cues and get off book faster</span>
-        </a>
-
-        <a class="card" href="company.html">
-          <i>07</i>
-          <b>Company</b>
-          <span>Cast, roles and company information</span>
+          <i>03</i>
+          <b>View full schedule</b>
+          <span>Upcoming rehearsals and call details</span>
         </a>
       </div>
     </section>
 
     <section>
       <div class="head">
-        <p class="ey">QUICK HELP</p>
-        <h2>Company tools</h2>
+        <p class="ey">GET REHEARSAL READY</p>
+        <h2>Practice what you need.</h2>
+      </div>
+      <div class="dash homeTasks">
+        <a class="card" href="scripts.html">
+          <i>01</i>
+          <b>Read my scene</b>
+          <span>Current company scripts and printable PDFs</span>
+        </a>
+
+        <a class="card" href="lines.html">
+          <i>02</i>
+          <b>Practice my lines</b>
+          <span>Choose a role, read the cue, and check your line</span>
+        </a>
+
+        <a class="card" href="music.html">
+          <i>03</i>
+          <b>Play rehearsal tracks</b>
+          <span>Listen to the current published tracks</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <div class="head">
+        <p class="ey">HELP & ESSENTIALS</p>
+        <h2>Find support quickly.</h2>
       </div>
 
-      <div class="util">
+      <div class="util homeHelp">
+        <a href="resources.html">
+          <b>Company guide & resources</b>
+          <p class="note">Expectations, rehearsal videos, and cast materials</p>
+        </a>
+
         <a data-link="whatsapp" href="#">
           <b>Company WhatsApp</b>
-          <p class="note">Announcements and communication</p>
+          <p class="note">Company announcements and updates</p>
         </a>
 
         <a data-link="absence" href="#">
           <b>Report Absence / Late</b>
-          <p class="note">Use as soon as you know</p>
+          <p class="note">Tell us as soon as you know</p>
         </a>
 
         <a data-link="help" href="#">
           <b>Production Help</b>
-          <p class="note">Technology or production assistance</p>
+          <p class="note">Ask for technology or production assistance</p>
         </a>
       </div>
     </section>
