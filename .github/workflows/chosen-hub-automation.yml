@@ -86,7 +86,10 @@ jobs:
 
       - name: Sync exact rehearsal calls from Master Calendar
         id: calendar_sync
-        if: ${{ github.event.action != 'publish-script' && !contains(github.event.head_commit.message, '[skip calendar]') }}
+        # Paused while the remaining scene-specific calls are reconciled.
+        # Keep the source sheet and published rehearsal data reviewable without
+        # allowing scheduled runs to replace the reviewed public call list.
+        if: ${{ false }}
         timeout-minutes: 3
         env:
           CALENDAR_FEED_URL: ${{ vars.CALENDAR_FEED_URL }}

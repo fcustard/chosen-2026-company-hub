@@ -1977,9 +1977,9 @@
       "namedStyleType": "TITLE"
     },
     {
-      "type": "dialogue",
+      "type": "production-note",
       "text": "The phrase should land clearly enough to return emotionally later.",
-      "namedStyleType": "NORMAL_TEXT"
+      "namedStyleType": "SUBTITLE"
     },
     {
       "type": "spacer",
