@@ -801,13 +801,53 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30 PM–8:30 PM — ALL Dancers \n\n6:30 PM–9:30 PM Scene 12 \nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [
-          "Full Company",
           "Dancers"
         ],
-        "calledPeople": [],
-        "calledPeopleIds": [],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-kevin-hohn",
+          "P-charla-yvonne-cornelius",
+          "P-edison-browne",
+          "P-jayden-harris",
+          "P-delvin-rogers-jr",
+          "P-cedrick-massey"
+        ],
         "calledGroups": [
-          "Full Company",
           "Dancers"
         ],
         "exactCallStatus": "READY",
@@ -3364,13 +3404,53 @@
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30 PM–8:30 PM — ALL Dancers \n\n6:30 PM–9:30 PM Scene 12 \nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [
-          "Full Company",
           "Dancers"
         ],
-        "calledPeople": [],
-        "calledPeopleIds": [],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-kevin-hohn",
+          "P-charla-yvonne-cornelius",
+          "P-edison-browne",
+          "P-jayden-harris",
+          "P-delvin-rogers-jr",
+          "P-cedrick-massey"
+        ],
         "calledGroups": [
-          "Full Company",
           "Dancers"
         ],
         "exactCallStatus": "READY",
