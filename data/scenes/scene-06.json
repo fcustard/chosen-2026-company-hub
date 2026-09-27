@@ -1742,14 +1742,14 @@
       "namedStyleType": "TITLE"
     },
     {
-      "type": "dialogue",
+      "type": "production-note",
       "text": "That is the bridge.",
-      "namedStyleType": "NORMAL_TEXT"
+      "namedStyleType": "SUBTITLE"
     },
     {
-      "type": "dialogue",
+      "type": "production-note",
       "text": "Do not add another long argument inside the song.",
-      "namedStyleType": "NORMAL_TEXT"
+      "namedStyleType": "SUBTITLE"
     },
     {
       "type": "spacer",

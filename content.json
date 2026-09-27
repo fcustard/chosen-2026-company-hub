@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T05:27:36.926Z",
+  "updated": "2026-09-27T05:33:12.873Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -26,11 +26,7 @@
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "called": "6:30–8:30 PM — Dancers (Child/Youth Only)\nAlexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–8:00 PM- Actors in Scenes 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n\n 8:00 PM- 9:30PM- Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
-    "callGroups": [
-      "Principals/Featured",
-      "Children/Youth",
-      "Ensemble"
-    ],
+    "callGroups": [],
     "calledPeople": [
       {
         "displayName": "Jordyn Starks"
@@ -167,11 +163,7 @@
       "P-gabriella-fearon",
       "P-deandra-gray"
     ],
-    "calledGroups": [
-      "Principals/Featured",
-      "Children/Youth",
-      "Ensemble"
-    ],
+    "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
     "work": "Review Scene 9, Work Scene 10 & 11; birth staging discussion, Record Specific Cast Members",
@@ -201,11 +193,7 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers (Child/Youth Only)\nAlexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–8:00 PM- Actors in Scenes 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n\n 8:00 PM- 9:30PM- Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
-        "callGroups": [
-          "Principals/Featured",
-          "Children/Youth",
-          "Ensemble"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -342,11 +330,7 @@
           "P-gabriella-fearon",
           "P-deandra-gray"
         ],
-        "calledGroups": [
-          "Principals/Featured",
-          "Children/Youth",
-          "Ensemble"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Review Scene 9, Work Scene 10 & 11; birth staging discussion, Record Specific Cast Members",
@@ -371,10 +355,7 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30 PM- 8:30 PM- Dancers (Child/Youth Only)\nAlexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
-        "callGroups": [
-          "Principals/Featured",
-          "Children/Youth"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Gelvina Maxime"
@@ -429,6 +410,12 @@
           },
           {
             "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "DeAndra Gray"
           }
         ],
         "calledPeopleIds": [
@@ -449,12 +436,11 @@
           "P-caris-hunte",
           "P-kennedy-mccalla",
           "P-kourtney-ann-palmer",
-          "P-nelcia-fosttin"
+          "P-nelcia-fosttin",
+          "P-gabriella-fearon",
+          "P-deandra-gray"
         ],
-        "calledGroups": [
-          "Principals/Featured",
-          "Children/Youth"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Good News — shepherd dialogue, angel message, finale music foundation",
@@ -522,11 +508,7 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers (Child/Youth Only)\nAlexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–8:00 PM- Actors in Scenes 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n\n 8:00 PM- 9:30PM- Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
-        "callGroups": [
-          "Principals/Featured",
-          "Children/Youth",
-          "Ensemble"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -663,11 +645,7 @@
           "P-gabriella-fearon",
           "P-deandra-gray"
         ],
-        "calledGroups": [
-          "Principals/Featured",
-          "Children/Youth",
-          "Ensemble"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Review Scene 9, Work Scene 10 & 11; birth staging discussion, Record Specific Cast Members",
@@ -692,10 +670,7 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30 PM- 8:30 PM- Dancers (Child/Youth Only)\nAlexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
-        "callGroups": [
-          "Principals/Featured",
-          "Children/Youth"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Gelvina Maxime"
@@ -750,6 +725,12 @@
           },
           {
             "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "DeAndra Gray"
           }
         ],
         "calledPeopleIds": [
@@ -770,12 +751,11 @@
           "P-caris-hunte",
           "P-kennedy-mccalla",
           "P-kourtney-ann-palmer",
-          "P-nelcia-fosttin"
+          "P-nelcia-fosttin",
+          "P-gabriella-fearon",
+          "P-deandra-gray"
         ],
-        "calledGroups": [
-          "Principals/Featured",
-          "Children/Youth"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Good News — shepherd dialogue, angel message, finale music foundation",
@@ -1923,14 +1903,14 @@
       {
         "id": "CHOSEN-20261220-SHOW",
         "eventKey": "CHOSEN-20261220-SHOW",
-        "start": "2026-12-20T08:00:00.000Z",
-        "end": "2026-12-20T13:00:00.000Z",
+        "start": "2026-12-20T13:00:00.000Z",
+        "end": "2026-12-20T18:00:00.000Z",
         "date": "December 20, 2026",
         "dateIso": "2026-12-20",
         "day": "Sunday",
         "dateLabel": "December 20, 2026",
         "dayLabel": "Sunday",
-        "time": "3:00 AM–8:00 AM",
+        "time": "8:00 AM–1:00 PM",
         "title": "CHOSEN 2026 - SHOW DAY",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
@@ -3125,11 +3105,7 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–8:30 PM — Dancers (Child/Youth Only)\nAlexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–8:00 PM- Actors in Scenes 10 ( Mary +Friends, Joseph+ Friends, Child Speakers, Child Storytellers, Gossipers,  Village Parents,  Roman Announcer)\n\n\n 8:00 PM- 9:30PM- Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)",
-        "callGroups": [
-          "Principals/Featured",
-          "Children/Youth",
-          "Ensemble"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Jordyn Starks"
@@ -3266,11 +3242,7 @@
           "P-gabriella-fearon",
           "P-deandra-gray"
         ],
-        "calledGroups": [
-          "Principals/Featured",
-          "Children/Youth",
-          "Ensemble"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Review Scene 9, Work Scene 10 & 11; birth staging discussion, Record Specific Cast Members",
@@ -3295,10 +3267,7 @@
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30 PM- 8:30 PM- Dancers (Child/Youth Only)\nAlexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP) \n\n6:30–9:30 PM — Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
-        "callGroups": [
-          "Principals/Featured",
-          "Children/Youth"
-        ],
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Gelvina Maxime"
@@ -3353,6 +3322,12 @@
           },
           {
             "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "DeAndra Gray"
           }
         ],
         "calledPeopleIds": [
@@ -3373,12 +3348,11 @@
           "P-caris-hunte",
           "P-kennedy-mccalla",
           "P-kourtney-ann-palmer",
-          "P-nelcia-fosttin"
+          "P-nelcia-fosttin",
+          "P-gabriella-fearon",
+          "P-deandra-gray"
         ],
-        "calledGroups": [
-          "Principals/Featured",
-          "Children/Youth"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Good News — shepherd dialogue, angel message, finale music foundation",
@@ -4526,14 +4500,14 @@
       {
         "id": "CHOSEN-20261220-SHOW",
         "eventKey": "CHOSEN-20261220-SHOW",
-        "start": "2026-12-20T08:00:00.000Z",
-        "end": "2026-12-20T13:00:00.000Z",
+        "start": "2026-12-20T13:00:00.000Z",
+        "end": "2026-12-20T18:00:00.000Z",
         "date": "December 20, 2026",
         "dateIso": "2026-12-20",
         "day": "Sunday",
         "dateLabel": "December 20, 2026",
         "dayLabel": "Sunday",
-        "time": "3:00 AM–8:00 AM",
+        "time": "8:00 AM–1:00 PM",
         "title": "CHOSEN 2026 - SHOW DAY",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
@@ -5713,7 +5687,7 @@
       {
         "id": "children-youth",
         "name": "Children/Youth",
-        "count": 6
+        "count": 2
       },
       {
         "id": "crew-tech",
@@ -5728,7 +5702,7 @@
       {
         "id": "ensemble",
         "name": "Ensemble",
-        "count": 18
+        "count": 16
       },
       {
         "id": "full-company",
@@ -5738,7 +5712,7 @@
       {
         "id": "principals-featured",
         "name": "Principals/Featured",
-        "count": 14
+        "count": 10
       }
     ],
     "count": 35,
@@ -6086,7 +6060,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-27T05:27:36.927Z",
+    "updated": "2026-09-27T05:33:12.873Z",
     "kind": "scripts"
   },
   "music": {
@@ -6143,7 +6117,7 @@
       }
     ],
     "count": 2,
-    "updated": "2026-09-27T05:27:36.927Z",
+    "updated": "2026-09-27T05:33:12.873Z",
     "kind": "music"
   }
 }

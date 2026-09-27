@@ -708,11 +708,7 @@
       "P-gabriella-fearon",
       "P-deandra-gray"
     ],
-    "calledGroups": [
-      "Principals/Featured",
-      "Children/Youth",
-      "Ensemble"
-    ],
+    "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20260930-REH"
@@ -745,7 +741,9 @@
       "Caris Hunte",
       "Kennedy McCalla",
       "Kourtney—Ann Palmer",
-      "Nelcia Fosttin"
+      "Nelcia Fosttin",
+      "Gabriella Fearon",
+      "DeAndra Gray"
     ],
     "calledPeopleIds": [
       "P-gelvina-maxime",
@@ -765,12 +763,11 @@
       "P-caris-hunte",
       "P-kennedy-mccalla",
       "P-kourtney-ann-palmer",
-      "P-nelcia-fosttin"
+      "P-nelcia-fosttin",
+      "P-gabriella-fearon",
+      "P-deandra-gray"
     ],
-    "calledGroups": [
-      "Principals/Featured",
-      "Children/Youth"
-    ],
+    "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261001-REH"

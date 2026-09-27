@@ -409,9 +409,9 @@
       "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Still walks away from Gabriel slowly",
-      "namedStyleType": "NORMAL_TEXT"
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "character",
@@ -424,9 +424,9 @@
       "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Continues walking towards Mary",
-      "namedStyleType": "NORMAL_TEXT"
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "character",
@@ -439,9 +439,9 @@
       "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Still walks backwards away from Gabriel",
-      "namedStyleType": "NORMAL_TEXT"
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "character",
@@ -454,9 +454,9 @@
       "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Continues walking towards Mary",
-      "namedStyleType": "NORMAL_TEXT"
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
@@ -474,9 +474,9 @@
       "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "dialogue",
+      "type": "stage",
       "text": "Still walks backwards away from Gabriel",
-      "namedStyleType": "NORMAL_TEXT"
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "character",
