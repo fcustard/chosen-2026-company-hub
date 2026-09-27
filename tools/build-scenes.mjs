@@ -5,6 +5,9 @@ const ROOT = process.cwd();
 
 const SCRIPTS_FILE = path.join(ROOT, "data", "scripts.json");
 const SCENES_DIR = path.join(ROOT, "data", "scenes");
+const ACTOR_VIEW_OVERRIDES = JSON.parse(fs.readFileSync(
+  path.join(ROOT, "data", "actor-view-overrides.json"), "utf8"
+));
 
 const KNOWN_SPEAKERS = new Set([
   "MARY",
@@ -364,7 +367,7 @@ function renderPlain(text) {
   return `<p>${escapeHtml(text)}</p>`;
 }
 
-function compactActorBlocks(blocks = []) {
+function compactActorBlocks(blocks = [], sceneNumber = "") {
   // Everything after the final scene ending is an internal production
   // postscript, even when the source document styles its prose as stage text.
   const ending = blocks.findLastIndex((block) => {
@@ -374,9 +377,16 @@ function compactActorBlocks(blocks = []) {
       (type === "heading" && /^END OF CHOSEN:/i.test(label));
   });
   const script = ending >= 0 ? blocks.slice(0, ending + 1) : blocks;
-  const visible = script.filter(
-    (block) => cleanText(block?.type).toLowerCase() !== "production-note"
-  );
+  const visible = script.flatMap((block) => {
+    const type = cleanText(block?.type).toLowerCase();
+    if (type === "production-note") return [];
+    const rule = ACTOR_VIEW_OVERRIDES.find((item) =>
+      item.scene === sceneNumber && item.type === type && item.text === cleanText(block?.text)
+    );
+    if (rule?.publicType === "exclude") return [];
+    if (rule?.publicType === "stage") return [{ ...block, type: "stage" }];
+    return [block];
+  });
 
   return visible.filter((block, index) => {
     const type = cleanText(block?.type).toLowerCase();
@@ -996,7 +1006,7 @@ for (const fileName of sceneFiles) {
     );
   }
 
-  const actorBlocks = compactActorBlocks(scene.blocks);
+  const actorBlocks = compactActorBlocks(scene.blocks, sceneNumber);
   const renderedBlocks = actorBlocks.map((block, index, blocks) => ({
     block,
     html: renderBlock(block, index, blocks)

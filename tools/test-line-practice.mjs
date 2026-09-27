@@ -23,6 +23,9 @@ vm.runInNewContext(source.replace(entry, `
 `), scope);
 
 const plain = value => JSON.parse(JSON.stringify(value));
+const actorViewOverrides = JSON.parse(fs.readFileSync(
+  path.join(root, 'data/actor-view-overrides.json'), 'utf8'
+));
 const base = [];
 let expectedTotal = 0;
 const eliStageLines = new Set([
@@ -40,7 +43,7 @@ for (let number = 1; number <= 12; number += 1) {
   const scene = JSON.parse(fs.readFileSync(
     path.join(root, `data/scenes/scene-${sceneNo}.json`), 'utf8'
   ));
-  const actual = plain(scope.practice.extractLinesFromScene(scene, sceneNo));
+  const actual = plain(scope.practice.extractLinesFromScene(scene, sceneNo, actorViewOverrides));
   let speaker = '';
   let priorText = '';
   const expected = [];
@@ -60,6 +63,8 @@ for (let number = 1; number <= 12; number += 1) {
     }
     const eliLine = sceneNo === '11' && speaker === 'INNKEEPER ELI' &&
       block.type === 'stage' && eliStageLines.has(block.text);
+    if (actorViewOverrides.some(rule => rule.scene === sceneNo &&
+      rule.type === block.type && rule.text === block.text)) continue;
     if (block.type !== 'dialogue' && !eliLine) continue;
     assert.ok(speaker, `Scene ${sceneNo} has dialogue without a speaker`);
     expected.push({ speaker, text: block.text.replace(/\s+/g, ' ').trim(), cue: priorText });
@@ -78,7 +83,7 @@ for (let number = 1; number <= 12; number += 1) {
   // Reordering a non-dialogue cue must not reset an actor's saved progress.
   const withStage = { ...scene, blocks: [scene.blocks[0],
     { type: 'stage', text: 'A lighting cue.' }, ...scene.blocks.slice(1)] };
-  assert.deepEqual(plain(scope.practice.extractLinesFromScene(withStage, sceneNo))
+  assert.deepEqual(plain(scope.practice.extractLinesFromScene(withStage, sceneNo, actorViewOverrides))
     .map(line => line.key), actual.map(line => line.key));
 
   base.push(...actual);
@@ -89,6 +94,10 @@ assert.equal(reviewedStageCues.size, directionCues.size + eliStageLines.size,
 const eliLines = base.filter(line => line.sceneNumber === '11' && line.speaker === 'INNKEEPER ELI');
 assert.deepEqual(eliLines.map(line => line.text), Array.from(eliStageLines),
   'Innkeeper Eli must see all four Scene 11 lines in script order');
+for (const rule of actorViewOverrides) {
+  assert.ok(!base.some(line => line.sceneNumber === rule.scene && line.text === rule.text),
+    `Actor practice must omit stage movement or internal note: ${rule.text}`);
+}
 
 const all = plain(scope.practice.includeSharedLines(base));
 const roles = plain(scope.practice.uniqueRoles(all));

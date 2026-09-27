@@ -20,6 +20,7 @@ from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer
 
 ROOT = Path(__file__).resolve().parents[1]
 SCENES = ROOT / "data" / "scenes"
+ACTOR_VIEW_OVERRIDES = json.loads((ROOT / "data" / "actor-view-overrides.json").read_text(encoding="utf-8"))
 NAVY = colors.HexColor("#0D1B2A")
 GOLD = colors.HexColor("#A86F00")
 GRAY = colors.HexColor("#556070")
@@ -93,6 +94,13 @@ def build_scene(path: Path, sheet):
     for block in blocks:
         kind = str(block.get("type", "")).strip().lower()
         text = str(block.get("text", "")).strip()
+        rule = next((item for item in ACTOR_VIEW_OVERRIDES
+                     if item["scene"] == str(scene["scene"]).zfill(2)
+                     and item["type"] == kind and item["text"] == text), None)
+        if rule and rule["publicType"] == "exclude":
+            continue
+        if rule and rule["publicType"] == "stage":
+            kind = "stage"
         if kind == "production-note":
             # Actor PDFs intentionally omit internal production notes. The
             # structured scene JSON remains the complete source of truth.

@@ -4,6 +4,7 @@ import path from "node:path";
 const ROOT = process.cwd();
 const SCRIPTS_FILE = path.join(ROOT, "data", "scripts.json");
 const SCENES_DIR = path.join(ROOT, "data", "scenes");
+const ACTOR_VIEW_OVERRIDES = readJson(path.join(ROOT, "data", "actor-view-overrides.json"));
 
 function fail(message) {
   console.error(`❌ SCENE PUBLISHING ERROR: ${message}`);
@@ -24,6 +25,32 @@ function readJson(file) {
 
 function normalizeSceneNumber(value) {
   return String(value).padStart(2, "0");
+}
+
+if (!Array.isArray(ACTOR_VIEW_OVERRIDES)) {
+  fail("data/actor-view-overrides.json must be an array.");
+}
+const overrideKeys = new Set();
+for (const rule of ACTOR_VIEW_OVERRIDES) {
+  const key = `${rule.scene}|${rule.type}|${rule.text}`;
+  if (!/^\d{2}$/.test(rule.scene) || rule.type !== "dialogue" ||
+      !["stage", "exclude"].includes(rule.publicType) ||
+      !Number.isInteger(rule.count) || rule.count < 1 || overrideKeys.has(key)) {
+    fail(`Invalid or duplicate actor-view override: ${key}`);
+  }
+  overrideKeys.add(key);
+}
+
+function validateActorViewOverrides(scene, sceneNumber, fileName) {
+  for (const rule of ACTOR_VIEW_OVERRIDES.filter(item => item.scene === sceneNumber)) {
+    const count = scene.blocks.filter(block =>
+      block.type === rule.type && block.text === rule.text &&
+      block.namedStyleType === "NORMAL_TEXT"
+    ).length;
+    if (count !== rule.count) {
+      fail(`${fileName}: actor-view override for ${JSON.stringify(rule.text)} matched ${count} blocks, expected ${rule.count}.`);
+    }
+  }
 }
 
 function cleanCharacterCue(value) {
@@ -247,6 +274,7 @@ for (const fileName of sceneFiles) {
   validateNamedStyles(scene, fileName);
   validateProductionNotes(scene, fileName);
   validateSemanticSequence(scene, fileName);
+  validateActorViewOverrides(scene, sceneNumber, fileName);
 
   const manifest = scripts.find(
     (item) => normalizeSceneNumber(item.scene) === sceneNumber
