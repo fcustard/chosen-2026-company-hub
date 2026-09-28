@@ -5,8 +5,28 @@ const read = p => JSON.parse(fs.readFileSync(p, 'utf8'));
 const scripts = read('data/scripts.json');
 const music = read('data/music.json');
 const rehearsals = read('data/rehearsals.json');
+const site = read('data/site.json');
 
 const errors = [];
+
+// The optional Google subscription must point to the same public calendar as
+// the iCal feed, and the Schedule card needs a working fallback without JS.
+try {
+  const ical = new URL(site.links.appleCalendar);
+  const google = new URL(site.links.googleCalendar);
+  const icalId = decodeURIComponent(ical.pathname.match(/^\/calendar\/ical\/([^/]+)\/public\/basic\.ics$/)?.[1] || '');
+  const calendarCard = fs.readFileSync('schedule.html', 'utf8').match(/<a\s+id="googleCalendarLink"[^>]*>/)?.[0] || '';
+  if (!icalId || ical.hostname !== 'calendar.google.com' ||
+      google.hostname !== 'calendar.google.com' ||
+      google.pathname !== '/calendar/r' ||
+      google.searchParams.get('cid') !== icalId ||
+      !calendarCard.includes('data-link="googleCalendar"') ||
+      !calendarCard.includes(`href="${site.links.googleCalendar}"`)) {
+    errors.push('Google Calendar card must subscribe to the public iCal calendar');
+  }
+} catch (_) {
+  errors.push('Google Calendar subscription URL is missing or invalid');
+}
 
 // SCRIPT SAFETY CHECKS
 for (const s of scripts) {
