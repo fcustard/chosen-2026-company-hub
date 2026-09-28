@@ -1337,6 +1337,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         ? Object.entries(x.personalCallEndTimes || {})
             .find(([id]) => samePersonId(id, person.id))?.[1]
         : '';
+      const callBlocks = String(x.called || '').match(
+        /\b\d{1,2}:\d{2}\s*(?:AM|PM)?\s*[–-]\s*\d{1,2}:\d{2}\s*(?:AM|PM)?/gi
+      ) || [];
+      const needsCallBlock = personalView && person &&
+        !showDay && !personalArrival && callBlocks.length > 1;
       const timeDetails = showDay
         ? [
             reportTime || `Crew call: ${showDay.crewCall}`,
@@ -1346,6 +1351,8 @@ document.addEventListener('DOMContentLoaded', async () => {
           ].map(line => `<span class="callTimeLine">${esc(line)}</span>`).join('')
         : personalArrival
           ? `<span class="callTimeLine">Report at ${esc(personalArrival)}</span>${personalEnd ? `<span class="callTimeLine">Scheduled through ${esc(personalEnd)}</span>` : ''}`
+        : needsCallBlock
+          ? `<span class="callTimeLine">${esc(x.time)}</span><span class="callTimeHelp">Review the call blocks below for your report time. Confirm with production if your time is unclear.</span>`
         : `<span>${esc(x.time)}</span>`;
 
       return `
@@ -1388,7 +1395,7 @@ document.addEventListener('DOMContentLoaded', async () => {
               <div class="scheduleFacts">
 
                 <div>
-                  <b>${showDay ? 'CALL & SHOW TIMES' : personalArrival ? 'YOUR CALL' : 'WHEN'}</b>
+                  <b>${showDay ? 'CALL & SHOW TIMES' : personalArrival ? 'YOUR CALL' : 'OVERALL REHEARSAL WINDOW'}</b>
                   ${timeDetails}
                 </div>
 
@@ -1408,9 +1415,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                   .join('')}
               </div>
 
-              <details>
+              <details${needsCallBlock ? ' open' : ''}>
                 <summary>
-                  View rehearsal details
+                  ${needsCallBlock ? 'Review your call block' : 'View rehearsal details'}
                 </summary>
 
                 <div class="scheduleDetails">
