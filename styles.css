@@ -131,6 +131,23 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
   gap:22px;
 }
 
+.weekCallPrompt{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  padding:20px 22px;
+  margin-bottom:22px;
+  border:1px solid #cdb579;
+  border-radius:16px;
+  background:#fff7e5;
+}
+
+.weekCallPrompt h2{margin:0 0 5px;font:700 1.5rem Georgia,serif}
+.weekCallPrompt p{margin:0;color:#39475a}
+.weekCallPrompt .btn{flex:none}
+@media(max-width:650px){.weekCallPrompt{display:block}.weekCallPrompt .btn{display:flex;margin-top:16px;width:100%}}
+
 .rehearsal{
   background:#fff;
   border:1px solid var(--line);

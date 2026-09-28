@@ -387,7 +387,15 @@ document.addEventListener('DOMContentLoaded', async () => {
       w.title || 'This Week';
 
     weekIntro.textContent =
-      'See each rehearsal’s call times, location, who is called, and what to prepare.';
+      'See this week’s company rehearsal plan. Check My Calls for your own report and scheduled-through times.';
+
+    const weekCallLink = document.querySelector('#weekCallLink');
+    try {
+      if (weekCallLink && localStorage.getItem('chosen2026-person')) {
+        weekCallLink.textContent = 'Open My Calls';
+        weekCallLink.href = 'schedule.html';
+      }
+    } catch (e) {}
 
     weekList.innerHTML = (w.rehearsals || [])
       .map(
@@ -403,7 +411,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             <div class="rehFacts">
               <div>
-                <b>WHEN</b>
+                <b>OVERALL REHEARSAL WINDOW</b>
                 <span>${esc(x.time)}</span>
               </div>
 
