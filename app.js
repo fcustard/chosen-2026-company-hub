@@ -1308,6 +1308,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         ? Object.entries(x.personalCallTimes || {})
             .find(([id]) => samePersonId(id, person.id))?.[1]
         : '';
+      const personalEnd = personalView && person
+        ? Object.entries(x.personalCallEndTimes || {})
+            .find(([id]) => samePersonId(id, person.id))?.[1]
+        : '';
       const timeDetails = showDay
         ? [
             reportTime || `Crew call: ${showDay.crewCall}`,
@@ -1316,7 +1320,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             `Tentative end: ${showDay.tentativeEnd}`
           ].map(line => `<span class="callTimeLine">${esc(line)}</span>`).join('')
         : personalArrival
-          ? `<span class="callTimeLine">Report at ${esc(personalArrival)}</span>`
+          ? `<span class="callTimeLine">Report at ${esc(personalArrival)}</span>${personalEnd ? `<span class="callTimeLine">Scheduled through ${esc(personalEnd)}</span>` : ''}`
         : `<span>${esc(x.time)}</span>`;
 
       return `

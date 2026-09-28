@@ -1153,6 +1153,7 @@ function toPublicRehearsal(record) {
     calledPeople: record.calledPeople || [],
     calledPeopleIds: record.calledPeopleIds || [],
     personalCallTimes: record.personalCallTimes,
+    personalCallEndTimes: record.personalCallEndTimes,
     calledGroups: record.calledGroups || [],
     exactCallStatus: record.exactCallStatus || '',
     callDataVersion: record.callDataVersion || '',
