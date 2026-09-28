@@ -1,0 +1,22 @@
+.helpPage{max-width:900px;margin:0 auto;padding:28px 18px 80px}
+.helpPage .intro{margin:0 0 28px}
+.helpPage h1{font:700 clamp(2.3rem,6vw,3.7rem)/1.1 Georgia,serif;margin:.2em 0}
+.helpPage h2{font:700 clamp(1.6rem,4vw,2.2rem)/1.2 Georgia,serif;margin:0 0 14px}
+.helpPage h3{font-size:1.17rem;line-height:1.35;margin:18px 0 6px}
+.helpPage p,.helpPage li{font-size:1.05rem;line-height:1.65}
+.helpPage li+li{margin-top:6px}
+.helpPage a{text-decoration:underline;text-underline-offset:3px}
+.helpPage section{margin:0 0 24px;padding:24px;border:1px solid var(--line);border-radius:18px;background:var(--p)}
+.helpPage section:target{outline:3px solid #9b6d14;outline-offset:3px}
+.helpPage [id]{scroll-margin-top:95px}
+.helpPage .lead{font-size:1.18rem;max-width:70ch}
+.helpPage .callFirst{background:#fff4d9;border-left:5px solid #a97511;padding:18px 20px;border-radius:12px;margin:18px 0}
+.helpPage .callFirst p{margin:6px 0 0}
+.helpPage .jump{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 28px}
+.helpPage .jump a,.helpPage .action{display:inline-flex;min-height:48px;align-items:center;padding:9px 14px;border-radius:10px;background:var(--n);color:#fff;font-weight:800;text-decoration:none}
+.helpPage .steps{padding-left:1.5rem}
+.helpPage .steps li{padding-left:.2rem;margin-bottom:10px}
+.helpPage .fine{color:#39475a}
+.helpPage dl{margin:0}.helpPage dt{font-weight:800;font-size:1.08rem;margin-top:18px}.helpPage dd{margin:4px 0 0;line-height:1.65;font-size:1.05rem}
+.helpPage .faqItem{border-top:1px solid var(--line);padding:16px 0}.helpPage .faqItem:first-of-type{border-top:0}.helpPage .faqItem h3{margin-top:0}
+@media(max-width:650px){.helpPage{padding:20px 16px 64px}.helpPage section{padding:20px}.helpPage .jump a{width:100%}}
