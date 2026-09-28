@@ -61,6 +61,27 @@ for (const r of rehearsals) {
     );
   }
 
+  if (r.showDay) {
+    const clock = value => new Intl.DateTimeFormat('en-US', {
+      hour: 'numeric', minute: '2-digit', hour12: true,
+      timeZone: 'America/New_York',
+    }).format(new Date(value));
+    const { crewCall, companyCall, showtime, tentativeEnd } = r.showDay;
+    const minute = value => {
+      const match = String(value || '').match(/^(\d{1,2}):(\d{2}) (AM|PM)$/);
+      return match ? (Number(match[1]) % 12) * 60 + Number(match[2]) +
+        (match[3] === 'PM' ? 720 : 0) : NaN;
+    };
+    if (clock(r.start) !== crewCall || clock(r.end) !== tentativeEnd ||
+      ![crewCall, companyCall, showtime, tentativeEnd].every(value =>
+        Number.isFinite(minute(value))) ||
+      !(minute(crewCall) < minute(companyCall) &&
+        minute(companyCall) < minute(showtime) &&
+        minute(showtime) < minute(tentativeEnd))) {
+      errors.push(`REHEARSAL ${r.id}: Show Day start/end and calls disagree`);
+    }
+  }
+
   if (r.personalCallTimes) {
     const calledIds = r.calledPeopleIds || [];
     const timedIds = Object.keys(r.personalCallTimes);

@@ -1,8 +1,9 @@
 
-.companyIntro{padding-bottom:42px}.companyStart{padding-top:0}
+.companyIntro{padding-top:20px;padding-bottom:0;margin-bottom:8px}.companyStart{padding-top:0}
+.companyIntro+section.companySection{padding-top:0;margin-top:8px}
 .companyChoices{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 .companyChoice,.helpGrid a{background:#fff;border:1px solid #ddd4c4;border-radius:16px;padding:20px;text-decoration:none;color:var(--n,#0d1726);display:flex;flex-direction:column;gap:7px}
-.companyChoice span{color:#a46d00;font-weight:800;font-size:13px;letter-spacing:.08em}
+.companyChoice span{color:#805e17;font-weight:800;font-size:1rem;letter-spacing:.08em}
 .companyChoice b,.helpGrid b{font-size:17px}.companyChoice small,.helpGrid span,.sectionLead{color:var(--m,#627083);line-height:1.45}
 .companySection{scroll-margin-top:95px;padding-top:54px;padding-bottom:10px}
 .companySection h2{margin-top:5px;margin-bottom:8px}
@@ -15,7 +16,8 @@
 .roleMeta div{background:#fff;border-radius:10px;padding:13px}.roleMeta small{display:block;color:#a46d00;font-weight:800;letter-spacing:.08em;margin-bottom:5px}
 .roleActions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
 .savedPersonTop{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px}
-.savedBadge{font-size:.68rem;font-weight:900;letter-spacing:.1em;color:#567149;background:#edf5e7;border-radius:999px;padding:6px 9px}
+.savedBadge{font-size:1rem;font-weight:900;letter-spacing:.04em;color:#345128;background:#edf5e7;border-radius:999px;padding:6px 9px}
+.roleMeta small{font-size:1rem}
 .textBtn{border:0;background:transparent;color:#8a5b00;font-weight:800;cursor:pointer;text-decoration:underline}
 .danceRoster{margin-top:14px;background:#fff;border:1px solid #ddd4c4;border-radius:16px;padding:18px;columns:2}
 .danceRoster p{break-inside:avoid;margin:0 0 8px}.danceRoster span{color:var(--m,#627083)}
