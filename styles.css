@@ -517,6 +517,7 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
 .filterHelp,.groupTags span,.dateDow,.dateMonth,.hubTrust,
 .schedulePromise,.myCallsLead,.scheduleCard .status{font-size:1rem !important}
 .brand small,.brand span{font-size:.875rem}
+.sitebar nav a{display:inline-flex;align-items:center;min-height:44px}
 .ey,.k,.rehearsal-date,.rehearsal-section h3,.status,
 .rehFacts b,.rehBody b{font-size:1rem}
 .nextline span,.next .nextNote{font-size:1rem}

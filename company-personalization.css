@@ -4,7 +4,7 @@
 .companyChoices{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 .companyChoice,.helpGrid a{background:#fff;border:1px solid #ddd4c4;border-radius:16px;padding:20px;text-decoration:none;color:var(--n,#0d1726);display:flex;flex-direction:column;gap:7px}
 .companyChoice span{color:#805e17;font-weight:800;font-size:1rem;letter-spacing:.08em}
-.companyChoice b,.helpGrid b{font-size:17px}.companyChoice small,.helpGrid span,.sectionLead{color:var(--m,#627083);line-height:1.45}
+.companyChoice b,.helpGrid b{font-size:17px}.companyChoice small,.helpGrid span,.sectionLead{color:var(--m,#627083);font-size:1rem;line-height:1.45}
 .companySection{scroll-margin-top:95px;padding-top:54px;padding-bottom:10px}
 .companySection h2{margin-top:5px;margin-bottom:8px}
 .roleFinder{background:#fff;border:1px solid #ddd4c4;border-top:3px solid var(--g,#d8aa4b);border-radius:18px;padding:22px;margin-top:20px}
