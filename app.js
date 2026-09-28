@@ -268,6 +268,23 @@ document.addEventListener('DOMContentLoaded', async () => {
     const nrFocus = document.querySelector('#nrFocus');
     const nrNote = document.querySelector('#nrNote');
     const nrLink = document.querySelector('#nrLink');
+    const nrPersonalLink = document.querySelector('#nrPersonalLink');
+    const homeCallCard = document.querySelector('#homeCallCard');
+
+    try {
+      if (localStorage.getItem('chosen2026-person')) {
+        if (nrPersonalLink) {
+          nrPersonalLink.textContent = 'Open My Calls';
+          nrPersonalLink.href = 'schedule.html';
+        }
+        if (homeCallCard) {
+          homeCallCard.href = 'schedule.html';
+          homeCallCard.querySelector('b').textContent = 'Open My Calls';
+          homeCallCard.querySelector('span').textContent =
+            'See your personal rehearsal report and scheduled-through times';
+        }
+      }
+    } catch (e) {}
 
     if (x) {
       const start = new Date(x.start);
@@ -316,7 +333,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
 
       if (nrTime) {
-        nrTime.textContent = timeLabel;
+        nrTime.innerHTML = `<strong>Overall rehearsal window</strong><br>${esc(timeLabel)}`;
       }
 
       if (nrLocation) {

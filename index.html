@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#0d1726">
   <title>Company Hub | CHOSEN 2026</title>
   <link rel="stylesheet" href="styles.css">
-  <script defer src="app.js"></script>
+  <script defer src="app.js?v=20260928-home-call"></script>
 </head>
 
 <body data-page="home">
@@ -53,9 +53,9 @@
           </div>
 
           <p id="nrFocus"></p>
-          <p id="nrNote" class="nextNote">This is the full rehearsal window. Find your personal call time before you leave.</p>
+          <p id="nrNote" class="nextNote">Your report and scheduled-through times may differ. Check My Calls before you leave.</p>
           <div class="actions nextActions">
-            <a class="btn primary" href="company.html#my-role">Find my call</a>
+            <a id="nrPersonalLink" class="btn primary" href="company.html#my-role">Find my call</a>
             <a id="nrLink" class="btn" href="schedule.html">View full schedule</a>
           </div>
         </div>
@@ -69,7 +69,7 @@
       </div>
 
       <div class="dash homeTasks">
-        <a class="card" href="company.html#my-role">
+        <a id="homeCallCard" class="card" href="company.html#my-role">
           <i>01</i>
           <b>Find my role & calls</b>
           <span>Choose your name to see your role and personal schedule</span>
