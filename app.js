@@ -46,6 +46,29 @@ function btn(t, u, c = '') {
       }>${esc(t)}</a>`;
 }
 
+async function selectedCompanyPerson() {
+  try {
+    const saved = localStorage.getItem('chosen2026-person');
+    if (!saved) return null;
+    const response = await fetch('company.json', { cache: 'no-store' });
+    if (!response.ok) return null;
+    const roster = await response.json();
+    return roster.people?.find(person => person.id === saved ||
+      person.legacyIds?.includes(saved)) || null;
+  } catch (_) {
+    return null;
+  }
+}
+
+function showPersonPath(person, message, links) {
+  const panel = document.querySelector('#personPath');
+  if (!panel || !person) return;
+  panel.innerHTML = `<strong>${esc(person.name)} · ${esc(message)}</strong>
+    <div class="actions">${links.map(([label, url]) => btn(label, url)).join('')}
+    <a class="btn" href="company.html#my-role">Change person</a></div>`;
+  panel.hidden = false;
+}
+
 
 /**
  * Resource payloads may arrive in either of these shapes:
@@ -521,10 +544,17 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (document.body.dataset.page === 'scripts') {
     const list = document.querySelector('#scriptsList');
     const scripts = resourceList(d.scripts);
+    const person = await selectedCompanyPerson();
+    const scenes = new Set((person?.scenes || []).map(Number));
+    const ordered = person ? [...scripts].sort((a, b) =>
+      Number(scenes.has(Number(b.scene))) - Number(scenes.has(Number(a.scene)))) : scripts;
+    if (person) showPersonPath(person, `Your scenes: ${(person.scenes || []).join(', ') || 'see all scripts'}`,
+      [['My Calls', 'schedule.html'], ['My Lines roles', 'lines.html'],
+        ...(person.danceEnsemble ? [['Dance tracks', 'music.html']] : [])]);
 
     if (list) {
-      list.innerHTML = scripts.length
-        ? scripts
+      list.innerHTML = ordered.length
+        ? ordered
             .map(
               s => `
                 <article class="row">
@@ -533,13 +563,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                   </div>
 
                   <div>
-                    <h3>${esc(s.title || s.name || 'Untitled script')}</h3>
+                    <h3>Scene ${esc(s.scene || '')}: ${esc(s.title || s.name || 'Untitled script')}${scenes.has(Number(s.scene)) ? ' · Your scene' : ''}</h3>
                     <p>${esc(s.status || 'Current company material')}</p>
                   </div>
 
                   <div class="actions">
-                    ${btn('Read', s.readUrl || s.url, 'primary')}
-                    ${btn('PDF', s.pdfUrl)}
+                    ${btn(`Read Scene ${s.scene}: ${s.title || s.name}`, s.readUrl || s.url, 'primary')}
+                    ${btn(`Scene ${s.scene} PDF`, s.pdfUrl)}
                   </div>
                 </article>
               `
@@ -561,6 +591,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (document.body.dataset.page === 'music') {
     const list = document.querySelector('#musicList');
     let music = resourceList(d.music);
+    const person = await selectedCompanyPerson();
 
     // Keep approved music available when the calendar-driven Hub build is
     // temporarily blocked. data/music.json is independently validated and
@@ -588,6 +619,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
     }
 
+    const danceScenes = new Set((person?.danceScenes || []).map(Number));
+    if (person) showPersonPath(person,
+      danceScenes.size ? `Your dance scenes: ${[...danceScenes].join(', ')}` : 'Current company tracks',
+      [['My Calls', 'schedule.html'], ['My scene scripts', 'scripts.html'], ['My Lines roles', 'lines.html']]);
+    if (danceScenes.size) music = [...music].sort((a, b) =>
+      Number((b.scenes || []).some(scene => danceScenes.has(Number(scene)))) -
+      Number((a.scenes || []).some(scene => danceScenes.has(Number(scene)))));
+
     if (list) {
       list.innerHTML = music.length
         ? music
@@ -597,7 +636,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                   <div class="badge">♪</div>
 
                   <div>
-                    <h3>${esc(x.title || x.name || 'Untitled track')}</h3>
+                    <h3>${esc(x.title || x.name || 'Untitled track')}${(x.scenes || []).some(scene => danceScenes.has(Number(scene))) ? ' · Your dance scene' : ''}</h3>
                     <p>
                       ${esc(x.type || 'Music')} · ${esc(x.status || 'Current')}
                     </p>
@@ -615,8 +654,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                   </div>
 
                   <div class="actions">
-                    ${btn('Open audio', x.playUrl || x.url, 'primary')}
-                    ${btn('Lyrics', x.lyricsUrl)}
+                    ${btn(`Open ${x.title || x.name} audio`, x.playUrl || x.url, 'primary')}
+                    ${x.lyricsUrl && x.lyricsUrl !== '#' ? btn(`${x.title || x.name} lyrics`, x.lyricsUrl) : ''}
                   </div>
                 </article>
               `

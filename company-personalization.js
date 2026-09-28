@@ -44,9 +44,10 @@ document.addEventListener('DOMContentLoaded',async()=>{
       <div class="roleTitle">${cEsc(p.roles)}</div>
       <div class="roleMeta${cards.length===1?' single':''}">${cards.join('')}</div>
       <div class="roleActions">
-        <a class="btn primary" href="schedule.html">My Schedule</a>
-        <a class="btn" href="scripts.html">Scripts</a>
-        <a class="btn" href="this-week.html">This Week</a>
+        <a class="btn primary" href="schedule.html">My Calls</a>
+        <a class="btn" href="scripts.html">My scene scripts</a>
+        <a class="btn" href="lines.html">My Lines roles</a>
+        ${p.danceEnsemble ? '<a class="btn" href="music.html">Dance rehearsal tracks</a>' : ''}
       </div>`;
     result.hidden=false;
 

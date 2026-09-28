@@ -508,3 +508,28 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
 @media(max-width:650px){
   .track-player{max-width:none}
 }
+
+/* Readable navigation and metadata for performers and families. */
+.sub{padding-top:22px;padding-bottom:8px}
+.scheduleIntro{padding-top:20px;padding-bottom:0}
+.scheduleSection{margin-top:12px}
+.card span,.row p,.note,.scheduleFacts b,.scheduleDetails b,
+.filterHelp,.groupTags span,.dateDow,.dateMonth,.hubTrust,
+.schedulePromise,.myCallsLead,.scheduleCard .status{font-size:1rem !important}
+.brand small,.brand span{font-size:.875rem}
+.ey,.k,.rehearsal-date,.rehearsal-section h3,.status,
+.rehFacts b,.rehBody b{font-size:1rem}
+.nextline span,.next .nextNote{font-size:1rem}
+.personPath{background:#fff;border:2px solid var(--g);border-radius:16px;padding:18px;margin-bottom:18px}
+.personPath strong{display:block;font-size:1.15rem;margin-bottom:12px}
+.personPath .actions .btn{min-height:48px}
+.row .actions .btn{max-width:100%;text-align:center}
+.scheduleCard summary{min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:8px}
+@media(max-width:650px){
+  .row{grid-template-columns:54px minmax(0,1fr)}
+  .row .actions{display:grid;grid-template-columns:1fr}
+  .personPath .actions{display:grid;grid-template-columns:1fr}
+  .dateDow,.dateMonth{font-size:1rem !important}
+  .dateBlock{min-width:80px !important}
+  .scheduleCardGrid{grid-template-columns:80px minmax(0,1fr) !important}
+}

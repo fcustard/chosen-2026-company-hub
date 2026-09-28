@@ -343,6 +343,48 @@
     }
   }
 
+  async function showSelectedPerson(roles) {
+    const panel = document.getElementById('personPath');
+    if (!panel) return;
+    try {
+      const id = localStorage.getItem('chosen2026-person');
+      if (!id) return;
+      const response = await fetch('company.json', { cache: 'no-store' });
+      if (!response.ok) return;
+      const roster = await response.json();
+      const person = roster.people?.find(p => p.id === id || p.legacyIds?.includes(id));
+      if (!person) return;
+
+      const assigned = normalize(person.roles || '').split(/\s*\/\s*/)
+        .map(part => part.replace(/\s*\([^)]*\)/g, '').trim());
+      // The roster and spoken script use different word order for these roles.
+      const aliases = {
+        'kevin-hohn': ['INNKEEPER ELI', 'ELI'],
+        'charla-yvonne-cornelius': ['INNKEEPER ANNA', 'ANNA'],
+        'gelvina-maxime': ['NIA'],
+        'james-myers': ['SIMON'],
+      };
+      const keys = new Set([...assigned, ...(aliases[person.id] || [])].map(normalize));
+      const matches = roles.filter(role => keys.has(normalize(role)));
+      const params = new URLSearchParams(window.location.search);
+      if (!params.has('role') && matches.length === 1) {
+        els.roleSelect.value = normalize(matches[0]);
+      }
+      const safe = htmlEscape;
+      panel.innerHTML = `<strong>${safe(person.name)} · ${matches.length ? 'Your Lines roles' :
+        'Choose a spoken role to practice'}</strong>
+        <div class="actions">${matches.map(role =>
+          `<a class="btn" href="lines.html?role=${encodeURIComponent(role)}">Practice ${safe(role)}</a>`).join('')}
+          <a class="btn" href="schedule.html">My Calls</a>
+          <a class="btn" href="scripts.html">My scene scripts</a>
+          ${person.danceEnsemble ? '<a class="btn" href="music.html">Dance tracks</a>' : ''}
+          <a class="btn" href="company.html#my-role">Change person</a></div>`;
+      panel.hidden = false;
+    } catch (_) {
+      // Line practice remains usable if the roster is temporarily unavailable.
+    }
+  }
+
   function fillSceneSelect(roleKey) {
     const linesForRole = allLines.filter(line => line.speakerKey === roleKey);
     const sceneMap = new Map();
@@ -556,6 +598,7 @@
       migrateProgress(allLines);
       migrateSharedProgress(allLines);
       fillRoleSelect(allLines);
+      await showSelectedPerson(uniqueRoles(allLines));
       fillSceneSelect(els.roleSelect.value);
 
       els.loading.hidden = true;

@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0d1726">
   <title>Company | CHOSEN 2026</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="company-personalization.css">
-  <script defer src="app.js?v=ca177f2"></script>
-  <script defer src="company-personalization.js?v=scene-dance-20260927"></script>
+  <link rel="stylesheet" href="styles.css?v=20260928-connected-tasks">
+  <link rel="stylesheet" href="company-personalization.css?v=20260928-connected-tasks">
+  <script defer src="app.js?v=20260928-connected-tasks"></script>
+  <script defer src="company-personalization.js?v=20260928-connected-tasks"></script>
 </head>
 
 <body data-page="company">
@@ -20,7 +20,7 @@
         <span>Company Hub</span>
       </a>
 
-      <button id="menuBtn" class="menu" aria-expanded="false">Menu</button>
+      <button id="menuBtn" class="menu" type="button" aria-controls="nav" aria-expanded="false">Menu</button>
 
       <nav id="nav">
         <a href="this-week.html">This Week</a>
@@ -39,6 +39,20 @@
       <p class="ey">YOUR COMPANY</p>
       <h1>Company</h1>
       <p>Find your role, your scenes, and what you need for rehearsal.</p>
+    </section>
+
+    <section id="my-role" class="companySection">
+      <p class="ey">START HERE</p>
+      <h2>Find your role and calls</h2>
+      <p class="sectionLead">Choose your name to see your roles, scenes, and personal calls. This device remembers your choice; you can change it any time.</p>
+
+      <div class="roleFinder">
+        <label for="castSelect">Find your name</label>
+        <select id="castSelect">
+          <option value="">Select your name…</option>
+        </select>
+        <div id="roleResult" class="roleResult" hidden></div>
+      </div>
     </section>
 
     <section class="companyStart">
@@ -71,20 +85,6 @@
           <b>Get Help</b>
           <small>Absence, WhatsApp, and production help</small>
         </a>
-      </div>
-    </section>
-
-    <section id="my-role" class="companySection">
-      <p class="ey">MY ROLE</p>
-      <h2>Find your role and scenes</h2>
-      <p class="sectionLead">Choose your name to see your roles and scenes. This device remembers your choice; you can change it any time.</p>
-
-      <div class="roleFinder">
-        <label for="castSelect">Start here. Find your name.</label>
-        <select id="castSelect">
-          <option value="">Select your name…</option>
-        </select>
-        <div id="roleResult" class="roleResult" hidden></div>
       </div>
     </section>
 
@@ -161,13 +161,13 @@
         </a>
 
         <a href="scripts.html">
-          <b>Official Scripts</b>
-          <span>Read the current script.</span>
+          <b>My scene scripts</b>
+          <span>Open your scenes in the current script.</span>
         </a>
 
         <a href="music.html">
-          <b>Music</b>
-          <span>Rehearsal tracks and lyrics.</span>
+          <b>Rehearsal tracks</b>
+          <span>Find tracks for your dance scenes.</span>
         </a>
 
         <a data-link="help" href="#">
