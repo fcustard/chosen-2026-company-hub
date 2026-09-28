@@ -79,6 +79,39 @@ for (const r of rehearsals) {
       errors.push(`REHEARSAL ${r.id}: invalid personal call time`);
     }
   }
+
+  if (r.personalCallEndTimes) {
+    const calledIds = r.calledPeopleIds || [];
+    const endIds = Object.keys(r.personalCallEndTimes);
+    const expected = new Set(calledIds);
+    if (
+      !r.personalCallTimes ||
+      r.exactCallStatus !== 'READY' ||
+      endIds.length !== expected.size ||
+      endIds.some(id => !expected.has(id)) ||
+      calledIds.some(id => !r.personalCallEndTimes[id])
+    ) {
+      errors.push(`REHEARSAL ${r.id}: personal end times must cover the exact called roster`);
+    }
+
+    for (const id of endIds) {
+      const arrival = r.personalCallTimes?.[id];
+      const departure = r.personalCallEndTimes[id];
+      if (!/^\d{1,2}:\d{2} (?:AM|PM)$/.test(departure)) {
+        errors.push(`REHEARSAL ${r.id}: invalid personal end time for ${id}`);
+        continue;
+      }
+      const day = r.start?.split(' ').slice(0, 3).join(' ');
+      const start = new Date(`${day} ${arrival}`);
+      const end = new Date(`${day} ${departure}`);
+      if (
+        !arrival || !Number.isFinite(start.getTime()) || !Number.isFinite(end.getTime()) ||
+        start < new Date(r.start) || end > new Date(r.end) || end <= start
+      ) {
+        errors.push(`REHEARSAL ${r.id}: personal window outside the event for ${id}`);
+      }
+    }
+  }
 }
 
 // STOP AUTOMATION IF SOMETHING IS WRONG
