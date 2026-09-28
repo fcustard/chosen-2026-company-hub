@@ -1,14 +1,26 @@
 [
   {
-    "id": "company-guide",
-    "title": "CHOSEN 2026 Company Guide",
+    "id": "getting-started-faq",
+    "title": "New to CHOSEN? Start Here",
     "category": "Company Essentials",
-    "description": "Core company expectations, communication, rehearsal standards, and production information in a searchable PDF.",
+    "description": "Quick answers and practice steps for actors, singers, dancers, and families. Check My Calls for your current time and place.",
     "status": "CURRENT",
     "approved": true,
     "companyPublish": true,
-    "fileUrl": "chosen-2026-company-guide.pdf",
-    "linkLabel": "Open guide",
+    "fileUrl": "getting-started.html",
+    "linkLabel": "Open beginner guide and FAQ",
+    "featured": true
+  },
+  {
+    "id": "company-guide",
+    "title": "CHOSEN 2026 Company Guide",
+    "category": "Company Essentials",
+    "description": "Company expectations, rehearsal, youth safety, and show procedures in an accessible web guide.",
+    "status": "CURRENT",
+    "approved": true,
+    "companyPublish": true,
+    "fileUrl": "company-guide.html",
+    "linkLabel": "Read the Company Guide",
     "featured": true
   },
   {
