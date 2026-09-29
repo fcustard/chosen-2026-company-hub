@@ -1,7 +1,9 @@
 [
   {
     "title": "Welcome to Nazareth",
-    "scenes": [1],
+    "scenes": [
+      1
+    ],
     "type": "Opening Number",
     "status": "Current rehearsal track",
     "approved": true,
@@ -21,10 +23,25 @@
   {
     "title": "Chosen",
     "type": "Mary",
-    "status": "Track in development",
-    "approved": false,
-    "companyPublish": false,
-    "playUrl": "#",
+    "status": "Current rehearsal track",
+    "approved": true,
+    "companyPublish": true,
+    "playUrl": "assets/audio/03_Chosen_Rehearsal_v1.mp3",
+    "lyricsUrl": "#",
+    "scenes": [
+      3
+    ]
+  },
+  {
+    "title": "Chosen (Instrumental)",
+    "scenes": [
+      3
+    ],
+    "type": "Instrumental rehearsal",
+    "status": "Current rehearsal track",
+    "approved": true,
+    "companyPublish": true,
+    "playUrl": "assets/audio/03_Chosen_Instrumental_Rehearsal_v1.mp3",
     "lyricsUrl": "#"
   },
   {
@@ -56,7 +73,9 @@
   },
   {
     "title": "What Will He Be?",
-    "scenes": [9],
+    "scenes": [
+      9
+    ],
     "type": "Children / Company",
     "status": "Current rehearsal track",
     "approved": true,
