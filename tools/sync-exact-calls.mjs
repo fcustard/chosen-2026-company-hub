@@ -14,6 +14,7 @@ const FINAL_PATH = `${DATA_DIR}/rehearsals.json`;
 const TEMP_PATH = `${FINAL_PATH}.tmp`;
 const PROBE_ONLY = process.env.CALENDAR_SYNC_MODE === 'probe';
 const SEED_BASELINE = process.env.CALENDAR_SYNC_MODE === 'seed';
+const VERIFY_ONLY = process.env.CALENDAR_SYNC_MODE === 'verify';
 const BASELINE_PATH = `${DATA_DIR}/calendar-source-baseline.json`;
 
 /*
@@ -413,6 +414,10 @@ rehearsals = merged.rehearsals;
 console.log(`Guarded calendar merge: ${merged.changes.length} event(s) changed.`);
 for (const change of merged.changes) {
   console.log(`${change.id}: ${change.fields.join(', ')}`);
+}
+if (VERIFY_ONLY) {
+  console.log('READ-ONLY guarded merge verified; no Hub files were changed.');
+  process.exit(0);
 }
 
 /*
