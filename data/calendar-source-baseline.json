@@ -209,7 +209,9 @@
       "calledPeople": "b178172601b19c9b5c2909c0c38ed205242ad529da310da6e261532770e0e4ab",
       "calledPeopleIds": "c43ca8029958461bd4a8f6ee1e309b7261b752a3d387ffa05aebe9bbb0b6fce7",
       "calledGroups": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865"
+      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865",
+      "personalCallTimes": "1122f70499858408c6cd765c8f1cff520dcb2f0ff452da161904f9fef8efcc2e",
+      "personalCallEndTimes": "8565a885703c2c4c1666c2776eb16b1491f2e574f642b0eade91d778bfa22774"
     },
     "CHOSEN-20261001-REH": {
       "start": "edaa08a9ef4fd71010a34b313586052023b5c894931c29000418d4e88d49d8af",
@@ -220,10 +222,12 @@
       "called": "18764d2a39f1a5aeb5f097dbf86c47aad04abe567f61052b357b2a25636477fc",
       "work": "82fc47393b873f9fe1980dd4ed4eb51694d51ddb653a7f7cccf777b7d7449cfd",
       "prep": "82fc47393b873f9fe1980dd4ed4eb51694d51ddb653a7f7cccf777b7d7449cfd",
-      "calledPeople": "4df8282a2892591c03094be7e44ae6ae33c679ab20f39aaef921fb5e0c415b2f",
-      "calledPeopleIds": "89515bbf8c9e85a138b669126a742f2919f1e6d60ea0a7f34fd5a9e012105881",
-      "calledGroups": "9ef508e601057b73830ba1c7ee052847ecf3523e09c5862ca5382cd229a37f55",
-      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865"
+      "calledPeople": "2b23bce1c487c97da35613372c0a0b33aa1f7b36829edc5057f4e8bb941fc9df",
+      "calledPeopleIds": "ba750c06bda7440b1ecc5865c7e89861b18cefab49b7fbdf0598fb59ccf7654c",
+      "calledGroups": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865",
+      "personalCallTimes": "1b0699900410b8e08348f9412d2217698a785ed5b98b81a419e5c328b20c7010",
+      "personalCallEndTimes": "90f89bcf80917855f88eab78b9dc676877a4f5736ce6d51ffad103f552094689"
     },
     "CHOSEN-20261003-REH": {
       "start": "2167fa081420258fd13a9e362e160048ba0fb1045b1b61354f54e455e9916077",
@@ -234,10 +238,12 @@
       "called": "9d461dcf2ff923f4ccd20ace8c5fcd1af93549b4783724b85730263e986e9131",
       "work": "144ee47a04dbad9f4166c35b79af9d40c72d35fb3c01ab5e05a97d7f9761bbf0",
       "prep": "ba4de5959d915becfb36d75da12c6309cc0d9463f5b088393c199bffd1166de5",
-      "calledPeople": "71f89a1bbe5efa521ea1996855e81b30ad492e470134a719b5e9a20dd233a56e",
-      "calledPeopleIds": "1725c02976ee5dcd440bf60dcd5258abe7fb8b3b25cdf5ab63a6ceb2191cf937",
-      "calledGroups": "9ef508e601057b73830ba1c7ee052847ecf3523e09c5862ca5382cd229a37f55",
-      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865"
+      "calledPeople": "9bf5f836fd63c0fc3221f6f6293de703a53506cfcaccab2e6f7e59109a54a9e6",
+      "calledPeopleIds": "22fc4f231eec065d98132cfaa6eeadc555abe09d20f99e0a53edf1cb035de425",
+      "calledGroups": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865",
+      "personalCallTimes": "52c1962a225d14083b4818939f31e71903744f5589ae0a095a82aa8355f50163",
+      "personalCallEndTimes": "82ce52bad9093d09cc5f5ac759ca9157c82e652be138846532f4cc7cc2761f4f"
     },
     "CHOSEN-20261007-REH": {
       "start": "a2b046c8187f9d15a5f96692c9f3ed2f4e6cfaeee4e9b16768500d89175a896d",
@@ -251,7 +257,9 @@
       "calledPeople": "ef837532ad55aebe92bdc12e054dc7487b3405c3dc703540a2be55ea9385c3b4",
       "calledPeopleIds": "0850af7c7387eb3dfc1022402e9bd410a18f81dfdf51958d4dc7badc3fc105a6",
       "calledGroups": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865"
+      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865",
+      "personalCallTimes": "c76f6710a60c10b7fba325b657abcb756b30602dca10e61bd88ea3764440a9f4",
+      "personalCallEndTimes": "9c811e8ffca22cb460bf706515fa3d3ad3dd471066c066481d108e6975ab316f"
     },
     "CHOSEN-20261008-REH": {
       "start": "69f3ddcca9c193c09caaa062fcf69ec5f8166520ba751543952402be949bae65",
@@ -262,10 +270,12 @@
       "called": "722ce06ac6b8eb0172d32becd79e48554a1df207b08caa7d6bc058fa6eac3ecf",
       "work": "116c870c4de3ed5dec4f4f6dc09fd946620989ac8e49354cfdf507db02b5d565",
       "prep": "4cfd6a8f769ca5c7c979eddb47d6a7cad26427b86ba01d87a79b8639d457e515",
-      "calledPeople": "ef837532ad55aebe92bdc12e054dc7487b3405c3dc703540a2be55ea9385c3b4",
-      "calledPeopleIds": "0850af7c7387eb3dfc1022402e9bd410a18f81dfdf51958d4dc7badc3fc105a6",
-      "calledGroups": "9ef508e601057b73830ba1c7ee052847ecf3523e09c5862ca5382cd229a37f55",
-      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865"
+      "calledPeople": "fd2065ed2807221d22c66bb0b8a988aa21a182771562856a760808ee17df0725",
+      "calledPeopleIds": "6133f796e405e8372a30a4a8eefdee9cf8f4f11d16572cc3432d8e186b7e0c36",
+      "calledGroups": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865",
+      "personalCallTimes": "ebad988bb7994f58ecf7d98c25a32a321860712259a596324c643f48a7ec293d",
+      "personalCallEndTimes": "24ce15d3a4d6f3c2a09797e2cf64daf1c97b7d96b9270b4e818fab26cea11053"
     },
     "CHOSEN-20261010-REH": {
       "start": "b8873bd33a9c45e40ad25f910d93414a6194cc72d544fe3d756ca9b7cc8a61f1",
