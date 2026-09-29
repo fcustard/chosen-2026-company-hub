@@ -1,14 +1,9 @@
 /**
- * Add this helper to the bound Master Calendar Apps Script project, then call
- * attachPersonalCallsToHubFeed_(rehearsals, spreadsheet) immediately before
- * serializing the feed=hub-v2 response. The Personal Calls tab is editable in
- * the Master Calendar; the Hub must never scrape display text for these times.
- *
- * Example inside the existing hub-v2 branch:
- *   payload.rehearsals = attachPersonalCallsToHubFeed_(
- *     payload.rehearsals, SpreadsheetApp.openById(MASTER_CALENDAR_ID));
- *
- * Deploy a new version of the existing web app after integrating this helper.
+ * Source for the bound Master Calendar Apps Script deployment (version 14).
+ * The hub-v2 builder calls:
+ *   const rehearsals = attachPersonalCallsToHubFeed_(
+ *     exactReadRehearsals_(master, peopleIndex), calendarSS);
+ * Personal Calls is the editable source of individual report and release times.
  */
 function attachPersonalCallsToHubFeed_(rehearsals, spreadsheet) {
   const sheet = spreadsheet.getSheetByName('Personal Calls');
@@ -22,7 +17,7 @@ function attachPersonalCallsToHubFeed_(rehearsals, spreadsheet) {
 
   const byEvent = new Map();
   const clock = value => {
-    const match = String(value || '').trim().match(/^(\d{1,2}):(\d{2}) (AM|PM)$/);
+    const match = String(value || '').trim().match(/^([0-9]{1,2}):([0-9]{2}) (AM|PM)$/);
     if (!match || Number(match[1]) < 1 || Number(match[1]) > 12 ||
         Number(match[2]) > 59) return NaN;
     return (Number(match[1]) % 12) * 60 + Number(match[2]) +
@@ -70,4 +65,11 @@ function attachPersonalCallsToHubFeed_(rehearsals, spreadsheet) {
       rows.map(row => [row.personId, row.release]));
   }
   return rehearsals;
+}
+
+function validatePersonalCallsFeed() {
+  const data = JSON.parse(buildChosenHubV2Response_().getContent());
+  const enriched = data.rehearsals.filter(event => event.personalCallTimes);
+  if (enriched.length !== 5) throw new Error('Expected five personal-call events, got ' + enriched.length);
+  Logger.log('Validated ' + enriched.length + ' personal-call events and ' + enriched.reduce((n, event) => n + Object.keys(event.personalCallTimes).length, 0) + ' person windows.');
 }
