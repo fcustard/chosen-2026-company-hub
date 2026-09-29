@@ -77,7 +77,7 @@ jobs:
           exit 1
 
       - name: Sync script scenes from Master Script document
-        if: ${{ env.SCRIPT_DOC_FEED_URL != '' && !contains(github.event.head_commit.message, '[probe calendar]') }}
+        if: ${{ env.SCRIPT_DOC_FEED_URL != '' && !contains(github.event.head_commit.message, '[probe calendar]') && !contains(github.event.head_commit.message, '[seed calendar]') }}
         run: node tools/sync-script-doc.mjs
 
       - name: Skip script sync when Master Script feed is not configured
@@ -90,6 +90,14 @@ jobs:
         env:
           CALENDAR_FEED_URL: ${{ vars.CALENDAR_FEED_URL }}
           CALENDAR_SYNC_MODE: probe
+        run: node tools/sync-exact-calls.mjs
+
+      - name: Seed reviewed Master Calendar source fingerprints
+        if: ${{ github.event_name == 'push' && contains(github.event.head_commit.message, '[seed calendar]') }}
+        timeout-minutes: 3
+        env:
+          CALENDAR_FEED_URL: ${{ vars.CALENDAR_FEED_URL }}
+          CALENDAR_SYNC_MODE: seed
         run: node tools/sync-exact-calls.mjs
 
       - name: Sync exact rehearsal calls from Master Calendar
@@ -192,6 +200,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
 
           git add data/rehearsals.json || true
+          git add data/calendar-source-baseline.json || true
           git add data/company.json || true
           git add company.json || true
           git add data/content.json || true

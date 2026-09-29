@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import fs from 'node:fs/promises';
+import { createCalendarBaseline, mergeCalendarRehearsals } from './calendar-merge.mjs';
 
 const configured = process.env.CALENDAR_FEED_URL;
 
@@ -12,6 +13,8 @@ const DATA_DIR = 'data';
 const FINAL_PATH = `${DATA_DIR}/rehearsals.json`;
 const TEMP_PATH = `${FINAL_PATH}.tmp`;
 const PROBE_ONLY = process.env.CALENDAR_SYNC_MODE === 'probe';
+const SEED_BASELINE = process.env.CALENDAR_SYNC_MODE === 'seed';
+const BASELINE_PATH = `${DATA_DIR}/calendar-source-baseline.json`;
 
 /*
  * IMPORTANT
@@ -390,6 +393,28 @@ if (PROBE_ONLY) {
   process.exit(0);
 }
 
+if (SEED_BASELINE) {
+  const existing = JSON.parse(await fs.readFile(FINAL_PATH, 'utf8'));
+  const existingIds = new Set(existing.map(r => r.id));
+  const incomingIds = new Set(rehearsals.map(r => r.id));
+  if (existingIds.size !== incomingIds.size ||
+      [...existingIds].some(id => !incomingIds.has(id))) {
+    throw new Error('Refusing to seed: feed event IDs differ from the reviewed Hub schedule.');
+  }
+  await fs.writeFile(BASELINE_PATH, JSON.stringify(createCalendarBaseline(rehearsals), null, 2) + '\n');
+  console.log(`Seeded source fingerprints for ${rehearsals.length} events; published calls unchanged.`);
+  process.exit(0);
+}
+
+const published = JSON.parse(await fs.readFile(FINAL_PATH, 'utf8'));
+const baseline = JSON.parse(await fs.readFile(BASELINE_PATH, 'utf8'));
+const merged = mergeCalendarRehearsals(rehearsals, published, baseline);
+rehearsals = merged.rehearsals;
+console.log(`Guarded calendar merge: ${merged.changes.length} event(s) changed.`);
+for (const change of merged.changes) {
+  console.log(`${change.id}: ${change.fields.join(', ')}`);
+}
+
 /*
  * The established Hub expects data/rehearsals.json to be a plain rehearsal
  * ARRAY. Do not write the Apps Script envelope here.
@@ -407,6 +432,12 @@ await fs.writeFile(
  * failed earlier.
  */
 await fs.rename(TEMP_PATH, FINAL_PATH);
+await fs.writeFile(
+  `${BASELINE_PATH}.tmp`,
+  JSON.stringify(merged.baseline, null, 2) + '\n',
+  'utf8'
+);
+await fs.rename(`${BASELINE_PATH}.tmp`, BASELINE_PATH);
 
 const ready = rehearsals.filter(
   r => r.exactCallStatus === 'READY'
