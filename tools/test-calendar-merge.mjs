@@ -48,6 +48,14 @@ assert.throws(
   /personal report\/release times need review/
 );
 assert.throws(
+  () => mergeCalendarRehearsals(
+    [{ ...source[0], start: 'Dec 20, 2026 2:00 PM' }],
+    reviewed,
+    baseline
+  ),
+  /personal report\/release times need review/
+);
+assert.throws(
   () => mergeCalendarRehearsals([], reviewed, baseline),
   /disappeared from the Master Calendar feed/
 );

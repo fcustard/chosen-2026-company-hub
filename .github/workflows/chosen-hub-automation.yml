@@ -77,7 +77,7 @@ jobs:
           exit 1
 
       - name: Sync script scenes from Master Script document
-        if: ${{ env.SCRIPT_DOC_FEED_URL != '' && !contains(github.event.head_commit.message, '[probe calendar]') && !contains(github.event.head_commit.message, '[seed calendar]') && !contains(github.event.head_commit.message, '[verify calendar]') }}
+        if: ${{ env.SCRIPT_DOC_FEED_URL != '' && !contains(github.event.head_commit.message, '[probe calendar]') && !contains(github.event.head_commit.message, '[seed calendar]') && !contains(github.event.head_commit.message, '[verify calendar]') && !contains(github.event.head_commit.message, '[activate calendar]') }}
         run: node tools/sync-script-doc.mjs
 
       - name: Skip script sync when Master Script feed is not configured
@@ -113,27 +113,26 @@ jobs:
 
       - name: Sync exact rehearsal calls from Master Calendar
         id: calendar_sync
-        # Paused while the remaining scene-specific calls are reconciled.
-        # Keep the source sheet and published rehearsal data reviewable without
-        # allowing scheduled runs to replace the reviewed public call list.
-        if: ${{ false }}
+        # Reviewed Hub overrides survive unchanged source rows. A conflicting
+        # source edit fails rather than silently replacing personal call times.
+        if: ${{ github.event_name != 'repository_dispatch' && !contains(github.event.head_commit.message, '[skip calendar]') && !contains(github.event.head_commit.message, '[probe calendar]') && !contains(github.event.head_commit.message, '[seed calendar]') && !contains(github.event.head_commit.message, '[verify calendar]') }}
         timeout-minutes: 3
         env:
           CALENDAR_FEED_URL: ${{ vars.CALENDAR_FEED_URL }}
         run: node tools/sync-exact-calls.mjs
 
-      - name: Report rejected Master Calendar feed
+      - name: Report stopped Master Calendar update
         if: ${{ failure() && steps.calendar_sync.outcome == 'failure' }}
         run: |
-          echo "::error title=CHOSEN Hub calendar update stopped::The feed=hub-v2 response was rejected. Existing rehearsal data was preserved, and no stale-data publish was allowed."
+          echo "::error title=CHOSEN Hub calendar update stopped::The Master Calendar feed failed validation or conflicted with reviewed calls. Existing published rehearsal data was preserved."
           {
-            echo "## Master Calendar feed rejected"
+            echo "## Master Calendar update needs review"
             echo
-            echo "The \`feed=hub-v2\` endpoint returned HTML, invalid JSON, an HTTP error, or data that failed schema validation."
+            echo "The \`feed=hub-v2\` response failed, or a changed call conflicts with reviewed Hub data."
             echo
             echo "- The existing \`data/rehearsals.json\` file was preserved."
             echo "- The build and publish steps were stopped."
-            echo "- Review the **Sync exact rehearsal calls from Master Calendar** log for the precise response error."
+            echo "- Review the **Sync exact rehearsal calls from Master Calendar** log for the precise event and field."
           } >> "$GITHUB_STEP_SUMMARY"
           exit 1
 

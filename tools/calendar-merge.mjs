@@ -5,10 +5,22 @@ const SOURCE_EXCLUDED_FIELDS = new Set([
   'personalCallEndTimes', 'showDay'
 ]);
 const CALL_FIELDS = new Set(['called', 'calledPeople', 'calledPeopleIds', 'calledGroups', 'exactCallStatus']);
+const WINDOW_DEPENDENCIES = new Set([...CALL_FIELDS, 'start', 'end']);
 
 function canonical(value, field) {
   if (field === 'start' || field === 'end') {
     if (value == null) return null;
+    const sheetTime = typeof value === 'string' && value.match(
+      /^([A-Za-z]{3}) (\d{1,2}), (\d{4}) (\d{1,2}):(\d{2}) (AM|PM)$/
+    );
+    if (sheetTime) {
+      const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      const month = months.indexOf(sheetTime[1]) + 1;
+      let hour = Number(sheetTime[4]) % 12;
+      if (sheetTime[6] === 'PM') hour += 12;
+      return `${sheetTime[3]}-${String(month).padStart(2, '0')}-${sheetTime[2].padStart(2, '0')} ${String(hour).padStart(2, '0')}:${sheetTime[5]}`;
+    }
     const date = new Date(value);
     if (!Number.isNaN(date.getTime())) {
       // Both the Sheet feed and a reviewed ISO offset describe local wall
@@ -103,7 +115,7 @@ export function mergeCalendarRehearsals(incoming, published, baseline) {
         errors.push(`${source.id}: Master Calendar changed ${field}, which has a reviewed Hub override.`);
         continue;
       }
-      if (CALL_FIELDS.has(field) && (prior.personalCallTimes || prior.personalCallEndTimes)) {
+      if (WINDOW_DEPENDENCIES.has(field) && (prior.personalCallTimes || prior.personalCallEndTimes)) {
         if (publishedHash !== newHash) {
           errors.push(`${source.id}: ${field} changed; personal report/release times need review.`);
           continue;
