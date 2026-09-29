@@ -84,6 +84,14 @@ jobs:
         if: ${{ env.SCRIPT_DOC_FEED_URL == '' && github.event_name != 'repository_dispatch' }}
         run: echo "SCRIPT_DOC_FEED_URL is not configured. Skipping script scene sync and continuing with existing script files."
 
+      - name: Probe Master Calendar feed without publishing
+        if: ${{ github.event_name == 'push' && contains(github.event.head_commit.message, '[probe calendar]') }}
+        timeout-minutes: 3
+        env:
+          CALENDAR_FEED_URL: ${{ vars.CALENDAR_FEED_URL }}
+          CALENDAR_SYNC_MODE: probe
+        run: node tools/sync-exact-calls.mjs
+
       - name: Sync exact rehearsal calls from Master Calendar
         id: calendar_sync
         # Paused while the remaining scene-specific calls are reconciled.

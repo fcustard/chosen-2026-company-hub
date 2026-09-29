@@ -11,6 +11,7 @@ if (!configured) {
 const DATA_DIR = 'data';
 const FINAL_PATH = `${DATA_DIR}/rehearsals.json`;
 const TEMP_PATH = `${FINAL_PATH}.tmp`;
+const PROBE_ONLY = process.env.CALENDAR_SYNC_MODE === 'probe';
 
 /*
  * IMPORTANT
@@ -349,6 +350,44 @@ if (!rehearsals) {
   }
 
   process.exit(1);
+}
+
+if (PROBE_ONLY) {
+  const existing = JSON.parse(await fs.readFile(FINAL_PATH, 'utf8'));
+  const byId = new Map(existing.map(record => [
+    normalizeText(record.id || record.eventKey),
+    record
+  ]));
+  const incomingIds = new Set();
+  const watchedFields = [
+    'start', 'end', 'title', 'location', 'status', 'called',
+    'work', 'prep', 'calledPeopleIds', 'calledGroups',
+    'exactCallStatus', 'personalCallTimes', 'personalCallEndTimes'
+  ];
+  const changed = [];
+  for (const incoming of rehearsals) {
+    incomingIds.add(incoming.id);
+    const previous = byId.get(incoming.id);
+    const fields = previous
+      ? watchedFields.filter(field =>
+          JSON.stringify(previous[field] ?? null) !==
+          JSON.stringify(incoming[field] ?? null)
+        )
+      : ['NEW'];
+    if (fields.length) changed.push({ id: incoming.id, fields });
+  }
+  const missing = [...byId.keys()].filter(id => !incomingIds.has(id));
+  console.log('READ-ONLY Exact Calls probe; no Hub files were changed.');
+  console.log(JSON.stringify({
+    incomingCount: rehearsals.length,
+    existingCount: existing.length,
+    excludedNoRehearsal,
+    incomingWithPersonalStart: rehearsals.filter(r => r.personalCallTimes).length,
+    incomingWithPersonalEnd: rehearsals.filter(r => r.personalCallEndTimes).length,
+    missing,
+    changed
+  }, null, 2));
+  process.exit(0);
 }
 
 /*
