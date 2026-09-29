@@ -111,7 +111,10 @@ jobs:
       - name: Test guarded calendar merge
         run: node tools/test-calendar-merge.mjs
 
-      - name: Test Apps Script personal call feed helper\n        run: node tools/test-apps-script-personal-calls.mjs\n\n      - name: Sync exact rehearsal calls from Master Calendar
+      - name: Test Apps Script personal call feed helper
+        run: node tools/test-apps-script-personal-calls.mjs
+
+      - name: Sync exact rehearsal calls from Master Calendar
         id: calendar_sync
         # Reviewed Hub overrides survive unchanged source rows. A conflicting
         # source edit fails rather than silently replacing personal call times.
