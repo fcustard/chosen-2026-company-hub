@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T19:59:49.933Z",
+  "updated": "2026-09-29T20:13:52.982Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -7571,7 +7571,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "02",
@@ -7585,7 +7585,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "03",
@@ -7599,7 +7599,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "04",
@@ -7613,7 +7613,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "05",
@@ -7627,7 +7627,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "06",
@@ -7641,7 +7641,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "07",
@@ -7655,7 +7655,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "08",
@@ -7669,7 +7669,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "09",
@@ -7683,7 +7683,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "10",
@@ -7697,7 +7697,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "11",
@@ -7711,7 +7711,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "12",
@@ -7725,7 +7725,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       }
     ],
     "current": [
@@ -7741,7 +7741,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "02",
@@ -7755,7 +7755,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "03",
@@ -7769,7 +7769,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "04",
@@ -7783,7 +7783,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "05",
@@ -7797,7 +7797,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "06",
@@ -7811,7 +7811,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "07",
@@ -7825,7 +7825,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "08",
@@ -7839,7 +7839,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "09",
@@ -7853,7 +7853,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "10",
@@ -7867,7 +7867,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "11",
@@ -7881,7 +7881,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       },
       {
         "scene": "12",
@@ -7895,11 +7895,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-29T19:59:38.705Z"
+        "updated": "2026-09-29T20:13:37.926Z"
       }
     ],
     "count": 12,
-    "updated": "2026-09-29T19:59:49.936Z",
+    "updated": "2026-09-29T20:13:52.983Z",
     "kind": "scripts"
   },
   "music": {
@@ -7920,6 +7920,36 @@
         "current": false
       },
       {
+        "title": "Chosen",
+        "type": "Mary",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "assets/audio/03_Chosen_Rehearsal_v1.mp3",
+        "lyricsUrl": "#",
+        "scenes": [
+          3
+        ],
+        "id": "chosen",
+        "name": "Chosen",
+        "current": false
+      },
+      {
+        "title": "Chosen (Instrumental)",
+        "scenes": [
+          3
+        ],
+        "type": "Instrumental rehearsal",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "assets/audio/03_Chosen_Instrumental_Rehearsal_v1.mp3",
+        "lyricsUrl": "#",
+        "id": "chosen-instrumental",
+        "name": "Chosen (Instrumental)",
+        "current": false
+      },
+      {
         "title": "What Will He Be?",
         "scenes": [
           9
@@ -7952,6 +7982,36 @@
         "current": false
       },
       {
+        "title": "Chosen",
+        "type": "Mary",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "assets/audio/03_Chosen_Rehearsal_v1.mp3",
+        "lyricsUrl": "#",
+        "scenes": [
+          3
+        ],
+        "id": "chosen",
+        "name": "Chosen",
+        "current": false
+      },
+      {
+        "title": "Chosen (Instrumental)",
+        "scenes": [
+          3
+        ],
+        "type": "Instrumental rehearsal",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "assets/audio/03_Chosen_Instrumental_Rehearsal_v1.mp3",
+        "lyricsUrl": "#",
+        "id": "chosen-instrumental",
+        "name": "Chosen (Instrumental)",
+        "current": false
+      },
+      {
         "title": "What Will He Be?",
         "scenes": [
           9
@@ -7967,8 +8027,8 @@
         "current": false
       }
     ],
-    "count": 2,
-    "updated": "2026-09-29T19:59:49.936Z",
+    "count": 4,
+    "updated": "2026-09-29T20:13:52.983Z",
     "kind": "music"
   }
 }
