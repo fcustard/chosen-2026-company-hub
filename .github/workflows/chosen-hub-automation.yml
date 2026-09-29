@@ -77,7 +77,7 @@ jobs:
           exit 1
 
       - name: Sync script scenes from Master Script document
-        if: ${{ env.SCRIPT_DOC_FEED_URL != '' }}
+        if: ${{ env.SCRIPT_DOC_FEED_URL != '' && !contains(github.event.head_commit.message, '[probe calendar]') }}
         run: node tools/sync-script-doc.mjs
 
       - name: Skip script sync when Master Script feed is not configured
