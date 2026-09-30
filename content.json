@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T02:08:45.641Z",
+  "updated": "2026-09-30T02:43:32.636Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -1788,11 +1788,11 @@
         "dateLabel": "October 7, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal -Scene 5, 11 & 12",
+        "title": "CHOSEN Rehearsal -Scene 1 & 9 (Dance Only) 5, 11 & 12",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -1891,7 +1891,7 @@
         "callDataVersion": 3,
         "work": "Scene 5- review lines, learn blocking & choreography\nScene 11 & 12-dialouge and blocking",
         "focus": "",
-        "prep": "Scene 5 Review, Start Choreography; Scene 11 &12 Lines and Blocking",
+        "prep": "Scene 1 & 9 Dancers Practice Dance with no instructions; Scene 5 Review, Start Choreography; Scene 11 &12 Lines and Blocking",
         "notice": "",
         "changeType": ""
       },
@@ -1906,11 +1906,11 @@
         "dateLabel": "October 8, 2026",
         "dayLabel": "Thursday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Choreo Cleanup Scenes 1 & 9 (Dance Only); 5, 11, &12",
+        "title": "CHOSEN Rehearsal - Choreography Cleanup — Scenes 1, 9(Dance Only) & 5; Scenes 11 & 12",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — ALL Dancers \n\n8:30–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30–8:30 PM — ALL Dancers \n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -2138,15 +2138,12 @@
         "dateLabel": "October 10, 2026",
         "dayLabel": "Saturday",
         "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 12 — studio only",
+        "title": "CHOSEN Rehearsal -Scene 4, 5, 11, 12 (Actors ONLY)",
         "status": "PENDING",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Scene 11 & 12 Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 PM–2:00 PM-Scene 12 Full Company",
-        "callGroups": [
-          "Full Company",
-          "Dancers"
-        ],
+        "called": "10:00 AM–12:00 PM- Scene 11 & 12 Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n\n12:00 PM–2:00 PM-Scene 4 & 5",
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Gelvina Maxime"
@@ -2177,6 +2174,33 @@
           },
           {
             "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
           }
         ],
         "calledPeopleIds": [
@@ -2189,15 +2213,21 @@
           "P-edison-browne",
           "P-jayden-harris",
           "P-delvin-rogers-jr",
-          "P-cedrick-massey"
+          "P-cedrick-massey",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-shanice-palmer",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
         ],
-        "calledGroups": [
-          "Full Company",
-          "Dancers"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Finale choreography/music/blocking that works in studio; no main-stage work",
+        "work": "choreography/music/blocking/ dialouge",
         "focus": "",
         "prep": "",
         "notice": "",
@@ -2308,11 +2338,11 @@
         "dateLabel": "October 15, 2026",
         "dayLabel": "Thursday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 2, 3, 6, 8",
+        "title": "CHOSEN Rehearsal - Scene 1 & 9 ( Dance Only); Scene  2, 3,5, 6, 8",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30PM–8:30 PM- Dancers\n 6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick), Elizabeth, adult principals",
+        "called": "6:30PM–8:30 PM- Dancers\n\n8:00PM–9:30 PM- Scene 5 \n\n 6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
         "callGroups": [
           "Dancers"
         ],
@@ -2327,14 +2357,26 @@
             "displayName": "Cedrick Massey"
           },
           {
-            "displayName": "Audrey Howell-McClenney"
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
           }
         ],
         "calledPeopleIds": [
           "P-jordyn-starks",
           "P-caleb-davilmar",
           "P-cedrick-massey",
-          "P-audrey-howell-mcclenney"
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
         ],
         "calledGroups": [
           "Dancers"
@@ -5231,11 +5273,11 @@
         "dateLabel": "October 7, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal -Scene 5, 11 & 12",
+        "title": "CHOSEN Rehearsal -Scene 1 & 9 (Dance Only) 5, 11 & 12",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -5334,7 +5376,7 @@
         "callDataVersion": 3,
         "work": "Scene 5- review lines, learn blocking & choreography\nScene 11 & 12-dialouge and blocking",
         "focus": "",
-        "prep": "Scene 5 Review, Start Choreography; Scene 11 &12 Lines and Blocking",
+        "prep": "Scene 1 & 9 Dancers Practice Dance with no instructions; Scene 5 Review, Start Choreography; Scene 11 &12 Lines and Blocking",
         "notice": "",
         "changeType": ""
       },
@@ -5349,11 +5391,11 @@
         "dateLabel": "October 8, 2026",
         "dayLabel": "Thursday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Choreo Cleanup Scenes 1 & 9 (Dance Only); 5, 11, &12",
+        "title": "CHOSEN Rehearsal - Choreography Cleanup — Scenes 1, 9(Dance Only) & 5; Scenes 11 & 12",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — ALL Dancers \n\n8:30–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30–8:30 PM — ALL Dancers \n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -5581,15 +5623,12 @@
         "dateLabel": "October 10, 2026",
         "dayLabel": "Saturday",
         "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 12 — studio only",
+        "title": "CHOSEN Rehearsal -Scene 4, 5, 11, 12 (Actors ONLY)",
         "status": "PENDING",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Scene 11 & 12 Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 PM–2:00 PM-Scene 12 Full Company",
-        "callGroups": [
-          "Full Company",
-          "Dancers"
-        ],
+        "called": "10:00 AM–12:00 PM- Scene 11 & 12 Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n\n12:00 PM–2:00 PM-Scene 4 & 5",
+        "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Gelvina Maxime"
@@ -5620,6 +5659,33 @@
           },
           {
             "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
           }
         ],
         "calledPeopleIds": [
@@ -5632,15 +5698,21 @@
           "P-edison-browne",
           "P-jayden-harris",
           "P-delvin-rogers-jr",
-          "P-cedrick-massey"
+          "P-cedrick-massey",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-shanice-palmer",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
         ],
-        "calledGroups": [
-          "Full Company",
-          "Dancers"
-        ],
+        "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Finale choreography/music/blocking that works in studio; no main-stage work",
+        "work": "choreography/music/blocking/ dialouge",
         "focus": "",
         "prep": "",
         "notice": "",
@@ -5751,11 +5823,11 @@
         "dateLabel": "October 15, 2026",
         "dayLabel": "Thursday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 2, 3, 6, 8",
+        "title": "CHOSEN Rehearsal - Scene 1 & 9 ( Dance Only); Scene  2, 3,5, 6, 8",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30PM–8:30 PM- Dancers\n 6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick), Elizabeth, adult principals",
+        "called": "6:30PM–8:30 PM- Dancers\n\n8:00PM–9:30 PM- Scene 5 \n\n 6:30PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
         "callGroups": [
           "Dancers"
         ],
@@ -5770,14 +5842,26 @@
             "displayName": "Cedrick Massey"
           },
           {
-            "displayName": "Audrey Howell-McClenney"
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
           }
         ],
         "calledPeopleIds": [
           "P-jordyn-starks",
           "P-caleb-davilmar",
           "P-cedrick-massey",
-          "P-audrey-howell-mcclenney"
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
         ],
         "calledGroups": [
           "Dancers"
@@ -7884,7 +7968,7 @@
       {
         "id": "dancers",
         "name": "Dancers",
-        "count": 28
+        "count": 26
       },
       {
         "id": "ensemble",
@@ -7894,7 +7978,7 @@
       {
         "id": "full-company",
         "name": "Full Company",
-        "count": 20
+        "count": 18
       },
       {
         "id": "principals-featured",
@@ -7919,7 +8003,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "02",
@@ -7933,7 +8017,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "03",
@@ -7947,7 +8031,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "04",
@@ -7961,7 +8045,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "05",
@@ -7975,7 +8059,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "06",
@@ -7989,7 +8073,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "07",
@@ -8003,7 +8087,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "08",
@@ -8017,7 +8101,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "09",
@@ -8031,7 +8115,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "10",
@@ -8045,7 +8129,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "11",
@@ -8059,7 +8143,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "12",
@@ -8073,7 +8157,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       }
     ],
     "current": [
@@ -8089,7 +8173,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "02",
@@ -8103,7 +8187,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "03",
@@ -8117,7 +8201,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "04",
@@ -8131,7 +8215,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "05",
@@ -8145,7 +8229,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "06",
@@ -8159,7 +8243,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "07",
@@ -8173,7 +8257,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "08",
@@ -8187,7 +8271,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "09",
@@ -8201,7 +8285,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "10",
@@ -8215,7 +8299,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "11",
@@ -8229,7 +8313,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       },
       {
         "scene": "12",
@@ -8243,11 +8327,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-09-29T22:54:19.155Z"
+        "updated": "2026-09-30T02:43:24.589Z"
       }
     ],
     "count": 12,
-    "updated": "2026-09-30T02:08:45.641Z",
+    "updated": "2026-09-30T02:43:32.636Z",
     "kind": "scripts"
   },
   "music": {
@@ -8376,7 +8460,7 @@
       }
     ],
     "count": 4,
-    "updated": "2026-09-30T02:08:45.641Z",
+    "updated": "2026-09-30T02:43:32.636Z",
     "kind": "music"
   }
 }
