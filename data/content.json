@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T22:54:29.157Z",
+  "updated": "2026-09-30T02:08:45.641Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -1720,6 +1720,64 @@
         "changeType": ""
       },
       {
+        "id": "CHOSEN-20261006-REH",
+        "eventKey": "CHOSEN-20261006-REH",
+        "start": "2026-10-06T23:00:00.000Z",
+        "end": "2026-10-07T01:00:00.000Z",
+        "date": "October 6, 2026",
+        "dateIso": "2026-10-06",
+        "day": "Tuesday",
+        "dateLabel": "October 6, 2026",
+        "dayLabel": "Tuesday",
+        "time": "7:00 PM–9:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 4",
+        "status": "VIRTUAL",
+        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Moenike Custard"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-shanice-palmer",
+          "P-moenike-custard"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Review dialogue, character builiding",
+        "focus": "",
+        "prep": "Actors: Dialogue & Character Building",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20261007-REH",
         "eventKey": "CHOSEN-20261007-REH",
         "start": "2026-10-07T22:30:00.000Z",
@@ -2084,7 +2142,7 @@
         "status": "PENDING",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 PM–2:00 PM-Scene 12 Full Company",
+        "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Scene 11 & 12 Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 PM–2:00 PM-Scene 12 Full Company",
         "callGroups": [
           "Full Company",
           "Dancers"
@@ -2146,6 +2204,64 @@
         "changeType": ""
       },
       {
+        "id": "CHOSEN-20261013-REH",
+        "eventKey": "CHOSEN-20261013-REH",
+        "start": "2026-10-13T23:00:00.000Z",
+        "end": "2026-10-14T01:00:00.000Z",
+        "date": "October 13, 2026",
+        "dateIso": "2026-10-13",
+        "day": "Tuesday",
+        "dateLabel": "October 13, 2026",
+        "dayLabel": "Tuesday",
+        "time": "7:00 PM–9:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 4",
+        "status": "VIRTUAL",
+        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Moenike Custard"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-shanice-palmer",
+          "P-moenike-custard"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Review dialogue, character builiding",
+        "focus": "",
+        "prep": "Actors: Dialogue & Character Building",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20261014-REH",
         "eventKey": "CHOSEN-20261014-REH",
         "start": "2026-10-14T22:30:00.000Z",
@@ -2160,7 +2276,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–8:30 PM — Youth + Dancers\n8:30 PM–9:30 PM — Adult Scene 11 cast",
+        "called": "6:30 PM–8:30 PM — Dancers\n8:00 PM–9:30 PM — Adult Scene 11 cast",
         "callGroups": [
           "Children/Youth",
           "Ensemble",
@@ -2264,6 +2380,64 @@
         "work": "Large ensemble sequence integration.",
         "focus": "",
         "prep": "",
+        "notice": "",
+        "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20261020-REH",
+        "eventKey": "CHOSEN-20261020-REH",
+        "start": "2026-10-20T23:00:00.000Z",
+        "end": "2026-10-21T01:00:00.000Z",
+        "date": "October 20, 2026",
+        "dateIso": "2026-10-20",
+        "day": "Tuesday",
+        "dateLabel": "October 20, 2026",
+        "dayLabel": "Tuesday",
+        "time": "7:00 PM–9:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 4",
+        "status": "VIRTUAL",
+        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Moenike Custard"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-shanice-palmer",
+          "P-moenike-custard"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Review dialogue, character builiding",
+        "focus": "",
+        "prep": "Actors: Dialogue & Character Building",
         "notice": "",
         "changeType": ""
       },
@@ -3384,7 +3558,7 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
+        "work": "Scene 9 -Children section, town/gossip, Introduce Scenes 10",
         "focus": "",
         "prep": "Dancers: Work on Speaking Parts and the \"What Will He Be\" Song; Actors: Work on the script for Scenes 9& 10",
         "notice": "",
@@ -4989,6 +5163,64 @@
         "changeType": ""
       },
       {
+        "id": "CHOSEN-20261006-REH",
+        "eventKey": "CHOSEN-20261006-REH",
+        "start": "2026-10-06T23:00:00.000Z",
+        "end": "2026-10-07T01:00:00.000Z",
+        "date": "October 6, 2026",
+        "dateIso": "2026-10-06",
+        "day": "Tuesday",
+        "dateLabel": "October 6, 2026",
+        "dayLabel": "Tuesday",
+        "time": "7:00 PM–9:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 4",
+        "status": "VIRTUAL",
+        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Moenike Custard"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-shanice-palmer",
+          "P-moenike-custard"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Review dialogue, character builiding",
+        "focus": "",
+        "prep": "Actors: Dialogue & Character Building",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20261007-REH",
         "eventKey": "CHOSEN-20261007-REH",
         "start": "2026-10-07T22:30:00.000Z",
@@ -5353,7 +5585,7 @@
         "status": "PENDING",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 PM–2:00 PM-Scene 12 Full Company",
+        "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Scene 11 & 12 Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 PM–2:00 PM-Scene 12 Full Company",
         "callGroups": [
           "Full Company",
           "Dancers"
@@ -5415,6 +5647,64 @@
         "changeType": ""
       },
       {
+        "id": "CHOSEN-20261013-REH",
+        "eventKey": "CHOSEN-20261013-REH",
+        "start": "2026-10-13T23:00:00.000Z",
+        "end": "2026-10-14T01:00:00.000Z",
+        "date": "October 13, 2026",
+        "dateIso": "2026-10-13",
+        "day": "Tuesday",
+        "dateLabel": "October 13, 2026",
+        "dayLabel": "Tuesday",
+        "time": "7:00 PM–9:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 4",
+        "status": "VIRTUAL",
+        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Moenike Custard"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-shanice-palmer",
+          "P-moenike-custard"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Review dialogue, character builiding",
+        "focus": "",
+        "prep": "Actors: Dialogue & Character Building",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20261014-REH",
         "eventKey": "CHOSEN-20261014-REH",
         "start": "2026-10-14T22:30:00.000Z",
@@ -5429,7 +5719,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–8:30 PM — Youth + Dancers\n8:30 PM–9:30 PM — Adult Scene 11 cast",
+        "called": "6:30 PM–8:30 PM — Dancers\n8:00 PM–9:30 PM — Adult Scene 11 cast",
         "callGroups": [
           "Children/Youth",
           "Ensemble",
@@ -5533,6 +5823,64 @@
         "work": "Large ensemble sequence integration.",
         "focus": "",
         "prep": "",
+        "notice": "",
+        "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20261020-REH",
+        "eventKey": "CHOSEN-20261020-REH",
+        "start": "2026-10-20T23:00:00.000Z",
+        "end": "2026-10-21T01:00:00.000Z",
+        "date": "October 20, 2026",
+        "dateIso": "2026-10-20",
+        "day": "Tuesday",
+        "dateLabel": "October 20, 2026",
+        "dayLabel": "Tuesday",
+        "time": "7:00 PM–9:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 4",
+        "status": "VIRTUAL",
+        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Moenike Custard"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-shanice-palmer",
+          "P-moenike-custard"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Review dialogue, character builiding",
+        "focus": "",
+        "prep": "Actors: Dialogue & Character Building",
         "notice": "",
         "changeType": ""
       },
@@ -6651,7 +6999,7 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
+        "work": "Scene 9 -Children section, town/gossip, Introduce Scenes 10",
         "focus": "",
         "prep": "Dancers: Work on Speaking Parts and the \"What Will He Be\" Song; Actors: Work on the script for Scenes 9& 10",
         "notice": "",
@@ -7554,7 +7902,7 @@
         "count": 8
       }
     ],
-    "count": 35,
+    "count": 38,
     "pastCount": 14
   },
   "scripts": {
@@ -7899,7 +8247,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-09-29T22:54:29.160Z",
+    "updated": "2026-09-30T02:08:45.641Z",
     "kind": "scripts"
   },
   "music": {
@@ -8028,7 +8376,7 @@
       }
     ],
     "count": 4,
-    "updated": "2026-09-29T22:54:29.160Z",
+    "updated": "2026-09-30T02:08:45.641Z",
     "kind": "music"
   }
 }

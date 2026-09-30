@@ -176,7 +176,7 @@
       "location": "c2f9436854c2abee3a58fe5580e7b84903891c2ec33c1e49c9087e7fac7136b6",
       "status": "4c239c22dc5c7227180cd717c6ccd9a604bd1e8bdc748139b892eeb4b8f6d8cf",
       "called": "85e63a1cfdb33f178164fd86ed50cdb1a1a7e9ed9372d8a5c7866d9f6fa87f90",
-      "work": "c0b3e1c787470fbbd0c3ab36ceb83dfbb35c2ba54464d1d2e3803cbf8fb78911",
+      "work": "bca5f589a188df6c4be733b3b59460905890b8aa7f1043f596c4eba4347c1c01",
       "prep": "184d61044bd6cb37785db3b6ec40b6829a244a30b043d948023ca4dfd0d42675",
       "calledPeople": "6c7c9d78752cdf6a4054011cb9d2e24c389a107d9cfabcc205c737119f551b3a",
       "calledPeopleIds": "d3f6464d3b4c9194c9da11a33c6b9f35f059c17559bd6c6184ddecc6f19756b1",
@@ -245,6 +245,20 @@
       "personalCallTimes": "52c1962a225d14083b4818939f31e71903744f5589ae0a095a82aa8355f50163",
       "personalCallEndTimes": "82ce52bad9093d09cc5f5ac759ca9157c82e652be138846532f4cc7cc2761f4f"
     },
+    "CHOSEN-20261006-REH": {
+      "start": "6b4dcfc417c76b8d7522972ed2f5f2d13f7687bb5a050bf41a2f637be7884bd6",
+      "end": "b1a21918cb6e9efd63a84d9180d7654ff387b71d6bae23111a44a619b61f893a",
+      "title": "0fb457eea6f01e572c5e3d6aff0462d343dc746a83bc6e7b565a0f20050b28cd",
+      "location": "029e47be0855554343f325e6e4afc32b958244af3aea7b5b5a54ca4fe181d807",
+      "status": "4c239c22dc5c7227180cd717c6ccd9a604bd1e8bdc748139b892eeb4b8f6d8cf",
+      "called": "d74f81fc9689bf707d6bded8eccbbe14797f6a61c4980d9bb5cf29111d694bc8",
+      "work": "53fd7e9fe448183a0280dbf7726b0ccc65b261d507f6aa6af922aa62d2766048",
+      "prep": "b578bac00f09e6ee7b49d8225f21c7c07ba2f6ba1a5c8d03d5c5cf2fc1ef4fca",
+      "calledPeople": "676edac20437e9fbe5a5ae4d457693f50dc8ba558b4cf000fa26cf7130f1612b",
+      "calledPeopleIds": "def0f2d147cf1f4b8f03a8062c4f21d4b19553e29865b8753e9c919a63f3fec8",
+      "calledGroups": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865"
+    },
     "CHOSEN-20261007-REH": {
       "start": "a2b046c8187f9d15a5f96692c9f3ed2f4e6cfaeee4e9b16768500d89175a896d",
       "end": "44a1885f36140f5fddf0bfb0c041e71b4280ce5ac5bf124c116867dbafca6f5d",
@@ -283,12 +297,26 @@
       "title": "eaaad03bccfafa88948663a634faec8b0c884dd0e8f96f72e5226ac3dbbf7579",
       "location": "afe946be3559405f2c984b5c5aca80eb3e6916fef6f2d45b88e3506d8e4bc975",
       "status": "b11db31f9f80ef4e6e6102f35194c9dd470efb6599cb483393ab3b220b64c93c",
-      "called": "7c22e030e0c35a33ec0552d8a48e5d33942b472068fee7efc8df10662c961941",
+      "called": "eacc7847941fe6527d7601aef159f5ff2b4bfa175eb1c2aeaadba99d0f6a00bd",
       "work": "a0cdcf8da43ad54c592830e158d96e59ec40ae54ecba71a67cc8a2eeed1273da",
       "prep": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
       "calledPeople": "d0b0d4ee14e331f8e13b6a6c40e60df00e5b69e86217e98471e3ee0828ad5995",
       "calledPeopleIds": "130c2e08ee5749d3effce7284ccbc223da08c16d6aa1815dee8da47ec003cb88",
       "calledGroups": "f0fb259dc953931a63972ab49698d82ab27da61b50b56f4cb07a23d193df901a",
+      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865"
+    },
+    "CHOSEN-20261013-REH": {
+      "start": "e77a7711ef2d77801b068f3da2c6beef18e63b4a0182eecf287cf1ab47d66574",
+      "end": "41822e97036d00ee47387eec0b85fe12430918c3469c641111fc8cc7e59ce8f1",
+      "title": "0fb457eea6f01e572c5e3d6aff0462d343dc746a83bc6e7b565a0f20050b28cd",
+      "location": "029e47be0855554343f325e6e4afc32b958244af3aea7b5b5a54ca4fe181d807",
+      "status": "4c239c22dc5c7227180cd717c6ccd9a604bd1e8bdc748139b892eeb4b8f6d8cf",
+      "called": "d74f81fc9689bf707d6bded8eccbbe14797f6a61c4980d9bb5cf29111d694bc8",
+      "work": "53fd7e9fe448183a0280dbf7726b0ccc65b261d507f6aa6af922aa62d2766048",
+      "prep": "b578bac00f09e6ee7b49d8225f21c7c07ba2f6ba1a5c8d03d5c5cf2fc1ef4fca",
+      "calledPeople": "676edac20437e9fbe5a5ae4d457693f50dc8ba558b4cf000fa26cf7130f1612b",
+      "calledPeopleIds": "def0f2d147cf1f4b8f03a8062c4f21d4b19553e29865b8753e9c919a63f3fec8",
+      "calledGroups": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865"
     },
     "CHOSEN-20261014-REH": {
@@ -297,7 +325,7 @@
       "title": "b712515b6e6b0a8dc899bd0665a7dc2136b5c07d42bff6d68d9a1b6a9c51cc60",
       "location": "afe946be3559405f2c984b5c5aca80eb3e6916fef6f2d45b88e3506d8e4bc975",
       "status": "b0b3cc7d8d5e6a36e8cea92075c569a35fd967faba5a4c7d8ce294f90f423150",
-      "called": "ba6222ac8eec07689cca646a97d3ed9b838a8284fb6b705095ccbafb33d4e242",
+      "called": "75530f6dc32857e66846b708f1bca440b855ca94362b62415662c60f8cc7b25b",
       "work": "02c1fab1919f92afb9a31cff24c83d0da586125428d276a3cc846cee8d9b0f2a",
       "prep": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
       "calledPeople": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -331,6 +359,20 @@
       "calledPeople": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "calledPeopleIds": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "calledGroups": "f1a3b7e31ae20895abe6864c522ca02f10e5dc40e5bc0d1542fec3e15c6815d1",
+      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865"
+    },
+    "CHOSEN-20261020-REH": {
+      "start": "1e461c1e5e236945f544630e3b32e5d6bf31f571b8d176af60d765cfac390cba",
+      "end": "9eb3877ae4a1bc5b28eab3899b8668a6b59038f0ea17eff4b225228ab55da023",
+      "title": "0fb457eea6f01e572c5e3d6aff0462d343dc746a83bc6e7b565a0f20050b28cd",
+      "location": "029e47be0855554343f325e6e4afc32b958244af3aea7b5b5a54ca4fe181d807",
+      "status": "4c239c22dc5c7227180cd717c6ccd9a604bd1e8bdc748139b892eeb4b8f6d8cf",
+      "called": "d74f81fc9689bf707d6bded8eccbbe14797f6a61c4980d9bb5cf29111d694bc8",
+      "work": "53fd7e9fe448183a0280dbf7726b0ccc65b261d507f6aa6af922aa62d2766048",
+      "prep": "b578bac00f09e6ee7b49d8225f21c7c07ba2f6ba1a5c8d03d5c5cf2fc1ef4fca",
+      "calledPeople": "676edac20437e9fbe5a5ae4d457693f50dc8ba558b4cf000fa26cf7130f1612b",
+      "calledPeopleIds": "def0f2d147cf1f4b8f03a8062c4f21d4b19553e29865b8753e9c919a63f3fec8",
+      "calledGroups": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865"
     },
     "CHOSEN-20261021-REH": {

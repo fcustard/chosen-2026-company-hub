@@ -486,7 +486,7 @@
     "location": "Virtual (Zoom)",
     "status": "VIRTUAL",
     "called": "6:30 PM- 7:30 PM- Child Speakers: Child 1 (Neclia), Child 2 (Annalise), Child 3 (Ariella), Nia (Gelvina), Simon (James)\n\n6:30 PM-9:30 PM- Mary (Jordyn), Caleb (Joseph), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela)\n\n7:30 PM-9:30 PM Nia (Gelvina) Simon (James), Mary (Jordyn), Joseph (Caleb), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)/  Villager Woman 1 (Marissa), Village Woman 2 (Lauryn), Villager Man 1  (Fredrick), Villager Man 2 (Rodney), Gossip Girls/Villagers (Anaia, Victorya, Shanice, Gabriela), Roman Announcer (Amadeus Hills)",
-    "work": "Scen 9 -Children section, town / gossip, Introduce Scenes 10",
+    "work": "Scene 9 -Children section, town/gossip, Introduce Scenes 10",
     "prep": "Dancers: Work on Speaking Parts and the \"What Will He Be\" Song; Actors: Work on the script for Scenes 9& 10",
     "calledPeople": [
       "Jordyn Starks",
@@ -1118,6 +1118,39 @@
     }
   },
   {
+    "eventKey": "CHOSEN-20261006-REH",
+    "start": "Oct 6, 2026 7:00 PM",
+    "end": "Oct 6, 2026 9:00 PM",
+    "title": "CHOSEN Rehearsal - Scene 4",
+    "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+    "status": "VIRTUAL",
+    "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+    "work": "Review dialogue, character builiding",
+    "prep": "Actors: Dialogue & Character Building",
+    "calledPeople": [
+      "Jordyn Starks",
+      "Tasha Simeon",
+      "Tyfany Adaka",
+      "Jéovanie André",
+      "Ashley Pierre",
+      "Shanice Palmer",
+      "Moenike Custard"
+    ],
+    "calledPeopleIds": [
+      "P-jordyn-starks",
+      "P-tasha-simeon",
+      "P-tyfany-adaka",
+      "P-jeovanie-andre",
+      "P-ashley-pierre",
+      "P-shanice-palmer",
+      "P-moenike-custard"
+    ],
+    "calledGroups": [],
+    "exactCallStatus": "READY",
+    "callDataVersion": 3,
+    "id": "CHOSEN-20261006-REH"
+  },
+  {
     "eventKey": "CHOSEN-20261007-REH",
     "start": "Oct 7, 2026 6:30 PM",
     "end": "Oct 7, 2026 9:30 PM",
@@ -1358,7 +1391,7 @@
     "title": "CHOSEN Rehearsal - Scene 12 — studio only",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "PENDING",
-    "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Sheperd 1 (Edison), Sheperd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 PM–2:00 PM-Scene 12 Full Company",
+    "called": "10:00 AM–2:00 PM— Dancers\n11:00 AM–2:00 PM Scene 11 & 12 Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)\n12:00 PM–2:00 PM-Scene 12 Full Company",
     "work": "Finale choreography/music/blocking that works in studio; no main-stage work",
     "prep": "",
     "calledPeople": [
@@ -1394,13 +1427,46 @@
     "id": "CHOSEN-20261010-REH"
   },
   {
+    "eventKey": "CHOSEN-20261013-REH",
+    "start": "Oct 13, 2026 7:00 PM",
+    "end": "Oct 13, 2026 9:00 PM",
+    "title": "CHOSEN Rehearsal - Scene 4",
+    "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+    "status": "VIRTUAL",
+    "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+    "work": "Review dialogue, character builiding",
+    "prep": "Actors: Dialogue & Character Building",
+    "calledPeople": [
+      "Jordyn Starks",
+      "Tasha Simeon",
+      "Tyfany Adaka",
+      "Jéovanie André",
+      "Ashley Pierre",
+      "Shanice Palmer",
+      "Moenike Custard"
+    ],
+    "calledPeopleIds": [
+      "P-jordyn-starks",
+      "P-tasha-simeon",
+      "P-tyfany-adaka",
+      "P-jeovanie-andre",
+      "P-ashley-pierre",
+      "P-shanice-palmer",
+      "P-moenike-custard"
+    ],
+    "calledGroups": [],
+    "exactCallStatus": "READY",
+    "callDataVersion": 3,
+    "id": "CHOSEN-20261013-REH"
+  },
+  {
     "eventKey": "CHOSEN-20261014-REH",
     "start": "Oct 14, 2026 6:30 PM",
     "end": "Oct 14, 2026 9:30 PM",
     "title": "CHOSEN Rehearsal - Scenes 1, 9, 11",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "6:30 PM–8:30 PM — Youth + Dancers\n8:30 PM–9:30 PM — Adult Scene 11 cast",
+    "called": "6:30 PM–8:30 PM — Dancers\n8:00 PM–9:30 PM — Adult Scene 11 cast",
     "work": "Music/choreo cleanup; 8:30+ Scene 11 cleanup",
     "prep": "",
     "calledPeople": [],
@@ -1463,6 +1529,39 @@
     "exactCallStatus": "READY",
     "callDataVersion": 3,
     "id": "CHOSEN-20261017-REH"
+  },
+  {
+    "eventKey": "CHOSEN-20261020-REH",
+    "start": "Oct 20, 2026 7:00 PM",
+    "end": "Oct 20, 2026 9:00 PM",
+    "title": "CHOSEN Rehearsal - Scene 4",
+    "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+    "status": "VIRTUAL",
+    "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+    "work": "Review dialogue, character builiding",
+    "prep": "Actors: Dialogue & Character Building",
+    "calledPeople": [
+      "Jordyn Starks",
+      "Tasha Simeon",
+      "Tyfany Adaka",
+      "Jéovanie André",
+      "Ashley Pierre",
+      "Shanice Palmer",
+      "Moenike Custard"
+    ],
+    "calledPeopleIds": [
+      "P-jordyn-starks",
+      "P-tasha-simeon",
+      "P-tyfany-adaka",
+      "P-jeovanie-andre",
+      "P-ashley-pierre",
+      "P-shanice-palmer",
+      "P-moenike-custard"
+    ],
+    "calledGroups": [],
+    "exactCallStatus": "READY",
+    "callDataVersion": 3,
+    "id": "CHOSEN-20261020-REH"
   },
   {
     "eventKey": "CHOSEN-20261021-REH",
