@@ -524,6 +524,7 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
 .personPath{background:#fff;border:2px solid var(--g);border-radius:16px;padding:18px;margin-bottom:18px}
 .personPath strong{display:block;font-size:1.15rem;margin-bottom:12px}
 .personPath .actions .btn{min-height:48px}
+.scriptRow.yourScene{border:2px solid var(--g);background:#fffaf0}
 .row .actions .btn{max-width:100%;text-align:center}
 .scheduleCard summary{min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:8px}
 @media(max-width:650px){

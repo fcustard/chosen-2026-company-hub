@@ -545,10 +545,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     const list = document.querySelector('#scriptsList');
     const scripts = resourceList(d.scripts);
     const person = await selectedCompanyPerson();
-    const scenes = new Set((person?.scenes || []).map(Number));
-    const ordered = person ? [...scripts].sort((a, b) =>
-      Number(scenes.has(Number(b.scene))) - Number(scenes.has(Number(a.scene)))) : scripts;
-    if (person) showPersonPath(person, `Your scenes: ${(person.scenes || []).join(', ') || 'see all scripts'}`,
+    const scenes = new Set([
+      ...(person?.scenes || []),
+      ...(person?.danceScenes || [])
+    ].map(Number));
+    const ordered = [...scripts].sort((a, b) => Number(a.scene) - Number(b.scene));
+    if (person) showPersonPath(person,
+      `${scenes.size ? `Your scenes: ${[...scenes].sort((a, b) => a - b).join(', ')}. ` : ''}All scenes below are in show order.`,
       [['My Calls', 'schedule.html'], ['My Lines roles', 'lines.html'],
         ...(person.danceEnsemble ? [['Dance tracks', 'music.html']] : [])]);
 
@@ -557,7 +560,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         ? ordered
             .map(
               s => `
-                <article class="row">
+                <article class="row scriptRow${scenes.has(Number(s.scene)) ? ' yourScene' : ''}">
                   <div class="badge">
                     ${esc(s.scene || s.id || '')}
                   </div>
