@@ -78,6 +78,8 @@ jobs:
 
       - name: Sync script scenes from Master Script document
         if: ${{ env.SCRIPT_DOC_FEED_URL != '' && !contains(github.event.head_commit.message, '[probe calendar]') && !contains(github.event.head_commit.message, '[seed calendar]') && !contains(github.event.head_commit.message, '[verify calendar]') && !contains(github.event.head_commit.message, '[activate calendar]') }}
+        env:
+          SCRIPT_DOC_SYNC_ALLOW_FETCH_FAILURE: ${{ github.event_name != 'repository_dispatch' }}
         run: node tools/sync-script-doc.mjs
 
       - name: Skip script sync when Master Script feed is not configured

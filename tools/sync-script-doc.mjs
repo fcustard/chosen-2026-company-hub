@@ -29,6 +29,7 @@ import crypto from "node:crypto";
 const ROOT = process.cwd();
 const SCENES_DIR = path.join(ROOT, "data", "scenes");
 const SCRIPTS_FILE = path.join(ROOT, "data", "scripts.json");
+const SKIP_SCRIPT_SYNC = Symbol("temporary script feed failure");
 
 const EXPECTED_SCENES = new Set(
   Array.from({ length: 12 }, (_, index) => String(index + 1).padStart(2, "0"))
@@ -1004,15 +1005,44 @@ async function fetchFeed() {
     process.exit(0);
   }
 
-  const response = await fetch(url, {
-    headers: {
-      "Accept": "application/json"
+  const canKeepPublishedScenes = () => {
+    if (process.env.SCRIPT_DOC_SYNC_ALLOW_FETCH_FAILURE !== "true" ||
+        process.env.GITHUB_EVENT_NAME === "repository_dispatch") return false;
+    try {
+      const manifest = JSON.parse(fs.readFileSync(SCRIPTS_FILE, "utf8"));
+      return Array.isArray(manifest) && manifest.length === EXPECTED_SCENES.size &&
+        [...EXPECTED_SCENES].every((scene) =>
+          manifest.some((item) => String(item.scene).padStart(2, "0") === scene) &&
+          JSON.parse(fs.readFileSync(path.join(SCENES_DIR, `scene-${scene}.json`), "utf8"))
+        );
+    } catch {
+      return false;
     }
-  });
+  };
 
-  const body = await response.text();
+  const keepPublishedScenes = () => {
+    console.warn("::warning title=Master Script feed temporarily unavailable::" +
+      "Keeping the last published script scenes; calendar and company updates can continue. " +
+      "The next run will retry the Master Script feed.");
+    return SKIP_SCRIPT_SYNC;
+  };
+
+  let response;
+  let body;
+  try {
+    response = await fetch(url, {
+      headers: { "Accept": "application/json" },
+      signal: AbortSignal.timeout(45000)
+    });
+    body = await response.text();
+  } catch (error) {
+    if (canKeepPublishedScenes()) return keepPublishedScenes();
+    throw error;
+  }
 
   if (!response.ok) {
+    if ((response.status === 429 || response.status >= 500) &&
+        canKeepPublishedScenes()) return keepPublishedScenes();
     fail(`Script feed request failed with HTTP ${response.status}: ${body.slice(0, 500)}`);
   }
 
@@ -1169,6 +1199,7 @@ function writeScriptsManifest(scenes, feedMeta = {}) {
 
 function main() {
   return fetchFeed().then((feed) => {
+    if (feed === SKIP_SCRIPT_SYNC) return;
     const scenes = normalizeFeedToScenes(feed);
     assertNoSplitSpeakerNumberBlocks(scenes);
     ensureDir(SCENES_DIR);
