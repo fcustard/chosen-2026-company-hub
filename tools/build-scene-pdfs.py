@@ -25,6 +25,11 @@ NAVY = colors.HexColor("#0D1B2A")
 GOLD = colors.HexColor("#A86F00")
 GRAY = colors.HexColor("#556070")
 
+# Four spoken Scene 11 lines carry the stage style in the source document.
+ELI_SPOKEN_STAGE_LINES = {
+    "Yes?", "I have people everywhere.", "I don’t even have floor left.", "I’m sorry.",
+}
+
 
 def register_fonts():
     font_dir = Path("/usr/share/fonts/truetype/dejavu")
@@ -91,7 +96,7 @@ def build_scene(path: Path, sheet):
                                     str(blocks[index].get("text", "")).strip(), re.I))), -1)
     if ending >= 0:
         blocks = blocks[:ending + 1]
-    for block in blocks:
+    for index, block in enumerate(blocks):
         kind = str(block.get("type", "")).strip().lower()
         text = str(block.get("text", "")).strip()
         rule = next((item for item in ACTOR_VIEW_OVERRIDES
@@ -101,6 +106,12 @@ def build_scene(path: Path, sheet):
             continue
         if rule and rule["publicType"] == "stage":
             kind = "stage"
+        if (str(scene["scene"]).zfill(2) == "11" and kind == "stage"
+                and block.get("namedStyleType") == "HEADING_6"
+                and text in ELI_SPOKEN_STAGE_LINES and index > 0
+                and blocks[index - 1].get("type") == "character"
+                and blocks[index - 1].get("text", "").strip() == "INNKEEPER ELI"):
+            kind = "dialogue"
         if kind == "production-note":
             # Actor PDFs intentionally omit internal production notes. The
             # structured scene JSON remains the complete source of truth.

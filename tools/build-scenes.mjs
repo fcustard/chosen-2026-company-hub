@@ -120,6 +120,15 @@ const HEADING_SPEAKERS = new Set([
   "NIA & SIMON"
 ]);
 
+// In the master script these four spoken lines are styled as directions.
+// Limit the actor-view correction to Scene 11 and Eli's adjacent character cue.
+const ELI_SPOKEN_STAGE_LINES = new Set([
+  "Yes?",
+  "I have people everywhere.",
+  "I don’t even have floor left.",
+  "I’m sorry."
+]);
+
 const NON_SPEAKER_ALL_CAPS = new Set([
   "CHOSEN",
   "CHOSEN: THE STORY BEFORE THE MANGER",
@@ -406,7 +415,7 @@ function renderPossiblyInlineSpeaker(text, fallbackRenderer = renderPlain) {
   return fallbackRenderer(text);
 }
 
-function renderBlock(block, index = 0, blocks = []) {
+function renderBlock(block, index = 0, blocks = [], sceneNumber = "") {
   if (!block || typeof block !== "object") {
     return "";
   }
@@ -431,6 +440,14 @@ function renderBlock(block, index = 0, blocks = []) {
 
   if (speakerField && dialogueField) {
     return `${renderCharacterCue(speakerField)}\n${renderDialogue(dialogueField)}`;
+  }
+
+  if (sceneNumber === "11" && type === "stage" &&
+      cleanText(block.namedStyleType).toUpperCase() === "HEADING_6" &&
+      ELI_SPOKEN_STAGE_LINES.has(text) && index > 0 &&
+      cleanText(blocks[index - 1]?.type).toLowerCase() === "character" &&
+      normalizeSpeakerLabel(blocks[index - 1]?.text) === "INNKEEPER ELI") {
+    return renderDialogue(text);
   }
 
   switch (type) {
@@ -570,6 +587,32 @@ function validateRendererContracts() {
       label: "true section heading",
       actual: renderBlock({ type: "heading", text: "MARY'S FRIENDS" }),
       expected: '<h3 class="scriptHeading">MARY&#039;S FRIENDS</h3>'
+    },
+    ...[...ELI_SPOKEN_STAGE_LINES].map((line) => ({
+      label: `Scene 11 Eli dialogue styled as a stage direction: ${line}`,
+      actual: renderBlock(
+        { type: "stage", text: line, namedStyleType: "HEADING_6" },
+        1,
+        [
+          { type: "character", text: "INNKEEPER ELI", namedStyleType: "HEADING_3" },
+          { type: "stage", text: line, namedStyleType: "HEADING_6" }
+        ],
+        "11"
+      ),
+      expected: `<p class="dialogue">${escapeHtml(line)}</p>`
+    })),
+    {
+      label: "Eli narrative direction remains a direction",
+      actual: renderBlock(
+        { type: "stage", text: "Eli is genuinely pained.", namedStyleType: "HEADING_6" },
+        1,
+        [
+          { type: "character", text: "INNKEEPER ELI", namedStyleType: "HEADING_3" },
+          { type: "stage", text: "Eli is genuinely pained.", namedStyleType: "HEADING_6" }
+        ],
+        "11"
+      ),
+      expected: '<p class="stageDirection"><em>Eli is genuinely pained.</em></p>'
     },
     {
       label: "production note excluded from actor script",
@@ -1009,7 +1052,7 @@ for (const fileName of sceneFiles) {
   const actorBlocks = compactActorBlocks(scene.blocks, sceneNumber);
   const renderedBlocks = actorBlocks.map((block, index, blocks) => ({
     block,
-    html: renderBlock(block, index, blocks)
+    html: renderBlock(block, index, blocks, sceneNumber)
   }));
 
   for (const [index, rendered] of renderedBlocks.entries()) {
