@@ -36,6 +36,10 @@ function lines(v = '') {
   return esc(v).replace(/\r?\n/g, '<br>');
 }
 
+function isDriveTrackUrl(u) {
+  return /^https:\/\/drive\.google\.com\//i.test(String(u || ''));
+}
+
 function btn(t, u, c = '') {
   return !u || u === '#'
     ? `<span class="btn ${c}" aria-disabled="true">${esc(t)} soon</span>`
@@ -643,7 +647,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <p>
                       ${esc(x.type || 'Music')} · ${esc(x.status || 'Current')}
                     </p>
-                    ${(x.playUrl || x.url) && (x.playUrl || x.url) !== '#'
+                    ${(x.playUrl || x.url) && (x.playUrl || x.url) !== '#' && !isDriveTrackUrl(x.playUrl || x.url)
                       ? `<audio
                            class="track-player"
                            controls
@@ -657,7 +661,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                   </div>
 
                   <div class="actions">
-                    ${btn(`Open ${x.title || x.name} audio`, x.playUrl || x.url, 'primary')}
+                    ${btn(isDriveTrackUrl(x.playUrl || x.url) ? `Play ${x.title || x.name} in Google Drive` : `Open ${x.title || x.name} audio`, x.playUrl || x.url, 'primary')}
                     ${x.lyricsUrl && x.lyricsUrl !== '#' ? btn(`${x.title || x.name} lyrics`, x.lyricsUrl) : ''}
                   </div>
                 </article>
