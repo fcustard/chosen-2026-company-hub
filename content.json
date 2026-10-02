@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T16:23:33.654Z",
+  "updated": "2026-10-02T19:05:10.492Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -8971,7 +8971,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-10-02T16:23:33.655Z",
+    "updated": "2026-10-02T19:05:10.492Z",
     "kind": "scripts"
   },
   "music": {
@@ -9019,6 +9019,21 @@
         "lyricsUrl": "#",
         "id": "chosen-instrumental",
         "name": "Chosen (Instrumental)",
+        "current": false
+      },
+      {
+        "title": "Brotherhood",
+        "type": "Joseph & Friends",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "https://drive.google.com/file/d/1pPN9Xk-0ld5qj60HaMANa70Ndb8bhmcf/view?usp=drivesdk",
+        "lyricsUrl": "#",
+        "scenes": [
+          5
+        ],
+        "id": "brotherhood",
+        "name": "Brotherhood",
         "current": false
       },
       {
@@ -9084,6 +9099,21 @@
         "current": false
       },
       {
+        "title": "Brotherhood",
+        "type": "Joseph & Friends",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "https://drive.google.com/file/d/1pPN9Xk-0ld5qj60HaMANa70Ndb8bhmcf/view?usp=drivesdk",
+        "lyricsUrl": "#",
+        "scenes": [
+          5
+        ],
+        "id": "brotherhood",
+        "name": "Brotherhood",
+        "current": false
+      },
+      {
         "title": "What Will He Be?",
         "scenes": [
           9
@@ -9099,8 +9129,8 @@
         "current": false
       }
     ],
-    "count": 4,
-    "updated": "2026-10-02T16:23:33.655Z",
+    "count": 5,
+    "updated": "2026-10-02T19:05:10.492Z",
     "kind": "music"
   }
 }
