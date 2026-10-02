@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T00:00:15.712Z",
+  "updated": "2026-10-02T04:49:47.754Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -12,21 +12,21 @@
     "incidentReport": "https://docs.google.com/forms/d/e/1FAIpQLScHrfCZhDqiW-0ODSZC66HDXM9KIMlWyaRa_g6IERFKLRsbQA/viewform"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20261001-REH",
-    "eventKey": "CHOSEN-20261001-REH",
-    "start": "2026-10-01T22:30:00.000Z",
-    "end": "2026-10-02T01:30:00.000Z",
-    "date": "October 1, 2026",
-    "dateIso": "2026-10-01",
-    "day": "Thursday",
-    "dateLabel": "October 1, 2026",
-    "dayLabel": "Thursday",
-    "time": "6:30 PM–9:30 PM",
-    "title": "CHOSEN Rehearsal - Scene 1 & 9 (Dance Only) 11 & 12",
+    "id": "CHOSEN-20261003-REH",
+    "eventKey": "CHOSEN-20261003-REH",
+    "start": "2026-10-03T14:00:00.000Z",
+    "end": "2026-10-03T18:00:00.000Z",
+    "date": "October 3, 2026",
+    "dateIso": "2026-10-03",
+    "day": "Saturday",
+    "dateLabel": "October 3, 2026",
+    "dayLabel": "Saturday",
+    "time": "10:00 AM–2:00 PM",
+    "title": "CHOSEN Rehearsal - Scene 9 (Dancers Only) Scenes 9–12",
     "status": "CONFIRMED",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12\nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+    "called": "10:00 AM–12:00 PM — Scene 9 Dancers\nDancers (Child/Youth Only)\nAlexandria Platt \nAllania Mitchell \nAnnalise Mongeois \nAriella Davidson \nCaris Hunte \nDelvin Rogers Jr \nGelvina Maxime \nJames Myers \nKennedy McCalla \nKourtney—Ann Palmer \nNelcia Fosttin\nGabriella Fearon (CAP) \n DeAndra Gray (CAP)\n \n10:00 AM- 12:00 PM- Scene 9 &10 Cast\n\n12:00 PM- 2:00 PM-  Scene 11&12 \nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
     "callGroups": [],
     "calledPeople": [
       {
@@ -34,9 +34,6 @@
       },
       {
         "displayName": "Allania Mitchell"
-      },
-      {
-        "displayName": "Alyssa Johnson"
       },
       {
         "displayName": "Amadeus Hills"
@@ -48,13 +45,16 @@
         "displayName": "Annalise Mongeois"
       },
       {
+        "displayName": "Annetta Johnson"
+      },
+      {
         "displayName": "Ariella Davidson"
       },
       {
-        "displayName": "Arielle Brown"
+        "displayName": "Ashley Pierre"
       },
       {
-        "displayName": "Aubrie Lewis"
+        "displayName": "Audrey Howell-McClenney"
       },
       {
         "displayName": "Caleb Davilmar"
@@ -72,13 +72,28 @@
         "displayName": "Charla-Yvonne Cornelius"
       },
       {
+        "displayName": "Chris Mcanuff"
+      },
+      {
+        "displayName": "Dana Quamina"
+      },
+      {
         "displayName": "DeAndra Gray"
       },
       {
         "displayName": "Delvin Rogers Jr"
       },
       {
+        "displayName": "Dorrien Jones"
+      },
+      {
         "displayName": "Edison Browne"
+      },
+      {
+        "displayName": "Fredrick Custard"
+      },
+      {
+        "displayName": "Gabriela Sardinas"
       },
       {
         "displayName": "Gabriella Fearon"
@@ -93,6 +108,9 @@
         "displayName": "Jayden Harris"
       },
       {
+        "displayName": "Jéovanie André"
+      },
+      {
         "displayName": "Jordyn Starks"
       },
       {
@@ -105,7 +123,16 @@
         "displayName": "Kourtney—Ann Palmer"
       },
       {
+        "displayName": "Lauryn Butler"
+      },
+      {
+        "displayName": "Marcus Mainer"
+      },
+      {
         "displayName": "Marissa Downie"
+      },
+      {
+        "displayName": "Michael Stover"
       },
       {
         "displayName": "Moenike Custard"
@@ -115,323 +142,172 @@
       },
       {
         "displayName": "Rodney Jean"
+      },
+      {
+        "displayName": "Sandra Johnson"
+      },
+      {
+        "displayName": "Shanice Palmer"
+      },
+      {
+        "displayName": "Tasha Simeon"
+      },
+      {
+        "displayName": "Tyfany Adaka"
+      },
+      {
+        "displayName": "Victorya Champagne"
       }
     ],
     "calledPeopleIds": [
       "P-alexandria-platt",
       "P-allania-mitchell",
-      "P-alyssa-johnson",
       "P-amadeus-hills",
       "P-anaia-downer",
       "P-annalise-mongeois",
+      "P-annetta-johnson",
       "P-ariella-davidson",
-      "P-arielle-brown",
-      "P-aubrie-lewis",
+      "P-ashley-pierre",
+      "P-audrey-howell-mcclenney",
       "P-caleb-davilmar",
       "P-caris-hunte",
       "P-carmen-brown",
       "P-cedrick-massey",
       "P-charla-yvonne-cornelius",
+      "P-chris-mcanuff",
+      "P-dana-quamina",
       "P-deandra-gray",
       "P-delvin-rogers-jr",
+      "P-dorrien-jones",
       "P-edison-browne",
+      "P-fredrick-custard",
+      "P-gabriela-sardinas",
       "P-gabriella-fearon",
       "P-gelvina-maxime",
       "P-james-myers",
       "P-jayden-harris",
+      "P-jeovanie-andre",
       "P-jordyn-starks",
       "P-kennedy-mccalla",
       "P-kevin-hohn",
       "P-kourtney-ann-palmer",
+      "P-lauryn-butler",
+      "P-marcus-mainer",
       "P-marissa-downie",
+      "P-michael-stover",
       "P-moenike-custard",
       "P-nelcia-fosttin",
-      "P-rodney-jean"
+      "P-rodney-jean",
+      "P-sandra-johnson",
+      "P-shanice-palmer",
+      "P-tasha-simeon",
+      "P-tyfany-adaka",
+      "P-victorya-champagne"
     ],
     "personalCallTimes": {
-      "P-alexandria-platt": "6:30 PM",
-      "P-allania-mitchell": "6:30 PM",
-      "P-alyssa-johnson": "6:30 PM",
-      "P-amadeus-hills": "6:30 PM",
-      "P-anaia-downer": "6:30 PM",
-      "P-annalise-mongeois": "6:30 PM",
-      "P-ariella-davidson": "6:30 PM",
-      "P-arielle-brown": "6:30 PM",
-      "P-aubrie-lewis": "6:30 PM",
-      "P-caleb-davilmar": "6:30 PM",
-      "P-caris-hunte": "6:30 PM",
-      "P-carmen-brown": "6:30 PM",
-      "P-cedrick-massey": "8:00 PM",
-      "P-charla-yvonne-cornelius": "6:30 PM",
-      "P-deandra-gray": "6:30 PM",
-      "P-delvin-rogers-jr": "6:30 PM",
-      "P-edison-browne": "8:00 PM",
-      "P-gabriella-fearon": "6:30 PM",
-      "P-gelvina-maxime": "6:30 PM",
-      "P-james-myers": "6:30 PM",
-      "P-jayden-harris": "8:00 PM",
-      "P-jordyn-starks": "6:30 PM",
-      "P-kennedy-mccalla": "6:30 PM",
-      "P-kevin-hohn": "6:30 PM",
-      "P-kourtney-ann-palmer": "6:30 PM",
-      "P-marissa-downie": "6:30 PM",
-      "P-moenike-custard": "6:30 PM",
-      "P-nelcia-fosttin": "6:30 PM",
-      "P-rodney-jean": "6:30 PM"
+      "P-alexandria-platt": "10:00 AM",
+      "P-allania-mitchell": "10:00 AM",
+      "P-amadeus-hills": "10:00 AM",
+      "P-anaia-downer": "10:00 AM",
+      "P-annalise-mongeois": "10:00 AM",
+      "P-annetta-johnson": "10:00 AM",
+      "P-ariella-davidson": "10:00 AM",
+      "P-ashley-pierre": "10:00 AM",
+      "P-audrey-howell-mcclenney": "10:00 AM",
+      "P-caleb-davilmar": "10:00 AM",
+      "P-caris-hunte": "10:00 AM",
+      "P-carmen-brown": "10:00 AM",
+      "P-cedrick-massey": "12:00 PM",
+      "P-charla-yvonne-cornelius": "12:00 PM",
+      "P-chris-mcanuff": "10:00 AM",
+      "P-dana-quamina": "10:00 AM",
+      "P-deandra-gray": "10:00 AM",
+      "P-delvin-rogers-jr": "10:00 AM",
+      "P-dorrien-jones": "10:00 AM",
+      "P-edison-browne": "12:00 PM",
+      "P-fredrick-custard": "10:00 AM",
+      "P-gabriela-sardinas": "10:00 AM",
+      "P-gabriella-fearon": "10:00 AM",
+      "P-gelvina-maxime": "10:00 AM",
+      "P-james-myers": "10:00 AM",
+      "P-jayden-harris": "10:00 AM",
+      "P-jeovanie-andre": "10:00 AM",
+      "P-jordyn-starks": "10:00 AM",
+      "P-kennedy-mccalla": "10:00 AM",
+      "P-kevin-hohn": "12:00 PM",
+      "P-kourtney-ann-palmer": "10:00 AM",
+      "P-lauryn-butler": "10:00 AM",
+      "P-marcus-mainer": "10:00 AM",
+      "P-marissa-downie": "10:00 AM",
+      "P-michael-stover": "10:00 AM",
+      "P-moenike-custard": "10:00 AM",
+      "P-nelcia-fosttin": "10:00 AM",
+      "P-rodney-jean": "10:00 AM",
+      "P-sandra-johnson": "10:00 AM",
+      "P-shanice-palmer": "10:00 AM",
+      "P-tasha-simeon": "10:00 AM",
+      "P-tyfany-adaka": "10:00 AM",
+      "P-victorya-champagne": "10:00 AM"
     },
     "personalCallEndTimes": {
-      "P-alexandria-platt": "8:30 PM",
-      "P-allania-mitchell": "8:30 PM",
-      "P-alyssa-johnson": "8:30 PM",
-      "P-amadeus-hills": "8:30 PM",
-      "P-anaia-downer": "8:30 PM",
-      "P-annalise-mongeois": "8:30 PM",
-      "P-ariella-davidson": "8:30 PM",
-      "P-arielle-brown": "8:30 PM",
-      "P-aubrie-lewis": "8:30 PM",
-      "P-caleb-davilmar": "9:30 PM",
-      "P-caris-hunte": "8:30 PM",
-      "P-carmen-brown": "8:30 PM",
-      "P-cedrick-massey": "9:30 PM",
-      "P-charla-yvonne-cornelius": "9:30 PM",
-      "P-deandra-gray": "8:30 PM",
-      "P-delvin-rogers-jr": "9:30 PM",
-      "P-edison-browne": "9:30 PM",
-      "P-gabriella-fearon": "8:30 PM",
-      "P-gelvina-maxime": "9:30 PM",
-      "P-james-myers": "9:30 PM",
-      "P-jayden-harris": "9:30 PM",
-      "P-jordyn-starks": "9:30 PM",
-      "P-kennedy-mccalla": "8:30 PM",
-      "P-kevin-hohn": "9:30 PM",
-      "P-kourtney-ann-palmer": "8:30 PM",
-      "P-marissa-downie": "8:30 PM",
-      "P-moenike-custard": "8:30 PM",
-      "P-nelcia-fosttin": "8:30 PM",
-      "P-rodney-jean": "8:30 PM"
+      "P-alexandria-platt": "12:00 PM",
+      "P-allania-mitchell": "12:00 PM",
+      "P-amadeus-hills": "12:00 PM",
+      "P-anaia-downer": "12:00 PM",
+      "P-annalise-mongeois": "12:00 PM",
+      "P-annetta-johnson": "12:00 PM",
+      "P-ariella-davidson": "12:00 PM",
+      "P-ashley-pierre": "12:00 PM",
+      "P-audrey-howell-mcclenney": "12:00 PM",
+      "P-caleb-davilmar": "2:00 PM",
+      "P-caris-hunte": "12:00 PM",
+      "P-carmen-brown": "12:00 PM",
+      "P-cedrick-massey": "2:00 PM",
+      "P-charla-yvonne-cornelius": "2:00 PM",
+      "P-chris-mcanuff": "12:00 PM",
+      "P-dana-quamina": "12:00 PM",
+      "P-deandra-gray": "12:00 PM",
+      "P-delvin-rogers-jr": "2:00 PM",
+      "P-dorrien-jones": "12:00 PM",
+      "P-edison-browne": "2:00 PM",
+      "P-fredrick-custard": "12:00 PM",
+      "P-gabriela-sardinas": "12:00 PM",
+      "P-gabriella-fearon": "12:00 PM",
+      "P-gelvina-maxime": "2:00 PM",
+      "P-james-myers": "2:00 PM",
+      "P-jayden-harris": "2:00 PM",
+      "P-jeovanie-andre": "12:00 PM",
+      "P-jordyn-starks": "2:00 PM",
+      "P-kennedy-mccalla": "12:00 PM",
+      "P-kevin-hohn": "2:00 PM",
+      "P-kourtney-ann-palmer": "12:00 PM",
+      "P-lauryn-butler": "12:00 PM",
+      "P-marcus-mainer": "12:00 PM",
+      "P-marissa-downie": "12:00 PM",
+      "P-michael-stover": "12:00 PM",
+      "P-moenike-custard": "12:00 PM",
+      "P-nelcia-fosttin": "12:00 PM",
+      "P-rodney-jean": "12:00 PM",
+      "P-sandra-johnson": "12:00 PM",
+      "P-shanice-palmer": "12:00 PM",
+      "P-tasha-simeon": "12:00 PM",
+      "P-tyfany-adaka": "12:00 PM",
+      "P-victorya-champagne": "12:00 PM"
     },
     "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Scene 1 & 9 Review Choreography; Scene 11 & 12  dialogue and blocking",
+    "work": "Main-stage journey, crowd, No Room, birth picture",
     "focus": "",
-    "prep": "Scene 1 & 9 Review Choreography; Scene 11 & 12  dialogue and blocking",
+    "prep": "Everyone: Bring a snack and drink for the 12:00–12:15 PM break.\n\nPlease Come at your assigned time slot. All rehearsals will end at 2:00PM",
     "notice": "",
     "changeType": ""
   },
   "thisWeek": {
     "title": "This Week",
-    "start": "2026-10-01T04:00:00.000Z",
-    "end": "2026-10-08T03:59:59.000Z",
+    "start": "2026-10-02T04:00:00.000Z",
+    "end": "2026-10-09T03:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261001-REH",
-        "eventKey": "CHOSEN-20261001-REH",
-        "start": "2026-10-01T22:30:00.000Z",
-        "end": "2026-10-02T01:30:00.000Z",
-        "date": "October 1, 2026",
-        "dateIso": "2026-10-01",
-        "day": "Thursday",
-        "dateLabel": "October 1, 2026",
-        "dayLabel": "Thursday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 1 & 9 (Dance Only) 11 & 12",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12\nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
-            "displayName": "Alyssa Johnson"
-          },
-          {
-            "displayName": "Amadeus Hills"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
-          },
-          {
-            "displayName": "Arielle Brown"
-          },
-          {
-            "displayName": "Aubrie Lewis"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Caris Hunte"
-          },
-          {
-            "displayName": "Carmen Brown"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          },
-          {
-            "displayName": "Charla-Yvonne Cornelius"
-          },
-          {
-            "displayName": "DeAndra Gray"
-          },
-          {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
-            "displayName": "Edison Browne"
-          },
-          {
-            "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Jayden Harris"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Moenike Custard"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
-          },
-          {
-            "displayName": "Rodney Jean"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-alexandria-platt",
-          "P-allania-mitchell",
-          "P-alyssa-johnson",
-          "P-amadeus-hills",
-          "P-anaia-downer",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
-          "P-arielle-brown",
-          "P-aubrie-lewis",
-          "P-caleb-davilmar",
-          "P-caris-hunte",
-          "P-carmen-brown",
-          "P-cedrick-massey",
-          "P-charla-yvonne-cornelius",
-          "P-deandra-gray",
-          "P-delvin-rogers-jr",
-          "P-edison-browne",
-          "P-gabriella-fearon",
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-jayden-harris",
-          "P-jordyn-starks",
-          "P-kennedy-mccalla",
-          "P-kevin-hohn",
-          "P-kourtney-ann-palmer",
-          "P-marissa-downie",
-          "P-moenike-custard",
-          "P-nelcia-fosttin",
-          "P-rodney-jean"
-        ],
-        "personalCallTimes": {
-          "P-alexandria-platt": "6:30 PM",
-          "P-allania-mitchell": "6:30 PM",
-          "P-alyssa-johnson": "6:30 PM",
-          "P-amadeus-hills": "6:30 PM",
-          "P-anaia-downer": "6:30 PM",
-          "P-annalise-mongeois": "6:30 PM",
-          "P-ariella-davidson": "6:30 PM",
-          "P-arielle-brown": "6:30 PM",
-          "P-aubrie-lewis": "6:30 PM",
-          "P-caleb-davilmar": "6:30 PM",
-          "P-caris-hunte": "6:30 PM",
-          "P-carmen-brown": "6:30 PM",
-          "P-cedrick-massey": "8:00 PM",
-          "P-charla-yvonne-cornelius": "6:30 PM",
-          "P-deandra-gray": "6:30 PM",
-          "P-delvin-rogers-jr": "6:30 PM",
-          "P-edison-browne": "8:00 PM",
-          "P-gabriella-fearon": "6:30 PM",
-          "P-gelvina-maxime": "6:30 PM",
-          "P-james-myers": "6:30 PM",
-          "P-jayden-harris": "8:00 PM",
-          "P-jordyn-starks": "6:30 PM",
-          "P-kennedy-mccalla": "6:30 PM",
-          "P-kevin-hohn": "6:30 PM",
-          "P-kourtney-ann-palmer": "6:30 PM",
-          "P-marissa-downie": "6:30 PM",
-          "P-moenike-custard": "6:30 PM",
-          "P-nelcia-fosttin": "6:30 PM",
-          "P-rodney-jean": "6:30 PM"
-        },
-        "personalCallEndTimes": {
-          "P-alexandria-platt": "8:30 PM",
-          "P-allania-mitchell": "8:30 PM",
-          "P-alyssa-johnson": "8:30 PM",
-          "P-amadeus-hills": "8:30 PM",
-          "P-anaia-downer": "8:30 PM",
-          "P-annalise-mongeois": "8:30 PM",
-          "P-ariella-davidson": "8:30 PM",
-          "P-arielle-brown": "8:30 PM",
-          "P-aubrie-lewis": "8:30 PM",
-          "P-caleb-davilmar": "9:30 PM",
-          "P-caris-hunte": "8:30 PM",
-          "P-carmen-brown": "8:30 PM",
-          "P-cedrick-massey": "9:30 PM",
-          "P-charla-yvonne-cornelius": "9:30 PM",
-          "P-deandra-gray": "8:30 PM",
-          "P-delvin-rogers-jr": "9:30 PM",
-          "P-edison-browne": "9:30 PM",
-          "P-gabriella-fearon": "8:30 PM",
-          "P-gelvina-maxime": "9:30 PM",
-          "P-james-myers": "9:30 PM",
-          "P-jayden-harris": "9:30 PM",
-          "P-jordyn-starks": "9:30 PM",
-          "P-kennedy-mccalla": "8:30 PM",
-          "P-kevin-hohn": "9:30 PM",
-          "P-kourtney-ann-palmer": "8:30 PM",
-          "P-marissa-downie": "8:30 PM",
-          "P-moenike-custard": "8:30 PM",
-          "P-nelcia-fosttin": "8:30 PM",
-          "P-rodney-jean": "8:30 PM"
-        },
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scene 1 & 9 Review Choreography; Scene 11 & 12  dialogue and blocking",
-        "focus": "",
-        "prep": "Scene 1 & 9 Review Choreography; Scene 11 & 12  dialogue and blocking",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261003-REH",
         "eventKey": "CHOSEN-20261003-REH",
@@ -899,30 +775,23 @@
         "prep": "Scene 1 & 9 (dance only): Wear all-black undergarments for costume fitting & prepare to review dances; 5- review lines, learn blocking & choreography; Scene 11 & 12- dialogue and blocking",
         "notice": "",
         "changeType": ""
-      }
-    ],
-    "count": 4
-  },
-  "schedule": {
-    "title": "Schedule",
-    "timezone": "America/New_York",
-    "rehearsals": [
+      },
       {
-        "id": "CHOSEN-20261001-REH",
-        "eventKey": "CHOSEN-20261001-REH",
-        "start": "2026-10-01T22:30:00.000Z",
-        "end": "2026-10-02T01:30:00.000Z",
-        "date": "October 1, 2026",
-        "dateIso": "2026-10-01",
+        "id": "CHOSEN-20261008-REH",
+        "eventKey": "CHOSEN-20261008-REH",
+        "start": "2026-10-08T22:30:00.000Z",
+        "end": "2026-10-09T01:30:00.000Z",
+        "date": "October 8, 2026",
+        "dateIso": "2026-10-08",
         "day": "Thursday",
-        "dateLabel": "October 1, 2026",
+        "dateLabel": "October 8, 2026",
         "dayLabel": "Thursday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 1 & 9 (Dance Only) 11 & 12",
+        "title": "CHOSEN Rehearsal - Choreography Cleanup — Scenes 1, 9(Dance Only) & 5; Scenes 11 & 12",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12\nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30–8:30 PM — ALL Dancers \n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -953,28 +822,16 @@
             "displayName": "Aubrie Lewis"
           },
           {
-            "displayName": "Caleb Davilmar"
-          },
-          {
             "displayName": "Caris Hunte"
           },
           {
             "displayName": "Carmen Brown"
           },
           {
-            "displayName": "Cedrick Massey"
-          },
-          {
-            "displayName": "Charla-Yvonne Cornelius"
-          },
-          {
             "displayName": "DeAndra Gray"
           },
           {
             "displayName": "Delvin Rogers Jr"
-          },
-          {
-            "displayName": "Edison Browne"
           },
           {
             "displayName": "Gabriella Fearon"
@@ -986,16 +843,7 @@
             "displayName": "James Myers"
           },
           {
-            "displayName": "Jayden Harris"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
             "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kevin Hohn"
           },
           {
             "displayName": "Kourtney—Ann Palmer"
@@ -1011,6 +859,39 @@
           },
           {
             "displayName": "Rodney Jean"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
           }
         ],
         "calledPeopleIds": [
@@ -1023,26 +904,30 @@
           "P-ariella-davidson",
           "P-arielle-brown",
           "P-aubrie-lewis",
-          "P-caleb-davilmar",
           "P-caris-hunte",
           "P-carmen-brown",
-          "P-cedrick-massey",
-          "P-charla-yvonne-cornelius",
           "P-deandra-gray",
           "P-delvin-rogers-jr",
-          "P-edison-browne",
           "P-gabriella-fearon",
           "P-gelvina-maxime",
           "P-james-myers",
-          "P-jayden-harris",
-          "P-jordyn-starks",
           "P-kennedy-mccalla",
-          "P-kevin-hohn",
           "P-kourtney-ann-palmer",
           "P-marissa-downie",
           "P-moenike-custard",
           "P-nelcia-fosttin",
-          "P-rodney-jean"
+          "P-rodney-jean",
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-kevin-hohn",
+          "P-charla-yvonne-cornelius",
+          "P-edison-browne",
+          "P-jayden-harris",
+          "P-cedrick-massey",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
         ],
         "personalCallTimes": {
           "P-alexandria-platt": "6:30 PM",
@@ -1054,26 +939,30 @@
           "P-ariella-davidson": "6:30 PM",
           "P-arielle-brown": "6:30 PM",
           "P-aubrie-lewis": "6:30 PM",
-          "P-caleb-davilmar": "6:30 PM",
           "P-caris-hunte": "6:30 PM",
           "P-carmen-brown": "6:30 PM",
-          "P-cedrick-massey": "8:00 PM",
-          "P-charla-yvonne-cornelius": "6:30 PM",
           "P-deandra-gray": "6:30 PM",
           "P-delvin-rogers-jr": "6:30 PM",
-          "P-edison-browne": "8:00 PM",
           "P-gabriella-fearon": "6:30 PM",
           "P-gelvina-maxime": "6:30 PM",
           "P-james-myers": "6:30 PM",
-          "P-jayden-harris": "8:00 PM",
-          "P-jordyn-starks": "6:30 PM",
           "P-kennedy-mccalla": "6:30 PM",
-          "P-kevin-hohn": "6:30 PM",
           "P-kourtney-ann-palmer": "6:30 PM",
           "P-marissa-downie": "6:30 PM",
           "P-moenike-custard": "6:30 PM",
           "P-nelcia-fosttin": "6:30 PM",
-          "P-rodney-jean": "6:30 PM"
+          "P-rodney-jean": "6:30 PM",
+          "P-jordyn-starks": "6:30 PM",
+          "P-caleb-davilmar": "6:30 PM",
+          "P-kevin-hohn": "6:30 PM",
+          "P-charla-yvonne-cornelius": "6:30 PM",
+          "P-edison-browne": "8:00 PM",
+          "P-jayden-harris": "8:00 PM",
+          "P-cedrick-massey": "8:00 PM",
+          "P-marcus-mainer": "8:30 PM",
+          "P-dorrien-jones": "8:30 PM",
+          "P-michael-stover": "8:30 PM",
+          "P-chris-mcanuff": "8:30 PM"
         },
         "personalCallEndTimes": {
           "P-alexandria-platt": "8:30 PM",
@@ -1085,36 +974,47 @@
           "P-ariella-davidson": "8:30 PM",
           "P-arielle-brown": "8:30 PM",
           "P-aubrie-lewis": "8:30 PM",
-          "P-caleb-davilmar": "9:30 PM",
           "P-caris-hunte": "8:30 PM",
           "P-carmen-brown": "8:30 PM",
-          "P-cedrick-massey": "9:30 PM",
-          "P-charla-yvonne-cornelius": "9:30 PM",
           "P-deandra-gray": "8:30 PM",
           "P-delvin-rogers-jr": "9:30 PM",
-          "P-edison-browne": "9:30 PM",
           "P-gabriella-fearon": "8:30 PM",
           "P-gelvina-maxime": "9:30 PM",
           "P-james-myers": "9:30 PM",
-          "P-jayden-harris": "9:30 PM",
-          "P-jordyn-starks": "9:30 PM",
           "P-kennedy-mccalla": "8:30 PM",
-          "P-kevin-hohn": "9:30 PM",
           "P-kourtney-ann-palmer": "8:30 PM",
           "P-marissa-downie": "8:30 PM",
           "P-moenike-custard": "8:30 PM",
           "P-nelcia-fosttin": "8:30 PM",
-          "P-rodney-jean": "8:30 PM"
+          "P-rodney-jean": "8:30 PM",
+          "P-jordyn-starks": "9:30 PM",
+          "P-caleb-davilmar": "9:30 PM",
+          "P-kevin-hohn": "9:30 PM",
+          "P-charla-yvonne-cornelius": "9:30 PM",
+          "P-edison-browne": "9:30 PM",
+          "P-jayden-harris": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-marcus-mainer": "9:30 PM",
+          "P-dorrien-jones": "9:30 PM",
+          "P-michael-stover": "9:30 PM",
+          "P-chris-mcanuff": "9:30 PM"
         },
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Scene 1 & 9 Review Choreography; Scene 11 & 12  dialogue and blocking",
+        "work": "Scenes 1 & 9 continue costume fitting & choreography cleanup;\n Scene 5 blocking & choreography; \nScene 11 & 12 review lines & blocking",
         "focus": "",
-        "prep": "Scene 1 & 9 Review Choreography; Scene 11 & 12  dialogue and blocking",
+        "prep": "Studio-only rehearsal. No main-stage work. Final space-limited call list will be posted before rehearsal.",
         "notice": "",
         "changeType": ""
-      },
+      }
+    ],
+    "count": 4
+  },
+  "schedule": {
+    "title": "Schedule",
+    "timezone": "America/New_York",
+    "rehearsals": [
       {
         "id": "CHOSEN-20261003-REH",
         "eventKey": "CHOSEN-20261003-REH",
@@ -3314,6 +3214,214 @@
     ],
     "pastRehearsals": [
       {
+        "id": "CHOSEN-20261001-REH",
+        "eventKey": "CHOSEN-20261001-REH",
+        "start": "2026-10-01T22:30:00.000Z",
+        "end": "2026-10-02T01:30:00.000Z",
+        "date": "October 1, 2026",
+        "dateIso": "2026-10-01",
+        "day": "Thursday",
+        "dateLabel": "October 1, 2026",
+        "dayLabel": "Thursday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 1 & 9 (Dance Only) 11 & 12",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12\nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Alexandria Platt"
+          },
+          {
+            "displayName": "Allania Mitchell"
+          },
+          {
+            "displayName": "Alyssa Johnson"
+          },
+          {
+            "displayName": "Amadeus Hills"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Arielle Brown"
+          },
+          {
+            "displayName": "Aubrie Lewis"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Carmen Brown"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "DeAndra Gray"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Kennedy McCalla"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Kourtney—Ann Palmer"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Moenike Custard"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Rodney Jean"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-alexandria-platt",
+          "P-allania-mitchell",
+          "P-alyssa-johnson",
+          "P-amadeus-hills",
+          "P-anaia-downer",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-arielle-brown",
+          "P-aubrie-lewis",
+          "P-caleb-davilmar",
+          "P-caris-hunte",
+          "P-carmen-brown",
+          "P-cedrick-massey",
+          "P-charla-yvonne-cornelius",
+          "P-deandra-gray",
+          "P-delvin-rogers-jr",
+          "P-edison-browne",
+          "P-gabriella-fearon",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jayden-harris",
+          "P-jordyn-starks",
+          "P-kennedy-mccalla",
+          "P-kevin-hohn",
+          "P-kourtney-ann-palmer",
+          "P-marissa-downie",
+          "P-moenike-custard",
+          "P-nelcia-fosttin",
+          "P-rodney-jean"
+        ],
+        "personalCallTimes": {
+          "P-alexandria-platt": "6:30 PM",
+          "P-allania-mitchell": "6:30 PM",
+          "P-alyssa-johnson": "6:30 PM",
+          "P-amadeus-hills": "6:30 PM",
+          "P-anaia-downer": "6:30 PM",
+          "P-annalise-mongeois": "6:30 PM",
+          "P-ariella-davidson": "6:30 PM",
+          "P-arielle-brown": "6:30 PM",
+          "P-aubrie-lewis": "6:30 PM",
+          "P-caleb-davilmar": "6:30 PM",
+          "P-caris-hunte": "6:30 PM",
+          "P-carmen-brown": "6:30 PM",
+          "P-cedrick-massey": "8:00 PM",
+          "P-charla-yvonne-cornelius": "6:30 PM",
+          "P-deandra-gray": "6:30 PM",
+          "P-delvin-rogers-jr": "6:30 PM",
+          "P-edison-browne": "8:00 PM",
+          "P-gabriella-fearon": "6:30 PM",
+          "P-gelvina-maxime": "6:30 PM",
+          "P-james-myers": "6:30 PM",
+          "P-jayden-harris": "8:00 PM",
+          "P-jordyn-starks": "6:30 PM",
+          "P-kennedy-mccalla": "6:30 PM",
+          "P-kevin-hohn": "6:30 PM",
+          "P-kourtney-ann-palmer": "6:30 PM",
+          "P-marissa-downie": "6:30 PM",
+          "P-moenike-custard": "6:30 PM",
+          "P-nelcia-fosttin": "6:30 PM",
+          "P-rodney-jean": "6:30 PM"
+        },
+        "personalCallEndTimes": {
+          "P-alexandria-platt": "8:30 PM",
+          "P-allania-mitchell": "8:30 PM",
+          "P-alyssa-johnson": "8:30 PM",
+          "P-amadeus-hills": "8:30 PM",
+          "P-anaia-downer": "8:30 PM",
+          "P-annalise-mongeois": "8:30 PM",
+          "P-ariella-davidson": "8:30 PM",
+          "P-arielle-brown": "8:30 PM",
+          "P-aubrie-lewis": "8:30 PM",
+          "P-caleb-davilmar": "9:30 PM",
+          "P-caris-hunte": "8:30 PM",
+          "P-carmen-brown": "8:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-charla-yvonne-cornelius": "9:30 PM",
+          "P-deandra-gray": "8:30 PM",
+          "P-delvin-rogers-jr": "9:30 PM",
+          "P-edison-browne": "9:30 PM",
+          "P-gabriella-fearon": "8:30 PM",
+          "P-gelvina-maxime": "9:30 PM",
+          "P-james-myers": "9:30 PM",
+          "P-jayden-harris": "9:30 PM",
+          "P-jordyn-starks": "9:30 PM",
+          "P-kennedy-mccalla": "8:30 PM",
+          "P-kevin-hohn": "9:30 PM",
+          "P-kourtney-ann-palmer": "8:30 PM",
+          "P-marissa-downie": "8:30 PM",
+          "P-moenike-custard": "8:30 PM",
+          "P-nelcia-fosttin": "8:30 PM",
+          "P-rodney-jean": "8:30 PM"
+        },
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Scene 1 & 9 Review Choreography; Scene 11 & 12  dialogue and blocking",
+        "focus": "",
+        "prep": "Scene 1 & 9 Review Choreography; Scene 11 & 12  dialogue and blocking",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260930-REH",
         "eventKey": "CHOSEN-20260930-REH",
         "start": "2026-09-30T22:30:00.000Z",
@@ -4698,214 +4806,6 @@
       }
     ],
     "allRehearsals": [
-      {
-        "id": "CHOSEN-20261001-REH",
-        "eventKey": "CHOSEN-20261001-REH",
-        "start": "2026-10-01T22:30:00.000Z",
-        "end": "2026-10-02T01:30:00.000Z",
-        "date": "October 1, 2026",
-        "dateIso": "2026-10-01",
-        "day": "Thursday",
-        "dateLabel": "October 1, 2026",
-        "dayLabel": "Thursday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 1 & 9 (Dance Only) 11 & 12",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12\nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
-            "displayName": "Alyssa Johnson"
-          },
-          {
-            "displayName": "Amadeus Hills"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
-          },
-          {
-            "displayName": "Arielle Brown"
-          },
-          {
-            "displayName": "Aubrie Lewis"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Caris Hunte"
-          },
-          {
-            "displayName": "Carmen Brown"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          },
-          {
-            "displayName": "Charla-Yvonne Cornelius"
-          },
-          {
-            "displayName": "DeAndra Gray"
-          },
-          {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
-            "displayName": "Edison Browne"
-          },
-          {
-            "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Jayden Harris"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Moenike Custard"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
-          },
-          {
-            "displayName": "Rodney Jean"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-alexandria-platt",
-          "P-allania-mitchell",
-          "P-alyssa-johnson",
-          "P-amadeus-hills",
-          "P-anaia-downer",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
-          "P-arielle-brown",
-          "P-aubrie-lewis",
-          "P-caleb-davilmar",
-          "P-caris-hunte",
-          "P-carmen-brown",
-          "P-cedrick-massey",
-          "P-charla-yvonne-cornelius",
-          "P-deandra-gray",
-          "P-delvin-rogers-jr",
-          "P-edison-browne",
-          "P-gabriella-fearon",
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-jayden-harris",
-          "P-jordyn-starks",
-          "P-kennedy-mccalla",
-          "P-kevin-hohn",
-          "P-kourtney-ann-palmer",
-          "P-marissa-downie",
-          "P-moenike-custard",
-          "P-nelcia-fosttin",
-          "P-rodney-jean"
-        ],
-        "personalCallTimes": {
-          "P-alexandria-platt": "6:30 PM",
-          "P-allania-mitchell": "6:30 PM",
-          "P-alyssa-johnson": "6:30 PM",
-          "P-amadeus-hills": "6:30 PM",
-          "P-anaia-downer": "6:30 PM",
-          "P-annalise-mongeois": "6:30 PM",
-          "P-ariella-davidson": "6:30 PM",
-          "P-arielle-brown": "6:30 PM",
-          "P-aubrie-lewis": "6:30 PM",
-          "P-caleb-davilmar": "6:30 PM",
-          "P-caris-hunte": "6:30 PM",
-          "P-carmen-brown": "6:30 PM",
-          "P-cedrick-massey": "8:00 PM",
-          "P-charla-yvonne-cornelius": "6:30 PM",
-          "P-deandra-gray": "6:30 PM",
-          "P-delvin-rogers-jr": "6:30 PM",
-          "P-edison-browne": "8:00 PM",
-          "P-gabriella-fearon": "6:30 PM",
-          "P-gelvina-maxime": "6:30 PM",
-          "P-james-myers": "6:30 PM",
-          "P-jayden-harris": "8:00 PM",
-          "P-jordyn-starks": "6:30 PM",
-          "P-kennedy-mccalla": "6:30 PM",
-          "P-kevin-hohn": "6:30 PM",
-          "P-kourtney-ann-palmer": "6:30 PM",
-          "P-marissa-downie": "6:30 PM",
-          "P-moenike-custard": "6:30 PM",
-          "P-nelcia-fosttin": "6:30 PM",
-          "P-rodney-jean": "6:30 PM"
-        },
-        "personalCallEndTimes": {
-          "P-alexandria-platt": "8:30 PM",
-          "P-allania-mitchell": "8:30 PM",
-          "P-alyssa-johnson": "8:30 PM",
-          "P-amadeus-hills": "8:30 PM",
-          "P-anaia-downer": "8:30 PM",
-          "P-annalise-mongeois": "8:30 PM",
-          "P-ariella-davidson": "8:30 PM",
-          "P-arielle-brown": "8:30 PM",
-          "P-aubrie-lewis": "8:30 PM",
-          "P-caleb-davilmar": "9:30 PM",
-          "P-caris-hunte": "8:30 PM",
-          "P-carmen-brown": "8:30 PM",
-          "P-cedrick-massey": "9:30 PM",
-          "P-charla-yvonne-cornelius": "9:30 PM",
-          "P-deandra-gray": "8:30 PM",
-          "P-delvin-rogers-jr": "9:30 PM",
-          "P-edison-browne": "9:30 PM",
-          "P-gabriella-fearon": "8:30 PM",
-          "P-gelvina-maxime": "9:30 PM",
-          "P-james-myers": "9:30 PM",
-          "P-jayden-harris": "9:30 PM",
-          "P-jordyn-starks": "9:30 PM",
-          "P-kennedy-mccalla": "8:30 PM",
-          "P-kevin-hohn": "9:30 PM",
-          "P-kourtney-ann-palmer": "8:30 PM",
-          "P-marissa-downie": "8:30 PM",
-          "P-moenike-custard": "8:30 PM",
-          "P-nelcia-fosttin": "8:30 PM",
-          "P-rodney-jean": "8:30 PM"
-        },
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scene 1 & 9 Review Choreography; Scene 11 & 12  dialogue and blocking",
-        "focus": "",
-        "prep": "Scene 1 & 9 Review Choreography; Scene 11 & 12  dialogue and blocking",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261003-REH",
         "eventKey": "CHOSEN-20261003-REH",
@@ -7103,6 +7003,214 @@
         "changeType": ""
       },
       {
+        "id": "CHOSEN-20261001-REH",
+        "eventKey": "CHOSEN-20261001-REH",
+        "start": "2026-10-01T22:30:00.000Z",
+        "end": "2026-10-02T01:30:00.000Z",
+        "date": "October 1, 2026",
+        "dateIso": "2026-10-01",
+        "day": "Thursday",
+        "dateLabel": "October 1, 2026",
+        "dayLabel": "Thursday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 1 & 9 (Dance Only) 11 & 12",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12\nChild Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Alexandria Platt"
+          },
+          {
+            "displayName": "Allania Mitchell"
+          },
+          {
+            "displayName": "Alyssa Johnson"
+          },
+          {
+            "displayName": "Amadeus Hills"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Arielle Brown"
+          },
+          {
+            "displayName": "Aubrie Lewis"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Carmen Brown"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "DeAndra Gray"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Kennedy McCalla"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Kourtney—Ann Palmer"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Moenike Custard"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Rodney Jean"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-alexandria-platt",
+          "P-allania-mitchell",
+          "P-alyssa-johnson",
+          "P-amadeus-hills",
+          "P-anaia-downer",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-arielle-brown",
+          "P-aubrie-lewis",
+          "P-caleb-davilmar",
+          "P-caris-hunte",
+          "P-carmen-brown",
+          "P-cedrick-massey",
+          "P-charla-yvonne-cornelius",
+          "P-deandra-gray",
+          "P-delvin-rogers-jr",
+          "P-edison-browne",
+          "P-gabriella-fearon",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jayden-harris",
+          "P-jordyn-starks",
+          "P-kennedy-mccalla",
+          "P-kevin-hohn",
+          "P-kourtney-ann-palmer",
+          "P-marissa-downie",
+          "P-moenike-custard",
+          "P-nelcia-fosttin",
+          "P-rodney-jean"
+        ],
+        "personalCallTimes": {
+          "P-alexandria-platt": "6:30 PM",
+          "P-allania-mitchell": "6:30 PM",
+          "P-alyssa-johnson": "6:30 PM",
+          "P-amadeus-hills": "6:30 PM",
+          "P-anaia-downer": "6:30 PM",
+          "P-annalise-mongeois": "6:30 PM",
+          "P-ariella-davidson": "6:30 PM",
+          "P-arielle-brown": "6:30 PM",
+          "P-aubrie-lewis": "6:30 PM",
+          "P-caleb-davilmar": "6:30 PM",
+          "P-caris-hunte": "6:30 PM",
+          "P-carmen-brown": "6:30 PM",
+          "P-cedrick-massey": "8:00 PM",
+          "P-charla-yvonne-cornelius": "6:30 PM",
+          "P-deandra-gray": "6:30 PM",
+          "P-delvin-rogers-jr": "6:30 PM",
+          "P-edison-browne": "8:00 PM",
+          "P-gabriella-fearon": "6:30 PM",
+          "P-gelvina-maxime": "6:30 PM",
+          "P-james-myers": "6:30 PM",
+          "P-jayden-harris": "8:00 PM",
+          "P-jordyn-starks": "6:30 PM",
+          "P-kennedy-mccalla": "6:30 PM",
+          "P-kevin-hohn": "6:30 PM",
+          "P-kourtney-ann-palmer": "6:30 PM",
+          "P-marissa-downie": "6:30 PM",
+          "P-moenike-custard": "6:30 PM",
+          "P-nelcia-fosttin": "6:30 PM",
+          "P-rodney-jean": "6:30 PM"
+        },
+        "personalCallEndTimes": {
+          "P-alexandria-platt": "8:30 PM",
+          "P-allania-mitchell": "8:30 PM",
+          "P-alyssa-johnson": "8:30 PM",
+          "P-amadeus-hills": "8:30 PM",
+          "P-anaia-downer": "8:30 PM",
+          "P-annalise-mongeois": "8:30 PM",
+          "P-ariella-davidson": "8:30 PM",
+          "P-arielle-brown": "8:30 PM",
+          "P-aubrie-lewis": "8:30 PM",
+          "P-caleb-davilmar": "9:30 PM",
+          "P-caris-hunte": "8:30 PM",
+          "P-carmen-brown": "8:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-charla-yvonne-cornelius": "9:30 PM",
+          "P-deandra-gray": "8:30 PM",
+          "P-delvin-rogers-jr": "9:30 PM",
+          "P-edison-browne": "9:30 PM",
+          "P-gabriella-fearon": "8:30 PM",
+          "P-gelvina-maxime": "9:30 PM",
+          "P-james-myers": "9:30 PM",
+          "P-jayden-harris": "9:30 PM",
+          "P-jordyn-starks": "9:30 PM",
+          "P-kennedy-mccalla": "8:30 PM",
+          "P-kevin-hohn": "9:30 PM",
+          "P-kourtney-ann-palmer": "8:30 PM",
+          "P-marissa-downie": "8:30 PM",
+          "P-moenike-custard": "8:30 PM",
+          "P-nelcia-fosttin": "8:30 PM",
+          "P-rodney-jean": "8:30 PM"
+        },
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Scene 1 & 9 Review Choreography; Scene 11 & 12  dialogue and blocking",
+        "focus": "",
+        "prep": "Scene 1 & 9 Review Choreography; Scene 11 & 12  dialogue and blocking",
+        "notice": "",
+        "changeType": ""
+      },
+      {
         "id": "CHOSEN-20260930-REH",
         "eventKey": "CHOSEN-20260930-REH",
         "start": "2026-09-30T22:30:00.000Z",
@@ -8518,8 +8626,8 @@
         "count": 8
       }
     ],
-    "count": 37,
-    "pastCount": 15
+    "count": 36,
+    "pastCount": 16
   },
   "scripts": {
     "items": [
@@ -8535,7 +8643,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "02",
@@ -8549,7 +8657,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "03",
@@ -8563,7 +8671,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "04",
@@ -8577,7 +8685,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "05",
@@ -8591,7 +8699,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "06",
@@ -8605,7 +8713,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "07",
@@ -8619,7 +8727,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "08",
@@ -8633,7 +8741,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "09",
@@ -8647,7 +8755,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "10",
@@ -8661,7 +8769,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "11",
@@ -8675,7 +8783,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "12",
@@ -8689,7 +8797,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       }
     ],
     "current": [
@@ -8705,7 +8813,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "02",
@@ -8719,7 +8827,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "03",
@@ -8733,7 +8841,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "04",
@@ -8747,7 +8855,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "05",
@@ -8761,7 +8869,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "06",
@@ -8775,7 +8883,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "07",
@@ -8789,7 +8897,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "08",
@@ -8803,7 +8911,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "09",
@@ -8817,7 +8925,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "10",
@@ -8831,7 +8939,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "11",
@@ -8845,7 +8953,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       },
       {
         "scene": "12",
@@ -8859,11 +8967,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-01T20:24:56.481Z"
+        "updated": "2026-10-02T04:49:37.821Z"
       }
     ],
     "count": 12,
-    "updated": "2026-10-02T00:00:15.713Z",
+    "updated": "2026-10-02T04:49:47.755Z",
     "kind": "scripts"
   },
   "music": {
@@ -8992,7 +9100,7 @@
       }
     ],
     "count": 4,
-    "updated": "2026-10-02T00:00:15.713Z",
+    "updated": "2026-10-02T04:49:47.755Z",
     "kind": "music"
   }
 }
