@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T00:02:14.862Z",
+  "updated": "2026-10-03T00:22:10.992Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -22,7 +22,7 @@
     "dateLabel": "October 3, 2026",
     "dayLabel": "Saturday",
     "time": "10:00 AM–2:00 PM",
-    "title": "CHOSEN Rehearsal - Scene 9 (Dancers Only) Scenes 9–12",
+    "title": "CHOSEN Rehearsal - Scenes 9–12",
     "status": "CONFIRMED",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
@@ -319,7 +319,7 @@
         "dateLabel": "October 3, 2026",
         "dayLabel": "Saturday",
         "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 9 (Dancers Only) Scenes 9–12",
+        "title": "CHOSEN Rehearsal - Scenes 9–12",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
@@ -1026,7 +1026,7 @@
         "dateLabel": "October 3, 2026",
         "dayLabel": "Saturday",
         "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 9 (Dancers Only) Scenes 9–12",
+        "title": "CHOSEN Rehearsal - Scenes 9–12",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
@@ -4817,7 +4817,7 @@
         "dateLabel": "October 3, 2026",
         "dayLabel": "Saturday",
         "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 9 (Dancers Only) Scenes 9–12",
+        "title": "CHOSEN Rehearsal - Scenes 9–12",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
@@ -8971,7 +8971,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-10-03T00:02:14.863Z",
+    "updated": "2026-10-03T00:22:10.993Z",
     "kind": "scripts"
   },
   "music": {
@@ -9130,7 +9130,7 @@
       }
     ],
     "count": 5,
-    "updated": "2026-10-03T00:02:14.863Z",
+    "updated": "2026-10-03T00:22:10.993Z",
     "kind": "music"
   }
 }
