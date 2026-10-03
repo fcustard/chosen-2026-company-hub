@@ -6,9 +6,9 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-02T04:49:37.821Z",
-  "contentHash": "4b8205b92137403d63db877ba2e82952158e01892eb428a76844af8c00e2fcaa",
-  "publicationNote": "This scene was auto-published from the CHOSEN master script.",
+  "sourceUpdated": "2026-10-03T01:03:08.053Z",
+  "contentHash": "834dd29038c10ecf09a46e9b6cd15f5f72f0bc8dca6922c9ba52798c3e612a74",
+  "publicationNote": "This scene was updated from the approved CHOSEN master-script revision after the automated Master Script feed timed out.",
   "blocks": [
     {
       "type": "heading",
@@ -27,7 +27,7 @@
     },
     {
       "type": "production-note",
-      "text": "Musical Material: Short “Chosen” reprise — 45–60 seconds",
+      "text": "Musical Material: Elizabeth — “O Come, O Come, Emmanuel” snippet — approximately 40–50 seconds",
       "namedStyleType": "SUBTITLE"
     },
     {
@@ -51,7 +51,7 @@
     },
     {
       "type": "stage",
-      "text": "Mary remains beside the unfinished table for one final breath after Joseph exits. A fragile trace of “Chosen” may remain underneath.",
+      "text": "Mary remains beside the unfinished table for one final breath after Joseph exits. No “Chosen” motif follows her. The silence carries the wound into the next moment.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -90,12 +90,57 @@
     },
     {
       "type": "stage",
-      "text": "Elizabeth is occupied with an ordinary household task. Mary appears at the edge of the space.",
+      "text": "Elizabeth is occupied with an ordinary household task. She works without knowing Mary is near.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Before entering, Mary wipes her face and tries to make herself presentable. She has been holding herself together since Joseph left.",
+      "text": "As she works, Elizabeth begins humming quietly to herself.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "MUSICAL MOMENT — “O COME, O COME, EMMANUEL”",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "stage",
+      "text": "This is not a performance. Elizabeth is simply singing while she works.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Keep the moment intimate and solo — approximately 40–50 seconds. No background vocals.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "The arrangement should begin spare: nearly a cappella or with only the lightest piano/cello support. Elizabeth’s natural gospel color and vibrato may shape the melody without turning the moment into a full gospel number.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "character",
+      "text": "ELIZABETH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "lyric",
+      "text": "[SHORT “O COME, O COME, EMMANUEL” EXCERPT — EXACT CUT TBD]",
+      "namedStyleType": "TITLE"
+    },
+    {
+      "type": "stage",
+      "text": "Mary appears quietly at the edge of the space during the final phrase. Elizabeth does not see her yet.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Before entering fully, Mary wipes her face and tries to make herself presentable. She has been holding herself together since Joseph left.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Elizabeth finishes the phrase, returns to her task, then becomes aware that someone is there.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1169,146 +1214,6 @@
       "text": ""
     },
     {
-      "type": "heading",
-      "text": "“CHOSEN” REPRISE",
-      "namedStyleType": "HEADING_2"
-    },
-    {
-      "type": "stage",
-      "text": "A quiet version of Mary's “Chosen” motif begins.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Not a second full song.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Not a power vocal.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "The reprise should sound like someone remembering words she once believed more easily.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "music",
-      "text": "MARY — MUSICAL TERRITORY",
-      "namedStyleType": "HEADING_4"
-    },
-    {
-      "type": "stage",
-      "text": "Earlier",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "I will trust.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "stage",
-      "text": "Now",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "I must keep trusting.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "music",
-      "text": "Possible lyrical territory",
-      "namedStyleType": "HEADING_4"
-    },
-    {
-      "type": "lyric",
-      "text": "I said yes before I knew",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "how heavy yes could be.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "I saw only the promise—",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "not what it might ask of me.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "stage",
-      "text": "Elizabeth may gently join in harmony.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Not preaching.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Supporting.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "music",
-      "text": "ELIZABETH — MUSICAL TERRITORY",
-      "namedStyleType": "HEADING_4"
-    },
-    {
-      "type": "lyric",
-      "text": "You don't need the whole road.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "You only need the next step.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "stage",
-      "text": "Mary's motif returns.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "lyric",
-      "text": "Chosen doesn't mean unafraid...",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "stage",
-      "text": "She almost stops.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Then continues.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "It means I trust Him even here.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "stage",
-      "text": "The reprise resolves quietly.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
       "type": "stage",
       "text": "Mary is not suddenly happy.",
       "namedStyleType": "HEADING_6"
@@ -1322,10 +1227,6 @@
       "type": "stage",
       "text": "Elizabeth takes her hand.",
       "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "spacer",
-      "text": ""
     },
     {
       "type": "heading",
