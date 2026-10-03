@@ -1,0 +1,762 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://docs.google.com/spreadsheets/d/1-d6_f2Yw5dMG4fRCjinw3ksdJkRNbISwoVvk1yJV1ks/edit#gid=1036204332",
+  "summary": "STATUS — OCTOBER 2, 2026: Most principal looks are assembled; finish remaining assembly. No fittings have started. Use confirmed rehearsal hours only. Classroom fitting space confirmed; up to two stations. Target 5 minutes per performer, maximum 10; reserve 10-minute slots (12/hour with two stations; 6/hour with one). Oct. 8 rotations approved; station staffing and final cast list remain pending. Oct. 7 roster and Oct. 10 time/access issues remain unresolved.",
+  "fittingTitle": "APPROVED FITTING ROTATIONS — OCTOBER 8, 2026",
+  "fittingPolicy": "CLASSROOMS — SPACE AND ROTATIONS APPROVED. Up to two stations; target 5 minutes per performer, maximum 10, in reserved 10-minute slots. Oct. 8: 22 called dancers, 6:30–8:20 PM; buffer 8:20–8:30. Station staffing, ready costumes and final cast list remain to be settled. Keep captains available and return each pair promptly. If only one station is staffed, fit 11 in 110 minutes; move the rest to their next called date.",
+  "schedule": [
+    {
+      "date": "2026-09-09",
+      "day": "Wed",
+      "time": "6:00–9:00 PM",
+      "phase": "ASSEMBLY 1",
+      "group": "Wardrobe Team Only",
+      "task": "Inventory completed costumes; sort by scene, character and group; inspect condition; create labeled rack zones and performer assignment list.",
+      "alignment": "First wardrobe workday; no performer fitting.",
+      "goal": "All costumes accounted for; repair/fit issue list started."
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thu",
+      "time": "6:00–9:00 PM",
+      "phase": "ASSEMBLY 2",
+      "group": "Wardrobe Team Only",
+      "task": "Assemble complete looks for Mary, Joseph, Gabriel and Elizabeth; pair accessories, footwear and headpieces; label garment bags.",
+      "alignment": "Principal wardrobes prepared first.",
+      "goal": "Principal racks ready for Oct. 1 fittings."
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat",
+      "time": "9:00 AM–1:00 PM",
+      "phase": "ASSEMBLY 3",
+      "group": "Wardrobe Team Only",
+      "task": "Assemble Dance Ensemble and Full Company base looks; size-sort costumes; flag movement-sensitive pieces.",
+      "alignment": "Long uninterrupted Saturday block.",
+      "goal": "Dance/company racks organized by fitting wave."
+    },
+    {
+      "date": "2026-09-16",
+      "day": "Wed",
+      "time": "6:00–9:00 PM",
+      "phase": "ASSEMBLY 4",
+      "group": "Wardrobe Team Only",
+      "task": "Assemble Mary’s Friends and Joseph’s Friends; pair shoes, accessories and head coverings; label by performer.",
+      "alignment": "Supports early October supporting-actor fittings.",
+      "goal": "Supporting actor racks complete."
+    },
+    {
+      "date": "2026-09-17",
+      "day": "Thu",
+      "time": "6:00–9:00 PM",
+      "phase": "ASSEMBLY 5",
+      "group": "Wardrobe Team Only",
+      "task": "Assemble Eli, Anna, Shepherd 1, Shepherd 2, Young Shepherd, Roman Announcer and other Scene 10–12 featured looks.",
+      "alignment": "Featured-character focus.",
+      "goal": "Scene 10–12 racks complete."
+    },
+    {
+      "date": "2026-09-19",
+      "day": "Sat",
+      "time": "9:00 AM–1:00 PM",
+      "phase": "ASSEMBLY 5",
+      "group": "Wardrobe Team Only",
+      "task": "Assemble Nia, Simon, child speakers, villagers, merchants and gossipers; review child-safe footwear and hem lengths.",
+      "alignment": "Dedicated child/village organization block.",
+      "goal": "Children/villager racks complete."
+    },
+    {
+      "date": "2026-09-23",
+      "day": "Wed",
+      "time": "6:00–9:00 PM",
+      "phase": "ASSEMBLY 7",
+      "group": "Wardrobe Team Only",
+      "task": "Split Full Company into fitting Waves A, B and C; assign rack/garment-bag numbers; prepare fitting sheets and alteration tags.",
+      "alignment": "Avoids one oversized company fitting.",
+      "goal": "Company fitting roster finalized."
+    },
+    {
+      "date": "2026-09-24",
+      "day": "Thu",
+      "time": "6:00–9:00 PM",
+      "phase": "ASSEMBLY 8",
+      "group": "Wardrobe Team Only",
+      "task": "Pair belts, shoes, head coverings, underlayers and accessories; verify scene-to-scene continuity for doubling performers.",
+      "alignment": "Completes full-look preparation.",
+      "goal": "Each fitting set complete before performer arrives."
+    },
+    {
+      "date": "2026-09-26",
+      "day": "Sat",
+      "time": "9:00 AM–1:00 PM",
+      "phase": "ASSEMBLY 9",
+      "group": "Wardrobe Team Only",
+      "task": "Steam/press costumes; inspect seams and closures; stage fitting stations; photograph rack organization.",
+      "alignment": "Final large assembly day before fittings.",
+      "goal": "Fitting-ready wardrobe inventory."
+    },
+    {
+      "date": "2026-09-30",
+      "day": "Wed",
+      "time": "6:00–8:30 PM",
+      "phase": "FITTING PREP",
+      "group": "Wardrobe Team Only",
+      "task": "Walk through fitting workflow: forms, mirrors, pins, photo station, privacy area, alteration tags and rack order.",
+      "alignment": "System rehearsal before first fitting.",
+      "goal": "Team ready for Oct. 1."
+    },
+    {
+      "date": "2026-10-01",
+      "day": "Thu",
+      "time": "5:00–6:20 PM",
+      "phase": "NOT STARTED — RESCHEDULE",
+      "group": "Mary, Joseph, Gabriel, Elizabeth",
+      "task": "Full character fitting; check costume layers, shoes, accessories/headwear; photograph and document alterations.",
+      "alignment": "First week of October; principals first.",
+      "goal": "Principal alteration list complete."
+    },
+    {
+      "date": "2026-10-03",
+      "day": "Sat",
+      "time": "10:00 AM–2:00 PM",
+      "phase": "ASSEMBLY CATCH-UP",
+      "group": "Wardrobe Team Only",
+      "task": "Finish remaining principal looks, then prepare dance and Scene 4/5/11/12 fitting racks. Complete accessories, footwear, labels, condition checks and fitting documentation.",
+      "alignment": "Assembly in classrooms alongside Oct. 3 rehearsal; no performer fitting or early arrival. Use approved rehearsal access only.",
+      "goal": "Ready looks and an itemized remaining-assembly list for Oct. 7–10."
+    },
+    {
+      "date": "2026-10-07",
+      "day": "Wed",
+      "time": "6:30–8:30 PM — planned window",
+      "phase": "FIRST FITTING — ROSTER REVIEW",
+      "group": "Dance Ensemble — ready costumes only",
+      "task": "Ready dance costumes: 5–10 minutes each in reserved 10-minute slots, up to two classroom stations. Capacity up to 12/hour, conditional on staffing and rehearsal release. Oct. 7 appointments remain on hold.",
+      "alignment": "Master Calendar includes dance fittings Oct. 7, but Personal Calls omits dancers. Resolve the call roster before issuing appointments.",
+      "goal": "Start first fittings; record completed performers and outstanding adjustments."
+    },
+    {
+      "date": "2026-10-08",
+      "day": "Thu",
+      "time": "6:30–8:20 PM proposals; buffer to 8:30",
+      "phase": "FIRST FITTING — APPROVED ROTATIONS",
+      "group": "22 called dancers — ready looks; remaining unfit only",
+      "task": "Approved named rotations at A67:H89: 11 paired, 10-minute waves and 10-minute catch-up buffer. Target 5 minutes; maximum 10. Skip anyone already fitted Oct. 7.",
+      "alignment": "Classroom fitting space and performer rotations approved. Within Oct. 8 personal calls. Station staffing and final space-limited rehearsal call list remain pending.",
+      "goal": "Target up to 22 first fits; record actual completion, photos and alterations."
+    },
+    {
+      "date": "2026-10-08",
+      "day": "Thu",
+      "time": "6:30–9:30 PM",
+      "phase": "ASSEMBLY / FITTING SUPPORT",
+      "group": "Wardrobe Team Only",
+      "task": "Finish remaining Scene 4/5/11/12 looks; stage actor racks, shoes, accessories, tags and fitting forms for Oct. 10. Support dance fittings only as staffing allows.",
+      "alignment": "No extra cast call. Work in classrooms during the confirmed Oct. 8 rehearsal block.",
+      "goal": "Actor looks ready for the Oct. 10 fitting blocks."
+    },
+    {
+      "date": "2026-10-10",
+      "day": "Sat",
+      "time": "11:00 AM–12:00 PM — proposed; verify",
+      "phase": "FIRST FITTING — TIME / ACCESS REVIEW",
+      "group": "Scene 4 & 5 called supporting actors; exclude Mary/Joseph",
+      "task": "Fit called supporting actors in small rotations before their noon rehearsal. Include only performers with ready costumes and assigned slots.",
+      "alignment": "Classroom fitting location confirmed. Master Calendar lists 11:00 PM–12:00 PM; reconcile apparent AM/PM error. Oct. 10 event remains PENDING with restricted access. Mary/Joseph rehearse 10:00 AM–2:00 PM; do not double-book.",
+      "goal": "Supporting-actor fitting notes; unresolved costumes/appointments logged."
+    },
+    {
+      "date": "2026-10-10",
+      "day": "Sat",
+      "time": "12:00–1:00 PM — planned; access review",
+      "phase": "FIRST FITTING — FEATURED / CHILDREN",
+      "group": "Released Scene 11 & 12 cast; exclude Mary/Joseph",
+      "task": "Fit released featured actors and child performers from Scenes 11/12. Check comfort, hems, footwear and accessories; document alterations.",
+      "alignment": "Classroom fitting location confirmed. Uses the Master Calendar's noon fitting block; Oct. 10 event/access remains PENDING. Mary/Joseph continue Scene 4/5 rehearsal; Delvin, Nia and Simon need director-cleared slots.",
+      "goal": "Featured/child fitting notes for performers actually fitted."
+    },
+    {
+      "date": "2026-10-14",
+      "day": "Wed",
+      "time": "6:30–9:30 PM",
+      "phase": "ASSEMBLY CLOSEOUT / ALTERATIONS",
+      "group": "Wardrobe Team Only",
+      "task": "Close remaining assembly gaps; complete priority adjustments from first dance/actor fittings; stage principal and ensemble racks.",
+      "alignment": "No new village cast call on Oct. 14; align performer fittings with their next published rehearsal.",
+      "goal": "Ready racks and alteration priorities for Oct. 15–17."
+    },
+    {
+      "date": "2026-10-15",
+      "day": "Thu",
+      "time": "Within 6:30–9:30 PM — rotations TBD",
+      "phase": "FIRST FITTING — PRINCIPALS",
+      "group": "Mary, Joseph, Gabriel — if released from rehearsal",
+      "task": "Fit ready principal looks only in director-cleared rotations. Verify layers, shoes and accessories; photograph and tag exact alterations.",
+      "alignment": "These principals are called Oct. 15. They remain needed for rehearsal; individual appointments require a director-cleared gap. Elizabeth is not added to this call.",
+      "goal": "Principal fitting notes; carry unfit performers to their next called date."
+    },
+    {
+      "date": "2026-10-17",
+      "day": "Sat",
+      "time": "Within 10:00 AM–2:00 PM",
+      "phase": "FIRST FITTING — COMPANY WAVES",
+      "group": "Unfitted performers already called for Oct. 17",
+      "task": "Up to two simultaneous fittings; 5–10 minutes each in reserved 10-minute waves (maximum 12/hour before breaks). Prioritize unfitted children, movement safety and ready costumes. Assign waves only after scene/captain release.",
+      "alignment": "Master Calendar already includes company costume fittings. Release performers by scene/captain clearance; no before-10:00 AM call.",
+      "goal": "Company fitting register updated; remaining performers listed by next cast call."
+    },
+    {
+      "date": "2026-10-21",
+      "day": "Wed",
+      "time": "Within 6:30–9:30 PM — access review",
+      "phase": "FIRST FITTING / CATCH-UP",
+      "group": "Unfitted called Scene 4/5/7 cast, including Elizabeth",
+      "task": "Complete ready looks for called supporting actors, principals and understudies still needing first fittings. Assign only director-cleared rotations.",
+      "alignment": "Match Oct. 21 cast roster. Facility access is after HFM taping; coordinate actual access with Mickey. No extra Full Company call.",
+      "goal": "Called performers fitted where capacity permits; remaining names retained."
+    },
+    {
+      "date": "2026-10-22",
+      "day": "Thu",
+      "time": "Within 6:30–9:30 PM — rotations TBD",
+      "phase": "PRINCIPAL FITTING / CATCH-UP",
+      "group": "Mary, Joseph, Gabriel — only if still unfit",
+      "task": "Close remaining principal first-fitting needs in a director-cleared gap; verify corrected pieces where ready.",
+      "alignment": "Only the Oct. 22 called principals attend. No added choir/ensemble call; do not pull performers from active rehearsal.",
+      "goal": "Principal fitting gaps and alteration notes documented."
+    },
+    {
+      "date": "2026-10-24",
+      "day": "Sat",
+      "time": "Within 10:00 AM–2:00 PM",
+      "phase": "FIRST FITTING — CHECKPOINT",
+      "group": "Unfitted called Scenes 1–6 cast and dancers",
+      "task": "Complete remaining first fittings for performers on this call in small released rotations; log anyone still unfit.",
+      "alignment": "Match Oct. 24 cast attendance. Cast needed in active scenes remains in rehearsal. Do not add Scene 10–12-only performers.",
+      "goal": "Initial-fit checkpoint; outstanding cases move to the appropriate Oct. 28–31 cast call."
+    },
+    {
+      "date": "2026-10-28",
+      "day": "Wed",
+      "time": "6:30–9:30 PM",
+      "phase": "ALTERATIONS 1",
+      "group": "Wardrobe Team Only",
+      "task": "Principal, supporting, villager and company alterations from initial fittings; hems, waists, sleeves, closures and repairs.",
+      "alignment": "Wardrobe team work during confirmed rehearsal hours; no added performer fitting call.",
+      "goal": "Priority alterations underway."
+    },
+    {
+      "date": "2026-10-29",
+      "day": "Thu",
+      "time": "Cast within 6:30–8:30 PM; crew to 9:30 PM",
+      "phase": "FIRST FIT CATCH-UP / ALTERATIONS",
+      "group": "Unfitted called Scenes 10–12 cast + Wardrobe Team",
+      "task": "Fit remaining called Scene 10–12 performers only in released rotations; continue first-pass alterations, dance reinforcement and child-safety corrections.",
+      "alignment": "Match Oct. 29 cast block and individual releases. Protect scene work; no new cast arrival or extended release.",
+      "goal": "Outstanding featured first fits reduced; corrections staged for Oct. 31."
+    },
+    {
+      "date": "2026-10-31",
+      "day": "Sat",
+      "time": "Within 10:00 AM–2:00 PM",
+      "phase": "INITIAL FIT CLOSEOUT / ALTERATIONS",
+      "group": "Unfitted called Scenes 7–12 cast + Wardrobe Team",
+      "task": "Close remaining first fittings for called cast where released; finish priority corrections and stage November refit racks.",
+      "alignment": "Use approved Oct. 31 access and cast attendance. Retain an exception list for anyone absent, not ready, or beyond fitting capacity.",
+      "goal": "Target: first-fitting cycle closed Oct. 31; unresolved exceptions recorded."
+    },
+    {
+      "date": "2026-11-04",
+      "day": "Wed",
+      "time": "Within 6:30–9:30 PM — call list pending",
+      "phase": "SECOND FIT / REFIT",
+      "group": "Flagged performers included in the final rehearsal call only",
+      "task": "Verify corrected fit and full look; approve or return only remaining problem pieces.",
+      "alignment": "Master Calendar targeted cast is TBD. Confirm names and director-cleared rotations before assigning refit appointments.",
+      "goal": "Principal/featured fit locked where approved."
+    },
+    {
+      "date": "2026-11-05",
+      "day": "Thu",
+      "time": "Within 6:30–9:30 PM — call list pending",
+      "phase": "SECOND FIT / REFIT",
+      "group": "Flagged performers included in the final rehearsal call only",
+      "task": "Movement/safety refit; check hems, closures, shoes and child comfort.",
+      "alignment": "Master Calendar targeted cast is TBD. Confirm names and director-cleared rotations before assigning refit appointments.",
+      "goal": "Dance/child fit locked where approved."
+    },
+    {
+      "date": "2026-11-07",
+      "day": "Sat",
+      "time": "Within 10:00 AM–2:00 PM",
+      "phase": "SECOND FIT / COSTUME CHECK",
+      "group": "Full Company flagged performers + missed refits",
+      "task": "Close outstanding fit issues; photograph approved looks; verify costume labeling and scene continuity.",
+      "alignment": "Full Company is called Nov. 7. Refit flagged performers in director-cleared rotations; no early arrival.",
+      "goal": "Most costume fits locked."
+    },
+    {
+      "date": "2026-11-11",
+      "day": "Wed",
+      "time": "6:30–9:30 PM",
+      "phase": "ALTERATIONS 4",
+      "group": "Wardrobe Team Only",
+      "task": "Resolve notes from Nov. 4–7; repair hems, closures and fit issues; reinforce high-use pieces.",
+      "alignment": "Wardrobe team only, within approved access; directors away. No added performer fitting call.",
+      "goal": "Remaining correction list reduced."
+    },
+    {
+      "date": "2026-11-12",
+      "day": "Thu",
+      "time": "6:30–9:30 PM",
+      "phase": "ALTERATIONS 5",
+      "group": "Wardrobe Team Only",
+      "task": "Continue corrections; reset approved costumes in scene order; update garment tags.",
+      "alignment": "Wardrobe team only, within approved access; directors away. No added performer fitting call.",
+      "goal": "Approved pieces returned to ready racks."
+    },
+    {
+      "date": "2026-11-14",
+      "day": "Sat",
+      "time": "10:00 AM–2:00 PM",
+      "phase": "WARDROBE MAINTENANCE 1",
+      "group": "Wardrobe Team Only",
+      "task": "Quality-control approved wardrobes; check seams, shoes, accessories, backups and quick-change needs.",
+      "alignment": "Wardrobe team only during approved Saturday access; directors away. No early arrival.",
+      "goal": "Durability/backup issues identified and corrected."
+    },
+    {
+      "date": "2026-11-18",
+      "day": "Wed",
+      "time": "NOT SCHEDULED — location unconfirmed",
+      "phase": "HOLD — OFF-SITE WORKSPACE NEEDED",
+      "group": "Wardrobe Team Only",
+      "task": "Pair and relabel accessories; review quick-change order; steam/press pieces needing reset.",
+      "alignment": "TFC is unavailable; cast rehearsal is virtual/off-site. Do not issue an on-site wardrobe call. Resume work only after separate workspace/hours are confirmed.",
+      "goal": "Rack map and accessory map updated."
+    },
+    {
+      "date": "2026-11-19",
+      "day": "Thu",
+      "time": "NOT SCHEDULED — location unconfirmed",
+      "phase": "HOLD — OFF-SITE WORKSPACE NEEDED",
+      "group": "Wardrobe Team Only",
+      "task": "Complete quick-change organization; prepare emergency sewing kits and dressing-station supplies.",
+      "alignment": "TFC is unavailable; cast rehearsal is virtual/off-site. Do not issue an on-site wardrobe call. Resume work only after separate workspace/hours are confirmed.",
+      "goal": "Quick-change support materials complete."
+    },
+    {
+      "date": "2026-11-21",
+      "day": "Sat",
+      "time": "NOT SCHEDULED — location unconfirmed",
+      "phase": "HOLD — OFF-SITE WORKSPACE NEEDED",
+      "group": "Wardrobe Team Only",
+      "task": "Full inventory audit; verify every performer has assigned costume, shoes/accessories and labeled rack position.",
+      "alignment": "TFC is unavailable; cast rehearsal is virtual/off-site. Do not issue an on-site wardrobe call. Resume work only after separate workspace/hours are confirmed.",
+      "goal": "Inventory and assignments confirmed."
+    },
+    {
+      "date": "2026-11-25",
+      "day": "Wed",
+      "time": "NO CALL",
+      "phase": "THANKSGIVING BREAK",
+      "group": "No wardrobe or cast call",
+      "task": "Finishing and rack-reset objectives carry to Dec. 2–3. No work session is assigned during the production break.",
+      "alignment": "Aligns with Master Calendar Thanksgiving break; no facility access assumed.",
+      "goal": "Carry-forward finishing checklist retained for December."
+    },
+    {
+      "date": "2026-11-28",
+      "day": "Sat",
+      "time": "NO CALL",
+      "phase": "THANKSGIVING BREAK",
+      "group": "No wardrobe or cast call",
+      "task": "Finishing and rack-reset objectives carry to Dec. 2–3. No work session is assigned during the production break.",
+      "alignment": "Aligns with Master Calendar Thanksgiving break; no facility access assumed.",
+      "goal": "Carry-forward finishing checklist retained for December."
+    },
+    {
+      "date": "2026-12-02",
+      "day": "Wed",
+      "time": "Within 6:30–9:30 PM — rotations TBD",
+      "phase": "FINAL CHECK / FINISHING RECOVERY",
+      "group": "Called Full Company + Wardrobe Team",
+      "task": "Finish deferred inventory/rack reset; verify principal looks and remaining fit issues. Perform only director-cleared targeted checks; complete repairs and labels.",
+      "alignment": "Match Dec. 2 reassembly call; respect dancer/youth release times and the final named call list.",
+      "goal": "Final-check exception list and ready racks for Dec. 3–5."
+    },
+    {
+      "date": "2026-12-03",
+      "day": "Thu",
+      "time": "Within 6:30–9:30 PM — rotations TBD",
+      "phase": "FINAL FIT CHECK",
+      "group": "Flagged performers included in the final rehearsal call",
+      "task": "Movement refit and quick-change test; verify shoes, closures and hem safety.",
+      "alignment": "Match Dec. 3 full/targeted-company call; confirm individual rotations and youth release times.",
+      "goal": "Emergency sewing list created."
+    },
+    {
+      "date": "2026-12-05",
+      "day": "Sat",
+      "time": "Within 10:00 AM–2:00 PM",
+      "phase": "FINAL CATCH-UP / COSTUME PARADE",
+      "group": "Missed final checks + Selected Principals / Wardrobe Leads",
+      "task": "Close all remaining fitting issues; review final looks by scene; photograph approved continuity.",
+      "alignment": "Match structural-lock rehearsal. Final checks only in released rotations; no before-10:00 AM costume parade.",
+      "goal": "Target: FORMAL COSTUME FIT LOCK; exceptions limited to documented fit/safety issues."
+    },
+    {
+      "date": "2026-12-09",
+      "day": "Wed",
+      "time": "6:30–9:30 PM — during rehearsal",
+      "phase": "COSTUME INTEGRATION CHECK",
+      "group": "Full Company",
+      "task": "Use key costume pieces, shoes, headwear and quick-change layers to test movement and scene continuity.",
+      "alignment": "Integration within Dec. 9 NO-STOP RUN #1; not an added fitting or early call.",
+      "goal": "Quick-change and movement notes only."
+    },
+    {
+      "date": "2026-12-10",
+      "day": "Thu",
+      "time": "6:30–9:30 PM",
+      "phase": "REPAIR / INTEGRATION RESPONSE",
+      "group": "Wardrobe Team Only",
+      "task": "Address issues found Dec. 9; repair closures, hems, labels and quick-change setup.",
+      "alignment": "Wardrobe response within confirmed Dec. 10 access; no extra performer call.",
+      "goal": "Costumes reset for Dec. 12 full run."
+    },
+    {
+      "date": "2026-12-12",
+      "day": "Sat",
+      "time": "10:00 AM–2:00 PM",
+      "phase": "COSTUME INTEGRATION / NO-STOP RUN #2",
+      "group": "Full Company + Dance Ensemble",
+      "task": "First full-costume integration; track dressing times, quick changes, durability, continuity and repairs.",
+      "alignment": "Match Master Calendar NO-STOP RUN #2, 10:00 AM–2:00 PM; no extended access.",
+      "goal": "Final correction list generated."
+    },
+    {
+      "date": "2026-12-16",
+      "day": "Wed",
+      "time": "Within 6:30–9:30 PM — call list pending",
+      "phase": "EMERGENCY REFIT / REPAIR",
+      "group": "Flagged performers in final rehearsal call + Wardrobe Team",
+      "task": "Resolve only fit/safety issues discovered in full costume run; complete performer-specific fixes.",
+      "alignment": "Confirm the Dec. 16 targeted cast list and director-cleared repair/refit rotations; no early call.",
+      "goal": "Performer-specific fit issues closed."
+    },
+    {
+      "date": "2026-12-17",
+      "day": "Thu",
+      "time": "6:30–9:30 PM",
+      "phase": "WARDROBE PRESET / FINAL REPAIR",
+      "group": "Wardrobe Team + Quick-Change Captains",
+      "task": "Finish Dec. 12 repair notes; preset racks, accessories, dressing zones and quick-change stations.",
+      "alignment": "Preset and repair within the Dec. 17 crew/rehearsal call; no earlier facility access assumed.",
+      "goal": "Wardrobe fully staged for final dress."
+    },
+    {
+      "date": "2026-12-19",
+      "day": "Sat",
+      "time": "10:00 AM–2:00 PM — during dress",
+      "phase": "FINAL TECH / DRESS + SHOW PRESET",
+      "group": "Full Company + Wardrobe Team",
+      "task": "Full costume dress; complete final steaming, repairs, rack reset and show-day preset. No design changes except safety/fit failure.",
+      "alignment": "Final dress and preset within approved access only. Do not assume before-10:00 AM or extended Saturday access.",
+      "goal": "Wardrobe locked, preset and performance-ready."
+    }
+  ],
+  "fittings": [
+    {
+      "date": "2026-10-08",
+      "time": "6:30–6:40 PM",
+      "station": "1",
+      "performer": "Gelvina Maxime",
+      "focus": "Child / dance look",
+      "alignment": "Called 6:30 PM–9:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Check comfort, hems and movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "6:30–6:40 PM",
+      "station": "2",
+      "performer": "James Myers",
+      "focus": "Child / dance look",
+      "alignment": "Called 6:30 PM–9:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Check comfort, hems and movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "6:40–6:50 PM",
+      "station": "1",
+      "performer": "Delvin Rogers Jr",
+      "focus": "Child / dance look",
+      "alignment": "Called 6:30 PM–9:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Check comfort, hems and movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "6:40–6:50 PM",
+      "station": "2",
+      "performer": "Alexandria Platt",
+      "focus": "Child / dance look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Check comfort, hems and movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "6:50–7:00 PM",
+      "station": "1",
+      "performer": "Annalise Mongeois",
+      "focus": "Child / dance look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Check comfort, hems and movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "6:50–7:00 PM",
+      "station": "2",
+      "performer": "Ariella Davidson",
+      "focus": "Child / dance look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Check comfort, hems and movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "7:00–7:10 PM",
+      "station": "1",
+      "performer": "Allania Mitchell",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "7:00–7:10 PM",
+      "station": "2",
+      "performer": "Alyssa Johnson",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "7:10–7:20 PM",
+      "station": "1",
+      "performer": "Amadeus Hills",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "7:10–7:20 PM",
+      "station": "2",
+      "performer": "Anaia Downer",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "7:20–7:30 PM",
+      "station": "1",
+      "performer": "Arielle Brown",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "7:20–7:30 PM",
+      "station": "2",
+      "performer": "Aubrie Lewis",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "7:30–7:40 PM",
+      "station": "1",
+      "performer": "Caris Hunte",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "7:30–7:40 PM",
+      "station": "2",
+      "performer": "Carmen Brown",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "7:40–7:50 PM",
+      "station": "1",
+      "performer": "DeAndra Gray",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "7:40–7:50 PM",
+      "station": "2",
+      "performer": "Kennedy McCalla",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "7:50–8:00 PM",
+      "station": "1",
+      "performer": "Gabriella Fearon",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "7:50–8:00 PM",
+      "station": "2",
+      "performer": "Kourtney—Ann Palmer",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "8:00–8:10 PM",
+      "station": "1",
+      "performer": "Marissa Downie",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "8:00–8:10 PM",
+      "station": "2",
+      "performer": "Moenike Custard",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "8:10–8:20 PM",
+      "station": "1",
+      "performer": "Nelcia Fosttin",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "8:10–8:20 PM",
+      "station": "2",
+      "performer": "Rodney Jean",
+      "focus": "Dance / ensemble look",
+      "alignment": "Called 6:30 PM–8:30 PM; approved rotation; return promptly.",
+      "status": "APPROVED — staffing pending",
+      "notes": "Ready look only; check movement; document photos / alterations.",
+      "buffer": false
+    },
+    {
+      "date": "2026-10-08",
+      "time": "8:20–8:30 PM",
+      "station": "1 & 2",
+      "performer": "Catch-up / reset",
+      "focus": "No added performer call",
+      "alignment": "Finish within dance release; incomplete fits move to next called date.",
+      "status": "BUFFER",
+      "notes": "Use for delays, documentation and station reset.",
+      "buffer": true
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Assembly Catch-Up",
+      "date": "2026-10-03",
+      "purpose": "Finish remaining looks and prepare fitting racks; crew only."
+    },
+    {
+      "title": "First Fitting — Target",
+      "date": "2026-10-07",
+      "purpose": "Dance fittings Oct. 7–8; confirm roster, space and capacity before appointments."
+    },
+    {
+      "title": "Initial Fits Close — Target",
+      "date": "2026-10-31",
+      "purpose": "Oct. 24 checkpoint; Oct. 28–31 called-cast catch-up. Record unresolved exceptions."
+    },
+    {
+      "title": "Major Refit Check",
+      "date": "2026-11-07",
+      "purpose": "Most fits lock"
+    },
+    {
+      "title": "Final Fit Lock",
+      "date": "2026-12-05",
+      "purpose": "Only emergency/safety changes afterward"
+    },
+    {
+      "title": "Full Costume Run / No-Stop #2",
+      "date": "2026-12-12",
+      "purpose": "Full-costume integration within the approved Dec. 12 rehearsal block."
+    },
+    {
+      "title": "Final Dress/Preset",
+      "date": "2026-12-19",
+      "purpose": "Wardrobe ready for performance"
+    }
+  ],
+  "syncedAt": "2026-10-03T01:10:19.886Z"
+}

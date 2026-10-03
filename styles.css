@@ -22,6 +22,15 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
 @media(max-width:650px){.sitebar .inner{gap:8px}.sitebar nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--n);padding:12px 18px 18px;flex-direction:column;gap:2px;max-height:calc(100dvh - 72px);overflow-y:auto;overscroll-behavior:contain}.sitebar nav a{display:flex;align-items:center;min-height:48px;padding:10px 12px;border-radius:8px}.sitebar nav a:focus-visible,.sitebar nav a:hover{background:#23334a}.menu{display:block}.dash,.util{grid-template-columns:1fr}.row{grid-template-columns:auto 1fr}.actions{grid-column:1/-1}.actions .btn{flex:1}.nextline{grid-template-columns:1fr}.hero h1{font-size:2.8rem}}
 :focus-visible{outline:3px solid #c18c21;outline-offset:3px}
 
+/* Keep the expanded primary navigation accessible on tablets. */
+@media(max-width:980px){
+  .sitebar #nav:not(.sceneBackNav){display:none;position:absolute;top:100%;left:0;right:0;background:var(--n);padding:12px 18px 18px;flex-direction:column;gap:2px;max-height:calc(100dvh - 72px);overflow-y:auto;overscroll-behavior:contain}
+  .sitebar #nav:not(.sceneBackNav).open{display:flex}
+  .sitebar #nav:not(.sceneBackNav) a{display:flex;align-items:center;min-height:48px;padding:10px 12px;border-radius:8px}
+  .sitebar #nav:not(.sceneBackNav) a:focus-visible,.sitebar #nav:not(.sceneBackNav) a:hover{background:#23334a}
+  .sitebar .menu{display:block}
+}
+
 /* ===== CHOSEN 2026 — THIS WEEK DASHBOARD ===== */
 
 .week-intro{

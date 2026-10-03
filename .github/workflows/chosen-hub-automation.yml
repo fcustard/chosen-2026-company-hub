@@ -12,6 +12,8 @@ name: CHOSEN Hub Automation
       - "app.js"
       - "*.html"
       - "styles.css"
+      - "production.css"
+      - "production.js"
       - "personalization-v1.css"
       - "company-personalization.css"
       - "company-personalization.js"
@@ -162,6 +164,13 @@ jobs:
       - name: Validate exact personalized calls
         run: node tools/validate-exact-personalization.mjs
 
+      - name: Refresh wardrobe calendar from Master Calendar
+        run: |
+          if ! node tools/sync-wardrobe.mjs; then
+            echo "::warning::Wardrobe refresh failed. Keeping the last validated wardrobe plan."
+            test -s data/wardrobe.json
+          fi
+
       - name: Validate publication integrity and upcoming schedule
         run: node tools/validate-publication-integrity.mjs
 
@@ -217,6 +226,8 @@ jobs:
           git add data/rehearsals.json || true
           git add data/calendar-source-baseline.json || true
           git add data/company.json || true
+          git add data/wardrobe.json || true
+          git add production.html || true
           git add company.json || true
           git add data/content.json || true
           git add data/scripts.json || true

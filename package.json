@@ -7,13 +7,15 @@
     "validate:scenes": "node tools/validate-scenes.mjs",
     "validate:resources": "node tools/validate-resources.mjs",
     "validate:lines": "node tools/test-line-practice.mjs",
-    "validate": "npm run validate:base && npm run validate:scenes && npm run validate:resources && npm run validate:lines",
+    "validate:production": "node tools/validate-production.mjs",
+    "validate": "npm run validate:base && npm run validate:scenes && npm run validate:resources && npm run validate:lines && npm run validate:production",
     "build:company": "node tools/build-company-public.mjs",
     "build:scenes": "node tools/build-scenes.mjs",
     "build:pdfs": "python3 tools/build-scene-pdfs.py",
     "build:resources": "node tools/build-resources.mjs",
     "build:hub": "node tools/build.mjs",
-    "build": "npm run build:company && npm run build:scenes && npm run build:pdfs && npm run build:resources && npm run build:hub",
+    "build:production": "node tools/build-production.mjs",
+    "build": "npm run build:company && npm run build:scenes && npm run build:pdfs && npm run build:resources && npm run build:hub && npm run build:production",
     "check": "npm run validate && npm run build"
   }
 }
