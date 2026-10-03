@@ -6,9 +6,9 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-03T01:03:08.053Z",
-  "contentHash": "834dd29038c10ecf09a46e9b6cd15f5f72f0bc8dca6922c9ba52798c3e612a74",
-  "publicationNote": "This scene was updated from the approved CHOSEN master-script revision after the automated Master Script feed timed out.",
+  "sourceUpdated": "2026-10-03T10:22:06.077Z",
+  "contentHash": "d547333bffeeb9a7a89510724c47e36387da855bbe2358cde7424a83ba2cdbca",
+  "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
       "type": "heading",
@@ -94,9 +94,17 @@
       "namedStyleType": "HEADING_6"
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "stage",
       "text": "As she works, Elizabeth begins humming quietly to herself.",
       "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "music",
@@ -104,9 +112,17 @@
       "namedStyleType": "HEADING_4"
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "stage",
       "text": "This is not a performance. Elizabeth is simply singing while she works.",
       "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "stage",
@@ -114,9 +130,17 @@
       "namedStyleType": "HEADING_6"
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "stage",
       "text": "The arrangement should begin spare: nearly a cappella or with only the lightest piano/cello support. Elizabeth’s natural gospel color and vibrato may shape the melody without turning the moment into a full gospel number.",
       "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "character",
@@ -129,14 +153,26 @@
       "namedStyleType": "TITLE"
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "stage",
       "text": "Mary appears quietly at the edge of the space during the final phrase. Elizabeth does not see her yet.",
       "namedStyleType": "HEADING_6"
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "stage",
       "text": "Before entering fully, Mary wipes her face and tries to make herself presentable. She has been holding herself together since Joseph left.",
       "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "stage",
@@ -1227,6 +1263,10 @@
       "type": "stage",
       "text": "Elizabeth takes her hand.",
       "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "heading",
