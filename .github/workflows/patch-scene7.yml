@@ -1,0 +1,223 @@
+name: One-time Scene 7 Hub Patch
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/patch-scene7.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch-scene-7:
+    if: ${{ github.event.head_commit.message == 'Install one-time Scene 7 Hub patch' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out Hub
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PDF builder
+        run: python -m pip install --disable-pip-version-check -r requirements-pdf.txt
+
+      - name: Patch Scene 7 from approved master-script revision
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          const crypto = require('node:crypto');
+
+          const path = 'data/scenes/scene-07.json';
+          const scene = JSON.parse(fs.readFileSync(path, 'utf8'));
+          const blocks = scene.blocks;
+
+          function fail(message) {
+            console.error(`Scene 7 patch failed: ${message}`);
+            process.exit(1);
+          }
+
+          function findIndex(predicate, label) {
+            const index = blocks.findIndex(predicate);
+            if (index < 0) fail(`Could not find ${label}`);
+            return index;
+          }
+
+          const musicalMaterial = findIndex(
+            b => b.type === 'production-note' && /^Musical Material:/i.test(b.text || ''),
+            'Musical Material production note'
+          );
+          blocks[musicalMaterial].text = 'Musical Material: Elizabeth — “O Come, O Come, Emmanuel” snippet — approximately 40–50 seconds';
+
+          const oldTransition = findIndex(
+            b => (b.text || '').includes('A fragile trace of “Chosen” may remain underneath.'),
+            'old Chosen transition note'
+          );
+          blocks[oldTransition].text = 'Mary remains beside the unfinished table for one final breath after Joseph exits. No “Chosen” motif follows her. The silence carries the wound into the next moment.';
+          blocks[oldTransition].type = 'stage';
+          blocks[oldTransition].namedStyleType = 'HEADING_6';
+
+          const elizabethHeading = findIndex(
+            b => b.type === 'heading' && b.text === 'MARY’S ROAD — ELIZABETH',
+            'MARY’S ROAD — ELIZABETH heading'
+          );
+
+          let maryQuestion = -1;
+          for (let i = elizabethHeading + 1; i < blocks.length; i += 1) {
+            if (blocks[i].type === 'dialogue' && blocks[i].text === 'Mary?') {
+              maryQuestion = i;
+              break;
+            }
+          }
+          if (maryQuestion < 0) fail('Could not find Elizabeth’s first “Mary?” dialogue');
+
+          const newElizabethOpening = [
+            {
+              type: 'stage',
+              text: 'Elizabeth is occupied with an ordinary household task. She works without knowing Mary is near.',
+              namedStyleType: 'HEADING_6'
+            },
+            {
+              type: 'stage',
+              text: 'As she works, Elizabeth begins humming quietly to herself.',
+              namedStyleType: 'HEADING_6'
+            },
+            {
+              type: 'music',
+              text: 'MUSICAL MOMENT — “O COME, O COME, EMMANUEL”',
+              namedStyleType: 'HEADING_4'
+            },
+            {
+              type: 'stage',
+              text: 'This is not a performance. Elizabeth is simply singing while she works.',
+              namedStyleType: 'HEADING_6'
+            },
+            {
+              type: 'stage',
+              text: 'Keep the moment intimate and solo — approximately 40–50 seconds. No background vocals.',
+              namedStyleType: 'HEADING_6'
+            },
+            {
+              type: 'stage',
+              text: 'The arrangement should begin spare: nearly a cappella or with only the lightest piano/cello support. Elizabeth’s natural gospel color and vibrato may shape the melody without turning the moment into a full gospel number.',
+              namedStyleType: 'HEADING_6'
+            },
+            {
+              type: 'character',
+              text: 'ELIZABETH',
+              namedStyleType: 'HEADING_3'
+            },
+            {
+              type: 'lyric',
+              text: '[SHORT “O COME, O COME, EMMANUEL” EXCERPT — EXACT CUT TBD]',
+              namedStyleType: 'TITLE'
+            },
+            {
+              type: 'stage',
+              text: 'Mary appears quietly at the edge of the space during the final phrase. Elizabeth does not see her yet.',
+              namedStyleType: 'HEADING_6'
+            },
+            {
+              type: 'stage',
+              text: 'Before entering fully, Mary wipes her face and tries to make herself presentable. She has been holding herself together since Joseph left.',
+              namedStyleType: 'HEADING_6'
+            },
+            {
+              type: 'stage',
+              text: 'Elizabeth finishes the phrase, returns to her task, then becomes aware that someone is there.',
+              namedStyleType: 'HEADING_6'
+            },
+            {
+              type: 'character',
+              text: 'ELIZABETH',
+              namedStyleType: 'HEADING_3'
+            }
+          ];
+
+          blocks.splice(elizabethHeading + 1, maryQuestion - (elizabethHeading + 1), ...newElizabethOpening);
+
+          const repriseStart = findIndex(
+            b => (b.text || '') === '“CHOSEN” REPRISE',
+            'CHOSEN reprise heading'
+          );
+          const josephEnough = findIndex(
+            b => b.type === 'heading' && b.text === 'JOSEPH — ENOUGH',
+            'JOSEPH — ENOUGH heading'
+          );
+          if (josephEnough <= repriseStart) fail('JOSEPH — ENOUGH appeared before the reprise');
+
+          blocks.splice(repriseStart, josephEnough - repriseStart,
+            { type: 'stage', text: 'Mary is not suddenly happy.', namedStyleType: 'HEADING_6' },
+            { type: 'stage', text: 'She is steadier.', namedStyleType: 'HEADING_6' },
+            { type: 'stage', text: 'Elizabeth takes her hand.', namedStyleType: 'HEADING_6' }
+          );
+
+          const forbidden = [
+            '“CHOSEN” REPRISE',
+            'A quiet version of Mary\'s “Chosen” motif begins.',
+            'Elizabeth may gently join in harmony.',
+            'Chosen doesn\'t mean unafraid...'
+          ];
+          for (const text of forbidden) {
+            if (blocks.some(b => (b.text || '') === text)) {
+              fail(`Old reprise material remains: ${text}`);
+            }
+          }
+
+          if (!blocks.some(b => (b.text || '').includes('O COME, O COME, EMMANUEL'))) {
+            fail('New Emmanuel musical moment is missing');
+          }
+          if (!blocks.some(b => (b.text || '').includes('No background vocals.'))) {
+            fail('No-background-vocals direction is missing');
+          }
+
+          scene.sourceUpdated = new Date().toISOString();
+          scene.publicationNote = 'This scene was updated from the approved CHOSEN master-script revision after the automated Master Script feed timed out.';
+          scene.contentHash = crypto.createHash('sha256').update(JSON.stringify(scene.blocks)).digest('hex');
+
+          fs.writeFileSync(path, JSON.stringify(scene, null, 2) + '\n', 'utf8');
+          console.log('Scene 7 source patched successfully.');
+          NODE
+
+      - name: Validate Scene 7 source
+        run: npm run validate:scenes
+
+      - name: Build scene readers
+        run: npm run build:scenes
+
+      - name: Build scene PDFs
+        run: python3 tools/build-scene-pdfs.py
+
+      - name: Verify generated Scene 7 reader
+        run: |
+          grep -q 'O COME, O COME, EMMANUEL' scene-07.html
+          grep -q 'No background vocals' scene-07.html
+          if grep -q '“CHOSEN” REPRISE' scene-07.html; then
+            echo 'Old CHOSEN reprise is still present in scene-07.html'
+            exit 1
+          fi
+          if grep -q 'A fragile trace of “Chosen” may remain underneath' scene-07.html; then
+            echo 'Old Chosen transition is still present in scene-07.html'
+            exit 1
+          fi
+
+      - name: Publish corrected Scene 7
+        run: |
+          git config user.name "CHOSEN Hub Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/scenes/scene-07.json scene-07.html scene-07.pdf
+          git commit -m "Publish corrected Scene 7 Emmanuel moment [skip calendar]"
+          git push origin HEAD:main
