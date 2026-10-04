@@ -25,6 +25,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import { fetchScriptFeed, ScriptFeedRequestError } from "./script-feed.mjs";
 
 const ROOT = process.cwd();
 const SCENES_DIR = path.join(ROOT, "data", "scenes");
@@ -1027,29 +1028,12 @@ async function fetchFeed() {
     return SKIP_SCRIPT_SYNC;
   };
 
-  let response;
-  let body;
   try {
-    response = await fetch(url, {
-      headers: { "Accept": "application/json" },
-      signal: AbortSignal.timeout(45000)
-    });
-    body = await response.text();
+    return await fetchScriptFeed(url);
   } catch (error) {
-    if (canKeepPublishedScenes()) return keepPublishedScenes();
-    throw error;
-  }
-
-  if (!response.ok) {
-    if ((response.status === 429 || response.status >= 500) &&
+    if (error instanceof ScriptFeedRequestError && error.retryable &&
         canKeepPublishedScenes()) return keepPublishedScenes();
-    fail(`Script feed request failed with HTTP ${response.status}: ${body.slice(0, 500)}`);
-  }
-
-  try {
-    return JSON.parse(body);
-  } catch (error) {
-    fail(`Script feed did not return JSON: ${error.message}. First 300 chars: ${body.slice(0, 300)}`);
+    throw error;
   }
 }
 
