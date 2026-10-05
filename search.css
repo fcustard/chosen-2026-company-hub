@@ -1,0 +1,16 @@
+.searchPanel{background:#fffdf8;border:1px solid rgba(13,23,38,.15);border-radius:18px;padding:clamp(20px,4vw,34px);box-shadow:0 12px 30px rgba(13,23,38,.06)}
+.searchForm{display:flex;gap:10px;align-items:stretch;margin-top:14px}
+.searchForm input{min-width:0;flex:1;border:1px solid #7a8190;border-radius:10px;padding:14px 16px;font:inherit;font-size:1rem;background:white;color:#0d1726}
+.searchForm button{border:0;border-radius:10px;padding:12px 24px;background:#0d1726;color:white;font:inherit;font-weight:800;cursor:pointer}
+.searchForm :focus-visible,.searchResults a:focus-visible{outline:3px solid #c48812;outline-offset:3px}
+.searchResults{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:12px}
+.searchResults li{border:1px solid rgba(13,23,38,.15);border-radius:12px;background:#fffdf8;padding:17px 20px}
+.searchResults a{display:block;color:#0d1726;font-size:1.15rem;font-weight:800;margin:4px 0}
+.searchResults p{margin:0;line-height:1.5}
+.searchCategory{font-size:.77rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#866015}
+.searchPage{max-width:900px;margin:0 auto;padding:52px 20px 90px}
+.searchPage h1{font-size:clamp(2.4rem,6vw,4rem);line-height:1;margin:0 0 14px}
+.homeSearch{max-width:1200px;margin:28px auto 0;padding:0 20px}
+.homeSearch .searchPanel{padding:20px}
+.homeSearch h2{margin:0}
+@media(max-width:540px){.searchForm{flex-direction:column}.searchForm button{min-height:48px}.homeSearch{margin-top:18px}}

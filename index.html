@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0d1726">
   <title>Company Hub | CHOSEN 2026</title>
-  <link rel="stylesheet" href="styles.css?v=20261002-production">
+  <link rel="stylesheet" href="styles.css?v=20261005-search">
   <script defer src="app.js?v=20260928-connected-tasks"></script>
+  <link rel="stylesheet" href="search.css?v=20261005">
 </head>
 
 <body data-page="home">
@@ -29,6 +30,7 @@
         <a href="resources.html">Resources</a>
         <a href="company.html">Company</a>
         <a href="production.html">Production</a>
+        <a href="search.html">Search</a>
       </nav>
     </div>
   </header>
@@ -62,6 +64,17 @@
         </div>
       </div>
     </section>
+    <section class="homeSearch" aria-label="Search">
+      <div class="searchPanel">
+        <h2>Find something in the Hub</h2>
+        <form class="searchForm" action="search.html" method="get" role="search">
+          <label class="sr-only" for="homeHubSearch">Search scenes, songs, rehearsals, resources, and help</label>
+          <input id="homeHubSearch" type="search" name="q" placeholder="Scene, song, date, wardrobe…" required>
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </section>
+
 
     <section>
       <div class="head">

@@ -639,7 +639,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         ? music
             .map(
               x => `
-                <article class="row">
+                <article class="row" id="track-${String(x.title || x.name || '').replace(/[^a-zA-Z0-9_-]/g, '-')}">
                   <div class="badge">♪</div>
 
                   <div>
@@ -672,6 +672,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             'Music coming soon',
             'No current rehearsal tracks are published to the company Hub yet.'
           );
+      if (location.hash.startsWith('#track-')) {
+        requestAnimationFrame(() =>
+          document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView()
+        );
+      }
     }
   }
 
@@ -1402,7 +1407,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         : `<span>${esc(x.time)}</span>`;
 
       return `
-        <article class="scheduleCard">
+        <article class="scheduleCard" id="call-${String(x.eventKey || x.id || '').replace(/[^a-zA-Z0-9_-]/g, '-')}">
           <div class="scheduleCardGrid">
 
             <div
@@ -1661,9 +1666,15 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
     }
 
+    if (location.hash.startsWith('#call-')) selected = [];
     renderPersonalControls();
     renderFilters();
     renderSchedule();
+    if (location.hash.startsWith('#call-')) {
+      requestAnimationFrame(() =>
+        document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView()
+      );
+    }
 
     const pastToggle =
       document.querySelector(

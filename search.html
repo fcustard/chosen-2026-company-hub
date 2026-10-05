@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0d1726">
+  <title>Search | CHOSEN 2026</title>
+  <link rel="stylesheet" href="styles.css?v=20261002-production">
+  <link rel="stylesheet" href="search.css?v=20261005">
+  <script defer src="app.js?v=20260928-connected-tasks"></script>
+  <script type="module" src="search.js?v=20261005"></script>
+</head>
+<body data-page="search">
+  <header class="sitebar"><div class="inner">
+    <a class="brand" href="index.html"><small>THE FAITH CENTER PRESENTS</small><b>CHOSEN 2026</b><span>Company Hub</span></a>
+    <button id="menuBtn" class="menu" type="button" aria-controls="nav" aria-expanded="false">Menu</button>
+    <nav id="nav" aria-label="Primary">
+      <a href="this-week.html">This Week</a><a href="scripts.html">Scripts</a><a href="lines.html">Lines</a><a href="music.html">Music</a><a href="schedule.html">Schedule</a><a href="resources.html">Resources</a><a href="company.html">Company</a><a href="production.html">Production</a><a href="search.html" aria-current="page">Search</a>
+    </nav>
+  </div></header>
+  <main class="searchPage">
+    <p class="ey">FIND IT FAST</p>
+    <h1>Search the Hub</h1>
+    <section class="searchPanel">
+      <form class="searchForm" action="search.html" method="get" role="search">
+        <label class="sr-only" for="hubSearch">Search the Hub</label>
+        <input id="hubSearch" type="search" name="q" placeholder="Scene, song, date, wardrobe…" autocomplete="off" required>
+        <button type="submit">Search</button>
+      </form>
+      <p id="searchStatus" role="status" aria-live="polite">Search scenes, music, rehearsals, resources, and help.</p>
+    </section>
+    <ul id="searchResults" class="searchResults" aria-label="Search results"></ul>
+  </main>
+</body>
+</html>
