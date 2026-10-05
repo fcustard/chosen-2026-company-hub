@@ -119,6 +119,8 @@ export function searchIndex(entries, query, { now = new Date() } = {}) {
   const matched = entries.map((entry, order) => {
     const title = clean(entry.title);
     const haystack = clean([entry.title, entry.description, entry.terms, entry.category].join(' '));
+    if (sceneNumber !== null && entry.category === 'Schedule' &&
+        !new RegExp(`\\b${sceneNumber}\\b`).test(title)) return null;
     if (/\d{1,2}:\d{2}/.test(query) && !clean([entry.title, entry.description].join(' ')).includes(terms.join(' '))) return null;
     if (!terms.every(term => haystack.includes(term))) return null;
     const phrase = terms.join(' ');

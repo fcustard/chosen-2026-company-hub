@@ -13,6 +13,10 @@ const entries = buildSearchIndex({
       eventKey: 'CHOSEN-20261015-REH', title: 'Scene 8 rehearsal',
       date: 'October 15, 2026', dateIso: '2026-10-15', time: '7:00 PM',
       end: '2099-10-16T00:00:00Z'
+    }, {
+      eventKey: 'CHOSEN-20261029-REH', title: 'Scenes 10–12 rehearsal',
+      date: 'October 29, 2026', dateIso: '2026-10-29', time: '6:30 PM–8:30 PM',
+      end: '2099-10-30T00:00:00Z'
     }] }
   },
   scripts: [
@@ -51,6 +55,7 @@ assert.deepEqual(searchIndex(entries, 'What time do I need to be there Thursday?
 assert.equal(searchIndex(entries, 'when should I leave rehearsal?')[0].url, 'company.html#my-role');
 assert.deepEqual(searchIndex(entries, 'where is rehearsal?').map(x => x.url), ['schedule.html']);
 assert.equal(searchIndex(entries, 'scene eight')[0].url, 'scene-08.html');
+assert.equal(searchIndex(entries, 'scene eight').some(x => x.url.includes('20261029')), false);
 assert.equal(searchIndex(entries, 'song for scene five')[0].category, 'Music');
 assert.equal(searchIndex(entries, 'where can I listen to Brotherhood?')[0].category, 'Music');
 assert.equal(searchIndex(entries, 'which scene am I in?')[0].url, 'scripts.html');
