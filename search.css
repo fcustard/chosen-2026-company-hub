@@ -10,7 +10,10 @@
 .searchCategory{font-size:.77rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#866015}
 .searchPage{max-width:900px;margin:0 auto;padding:52px 20px 90px}
 .searchPage h1{font-size:clamp(2.4rem,6vw,4rem);line-height:1;margin:0 0 14px}
-.homeSearch{max-width:1200px;margin:28px auto 0;padding:0 20px}
-.homeSearch .searchPanel{padding:20px}
-.homeSearch h2{margin:0}
-@media(max-width:540px){.searchForm{flex-direction:column}.searchForm button{min-height:48px}.homeSearch{margin-top:18px}}
+.homeSearch{border-top:1px solid #ded8cc;margin-top:20px;padding-top:17px}
+.homeSearch .searchForm{display:block;margin:0}
+.homeSearch label{display:block;font-size:.92rem;font-weight:800;line-height:1.35}
+.homeSearchControls{display:flex;gap:8px;margin-top:9px}
+.homeSearchControls input{width:100%}
+.homeSearchControls button{padding:12px 17px}
+@media(max-width:540px){.searchForm{flex-direction:column}.searchForm button{min-height:48px}.homeSearchControls{flex-direction:column}}
