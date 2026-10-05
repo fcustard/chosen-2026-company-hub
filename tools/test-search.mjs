@@ -9,6 +9,10 @@ const entries = buildSearchIndex({
       date: 'October 8, 2026', dateIso: '2026-10-08', time: '7:00 PM',
       end: '2099-10-09T00:00:00Z',
       called: 'Private cast roster', personalCallTimes: { person: '6:15 PM' }
+    }, {
+      eventKey: 'CHOSEN-20261015-REH', title: 'Scene 8 rehearsal',
+      date: 'October 15, 2026', dateIso: '2026-10-15', time: '7:00 PM',
+      end: '2099-10-16T00:00:00Z'
     }] }
   },
   scripts: [

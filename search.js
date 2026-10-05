@@ -41,8 +41,12 @@ export function searchIndex(entries, query) {
   return entries.map((entry, order) => {
     const title = clean(entry.title);
     const haystack = clean([entry.title, entry.description, entry.terms, entry.category].join(' '));
+    if (/\d{1,2}:\d{2}/.test(query) && !clean([entry.title, entry.description].join(' ')).includes(terms.join(' '))) return null;
     if (!terms.every(term => haystack.includes(term))) return null;
-    const score = (title === terms.join(' ') ? 10 : 0) + terms.reduce((sum, term) => sum + (title.includes(term) ? 3 : 0), 0);
+    const phrase = terms.join(' ');
+    const score = (title === phrase ? 10 : 0)
+      + (entry.category === 'Schedule' && clean(entry.description).includes(phrase) ? 20 : 0)
+      + terms.reduce((sum, term) => sum + (title.includes(term) ? 3 : 0), 0);
     return { entry, score, order };
   }).filter(Boolean).sort((a, b) => b.score - a.score || a.order - b.order).map(hit => hit.entry);
 }
