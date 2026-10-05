@@ -17,3 +17,5 @@
 .homeSearchControls input{width:100%}
 .homeSearchControls button{padding:12px 17px}
 @media(max-width:540px){.searchForm{flex-direction:column}.searchForm button{min-height:48px}.homeSearchControls{flex-direction:column}}
+
+.searchExamples{margin:4px 0 0;color:#526075;font-size:.9rem}
