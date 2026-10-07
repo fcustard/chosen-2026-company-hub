@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-07T19:26:10.098Z",
-  "contentHash": "28f7ac45088375b1a2c1f36d505986f6f557a6974660a4533604c8431f5c207d",
+  "sourceUpdated": "2026-10-07T19:27:30.867Z",
+  "contentHash": "09526d1565c63f6815ac71a1a9fbb80286fdc193b00a023c46ef533327ea038a",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -1627,7 +1627,7 @@
     },
     {
       "type": "dialogue",
-      "text": "We lift it.",
+      "text": "We lift it!",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
@@ -1647,7 +1647,7 @@
     },
     {
       "type": "dialogue",
-      "text": "We fix it.",
+      "text": "We fix it!",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
@@ -1667,7 +1667,7 @@
     },
     {
       "type": "dialogue",
-      "text": "We mend it.",
+      "text": "We mend it!",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
@@ -1677,7 +1677,7 @@
     },
     {
       "type": "dialogue",
-      "text": "If it's food—",
+      "text": "If it's food!!!!",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
@@ -1687,7 +1687,7 @@
     },
     {
       "type": "dialogue",
-      "text": "CALEB!",
+      "text": "CALEB!!!",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
