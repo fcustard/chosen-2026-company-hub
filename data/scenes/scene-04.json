@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-07T02:06:40.810Z",
-  "contentHash": "6994f6c77b7d3d8cd1471746c8ff4f88345bf4c468ed13b1e651edb4fda5c8a9",
+  "sourceUpdated": "2026-10-07T02:12:44.849Z",
+  "contentHash": "57b6ebb6a06b80266948105e491ec386ba848bb8bb33bf57723c0ec94136a92e",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -246,16 +246,6 @@
     {
       "type": "dialogue",
       "text": "Good. Then come on.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Yes.",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
