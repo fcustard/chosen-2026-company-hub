@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T02:12:53.556Z",
+  "updated": "2026-10-07T02:46:02.243Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -26,7 +26,7 @@
     "status": "CONFIRMED",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+    "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)  \n        \n8:00 PM- 9:30 PM —Scene 11 & 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
     "callGroups": [],
     "calledPeople": [
       {
@@ -149,7 +149,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)  \n        \n8:00 PM- 9:30 PM —Scene 11 & 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -267,7 +267,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — ALL Dancers \n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30–8:30 PM — ALL Dancers \n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n\n\n8:00 PM- 9:30 PM —Scene 11 &12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -496,10 +496,10 @@
         "dayLabel": "Saturday",
         "time": "10:00 AM–12:00 PM",
         "title": "CHOSEN Rehearsal -Scene 4, 5, 11, 12 (Actors ONLY)",
-        "status": "PENDING",
+        "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–12:00 PM- Scene 11 & 12-Rehearsal: Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)\n\n12:00pm-1:00PM-Scene 11 & 12-Costume Fitting\n\n11:00 PM–12:00 PM- Scene 4 & 5-Costume Fitting\n\n12:00pm-2:00PM-Scene 4 & 5 Rehearsal",
+        "called": "10:00 AM–12:00 PM- 11, & 12-Rehearsal: Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)\n\n12:00pm-1:00PM-Scene 11 & 12-Costume Fitting\n\n11:00 PM–12:00 PM- Scene 4 & 5-Costume Fitting\n\n12:00pm-2:00PM-Scene 4 & 5 Rehearsal -\nMary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike) Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -612,7 +612,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)  \n        \n8:00 PM- 9:30 PM —Scene 11 & 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -730,7 +730,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — ALL Dancers \n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30–8:30 PM — ALL Dancers \n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n\n\n8:00 PM- 9:30 PM —Scene 11 &12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -959,10 +959,10 @@
         "dayLabel": "Saturday",
         "time": "10:00 AM–12:00 PM",
         "title": "CHOSEN Rehearsal -Scene 4, 5, 11, 12 (Actors ONLY)",
-        "status": "PENDING",
+        "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–12:00 PM- Scene 11 & 12-Rehearsal: Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)\n\n12:00pm-1:00PM-Scene 11 & 12-Costume Fitting\n\n11:00 PM–12:00 PM- Scene 4 & 5-Costume Fitting\n\n12:00pm-2:00PM-Scene 4 & 5 Rehearsal",
+        "called": "10:00 AM–12:00 PM- 11, & 12-Rehearsal: Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)\n\n12:00pm-1:00PM-Scene 11 & 12-Costume Fitting\n\n11:00 PM–12:00 PM- Scene 4 & 5-Costume Fitting\n\n12:00pm-2:00PM-Scene 4 & 5 Rehearsal -\nMary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike) Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -1314,6 +1314,52 @@
         "dateLabel": "October 21, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scenes 2, 3, 6, 8",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30 PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
+        "callGroups": [
+          "Principals/Featured"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-cedrick-massey"
+        ],
+        "calledGroups": [
+          "Principals/Featured"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Off-book principals; Practice Songs",
+        "focus": "",
+        "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs)",
+        "notice": "",
+        "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20261022-REH",
+        "eventKey": "CHOSEN-20261022-REH",
+        "start": "2026-10-22T22:30:00.000Z",
+        "end": "2026-10-23T01:30:00.000Z",
+        "date": "October 22, 2026",
+        "dateIso": "2026-10-22",
+        "day": "Thursday",
+        "dateLabel": "October 22, 2026",
+        "dayLabel": "Thursday",
+        "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Off-book Scenes 4,5,7",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
@@ -1390,52 +1436,6 @@
         "work": "Off-book work + music & dance review",
         "focus": "",
         "prep": "Off-book work + music & dance review",
-        "notice": "",
-        "changeType": ""
-      },
-      {
-        "id": "CHOSEN-20261022-REH",
-        "eventKey": "CHOSEN-20261022-REH",
-        "start": "2026-10-22T22:30:00.000Z",
-        "end": "2026-10-23T01:30:00.000Z",
-        "date": "October 22, 2026",
-        "dateIso": "2026-10-22",
-        "day": "Thursday",
-        "dateLabel": "October 22, 2026",
-        "dayLabel": "Thursday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 2, 3, 6, 8",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
-        "callGroups": [
-          "Principals/Featured"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-cedrick-massey"
-        ],
-        "calledGroups": [
-          "Principals/Featured"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Off-book principals; Practice Songs",
-        "focus": "",
-        "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs)",
         "notice": "",
         "changeType": ""
       },
@@ -4403,7 +4403,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)  \n        \n8:00 PM- 9:30 PM —Scene 11 & 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -4521,7 +4521,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM — ALL Dancers \n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30–8:30 PM — ALL Dancers \n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n\n\n8:00 PM- 9:30 PM —Scene 11 &12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -4750,10 +4750,10 @@
         "dayLabel": "Saturday",
         "time": "10:00 AM–12:00 PM",
         "title": "CHOSEN Rehearsal -Scene 4, 5, 11, 12 (Actors ONLY)",
-        "status": "PENDING",
+        "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–12:00 PM- Scene 11 & 12-Rehearsal: Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)\n\n12:00pm-1:00PM-Scene 11 & 12-Costume Fitting\n\n11:00 PM–12:00 PM- Scene 4 & 5-Costume Fitting\n\n12:00pm-2:00PM-Scene 4 & 5 Rehearsal",
+        "called": "10:00 AM–12:00 PM- 11, & 12-Rehearsal: Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)\n\n12:00pm-1:00PM-Scene 11 & 12-Costume Fitting\n\n11:00 PM–12:00 PM- Scene 4 & 5-Costume Fitting\n\n12:00pm-2:00PM-Scene 4 & 5 Rehearsal -\nMary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike) Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -5105,6 +5105,52 @@
         "dateLabel": "October 21, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scenes 2, 3, 6, 8",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30 PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
+        "callGroups": [
+          "Principals/Featured"
+        ],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-cedrick-massey"
+        ],
+        "calledGroups": [
+          "Principals/Featured"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Off-book principals; Practice Songs",
+        "focus": "",
+        "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs)",
+        "notice": "",
+        "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20261022-REH",
+        "eventKey": "CHOSEN-20261022-REH",
+        "start": "2026-10-22T22:30:00.000Z",
+        "end": "2026-10-23T01:30:00.000Z",
+        "date": "October 22, 2026",
+        "dateIso": "2026-10-22",
+        "day": "Thursday",
+        "dateLabel": "October 22, 2026",
+        "dayLabel": "Thursday",
+        "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Off-book Scenes 4,5,7",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
@@ -5181,52 +5227,6 @@
         "work": "Off-book work + music & dance review",
         "focus": "",
         "prep": "Off-book work + music & dance review",
-        "notice": "",
-        "changeType": ""
-      },
-      {
-        "id": "CHOSEN-20261022-REH",
-        "eventKey": "CHOSEN-20261022-REH",
-        "start": "2026-10-22T22:30:00.000Z",
-        "end": "2026-10-23T01:30:00.000Z",
-        "date": "October 22, 2026",
-        "dateIso": "2026-10-22",
-        "day": "Thursday",
-        "dateLabel": "October 22, 2026",
-        "dayLabel": "Thursday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 2, 3, 6, 8",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
-        "callGroups": [
-          "Principals/Featured"
-        ],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-cedrick-massey"
-        ],
-        "calledGroups": [
-          "Principals/Featured"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Off-book principals; Practice Songs",
-        "focus": "",
-        "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs)",
         "notice": "",
         "changeType": ""
       },
@@ -8225,7 +8225,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "02",
@@ -8239,7 +8239,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "03",
@@ -8253,7 +8253,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "04",
@@ -8267,7 +8267,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "05",
@@ -8281,7 +8281,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "06",
@@ -8295,7 +8295,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "07",
@@ -8309,7 +8309,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "08",
@@ -8323,7 +8323,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "09",
@@ -8337,7 +8337,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "10",
@@ -8351,7 +8351,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "11",
@@ -8365,7 +8365,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "12",
@@ -8379,7 +8379,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       }
     ],
     "current": [
@@ -8395,7 +8395,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "02",
@@ -8409,7 +8409,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "03",
@@ -8423,7 +8423,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "04",
@@ -8437,7 +8437,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "05",
@@ -8451,7 +8451,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "06",
@@ -8465,7 +8465,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "07",
@@ -8479,7 +8479,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "08",
@@ -8493,7 +8493,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "09",
@@ -8507,7 +8507,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "10",
@@ -8521,7 +8521,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "11",
@@ -8535,7 +8535,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       },
       {
         "scene": "12",
@@ -8549,11 +8549,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-07T02:12:44.849Z"
+        "updated": "2026-10-07T02:45:49.401Z"
       }
     ],
     "count": 12,
-    "updated": "2026-10-07T02:12:53.557Z",
+    "updated": "2026-10-07T02:46:02.244Z",
     "kind": "scripts"
   },
   "music": {
@@ -8712,7 +8712,7 @@
       }
     ],
     "count": 5,
-    "updated": "2026-10-07T02:12:53.557Z",
+    "updated": "2026-10-07T02:46:02.244Z",
     "kind": "music"
   }
 }
