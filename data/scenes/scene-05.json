@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-07T16:41:16.173Z",
-  "contentHash": "226662e892f412af2314245027956a0e3f6a07e0393115237471e3e2dae647c7",
+  "sourceUpdated": "2026-10-07T19:26:10.098Z",
+  "contentHash": "28f7ac45088375b1a2c1f36d505986f6f557a6974660a4533604c8431f5c207d",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -1395,6 +1395,10 @@
       "namedStyleType": "HEADING_6"
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "heading",
       "text": "“BROTHERHOOD” BEGINS",
       "namedStyleType": "HEADING_2"
@@ -1470,52 +1474,12 @@
     },
     {
       "type": "character",
-      "text": "LEVI",
+      "text": "ALL",
       "namedStyleType": "HEADING_3"
     },
     {
       "type": "dialogue",
-      "text": "Measure.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "EZRA",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mark.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "CALEB",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Cut.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MALACHI",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Again.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Lift.",
+      "text": "MEASURE.",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
@@ -1525,7 +1489,51 @@
     },
     {
       "type": "dialogue",
-      "text": "Set.",
+      "text": "MARK.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "character",
+      "text": "ALL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "CUT.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "JOSEPH",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "AGAIN.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ALL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "LIFT.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "character",
+      "text": "ALL",
+      "namedStyleType": "HEADING_3"
+    },
+    {
+      "type": "dialogue",
+      "text": "SET!",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
@@ -1535,7 +1543,7 @@
     },
     {
       "type": "character",
-      "text": "CALEB",
+      "text": "JOSEPH",
       "namedStyleType": "HEADING_3"
     },
     {
@@ -1545,7 +1553,7 @@
     },
     {
       "type": "character",
-      "text": "EZRA",
+      "text": "JOSEPH",
       "namedStyleType": "HEADING_3"
     },
     {
@@ -1555,7 +1563,7 @@
     },
     {
       "type": "character",
-      "text": "LEVI",
+      "text": "JOSEPH",
       "namedStyleType": "HEADING_3"
     },
     {
@@ -1565,7 +1573,7 @@
     },
     {
       "type": "character",
-      "text": "MALACHI",
+      "text": "JOSEPH",
       "namedStyleType": "HEADING_3"
     },
     {
@@ -1604,7 +1612,7 @@
     },
     {
       "type": "character",
-      "text": "LEVI",
+      "text": "JOSEPH",
       "namedStyleType": "HEADING_3"
     },
     {
@@ -1614,7 +1622,7 @@
     },
     {
       "type": "character",
-      "text": "CALEB",
+      "text": "ALL",
       "namedStyleType": "HEADING_3"
     },
     {
@@ -1624,7 +1632,7 @@
     },
     {
       "type": "character",
-      "text": "EZRA",
+      "text": "JOSEPH",
       "namedStyleType": "HEADING_3"
     },
     {
@@ -1634,7 +1642,7 @@
     },
     {
       "type": "character",
-      "text": "JOSEPH",
+      "text": "ALL",
       "namedStyleType": "HEADING_3"
     },
     {
@@ -1644,7 +1652,7 @@
     },
     {
       "type": "character",
-      "text": "MALACHI",
+      "text": "JOSEPH",
       "namedStyleType": "HEADING_3"
     },
     {
@@ -1654,7 +1662,7 @@
     },
     {
       "type": "character",
-      "text": "LEVI",
+      "text": "ALL",
       "namedStyleType": "HEADING_3"
     },
     {
