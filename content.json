@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T23:52:11.715Z",
+  "updated": "2026-10-07T02:06:49.453Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -12,60 +12,120 @@
     "incidentReport": "https://docs.google.com/forms/d/e/1FAIpQLScHrfCZhDqiW-0ODSZC66HDXM9KIMlWyaRa_g6IERFKLRsbQA/viewform"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20261006-REH",
-    "eventKey": "CHOSEN-20261006-REH",
-    "start": "2026-10-06T23:00:00.000Z",
-    "end": "2026-10-07T01:00:00.000Z",
-    "date": "October 6, 2026",
-    "dateIso": "2026-10-06",
-    "day": "Tuesday",
-    "dateLabel": "October 6, 2026",
-    "dayLabel": "Tuesday",
-    "time": "7:00 PM–9:00 PM",
-    "title": "CHOSEN Rehearsal - Scene 4",
-    "status": "VIRTUAL",
-    "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-    "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-    "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+    "id": "CHOSEN-20261007-REH",
+    "eventKey": "CHOSEN-20261007-REH",
+    "start": "2026-10-07T22:30:00.000Z",
+    "end": "2026-10-08T01:30:00.000Z",
+    "date": "October 7, 2026",
+    "dateIso": "2026-10-07",
+    "day": "Wednesday",
+    "dateLabel": "October 7, 2026",
+    "dayLabel": "Wednesday",
+    "time": "6:30 PM–9:30 PM",
+    "title": "CHOSEN Rehearsal -Scene 1 & 9 (Dance Only) 5, 11 & 12",
+    "status": "CONFIRMED",
+    "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+    "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+    "called": "6:30 PM- 8:30 PM-ALL Dancers\n\n8:00–9:30 PM- Scene 5—Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n6:30–8:00 PM — Scene 11-Mary (Jordyn), Joseph (Caleb), Innkeeper (Kevin), Innkeeper's Wife (Charla)\n\n8:00 PM- 9:30 PM —Scene 12—Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
     "callGroups": [],
     "calledPeople": [
+      {
+        "displayName": "Gelvina Maxime"
+      },
+      {
+        "displayName": "James Myers"
+      },
       {
         "displayName": "Jordyn Starks"
       },
       {
-        "displayName": "Tasha Simeon"
+        "displayName": "Caleb Davilmar"
       },
       {
-        "displayName": "Tyfany Adaka"
+        "displayName": "Kevin Hohn"
       },
       {
-        "displayName": "Jéovanie André"
+        "displayName": "Charla-Yvonne Cornelius"
       },
       {
-        "displayName": "Ashley Pierre"
+        "displayName": "Edison Browne"
       },
       {
-        "displayName": "Shanice Palmer"
+        "displayName": "Jayden Harris"
       },
       {
-        "displayName": "Moenike Custard"
+        "displayName": "Delvin Rogers Jr"
+      },
+      {
+        "displayName": "Cedrick Massey"
+      },
+      {
+        "displayName": "Marcus Mainer"
+      },
+      {
+        "displayName": "Dorrien Jones"
+      },
+      {
+        "displayName": "Michael Stover"
+      },
+      {
+        "displayName": "Chris Mcanuff"
       }
     ],
     "calledPeopleIds": [
+      "P-gelvina-maxime",
+      "P-james-myers",
       "P-jordyn-starks",
-      "P-tasha-simeon",
-      "P-tyfany-adaka",
-      "P-jeovanie-andre",
-      "P-ashley-pierre",
-      "P-shanice-palmer",
-      "P-moenike-custard"
+      "P-caleb-davilmar",
+      "P-kevin-hohn",
+      "P-charla-yvonne-cornelius",
+      "P-edison-browne",
+      "P-jayden-harris",
+      "P-delvin-rogers-jr",
+      "P-cedrick-massey",
+      "P-marcus-mainer",
+      "P-dorrien-jones",
+      "P-michael-stover",
+      "P-chris-mcanuff"
     ],
+    "personalCallTimes": {
+      "P-gelvina-maxime": "8:00 PM",
+      "P-james-myers": "8:00 PM",
+      "P-jordyn-starks": "6:30 PM",
+      "P-caleb-davilmar": "6:30 PM",
+      "P-kevin-hohn": "6:30 PM",
+      "P-charla-yvonne-cornelius": "6:30 PM",
+      "P-edison-browne": "8:00 PM",
+      "P-jayden-harris": "8:00 PM",
+      "P-delvin-rogers-jr": "8:00 PM",
+      "P-cedrick-massey": "8:00 PM",
+      "P-marcus-mainer": "6:30 PM",
+      "P-dorrien-jones": "6:30 PM",
+      "P-michael-stover": "6:30 PM",
+      "P-chris-mcanuff": "6:30 PM"
+    },
+    "personalCallEndTimes": {
+      "P-gelvina-maxime": "9:30 PM",
+      "P-james-myers": "9:30 PM",
+      "P-jordyn-starks": "9:30 PM",
+      "P-caleb-davilmar": "9:30 PM",
+      "P-kevin-hohn": "9:30 PM",
+      "P-charla-yvonne-cornelius": "9:30 PM",
+      "P-edison-browne": "9:30 PM",
+      "P-jayden-harris": "9:30 PM",
+      "P-delvin-rogers-jr": "9:30 PM",
+      "P-cedrick-massey": "9:30 PM",
+      "P-marcus-mainer": "9:30 PM",
+      "P-dorrien-jones": "9:30 PM",
+      "P-michael-stover": "9:30 PM",
+      "P-chris-mcanuff": "9:30 PM"
+    },
     "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Review dialogue, character builiding",
+    "work": "Scene 1 & 9 (dance only): costume fitting & review dances;  5- review lines, learn blocking & choreography\nScene 11 & 12-dialouge and blocking",
     "focus": "",
-    "prep": "Actors: Dialogue & Character Building",
+    "prep": "Scene 1 & 9 (dance only): Wear all-black undergarments for costume fitting & prepare to review dances; 5- review lines, learn blocking & choreography; Scene 11 & 12- dialogue and blocking",
     "notice": "",
     "changeType": ""
   },
@@ -74,64 +134,6 @@
     "start": "2026-10-06T04:00:00.000Z",
     "end": "2026-10-13T03:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261006-REH",
-        "eventKey": "CHOSEN-20261006-REH",
-        "start": "2026-10-06T23:00:00.000Z",
-        "end": "2026-10-07T01:00:00.000Z",
-        "date": "October 6, 2026",
-        "dateIso": "2026-10-06",
-        "day": "Tuesday",
-        "dateLabel": "October 6, 2026",
-        "dayLabel": "Tuesday",
-        "time": "7:00 PM–9:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 4",
-        "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Moenike Custard"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-shanice-palmer",
-          "P-moenike-custard"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Review dialogue, character builiding",
-        "focus": "",
-        "prep": "Actors: Dialogue & Character Building",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261007-REH",
         "eventKey": "CHOSEN-20261007-REH",
@@ -589,70 +591,12 @@
         "changeType": ""
       }
     ],
-    "count": 4
+    "count": 3
   },
   "schedule": {
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261006-REH",
-        "eventKey": "CHOSEN-20261006-REH",
-        "start": "2026-10-06T23:00:00.000Z",
-        "end": "2026-10-07T01:00:00.000Z",
-        "date": "October 6, 2026",
-        "dateIso": "2026-10-06",
-        "day": "Tuesday",
-        "dateLabel": "October 6, 2026",
-        "dayLabel": "Tuesday",
-        "time": "7:00 PM–9:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 4",
-        "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Moenike Custard"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-shanice-palmer",
-          "P-moenike-custard"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Review dialogue, character builiding",
-        "focus": "",
-        "prep": "Actors: Dialogue & Character Building",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261007-REH",
         "eventKey": "CHOSEN-20261007-REH",
@@ -2501,6 +2445,64 @@
       }
     ],
     "pastRehearsals": [
+      {
+        "id": "CHOSEN-20261006-REH",
+        "eventKey": "CHOSEN-20261006-REH",
+        "start": "2026-10-06T23:00:00.000Z",
+        "end": "2026-10-07T01:00:00.000Z",
+        "date": "October 6, 2026",
+        "dateIso": "2026-10-06",
+        "day": "Tuesday",
+        "dateLabel": "October 6, 2026",
+        "dayLabel": "Tuesday",
+        "time": "7:00 PM–9:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 4",
+        "status": "VIRTUAL",
+        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Moenike Custard"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-shanice-palmer",
+          "P-moenike-custard"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Review dialogue, character builiding",
+        "focus": "",
+        "prep": "Actors: Dialogue & Character Building",
+        "notice": "",
+        "changeType": ""
+      },
       {
         "id": "CHOSEN-20261003-REH",
         "eventKey": "CHOSEN-20261003-REH",
@@ -4387,64 +4389,6 @@
     ],
     "allRehearsals": [
       {
-        "id": "CHOSEN-20261006-REH",
-        "eventKey": "CHOSEN-20261006-REH",
-        "start": "2026-10-06T23:00:00.000Z",
-        "end": "2026-10-07T01:00:00.000Z",
-        "date": "October 6, 2026",
-        "dateIso": "2026-10-06",
-        "day": "Tuesday",
-        "dateLabel": "October 6, 2026",
-        "dayLabel": "Tuesday",
-        "time": "7:00 PM–9:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 4",
-        "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Moenike Custard"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-shanice-palmer",
-          "P-moenike-custard"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Review dialogue, character builiding",
-        "focus": "",
-        "prep": "Actors: Dialogue & Character Building",
-        "notice": "",
-        "changeType": ""
-      },
-      {
         "id": "CHOSEN-20261007-REH",
         "eventKey": "CHOSEN-20261007-REH",
         "start": "2026-10-07T22:30:00.000Z",
@@ -6287,6 +6231,64 @@
         "work": "Official show-day call; performance day",
         "focus": "",
         "prep": "Focus: SHOW DAY. FOOD WILL BE PROVIDED.  Please check the live schedule for final room and call details.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20261006-REH",
+        "eventKey": "CHOSEN-20261006-REH",
+        "start": "2026-10-06T23:00:00.000Z",
+        "end": "2026-10-07T01:00:00.000Z",
+        "date": "October 6, 2026",
+        "dateIso": "2026-10-06",
+        "day": "Tuesday",
+        "dateLabel": "October 6, 2026",
+        "dayLabel": "Tuesday",
+        "time": "7:00 PM–9:00 PM",
+        "title": "CHOSEN Rehearsal - Scene 4",
+        "status": "VIRTUAL",
+        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Moenike Custard"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-jordyn-starks",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-shanice-palmer",
+          "P-moenike-custard"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Review dialogue, character builiding",
+        "focus": "",
+        "prep": "Actors: Dialogue & Character Building",
         "notice": "",
         "changeType": ""
       },
@@ -8206,8 +8208,8 @@
         "count": 8
       }
     ],
-    "count": 35,
-    "pastCount": 17
+    "count": 34,
+    "pastCount": 18
   },
   "scripts": {
     "items": [
@@ -8223,7 +8225,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "02",
@@ -8237,7 +8239,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "03",
@@ -8251,7 +8253,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "04",
@@ -8265,7 +8267,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "05",
@@ -8279,7 +8281,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "06",
@@ -8293,7 +8295,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "07",
@@ -8307,7 +8309,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "08",
@@ -8321,7 +8323,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "09",
@@ -8335,7 +8337,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "10",
@@ -8349,7 +8351,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "11",
@@ -8363,7 +8365,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "12",
@@ -8377,7 +8379,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       }
     ],
     "current": [
@@ -8393,7 +8395,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "02",
@@ -8407,7 +8409,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "03",
@@ -8421,7 +8423,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "04",
@@ -8435,7 +8437,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "05",
@@ -8449,7 +8451,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "06",
@@ -8463,7 +8465,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "07",
@@ -8477,7 +8479,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "08",
@@ -8491,7 +8493,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "09",
@@ -8505,7 +8507,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "10",
@@ -8519,7 +8521,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "11",
@@ -8533,7 +8535,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       },
       {
         "scene": "12",
@@ -8547,11 +8549,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-06T23:51:59.900Z"
+        "updated": "2026-10-07T02:06:40.810Z"
       }
     ],
     "count": 12,
-    "updated": "2026-10-06T23:52:11.716Z",
+    "updated": "2026-10-07T02:06:49.453Z",
     "kind": "scripts"
   },
   "music": {
@@ -8710,7 +8712,7 @@
       }
     ],
     "count": 5,
-    "updated": "2026-10-06T23:52:11.716Z",
+    "updated": "2026-10-07T02:06:49.454Z",
     "kind": "music"
   }
 }

@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-06T23:51:59.900Z",
-  "contentHash": "7f365a28299e4b7b265c5d65ff10d54e9a145976891379a504927027efe352ab",
+  "sourceUpdated": "2026-10-07T02:06:40.810Z",
+  "contentHash": "6994f6c77b7d3d8cd1471746c8ff4f88345bf4c468ed13b1e651edb4fda5c8a9",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -1514,126 +1514,6 @@
     },
     {
       "type": "character",
-      "text": "ADINA",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Who else knows?",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "No one.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "ADINA",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Your family?",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "No.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "TALIA",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Anyone could have seen Gabriel come in.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "I don't know.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "ADINA",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "And Joseph doesn't know.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "No.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "stage",
-      "text": "A PASSING VILLAGER or MERCHANT crosses on a real errand. They hear only: 'Joseph doesn't know.' They do not stop.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "TALIA",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "And you're saying the child comes from God.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Yes.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "stage",
-      "text": "The passing villager hears only a fragment: 'the child' and perhaps 'God.' They keep moving. No suspicious glance. No ominous cue.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "DAFNA",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Oh, Mary.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
       "text": "TALIA",
       "namedStyleType": "HEADING_3"
     },
@@ -1747,22 +1627,7 @@
     },
     {
       "type": "stage",
-      "text": "MARY CHOOSES THE NEXT STEP",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "ADINA",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Do you want us with you?",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "stage",
-      "text": "Mary considers.",
+      "text": "MARY LOOKS AT SHIRA",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1772,22 +1637,7 @@
     },
     {
       "type": "dialogue",
-      "text": "Not when I tell him.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "stage",
-      "text": "She looks at Shira.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "But... walk with me?",
+      "text": "Walk with me?",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
@@ -1832,7 +1682,7 @@
     },
     {
       "type": "dialogue",
-      "text": "I still don't understand it.",
+      "text": "I still don't understand it. But I do know you… and I'm with you.",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
@@ -1842,42 +1692,12 @@
     },
     {
       "type": "character",
-      "text": "TALIA",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "But I don't have to understand everything tonight.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "stage",
-      "text": "Beat.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "TALIA",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "I do know you.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "stage",
-      "text": "Mary absorbs that.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
       "text": "ADINA",
       "namedStyleType": "HEADING_3"
     },
     {
       "type": "dialogue",
-      "text": "And I'm with you.",
+      "text": "I'm with you too.",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
@@ -1887,7 +1707,7 @@
     },
     {
       "type": "dialogue",
-      "text": "Obviously.",
+      "text": "Well…Obviously.",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
@@ -1932,7 +1752,7 @@
     },
     {
       "type": "character",
-      "text": "TALIA",
+      "text": "ADINA",
       "namedStyleType": "HEADING_3"
     },
     {
@@ -1957,7 +1777,7 @@
     },
     {
       "type": "dialogue",
-      "text": "Start with what you know.",
+      "text": "Start with the truth.",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
@@ -1967,38 +1787,18 @@
     },
     {
       "type": "character",
-      "text": "SHIRA",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Start with the truth.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
       "text": "MARY",
       "namedStyleType": "HEADING_3"
     },
     {
       "type": "dialogue",
-      "text": "The truth.",
+      "text": "The truth… all right",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
-      "text": "Beat.",
+      "text": "Beat. exhale",
       "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "All right.",
-      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
