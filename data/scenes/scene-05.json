@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-07T19:32:48.752Z",
-  "contentHash": "4da4aeac59d0fb8db93d28930cd5aa3f4462c9b756245ea5b25e1b8416be17be",
+  "sourceUpdated": "2026-10-07T20:55:07.804Z",
+  "contentHash": "0278985eb0fea37b134e4f6c2e7d58387cbe4c60618a3e42974dbec9f3aada6e",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -1592,9 +1592,14 @@
       "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "music",
-      "text": "HIT.",
-      "namedStyleType": "HEADING_4"
+      "type": "dialogue",
+      "text": "ALL",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "HIT!",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
