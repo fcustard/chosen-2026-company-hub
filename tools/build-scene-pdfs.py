@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import re
+import unicodedata
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -29,6 +30,15 @@ GRAY = colors.HexColor("#556070")
 ELI_SPOKEN_STAGE_LINES = {
     "Yes?", "I have people everywhere.", "I don’t even have floor left.", "I’m sorry.",
 }
+
+
+def normalize_speaker_label(value: str) -> str:
+    """Keep PDF character cues identical to the web scene reader."""
+    text = re.sub(r"[.:;,\-–—]+$", "", " ".join(value.split())).strip()
+    text = "".join(char for char in unicodedata.normalize("NFD", text)
+                   if unicodedata.category(char) != "Mn")
+    text = text.replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'").upper()
+    return re.sub(r"\s+", " ", re.sub(r"([A-Z])[-–—]+(?=\d+\b)", r"\1 ", text)).strip()
 
 
 def register_fonts():
@@ -121,6 +131,8 @@ def build_scene(path: Path, sheet):
             continue
         if kind not in sheet:
             raise ValueError(f"{path.name}: unsupported block type {kind!r}")
+        if kind == "character":
+            text = normalize_speaker_label(text)
         story.append(Paragraph(escape(text).replace("\n", "<br/>"), sheet[kind]))
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
 
