@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { buildSearchIndex, requestedDate, searchIndex } from '../search.js';
 
+const sundayNight = new Date('2026-10-05T03:06:00Z'); // October 4 in New York
 const entries = buildSearchIndex({
   content: {
     links: { absence: 'https://example.org/absence' },
@@ -35,7 +36,7 @@ const entries = buildSearchIndex({
 
 assert.equal(searchIndex(entries, 'scene 05')[0].url, 'scene-05.html');
 assert.equal(searchIndex(entries, 'brotherhood').length, 2);
-assert.equal(searchIndex(entries, 'October 8')[0].url, 'schedule.html#call-CHOSEN-20261008-REH');
+assert.equal(searchIndex(entries, 'October 8', { now: sundayNight })[0].url, 'schedule.html#call-CHOSEN-20261008-REH');
 assert.equal(searchIndex(entries, 'absence')[0].url, 'https://example.org/absence');
 assert.equal(searchIndex(entries, 'wardrobe')[0].url, 'production.html#wardrobe');
 assert.equal(searchIndex(entries, 'unpublished').length, 0);
@@ -43,7 +44,7 @@ assert.equal(searchIndex(entries, 'draft track').length, 0);
 assert.equal(searchIndex(entries, 'Private cast roster').length, 0);
 assert.equal(searchIndex(entries, '6:15').length, 0);
 assert.equal(searchIndex(entries, '  ').length, 0);
-const sundayNight = new Date('2026-10-05T03:06:00Z'); // October 4 in New York
+assert.equal(searchIndex(entries, 'October 8', { now: new Date('2026-10-09T13:00:00Z') }).length, 0);
 assert.equal(requestedDate('today', sundayNight), '2026-10-04');
 assert.equal(requestedDate('tomorrow', sundayNight), '2026-10-05');
 assert.equal(requestedDate("Thursday's rehearsal", sundayNight), '2026-10-08');
