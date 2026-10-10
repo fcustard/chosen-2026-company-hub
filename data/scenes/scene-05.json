@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-10T09:25:46.554Z",
-  "contentHash": "7ce1aa8cbd018c217276496d798e493dc54d1f7a5149ae811e590e295eca9b73",
+  "sourceUpdated": "2026-10-10T09:43:42.720Z",
+  "contentHash": "721f5ac976aa96a354f4e7e032c1bee17ba1f5a5559b9a29836454b08fd9b37a",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -1916,17 +1916,16 @@
     },
     {
       "type": "dialogue",
-      "text": "We tell everybody.",
+      "text": "We show him!",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "dialogue",
-      "text": "Laughter inside the rhythm.",
-      "namedStyleType": "NORMAL_TEXT"
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "dialogue",
-      "text": "Then—",
+      "text": "*Dance Break*",
       "namedStyleType": "NORMAL_TEXT"
     },
     {
