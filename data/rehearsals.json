@@ -1534,7 +1534,7 @@
     "eventKey": "CHOSEN-20261017-REH",
     "start": "Oct 17, 2026 10:00 AM",
     "end": "Oct 17, 2026 2:00 PM",
-    "title": "CHOSEN Rehearsal - Scenes 1 → 9 → 10 → 12",
+    "title": "CHOSEN Rehearsal - Scenes 1 → 12 (ALL SCENCES)",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
     "called": "10:00 AM–2:00 PM — (Dancers, All Actors, Ensemble, EVERYONE!)",
@@ -1588,10 +1588,10 @@
     "eventKey": "CHOSEN-20261021-REH",
     "start": "Oct 21, 2026 6:30 PM",
     "end": "Oct 21, 2026 9:30 PM",
-    "title": "CHOSEN Rehearsal - Scenes 2, 3, 6, 8",
+    "title": "CHOSEN Rehearsal - Scene 12; (Dance ONLY); Scenes 2, 3, 6, 8",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "6:30 PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
+    "called": "6:30 PM-8:30 PM Scene 12 Dancers\n\n6:30 PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
     "work": "Off-book principals; Practice Songs",
     "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs)",
     "calledPeople": [
@@ -1605,6 +1605,7 @@
       "P-cedrick-massey"
     ],
     "calledGroups": [
+      "Dancers",
       "Principals/Featured"
     ],
     "exactCallStatus": "READY",
@@ -1615,12 +1616,12 @@
     "eventKey": "CHOSEN-20261022-REH",
     "start": "Oct 22, 2026 6:30 PM",
     "end": "Oct 22, 2026 9:30 PM",
-    "title": "CHOSEN Rehearsal - Off-book Scenes 4,5,7",
+    "title": "CHOSEN Rehearsal Scene 12; (Dance ONLY) Off-book Scenes 4,5,7",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "6:30 PM-9:30 PM —Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike),Mary (Jordyn), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Elizabeth (Audrey)",
-    "work": "Off-book work + music & dance review",
-    "prep": "Off-book work + music & dance review",
+    "called": "6:30 PM-8:00 PM Scene 12 Dancers\n\n6:30 PM-9:30 PM — Scene 4 \n\n7:30 PM-9:30 PM — Scene 5\n\n8:30 PM-9:30 PM — Scene 7",
+    "work": "Music/choreo cleanup; Off-book work + music & dance review",
+    "prep": "Music/choreo cleanup; Off-book work + music & dance review",
     "calledPeople": [
       "Jordyn Starks",
       "Tasha Simeon",
@@ -1654,7 +1655,8 @@
       "P-chris-mcanuff"
     ],
     "calledGroups": [
-      "Principals/Featured"
+      "Principals/Featured",
+      "Dancers"
     ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
@@ -1664,10 +1666,10 @@
     "eventKey": "CHOSEN-20261024-REH",
     "start": "Oct 24, 2026 10:00 AM",
     "end": "Oct 24, 2026 2:00 PM",
-    "title": "CHOSEN Rehearsal - Sequence Run 1–6",
+    "title": "CHOSEN Rehearsal - Sequence Run 1–6 (Dancers, Actors, Ensemble)",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "10:00 AM–2:00 PM — Dancers \n10:00 AM–2:00 PM —Scenes 1–6 Cast",
+    "called": "10:00 AM–12:00 PM — Scene 1 Dancers\n\n10:00 AM–2:00 PM — Scene 12 Dancers \n\n10:00 AM–2:00 PM —Scenes 1–6 Cast",
     "work": "Scenes 1–6 with transitions",
     "prep": "All Actors and Dancers in Scenes 1-6 must attend.",
     "calledPeople": [],
@@ -1684,12 +1686,12 @@
     "eventKey": "CHOSEN-20261028-REH",
     "start": "Oct 28, 2026 6:30 PM",
     "end": "Oct 28, 2026 9:30 PM",
-    "title": "CHOSEN Rehearsal - Links 7–9",
+    "title": "CHOSEN Rehearsal - Scenes 7–9 (Dancers, Actors, Ensemble)",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "6:30 PM–8:30 PM —  Dancers\n 6:30 PM–9:30 PM- Scenes 7–9 Cast",
+    "called": "6:30 PM–8:30 PM —  Scene 9 & 12 Dancers \n\n6:30 PM–9:30 PM- Scene 8\n\n7:00 PM–9:30 PM–Scene 7\n\n7:30 PM–9:30 PM–Scenes 9",
     "work": "Off-book / music / scene links",
-    "prep": "All Actors and Dancers in Scenes 7-9 must attend.",
+    "prep": "Scene 9 & 12 Dancers; Scenes 7–9 (Actors)",
     "calledPeople": [],
     "calledPeopleIds": [],
     "calledGroups": [
@@ -1704,10 +1706,10 @@
     "eventKey": "CHOSEN-20261029-REH",
     "start": "Oct 29, 2026 6:30 PM",
     "end": "Oct 29, 2026 9:30 PM",
-    "title": "CHOSEN Rehearsal - Scenes 10–12",
+    "title": "CHOSEN Rehearsal -Scenes 10–12 (Dancers & Actors)",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "6:30 PM–8:30 PM — Dancers\n  6:30 PM–8:30 PM-Scenes 10–12 Cast",
+    "called": "6:30 PM–8:30 PM — Scene 12 Dancers\n \n6:30 PM–9:30 PM- Scene 11\n\n7:00 PM–9:30 PM–Scene 12\n\n7:30 PM–9:30 PM–Scene 10",
     "work": "Journey / No Room / finale music and cue pickup",
     "prep": "All Actors and Dancers in Scenes 10-12 must attend.",
     "calledPeople": [
@@ -1778,8 +1780,7 @@
     ],
     "calledGroups": [
       "Principals/Featured",
-      "Dancers",
-      "Ensemble"
+      "Dancers"
     ],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
@@ -1792,7 +1793,7 @@
     "title": "CHOSEN Rehearsal - Sequence Run 7–12",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "10:00 AM–2:00 PM — Dancers\n10:00 AM–2:00 PM- Cast for Scenes 7–12",
+    "called": "10:00 AM–2:00 PM — Scenes 9 & 12 Dancers\n\n10:00 AM–2:00 PM- Cast for Scenes 7–12",
     "work": "Scenes 7–12 with transitions",
     "prep": "Specific call list will be posted after the Oct. 31 sequence run.",
     "calledPeople": [
