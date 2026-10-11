@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T13:25:49.869Z",
+  "updated": "2026-10-11T18:13:30.211Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -12,52 +12,25 @@
     "incidentReport": "https://docs.google.com/forms/d/e/1FAIpQLScHrfCZhDqiW-0ODSZC66HDXM9KIMlWyaRa_g6IERFKLRsbQA/viewform"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20261010-REH",
-    "eventKey": "CHOSEN-20261010-REH",
-    "start": "2026-10-10T14:00:00.000Z",
-    "end": "2026-10-11T16:00:00.000Z",
-    "date": "October 10, 2026",
-    "dateIso": "2026-10-10",
-    "day": "Saturday",
-    "dateLabel": "October 10, 2026",
-    "dayLabel": "Saturday",
-    "time": "10:00 AM–12:00 PM",
-    "title": "CHOSEN Rehearsal -Scene 4, 5, 11, 12 (Actors ONLY)",
-    "status": "CONFIRMED",
-    "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "10:00 AM–12:00 PM- 11, & 12-Rehearsal: Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)\n\n12:00pm-1:00PM-Scene 11 & 12-Costume Fitting\n\n11:00 PM–12:00 PM- Scene 4 & 5-Costume Fitting\n\n12:00pm-2:00PM-Scene 4 & 5 Rehearsal -\nMary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike) Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+    "id": "CHOSEN-20261013-REH",
+    "eventKey": "CHOSEN-20261013-REH",
+    "start": "2026-10-13T23:00:00.000Z",
+    "end": "2026-10-14T01:00:00.000Z",
+    "date": "October 13, 2026",
+    "dateIso": "2026-10-13",
+    "day": "Tuesday",
+    "dateLabel": "October 13, 2026",
+    "dayLabel": "Tuesday",
+    "time": "7:00 PM–9:00 PM",
+    "title": "CHOSEN Rehearsal - Scene 4",
+    "status": "VIRTUAL",
+    "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+    "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+    "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
     "callGroups": [],
     "calledPeople": [
       {
-        "displayName": "Gelvina Maxime"
-      },
-      {
-        "displayName": "James Myers"
-      },
-      {
         "displayName": "Jordyn Starks"
-      },
-      {
-        "displayName": "Caleb Davilmar"
-      },
-      {
-        "displayName": "Kevin Hohn"
-      },
-      {
-        "displayName": "Charla-Yvonne Cornelius"
-      },
-      {
-        "displayName": "Edison Browne"
-      },
-      {
-        "displayName": "Jayden Harris"
-      },
-      {
-        "displayName": "Delvin Rogers Jr"
-      },
-      {
-        "displayName": "Cedrick Massey"
       },
       {
         "displayName": "Tasha Simeon"
@@ -75,45 +48,24 @@
         "displayName": "Shanice Palmer"
       },
       {
-        "displayName": "Marcus Mainer"
-      },
-      {
-        "displayName": "Dorrien Jones"
-      },
-      {
-        "displayName": "Michael Stover"
-      },
-      {
-        "displayName": "Chris Mcanuff"
+        "displayName": "Moenike Custard"
       }
     ],
     "calledPeopleIds": [
-      "P-gelvina-maxime",
-      "P-james-myers",
       "P-jordyn-starks",
-      "P-caleb-davilmar",
-      "P-kevin-hohn",
-      "P-charla-yvonne-cornelius",
-      "P-edison-browne",
-      "P-jayden-harris",
-      "P-delvin-rogers-jr",
-      "P-cedrick-massey",
       "P-tasha-simeon",
       "P-tyfany-adaka",
       "P-jeovanie-andre",
       "P-ashley-pierre",
       "P-shanice-palmer",
-      "P-marcus-mainer",
-      "P-dorrien-jones",
-      "P-michael-stover",
-      "P-chris-mcanuff"
+      "P-moenike-custard"
     ],
     "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "costume fitting/choreography/music/blocking/ dialouge",
+    "work": "Review dialogue, character builiding",
     "focus": "",
-    "prep": "Scene 5: Review choreography and prepare to learn more of the routine and blocking; Scene 4, 11, & 12: Prepare to be mostly off-script and to lock down blocking",
+    "prep": "Actors: Dialogue & Character Building",
     "notice": "",
     "changeType": ""
   },
@@ -321,112 +273,6 @@
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261010-REH",
-        "eventKey": "CHOSEN-20261010-REH",
-        "start": "2026-10-10T14:00:00.000Z",
-        "end": "2026-10-11T16:00:00.000Z",
-        "date": "October 10, 2026",
-        "dateIso": "2026-10-10",
-        "day": "Saturday",
-        "dateLabel": "October 10, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–12:00 PM",
-        "title": "CHOSEN Rehearsal -Scene 4, 5, 11, 12 (Actors ONLY)",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–12:00 PM- 11, & 12-Rehearsal: Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)\n\n12:00pm-1:00PM-Scene 11 & 12-Costume Fitting\n\n11:00 PM–12:00 PM- Scene 4 & 5-Costume Fitting\n\n12:00pm-2:00PM-Scene 4 & 5 Rehearsal -\nMary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike) Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Charla-Yvonne Cornelius"
-          },
-          {
-            "displayName": "Edison Browne"
-          },
-          {
-            "displayName": "Jayden Harris"
-          },
-          {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-kevin-hohn",
-          "P-charla-yvonne-cornelius",
-          "P-edison-browne",
-          "P-jayden-harris",
-          "P-delvin-rogers-jr",
-          "P-cedrick-massey",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-shanice-palmer",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "costume fitting/choreography/music/blocking/ dialouge",
-        "focus": "",
-        "prep": "Scene 5: Review choreography and prepare to learn more of the routine and blocking; Scene 4, 11, & 12: Prepare to be mostly off-script and to lock down blocking",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261013-REH",
         "eventKey": "CHOSEN-20261013-REH",
@@ -1821,6 +1667,112 @@
       }
     ],
     "pastRehearsals": [
+      {
+        "id": "CHOSEN-20261010-REH",
+        "eventKey": "CHOSEN-20261010-REH",
+        "start": "2026-10-10T14:00:00.000Z",
+        "end": "2026-10-11T16:00:00.000Z",
+        "date": "October 10, 2026",
+        "dateIso": "2026-10-10",
+        "day": "Saturday",
+        "dateLabel": "October 10, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–12:00 PM",
+        "title": "CHOSEN Rehearsal -Scene 4, 5, 11, 12 (Actors ONLY)",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–12:00 PM- 11, & 12-Rehearsal: Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)\n\n12:00pm-1:00PM-Scene 11 & 12-Costume Fitting\n\n11:00 PM–12:00 PM- Scene 4 & 5-Costume Fitting\n\n12:00pm-2:00PM-Scene 4 & 5 Rehearsal -\nMary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike) Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-kevin-hohn",
+          "P-charla-yvonne-cornelius",
+          "P-edison-browne",
+          "P-jayden-harris",
+          "P-delvin-rogers-jr",
+          "P-cedrick-massey",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-shanice-palmer",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "costume fitting/choreography/music/blocking/ dialouge",
+        "focus": "",
+        "prep": "Scene 5: Review choreography and prepare to learn more of the routine and blocking; Scene 4, 11, & 12: Prepare to be mostly off-script and to lock down blocking",
+        "notice": "",
+        "changeType": ""
+      },
       {
         "id": "CHOSEN-20261008-REH",
         "eventKey": "CHOSEN-20261008-REH",
@@ -4115,112 +4067,6 @@
     ],
     "allRehearsals": [
       {
-        "id": "CHOSEN-20261010-REH",
-        "eventKey": "CHOSEN-20261010-REH",
-        "start": "2026-10-10T14:00:00.000Z",
-        "end": "2026-10-11T16:00:00.000Z",
-        "date": "October 10, 2026",
-        "dateIso": "2026-10-10",
-        "day": "Saturday",
-        "dateLabel": "October 10, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–12:00 PM",
-        "title": "CHOSEN Rehearsal -Scene 4, 5, 11, 12 (Actors ONLY)",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–12:00 PM- 11, & 12-Rehearsal: Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)\n\n12:00pm-1:00PM-Scene 11 & 12-Costume Fitting\n\n11:00 PM–12:00 PM- Scene 4 & 5-Costume Fitting\n\n12:00pm-2:00PM-Scene 4 & 5 Rehearsal -\nMary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike) Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Charla-Yvonne Cornelius"
-          },
-          {
-            "displayName": "Edison Browne"
-          },
-          {
-            "displayName": "Jayden Harris"
-          },
-          {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-kevin-hohn",
-          "P-charla-yvonne-cornelius",
-          "P-edison-browne",
-          "P-jayden-harris",
-          "P-delvin-rogers-jr",
-          "P-cedrick-massey",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-shanice-palmer",
-          "P-marcus-mainer",
-          "P-dorrien-jones",
-          "P-michael-stover",
-          "P-chris-mcanuff"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "costume fitting/choreography/music/blocking/ dialouge",
-        "focus": "",
-        "prep": "Scene 5: Review choreography and prepare to learn more of the routine and blocking; Scene 4, 11, & 12: Prepare to be mostly off-script and to lock down blocking",
-        "notice": "",
-        "changeType": ""
-      },
-      {
         "id": "CHOSEN-20261013-REH",
         "eventKey": "CHOSEN-20261013-REH",
         "start": "2026-10-13T23:00:00.000Z",
@@ -5609,6 +5455,112 @@
         "work": "Official show-day call; performance day",
         "focus": "",
         "prep": "Focus: SHOW DAY. FOOD WILL BE PROVIDED.  Please check the live schedule for final room and call details.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20261010-REH",
+        "eventKey": "CHOSEN-20261010-REH",
+        "start": "2026-10-10T14:00:00.000Z",
+        "end": "2026-10-11T16:00:00.000Z",
+        "date": "October 10, 2026",
+        "dateIso": "2026-10-10",
+        "day": "Saturday",
+        "dateLabel": "October 10, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–12:00 PM",
+        "title": "CHOSEN Rehearsal -Scene 4, 5, 11, 12 (Actors ONLY)",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–12:00 PM- 11, & 12-Rehearsal: Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli-Innkeeper (Kevin), Anna Innkeeper's Wife (Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)\n\n12:00pm-1:00PM-Scene 11 & 12-Costume Fitting\n\n11:00 PM–12:00 PM- Scene 4 & 5-Costume Fitting\n\n12:00pm-2:00PM-Scene 4 & 5 Rehearsal -\nMary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike) Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-kevin-hohn",
+          "P-charla-yvonne-cornelius",
+          "P-edison-browne",
+          "P-jayden-harris",
+          "P-delvin-rogers-jr",
+          "P-cedrick-massey",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-jeovanie-andre",
+          "P-ashley-pierre",
+          "P-shanice-palmer",
+          "P-marcus-mainer",
+          "P-dorrien-jones",
+          "P-michael-stover",
+          "P-chris-mcanuff"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "costume fitting/choreography/music/blocking/ dialouge",
+        "focus": "",
+        "prep": "Scene 5: Review choreography and prepare to learn more of the routine and blocking; Scene 4, 11, & 12: Prepare to be mostly off-script and to lock down blocking",
         "notice": "",
         "changeType": ""
       },
@@ -7936,8 +7888,8 @@
         "count": 8
       }
     ],
-    "count": 32,
-    "pastCount": 20
+    "count": 31,
+    "pastCount": 21
   },
   "scripts": {
     "items": [
@@ -7953,7 +7905,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "02",
@@ -7967,7 +7919,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "03",
@@ -7981,7 +7933,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "04",
@@ -7995,7 +7947,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "05",
@@ -8009,7 +7961,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "06",
@@ -8023,7 +7975,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "07",
@@ -8037,7 +7989,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "08",
@@ -8051,7 +8003,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "09",
@@ -8065,7 +8017,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "10",
@@ -8079,7 +8031,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "11",
@@ -8093,7 +8045,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "12",
@@ -8107,7 +8059,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       }
     ],
     "current": [
@@ -8123,7 +8075,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "02",
@@ -8137,7 +8089,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "03",
@@ -8151,7 +8103,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "04",
@@ -8165,7 +8117,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "05",
@@ -8179,7 +8131,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "06",
@@ -8193,7 +8145,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "07",
@@ -8207,7 +8159,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "08",
@@ -8221,7 +8173,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "09",
@@ -8235,7 +8187,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "10",
@@ -8249,7 +8201,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "11",
@@ -8263,7 +8215,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       },
       {
         "scene": "12",
@@ -8277,11 +8229,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-11T13:25:37.743Z"
+        "updated": "2026-10-11T18:13:17.023Z"
       }
     ],
     "count": 12,
-    "updated": "2026-10-11T13:25:49.869Z",
+    "updated": "2026-10-11T18:13:30.211Z",
     "kind": "scripts"
   },
   "music": {
@@ -8440,7 +8392,7 @@
       }
     ],
     "count": 5,
-    "updated": "2026-10-11T13:25:49.870Z",
+    "updated": "2026-10-11T18:13:30.211Z",
     "kind": "music"
   }
 }
