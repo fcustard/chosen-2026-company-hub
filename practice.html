@@ -3,21 +3,21 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0d1726"><title>Show Quest | CHOSEN 2026</title>
-  <link rel="stylesheet" href="styles.css?v=20261012-practice"><link rel="stylesheet" href="practice.css?v=20261012-game1">
-  <script defer src="app.js?v=20260928-connected-tasks"></script><script defer src="practice.js?v=20261012-game1"></script>
+  <link rel="stylesheet" href="styles.css?v=20261012-menu2"><link rel="stylesheet" href="practice.css?v=20261012-choice2">
+  <script defer src="app.js?v=20260928-connected-tasks"></script><script defer src="practice.js?v=20261012-choice2"></script>
 </head>
 <body data-page="practice">
 <header class="sitebar"><div class="inner">
   <a class="brand" href="index.html"><small>THE FAITH CENTER PRESENTS</small><b>CHOSEN 2026</b><span>Company Hub</span></a>
   <button id="menuBtn" class="menu" type="button" aria-controls="nav" aria-expanded="false">Menu</button>
-  <nav id="nav" aria-label="Primary"><a href="this-week.html">This Week</a><a href="scripts.html">Scripts</a><a href="lines.html">Lines</a><a href="practice.html" aria-current="page">Practice</a><a href="music.html">Music</a><a href="schedule.html">Schedule</a><a href="resources.html">Resources</a><a href="company.html">Company</a><a href="production.html">Production</a><a href="search.html">Search</a></nav>
+  <nav id="nav" aria-label="Primary"><a href="this-week.html">This Week</a><a href="scripts.html">Scripts</a><a href="practice.html" aria-current="page">Practice</a><a href="music.html">Music</a><a href="schedule.html">My Calls</a><a href="search.html">Search</a><details class="navMore"><summary>More</summary><div class="navMoreMenu"><a href="lines.html">Lines</a><a href="schedule.html">Full Schedule</a><a href="resources.html">Resources</a><a href="company.html">Company</a><a href="production.html">Production</a></div></details></nav>
 </div></header>
 <main class="questPage">
-  <section class="questHero"><p class="ey">A LITTLE GAME FOR THE WHOLE SHOW</p><h1>Show Quest</h1>
-    <p>Pick your path. Play one short mission. Try it again with a new twist. Bring your next move to rehearsal.</p>
-    <a class="btn gold" href="#paths">Start playing</a><p class="questHint">About 5 minutes. No score. No streak. All roles count.</p>
+  <section class="questHero"><p class="ey">A QUICK GAME FOR THE WHOLE SHOW</p><h1>Show Quest</h1>
+    <p>Can you save the scene? Pick one answer, see what happens, then try a small move at home.</p>
+    <a class="btn gold" href="#paths">Play a 2-minute challenge</a><p class="questHint">No score. Wrong answers are okay. Try again any time.</p>
   </section>
-  <section id="paths" class="questPanel" aria-labelledby="pathTitle"><p class="questEyebrow">STEP 1</p><h2 id="pathTitle">Pick your path</h2>
+  <section id="paths" class="questPanel" aria-labelledby="pathTitle"><p class="questEyebrow">FIRST, PICK YOUR JOB</p><h2 id="pathTitle">What do you do in the show?</h2>
     <p id="questPerson">You can play as a guest, or choose your name in Company.</p>
     <div class="pathGrid" role="group" aria-label="Choose a production path">
       <button class="pathCard" type="button" data-path="act" aria-pressed="false"><span>🎭</span><strong>Act</strong><small>Lines or no lines</small></button>
@@ -25,11 +25,11 @@
       <button class="pathCard" type="button" data-path="dance" aria-pressed="false"><span>✦</span><strong>Dance</strong><small>Moves and space</small></button>
       <button class="pathCard" type="button" data-path="crew" aria-pressed="false"><span>⚙</span><strong>Make the show</strong><small>Tech, set, props, and more</small></button>
     </div>
-    <p class="questHint">You can change paths at any time. Try more than one if you have more than one job.</p>
+    <p class="questHint">You can change this any time.</p>
     <div class="questLinks"><a href="scripts.html">Use a CHOSEN scene</a><a href="music.html">Use a current track</a></div>
   </section>
-  <section class="questPanel" aria-labelledby="missionTitle"><p class="questEyebrow">STEP 2</p><h2 id="missionTitle">Choose a mission</h2>
-    <p>Play in any order. Each mission helps the next person do their part.</p>
+  <section class="questPanel" aria-labelledby="missionTitle"><p class="questEyebrow">THEN, PICK ONE CHALLENGE</p><h2 id="missionTitle">Choose a challenge</h2>
+    <p>Start with Cue Hunt. Find your cue, then make two choices. You can try the others later.</p>
     <div class="missionGrid">
       <button class="missionCard" type="button" data-mission="cue" aria-pressed="false"><span class="missionMark" data-mark="cue">◇</span><strong>Cue Hunt</strong><small>Find what tells you to begin.</small></button>
       <button class="missionCard" type="button" data-mission="clear" aria-pressed="false"><span class="missionMark" data-mark="clear">◇</span><strong>Make It Clear</strong><small>Help others see or hear your part.</small></button>
@@ -37,21 +37,16 @@
     </div><p id="missionProgress" class="missionProgress" role="status" aria-live="polite">Choose a path to begin.</p>
   </section>
   <section id="gameBoard" class="questPanel gameBoard" aria-labelledby="gameTitle" hidden>
-    <p class="questEyebrow">STEP 3 · PLAY</p><h2 id="gameTitle">Cue Hunt</h2><p id="gameSetup"></p>
-    <div class="round"><b>ROUND 1</b><p id="roundOne"></p></div>
-    <button id="twistButton" class="btn primary" type="button">Show my twist</button>
-    <div id="twistPanel" hidden>
-      <div class="twist"><b>NEW TWIST</b><p id="twistText"></p></div>
-      <div class="round"><b>ROUND 2</b><p id="roundTwo"></p></div>
-      <fieldset class="reflect"><legend>What will you try next?</legend>
-        <label><input type="radio" name="reflection" value="notice"> Notice more</label>
-        <label><input type="radio" name="reflection" value="clear"> Make it clearer</label>
-        <label><input type="radio" name="reflection" value="together"> Try it with a partner</label>
-      </fieldset><button id="finishMission" class="btn gold" type="button" disabled>Finish this mission</button>
-    </div><p id="gameResult" class="gameResult" role="status" aria-live="polite"></p>
-    <button id="replayMission" class="btn" type="button" hidden>Play again with a new twist</button>
+    <p class="questEyebrow" id="challengeStep">CHOICE 1 OF 2</p><h2 id="gameTitle">Cue Hunt</h2>
+    <p id="gameSetup"></p><div class="round"><b id="roundLabel">WHAT WOULD YOU DO?</b><p id="roundOne"></p></div>
+    <div id="answerChoices" class="answerChoices" role="group" aria-label="Choose an answer"></div>
+    <p id="answerFeedback" class="answerFeedback" role="status" aria-live="polite"></p>
+    <button id="nextRound" class="btn primary" type="button" hidden>Try the twist</button>
+    <div id="realMove" hidden><p id="roundTwo"></p><button id="finishMission" class="btn gold" type="button">I tried it!</button></div>
+    <p id="gameResult" class="gameResult" role="status" aria-live="polite"></p>
+    <button id="replayMission" class="btn" type="button" hidden>Play again</button>
   </section>
-  <section class="questPanel" aria-labelledby="coachTitle"><p class="questEyebrow">AT REHEARSAL</p><h2 id="coachTitle">Show your next move</h2>
+  <details class="questPanel questExtra" id="coachSection"><summary>At rehearsal: ask a coach to mark your growth</summary><div><p class="questEyebrow">AT REHEARSAL</p><h2 id="coachTitle">Show your next move</h2>
     <p>Show this page to a coach. Pick one skill. The coach marks what they saw and one thing to try next. This can take 30 seconds.</p>
     <form id="coachForm">
       <label for="coachDate">Rehearsal date</label><input id="coachDate" type="date" required>
@@ -68,13 +63,13 @@
     <details id="oldChecks" hidden><summary>My earlier acting checks</summary><div id="oldHistory"></div></details>
     <p class="questHint">This stays on this device. A coach cannot see it on another phone. There is no shared score or video upload. A parent or coach can help a young player.</p>
     <button id="clearQuest" class="questClear" type="button">Clear my Show Quest data on this device</button>
-  </section>
-  <section class="questPanel questVideos" aria-labelledby="videosTitle"><h2 id="videosTitle">More for actors</h2>
+  </div></details>
+  <details class="questPanel questVideos" id="videosSection"><summary>Extra help for actors: videos</summary><div><h2 id="videosTitle">More for actors</h2>
     <p>These optional videos helped shape the acting missions. Ask a grown-up before opening YouTube if you need help.</p>
     <ul><li><a href="https://youtu.be/dwMgvviP-Nw" target="_blank" rel="noopener noreferrer">Short acting tasks at home</a></li>
       <li><a href="https://www.youtube.com/watch?v=2RxOoOIXZ_c" target="_blank" rel="noopener noreferrer">Ways to make a role feel real</a></li>
       <li><a href="https://youtu.be/lKlpdl-vwQQ" target="_blank" rel="noopener noreferrer">How a small change helps a scene</a></li></ul>
     <p>Use the current CHOSEN script and your leader's notes. For tech or safety tasks, follow your lead's plan. Stop and ask if a cue is unclear.</p>
-  </section>
+  </div></details>
 </main><footer><b>CHOSEN 2026</b><span>Broadway Church Production &amp; Dance System™</span></footer>
 </body></html>

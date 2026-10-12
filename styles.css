@@ -551,8 +551,23 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
 /* Four rehearsal-ready links; keep the same clear touch targets on phones. */
 @media (min-width: 851px) { .homePracticeTasks { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 @media (min-width: 651px) and (max-width: 850px) { .homePracticeTasks { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-/* Keep ten main links on one line at desktop widths. */
+/* Give the main destinations room at desktop widths. */
 @media (min-width: 981px) {
   .sitebar #nav:not(.sceneBackNav) { gap: 8px; }
   .sitebar #nav:not(.sceneBackNav) a { font-size: .82rem; }
+}
+
+/* Keep the six daily destinations easy to scan. Secondary pages live in More. */
+.sitebar .navMore{position:relative;align-self:center}
+.sitebar .navMore summary{list-style:none;display:flex;align-items:center;min-height:44px;padding:0 4px;cursor:pointer;color:#fff;font-weight:800;font-size:.9rem}
+.sitebar .navMore summary::-webkit-details-marker{display:none}
+.sitebar .navMore summary::after{content:" ▾";margin-left:5px;font-size:.8em}
+.sitebar .navMore summary:hover,.sitebar .navMore summary:focus-visible,.sitebar .navMoreCurrent{color:#f4d895}
+.sitebar .navMoreMenu{position:absolute;right:0;top:100%;z-index:22;min-width:190px;padding:8px;background:#17263b;border:1px solid #506078;border-radius:12px;box-shadow:0 14px 28px rgba(0,0,0,.28)}
+.sitebar .navMoreMenu a{display:flex!important;min-height:44px!important;padding:10px 12px;border-radius:8px;font-size:.9rem!important}
+.sitebar .navMoreMenu a:hover,.sitebar .navMoreMenu a:focus-visible{background:#30415a}
+@media(max-width:980px){
+ .sitebar #nav:not(.sceneBackNav) .navMore{width:100%;align-self:stretch}
+ .sitebar #nav:not(.sceneBackNav) .navMore summary{min-height:48px;padding:10px 12px}
+ .sitebar #nav:not(.sceneBackNav) .navMoreMenu{position:static;box-shadow:none;min-width:0;margin-left:12px;border:0;border-left:2px solid #c69845;border-radius:0;padding:0 0 0 8px}
 }

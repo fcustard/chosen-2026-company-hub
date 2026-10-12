@@ -29,12 +29,166 @@
       pass: ['Think of the person who uses your work next.', 'Name what they need from you before they can begin.', ['They need one more detail. Check it with your lead.', 'The task is not ready. Tell the team early.'], 'Try the handoff again. Keep it safe and clear.']
     }
   };
+  const CHOICES = {
+    "act": {
+      "cue": [
+        "Your partner pauses before your line. What starts your line?",
+        [
+          "Say your line right away.",
+          "Wait for the line or action before yours.",
+          "Watch the crowd for a sign."
+        ],
+        1,
+        "Yes. Your partner’s cue starts your part, even if the pace changes."
+      ],
+      "clear": [
+        "Your character has no words in this moment. How can we see what they feel?",
+        [
+          "Add lots of new moves.",
+          "Make one clear look or action from your scene.",
+          "Stand with your back to the story."
+        ],
+        1,
+        "Yes. One clear action can tell the story without a line."
+      ],
+      "pass": [
+        "The next actor is about to enter. What helps them?",
+        [
+          "Keep watching and give them room.",
+          "Add an extra line.",
+          "Leave before your part ends."
+        ],
+        0,
+        "Yes. Listening and giving space help the next person begin."
+      ]
+    },
+    "sing": {
+      "cue": [
+        "The track starts very softly. When do you sing?",
+        [
+          "Guess and enter early.",
+          "Listen for your agreed word or count.",
+          "Wait until everyone else is done."
+        ],
+        1,
+        "Yes. Listen for your real entry cue."
+      ],
+      "clear": [
+        "The words are hard to hear. What do you try?",
+        [
+          "Push your voice harder.",
+          "Sing faster.",
+          "Sing one short phrase gently with clear words."
+        ],
+        2,
+        "Yes. Clear words carry the story. Keep your voice easy."
+      ],
+      "pass": [
+        "A new voice joins your group. What helps them?",
+        [
+          "Sing over them.",
+          "Listen and blend with the group.",
+          "Stop listening to the music."
+        ],
+        1,
+        "Yes. Listen as you sing so the group can stay together."
+      ]
+    },
+    "dance": {
+      "cue": [
+        "The music is quiet before your entrance. When do you move?",
+        [
+          "Use your approved count or cue.",
+          "Rush in so you are not late.",
+          "Add a new move to fill the gap."
+        ],
+        0,
+        "Yes. Follow the count and move your team learned."
+      ],
+      "clear": [
+        "Your move is hard to read. What helps?",
+        [
+          "Make the safe start and end clear.",
+          "Make the move bigger than the plan.",
+          "Speed through it."
+        ],
+        0,
+        "Yes. A clear shape helps the audience see your part."
+      ],
+      "pass": [
+        "Another dancer needs the space beside you. What do you do?",
+        [
+          "Take more of their space.",
+          "Keep your set path and spacing.",
+          "Invent a new place to stand."
+        ],
+        1,
+        "Yes. Keep your agreed space so everyone can move safely."
+      ]
+    },
+    "crew": {
+      "cue": [
+        "Your signal to start is not clear. What do you do?",
+        [
+          "Guess and run the cue.",
+          "Ask your lead to confirm the plan.",
+          "Let someone else guess."
+        ],
+        1,
+        "Yes. Pause and check with your lead before any cue."
+      ],
+      "clear": [
+        "The next team needs to know if a prop is ready. What do you say?",
+        [
+          "Say it is ready without checking.",
+          "Give a short, true update to the right person.",
+          "Change the handoff without telling anyone."
+        ],
+        1,
+        "Yes. A clear, true update helps the next team act."
+      ],
+      "pass": [
+        "A piece is not ready for the next person. What do you do?",
+        [
+          "Hide the problem.",
+          "Make an unapproved change.",
+          "Tell your lead early and check the next step."
+        ],
+        2,
+        "Yes. Tell your lead early so the handoff stays safe."
+      ]
+    }
+  };
+  const TWIST_CHOICES = {
+    act: {
+      cue: ['Wait and listen for the real cue.', 'Rush to fill the silence.', 'Make up a new line.'],
+      clear: ['Make one small, clear change.', 'Add many new gestures.', 'Ignore the other actor.'],
+      pass: ['Watch and leave room for the next person.', 'Block their path.', 'Change their line.']
+    },
+    sing: {
+      cue: ['Listen for the agreed entry.', 'Sing before the count.', 'Stop listening.'],
+      clear: ['Keep the words clear and your voice easy.', 'Push harder.', 'Race through the phrase.'],
+      pass: ['Listen and blend.', 'Sing over the next voice.', 'Ignore the beat.']
+    },
+    dance: {
+      cue: ['Watch for the approved count.', 'Start before the team.', 'Add new steps.'],
+      clear: ['Keep one safe shape clear.', 'Move into someone else’s space.', 'Rush the ending.'],
+      pass: ['Keep the agreed spacing.', 'Take someone else’s path.', 'Change the move alone.']
+    },
+    crew: {
+      cue: ['Pause and ask your lead to confirm.', 'Guess the cue.', 'Operate gear without a plan.'],
+      clear: ['Tell the right person what you know.', 'Say it is ready without checking.', 'Change the plan alone.'],
+      pass: ['Tell your lead what the next person needs.', 'Hide a missing part.', 'Make an unsafe shortcut.']
+    }
+  };
   const $ = selector => document.querySelector(selector);
   let personId = 'guest';
   let path = 'act';
   let mission = null;
   let memory = {};
   let storageWorks = true;
+  let round = 0;
+  let variation = 0;
 
   function read(key = KEY) {
     if (key === KEY && !storageWorks) return memory;
@@ -77,28 +231,65 @@
     for (const button of document.querySelectorAll('[data-mission]')) button.setAttribute('aria-pressed', String(button.dataset.mission === mission));
     const count = Object.keys(NAMES).filter(name => playsFor(name) > 0).length;
     for (const name of Object.keys(NAMES)) $('[data-mark="' + name + '"]').textContent = playsFor(name) ? '◆' : '◇';
-    $('#missionProgress').textContent = `${count} of 3 missions played on this path. ${count === 3 ? 'You tried them all! Replay one with a new twist.' : 'Each gem means you tried both rounds.'}`;
+    $('#missionProgress').textContent = `${count} of 3 missions played on this path. ${count === 3 ? 'You tried them all! Replay one with a new twist.' : 'Each gem means you finished a challenge.'}`;
     renderHistory();
   }
   function start(name) {
     mission = name;
-    const [setup, first, twists, second] = PATHS[path][name];
+    round = 0;
+    variation = playsFor(name) % 2;
     $('#gameBoard').hidden = false;
     $('#gameTitle').textContent = NAMES[name];
-    $('#gameSetup').textContent = setup;
-    $('#roundOne').textContent = first;
-    $('#twistText').textContent = twists[playsFor(name) % twists.length];
-    $('#roundTwo').textContent = second;
-    $('#twistPanel').hidden = true;
-    $('#twistButton').hidden = false;
-    $('#finishMission').disabled = true;
-    $('#finishMission').hidden = false;
+    $('#gameSetup').textContent = 'Make two choices. If one does not work, try another answer.';
     $('#gameResult').textContent = '';
     $('#replayMission').hidden = true;
-    document.querySelectorAll('input[name="reflection"]').forEach(input => { input.checked = false; });
+    $('#realMove').hidden = true;
     $('#coachSkill').value = name;
+    showRound();
     render();
     $('#gameBoard').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  function showRound() {
+    const challenge = CHOICES[path][mission];
+    const twist = PATHS[path][mission][2][variation];
+    const options = round === 0 ? challenge[1] : TWIST_CHOICES[path][mission];
+    const correct = round === 0 ? challenge[2] : 0;
+    $('#challengeStep').textContent = 'CHOICE ' + (round + 1) + ' OF 2';
+    $('#roundOne').textContent = round === 0 ? challenge[0] : twist + ' What do you do now?';
+    $('#roundLabel').textContent = round === 0 ? 'WHAT WOULD YOU DO?' : 'NEW TWIST';
+    $('#answerFeedback').textContent = '';
+    $('#nextRound').hidden = true;
+    $('#realMove').hidden = true;
+    const answers = $('#answerChoices');
+    answers.replaceChildren();
+    options.forEach((option, index) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'answerButton';
+      button.textContent = option;
+      button.addEventListener('click', () => {
+        if (index !== correct) {
+          $('#answerFeedback').textContent = 'Not quite. ' + (round === 0
+            ? 'Think about the cue and the people beside you. Try another answer.'
+            : path === 'crew' ? 'Check the approved plan with your lead. Try again.'
+              : 'Use the move or cue your team already learned. Try again.');
+          button.disabled = true;
+          button.classList.add('answerWrong');
+          return;
+        }
+        $('#answerFeedback').textContent = round === 0 ? challenge[3] :
+          'That helps the scene. Now try your own part.';
+        for (const answer of answers.querySelectorAll('button')) answer.disabled = true;
+        button.classList.add('answerRight');
+        if (round === 0) $('#nextRound').hidden = false;
+        else {
+          $('#realMove').hidden = false;
+          $('#roundTwo').textContent = 'Your turn: ' + PATHS[path][mission][3] +
+            ' Try it once now. Then tap “I tried it!”';
+        }
+      });
+      answers.append(button);
+    });
   }
   function renderHistory() {
     const box = $('#coachHistory');
@@ -140,23 +331,21 @@
 
   document.querySelectorAll('[data-path]').forEach(button => button.addEventListener('click', () => pathChoice(button.dataset.path)));
   document.querySelectorAll('[data-mission]').forEach(button => button.addEventListener('click', () => start(button.dataset.mission)));
-  $('#twistButton').addEventListener('click', () => { $('#twistPanel').hidden = false; $('#twistButton').hidden = true; });
-  document.querySelectorAll('input[name="reflection"]').forEach(input => input.addEventListener('change', () => { $('#finishMission').disabled = false; }));
+  $('#nextRound').addEventListener('click', () => { round = 1; showRound(); });
   $('#finishMission').addEventListener('click', () => {
-    if (!mission || $('#twistPanel').hidden || !document.querySelector('input[name="reflection"]:checked')) return;
-    const chosen = document.querySelector('input[name="reflection"]:checked').value;
+    if (!mission || round !== 1 || $('#realMove').hidden) return;
+    const chosen = { cue: 'notice', clear: 'clear', pass: 'together' }[mission];
     const data = player();
     const paths = { ...(data.paths || {}) };
     paths[path] = { ...(paths[path] || {}), [mission]: playsFor(mission) + 1 };
     update({ paths, nextMove: chosen });
-    $('#gameResult').textContent = `Mission played! Your next move: ${NEXT[chosen]}. Show it at rehearsal.`;
-    $('#finishMission').hidden = true;
+    $('#gameResult').textContent = 'Nice work! Your next move: ' + NEXT[chosen] +
+      '. Show it at your next rehearsal.';
+    $('#realMove').hidden = true;
+    $('#answerChoices').replaceChildren();
     $('#replayMission').hidden = false;
   });
-  $('#replayMission').addEventListener('click', () => {
-    $('#finishMission').hidden = false;
-    start(mission);
-  });
+  $('#replayMission').addEventListener('click', () => start(mission));
   $('#coachForm').addEventListener('submit', event => {
     event.preventDefault();
     const form = event.currentTarget;
