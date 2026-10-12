@@ -1,0 +1,30 @@
+.questPage { max-width: 900px; }
+.questIntro { margin: 44px 0 30px; }
+.questIntro h1 { margin: 4px 0 12px; font: 700 clamp(2.5rem, 7vw, 4rem)/1 Georgia,serif; }
+.questIntro p { max-width: 680px; }
+.questQuiet { color: #465166; font-size: .9rem; }
+.questPanel { margin: 18px 0; padding: clamp(18px, 4vw, 28px); background: #fffdf8; border: 1px solid var(--line); border-radius: 18px; }
+.questPanel h2 { font: 700 clamp(1.5rem, 4vw, 2rem)/1.2 Georgia,serif; margin: 0 0 10px; }
+.questPanel h3 { margin: 6px 0 8px; }
+.questPanel p { margin: 8px 0 16px; }
+.questPanel select, .questField input { display: block; width: 100%; max-width: 500px; min-height: 48px; padding: 10px; border: 1px solid #8491a2; border-radius: 10px; background: #fff; color: var(--ink); font: inherit; }
+.questPanel label { display: block; margin: 12px 0 5px; font-weight: 700; }
+.questLinks { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 18px; }
+.questGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.questTask { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 14px; padding: 18px; background: #fff; }
+.questTask p { color: #354258; font-size: .94rem; }
+.questStep { color: #745315; font-size: .78rem; font-weight: 900; letter-spacing: .07em; }
+.questTask button { margin-top: auto; min-height: 48px; border: 1px solid var(--n); border-radius: 10px; background: var(--n); color: #fff; font: 700 1rem Arial,sans-serif; cursor: pointer; }
+.questTask button[aria-pressed="true"] { background: #f2ddaa; color: #212025; border-color: #a77818; }
+.questStars { font-weight: 800; color: #61410b; }
+.questPanel fieldset { margin: 16px 0; border: 1px solid var(--line); border-radius: 12px; padding: 10px 16px 16px; }
+.questPanel legend { font-weight: 800; padding: 0 5px; }
+.questPanel fieldset label { display: inline-flex; align-items: center; gap: 7px; margin: 8px 20px 0 0; font-weight: 400; min-height: 40px; }
+.questPanel fieldset input { width: 20px; height: 20px; }
+#coachHistory { overflow-x: auto; }
+#coachHistory table { width: 100%; border-collapse: collapse; text-align: left; }
+#coachHistory caption { text-align: left; font-weight: 800; padding: 8px 0; }
+#coachHistory th, #coachHistory td { border-bottom: 1px solid var(--line); padding: 10px; }
+.questClear { background: transparent; border: 0; color: #8b351e; text-decoration: underline; font: inherit; cursor: pointer; padding: 8px 0; }
+.questVideos li { margin: 9px 0; }
+@media(max-width: 720px) { .questGrid { grid-template-columns: 1fr; } .questLinks .btn { flex: 1; } }
