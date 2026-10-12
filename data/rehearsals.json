@@ -1442,39 +1442,6 @@
     "id": "CHOSEN-20261010-REH"
   },
   {
-    "eventKey": "CHOSEN-20261013-REH",
-    "start": "Oct 13, 2026 7:00 PM",
-    "end": "Oct 13, 2026 9:00 PM",
-    "title": "CHOSEN Rehearsal - Scene 4",
-    "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-    "status": "VIRTUAL",
-    "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
-    "work": "Review dialogue, character builiding",
-    "prep": "Actors: Dialogue & Character Building",
-    "calledPeople": [
-      "Jordyn Starks",
-      "Tasha Simeon",
-      "Tyfany Adaka",
-      "Jéovanie André",
-      "Ashley Pierre",
-      "Shanice Palmer",
-      "Moenike Custard"
-    ],
-    "calledPeopleIds": [
-      "P-jordyn-starks",
-      "P-tasha-simeon",
-      "P-tyfany-adaka",
-      "P-jeovanie-andre",
-      "P-ashley-pierre",
-      "P-shanice-palmer",
-      "P-moenike-custard"
-    ],
-    "calledGroups": [],
-    "exactCallStatus": "READY",
-    "callDataVersion": 3,
-    "id": "CHOSEN-20261013-REH"
-  },
-  {
     "eventKey": "CHOSEN-20261014-REH",
     "start": "Oct 14, 2026 6:30 PM",
     "end": "Oct 14, 2026 9:30 PM",

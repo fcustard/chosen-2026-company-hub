@@ -16,6 +16,12 @@ const PROBE_ONLY = process.env.CALENDAR_SYNC_MODE === 'probe';
 const SEED_BASELINE = process.env.CALENDAR_SYNC_MODE === 'seed';
 const VERIFY_ONLY = process.env.CALENDAR_SYNC_MODE === 'verify';
 const BASELINE_PATH = `${DATA_DIR}/calendar-source-baseline.json`;
+const canceled = JSON.parse(await fs.readFile(`${DATA_DIR}/reviewed-cancellations.json`, 'utf8'));
+if (canceled.schemaVersion !== 1 || !Array.isArray(canceled.ids) ||
+    canceled.ids.some(id => typeof id !== 'string' || !id.trim())) {
+  throw new Error('Reviewed calendar cancellations file is invalid.');
+}
+const REVIEWED_CANCELLATIONS = new Set(canceled.ids);
 
 /*
  * IMPORTANT
@@ -180,8 +186,13 @@ function adaptRehearsals(feedRehearsals) {
   const seenIds = new Set();
 
   let excludedNoRehearsal = 0;
+  let excludedCanceled = 0;
 
   for (const source of feedRehearsals) {
+    if (REVIEWED_CANCELLATIONS.has(normalizeText(source.id || source.eventKey))) {
+      excludedCanceled += 1;
+      continue;
+    }
     if (isNoRehearsal(source)) {
       excludedNoRehearsal += 1;
       continue;
@@ -266,7 +277,8 @@ function adaptRehearsals(feedRehearsals) {
 
   return {
     rehearsals: output,
-    excludedNoRehearsal
+    excludedNoRehearsal,
+    excludedCanceled
   };
 }
 
@@ -289,6 +301,7 @@ const attempts = [30000, 30000, 45000];
 
 let rehearsals = null;
 let excludedNoRehearsal = 0;
+let excludedCanceled = 0;
 let lastError = null;
 
 for (let i = 0; i < attempts.length; i += 1) {
@@ -313,6 +326,7 @@ for (let i = 0; i < attempts.length; i += 1) {
 
     rehearsals = adapted.rehearsals;
     excludedNoRehearsal = adapted.excludedNoRehearsal;
+    excludedCanceled = adapted.excludedCanceled;
 
     break;
   } catch (error) {
@@ -386,6 +400,7 @@ if (PROBE_ONLY) {
     incomingCount: rehearsals.length,
     existingCount: existing.length,
     excludedNoRehearsal,
+    excludedCanceled,
     incomingWithPersonalStart: rehearsals.filter(r => r.personalCallTimes).length,
     incomingWithPersonalEnd: rehearsals.filter(r => r.personalCallEndTimes).length,
     missing,
@@ -462,7 +477,8 @@ console.log(
   `${ready} READY; ` +
   `${review} REVIEW; ` +
   `${hold} HOLD; ` +
-  `${excludedNoRehearsal} NO REHEARSAL rows excluded.`
+  `${excludedNoRehearsal} NO REHEARSAL rows excluded; ` +
+  `${excludedCanceled} reviewed canceled rows excluded.`
 );
 
 console.log(

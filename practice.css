@@ -20,3 +20,20 @@
 @media(max-width:800px){.pathGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.missionGrid{grid-template-columns:1fr}.missionCard{min-height:85px}}
 @media(max-width:500px){.pathCard{min-height:103px;padding:12px}.questHero{margin-top:10px}.questPanel{padding:18px}.reflect label,.questPanel fieldset label{display:flex;margin:4px 0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
+
+/* One short challenge at a time; keep the first choice visible sooner. */
+.questHero{padding:24px 30px;margin:18px 0 16px}
+.questHero h1{font-size:clamp(2.5rem,6vw,3.6rem)}
+.questHero p{font-size:1rem;max-width:650px}
+.questHero .questHint{margin-bottom:0}
+.questPanel{margin:12px 0}
+.answerChoices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:16px 0}
+.answerButton{min-height:90px;border:2px solid #c9c1b2;border-radius:12px;background:#fff;padding:14px;text-align:left;font:700 1rem/1.4 Arial,sans-serif;color:#182841;cursor:pointer}
+.answerButton:hover:not(:disabled),.answerButton:focus-visible{border-color:#966a1c;background:#fff4d9}
+.answerButton.answerRight{border-color:#2f753d;background:#e7f4e8}
+.answerButton.answerWrong{border-color:#9c4433;background:#fbebea}
+.answerFeedback{min-height:1.6em;font-weight:800;color:#24466a}
+#realMove{padding:18px;margin:16px 0;background:#edf3e9;border-radius:12px}
+.questExtra summary,.questVideos summary{cursor:pointer;font-weight:800;min-height:48px;display:list-item;padding:8px 0}
+.questExtra>div,.questVideos>div{padding-top:10px}
+@media(max-width:650px){.answerChoices{grid-template-columns:1fr}.answerButton{min-height:64px}.questHero{padding:20px}}

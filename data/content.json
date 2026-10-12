@@ -12,60 +12,38 @@
     "incidentReport": "https://docs.google.com/forms/d/e/1FAIpQLScHrfCZhDqiW-0ODSZC66HDXM9KIMlWyaRa_g6IERFKLRsbQA/viewform"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20261013-REH",
-    "eventKey": "CHOSEN-20261013-REH",
-    "start": "2026-10-13T23:00:00.000Z",
-    "end": "2026-10-14T01:00:00.000Z",
-    "date": "October 13, 2026",
-    "dateIso": "2026-10-13",
-    "day": "Tuesday",
-    "dateLabel": "October 13, 2026",
-    "dayLabel": "Tuesday",
-    "time": "7:00 PM–9:00 PM",
-    "title": "CHOSEN Rehearsal - Scene 4",
-    "status": "VIRTUAL",
-    "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-    "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-    "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
-    "callGroups": [],
-    "calledPeople": [
-      {
-        "displayName": "Jordyn Starks"
-      },
-      {
-        "displayName": "Tasha Simeon"
-      },
-      {
-        "displayName": "Tyfany Adaka"
-      },
-      {
-        "displayName": "Jéovanie André"
-      },
-      {
-        "displayName": "Ashley Pierre"
-      },
-      {
-        "displayName": "Shanice Palmer"
-      },
-      {
-        "displayName": "Moenike Custard"
-      }
+    "id": "CHOSEN-20261014-REH",
+    "eventKey": "CHOSEN-20261014-REH",
+    "start": "2026-10-14T22:30:00.000Z",
+    "end": "2026-10-15T01:30:00.000Z",
+    "date": "October 14, 2026",
+    "dateIso": "2026-10-14",
+    "day": "Wednesday",
+    "dateLabel": "October 14, 2026",
+    "dayLabel": "Wednesday",
+    "time": "6:30 PM–9:30 PM",
+    "title": "CHOSEN Rehearsal -Scenes 1, 9 (Dance Only); 5, 11, 12",
+    "status": "CONFIRMED",
+    "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+    "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+    "called": "6:30 PM–8:30 PM — Dancers\n8:00 PM–9:30 PM- Scene 5\n6:30 PM–8:00 PM — Scene 11 \n8:00 PM–9:30 PM- Scene 12",
+    "callGroups": [
+      "Children/Youth",
+      "Ensemble",
+      "Dancers"
     ],
-    "calledPeopleIds": [
-      "P-jordyn-starks",
-      "P-tasha-simeon",
-      "P-tyfany-adaka",
-      "P-jeovanie-andre",
-      "P-ashley-pierre",
-      "P-shanice-palmer",
-      "P-moenike-custard"
+    "calledPeople": [],
+    "calledPeopleIds": [],
+    "calledGroups": [
+      "Children/Youth",
+      "Ensemble",
+      "Dancers"
     ],
-    "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Review dialogue, character builiding",
+    "work": "Music/choreo cleanup; Dialogue (off script) & blocking",
     "focus": "",
-    "prep": "Actors: Dialogue & Character Building",
+    "prep": "",
     "notice": "",
     "changeType": ""
   },
@@ -74,64 +52,6 @@
     "start": "2026-10-12T04:00:00.000Z",
     "end": "2026-10-19T03:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261013-REH",
-        "eventKey": "CHOSEN-20261013-REH",
-        "start": "2026-10-13T23:00:00.000Z",
-        "end": "2026-10-14T01:00:00.000Z",
-        "date": "October 13, 2026",
-        "dateIso": "2026-10-13",
-        "day": "Tuesday",
-        "dateLabel": "October 13, 2026",
-        "dayLabel": "Tuesday",
-        "time": "7:00 PM–9:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 4",
-        "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Moenike Custard"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-shanice-palmer",
-          "P-moenike-custard"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Review dialogue, character builiding",
-        "focus": "",
-        "prep": "Actors: Dialogue & Character Building",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261014-REH",
         "eventKey": "CHOSEN-20261014-REH",
@@ -267,70 +187,12 @@
         "changeType": ""
       }
     ],
-    "count": 4
+    "count": 3
   },
   "schedule": {
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261013-REH",
-        "eventKey": "CHOSEN-20261013-REH",
-        "start": "2026-10-13T23:00:00.000Z",
-        "end": "2026-10-14T01:00:00.000Z",
-        "date": "October 13, 2026",
-        "dateIso": "2026-10-13",
-        "day": "Tuesday",
-        "dateLabel": "October 13, 2026",
-        "dayLabel": "Tuesday",
-        "time": "7:00 PM–9:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 4",
-        "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Moenike Custard"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-shanice-palmer",
-          "P-moenike-custard"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Review dialogue, character builiding",
-        "focus": "",
-        "prep": "Actors: Dialogue & Character Building",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261014-REH",
         "eventKey": "CHOSEN-20261014-REH",
@@ -4066,64 +3928,6 @@
       }
     ],
     "allRehearsals": [
-      {
-        "id": "CHOSEN-20261013-REH",
-        "eventKey": "CHOSEN-20261013-REH",
-        "start": "2026-10-13T23:00:00.000Z",
-        "end": "2026-10-14T01:00:00.000Z",
-        "date": "October 13, 2026",
-        "dateIso": "2026-10-13",
-        "day": "Tuesday",
-        "dateLabel": "October 13, 2026",
-        "dayLabel": "Tuesday",
-        "time": "7:00 PM–9:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 4",
-        "status": "VIRTUAL",
-        "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Moenike Custard"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-jordyn-starks",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-jeovanie-andre",
-          "P-ashley-pierre",
-          "P-shanice-palmer",
-          "P-moenike-custard"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Review dialogue, character builiding",
-        "focus": "",
-        "prep": "Actors: Dialogue & Character Building",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261014-REH",
         "eventKey": "CHOSEN-20261014-REH",
@@ -7888,7 +7692,7 @@
         "count": 8
       }
     ],
-    "count": 31,
+    "count": 30,
     "pastCount": 21
   },
   "scripts": {
