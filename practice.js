@@ -150,8 +150,8 @@
         : 'Choose your name in Company to see your scenes first. You can still try any scene here.';
       const chooseName = document.createElement('a');
       chooseName.href = 'company.html#my-role';
-      chooseName.textContent = person ? ' Change person' : ' Choose my name';
-      personLabel.append(chooseName);
+      chooseName.textContent = person ? 'Change person' : 'Choose my name';
+      personLabel.append(' ', chooseName);
 
       const assigned = new Set((person?.scenes || []).map(Number));
       const ordered = [...scenes].sort((a, b) =>
