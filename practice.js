@@ -159,26 +159,112 @@
       ]
     }
   };
-  const TWIST_CHOICES = {
+  // A twist describes the problem only. Its answer stays in the choices.
+  // Each replay alternates between two situations for a given job and skill.
+  const TWISTS = {
     act: {
-      cue: ['Wait and listen for the real cue.', 'Rush to fill the silence.', 'Make up a new line.'],
-      clear: ['Make one small, clear change.', 'Add many new gestures.', 'Ignore the other actor.'],
-      pass: ['Watch and leave room for the next person.', 'Block their path.', 'Change their line.']
+      cue: [
+        ['Your partner takes a longer pause than usual. The room is quiet. What do you watch for?',
+          ['A look or action that is part of your agreed scene.', 'A laugh from the crowd.', 'The number of seconds you usually wait.'], 0,
+          'You stayed in the moment and used the scene cue.', 'A guessed time or crowd reaction may send you in too soon.'],
+        ['Your partner says the last line in a new rhythm. Your entrance is next. What helps?',
+          ['Say your line on the old count.', 'Listen for the meaning and the agreed cue.', 'Add a line to bring the rhythm back.'], 1,
+          'You listened and kept the story moving.', 'A set count or new line can pull you out of the scene.']
+      ],
+      clear: [
+        ['Mary is speaking. Your silent character hears news they did not expect. What could tell that story?',
+          ['A small, clear look toward Mary.', 'A big new gesture through her line.', 'Turning away from the scene.'], 0,
+          'One clear reaction helps us see what changed.', 'A large new move may pull focus from the speaker.'],
+        ['Your line is heard, but your feeling is hard to read. What is one useful change?',
+          ['Speak every word much faster.', 'Choose one word to mean and look at your partner.', 'Add a new speech.'], 1,
+          'A small choice made the meaning clearer.', 'More speed or new words will not help the listener.']
+      ],
+      pass: [
+        ['Your partner needs one beat to react before your next line. What helps?',
+          ['Keep eye contact and give that beat.', 'Look away and leave the scene.', 'Add another line right away.'], 0,
+          'You gave your partner room while staying in the story.', 'Leaving or filling the beat can take away their moment.'],
+        ['An actor enters from the doorway as you cross. What is your best move?',
+          ['Keep the set path and stay aware of their entrance.', 'Change the blocking alone.', 'Stand in the doorway to be seen.'], 0,
+          'You protected the entrance and your agreed blocking.', 'An unplanned move may block the next actor.']
+      ]
     },
     sing: {
-      cue: ['Listen for the agreed entry.', 'Sing before the count.', 'Stop listening.'],
-      clear: ['Keep the words clear and your voice easy.', 'Push harder.', 'Race through the phrase.'],
-      pass: ['Listen and blend.', 'Sing over the next voice.', 'Ignore the beat.']
+      cue: [
+        ['The track has a soft intro before your first word. What tells you to begin?',
+          ['The agreed sound or count in the track.', 'The moment you think it has been long enough.', 'A person in the audience moving.'], 0,
+          'You followed the music cue.', 'Guessing from time or the audience could start you early.'],
+        ['A song begins after a spoken line. The line has a long pause. When do you enter?',
+          ['At the time you practiced yesterday.', 'After the agreed line and music cue.', 'Whenever you feel ready.'], 1,
+          'You listened to the scene and the music.', 'The pace may change, so wait for the agreed cue.']
+      ],
+      clear: [
+        ['In “What Will He Be?” the words carry the story. One phrase sounds muddy. What do you try?',
+          ['Push your voice louder.', 'Sing the phrase gently with clear consonants.', 'Skip the hard words.'], 1,
+          'Clear words tell the story without strain.', 'Louder or missing words can make the story harder to follow.'],
+        ['The last word of your phrase disappears. What could help?',
+          ['Finish the word at the agreed ending.', 'Add a long note not in the music.', 'Sing the whole phrase faster.'], 0,
+          'You gave the word a clear ending.', 'Extra notes or speed can blur the phrase.']
+      ],
+      pass: [
+        ['Another singer has the next phrase. What should they hear from you?',
+          ['A steady, blended end to your phrase.', 'You singing over their first word.', 'Silence before your own ending.'], 0,
+          'Your ending helped the next voice enter.', 'Covering their entry or cutting your part short makes the handoff harder.'],
+        ['Your group sounds louder than the solo voice. What helps the story?',
+          ['Keep the same volume no matter what.', 'Listen and follow the group’s agreed level.', 'Stop singing without a cue.'], 1,
+          'You made space for the story and the solo.', 'The group needs to follow the agreed balance.']
+      ]
     },
     dance: {
-      cue: ['Watch for the approved count.', 'Start before the team.', 'Add new steps.'],
-      clear: ['Keep one safe shape clear.', 'Move into someone else’s space.', 'Rush the ending.'],
-      pass: ['Keep the agreed spacing.', 'Take someone else’s path.', 'Change the move alone.']
+      cue: [
+        ['In the Scene 9 dance, the music dips just before your entrance. What starts your move?',
+          ['The approved count or visual cue.', 'The first moment of quiet.', 'The dancer beside you guessing.'], 0,
+          'You used the count your team learned.', 'The dip or another guess may not be your cue.'],
+        ['A dancer before you finishes a move slowly. What should you do?',
+          ['Rush through their space.', 'Keep your set place and wait for your cue.', 'Invent a new step.'], 1,
+          'You kept the group safe and on its cue.', 'Rushing or changing steps can upset spacing.']
+      ],
+      clear: [
+        ['Your arm shape gets lost from the back row. What helps?',
+          ['Mark its start and finish within the approved move.', 'Make a large new shape near another dancer.', 'Move before the count.'], 0,
+          'A clean start and finish make the move read.', 'An unplanned shape or early move may crowd others.'],
+        ['Your group ends together, but your finish is hard to see. What do you try?',
+          ['Hold the approved finish clearly.', 'Keep moving after everyone stops.', 'Move into another dancer’s place.'], 0,
+          'Your still finish helps the whole picture.', 'Extra movement pulls attention from the group.']
+      ],
+      pass: [
+        ['A dancer crosses behind you on the next count. What protects the handoff?',
+          ['Keep the agreed path and spacing.', 'Step into their route to help them.', 'Stop in a new spot.'], 0,
+          'You made room for the next dancer.', 'Changing the route alone can block or trip someone.'],
+        ['Your group changes lines. One dancer is late. What helps?',
+          ['Run to a new spot.', 'Keep your own safe count and set place.', 'Pull them into position.'], 1,
+          'You kept your part steady and safe.', 'An unplanned move can make the group less safe.']
+      ]
     },
     crew: {
-      cue: ['Pause and ask your lead to confirm.', 'Guess the cue.', 'Operate gear without a plan.'],
-      clear: ['Tell the right person what you know.', 'Say it is ready without checking.', 'Change the plan alone.'],
-      pass: ['Tell your lead what the next person needs.', 'Hide a missing part.', 'Make an unsafe shortcut.']
+      cue: [
+        ['The scene change is near, but the signal is unclear. What comes first?',
+          ['Move the set now.', 'Check the approved cue with your lead.', 'Ask an actor to guess.'], 1,
+          'You protected the team by confirming the cue.', 'A guessed signal can put people and scenery at risk.'],
+        ['A plan was changed at rehearsal, but your sheet has the old order. What do you do?',
+          ['Use the old order.', 'Pick whichever seems right.', 'Ask your lead for the current approved order.'], 2,
+          'You checked the current plan before acting.', 'Old notes or guesses may send the wrong cue.']
+      ],
+      clear: [
+        ['A prop for the Bethlehem doorway is missing. What should your update say?',
+          ['“Everything is ready.”', '“The prop is missing; I am checking with our lead.”', 'Nothing until the cue begins.'], 1,
+          'A short, true update gives the team time to act.', 'A false or late update can surprise the next person.'],
+        ['Your lead asks if the set is ready, but one piece is still being checked. What do you say?',
+          ['“Ready,” so the show can go on.', '“I am not sure,” to the audience.', '“One piece is still being checked,” to your lead.'], 2,
+          'You gave the right person the real status.', 'The lead needs the true status before the next step.']
+      ],
+      pass: [
+        ['The next crew member is waiting for your handoff. A detail is missing. What helps?',
+          ['Tell your lead and the next person what is missing.', 'Leave it for them to discover.', 'Make a new safety step yourself.'], 0,
+          'You made the handoff clear and safe.', 'Hidden gaps or unapproved fixes can hurt the next task.'],
+        ['A lantern is not ready for the next scene. What should happen?',
+          ['Put it on stage anyway.', 'Tell your lead early and follow the backup plan.', 'Ask an actor to repair it.'], 1,
+          'You gave the team time to use its plan.', 'An unready item should not be passed on as ready.']
+      ]
     }
   };
   const $ = selector => document.querySelector(selector);
@@ -217,6 +303,65 @@
     const d = new Date();
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   }
+  function weekKey(when) {
+    const date = new Date(when);
+    if (Number.isNaN(date.getTime())) return '';
+    const parts = Object.fromEntries(new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/New_York', year: 'numeric', month: '2-digit',
+      day: '2-digit', weekday: 'short'
+    }).formatToParts(date).map(part => [part.type, part.value]));
+    const day = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(parts.weekday);
+    const local = Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day));
+    return new Date(local - ((day + 6) % 7) * 86400000).toISOString().slice(0, 10);
+  }
+  function renderProgress() {
+    const data = player();
+    const thisWeek = weekKey(new Date());
+    const plays = Array.isArray(data.plays) ? data.plays : [];
+    const count = plays.filter(item => item.path === path && weekKey(item.at) === thisWeek).length;
+    const shown = Math.min(count, 3);
+    const ring = $('#progressRing');
+    ring.style.setProperty('--progress', `${shown / 3 * 100}%`);
+    ring.setAttribute('aria-label', `${shown} of 3 optional challenges played this week on this path`);
+    $('#progressNumber').textContent = `${shown}/3`;
+    $('#weeklyProgress').textContent = shown === 3
+      ? 'You filled this week’s ring! Play again for practice, or bring a move to rehearsal.'
+      : `${shown} of 3 short plays this week on this job. This is optional. A new week starts Monday.`;
+    const shelf = $('#badgeShelf');
+    shelf.replaceChildren();
+    const checks = Array.isArray(data.checks) ? data.checks : [];
+    for (const [skill, label, icon] of [
+      ['cue', 'Cue Keeper', '✦'], ['clear', 'Clarity Star', '★'], ['pass', 'Team Helper', '◆']
+    ]) {
+      const earned = checks.some(check => check.path === path && check.skill === skill && check.level === 'seen');
+      const badge = document.createElement('span');
+      badge.className = 'questBadge' + (earned ? ' earned' : '');
+      badge.setAttribute('aria-label', `${label}: ${earned ? 'coach saw this skill' : 'not yet seen by a coach'}`);
+      const mark = document.createElement('span');
+      mark.setAttribute('aria-hidden', 'true');
+      mark.textContent = earned ? icon : '◇';
+      const words = document.createElement('span');
+      words.textContent = label;
+      badge.append(mark, words);
+      shelf.append(badge);
+    }
+  }
+  function celebrate() {
+    const box = $('#rewardBurst');
+    box.replaceChildren();
+    if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return;
+    for (let i = 0; i < 12; i += 1) {
+      const spark = document.createElement('span');
+      spark.textContent = i % 3 === 0 ? '✦' : '◆';
+      spark.style.setProperty('--angle', `${i * 30}deg`);
+      spark.style.setProperty('--distance', `${65 + i % 3 * 18}px`);
+      box.append(spark);
+    }
+    box.classList.remove('burst');
+    void box.offsetWidth;
+    box.classList.add('burst');
+    window.setTimeout(() => { box.classList.remove('burst'); box.replaceChildren(); }, 1100);
+  }
   function pathChoice(next) {
     path = next;
     const data = player();
@@ -232,6 +377,7 @@
     const count = Object.keys(NAMES).filter(name => playsFor(name) > 0).length;
     for (const name of Object.keys(NAMES)) $('[data-mark="' + name + '"]').textContent = playsFor(name) ? '◆' : '◇';
     $('#missionProgress').textContent = `${count} of 3 missions played on this path. ${count === 3 ? 'You tried them all! Replay one with a new twist.' : 'Each gem means you finished a challenge.'}`;
+    renderProgress();
     renderHistory();
   }
   function start(name) {
@@ -244,20 +390,28 @@
     $('#gameResult').textContent = '';
     $('#replayMission').hidden = true;
     $('#realMove').hidden = true;
+    $('#nextStepCard').hidden = true;
     $('#coachSkill').value = name;
+    $('#gameBoard').classList.remove('questEnter');
+    void $('#gameBoard').offsetWidth;
+    $('#gameBoard').classList.add('questEnter');
     showRound();
     render();
-    $('#gameBoard').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    $('#gameBoard').scrollIntoView({
+      behavior: window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+      block: 'start'
+    });
   }
   function showRound() {
-    const challenge = CHOICES[path][mission];
-    const twist = PATHS[path][mission][2][variation];
-    const options = round === 0 ? challenge[1] : TWIST_CHOICES[path][mission];
-    const correct = round === 0 ? challenge[2] : 0;
+    const challenge = round === 0 ? CHOICES[path][mission] : TWISTS[path][mission][variation];
+    const options = challenge[1];
+    const correct = challenge[2];
     $('#challengeStep').textContent = 'CHOICE ' + (round + 1) + ' OF 2';
-    $('#roundOne').textContent = round === 0 ? challenge[0] : twist + ' What do you do now?';
+    $('#roundOne').textContent = challenge[0];
     $('#roundLabel').textContent = round === 0 ? 'WHAT WOULD YOU DO?' : 'NEW TWIST';
+    $('#stepFill').style.width = round === 0 ? '50%' : '100%';
     $('#answerFeedback').textContent = '';
+    $('#answerFeedback').className = 'answerFeedback';
     $('#nextRound').hidden = true;
     $('#realMove').hidden = true;
     const answers = $('#answerChoices');
@@ -269,23 +423,26 @@
       button.textContent = option;
       button.addEventListener('click', () => {
         if (index !== correct) {
-          $('#answerFeedback').textContent = 'Not quite. ' + (round === 0
-            ? 'Think about the cue and the people beside you. Try another answer.'
-            : path === 'crew' ? 'Check the approved plan with your lead. Try again.'
-              : 'Use the move or cue your team already learned. Try again.');
+          $('#answerFeedback').textContent = (challenge[4] ||
+            'That choice might make the scene harder for the next person.') + ' Try another answer.';
+          $('#answerFeedback').className = 'answerFeedback isWrong';
           button.disabled = true;
           button.classList.add('answerWrong');
           return;
         }
-        $('#answerFeedback').textContent = round === 0 ? challenge[3] :
-          'That helps the scene. Now try your own part.';
+        $('#answerFeedback').textContent = challenge[3];
+        $('#answerFeedback').className = 'answerFeedback isRight';
         for (const answer of answers.querySelectorAll('button')) answer.disabled = true;
         button.classList.add('answerRight');
-        if (round === 0) $('#nextRound').hidden = false;
+        if (round === 0) {
+          $('#nextRound').hidden = false;
+          $('#nextRound').focus();
+        }
         else {
           $('#realMove').hidden = false;
           $('#roundTwo').textContent = 'Your turn: ' + PATHS[path][mission][3] +
             ' Try it once now. Then tap “I tried it!”';
+          $('#finishMission').focus();
         }
       });
       answers.append(button);
@@ -331,6 +488,7 @@
 
   document.querySelectorAll('[data-path]').forEach(button => button.addEventListener('click', () => pathChoice(button.dataset.path)));
   document.querySelectorAll('[data-mission]').forEach(button => button.addEventListener('click', () => start(button.dataset.mission)));
+  $('#startQuest').addEventListener('click', async () => { await ready; start('cue'); });
   $('#nextRound').addEventListener('click', () => { round = 1; showRound(); });
   $('#finishMission').addEventListener('click', () => {
     if (!mission || round !== 1 || $('#realMove').hidden) return;
@@ -338,14 +496,21 @@
     const data = player();
     const paths = { ...(data.paths || {}) };
     paths[path] = { ...(paths[path] || {}), [mission]: playsFor(mission) + 1 };
-    update({ paths, nextMove: chosen });
+    const plays = Array.isArray(data.plays) ? data.plays : [];
+    update({ paths, plays: [...plays.slice(-199), { at: new Date().toISOString(), path, mission }], nextMove: chosen });
     $('#gameResult').textContent = 'Nice work! Your next move: ' + NEXT[chosen] +
       '. Show it at your next rehearsal.';
     $('#realMove').hidden = true;
     $('#answerChoices').replaceChildren();
     $('#replayMission').hidden = false;
+    $('#nextStepCard').hidden = false;
+    celebrate();
   });
   $('#replayMission').addEventListener('click', () => start(mission));
+  $('#openCoach').addEventListener('click', () => {
+    $('#coachSection').open = true;
+    $('#coachSection').scrollIntoView({ block: 'start' });
+  });
   $('#coachForm').addEventListener('submit', event => {
     event.preventDefault();
     const form = event.currentTarget;
@@ -354,10 +519,15 @@
       level: form.querySelector('input[name="coachLevel"]:checked').value, next: $('#coachNext').value };
     const data = player();
     const checks = Array.isArray(data.checks) ? [...data.checks] : [];
+    const hadBadge = checks.some(item => item.path === path && item.skill === check.skill && item.level === 'seen');
     const index = checks.findIndex(item => item.date === check.date && item.path === path && item.skill === check.skill);
     if (index >= 0) checks[index] = check; else checks.push(check);
     update({ checks });
-    $('#coachStatus').textContent = storageWorks ? 'Saved on this device. Try your next move at home.' : 'Marked for this session only.';
+    const earnedName = { cue: 'Cue Keeper', clear: 'Clarity Star', pass: 'Team Helper' }[check.skill];
+    $('#coachStatus').textContent = !hadBadge && check.level === 'seen'
+      ? `Badge unlocked: ${earnedName}! Your coach saw this skill today. ` +
+        (storageWorks ? 'Saved on this device.' : 'Marked for this session only.')
+      : storageWorks ? 'Saved on this device. Try your next move at home.' : 'Marked for this session only.';
     form.querySelectorAll('input[name="coachLevel"]').forEach(input => { input.checked = false; });
     $('#coachNext').value = '';
   });
@@ -393,5 +563,5 @@
     path = PATHS[savedPath] ? savedPath : suggested;
     render(); showOldChecks();
   }
-  init();
+  const ready = init();
 })();

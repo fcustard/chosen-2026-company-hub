@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0d1726"><title>Show Quest | CHOSEN 2026</title>
-  <link rel="stylesheet" href="styles.css?v=20261012-menu2"><link rel="stylesheet" href="practice.css?v=20261012-choice2">
-  <script defer src="app.js?v=20260928-connected-tasks"></script><script defer src="practice.js?v=20261012-choice2"></script>
+  <link rel="stylesheet" href="styles.css?v=20261012-menu2"><link rel="stylesheet" href="practice.css?v=20261012-quest3">
+  <script defer src="app.js?v=20260928-connected-tasks"></script><script defer src="practice.js?v=20261012-quest3"></script>
 </head>
 <body data-page="practice">
 <header class="sitebar"><div class="inner">
@@ -15,7 +15,16 @@
 <main class="questPage">
   <section class="questHero"><p class="ey">A QUICK GAME FOR THE WHOLE SHOW</p><h1>Show Quest</h1>
     <p>Can you save the scene? Pick one answer, see what happens, then try a small move at home.</p>
-    <a class="btn gold" href="#paths">Play a 2-minute challenge</a><p class="questHint">No score. Wrong answers are okay. Try again any time.</p>
+    <button id="startQuest" class="btn questPlay" type="button" aria-controls="gameBoard">Play a 2-minute challenge <span aria-hidden="true">✦</span></button>
+    <p class="questHint">One tap starts Cue Hunt for your selected job. No score. Try again any time.</p>
+  </section>
+  <section class="questDashboard" aria-labelledby="dashboardTitle">
+    <div class="progressRing" id="progressRing" role="img" aria-label="No challenges played this week"><span id="progressNumber">0/3</span></div>
+    <div><p class="questEyebrow">YOUR QUEST TRAIL</p><h2 id="dashboardTitle">One small win at a time</h2>
+      <p id="weeklyProgress">Play three short challenges this week, if you like. A new week starts Monday.</p>
+      <div id="badgeShelf" class="badgeShelf" aria-label="Coach badges"></div>
+      <p class="questHint">Badges light up when a coach marks a skill “Clear today.” Your progress stays on this device.</p>
+    </div>
   </section>
   <section id="paths" class="questPanel" aria-labelledby="pathTitle"><p class="questEyebrow">FIRST, PICK YOUR JOB</p><h2 id="pathTitle">What do you do in the show?</h2>
     <p id="questPerson">You can play as a guest, or choose your name in Company.</p>
@@ -25,7 +34,7 @@
       <button class="pathCard" type="button" data-path="dance" aria-pressed="false"><span>✦</span><strong>Dance</strong><small>Moves and space</small></button>
       <button class="pathCard" type="button" data-path="crew" aria-pressed="false"><span>⚙</span><strong>Make the show</strong><small>Tech, set, props, and more</small></button>
     </div>
-    <p class="questHint">You can change this any time.</p>
+    <p class="questHint">You can change this any time. On a phone, swipe to see all four jobs.</p>
     <div class="questLinks"><a href="scripts.html">Use a CHOSEN scene</a><a href="music.html">Use a current track</a></div>
   </section>
   <section class="questPanel" aria-labelledby="missionTitle"><p class="questEyebrow">THEN, PICK ONE CHALLENGE</p><h2 id="missionTitle">Choose a challenge</h2>
@@ -38,14 +47,18 @@
   </section>
   <section id="gameBoard" class="questPanel gameBoard" aria-labelledby="gameTitle" hidden>
     <p class="questEyebrow" id="challengeStep">CHOICE 1 OF 2</p><h2 id="gameTitle">Cue Hunt</h2>
+    <div class="stepTrack" aria-hidden="true"><span id="stepFill"></span></div>
     <p id="gameSetup"></p><div class="round"><b id="roundLabel">WHAT WOULD YOU DO?</b><p id="roundOne"></p></div>
     <div id="answerChoices" class="answerChoices" role="group" aria-label="Choose an answer"></div>
     <p id="answerFeedback" class="answerFeedback" role="status" aria-live="polite"></p>
     <button id="nextRound" class="btn primary" type="button" hidden>Try the twist</button>
-    <div id="realMove" hidden><p id="roundTwo"></p><button id="finishMission" class="btn gold" type="button">I tried it!</button></div>
+    <div id="realMove" hidden><p id="roundTwo"></p><button id="finishMission" class="btn questPlay" type="button">I tried it! <span aria-hidden="true">✦</span></button></div>
+    <div id="rewardBurst" class="rewardBurst" aria-hidden="true"></div>
     <p id="gameResult" class="gameResult" role="status" aria-live="polite"></p>
     <button id="replayMission" class="btn" type="button" hidden>Play again</button>
   </section>
+  <div id="nextStepCard" class="nextStepCard" hidden><strong>Bring your move to rehearsal.</strong><span>Ask a coach to watch one skill.</span>
+    <button id="openCoach" class="btn" type="button">Show coach check</button></div>
   <details class="questPanel questExtra" id="coachSection"><summary>At rehearsal: ask a coach to mark your growth</summary><div><p class="questEyebrow">AT REHEARSAL</p><h2 id="coachTitle">Show your next move</h2>
     <p>Show this page to a coach. Pick one skill. The coach marks what they saw and one thing to try next. This can take 30 seconds.</p>
     <form id="coachForm">
