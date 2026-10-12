@@ -1,95 +1,80 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#0d1726">
-  <title>Character Quest | CHOSEN 2026</title>
-  <link rel="stylesheet" href="styles.css?v=20261005-search">
-  <link rel="stylesheet" href="practice.css?v=20261012-1">
-  <script defer src="app.js?v=20260928-connected-tasks"></script>
-  <script defer src="practice.js?v=20261012-2"></script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0d1726"><title>Show Quest | CHOSEN 2026</title>
+  <link rel="stylesheet" href="styles.css?v=20261012-practice"><link rel="stylesheet" href="practice.css?v=20261012-game1">
+  <script defer src="app.js?v=20260928-connected-tasks"></script><script defer src="practice.js?v=20261012-game1"></script>
 </head>
 <body data-page="practice">
-  <header class="sitebar"><div class="inner">
-    <a class="brand" href="index.html"><small>THE FAITH CENTER PRESENTS</small><b>CHOSEN 2026</b><span>Company Hub</span></a>
-    <button id="menuBtn" class="menu" type="button" aria-controls="nav" aria-expanded="false">Menu</button>
-    <nav id="nav" aria-label="Primary">
-      <a href="this-week.html">This Week</a><a href="scripts.html">Scripts</a><a href="lines.html">Lines</a><a href="practice.html" aria-current="page">Practice</a><a href="music.html">Music</a><a href="schedule.html">Schedule</a><a href="resources.html">Resources</a><a href="company.html">Company</a><a href="production.html">Production</a><a href="search.html">Search</a>
-    </nav>
-  </div></header>
-  <main class="questPage">
-    <section class="questIntro">
-      <p class="ey">5 MINUTES AT HOME</p>
-      <h1>Character Quest</h1>
-      <p>Pick a scene. Try one small acting task. Earn a star for each task you try. You do not need a speaking line.</p>
-      <p class="questQuiet">There are no scores for being “good.” Try, learn, and try again.</p>
-    </section>
-
-    <section class="questPanel" aria-labelledby="chooseTitle">
-      <h2 id="chooseTitle">1. Choose your scene</h2>
-      <p id="questPerson">Loading your scenes…</p>
-      <label for="questScene">Scene</label>
-      <select id="questScene" disabled><option>Loading scenes…</option></select>
-      <p id="questSceneError" role="alert" hidden></p>
-      <div class="questLinks"><a id="questScript" class="btn" href="scripts.html">Read this scene</a><a class="btn" href="lines.html">Practice lines</a></div>
-    </section>
-
-    <section class="questPanel" aria-labelledby="tasksTitle">
-      <h2 id="tasksTitle">2. Try a task</h2>
-      <p>Do one task today. Try it again another day.</p>
-      <div class="questGrid">
-        <article class="questTask">
-          <span class="questStep">01 · STORY</span><h3>Know what you want</h3>
-          <p>Read your scene. Where are you? Who is with you? What does your person want right now?</p>
-          <p>Say one short answer out loud. If you have no lines, pick one person or task to focus on.</p>
-          <button type="button" data-quest="story">I tried this · ☆</button>
-        </article>
-        <article class="questTask">
-          <span class="questStep">02 · LISTEN</span><h3>See the change</h3>
-          <p>Find a moment when something changes. What do you see or hear? Show one small, clear reaction.</p>
-          <p>Try it twice. Let the other person or the story change what you do. You can do this with no words.</p>
-          <button type="button" data-quest="listen">I tried this · ☆</button>
-        </article>
-        <article class="questTask">
-          <span class="questStep">03 · STAGE</span><h3>Make it clear</h3>
-          <p>Use your real scene words or action. Speak so the back row can hear. Move so the story is easy to see.</p>
-          <p>Do it once. Make one small change. Do it again. For a silent role, use your task, place, and reaction.</p>
-          <button type="button" data-quest="stage">I tried this · ☆</button>
-        </article>
-      </div>
-      <p id="questStars" class="questStars" role="status" aria-live="polite"></p>
-      <p class="questQuiet">Stars mean you tried the tasks. They are not a grade. Saved on this device only.</p>
-    </section>
-
-    <section class="questPanel" aria-labelledby="checkTitle">
-      <h2 id="checkTitle">3. Check in at rehearsal</h2>
-      <p>Show this card to your coach. Pick one scene you worked on. Together, mark what the coach saw today.</p>
-      <form id="coachForm">
-        <div class="questField"><label for="coachDate">Rehearsal date</label><input id="coachDate" type="date" required></div>
-        <fieldset><legend>I know what my person wants</legend><label><input type="radio" name="story" value="1" required> Still working</label><label><input type="radio" name="story" value="2"> Seen today</label></fieldset>
-        <fieldset><legend>I listen and react</legend><label><input type="radio" name="listen" value="1" required> Still working</label><label><input type="radio" name="listen" value="2"> Seen today</label></fieldset>
-        <fieldset><legend>My voice or action is clear on stage</legend><label><input type="radio" name="stage" value="1" required> Still working</label><label><input type="radio" name="stage" value="2"> Seen today</label></fieldset>
-        <button class="btn primary" type="submit">Save rehearsal check</button>
-      </form>
-      <p id="coachStatus" role="status" aria-live="polite"></p>
-      <h3>My rehearsal checks</h3>
-      <div id="coachHistory"></div>
-      <p class="questQuiet">This is a simple check, not an acting grade. It stays on this device. Your coach cannot see it on another phone. A parent or coach may help a young actor.</p>
-      <button id="clearQuest" class="questClear" type="button">Clear this scene's saved practice and checks</button>
-    </section>
-
-    <section class="questPanel questVideos" aria-labelledby="videosTitle">
-      <h2 id="videosTitle">Want to learn more?</h2>
-      <p>These videos gave us ideas for the tasks above. They are optional. Ask a grown-up before opening YouTube if you need help.</p>
-      <ul>
-        <li><a href="https://youtu.be/dwMgvviP-Nw" target="_blank" rel="noopener noreferrer">Short acting tasks to try at home</a></li>
-        <li><a href="https://www.youtube.com/watch?v=2RxOoOIXZ_c" target="_blank" rel="noopener noreferrer">Ways to make a role feel real</a></li>
-        <li><a href="https://youtu.be/lKlpdl-vwQQ" target="_blank" rel="noopener noreferrer">How a small change helps a scene</a></li>
-      </ul>
-      <p>The Hub tasks use safe, simple choices for our stage show. Use the current CHOSEN script and your director's notes.</p>
-    </section>
-  </main>
-  <footer><b>CHOSEN 2026</b><span>Broadway Church Production &amp; Dance System™</span></footer>
-</body>
-</html>
+<header class="sitebar"><div class="inner">
+  <a class="brand" href="index.html"><small>THE FAITH CENTER PRESENTS</small><b>CHOSEN 2026</b><span>Company Hub</span></a>
+  <button id="menuBtn" class="menu" type="button" aria-controls="nav" aria-expanded="false">Menu</button>
+  <nav id="nav" aria-label="Primary"><a href="this-week.html">This Week</a><a href="scripts.html">Scripts</a><a href="lines.html">Lines</a><a href="practice.html" aria-current="page">Practice</a><a href="music.html">Music</a><a href="schedule.html">Schedule</a><a href="resources.html">Resources</a><a href="company.html">Company</a><a href="production.html">Production</a><a href="search.html">Search</a></nav>
+</div></header>
+<main class="questPage">
+  <section class="questHero"><p class="ey">A LITTLE GAME FOR THE WHOLE SHOW</p><h1>Show Quest</h1>
+    <p>Pick your path. Play one short mission. Try it again with a new twist. Bring your next move to rehearsal.</p>
+    <a class="btn gold" href="#paths">Start playing</a><p class="questHint">About 5 minutes. No score. No streak. All roles count.</p>
+  </section>
+  <section id="paths" class="questPanel" aria-labelledby="pathTitle"><p class="questEyebrow">STEP 1</p><h2 id="pathTitle">Pick your path</h2>
+    <p id="questPerson">You can play as a guest, or choose your name in Company.</p>
+    <div class="pathGrid" role="group" aria-label="Choose a production path">
+      <button class="pathCard" type="button" data-path="act" aria-pressed="false"><span>🎭</span><strong>Act</strong><small>Lines or no lines</small></button>
+      <button class="pathCard" type="button" data-path="sing" aria-pressed="false"><span>♫</span><strong>Sing</strong><small>Words and music</small></button>
+      <button class="pathCard" type="button" data-path="dance" aria-pressed="false"><span>✦</span><strong>Dance</strong><small>Moves and space</small></button>
+      <button class="pathCard" type="button" data-path="crew" aria-pressed="false"><span>⚙</span><strong>Make the show</strong><small>Tech, set, props, and more</small></button>
+    </div>
+    <p class="questHint">You can change paths at any time. Try more than one if you have more than one job.</p>
+    <div class="questLinks"><a href="scripts.html">Use a CHOSEN scene</a><a href="music.html">Use a current track</a></div>
+  </section>
+  <section class="questPanel" aria-labelledby="missionTitle"><p class="questEyebrow">STEP 2</p><h2 id="missionTitle">Choose a mission</h2>
+    <p>Play in any order. Each mission helps the next person do their part.</p>
+    <div class="missionGrid">
+      <button class="missionCard" type="button" data-mission="cue" aria-pressed="false"><span class="missionMark" data-mark="cue">◇</span><strong>Cue Hunt</strong><small>Find what tells you to begin.</small></button>
+      <button class="missionCard" type="button" data-mission="clear" aria-pressed="false"><span class="missionMark" data-mark="clear">◇</span><strong>Make It Clear</strong><small>Help others see or hear your part.</small></button>
+      <button class="missionCard" type="button" data-mission="pass" aria-pressed="false"><span class="missionMark" data-mark="pass">◇</span><strong>Pass It On</strong><small>Help the next person succeed.</small></button>
+    </div><p id="missionProgress" class="missionProgress" role="status" aria-live="polite">Choose a path to begin.</p>
+  </section>
+  <section id="gameBoard" class="questPanel gameBoard" aria-labelledby="gameTitle" hidden>
+    <p class="questEyebrow">STEP 3 · PLAY</p><h2 id="gameTitle">Cue Hunt</h2><p id="gameSetup"></p>
+    <div class="round"><b>ROUND 1</b><p id="roundOne"></p></div>
+    <button id="twistButton" class="btn primary" type="button">Show my twist</button>
+    <div id="twistPanel" hidden>
+      <div class="twist"><b>NEW TWIST</b><p id="twistText"></p></div>
+      <div class="round"><b>ROUND 2</b><p id="roundTwo"></p></div>
+      <fieldset class="reflect"><legend>What will you try next?</legend>
+        <label><input type="radio" name="reflection" value="notice"> Notice more</label>
+        <label><input type="radio" name="reflection" value="clear"> Make it clearer</label>
+        <label><input type="radio" name="reflection" value="together"> Try it with a partner</label>
+      </fieldset><button id="finishMission" class="btn gold" type="button" disabled>Finish this mission</button>
+    </div><p id="gameResult" class="gameResult" role="status" aria-live="polite"></p>
+    <button id="replayMission" class="btn" type="button" hidden>Play again with a new twist</button>
+  </section>
+  <section class="questPanel" aria-labelledby="coachTitle"><p class="questEyebrow">AT REHEARSAL</p><h2 id="coachTitle">Show your next move</h2>
+    <p>Show this page to a coach. Pick one skill. The coach marks what they saw and one thing to try next. This can take 30 seconds.</p>
+    <form id="coachForm">
+      <label for="coachDate">Rehearsal date</label><input id="coachDate" type="date" required>
+      <label for="coachSkill">Skill to watch</label><select id="coachSkill"><option value="cue">Cue Hunt</option><option value="clear">Make It Clear</option><option value="pass">Pass It On</option></select>
+      <fieldset><legend>What did the coach see?</legend>
+        <label><input type="radio" name="coachLevel" value="working" required> Still working</label>
+        <label><input type="radio" name="coachLevel" value="seen"> Clear today</label>
+      </fieldset>
+      <label for="coachNext">One thing to try next</label>
+      <select id="coachNext" required><option value="">Choose one…</option><option value="notice">Notice the cue</option><option value="clear">Make it clearer</option><option value="together">Try with a partner</option></select>
+      <button class="btn primary" type="submit">Save this check</button>
+    </form><p id="coachStatus" role="status" aria-live="polite"></p>
+    <h3>My growth</h3><div id="coachHistory" aria-live="polite">No checks yet.</div>
+    <details id="oldChecks" hidden><summary>My earlier acting checks</summary><div id="oldHistory"></div></details>
+    <p class="questHint">This stays on this device. A coach cannot see it on another phone. There is no shared score or video upload. A parent or coach can help a young player.</p>
+    <button id="clearQuest" class="questClear" type="button">Clear my Show Quest data on this device</button>
+  </section>
+  <section class="questPanel questVideos" aria-labelledby="videosTitle"><h2 id="videosTitle">More for actors</h2>
+    <p>These optional videos helped shape the acting missions. Ask a grown-up before opening YouTube if you need help.</p>
+    <ul><li><a href="https://youtu.be/dwMgvviP-Nw" target="_blank" rel="noopener noreferrer">Short acting tasks at home</a></li>
+      <li><a href="https://www.youtube.com/watch?v=2RxOoOIXZ_c" target="_blank" rel="noopener noreferrer">Ways to make a role feel real</a></li>
+      <li><a href="https://youtu.be/lKlpdl-vwQQ" target="_blank" rel="noopener noreferrer">How a small change helps a scene</a></li></ul>
+    <p>Use the current CHOSEN script and your leader's notes. For tech or safety tasks, follow your lead's plan. Stop and ask if a cue is unclear.</p>
+  </section>
+</main><footer><b>CHOSEN 2026</b><span>Broadway Church Production &amp; Dance System™</span></footer>
+</body></html>
