@@ -326,6 +326,8 @@
     $('#progressNumber').textContent = `${shown}/3`;
     $('#weeklyProgress').textContent = shown === 3
       ? 'You filled this week’s ring! Play again for practice, or bring a move to rehearsal.'
+      : !plays.length && Object.values(data.paths?.[path] || {}).some(value => Number(value) > 0)
+        ? 'Your earlier gems are saved below. The weekly ring starts counting with this update.'
       : `${shown} of 3 short plays this week on this job. This is optional. A new week starts Monday.`;
     const shelf = $('#badgeShelf');
     shelf.replaceChildren();
@@ -389,8 +391,10 @@
     $('#gameSetup').textContent = 'Make two choices. If one does not work, try another answer.';
     $('#gameResult').textContent = '';
     $('#replayMission').hidden = true;
+    $('#nextMission').hidden = true;
     $('#realMove').hidden = true;
     $('#nextStepCard').hidden = true;
+    $('#gameBoard').classList.remove('completed');
     $('#coachSkill').value = name;
     $('#gameBoard').classList.remove('questEnter');
     void $('#gameBoard').offsetWidth;
@@ -502,11 +506,19 @@
       '. Show it at your next rehearsal.';
     $('#realMove').hidden = true;
     $('#answerChoices').replaceChildren();
+    $('#gameTitle').textContent = NAMES[mission] + ' complete!';
+    $('#gameBoard').classList.add('completed');
     $('#replayMission').hidden = false;
+    $('#replayMission').textContent = 'Try another twist';
+    $('#nextMission').hidden = false;
     $('#nextStepCard').hidden = false;
     celebrate();
   });
   $('#replayMission').addEventListener('click', () => start(mission));
+  $('#nextMission').addEventListener('click', () => {
+    const order = Object.keys(NAMES);
+    start(order[(order.indexOf(mission) + 1) % order.length]);
+  });
   $('#openCoach').addEventListener('click', () => {
     $('#coachSection').open = true;
     $('#coachSection').scrollIntoView({ block: 'start' });
