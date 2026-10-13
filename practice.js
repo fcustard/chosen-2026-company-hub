@@ -15,7 +15,7 @@
         "title": "What do you want?",
         "steps": [
           "Find your part. What do you want from the other person?",
-          "Cover your words. Listen for your cue. Try asking for what you want in a new way.",
+          "Look up from your script. Listen for your cue. Show what you want in a new way.",
           "Try from memory. Listen first. Let your words or look show what you want."
         ]
       },
@@ -23,12 +23,12 @@
         "title": "Show the feeling",
         "steps": [
           "Find one line or quiet move. What should the crowd feel?",
-          "Try it once. Change one word you stress, or change one small move.",
+          "Try it once. Make one word stand out, or change one small move.",
           "Try from memory. Let the back row hear your words without shouting, or see one clear move."
         ]
       },
       "pass": {
-        "title": "Listen and react",
+        "title": "Listen, then act",
         "steps": [
           "Find who comes after you. What might they feel?",
           "Ask someone to say your cue, or read it aloud. Listen. Let your next line or move change a little.",
@@ -64,7 +64,7 @@
     },
     "dance": {
       "cue": {
-        "title": "Start with purpose",
+        "title": "Show the feeling",
         "steps": [
           "Find one move your leader taught. What part of your body starts it?",
           "Try the move slowly. Feel where your weight goes.",
@@ -123,8 +123,8 @@
     '02': ['Mary & Joseph / My Beloved', 'Mary and Joseph talk about the home they hope to share.'],
     '03': ['Gabriel / Chosen', 'Gabriel brings Mary news that changes her life.'],
     '04': ['The Secret', 'Mary tells her friends a secret.'],
-    '05': ['Brotherhood', 'Joseph works with his friends on the table.'],
-    '06': ['Mary Tells Joseph / It’s Not Mine', 'Mary tells Joseph the truth. He struggles to believe her.'],
+    '05': ['Brotherhood', 'Joseph builds a table with his friends.'],
+    '06': ['Mary Tells Joseph / It’s Not Mine', 'Mary tells Joseph the truth. He finds it hard to believe.'],
     '07': ['Two Roads of Faith', 'Mary stays with Elizabeth. Joseph faces his own choice.'],
     '08': ['Reunion / Still Yours', 'Joseph comes to Mary. They speak again.'],
     '09': ['What Will He Be? / The Town Turns', 'The children dance. The town talks about Mary and Joseph.'],
@@ -148,23 +148,23 @@
       { title: 'What happened first?', step: 'Think about what happened just before this scene. Find your cue. Try your line or move.', video: 'https://www.youtube.com/watch?v=2RxOoOIXZ_c&t=308s' }
     ],
     clear: [
-      { title: 'Make it clear', step: 'Say a short line slowly. Make each last sound clear. Say it again in your stage voice. No line? Show one clear move.', video: 'https://www.youtube.com/watch?v=dwMgvviP-Nw&t=74s' },
+      { title: 'Make it clear', step: 'Say a short line slowly. Make each last sound clear. Say it again so the back row can hear. No line? Show one clear move.', video: 'https://www.youtube.com/watch?v=dwMgvviP-Nw&t=74s' },
       { title: 'Make a small change', step: 'Try one line or move two ways. Change one look or pause. Keep the words and moves your team set.', video: 'https://www.youtube.com/watch?v=lKlpdl-vwQQ&t=438s' }
     ],
     pass: [
       { title: 'Listen, then answer', step: 'Read the cue, or ask someone to say it. Listen. Then say your line or show your move.', video: 'https://www.youtube.com/watch?v=2RxOoOIXZ_c&t=233s' },
-      { title: 'Try a new reply', step: 'Read or hear the cue a second way. Keep your lines and places. Let your face or timing change a little.', video: 'https://www.youtube.com/watch?v=2RxOoOIXZ_c&t=233s' }
+      { title: 'Try a new reply', step: 'Read or hear the cue in a new way. Keep your lines and places. Change your look or pause a little.', video: 'https://www.youtube.com/watch?v=2RxOoOIXZ_c&t=233s' }
     ]
   };
   const PATHS = {
     act: {
       cue: ['Pick a scene. What line or move comes just before your part?', 'Look away. Say when you would start.', ['Wait for the line or move.', 'If your friend pauses, keep watching.'], 'Try your start once. Wait for the right line or move.'],
-      clear: ['Pick one line or quiet move.', 'Can someone at the back see or hear it?', ['Try a smaller move.', 'Look at the other person.'], 'Try it once. Make one small change. Keep the words in your script.'],
+      clear: ['Pick one line or quiet move.', 'Can someone at the back see or hear it?', ['Try a smaller move.', 'Look at the other person.'], 'Try it once. Make one small change. Use the words in your script.'],
       pass: ['Who acts after you?', 'What do they need from you?', ['Give them time.', 'Listen, even if you have no line.'], 'Try your part once. Give the next actor room.']
     },
     sing: {
       cue: ['Pick a song. What sound or count comes before you sing?', 'Listen. Sing the first words at the right time.', ['The music is soft. Listen.', 'There is a long pause. Wait.'], 'Sing your first words once with the current track or your leader’s count.'],
-      clear: ['Pick one short part of a song.', 'Sing so the words are easy to hear. Do not strain your voice.', ['Try a softer sound.', 'Say the last word all the way.'], 'Sing it once more. Let us hear each word.'],
+      clear: ['Pick one short part of a song.', 'Sing so we can hear the words. Do not push your voice.', ['Try a softer sound.', 'Say the last word all the way.'], 'Sing it once more. Let us hear each word.'],
       pass: ['Who sings with you or after you?', 'Can you hear their part too?', ['Listen to the group.', 'Make room for the next voice.'], 'Sing it once more. Listen to the other voices.']
     },
     dance: {
@@ -174,7 +174,7 @@
     },
     crew: {
       cue: ['Pick a job your leader gave you. What tells you to start?', 'Say what you will do. Do not use show gear at home.', ['If you are not sure, ask your leader.', 'If the plan changed, check it first.'], 'Say your next step out loud. Do not use show gear at home.'],
-      clear: ['Think of one thing you need to tell the team.', 'Say what is ready. Tell the right person.', ['The room is busy. Find the right person.', 'If you do not know, ask.'], 'Say one short, true update out loud. Do not guess on safety.'],
+      clear: ['Think of one thing you need to tell the team.', 'Say what is ready. Tell the right person.', ['The room is busy. Find the right person.', 'If you do not know, ask.'], 'Tell your team what is ready. If it is not safe, tell your leader.'],
       pass: ['Who needs your work next?', 'What do they need to know?', ['If something is missing, tell your leader.', 'If it is not ready, tell the team early.'], 'Say what is ready and what is not. Tell your leader if you need help.']
     }
   };
@@ -344,7 +344,7 @@
           'Yes. You heard the right sound or count.', 'A guess may make you sing too soon.'],
         ['The song starts after a spoken line. The actor waits a long time. When do you sing?',
           ['At the same time as yesterday.', 'After the line and the music cue your team picked.', 'When you feel ready.'], 1,
-          'Yes. You listened to the actor and the music.', 'The time may change. Wait for the line and music.']
+          'Yes. You listened to the actor and the music.', 'Wait for the line and music. The time may change.']
       ],
       clear: [
         ['In “What Will He Be?” one part is hard to hear. What can you try?',
@@ -409,7 +409,7 @@
       pass: [
         ['The next crew member needs your work. One thing is missing. What helps?',
           ['Tell your leader and the next person what is missing.', 'Let them find out later.', 'Make up a new safety step.'], 0,
-          'Yes. You told the team what they need to know.', 'A hidden problem or new safety step may hurt the next task.'],
+          'Yes. You told the team what they need to know.', 'Tell the team what is wrong. Do not make up a new safety step.'],
         ['A lantern is not ready for the next scene. What should you do?',
           ['Put it on stage anyway.', 'Tell your leader now and follow the safe backup plan.', 'Ask an actor to fix it.'], 1,
           'Yes. Your leader can use the backup plan.', 'Do not put an item on stage if it is not ready.']
@@ -523,10 +523,10 @@
     ring.setAttribute('aria-label', `${shown} of 3 practice days this week for this job. This is not a score.`);
     $('#progressNumber').textContent = `${shown}/3`;
     $('#weeklyProgress').textContent = shown === 3
-      ? 'You practiced on three days this week! Keep going if you like.'
+      ? 'Three days this week! Your ring is full. You can still play.'
       : !plays.length && Object.values(data.paths?.[path] || {}).some(value => Number(value) > 0)
-        ? 'Your old play marks are saved below. The weekly ring starts with this update.'
-      : `${shown} of 3 practice days this week for this job. This is not a score. A new week starts Monday.`;
+        ? 'Your old game marks are here. The ring counts days you play from now on.'
+      : `${shown} of 3 days this week for this job. New week on Monday. No score here!`;
     const days = practiceDays(data);
     const streak = streakLength(days);
     const didToday = days.includes(dayKey(new Date()));
@@ -632,16 +632,16 @@
       !/instrumental/i.test(item.title)) : null;
     const task = {
       act: lineStart
-        ? `You play ${role}. Find the line that starts “${lineStart}”. Find what comes before it. Hide the script. Say your line. Check it. Try again.`
-        : 'Find your part. Hide the script. Say a line or show a silent move. Check it. Try again.',
+        ? `You play ${role}. Find your line that starts “${lineStart}”. Read the line before it. Then pick how to try it.`
+        : 'Find your part. Pick one line or a silent move. Then pick how to try it.',
       sing: track
-        ? `Use the current “${track.title}” track. Pause before your part. Sing from memory. Check the words. Try again.`
-        : 'Pick a song part you are learning. Sing it from memory. Check the words. Try again.',
-      dance: 'Use only the steps your leader taught for this scene. Try a short part from memory. Check your notes. Keep space clear.',
-      crew: 'Say your approved start cue and next step out loud. Check the current plan. Do not use show gear at home.'
+        ? `Use “${track.title}” in Music. Find where your song part starts.`
+        : 'Pick a song part you know. Find where it starts.',
+      dance: 'Use the steps your leader taught. Pick one short part. Keep space clear.',
+      crew: 'Find your cue in the current plan. Do not use show gear at home.'
     }[path];
     $('#sceneTask').textContent = scene ? `Scene ${Number(scene.scene)}: ${scene.title}. ${sceneMoment(scene) ? 'Story: ' + sceneMoment(scene) + ' ' : ''}${task}` :
-      sceneLoading ? 'Loading today’s scene…' : `Pick a current scene in Scripts. ${task}`;
+      sceneLoading ? 'Finding your scene…' : `Pick a current scene in Scripts. ${task}`;
     const link = $('#sceneLink');
     link.href = scene && /^scene-\d{2}\.html$/.test(scene.readUrl) ? scene.readUrl : 'scripts.html';
     link.textContent = scene ? `Open Scene ${Number(scene.scene)}` : 'Open scripts';
@@ -724,7 +724,7 @@
     for (const button of document.querySelectorAll('[data-mission]')) button.setAttribute('aria-pressed', String(button.dataset.mission === mission));
     const count = Object.keys(NAMES).filter(name => playsFor(name) > 0).length;
     for (const name of Object.keys(NAMES)) $('[data-mark="' + name + '"]').textContent = playsFor(name) ? '◆' : '◇';
-    $('#missionProgress').textContent = `${count} of 3 games tried for this job. ${count === 3 ? 'You tried them all! Play again with a new problem.' : 'The gold mark shows a game you tried. This is not a score.'}`;
+    $('#missionProgress').textContent = `${count} of 3 games played for this job. ${count === 3 ? 'You played all three! Try a new twist.' : 'Gold marks show your plays. No score here!'}`;
     renderProgress();
     renderDailyTask();
     renderHistory();
@@ -747,7 +747,7 @@
     $('#gameTitle').textContent = NAMES[name];
     const scene = scenesForPerson().find(item => item.scene === chosenScene);
     $('#gameSetup').textContent = (sceneMoment(scene) ? `Story: ${sceneMoment(scene)} ` : '') +
-      'Answer two questions. If you miss one, try again.';
+      'Two quick picks. Miss one? Try again.';
     $('#gameResult').textContent = '';
     $('#replayMission').hidden = true;
     $('#nextMission').hidden = true;
@@ -770,7 +770,7 @@
     const correct = challenge[2];
     $('#challengeStep').textContent = 'CHOICE ' + (round + 1) + ' OF 2';
     $('#roundOne').textContent = challenge[0];
-    $('#roundLabel').textContent = round === 0 ? 'WHAT WOULD YOU DO?' : 'NEW PROBLEM';
+    $('#roundLabel').textContent = round === 0 ? 'WHAT WOULD YOU DO?' : 'NEW TWIST';
     $('#stepFill').style.width = round === 0 ? '50%' : '100%';
     $('#answerFeedback').textContent = '';
     $('#answerFeedback').className = 'answerFeedback';
@@ -788,14 +788,15 @@
       button.addEventListener('click', () => {
         if (index !== correct) {
           $('#answerFeedback').textContent = (challenge[4] ||
-            'That may make it harder for the next person.') + ' Try another answer.';
+            'That may make it harder for the next person.') + ' Try again.';
           $('#answerFeedback').className = 'answerFeedback isWrong';
           playMotion($('#answerFeedback'), 'feedbackPop');
           button.disabled = true;
           button.classList.add('answerWrong');
           return;
         }
-        $('#answerFeedback').textContent = challenge[3];
+        $('#answerFeedback').textContent = (round === 0 ? 'Good pick! ' : 'You got it! ') +
+          challenge[3].replace(/^Yes\.\s*/, '');
         $('#answerFeedback').className = 'answerFeedback isRight';
         playMotion($('#answerFeedback'), 'feedbackPop');
         for (const answer of answers.querySelectorAll('button')) answer.disabled = true;
@@ -892,7 +893,9 @@
     update({ paths, ...recordedPractice(data, { at, path, mission,
       scene: chosenScene || null, level: craftLevel }), nextMove: chosen });
     lastSessionAt = at;
-    $('#gameResult').textContent = 'Nice work! Today counts toward your streak. Next time: ' + NEXT[chosen] + '.';
+    $('#gameResult').textContent = 'You did it! ' +
+      (isNewDay ? 'Today counts as one practice day. ' : 'You played again today. Your new game is saved too. ') +
+      'Next time: ' + NEXT[chosen] + '.';
     playMotion($('#gameResult'), 'successPulse');
     if (isNewDay) {
       playMotion($('#progressRing'), 'successPulse');
@@ -908,7 +911,7 @@
     $('#gameTitle').textContent = NAMES[mission] + ' complete!';
     $('#gameBoard').classList.add('completed');
     $('#replayMission').hidden = false;
-    $('#replayMission').textContent = 'Play again with a new problem';
+    $('#replayMission').textContent = 'Play again with a new twist';
     $('#nextMission').hidden = false;
     celebrate();
   });
@@ -951,8 +954,8 @@
     if (index >= 0) checks[index] = check; else checks.push(check);
     update({ checks });
     $('#coachStatus').textContent = storageWorks
-      ? 'Tip saved on this device. You can play again any time.'
-      : 'Tip saved for now. It will go away when you close this page.';
+      ? 'Tip saved here. You can play again any time.'
+      : 'Tip saved for now. It may go away when you close this page.';
     form.querySelectorAll('input[name="coachLevel"]').forEach(input => { input.checked = false; });
     $('#coachNext').value = '';
   });
@@ -960,7 +963,7 @@
     if (!window.confirm('Erase this person’s Show Quest play and tips on this device? Old acting notes will stay.')) return;
     const all = read(); delete all[personId]; save(all);
     path = 'act'; mission = null; chosenScene = ''; $('#gameBoard').hidden = true;
-    $('#coachStatus').textContent = 'This person’s Show Quest play and tips were erased.';
+    $('#coachStatus').textContent = 'Show Quest play and tips were erased for this person.';
     render();
   });
 
