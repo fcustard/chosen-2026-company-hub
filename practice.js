@@ -522,6 +522,11 @@
     link.textContent = scene ? `Open Scene ${Number(scene.scene)}` : 'Open scripts';
     $('#practiceTrack').hidden = !track;
     if (track) $('#practiceTrack').textContent = `Open “${track.title}” in Music`;
+    $('#previewTitle').textContent = NAMES[mission] || NAMES.cue;
+    const sceneName = scene ? `Scene ${Number(scene.scene)}: ${scene.title}. ` :
+      sceneLoading ? 'Loading scenes. ' : 'Pick a current scene in Scripts. ';
+    const firstLine = path === 'act' && lineStart ? `Your ${role} line starts “${lineStart}”. ` : '';
+    $('#previewPrompt').textContent = sceneName + firstLine + PATHS[path][mission || 'cue'][3];
     if (scene && path === 'act') void findScriptRole(scene);
   }
   async function loadScenes() {
@@ -641,10 +646,8 @@
         }
         else {
           $('#realMove').hidden = false;
-          $('#roundTwo').textContent = path === 'act'
-            ? 'Your scene: ' + $('#sceneTask').textContent
-            : 'Your turn: ' + PATHS[path][mission][3] + ' ' +
-              $('#sceneTask').textContent + ' After you try it, tap “I tried it!”';
+          $('#roundTwo').textContent = 'Your turn: ' + PATHS[path][mission][3] + ' ' +
+            $('#sceneTask').textContent + ' After you try it, tap “I tried it!”';
           const lesson = path === 'act' ? ACT_LESSONS[mission][variation] : null;
           $('#lessonCard').hidden = !lesson;
           if (lesson) {

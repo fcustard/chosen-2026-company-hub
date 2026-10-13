@@ -142,3 +142,9 @@
 #realMove .lessonCard p{margin:0 0 10px}
 #realMove .lessonCard a{font-weight:800}
 #realMove .lessonCard[hidden]{display:none!important}
+
+/* Show the chosen scene and task before the game begins. */
+.questPreview{margin-top:18px;padding:16px 18px;border:1px solid #a8cbb3;border-left:5px solid #24835d;border-radius:12px;background:#eef8f1}
+.questSetup .questPreview .questEyebrow{margin:0 0 5px;color:#205e41}
+.questSetup .questPreview h3{margin:0 0 6px;color:#173a2b;font:700 1.25rem/1.25 Georgia,serif}
+.questSetup .questPreview p:last-child{margin:0;line-height:1.5}
