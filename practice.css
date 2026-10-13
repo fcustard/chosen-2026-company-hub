@@ -49,10 +49,16 @@
 .questDashboard{display:grid;grid-template-columns:120px 1fr;gap:24px;align-items:center;margin:12px 0;padding:23px 28px;border-radius:18px;background:linear-gradient(125deg,#0e2136,#273e57);color:#fff}
 .questDashboard h2{font:700 clamp(1.4rem,4vw,2rem)/1.1 Georgia,serif;margin:4px 0 7px;color:#f4d895}
 .questDashboard p{margin:5px 0 11px}.questDashboard .questEyebrow{color:#f4d895}.questDashboard .questHint{color:#dce5ec;font-size:.84rem}
-@property --progress{syntax:"<percentage>";inherits:false;initial-value:0%}
-.progressRing{position:relative;display:grid;place-items:center;width:116px;height:116px;border-radius:50%;background:conic-gradient(#83d8ab 0 var(--progress,0%),rgba(255,255,255,.17) var(--progress,0%) 100%);box-shadow:0 0 24px rgba(125,226,167,.18);transition:--progress .7s ease-out}
-.progressRing::before{content:"";position:absolute;inset:11px;border-radius:50%;background:#172d43}
+.progressRing{position:relative;display:grid;place-items:center;width:116px;height:116px;border-radius:50%;background:#172d43;box-shadow:0 0 24px rgba(125,226,167,.18)}
+.progressRing svg{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
+.progressRing circle{fill:none;stroke-width:9}
+.progressRing .ringTrack{stroke:rgba(255,255,255,.2)}
+.progressRing .ringFill{stroke:#83d8ab;stroke-linecap:round;transition:stroke-dashoffset .7s ease-out}
 .progressRing span{z-index:1;color:#fff;font:800 1.6rem Georgia,serif}
+.streakWidget{display:inline-flex;align-items:center;flex-wrap:wrap;gap:7px 12px;margin:1px 0 13px;padding:10px 14px;border:1px solid #75849b;border-radius:12px;background:#33455a;color:#fff}
+.streakFlame{font-size:1.5rem;filter:grayscale(1);opacity:.6}.streakWidget strong{font-size:1.05rem}.streakWidget span:last-child{font-size:.9rem;color:#e4e8ef}
+.streakWidget.active{border-color:#d5aa63;background:#59452e}.streakWidget.active .streakFlame{filter:none;opacity:1}
+.dailyTask{border-color:#c9aa69;background:#fff9eb}.dailyTask [hidden]{display:none!important}.dailyTask h2{color:#1e3450}.dailyTask .dailyLinks{display:flex;flex-wrap:wrap;gap:10px 18px;margin:8px 0 18px;font-weight:800}.dailyTask #sceneTask{font-size:1.05rem;line-height:1.55}.dailyTask #dailyStatus{min-height:1.4em}.dailyTask #markDaily:disabled{opacity:.65;cursor:default;box-shadow:none;transform:none}
 .badgeShelf{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
 .questBadge{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:86px;padding:10px 7px;border:1px solid #718197;border-radius:14px;background:#35475b;color:#dbe3ec;text-align:center;font-size:.83rem;font-weight:800;line-height:1.15}
 .questBadge>span:first-child{display:grid;place-items:center;width:35px;height:35px;border:1px solid #718197;border-radius:50%;background:#263b53;color:#dbe3ec;font-size:1.35rem;line-height:1}
@@ -87,7 +93,7 @@
 @keyframes questReveal{from{opacity:.45;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:650px){
  .questDashboard{display:block;padding:18px}
- .progressRing{float:left;width:84px;height:84px;margin:0 14px 12px 0}.progressRing::before{inset:8px}.progressRing span{font-size:1.1rem}
+ .progressRing{float:left;width:84px;height:84px;margin:0 14px 12px 0}.progressRing span{font-size:1.1rem}.streakWidget{width:100%}
  .badgeShelf{clear:both;gap:6px}.questBadge{min-height:78px;padding:7px 4px;font-size:.82rem}.questBadge>span:first-child{width:30px;height:30px;font-size:1.1rem}
  .pathGrid{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(205px,74%);grid-template-columns:none;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;padding:5px 5px 16px}
  .pathCard{scroll-snap-align:start;min-height:130px}
@@ -95,7 +101,7 @@
  .questPlay{width:100%}
 }
 @media(prefers-reduced-motion:reduce){
- .questPlay,.pathCard,.pathCard>span:first-child,.missionCard,.answerButton,.progressRing,.stepTrack span{transition:none!important}
+ .questPlay,.pathCard,.pathCard>span:first-child,.missionCard,.answerButton,.progressRing .ringFill,.stepTrack span{transition:none!important}
  .questEnter,.rewardBurst.burst span{animation:none!important}
  .questPlay:hover,.questPlay:active,.pathCard:hover,.pathCard:active,.pathCard:hover>span:first-child,.missionCard:hover,.missionCard:active,.answerButton:hover:not(:disabled),.answerButton:active:not(:disabled){transform:none!important}
 }
