@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0d1726"><title>Show Quest | CHOSEN 2026</title>
-  <link rel="stylesheet" href="styles.css?v=20261012-menu2"><link rel="stylesheet" href="practice.css?v=20261013-quest12">
-  <script defer src="app.js?v=20260928-connected-tasks"></script><script defer src="practice.js?v=20261013-quest13"></script>
+  <link rel="stylesheet" href="styles.css?v=20261012-menu2"><link rel="stylesheet" href="practice.css?v=20261013-quest13">
+  <script defer src="app.js?v=20260928-connected-tasks"></script><script defer src="practice.js?v=20261013-quest14"></script>
 </head>
 <body data-page="practice">
 <header class="sitebar"><div class="inner">
@@ -59,9 +59,10 @@
       <p id="weeklyProgress">Your ring shows up to three practice days each week. A new week starts Monday.</p>
       <div class="streakWidget" id="streakWidget"><span class="streakFlame" aria-hidden="true">🔥</span><strong id="streakCount">0 days</strong><span id="streakStatus">Practice today to start your streak.</span></div>
       <button id="startQuest" class="btn questPlay" type="button" aria-controls="gameBoard">Play Cue Hunt <span aria-hidden="true">✦</span></button>
-      <p class="questHint">Answer two short questions. Then try your part from memory. Tap “I tried it!” to save today.</p>
+      <p class="questHint">Answer two short questions. Then pick how to try your part. Tap “I tried it!” to save today.</p>
       <div id="badgeShelf" class="badgeShelf" aria-label="Game badges"></div>
       <p class="questHint">Badges show which games you tried. Your streak counts practice days. Progress stays on this device.</p>
+      <details id="craftHistory" class="craftHistory" hidden><summary>My recent practice</summary><ul id="craftHistoryList"></ul></details>
     </div>
   </section>
   <section id="gameBoard" class="questPanel gameBoard" aria-labelledby="gameTitle" hidden>
@@ -72,9 +73,23 @@
     <p id="answerFeedback" class="answerFeedback" role="status" aria-live="polite"></p>
     <button id="nextRound" class="btn primary" type="button" hidden>Try a new problem</button>
     <div id="realMove" hidden><p id="roundTwo"></p>
+      <fieldset class="craftChoice">
+        <legend>Pick how to try it</legend>
+        <label><input type="radio" name="craftLevel" value="1" checked> With my script or plan</label>
+        <label><input type="radio" name="craftLevel" value="2"> With a hint</label>
+        <label><input type="radio" name="craftLevel" value="3"> From memory</label>
+      </fieldset>
+      <div class="craftTask" aria-live="polite"><h3 id="craftTitle">Your next step</h3><p id="craftStep"></p></div>
       <div id="lessonCard" class="lessonCard" hidden><p class="questEyebrow">TRY ONE SHORT ACTING IDEA</p><h3 id="lessonTitle"></h3><p id="lessonPrompt"></p>
         <a id="lessonVideo" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">See the lesson in the video (optional) ↗</a>
       </div>
+      <details id="craftReflect" class="craftReflect"><summary>How did it feel? (optional)</summary>
+        <fieldset><legend>Pick one if you want</legend>
+          <label><input type="radio" name="craftFeeling" value="steps"> I found my next step</label>
+          <label><input type="radio" name="craftFeeling" value="choice"> I made a clear choice</label>
+          <label><input type="radio" name="craftFeeling" value="connected"> I felt connected</label>
+        </fieldset>
+      </details>
       <button id="finishMission" class="btn questPlay" type="button">I tried it! <span aria-hidden="true">✦</span></button></div>
     <div id="rewardBurst" class="rewardBurst" aria-hidden="true"></div>
     <p id="gameResult" class="gameResult" role="status" aria-live="polite"></p>

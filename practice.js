@@ -8,6 +8,116 @@
   const NAMES = { cue: 'Cue Hunt', clear: 'Make It Clear', pass: 'Pass It On' };
   const JOB_NAMES = { act: 'Act', sing: 'Sing', dance: 'Dance', crew: 'Make the show' };
   const NEXT = { notice: 'Watch for the cue', clear: 'Make it easier to see or hear', together: 'Try with a partner' };
+  // Small craft steps use current scripts, tracks, and leaders' plans.
+  const CRAFT_STEPS = {
+    "act": {
+      "cue": {
+        "title": "What do you want?",
+        "steps": [
+          "Find your part. What do you want from the other person?",
+          "Cover your words. Listen for your cue. Try asking for what you want in a new way.",
+          "Try from memory. Listen first. Let your words or look show what you want."
+        ]
+      },
+      "clear": {
+        "title": "Show the feeling",
+        "steps": [
+          "Find one line or quiet move. What should the crowd feel?",
+          "Try it once. Change one word you stress, or change one small move.",
+          "Try from memory. Let the back row hear your words without shouting, or see one clear move."
+        ]
+      },
+      "pass": {
+        "title": "Listen and react",
+        "steps": [
+          "Find who comes after you. What might they feel?",
+          "Ask someone to say your cue, or read it aloud. Listen. Let your next line or move change a little.",
+          "Try from memory. Watch and listen. Leave room for the next person."
+        ]
+      }
+    },
+    "sing": {
+      "cue": {
+        "title": "Find your sound",
+        "steps": [
+          "Find your song. What word, sound, or count tells you to start?",
+          "Listen to the track or use your leader’s count. Sing your first words at the right time.",
+          "Sing from memory. Let the words show the feeling. Keep your voice easy."
+        ]
+      },
+      "clear": {
+        "title": "Words and breath",
+        "steps": [
+          "Pick one short song part. Say the words so each one is clear.",
+          "Sing it gently. Take an easy breath and make the last sounds clear.",
+          "Sing from memory. Keep the words clear without pushing your voice."
+        ]
+      },
+      "pass": {
+        "title": "Sing with the group",
+        "steps": [
+          "Find where your song part ends. Who sings next?",
+          "Sing the end softly. Listen for the other voices and leave them room.",
+          "Sing from memory. End with your group and listen for the next sound."
+        ]
+      }
+    },
+    "dance": {
+      "cue": {
+        "title": "Start with purpose",
+        "steps": [
+          "Find one move your leader taught. What part of your body starts it?",
+          "Try the move slowly. Feel where your weight goes.",
+          "Try from memory. Let your body and eyes show the feeling. Use safe space."
+        ]
+      },
+      "clear": {
+        "title": "Use your space",
+        "steps": [
+          "Name where your leader placed you at the start and end.",
+          "Walk your path slowly. Look for the space other dancers need.",
+          "Try from memory. Make each move clear and keep room around you."
+        ]
+      },
+      "pass": {
+        "title": "Move as a team",
+        "steps": [
+          "Find your last move. Where does the next dancer need to go?",
+          "Try your last pose and your next path at a safe speed.",
+          "Try from memory. Hold your pose until your leader’s cue, then make room."
+        ]
+      }
+    },
+    "crew": {
+      "cue": {
+        "title": "Know your cue",
+        "steps": [
+          "Find the cue your leader gave you in the current plan.",
+          "Say what tells you to start and what you do next. Do not use show gear at home.",
+          "Say your cue and next step from memory. Check the plan before you do it at rehearsal."
+        ]
+      },
+      "clear": {
+        "title": "Keep the team ready",
+        "steps": [
+          "Name one thing your leader asked you to check.",
+          "Say what is ready and what still needs help. Ask if you are not sure.",
+          "Say your check from memory. Compare it with the current plan before the show."
+        ]
+      },
+      "pass": {
+        "title": "Help the next person",
+        "steps": [
+          "Find who needs your work next in the current plan.",
+          "Say what you need to pass on. Keep walkways clear.",
+          "Name the next person and step from memory. Check the plan together at rehearsal."
+        ]
+      }
+    }
+  };
+  const CRAFT_LEVELS = { 1: 'With my script or plan', 2: 'With a hint', 3: 'From memory' };
+  const CRAFT_FEELINGS = { steps: 'I found my next step', choice: 'I made a clear choice', connected: 'I felt connected' };
+
   const SCENE_MOMENTS = {
     '01': ['Welcome to Nazareth', 'Nia and Simon show us the village of Nazareth.'],
     '02': ['Mary & Joseph / My Beloved', 'Mary and Joseph talk about the home they hope to share.'],
@@ -314,6 +424,8 @@
   let storageWorks = true;
   let round = 0;
   let variation = 0;
+  let craftLevel = 1;
+  let craftFeeling = '';
   let currentPerson = null;
   let publishedScenes = [];
   let publishedTracks = [];
@@ -573,6 +685,28 @@
     const data = player();
     update({ preferredPath: next, preferredMission: mission, paths: data.paths || {} });
   }
+  function renderCraftHistory() {
+    const entries = (Array.isArray(player().plays) ? player().plays : [])
+      .filter(entry => entry && entry.path === path && !Number.isNaN(Date.parse(entry.at)))
+      .slice(-5).reverse();
+    const details = $('#craftHistory');
+    details.hidden = !entries.length;
+    const list = $('#craftHistoryList');
+    list.replaceChildren();
+    for (const entry of entries) {
+      const item = document.createElement('li');
+      const scene = /^\d{2}$/.test(String(entry.scene || '')) ? `Scene ${Number(entry.scene)} · ` : '';
+      const mode = CRAFT_LEVELS[entry.level] || 'Practice try';
+      const feeling = CRAFT_FEELINGS[entry.feeling];
+      item.textContent = `${dayKey(entry.at)} · ${scene}${NAMES[entry.mission] || 'Game'} · ${mode}${feeling ? ' · ' + feeling : ''}`;
+      list.append(item);
+    }
+  }
+  function renderCraftStep() {
+    const step = CRAFT_STEPS[path]?.[mission];
+    $('#craftTitle').textContent = step?.title || 'Try your part';
+    $('#craftStep').textContent = step?.steps[craftLevel - 1] || PATHS[path][mission][3];
+  }
   function render() {
     $('#startQuest').firstChild.textContent = `Play ${NAMES[mission] || NAMES.cue} `;
     for (const button of document.querySelectorAll('[data-path]')) button.setAttribute('aria-pressed', String(button.dataset.path === path));
@@ -583,12 +717,18 @@
     renderProgress();
     renderDailyTask();
     renderHistory();
+    renderCraftHistory();
   }
   function start(name) {
     mission = name;
     update({ preferredMission: name });
     round = 0;
     variation = playsFor(name) % 2;
+    craftLevel = 1;
+    craftFeeling = '';
+    document.querySelectorAll('input[name="craftLevel"]').forEach(input => { input.checked = input.value === '1'; });
+    document.querySelectorAll('input[name="craftFeeling"]').forEach(input => { input.checked = false; });
+    $('#craftReflect').open = false;
     $('#gameBoard').hidden = false;
     $('#gameTitle').textContent = NAMES[name];
     const scene = scenesForPerson().find(item => item.scene === chosenScene);
@@ -649,8 +789,8 @@
         }
         else {
           $('#realMove').hidden = false;
-          $('#roundTwo').textContent = 'Your turn: ' + PATHS[path][mission][3] + ' ' +
-            $('#sceneTask').textContent + ' After you try it, tap “I tried it!”';
+          $('#roundTwo').textContent = $('#sceneTask').textContent;
+          renderCraftStep();
           const lesson = path === 'act' ? ACT_LESSONS[mission][variation] : null;
           $('#lessonCard').hidden = !lesson;
           if (lesson) {
@@ -718,14 +858,25 @@
   }));
   $('#startQuest').addEventListener('click', async () => { await ready; start(mission || 'cue'); });
   $('#nextRound').addEventListener('click', () => { round = 1; showRound(); });
+  document.querySelectorAll('input[name="craftLevel"]').forEach(input => input.addEventListener('change', () => {
+    if (!input.checked) return;
+    craftLevel = Number(input.value);
+    renderCraftStep();
+  }));
+  document.querySelectorAll('input[name="craftFeeling"]').forEach(input => input.addEventListener('change', () => {
+    if (input.checked) craftFeeling = input.value;
+  }));
   $('#finishMission').addEventListener('click', () => {
     if (!mission || round !== 1 || $('#realMove').hidden) return;
     const chosen = { cue: 'notice', clear: 'clear', pass: 'together' }[mission];
     const data = player();
     const paths = { ...(data.paths || {}) };
     paths[path] = { ...(paths[path] || {}), [mission]: playsFor(mission) + 1 };
-    update({ paths, ...recordedPractice(data, { at: new Date().toISOString(), path, mission, scene: chosenScene || null }), nextMove: chosen });
-    $('#gameResult').textContent = 'Nice work! Today counts toward your streak. Next time: ' + NEXT[chosen] + '.';
+    update({ paths, ...recordedPractice(data, { at: new Date().toISOString(), path, mission,
+      scene: chosenScene || null, level: craftLevel, ...(craftFeeling ? { feeling: craftFeeling } : {}) }), nextMove: chosen });
+    $('#gameResult').textContent = 'Nice work! Today counts toward your streak. ' +
+      (craftFeeling ? 'You noticed: ' + CRAFT_FEELINGS[craftFeeling] + '. ' : '') +
+      'Next time: ' + NEXT[chosen] + '.';
     $('#realMove').hidden = true;
     $('#answerChoices').replaceChildren();
     $('#gameTitle').textContent = NAMES[mission] + ' complete!';
