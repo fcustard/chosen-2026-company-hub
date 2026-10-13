@@ -211,8 +211,8 @@
       ],
       clear: [
         ['Someone is speaking. You have no line. You hear big news. What can you do?',
-          ['Give Mary one clear look.', 'Make a big new move while she speaks.', 'Turn away from the scene.'], 0,
-          'Yes. A small look shows how you feel.', 'A big move may take our eyes off Mary.'],
+          ['Give them one clear look.', 'Make a big new move while they speak.', 'Turn away from the scene.'], 0,
+          'Yes. A small look shows how you feel.', 'A big move may take our eyes off the person speaking.'],
         ['People hear your line, but cannot tell how you feel. What can you try?',
           ['Say all the words faster.', 'Mean one word and look at your friend.', 'Make up a new speech.'], 1,
           'Yes. One small choice helps us see how you feel.', 'More speed or new words may hide how you feel.']
