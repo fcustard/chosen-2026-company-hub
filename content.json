@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T11:04:48.817Z",
+  "updated": "2026-10-13T16:07:48.218Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -7709,7 +7709,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "02",
@@ -7723,7 +7723,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "03",
@@ -7737,7 +7737,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "04",
@@ -7751,7 +7751,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "05",
@@ -7765,7 +7765,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "06",
@@ -7779,7 +7779,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "07",
@@ -7793,7 +7793,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "08",
@@ -7807,7 +7807,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "09",
@@ -7821,7 +7821,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "10",
@@ -7835,7 +7835,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "11",
@@ -7849,7 +7849,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "12",
@@ -7863,7 +7863,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       }
     ],
     "current": [
@@ -7879,7 +7879,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "02",
@@ -7893,7 +7893,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "03",
@@ -7907,7 +7907,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "04",
@@ -7921,7 +7921,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "05",
@@ -7935,7 +7935,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "06",
@@ -7949,7 +7949,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "07",
@@ -7963,7 +7963,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "08",
@@ -7977,7 +7977,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "09",
@@ -7991,7 +7991,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "10",
@@ -8005,7 +8005,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "11",
@@ -8019,7 +8019,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       },
       {
         "scene": "12",
@@ -8033,11 +8033,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-13T11:04:37.218Z"
+        "updated": "2026-10-13T16:07:33.084Z"
       }
     ],
     "count": 12,
-    "updated": "2026-10-13T11:04:48.818Z",
+    "updated": "2026-10-13T16:07:48.219Z",
     "kind": "scripts"
   },
   "music": {
@@ -8196,7 +8196,7 @@
       }
     ],
     "count": 5,
-    "updated": "2026-10-13T11:04:48.818Z",
+    "updated": "2026-10-13T16:07:48.219Z",
     "kind": "music"
   }
 }
