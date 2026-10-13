@@ -494,7 +494,9 @@
       }
       select.dataset.sceneList = signature;
     }
-    if (!choices.some(scene => scene.scene === chosenScene)) chosenScene = choices[0]?.scene || '';
+    if (choices.length) {
+      if (!choices.some(scene => scene.scene === chosenScene)) chosenScene = choices[0].scene;
+    } else if (!sceneLoading) chosenScene = '';
     select.disabled = !choices.length;
     select.hidden = !choices.length;
     document.querySelector('label[for="sceneChoice"]').hidden = !choices.length;
