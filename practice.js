@@ -592,6 +592,16 @@
       }
     } catch (_) { /* Scene task still works without a character match. */ }
   }
+  function playMotion(element, name) {
+    element.classList.remove(name);
+    void element.offsetWidth;
+    element.classList.add(name);
+  }
+  function updatePreviewText(element, value) {
+    if (element.textContent === value) return;
+    element.textContent = value;
+    playMotion(element, 'textSwapIn');
+  }
   function renderDailyTask() {
     const select = $('#sceneChoice');
     const choices = scenesForPerson();
@@ -637,11 +647,11 @@
     link.textContent = scene ? `Open Scene ${Number(scene.scene)}` : 'Open scripts';
     $('#practiceTrack').hidden = !track;
     if (track) $('#practiceTrack').textContent = `Open “${track.title}” in Music`;
-    $('#previewTitle').textContent = `${JOB_NAMES[path] || JOB_NAMES.act} ✦ ${NAMES[mission] || NAMES.cue}`;
+    updatePreviewText($('#previewTitle'), `${JOB_NAMES[path] || JOB_NAMES.act} ✦ ${NAMES[mission] || NAMES.cue}`);
     const sceneName = scene ? `Scene ${Number(scene.scene)}: ${scene.title}. ` :
       sceneLoading ? 'Loading scenes. ' : 'Pick a current scene in Scripts. ';
     const firstLine = path === 'act' && lineStart ? `Your ${role} line starts “${lineStart}”. ` : '';
-    $('#previewPrompt').textContent = sceneName + firstLine + PATHS[path][mission || 'cue'][3];
+    updatePreviewText($('#previewPrompt'), sceneName + firstLine + PATHS[path][mission || 'cue'][3]);
     if (scene && path === 'act') void findScriptRole(scene);
   }
   async function loadScenes() {
@@ -730,6 +740,9 @@
     document.querySelectorAll('input[name="craftLevel"]').forEach(input => { input.checked = input.value === '1'; });
     $('#postQuestReflection').hidden = true;
     $('#postQuestNote').value = '';
+    $('#progressRing').classList.remove('successPulse');
+    $('#streakWidget').classList.remove('successPulse');
+    $('#gameResult').classList.remove('successPulse');
     $('#gameBoard').hidden = false;
     $('#gameTitle').textContent = NAMES[name];
     const scene = scenesForPerson().find(item => item.scene === chosenScene);
@@ -763,6 +776,7 @@
     $('#answerFeedback').className = 'answerFeedback';
     $('#nextRound').hidden = true;
     $('#realMove').hidden = true;
+    $('#realMove').classList.remove('moveReveal');
     $('#lessonCard').hidden = true;
     const answers = $('#answerChoices');
     answers.replaceChildren();
@@ -776,12 +790,14 @@
           $('#answerFeedback').textContent = (challenge[4] ||
             'That may make it harder for the next person.') + ' Try another answer.';
           $('#answerFeedback').className = 'answerFeedback isWrong';
+          playMotion($('#answerFeedback'), 'feedbackPop');
           button.disabled = true;
           button.classList.add('answerWrong');
           return;
         }
         $('#answerFeedback').textContent = challenge[3];
         $('#answerFeedback').className = 'answerFeedback isRight';
+        playMotion($('#answerFeedback'), 'feedbackPop');
         for (const answer of answers.querySelectorAll('button')) answer.disabled = true;
         button.classList.add('answerRight');
         if (round === 0) {
@@ -790,6 +806,7 @@
         }
         else {
           $('#realMove').hidden = false;
+          playMotion($('#realMove'), 'moveReveal');
           $('#roundTwo').textContent = $('#sceneTask').textContent;
           renderCraftStep();
           const lesson = path === 'act' ? ACT_LESSONS[mission][variation] : null;
@@ -871,10 +888,16 @@
     const paths = { ...(data.paths || {}) };
     paths[path] = { ...(paths[path] || {}), [mission]: playsFor(mission) + 1 };
     const at = new Date().toISOString();
+    const isNewDay = !practiceDays(data).includes(dayKey(at));
     update({ paths, ...recordedPractice(data, { at, path, mission,
       scene: chosenScene || null, level: craftLevel }), nextMove: chosen });
     lastSessionAt = at;
     $('#gameResult').textContent = 'Nice work! Today counts toward your streak. Next time: ' + NEXT[chosen] + '.';
+    playMotion($('#gameResult'), 'successPulse');
+    if (isNewDay) {
+      playMotion($('#progressRing'), 'successPulse');
+      playMotion($('#streakWidget'), 'successPulse');
+    }
     $('#postQuestNote').value = '';
     $('#postQuestReflection').hidden = false;
     $('#postQuestReflection').classList.remove('reveal');
