@@ -29,6 +29,22 @@
     const words = String(value || '').trim().split(/\s+/).filter(Boolean);
     return words.slice(0, 9).join(' ') + (words.length > 9 ? '…' : '');
   }
+  // Exercises paraphrased from the three user-supplied video transcripts.
+  // Keep stage voice and approved blocking; the videos also discuss camera acting.
+  const ACT_LESSONS = {
+    cue: [
+      { title: 'What do you want?', step: 'Ask what your person wants here. Find your cue. Try your line or move after it.', video: 'https://www.youtube.com/watch?v=2RxOoOIXZ_c&t=114s' },
+      { title: 'What happened first?', step: 'Think about what happened just before this scene. Find your cue. Try your line or move.', video: 'https://www.youtube.com/watch?v=2RxOoOIXZ_c&t=308s' }
+    ],
+    clear: [
+      { title: 'Make it clear', step: 'Say a short line slowly. Make each last sound clear. Say it again in your stage voice. No line? Show one clear move.', video: 'https://www.youtube.com/watch?v=dwMgvviP-Nw&t=74s' },
+      { title: 'Make a small change', step: 'Try one line or move two ways. Change one look or pause. Keep the words and moves your team set.', video: 'https://www.youtube.com/watch?v=lKlpdl-vwQQ&t=438s' }
+    ],
+    pass: [
+      { title: 'Listen, then answer', step: 'Read the cue, or ask someone to say it. Listen. Then say your line or show your move.', video: 'https://www.youtube.com/watch?v=2RxOoOIXZ_c&t=233s' },
+      { title: 'Try a new reply', step: 'Read or hear the cue a second way. Keep your lines and places. Let your face or timing change a little.', video: 'https://www.youtube.com/watch?v=2RxOoOIXZ_c&t=233s' }
+    ]
+  };
   const PATHS = {
     act: {
       cue: ['Pick a scene. What line or move comes just before your part?', 'Look away. Say when you would start.', ['Wait for the line or move.', 'If your friend pauses, keep watching.'], 'Try your start once. Wait for the right line or move.'],
@@ -194,9 +210,9 @@
           'Yes. You listened and stayed in the story.', 'A count or new line may make you start at the wrong time.']
       ],
       clear: [
-        ['Mary is speaking. You have no line. You hear big news. What can you do?',
-          ['Give Mary one clear look.', 'Make a big new move while she speaks.', 'Turn away from the scene.'], 0,
-          'Yes. A small look shows how you feel.', 'A big move may take our eyes off Mary.'],
+        ['Someone is speaking. You have no line. You hear big news. What can you do?',
+          ['Give them one clear look.', 'Make a big new move while they speak.', 'Turn away from the scene.'], 0,
+          'Yes. A small look shows how you feel.', 'A big move may take our eyes off the person speaking.'],
         ['People hear your line, but cannot tell how you feel. What can you try?',
           ['Say all the words faster.', 'Mean one word and look at your friend.', 'Make up a new speech.'], 1,
           'Yes. One small choice helps us see how you feel.', 'More speed or new words may hide how you feel.']
@@ -598,6 +614,7 @@
     $('#answerFeedback').className = 'answerFeedback';
     $('#nextRound').hidden = true;
     $('#realMove').hidden = true;
+    $('#lessonCard').hidden = true;
     const answers = $('#answerChoices');
     answers.replaceChildren();
     options.forEach((option, index) => {
@@ -624,8 +641,17 @@
         }
         else {
           $('#realMove').hidden = false;
-          $('#roundTwo').textContent = 'Your turn: ' + PATHS[path][mission][3] +
-            ' ' + $('#sceneTask').textContent + ' After you try it, tap “I tried it!”';
+          $('#roundTwo').textContent = path === 'act'
+            ? 'Your scene: ' + $('#sceneTask').textContent
+            : 'Your turn: ' + PATHS[path][mission][3] + ' ' +
+              $('#sceneTask').textContent + ' After you try it, tap “I tried it!”';
+          const lesson = path === 'act' ? ACT_LESSONS[mission][variation] : null;
+          $('#lessonCard').hidden = !lesson;
+          if (lesson) {
+            $('#lessonTitle').textContent = lesson.title;
+            $('#lessonPrompt').textContent = lesson.step;
+            $('#lessonVideo').href = lesson.video;
+          }
           $('#finishMission').focus();
         }
       });
