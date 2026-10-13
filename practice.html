@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0d1726"><title>Show Quest | CHOSEN 2026</title>
-  <link rel="stylesheet" href="styles.css?v=20261012-menu2"><link rel="stylesheet" href="practice.css?v=20261013-quest6">
-  <script defer src="app.js?v=20260928-connected-tasks"></script><script defer src="practice.js?v=20261012-quest5"></script>
+  <link rel="stylesheet" href="styles.css?v=20261012-menu2"><link rel="stylesheet" href="practice.css?v=20261013-quest7">
+  <script defer src="app.js?v=20260928-connected-tasks"></script><script defer src="practice.js?v=20261013-quest7"></script>
 </head>
 <body data-page="practice">
 <header class="sitebar"><div class="inner">
@@ -14,17 +14,27 @@
 </div></header>
 <main class="questPage">
   <section class="questHero"><p class="ey">A QUICK GAME FOR THE WHOLE SHOW</p><h1>Show Quest</h1>
-    <p>Pick what you do. Answer two questions. Try one small move at home.</p>
+    <p>Pick what you do. Play a short game. Practice a scene each day to learn your part.</p>
     <button id="startQuest" class="btn questPlay" type="button" aria-controls="gameBoard">Play a short game <span aria-hidden="true">✦</span></button>
     <p class="questHint">Tap Play to start. You can change your job below. You cannot lose.</p>
   </section>
   <section class="questDashboard" aria-labelledby="dashboardTitle">
-    <div class="progressRing" id="progressRing" role="img" aria-label="No challenges played this week"><span id="progressNumber">0/3</span></div>
+    <div class="progressRing" id="progressRing" role="img" aria-label="0 of 3 practice days this week"><svg viewBox="0 0 100 100" aria-hidden="true" focusable="false"><circle class="ringTrack" cx="50" cy="50" r="43"></circle><circle class="ringFill" id="progressFill" cx="50" cy="50" r="43" stroke-dasharray="270.18" stroke-dashoffset="270.18"></circle></svg><span id="progressNumber">0/3</span></div>
     <div><p class="questEyebrow">YOUR PLAY</p><h2 id="dashboardTitle">One small win at a time</h2>
-      <p id="weeklyProgress">You can play three short games this week. A new week starts Monday.</p>
+      <p id="weeklyProgress">Your ring shows up to three practice days each week. A new week starts Monday.</p>
+      <div class="streakWidget" id="streakWidget"><span class="streakFlame" aria-hidden="true">🔥</span><strong id="streakCount">0 days</strong><span id="streakStatus">Practice today to start your streak.</span></div>
       <div id="badgeShelf" class="badgeShelf" aria-label="Game badges"></div>
-      <p class="questHint">A badge lights up when you finish that game. These marks show what you tried. You cannot lose. They stay on this device.</p>
+      <p class="questHint">A badge lights up when you finish that game. Your streak counts days you practiced. These marks stay on this device.</p>
     </div>
+  </section>
+  <section id="dailyTask" class="questPanel dailyTask" aria-labelledby="dailyTitle">
+    <p class="questEyebrow">TODAY’S PRACTICE</p><h2 id="dailyTitle">Try your part from memory</h2>
+    <p>Pick a scene. Try a small part without looking. Check it, then try again. You can practice any job.</p>
+    <label for="sceneChoice">Your scene</label><select id="sceneChoice" disabled><option>Loading scenes…</option></select>
+    <p id="sceneTask">Pick your job below. We will show you what to practice.</p>
+    <div class="dailyLinks"><a id="sceneLink" href="scripts.html">Open scripts</a><a id="practiceTrack" href="music.html" hidden>Open music</a></div>
+    <button id="markDaily" class="btn questPlay" type="button" disabled>I practiced today <span aria-hidden="true">✦</span></button>
+    <p id="dailyStatus" class="questHint" role="status" aria-live="polite"></p>
   </section>
   <section id="paths" class="questPanel" aria-labelledby="pathTitle"><p class="questEyebrow">FIRST, PICK YOUR JOB</p><h2 id="pathTitle">What do you do in the show?</h2>
     <p id="questPerson">You can play as a guest, or choose your name in Company.</p>

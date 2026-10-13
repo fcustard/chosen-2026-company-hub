@@ -275,6 +275,13 @@
   let storageWorks = true;
   let round = 0;
   let variation = 0;
+  let currentPerson = null;
+  let publishedScenes = [];
+  let publishedTracks = [];
+  let chosenScene = '';
+  let sceneLoading = true;
+  const roleCache = new Map();
+  const RING_LENGTH = 2 * Math.PI * 43;
 
   function read(key = KEY) {
     if (key === KEY && !storageWorks) return memory;
@@ -303,6 +310,46 @@
     const d = new Date();
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   }
+  function dayKey(when) {
+    const date = new Date(when);
+    if (Number.isNaN(date.getTime())) return '';
+    const parts = Object.fromEntries(new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).formatToParts(date).map(part => [part.type, part.value]));
+    return `${parts.year}-${parts.month}-${parts.day}`;
+  }
+  function priorDay(key) {
+    return new Date(Date.parse(key + 'T00:00:00Z') - 86400000).toISOString().slice(0, 10);
+  }
+  function practiceDays(data) {
+    const days = new Set(Array.isArray(data.practiceDays)
+      ? data.practiceDays.filter(day => typeof day === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(day))
+      : []);
+    for (const item of Array.isArray(data.plays) ? data.plays : []) {
+      if (item && item.at) {
+        const day = dayKey(item.at);
+        if (day) days.add(day);
+      }
+    }
+    return [...days].sort().slice(-500);
+  }
+  function recordedPractice(data, entry) {
+    const days = new Set(practiceDays(data));
+    days.add(dayKey(entry.at));
+    const plays = Array.isArray(data.plays) ? data.plays : [];
+    return { plays: [...plays.slice(-199), entry], practiceDays: [...days].sort().slice(-500) };
+  }
+  function streakLength(days) {
+    const seen = new Set(days);
+    let cursor = dayKey(new Date());
+    if (!seen.has(cursor)) cursor = priorDay(cursor);
+    let count = 0;
+    while (seen.has(cursor) && count < 500) {
+      count += 1;
+      cursor = priorDay(cursor);
+    }
+    return count;
+  }
   function weekKey(when) {
     const date = new Date(when);
     if (Number.isNaN(date.getTime())) return '';
@@ -318,17 +365,24 @@
     const data = player();
     const thisWeek = weekKey(new Date());
     const plays = Array.isArray(data.plays) ? data.plays : [];
-    const count = plays.filter(item => item.path === path && weekKey(item.at) === thisWeek).length;
+    const count = new Set(plays.filter(item => item && item.path === path && weekKey(item.at) === thisWeek).map(item => dayKey(item.at))).size;
     const shown = Math.min(count, 3);
     const ring = $('#progressRing');
-    ring.style.setProperty('--progress', `${shown / 3 * 100}%`);
-    ring.setAttribute('aria-label', `${shown} of 3 games played this week for this job. This is not a score.`);
+    $('#progressFill').style.strokeDashoffset = String(RING_LENGTH * (1 - shown / 3));
+    ring.setAttribute('aria-label', `${shown} of 3 practice days this week for this job. This is not a score.`);
     $('#progressNumber').textContent = `${shown}/3`;
     $('#weeklyProgress').textContent = shown === 3
-      ? 'You played three games this week! You can play again any time.'
+      ? 'You practiced on three days this week! Keep going if you like.'
       : !plays.length && Object.values(data.paths?.[path] || {}).some(value => Number(value) > 0)
-        ? 'Your old play marks are saved below. The weekly ring starts with this new game.'
-      : `${shown} of 3 games played this week for this job. This is not a score. A new week starts Monday.`;
+        ? 'Your old play marks are saved below. The weekly ring starts with this update.'
+      : `${shown} of 3 practice days this week for this job. This is not a score. A new week starts Monday.`;
+    const days = practiceDays(data);
+    const streak = streakLength(days);
+    const didToday = days.includes(dayKey(new Date()));
+    $('#streakCount').textContent = `${streak} ${streak === 1 ? 'day' : 'days'} in a row`;
+    $('#streakStatus').textContent = didToday ? 'You practiced today. Come back tomorrow.' :
+      streak ? 'Practice today to keep it going.' : 'Practice today to start a streak.';
+    $('#streakWidget').classList.toggle('active', streak > 0);
     const shelf = $('#badgeShelf');
     shelf.replaceChildren();
     for (const [skill, label, icon] of [
@@ -347,6 +401,107 @@
       shelf.append(badge);
     }
   }
+  function scenesForPerson() {
+    if (!currentPerson || !Array.isArray(currentPerson.scenes) || !currentPerson.scenes.length) return publishedScenes;
+    const castScenes = new Set(currentPerson.scenes.map(Number));
+    const matches = publishedScenes.filter(scene => castScenes.has(Number(scene.scene)));
+    return matches.length ? matches : publishedScenes;
+  }
+  function cleanRole(value) {
+    return String(value || '').split(/[—–]/)[0].replace(/\([^)]*\)/g, '')
+      .replace(/[-_]/g, ' ').replace(/\s+/g, ' ').trim().toUpperCase();
+  }
+  async function findScriptRole(scene) {
+    if (!currentPerson || path !== 'act' || roleCache.has(scene.scene)) return;
+    roleCache.set(scene.scene, '');
+    try {
+      const response = await fetch(scene.readUrl.replace('.html', '.json').replace(/^scene-/, 'data/scenes/scene-'), { cache: 'no-store' });
+      if (!response.ok) return;
+      const script = await response.json();
+      if (!script.approved || !script.companyPublish || !Array.isArray(script.blocks)) return;
+      const names = new Set(String(currentPerson.roles || '').split('/').map(cleanRole)
+        .filter(name => name && !['ENSEMBLE', 'DANCER', 'CHOIR', 'SINGER', 'CREW'].includes(name)));
+      for (let i = 0; i < script.blocks.length; i += 1) {
+        const block = script.blocks[i];
+        if (block.type !== 'character' || !names.has(cleanRole(block.text))) continue;
+        for (let next = i + 1; next < script.blocks.length && script.blocks[next].type !== 'character'; next += 1) {
+          if (script.blocks[next].type === 'dialogue') {
+            roleCache.set(scene.scene, cleanRole(block.text));
+            if (chosenScene === scene.scene) renderDailyTask();
+            return;
+          }
+        }
+      }
+    } catch (_) { /* Scene task still works without a character match. */ }
+  }
+  function renderDailyTask() {
+    const select = $('#sceneChoice');
+    const choices = scenesForPerson();
+    const signature = choices.map(scene => scene.scene).join(',');
+    if (select.dataset.sceneList !== signature) {
+      select.replaceChildren();
+      for (const scene of choices) {
+        const option = document.createElement('option');
+        option.value = scene.scene;
+        option.textContent = `Scene ${Number(scene.scene)}: ${scene.title}`;
+        select.append(option);
+      }
+      select.dataset.sceneList = signature;
+    }
+    if (!choices.some(scene => scene.scene === chosenScene)) chosenScene = choices[0]?.scene || '';
+    select.disabled = !choices.length;
+    select.hidden = !choices.length;
+    document.querySelector('label[for="sceneChoice"]').hidden = !choices.length;
+    if (chosenScene) select.value = chosenScene;
+    const scene = choices.find(item => item.scene === chosenScene);
+    const role = scene ? roleCache.get(scene.scene) : '';
+    const track = scene && path === 'sing' ? publishedTracks.find(item =>
+      item.scenes.some(number => Number(number) === Number(scene.scene)) &&
+      !/instrumental/i.test(item.title)) : null;
+    const task = {
+      act: role
+        ? `You play ${role} here. Read one of your lines. Close the script. Say it from memory. Check it. Try again.`
+        : 'Read your part. Close the script. Say a line or show a silent move. Check it. Try again.',
+      sing: track
+        ? `Use the current “${track.title}” track. Pause before your part. Sing from memory. Check the words. Try again.`
+        : 'Pick a song part you are learning. Sing it from memory. Check the words. Try again.',
+      dance: 'Use only the steps your leader taught for this scene. Try a short part from memory. Check your notes. Keep space clear.',
+      crew: 'Say your approved start cue and next step out loud. Check the current plan. Do not use show gear at home.'
+    }[path];
+    $('#sceneTask').textContent = scene ? `Scene ${Number(scene.scene)}: ${scene.title}. ${task}` :
+      sceneLoading ? 'Loading today’s scene…' : `Pick a current scene in Scripts. ${task}`;
+    const link = $('#sceneLink');
+    link.href = scene && /^scene-\d{2}\.html$/.test(scene.readUrl) ? scene.readUrl : 'scripts.html';
+    link.textContent = scene ? `Open Scene ${Number(scene.scene)}` : 'Open scripts';
+    $('#practiceTrack').hidden = !track;
+    if (track) $('#practiceTrack').textContent = `Open “${track.title}” in Music`;
+    const didTaskToday = Array.isArray(player().dailyTaskDays) &&
+      player().dailyTaskDays.includes(dayKey(new Date()));
+    const button = $('#markDaily');
+    button.disabled = sceneLoading || didTaskToday;
+    button.firstChild.textContent = didTaskToday ? 'Done for today ' : 'I practiced today ';
+    $('#dailyStatus').textContent = didTaskToday ?
+      'Saved for today. You can still practice again.' :
+      sceneLoading ? 'Getting the current scenes…' : 'After you try it from memory, mark today done.';
+    if (scene && path === 'act') void findScriptRole(scene);
+  }
+  async function loadScenes() {
+    try {
+      const response = await fetch('content.json', { cache: 'no-store' });
+      if (!response.ok) throw new Error('No scene list');
+      const content = await response.json();
+      publishedScenes = (content.scripts?.items || []).filter(item =>
+        item.approved && item.companyPublish && /^scene-\d{2}\.html$/.test(item.readUrl) &&
+        /^\d{2}$/.test(item.scene)).map(item =>
+          ({ scene: item.scene, title: item.title, readUrl: item.readUrl }));
+      publishedTracks = (content.music?.items || []).filter(item =>
+        item.approved && item.companyPublish && Array.isArray(item.scenes) && typeof item.title === 'string')
+        .map(item => ({ title: item.title, scenes: item.scenes }));
+    } catch (_) { /* A generic task remains available when the feed is offline. */ }
+    sceneLoading = false;
+    renderDailyTask();
+  }
+
   function celebrate() {
     const box = $('#rewardBurst');
     box.replaceChildren();
@@ -379,6 +534,7 @@
     for (const name of Object.keys(NAMES)) $('[data-mark="' + name + '"]').textContent = playsFor(name) ? '◆' : '◇';
     $('#missionProgress').textContent = `${count} of 3 games tried for this job. ${count === 3 ? 'You tried them all! Play again with a new problem.' : 'The gold mark shows a game you tried. This is not a score.'}`;
     renderProgress();
+    renderDailyTask();
     renderHistory();
   }
   function start(name) {
@@ -488,6 +644,25 @@
     $('#oldHistory').append(list);
   }
 
+  $('#sceneChoice').addEventListener('change', event => {
+    chosenScene = event.target.value;
+    update({ preferredScene: chosenScene });
+  });
+  $('#markDaily').addEventListener('click', () => {
+    if (sceneLoading) return;
+    const data = player();
+    const day = dayKey(new Date());
+    const done = Array.isArray(data.dailyTaskDays) ? data.dailyTaskDays : [];
+    if (done.includes(day)) return;
+    const entry = { at: new Date().toISOString(), path, mission: 'daily', scene: chosenScene || null };
+    update({
+      ...recordedPractice(data, entry),
+      dailyTaskDays: [...done, day].sort().slice(-500)
+    });
+  });
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) render();
+  });
   document.querySelectorAll('[data-path]').forEach(button => button.addEventListener('click', () => pathChoice(button.dataset.path)));
   document.querySelectorAll('[data-mission]').forEach(button => button.addEventListener('click', () => start(button.dataset.mission)));
   $('#startQuest').addEventListener('click', async () => { await ready; start('cue'); });
@@ -498,9 +673,8 @@
     const data = player();
     const paths = { ...(data.paths || {}) };
     paths[path] = { ...(paths[path] || {}), [mission]: playsFor(mission) + 1 };
-    const plays = Array.isArray(data.plays) ? data.plays : [];
-    update({ paths, plays: [...plays.slice(-199), { at: new Date().toISOString(), path, mission }], nextMove: chosen });
-    $('#gameResult').textContent = 'Nice work! You tried it. Next time: ' + NEXT[chosen] + '.';
+    update({ paths, ...recordedPractice(data, { at: new Date().toISOString(), path, mission }), nextMove: chosen });
+    $('#gameResult').textContent = 'Nice work! Today counts toward your streak. Next time: ' + NEXT[chosen] + '.';
     $('#realMove').hidden = true;
     $('#answerChoices').replaceChildren();
     $('#gameTitle').textContent = NAMES[mission] + ' complete!';
@@ -535,7 +709,7 @@
   $('#clearQuest').addEventListener('click', () => {
     if (!window.confirm('Erase this person’s Show Quest play and tips on this device? Old acting notes will stay.')) return;
     const all = read(); delete all[personId]; save(all);
-    path = 'act'; mission = null; $('#gameBoard').hidden = true;
+    path = 'act'; mission = null; chosenScene = ''; $('#gameBoard').hidden = true;
     $('#coachStatus').textContent = 'This person’s Show Quest play and tips were erased.';
     render();
   });
@@ -554,6 +728,7 @@
       }
     } catch (_) { /* Guest mode is always available. */ }
     personId = person?.id || 'guest';
+    currentPerson = person;
     $('#questPerson').textContent = person ? `${person.name}, pick any job you want.` : 'Playing as a guest. Pick any job.';
     const link = document.createElement('a');
     link.href = 'company.html#my-role'; link.textContent = person ? 'Change person' : 'Choose my name';
@@ -562,7 +737,9 @@
     const suggested = person?.danceEnsemble ? 'dance' : /singer|choir|vocal/i.test(person?.roles || '') ? 'sing' :
       /production|tech|wardrobe|props|crew/i.test(`${person?.companyType || ''} ${person?.roles || ''}`) ? 'crew' : 'act';
     path = PATHS[savedPath] ? savedPath : suggested;
+    chosenScene = player().preferredScene || '';
     render(); showOldChecks();
+    void loadScenes();
   }
   const ready = init();
 })();
