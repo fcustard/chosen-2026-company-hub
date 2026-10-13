@@ -475,14 +475,6 @@
     link.textContent = scene ? `Open Scene ${Number(scene.scene)}` : 'Open scripts';
     $('#practiceTrack').hidden = !track;
     if (track) $('#practiceTrack').textContent = `Open “${track.title}” in Music`;
-    const didTaskToday = Array.isArray(player().dailyTaskDays) &&
-      player().dailyTaskDays.includes(dayKey(new Date()));
-    const button = $('#markDaily');
-    button.disabled = sceneLoading || didTaskToday;
-    button.firstChild.textContent = didTaskToday ? 'Done for today ' : 'I practiced today ';
-    $('#dailyStatus').textContent = didTaskToday ?
-      'Saved for today. You can still practice again.' :
-      sceneLoading ? 'Getting the current scenes…' : 'After you try it from memory, mark today done.';
     if (scene && path === 'act') void findScriptRole(scene);
   }
   async function loadScenes() {
@@ -520,14 +512,14 @@
   }
   function pathChoice(next) {
     path = next;
-    const data = player();
-    update({ preferredPath: next, paths: data.paths || {} });
-    mission = null;
+    mission = 'cue';
     $('#gameBoard').hidden = true;
     $('#coachStatus').textContent = '';
-    render();
+    const data = player();
+    update({ preferredPath: next, preferredMission: mission, paths: data.paths || {} });
   }
   function render() {
+    $('#startQuest').firstChild.textContent = `Play ${NAMES[mission] || NAMES.cue} `;
     for (const button of document.querySelectorAll('[data-path]')) button.setAttribute('aria-pressed', String(button.dataset.path === path));
     for (const button of document.querySelectorAll('[data-mission]')) button.setAttribute('aria-pressed', String(button.dataset.mission === mission));
     const count = Object.keys(NAMES).filter(name => playsFor(name) > 0).length;
@@ -539,6 +531,7 @@
   }
   function start(name) {
     mission = name;
+    update({ preferredMission: name });
     round = 0;
     variation = playsFor(name) % 2;
     $('#gameBoard').hidden = false;
@@ -599,7 +592,7 @@
         else {
           $('#realMove').hidden = false;
           $('#roundTwo').textContent = 'Your turn: ' + PATHS[path][mission][3] +
-            ' After you try it, tap “I tried it!”';
+            ' ' + $('#sceneTask').textContent + ' After you try it, tap “I tried it!”';
           $('#finishMission').focus();
         }
       });
@@ -646,26 +639,19 @@
 
   $('#sceneChoice').addEventListener('change', event => {
     chosenScene = event.target.value;
+    $('#gameBoard').hidden = true;
     update({ preferredScene: chosenScene });
-  });
-  $('#markDaily').addEventListener('click', () => {
-    if (sceneLoading) return;
-    const data = player();
-    const day = dayKey(new Date());
-    const done = Array.isArray(data.dailyTaskDays) ? data.dailyTaskDays : [];
-    if (done.includes(day)) return;
-    const entry = { at: new Date().toISOString(), path, mission: 'daily', scene: chosenScene || null };
-    update({
-      ...recordedPractice(data, entry),
-      dailyTaskDays: [...done, day].sort().slice(-500)
-    });
   });
   document.addEventListener('visibilitychange', () => {
     if (!document.hidden) render();
   });
   document.querySelectorAll('[data-path]').forEach(button => button.addEventListener('click', () => pathChoice(button.dataset.path)));
-  document.querySelectorAll('[data-mission]').forEach(button => button.addEventListener('click', () => start(button.dataset.mission)));
-  $('#startQuest').addEventListener('click', async () => { await ready; start('cue'); });
+  document.querySelectorAll('[data-mission]').forEach(button => button.addEventListener('click', () => {
+    mission = button.dataset.mission;
+    $('#gameBoard').hidden = true;
+    update({ preferredMission: mission });
+  }));
+  $('#startQuest').addEventListener('click', async () => { await ready; start(mission || 'cue'); });
   $('#nextRound').addEventListener('click', () => { round = 1; showRound(); });
   $('#finishMission').addEventListener('click', () => {
     if (!mission || round !== 1 || $('#realMove').hidden) return;
@@ -673,7 +659,7 @@
     const data = player();
     const paths = { ...(data.paths || {}) };
     paths[path] = { ...(paths[path] || {}), [mission]: playsFor(mission) + 1 };
-    update({ paths, ...recordedPractice(data, { at: new Date().toISOString(), path, mission }), nextMove: chosen });
+    update({ paths, ...recordedPractice(data, { at: new Date().toISOString(), path, mission, scene: chosenScene || null }), nextMove: chosen });
     $('#gameResult').textContent = 'Nice work! Today counts toward your streak. Next time: ' + NEXT[chosen] + '.';
     $('#realMove').hidden = true;
     $('#answerChoices').replaceChildren();
@@ -738,6 +724,7 @@
       /production|tech|wardrobe|props|crew/i.test(`${person?.companyType || ''} ${person?.roles || ''}`) ? 'crew' : 'act';
     path = PATHS[savedPath] ? savedPath : suggested;
     chosenScene = player().preferredScene || '';
+    mission = NAMES[player().preferredMission] ? player().preferredMission : 'cue';
     render(); showOldChecks();
     void loadScenes();
   }
