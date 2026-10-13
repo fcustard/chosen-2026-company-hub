@@ -74,9 +74,6 @@
 .answerFeedback:empty{display:none}
 #realMove{border-left:5px solid #2e865d;background:#e7f5eb}
 .gameResult:not(:empty){display:block;padding:16px 18px;border:2px solid #e3bb63;border-radius:12px;background:#fff4d7;color:#264b33;font-size:1.1rem}
-.nextStepCard{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:12px 0;padding:17px 22px;background:#eef4ed;border:1px solid #b9d5ba;border-radius:14px}
-.nextStepCard strong{color:#265638}.nextStepCard .btn{margin-left:auto}
-.nextStepCard:not([hidden]){animation:questReveal .38s ease-out}
 #coachForm .btn.primary{min-height:54px;border-radius:999px;background:#206e51;border-color:#206e51}
 .rewardBurst{position:absolute;left:50%;bottom:115px;z-index:2;pointer-events:none}
 .rewardBurst span{position:absolute;left:0;top:0;color:#d69e35;font-size:1.2rem;opacity:0}
@@ -91,11 +88,10 @@
  .pathCard{scroll-snap-align:start;min-height:130px}
  .answerButton{min-height:72px}
  .questPlay{width:100%}
- .nextStepCard .btn{margin-left:0;width:100%}
 }
 @media(prefers-reduced-motion:reduce){
  .questPlay,.pathCard,.missionCard,.answerButton,.stepTrack span{transition:none!important}
- .questEnter,.rewardBurst.burst span,.nextStepCard:not([hidden]){animation:none!important}
+ .questEnter,.rewardBurst.burst span{animation:none!important}
  .questPlay:hover,.pathCard:hover,.missionCard:hover,.answerButton:hover:not(:disabled){transform:none}
 }
 
