@@ -134,3 +134,11 @@
 .questSetup [hidden]{display:none!important}
 @media(max-width:760px){.questSetup .setupGrid{grid-template-columns:1fr;gap:12px}.questSetup .setupGame{border-top:1px solid #d9d3c6;padding-top:8px}}
 @media(max-width:650px){.questAction .questPlay{width:100%}}
+
+/* One small acting lesson appears only after the two game choices. */
+#realMove .lessonCard{padding:14px 16px;margin:12px 0 20px;border:1px solid #9aaec3;border-radius:12px;background:#f1f6fa;color:#172b42}
+#realMove .lessonCard .questEyebrow{color:#31526d;margin:0 0 5px}
+#realMove .lessonCard h3{font:700 1.25rem/1.25 Georgia,serif;color:#172b42;margin:0 0 7px}
+#realMove .lessonCard p{margin:0 0 10px}
+#realMove .lessonCard a{font-weight:800}
+#realMove .lessonCard[hidden]{display:none!important}
