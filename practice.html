@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0d1726"><title>Show Quest | CHOSEN 2026</title>
-  <link rel="stylesheet" href="styles.css?v=20261012-menu2"><link rel="stylesheet" href="practice.css?v=20261013-quest13">
-  <script defer src="app.js?v=20260928-connected-tasks"></script><script defer src="practice.js?v=20261013-quest14"></script>
+  <link rel="stylesheet" href="styles.css?v=20261012-menu2"><link rel="stylesheet" href="practice.css?v=20261013-quest14">
+  <script defer src="app.js?v=20260928-connected-tasks"></script><script defer src="practice.js?v=20261013-quest15"></script>
 </head>
 <body data-page="practice">
 <header class="sitebar"><div class="inner">
@@ -83,16 +83,20 @@
       <div id="lessonCard" class="lessonCard" hidden><p class="questEyebrow">TRY ONE SHORT ACTING IDEA</p><h3 id="lessonTitle"></h3><p id="lessonPrompt"></p>
         <a id="lessonVideo" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">See the lesson in the video (optional) ↗</a>
       </div>
-      <details id="craftReflect" class="craftReflect"><summary>How did it feel? (optional)</summary>
-        <fieldset><legend>Pick one if you want</legend>
-          <label><input type="radio" name="craftFeeling" value="steps"> I found my next step</label>
-          <label><input type="radio" name="craftFeeling" value="choice"> I made a clear choice</label>
-          <label><input type="radio" name="craftFeeling" value="connected"> I felt connected</label>
-        </fieldset>
-      </details>
       <button id="finishMission" class="btn questPlay" type="button">I tried it! <span aria-hidden="true">✦</span></button></div>
     <div id="rewardBurst" class="rewardBurst" aria-hidden="true"></div>
     <p id="gameResult" class="gameResult" role="status" aria-live="polite"></p>
+    <div id="postQuestReflection" class="postQuestReflection" hidden>
+      <h3>Want to note one thing?</h3>
+      <p>What changed this time? Your practice day is saved. You can write one line or skip.</p>
+      <label for="postQuestNote">One thing I noticed (optional)</label>
+      <textarea id="postQuestNote" maxlength="280" rows="3" placeholder="A word, sound, move, or cue I tried…"></textarea>
+      <div class="postQuestActions">
+        <button id="skipPostQuest" class="btn" type="button">Skip</button>
+        <button id="savePostQuest" class="btn primary" type="button">Save note</button>
+      </div>
+      <p class="questHint">Notes stay on this device.</p>
+    </div>
     <button id="replayMission" class="btn" type="button" hidden>Play again</button>
     <button id="nextMission" class="btn primary" type="button" hidden>Next game →</button>
   </section>
