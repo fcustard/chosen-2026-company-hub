@@ -4,7 +4,7 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0d1726"><title>Show Quest | CHOSEN 2026</title>
   <link rel="stylesheet" href="styles.css?v=20261012-menu2"><link rel="stylesheet" href="practice.css?v=20261013-quest15">
-  <script defer src="app.js?v=20260928-connected-tasks"></script><script defer src="practice.js?v=20261013-quest16"></script>
+  <script defer src="app.js?v=20260928-connected-tasks"></script><script defer src="practice.js?v=20261013-quest17"></script>
 </head>
 <body data-page="practice">
 <header class="sitebar"><div class="inner">
@@ -15,30 +15,30 @@
 <main class="questPage">
   <section class="questHero" aria-labelledby="questHeading">
     <p class="ey">A QUICK GAME FOR THE WHOLE SHOW</p><h1 id="questHeading">Show Quest</h1>
-    <p>Pick your job. Pick a scene and game. Try your part. You cannot lose.</p>
+    <p>Pick a job. Pick a scene. Play a quick game. Try your part. You can't lose!</p>
   </section>
   <section id="paths" class="questPanel" aria-labelledby="pathTitle">
     <p class="questEyebrow">STEP 1</p><h2 id="pathTitle">What do you do in the show?</h2>
-    <p id="questPerson">You can play as a guest, or choose your name in Company.</p>
+    <p id="questPerson">Pick your name in Company, or play as a guest.</p>
     <div class="pathGrid" role="group" aria-label="Choose your job">
       <button class="pathCard" type="button" data-path="act" aria-pressed="false"><span>🎭</span><strong>Act</strong><small>Lines or no lines</small></button>
       <button class="pathCard" type="button" data-path="sing" aria-pressed="false"><span>♫</span><strong>Sing</strong><small>Words and music</small></button>
       <button class="pathCard" type="button" data-path="dance" aria-pressed="false"><span>✦</span><strong>Dance</strong><small>Moves and space</small></button>
       <button class="pathCard" type="button" data-path="crew" aria-pressed="false"><span>⚙</span><strong>Make the show</strong><small>Lights, sound, set, props, and more</small></button>
     </div>
-    <p class="questHint">You can change this any time. On a phone, swipe to see all four jobs.</p>
+    <p class="questHint">You can change jobs any time. On a phone, swipe to see them all.</p>
   </section>
   <section id="questSetup" class="questPanel questSetup" aria-labelledby="setupTitle">
     <p class="questEyebrow">STEP 2</p><h2 id="setupTitle">Pick a scene and a game</h2>
     <div class="setupGrid">
       <div class="setupScene">
-        <label for="sceneChoice">Your scene</label><select id="sceneChoice" disabled><option>Loading scenes…</option></select>
-        <p id="sceneTask" aria-live="polite">We will show you what to practice from memory.</p>
+        <label for="sceneChoice">Your scene</label><select id="sceneChoice" disabled><option>Finding scenes…</option></select>
+        <p id="sceneTask" aria-live="polite">Pick a scene to see what to try.</p>
         <div class="dailyLinks"><a id="sceneLink" href="scripts.html">Open scripts</a><a id="practiceTrack" href="music.html" hidden>Open music</a></div>
       </div>
       <div class="setupGame">
         <p class="setupLabel" id="chooseGameLabel">Your game</p>
-        <p class="questHint">Start with Cue Hunt. A cue tells you when to begin.</p>
+        <p class="questHint">Start with Cue Hunt. A cue is a word, sound, or move that tells you to start.</p>
         <div class="missionGrid" role="group" aria-labelledby="chooseGameLabel">
           <button class="missionCard" type="button" data-mission="cue" aria-pressed="false"><span class="missionMark" data-mark="cue">◇</span><strong>Cue Hunt</strong><small>Find what tells you to begin.</small></button>
           <button class="missionCard" type="button" data-mission="clear" aria-pressed="false"><span class="missionMark" data-mark="clear">◇</span><strong>Make It Clear</strong><small>Help others see or hear your part.</small></button>
@@ -49,19 +49,19 @@
     </div>
     <div class="questPreview" aria-live="polite" aria-labelledby="previewTitle">
       <p class="questEyebrow">YOUR NEXT MOVE</p><h3 id="previewTitle">Act ✦ Cue Hunt</h3>
-      <p id="previewPrompt">Pick a scene and game to see what to try.</p>
+      <p id="previewPrompt">Pick a scene and a game. Your next move will show here.</p>
     </div>
   </section>
   <section class="questDashboard questAction" aria-labelledby="dashboardTitle">
     <div class="progressRing" id="progressRing" role="img" aria-label="0 of 3 practice days this week"><svg viewBox="0 0 100 100" aria-hidden="true" focusable="false"><circle class="ringTrack" cx="50" cy="50" r="43"></circle><circle class="ringFill" id="progressFill" cx="50" cy="50" r="43" stroke-dasharray="270.18" stroke-dashoffset="270.18"></circle></svg><span id="progressNumber">0/3</span></div>
     <div>
       <p class="questEyebrow">STEP 3</p><h2 id="dashboardTitle">Try your part</h2>
-      <p id="weeklyProgress">Your ring shows up to three practice days each week. A new week starts Monday.</p>
+      <p id="weeklyProgress">Practice on three days to fill your ring. It starts fresh on Monday.</p>
       <div class="streakWidget" id="streakWidget"><span class="streakFlame" aria-hidden="true">🔥</span><strong id="streakCount">0 days</strong><span id="streakStatus">Practice today to start your streak.</span></div>
       <button id="startQuest" class="btn questPlay" type="button" aria-controls="gameBoard">Play Cue Hunt <span aria-hidden="true">✦</span></button>
       <p class="questHint">Answer two short questions. Then pick how to try your part. Tap “I tried it!” to save today.</p>
       <div id="badgeShelf" class="badgeShelf" aria-label="Game badges"></div>
-      <p class="questHint">Badges show which games you tried. Your streak counts practice days. Progress stays on this device.</p>
+      <p class="questHint">Badges show the games you played. A streak counts days you practiced. This stays on this device.</p>
       <details id="craftHistory" class="craftHistory" hidden><summary>My recent practice</summary><ul id="craftHistoryList"></ul></details>
     </div>
   </section>
@@ -71,7 +71,7 @@
     <p id="gameSetup"></p><div class="round"><b id="roundLabel">WHAT WOULD YOU DO?</b><p id="roundOne"></p></div>
     <div id="answerChoices" class="answerChoices" role="group" aria-label="Choose an answer"></div>
     <p id="answerFeedback" class="answerFeedback" role="status" aria-live="polite"></p>
-    <button id="nextRound" class="btn primary" type="button" hidden>Try a new problem</button>
+    <button id="nextRound" class="btn primary" type="button" hidden>Next twist →</button>
     <div id="realMove" hidden><p id="roundTwo"></p>
       <fieldset class="craftChoice">
         <legend>Pick how to try it</legend>
@@ -80,17 +80,17 @@
         <label><input type="radio" name="craftLevel" value="3"> From memory</label>
       </fieldset>
       <div class="craftTask" aria-live="polite"><h3 id="craftTitle">Your next step</h3><p id="craftStep"></p></div>
-      <div id="lessonCard" class="lessonCard" hidden><p class="questEyebrow">TRY ONE SHORT ACTING IDEA</p><h3 id="lessonTitle"></h3><p id="lessonPrompt"></p>
-        <a id="lessonVideo" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">See the lesson in the video (optional) ↗</a>
+      <div id="lessonCard" class="lessonCard" hidden><p class="questEyebrow">BONUS ACTING TIP</p><h3 id="lessonTitle"></h3><p id="lessonPrompt"></p>
+        <a id="lessonVideo" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Watch the tip in a video (optional) ↗</a>
       </div>
       <button id="finishMission" class="btn questPlay" type="button">I tried it! <span aria-hidden="true">✦</span></button></div>
     <div id="rewardBurst" class="rewardBurst" aria-hidden="true"></div>
     <p id="gameResult" class="gameResult" role="status" aria-live="polite"></p>
     <div id="postQuestReflection" class="postQuestReflection" hidden>
-      <h3>Want to note one thing?</h3>
-      <p>What changed this time? Your practice day is saved. You can write one line or skip.</p>
-      <label for="postQuestNote">One thing I noticed (optional)</label>
-      <textarea id="postQuestNote" maxlength="280" rows="3" placeholder="A word, sound, move, or cue I tried…"></textarea>
+      <h3>What did you find?</h3>
+      <p>Your day is saved! What changed when you tried it? Write one note or skip.</p>
+      <label for="postQuestNote">My one note (optional)</label>
+      <textarea id="postQuestNote" maxlength="280" rows="3" placeholder="One thing I tried today…"></textarea>
       <div class="postQuestActions">
         <button id="skipPostQuest" class="btn" type="button">Skip</button>
         <button id="savePostQuest" class="btn primary" type="button">Save note</button>
@@ -100,8 +100,8 @@
     <button id="replayMission" class="btn" type="button" hidden>Play again</button>
     <button id="nextMission" class="btn primary" type="button" hidden>Next game →</button>
   </section>
-  <details class="questPanel questExtra" id="coachSection"><summary>For coaches: one quick tip (optional)</summary><div><p class="questEyebrow">AT REHEARSAL</p><h2 id="coachTitle">One quick tip</h2>
-    <p>You can play without this step. If you want a tip, show this page to a coach. They can mark one thing they saw and one thing to try next.</p>
+  <details class="questPanel questExtra" id="coachSection"><summary>Coach tip (if you want one)</summary><div><p class="questEyebrow">AT REHEARSAL</p><h2 id="coachTitle">One quick tip</h2>
+    <p>You can play without a coach. At rehearsal, ask for one tip. They can tell you what worked and what to try next.</p>
     <form id="coachForm">
       <label for="coachDate">Date</label><input id="coachDate" type="date" required>
       <label for="coachSkill">Which game?</label><select id="coachSkill"><option value="cue">Cue Hunt</option><option value="clear">Make It Clear</option><option value="pass">Pass It On</option></select>
@@ -109,21 +109,21 @@
         <label><input type="radio" name="coachLevel" value="working" required> Still working</label>
         <label><input type="radio" name="coachLevel" value="seen"> I saw it today</label>
       </fieldset>
-      <label for="coachNext">What should they try next?</label>
+      <label for="coachNext">What can they try next?</label>
       <select id="coachNext" required><option value="">Pick one…</option><option value="notice">Watch for the cue</option><option value="clear">Make it easier to see or hear</option><option value="together">Try with a partner</option></select>
       <button class="btn primary" type="submit">Save tip</button>
     </form><p id="coachStatus" role="status" aria-live="polite"></p>
     <h3>My tips</h3><div id="coachHistory" aria-live="polite">No tips yet.</div>
     <details id="oldChecks" hidden><summary>Old acting notes</summary><div id="oldHistory"></div></details>
-    <p class="questHint">Tips stay on this device. A coach cannot see them on another phone. You do not need a tip to play.</p>
+    <p class="questHint">Tips stay on this device. Your coach will not see them on another phone. You can play without a tip.</p>
     <button id="clearQuest" class="questClear" type="button">Erase my Show Quest play and tips on this device</button>
   </div></details>
-  <details class="questPanel questVideos" id="videosSection"><summary>More help for actors: videos (optional)</summary><div><h2 id="videosTitle">More for actors</h2>
-    <p>You can watch these videos to practice acting. Ask a grown-up before opening YouTube if you need help.</p>
+  <details class="questPanel questVideos" id="videosSection"><summary>Want an acting tip? Watch a video (optional)</summary><div><h2 id="videosTitle">More for actors</h2>
+    <p>Want a new acting idea? Try one video. Ask a grown-up before you open YouTube if you need help.</p>
     <ul><li><a href="https://youtu.be/dwMgvviP-Nw" target="_blank" rel="noopener noreferrer">Short acting tasks at home</a></li>
       <li><a href="https://www.youtube.com/watch?v=2RxOoOIXZ_c" target="_blank" rel="noopener noreferrer">Ways to make a role feel real</a></li>
       <li><a href="https://youtu.be/lKlpdl-vwQQ" target="_blank" rel="noopener noreferrer">How a small change helps a scene</a></li></ul>
-    <p>Use the current CHOSEN script and your leader's notes. For lights, sound, props, or other safety work, follow your leader's plan. If you are not sure when to start, ask.</p>
+    <p>Use your CHOSEN script and your leader's notes. For lights, sound, props, or safety work, follow your leader's plan. Not sure when to start? Ask.</p>
   </div></details>
 </main><footer><b>CHOSEN 2026</b><span>Broadway Church Production &amp; Dance System™</span></footer>
 </body></html>
