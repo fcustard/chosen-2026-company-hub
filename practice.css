@@ -115,3 +115,22 @@
 @keyframes questWin{from{opacity:0;transform:scale(.4) rotate(-25deg)}to{opacity:1;transform:scale(1) rotate(0)}}
 @media(max-width:650px){#nextMission,#replayMission{width:100%;margin:8px 0 0}}
 @media(prefers-reduced-motion:reduce){.gameBoard.completed::before{animation:none!important}}
+
+/* One clear path through setup and practice. */
+.questHero{margin-bottom:12px}
+.questSetup .setupGrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;align-items:start}
+.questSetup .setupScene,.questSetup .setupGame{min-width:0}
+.questSetup .setupLabel{font-weight:800;margin:14px 0 5px}
+.questSetup #sceneChoice{max-width:none}
+.questSetup #sceneTask{font-size:1.05rem;line-height:1.5;margin:16px 0}
+.questSetup .dailyLinks{display:flex;flex-wrap:wrap;gap:10px 18px;margin:10px 0;font-weight:800}
+.questSetup .missionGrid{grid-template-columns:1fr;gap:8px}
+.questSetup .missionCard{display:grid;grid-template-columns:36px 1fr;align-items:center;column-gap:8px;min-height:72px}
+.questSetup .missionCard .missionMark{grid-row:span 2}
+.questSetup .missionCard small{grid-column:2}
+.questSetup .missionProgress{font-size:.88rem;margin:12px 0 0}
+.questAction .questPlay{margin:12px 0 7px}
+.questAction .badgeShelf{margin-top:16px}
+.questSetup [hidden]{display:none!important}
+@media(max-width:760px){.questSetup .setupGrid{grid-template-columns:1fr;gap:12px}.questSetup .setupGame{border-top:1px solid #d9d3c6;padding-top:8px}}
+@media(max-width:650px){.questAction .questPlay{width:100%}}
