@@ -132,6 +132,21 @@
     '11': ['No Room', 'Joseph asks for a room. The town is full.'],
     '12': ['Good News / Shepherds / Finale', 'Shepherds hear the good news and come to the manger.']
   };
+  // Ask one small story question without inventing lines, moves, or cues.
+  const SCENE_HOOKS = {
+    '01': 'Nazareth is full of life. What does your part add?',
+    '02': 'Mary and Joseph talk about a home. What do they hope for?',
+    '03': 'Gabriel brings Mary big news. What changes here?',
+    '04': 'Mary has a secret. Who knows it now?',
+    '05': 'Joseph builds with his friends. How do they help each other?',
+    '06': 'Mary tells Joseph the truth. How does he take the news?',
+    '07': 'Mary and Joseph are apart. What does each one need?',
+    '08': 'Mary and Joseph speak again. What has changed?',
+    '09': 'The children dance. The town talks. How does the mood change?',
+    '10': 'Mary and Joseph take a long road. What is hard for them?',
+    '11': 'The town is full. Where can Mary and Joseph go?',
+    '12': 'The shepherds hear good news. Who goes to the manger?'
+  };
   function sceneMoment(scene) {
     const item = scene && SCENE_MOMENTS[scene.scene];
     return item && item[0] === scene.title ? item[1] : '';
@@ -178,241 +193,615 @@
       pass: ['Who needs your work next?', 'What do they need to know?', ['If something is missing, tell your leader.', 'If it is not ready, tell the team early.'], 'Say what is ready and what is not. Tell your leader if you need help.']
     }
   };
+  // Each answer has a short reason. The correct choice has no wrong-answer note.
   const CHOICES = {
     "act": {
       "cue": [
-        "Your friend pauses before your part. When do you start?",
+        "Your friend stops for a breath. Is it your turn?",
         [
-          "Start your part right away.",
-          "Wait for the line or move before yours.",
-          "Watch the crowd for a sign."
+          "Start when the room gets quiet.",
+          "Wait for the line or move your team picked.",
+          "Start after you count to three."
         ],
         1,
-        "Yes. Wait for your friend's line or move. Then start."
+        "You found the cue. Now try your part after it.",
+        [
+          "A quiet room can fool you. Wait for your cue.",
+          null,
+          "A count may change. Watch for your cue."
+        ]
       ],
       "clear": [
-        "You have no line here. How can we see what you feel?",
+        "You hear big news, but you have no line. What helps us see how you feel?",
         [
-          "Add lots of new moves.",
-          "Make one clear look or move from your scene.",
-          "Stand with your back to the story."
+          "Add a new line so we hear you.",
+          "Use one look or move from your scene.",
+          "Make a bigger move than your team set."
         ],
         1,
-        "Yes. One clear look or move can tell the story."
+        "One clear look can tell the story.",
+        [
+          "A new line can change the script. Try a look.",
+          null,
+          "A big new move can pull our eyes from the story."
+        ]
       ],
       "pass": [
-        "The next actor is coming in. What helps them?",
+        "Your friend needs a moment before they speak. What helps?",
         [
-          "Keep watching and give them room.",
-          "Add an extra line.",
-          "Leave before your part ends."
+          "Watch them and give them time.",
+          "Say your next line to fill the quiet.",
+          "Leave as soon as your line ends."
         ],
         0,
-        "Yes. Listen and give them room."
+        "You left room for your friend and stayed in the scene.",
+        [
+          null,
+          "The quiet may be part of their moment. Listen first.",
+          "Stay with the scene until it is time to go."
+        ]
       ]
     },
     "sing": {
       "cue": [
-        "The music starts softly. When do you sing?",
+        "The song starts softly. When is it your turn to sing?",
         [
-          "Guess and enter early.",
-          "Listen for the word or count your team picked.",
-          "Wait until everyone else is done."
+          "Sing as soon as you hear music.",
+          "Wait for the word or count your team picked.",
+          "Sing after the person beside you starts."
         ],
         1,
-        "Yes. Wait for the word or count that tells you to sing."
+        "You found your start. Now sing with the track.",
+        [
+          "The first sound may not be your cue.",
+          null,
+          "Your friend may have a different part. Find your cue."
+        ]
       ],
       "clear": [
-        "The words are hard to hear. What do you try?",
+        "The words get lost in the music. What can you try?",
         [
-          "Push your voice harder.",
-          "Sing faster.",
-          "Sing one short phrase gently with clear words."
+          "Sing faster to get the words out.",
+          "Push your voice to be louder.",
+          "Sing one short part with clear words and an easy voice."
         ],
         2,
-        "Yes. Clear words help tell the story. Do not strain your voice."
+        "Clear words help tell the story. Keep your voice easy.",
+        [
+          "Fast words can be hard to hear.",
+          "Pushing can hurt your voice. Try clear words.",
+          null
+        ]
       ],
       "pass": [
-        "A new singer joins your group. What helps them?",
+        "A new singer joins after you. How do you help?",
         [
-          "Sing over them.",
-          "Listen and sing with the group.",
-          "Stop listening to the music."
+          "End with your group, then listen.",
+          "Hold your note longer to help them hear it.",
+          "Stop early so they have more time."
         ],
-        1,
-        "Yes. Listen as you sing. Stay with the group."
+        0,
+        "Your clean end makes room for their start.",
+        [
+          null,
+          "A longer note may cover their first word.",
+          "Stopping early can make your group lose the beat."
+        ]
       ]
     },
     "dance": {
       "cue": [
-        "The music is quiet before your move. When do you start?",
+        "The music gets soft before your move. What tells you to start?",
         [
+          "Move as soon as the song gets quiet.",
           "Use the count or move your team picked.",
-          "Rush in so you are not late.",
-          "Add a new move to fill the gap."
-        ],
-        0,
-        "Yes. Start on the count your team learned."
-      ],
-      "clear": [
-        "People cannot see your move well. What helps?",
-        [
-          "Show a clear start and end.",
-          "Make up a much bigger move.",
-          "Speed through it."
-        ],
-        0,
-        "Yes. A clear start and end help people see your part."
-      ],
-      "pass": [
-        "Another dancer needs the space beside you. What do you do?",
-        [
-          "Take more of their space.",
-          "Stay on the path your team learned.",
-          "Invent a new place to stand."
+          "Follow the first dancer who moves."
         ],
         1,
-        "Yes. Stay in your space so all can move safely."
+        "You found your cue. Now try your move in safe space.",
+        [
+          "The soft sound may come before your count.",
+          null,
+          "That dancer may have a new part. Know your count."
+        ]
+      ],
+      "clear": [
+        "Your move is hard to see from far away. What can help?",
+        [
+          "Make the move your team set have a clear start and end.",
+          "Make the move much bigger on your own.",
+          "Start early so people have more time to see it."
+        ],
+        0,
+        "A clear start and end make your move easy to see.",
+        [
+          null,
+          "A new big move could crowd the next dancer.",
+          "An early move can break the group's timing."
+        ]
+      ],
+      "pass": [
+        "Another dancer needs the space beside you. What helps?",
+        [
+          "Move to a new spot on your own.",
+          "Stay on the path your team learned.",
+          "Speed up so they can get by."
+        ],
+        1,
+        "You kept the path clear for the next dancer.",
+        [
+          "A new spot may block someone else's path.",
+          null,
+          "A rush can put you too close to a friend."
+        ]
       ]
     },
     "crew": {
       "cue": [
-        "You are not sure when to start. What do you do?",
+        "It is almost time for your task, but you missed the cue. What now?",
         [
-          "Guess and start the task.",
-          "Ask your leader to check the plan.",
-          "Let someone else guess."
+          "Guess from the time on the clock.",
+          "Ask your leader to check the current plan.",
+          "Ask an actor to pick a time for you."
         ],
         1,
-        "Yes. Stop and ask your leader before you start."
+        "You checked the plan with your leader. That keeps the team safe.",
+        [
+          "The show may run at a new speed. Do not guess.",
+          null,
+          "An actor may not know your cue. Ask your leader."
+        ]
       ],
       "clear": [
-        "The next team needs to know if a show item is ready. What do you say?",
+        "A show item may not be ready. What does the team need to hear?",
         [
-          "Say it is ready without checking.",
-          "Tell the right person what is ready.",
-          "Change the plan without telling anyone."
+          "Say it is ready so no one has to wait.",
+          "Tell the right person what you checked and what is still missing.",
+          "Wait until the scene starts to say something."
         ],
         1,
-        "Yes. Tell the next team what is ready."
+        "A true update helps the team make a safe plan.",
+        [
+          "Saying it is ready could hide a problem.",
+          null,
+          "Tell the team early. They may need time to help."
+        ]
       ],
       "pass": [
-        "A show item is not ready. What do you do?",
+        "The next crew member needs your work, but one part is missing. What helps?",
         [
-          "Hide the problem.",
-          "Change the plan on your own.",
-          "Tell your leader now and ask what to do."
+          "Let them find out when they get there.",
+          "Fix it with a new plan you made alone.",
+          "Tell your leader and the next person what is missing."
         ],
         2,
-        "Yes. Tell your leader early so the team can stay safe."
+        "You told the team early. Now follow your leader's plan.",
+        [
+          "They need to know before their turn.",
+          "A new plan needs your leader's okay.",
+          null
+        ]
       ]
     }
   };
   // A twist describes the problem only. Its answer stays in the choices.
   // Each replay alternates between two situations for a given job and skill.
+  // A twist gives a new problem. Its last list explains each wrong choice.
   const TWISTS = {
-    act: {
-      cue: [
-        ['Your friend pauses longer than usual. What tells you to start?',
-          ['The look or move your team picked.', 'A laugh from the crowd.', 'A number you count in your head.'], 0,
-          'Yes. You waited for the right look or move.', 'A guess may make you start too soon.'],
-        ['Your friend says the last line in a new way. You are next. What helps?',
-          ['Say your line on the old count.', 'Listen for the line or move that starts your part.', 'Add a new line.'], 1,
-          'Yes. You listened and stayed in the story.', 'A count or new line may make you start at the wrong time.']
+    "act": {
+      "cue": [
+        [
+          "Your friend pauses longer than usual. What tells you to start?",
+          [
+            "The look or move your team picked.",
+            "A laugh from the crowd.",
+            "A number you count in your head."
+          ],
+          0,
+          "Yes. You waited for the right look or move.",
+          "A guess may make you start too soon.",
+          [
+            null,
+            "A laugh is not a cue from your team.",
+            "The pause may be longer today. Listen for your cue."
+          ]
+        ],
+        [
+          "Your friend says the last line in a new way. You are next. What helps?",
+          [
+            "Say your line on the old count.",
+            "Listen for the line or move that starts your part.",
+            "Add a new line."
+          ],
+          1,
+          "Yes. You listened and stayed in the story.",
+          "A count or new line may make you start at the wrong time.",
+          [
+            "The words may take more time today. Listen first.",
+            null,
+            "A new line could change the script."
+          ]
+        ]
       ],
-      clear: [
-        ['Someone is speaking. You have no line. You hear big news. What can you do?',
-          ['Give them one clear look.', 'Make a big new move while they speak.', 'Turn away from the scene.'], 0,
-          'Yes. A small look shows how you feel.', 'A big move may take our eyes off the person speaking.'],
-        ['People hear your line, but cannot tell how you feel. What can you try?',
-          ['Say all the words faster.', 'Mean one word and look at your friend.', 'Make up a new speech.'], 1,
-          'Yes. One small choice helps us see how you feel.', 'More speed or new words may hide how you feel.']
+      "clear": [
+        [
+          "Someone is speaking. You have no line. You hear big news. What can you do?",
+          [
+            "Give them one clear look.",
+            "Make a big new move while they speak.",
+            "Turn away from the scene."
+          ],
+          0,
+          "Yes. A small look shows how you feel.",
+          "A big move may take our eyes off the person speaking.",
+          [
+            null,
+            "A new big move could hide the person who speaks.",
+            "Turn back to the story so we can see you listen."
+          ]
+        ],
+        [
+          "People hear your line, but cannot tell how you feel. What can you try?",
+          [
+            "Say all the words faster.",
+            "Mean one word and look at your friend.",
+            "Make up a new speech."
+          ],
+          1,
+          "Yes. One small choice helps us see how you feel.",
+          "More speed or new words may hide how you feel.",
+          [
+            "More speed can hide the feeling.",
+            null,
+            "A new speech can change the scene."
+          ]
+        ]
       ],
-      pass: [
-        ['Your friend needs a moment before your next line. What helps?',
-          ['Look at them and give them time.', 'Look away and leave.', 'Add a line right away.'], 0,
-          'Yes. You gave your friend time and stayed in the story.', 'A new line or a quick exit takes away their moment.'],
-        ['An actor comes through the door as you walk by. What do you do?',
-          ['Stay on the path your team learned and watch for them.', 'Change where you walk on your own.', 'Stand in the door so people see you.'], 0,
-          'Yes. You gave the next actor room.', 'A new move may block the door.']
+      "pass": [
+        [
+          "Your friend needs a moment before your next line. What helps?",
+          [
+            "Look at them and give them time.",
+            "Look away and leave.",
+            "Add a line right away."
+          ],
+          0,
+          "Yes. You gave your friend time and stayed in the story.",
+          "A new line or a quick exit takes away their moment.",
+          [
+            null,
+            "Leaving early can take away their moment.",
+            "A new line may cut off your friend."
+          ]
+        ],
+        [
+          "An actor comes through the door as you walk by. What do you do?",
+          [
+            "Stay on the path your team learned and watch for them.",
+            "Change where you walk on your own.",
+            "Stand in the door so people see you."
+          ],
+          0,
+          "Yes. You gave the next actor room.",
+          "A new move may block the door.",
+          [
+            null,
+            "A new path may block the door.",
+            "The next actor needs that door."
+          ]
+        ]
       ]
     },
-    sing: {
-      cue: [
-        ['The music is soft before your first word. What tells you to sing?',
-          ['The sound or count your team picked.', 'A guess that enough time has passed.', 'Someone in the crowd moving.'], 0,
-          'Yes. You heard the right sound or count.', 'A guess may make you sing too soon.'],
-        ['The song starts after a spoken line. The actor waits a long time. When do you sing?',
-          ['At the same time as yesterday.', 'After the line and the music cue your team picked.', 'When you feel ready.'], 1,
-          'Yes. You listened to the actor and the music.', 'Wait for the line and music. The time may change.']
+    "sing": {
+      "cue": [
+        [
+          "The music is soft before your first word. What tells you to sing?",
+          [
+            "The sound or count your team picked.",
+            "A guess that enough time has passed.",
+            "Someone in the crowd moving."
+          ],
+          0,
+          "Yes. You heard the right sound or count.",
+          "A guess may make you sing too soon.",
+          [
+            null,
+            "Time can feel slow when music is soft. Find your cue.",
+            "The crowd does not set your song cue."
+          ]
+        ],
+        [
+          "The song starts after a spoken line. The actor waits a long time. When do you sing?",
+          [
+            "At the same time as yesterday.",
+            "After the line and the music cue your team picked.",
+            "When you feel ready."
+          ],
+          1,
+          "Yes. You listened to the actor and the music.",
+          "Wait for the line and music. The time may change.",
+          [
+            "Yesterday's time may be different today.",
+            null,
+            "Feeling ready is good. Listen for your cue too."
+          ]
+        ]
       ],
-      clear: [
-        ['In “What Will He Be?” one part is hard to hear. What can you try?',
-          ['Push your voice louder.', 'Sing that part softly and say each word clearly.', 'Skip the hard words.'], 1,
-          'Yes. We can hear the words, and your voice stays easy.', 'Loud singing or lost words can hide the story.'],
-        ['We cannot hear the last word you sing. What can help?',
-          ['Finish the word when your team planned.', 'Add a long note on your own.', 'Sing all the words faster.'], 0,
-          'Yes. We heard the whole word.', 'A new note or more speed may hide the word.']
+      "clear": [
+        [
+          "One part of your song is hard to hear. What can you try?",
+          [
+            "Push your voice louder.",
+            "Sing that part softly and say each word clearly.",
+            "Skip the hard words."
+          ],
+          1,
+          "Yes. We can hear the words, and your voice stays easy.",
+          "Loud singing or lost words can hide the story.",
+          [
+            "Pushing your voice can make singing hard.",
+            null,
+            "The words are part of the story. Keep them."
+          ]
+        ],
+        [
+          "We cannot hear the last word you sing. What can help?",
+          [
+            "Finish the word when your team planned.",
+            "Add a long note on your own.",
+            "Sing all the words faster."
+          ],
+          0,
+          "Yes. We heard the whole word.",
+          "A new note or more speed may hide the word.",
+          [
+            null,
+            "A new long note may cover the next part.",
+            "Fast words may be hard to hear."
+          ]
+        ]
       ],
-      pass: [
-        ['Another singer sings next. What helps them?',
-          ['End your part with the group, then make room.', 'Sing over their first word.', 'Stop before your part ends.'], 0,
-          'Yes. Your end helps the next singer start.', 'Singing over them or stopping early can make it hard for them.'],
-        ['Your group is louder than the one singer in front. What helps?',
-          ['Keep singing as loud as you can.', 'Listen and sing at the level your leader taught.', 'Stop without a cue.'], 1,
-          'Yes. You made room to hear the one singer.', 'Your group needs to follow the plan for this song.']
+      "pass": [
+        [
+          "Another singer sings next. What helps them?",
+          [
+            "End your part with the group, then make room.",
+            "Sing over their first word.",
+            "Stop before your part ends."
+          ],
+          0,
+          "Yes. Your end helps the next singer start.",
+          "Singing over them or stopping early can make it hard for them.",
+          [
+            null,
+            "Their first word needs room.",
+            "Stopping early can throw off your group."
+          ]
+        ],
+        [
+          "Your group is louder than the one singer in front. What helps?",
+          [
+            "Keep singing as loud as you can.",
+            "Listen and sing at the level your leader taught.",
+            "Stop without a cue."
+          ],
+          1,
+          "Yes. You made room to hear the one singer.",
+          "Your group needs to follow the plan for this song.",
+          [
+            "Your sound may cover the one singer.",
+            null,
+            "Stopping alone could break the group's song."
+          ]
+        ]
       ]
     },
-    dance: {
-      cue: [
-        ['In the Scene 9 dance, the music gets soft. What tells you to move?',
-          ['The count or move your team picked.', 'The first quiet sound.', 'Another dancer guessing.'], 0,
-          'Yes. You used the count your team learned.', 'The soft music may not be your time to start.'],
-        ['A dancer before you moves slowly. What do you do?',
-          ['Rush through their space.', 'Stay in your place and wait for your cue.', 'Make up a new step.'], 1,
-          'Yes. You waited in a safe place.', 'A rush or new step may put someone in your way.']
+    "dance": {
+      "cue": [
+        [
+          "Your dance music gets soft. What tells you to move?",
+          [
+            "The count or move your team picked.",
+            "The first quiet sound.",
+            "Another dancer guessing."
+          ],
+          0,
+          "Yes. You used the count your team learned.",
+          "The soft music may not be your time to start.",
+          [
+            null,
+            "The first quiet sound may come before your count.",
+            "A guess from a friend is not your cue."
+          ]
+        ],
+        [
+          "A dancer before you moves slowly. What do you do?",
+          [
+            "Rush through their space.",
+            "Stay in your place and wait for your cue.",
+            "Make up a new step."
+          ],
+          1,
+          "Yes. You waited in a safe place.",
+          "A rush or new step may put someone in your way.",
+          [
+            "A rush could crowd the dancer ahead.",
+            null,
+            "A new step can change the path."
+          ]
+        ]
       ],
-      clear: [
-        ['People in the back cannot see your arm move. What helps?',
-          ['Show its start and end as your team learned.', 'Make a new big move near a dancer.', 'Move before the count.'], 0,
-          'Yes. A clear start and end help all see it.', 'A new or early move may get in someone’s way.'],
-        ['Your group stops together, but your end is hard to see. What do you try?',
-          ['Hold the end pose your team learned.', 'Keep moving after all stop.', 'Move into another dancer’s place.'], 0,
-          'Yes. Hold still so we can see the whole group.', 'More moves can pull our eyes from the group.']
+      "clear": [
+        [
+          "People in the back cannot see your arm move. What helps?",
+          [
+            "Show its start and end as your team learned.",
+            "Make a new big move near a dancer.",
+            "Move before the count."
+          ],
+          0,
+          "Yes. A clear start and end help all see it.",
+          "A new or early move may get in someone’s way.",
+          [
+            null,
+            "A big new move could crowd a friend.",
+            "The group set a count for this move."
+          ]
+        ],
+        [
+          "Your group stops together, but your end is hard to see. What do you try?",
+          [
+            "Hold the end pose your team learned.",
+            "Keep moving after all stop.",
+            "Move into another dancer’s place."
+          ],
+          0,
+          "Yes. Hold still so we can see the whole group.",
+          "More moves can pull our eyes from the group.",
+          [
+            null,
+            "More moves may hide the group's last pose.",
+            "That space belongs to another dancer."
+          ]
+        ]
       ],
-      pass: [
-        ['A dancer walks behind you next. What do you do?',
-          ['Stay on the path your team learned.', 'Step in their way to help.', 'Stop in a new spot.'], 0,
-          'Yes. You made room for the next dancer.', 'A new path may block them or make them trip.'],
-        ['Your group moves to new places. One dancer is late. What helps?',
-          ['Run to a new spot.', 'Keep your count and go to your place.', 'Pull them into place.'], 1,
-          'Yes. You did your part and stayed safe.', 'A new move may make it less safe for the group.']
+      "pass": [
+        [
+          "A dancer walks behind you next. What do you do?",
+          [
+            "Stay on the path your team learned.",
+            "Step in their way to help.",
+            "Stop in a new spot."
+          ],
+          0,
+          "Yes. You made room for the next dancer.",
+          "A new path may block them or make them trip.",
+          [
+            null,
+            "Stepping in their way could block the path.",
+            "A new spot may block another path."
+          ]
+        ],
+        [
+          "Your group moves to new places. One dancer is late. What helps?",
+          [
+            "Run to a new spot.",
+            "Keep your count and go to your place.",
+            "Pull them into place."
+          ],
+          1,
+          "Yes. You did your part and stayed safe.",
+          "A new move may make it less safe for the group.",
+          [
+            "A new spot may put someone in your way.",
+            null,
+            "Pulling a friend could make them fall."
+          ]
+        ]
       ]
     },
-    crew: {
-      cue: [
-        ['It is almost time to move the set. You are not sure when. What do you do?',
-          ['Move it now.', 'Ask your leader when to start.', 'Ask an actor to guess.'], 1,
-          'Yes. You asked before moving the set.', 'A guess may put people or the set in danger.'],
-        ['The plan changed, but your paper shows the old plan. What do you do?',
-          ['Use the old plan.', 'Pick the plan you like.', 'Ask your leader for the new plan.'], 2,
-          'Yes. You checked the new plan.', 'Old notes or guesses may start the wrong task.']
+    "crew": {
+      "cue": [
+        [
+          "It is almost time to move the set. You are not sure when. What do you do?",
+          [
+            "Move it now.",
+            "Ask your leader when to start.",
+            "Ask an actor to guess."
+          ],
+          1,
+          "Yes. You asked before moving the set.",
+          "A guess may put people or the set in danger.",
+          [
+            "Moving early could put someone in the way.",
+            null,
+            "An actor may not know the set cue."
+          ]
+        ],
+        [
+          "The plan changed, but your paper shows the old plan. What do you do?",
+          [
+            "Use the old plan.",
+            "Pick the plan you like.",
+            "Ask your leader for the new plan."
+          ],
+          2,
+          "Yes. You checked the new plan.",
+          "Old notes or guesses may start the wrong task.",
+          [
+            "Old notes may miss a new change.",
+            "A guess is not the current plan.",
+            null
+          ]
+        ]
       ],
-      clear: [
-        ['A show item for the Bethlehem door is missing. What do you say?',
-          ['“It is all ready.”', '“The item is missing. I will tell our leader.”', 'Say nothing until the scene starts.'], 1,
-          'Yes. A true update gives the team time to help.', 'A wrong or late update may leave the next person stuck.'],
-        ['Your leader asks if the set is ready. One piece is still being checked. What do you say?',
-          ['“It is ready.”', 'Tell the crowd you are not sure.', '“One piece is still being checked.”'], 2,
-          'Yes. You told your leader what is still being checked.', 'Your leader needs to know before the next step.']
+      "clear": [
+        [
+          "A show item for the next scene is missing. What do you say?",
+          [
+            "“It is all ready.”",
+            "“The item is missing. I will tell our leader.”",
+            "Say nothing until the scene starts."
+          ],
+          1,
+          "Yes. A true update gives the team time to help.",
+          "A wrong or late update may leave the next person stuck.",
+          [
+            "That could hide a missing item.",
+            null,
+            "The team needs time to help before the scene."
+          ]
+        ],
+        [
+          "Your leader asks if the set is ready. One piece is still being checked. What do you say?",
+          [
+            "“It is ready.”",
+            "Tell the crowd you are not sure.",
+            "“One piece is still being checked.”"
+          ],
+          2,
+          "Yes. You told your leader what is still being checked.",
+          "Your leader needs to know before the next step.",
+          [
+            "A piece is still being checked. Tell the truth.",
+            "Your leader needs this update, not the crowd.",
+            null
+          ]
+        ]
       ],
-      pass: [
-        ['The next crew member needs your work. One thing is missing. What helps?',
-          ['Tell your leader and the next person what is missing.', 'Let them find out later.', 'Make up a new safety step.'], 0,
-          'Yes. You told the team what they need to know.', 'Tell the team what is wrong. Do not make up a new safety step.'],
-        ['A lantern is not ready for the next scene. What should you do?',
-          ['Put it on stage anyway.', 'Tell your leader now and follow the safe backup plan.', 'Ask an actor to fix it.'], 1,
-          'Yes. Your leader can use the backup plan.', 'Do not put an item on stage if it is not ready.']
+      "pass": [
+        [
+          "The next crew member needs your work. One thing is missing. What helps?",
+          [
+            "Tell your leader and the next person what is missing.",
+            "Let them find out later.",
+            "Make up a new safety step."
+          ],
+          0,
+          "Yes. You told the team what they need to know.",
+          "Tell the team what is wrong. Do not make up a new safety step.",
+          [
+            null,
+            "The next person needs to know now.",
+            "Only your leader can set a new safety step."
+          ]
+        ],
+        [
+          "A lantern is not ready for the next scene. What should you do?",
+          [
+            "Put it on stage anyway.",
+            "Tell your leader now and follow the safe backup plan.",
+            "Ask an actor to fix it."
+          ],
+          1,
+          "Yes. Your leader can use the backup plan.",
+          "Do not put an item on stage if it is not ready.",
+          [
+            "An item that is not ready could cause a problem.",
+            null,
+            "Ask your leader to handle show items."
+          ]
+        ]
       ]
     }
   };
@@ -746,7 +1135,8 @@
     $('#gameBoard').hidden = false;
     $('#gameTitle').textContent = NAMES[name];
     const scene = scenesForPerson().find(item => item.scene === chosenScene);
-    $('#gameSetup').textContent = (sceneMoment(scene) ? `Story: ${sceneMoment(scene)} ` : '') +
+    const storyQuestion = sceneMoment(scene) ? SCENE_HOOKS[scene.scene] : '';
+    $('#gameSetup').textContent = (storyQuestion ? storyQuestion + ' ' : '') +
       'Two quick picks. Miss one? Try again.';
     $('#gameResult').textContent = '';
     $('#replayMission').hidden = true;
@@ -787,7 +1177,8 @@
       button.textContent = option;
       button.addEventListener('click', () => {
         if (index !== correct) {
-          $('#answerFeedback').textContent = (challenge[4] ||
+          const wrongNotes = Array.isArray(challenge[4]) ? challenge[4] : challenge[5];
+          $('#answerFeedback').textContent = (wrongNotes?.[index] || challenge[4] ||
             'That may make it harder for the next person.') + ' Try again.';
           $('#answerFeedback').className = 'answerFeedback isWrong';
           playMotion($('#answerFeedback'), 'feedbackPop');
