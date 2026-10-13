@@ -148,3 +148,16 @@
 .questSetup .questPreview .questEyebrow{margin:0 0 5px;color:#205e41}
 .questSetup .questPreview h3{margin:0 0 6px;color:#173a2b;font:700 1.25rem/1.25 Georgia,serif}
 .questSetup .questPreview p:last-child{margin:0;line-height:1.5}
+
+/* A short craft step after the two game choices. Extra reflection stays optional. */
+#realMove .craftChoice,#realMove .craftReflect fieldset{margin:12px 0;padding:12px 14px;border:1px solid #a8cbb3;background:#fff;border-radius:12px}
+#realMove .craftChoice label,#realMove .craftReflect label{display:flex;align-items:center;gap:9px;margin:4px 0;padding:5px 0;min-height:44px;color:#173a2b}
+#realMove .craftChoice input,#realMove .craftReflect input{accent-color:#207554;flex:none}
+#realMove .craftTask{margin:12px 0;padding:14px 16px;border-left:4px solid #24835d;border-radius:9px;background:#f8fffa}
+#realMove .craftTask h3{margin:0 0 6px;font:700 1.2rem/1.25 Georgia,serif}
+#realMove .craftTask p{margin:0;line-height:1.5}
+#realMove .craftReflect{margin:10px 0 18px}
+#realMove .craftReflect summary,.craftHistory summary{cursor:pointer;min-height:44px;padding:8px 0;font-weight:800}
+.craftHistory{margin-top:10px;border-top:1px solid rgba(255,255,255,.35)}
+.craftHistory ul{padding-left:20px;margin:4px 0 10px}
+.craftHistory li{padding:6px 0;line-height:1.35}
