@@ -425,7 +425,7 @@
   let round = 0;
   let variation = 0;
   let craftLevel = 1;
-  let craftFeeling = '';
+  let lastSessionAt = '';
   let currentPerson = null;
   let publishedScenes = [];
   let publishedTracks = [];
@@ -698,7 +698,8 @@
       const scene = /^\d{2}$/.test(String(entry.scene || '')) ? `Scene ${Number(entry.scene)} · ` : '';
       const mode = CRAFT_LEVELS[entry.level] || 'Practice try';
       const feeling = CRAFT_FEELINGS[entry.feeling];
-      item.textContent = `${dayKey(entry.at)} · ${scene}${NAMES[entry.mission] || 'Game'} · ${mode}${feeling ? ' · ' + feeling : ''}`;
+      const note = typeof entry.note === 'string' ? entry.note.replace(/\s+/g, ' ').trim().slice(0, 280) : '';
+      item.textContent = `${dayKey(entry.at)} · ${scene}${NAMES[entry.mission] || 'Game'} · ${mode}${feeling ? ' · ' + feeling : ''}${note ? ' · Note: ' + note : ''}`;
       list.append(item);
     }
   }
@@ -725,10 +726,10 @@
     round = 0;
     variation = playsFor(name) % 2;
     craftLevel = 1;
-    craftFeeling = '';
+    lastSessionAt = '';
     document.querySelectorAll('input[name="craftLevel"]').forEach(input => { input.checked = input.value === '1'; });
-    document.querySelectorAll('input[name="craftFeeling"]').forEach(input => { input.checked = false; });
-    $('#craftReflect').open = false;
+    $('#postQuestReflection').hidden = true;
+    $('#postQuestNote').value = '';
     $('#gameBoard').hidden = false;
     $('#gameTitle').textContent = NAMES[name];
     const scene = scenesForPerson().find(item => item.scene === chosenScene);
@@ -863,20 +864,22 @@
     craftLevel = Number(input.value);
     renderCraftStep();
   }));
-  document.querySelectorAll('input[name="craftFeeling"]').forEach(input => input.addEventListener('change', () => {
-    if (input.checked) craftFeeling = input.value;
-  }));
   $('#finishMission').addEventListener('click', () => {
     if (!mission || round !== 1 || $('#realMove').hidden) return;
     const chosen = { cue: 'notice', clear: 'clear', pass: 'together' }[mission];
     const data = player();
     const paths = { ...(data.paths || {}) };
     paths[path] = { ...(paths[path] || {}), [mission]: playsFor(mission) + 1 };
-    update({ paths, ...recordedPractice(data, { at: new Date().toISOString(), path, mission,
-      scene: chosenScene || null, level: craftLevel, ...(craftFeeling ? { feeling: craftFeeling } : {}) }), nextMove: chosen });
-    $('#gameResult').textContent = 'Nice work! Today counts toward your streak. ' +
-      (craftFeeling ? 'You noticed: ' + CRAFT_FEELINGS[craftFeeling] + '. ' : '') +
-      'Next time: ' + NEXT[chosen] + '.';
+    const at = new Date().toISOString();
+    update({ paths, ...recordedPractice(data, { at, path, mission,
+      scene: chosenScene || null, level: craftLevel }), nextMove: chosen });
+    lastSessionAt = at;
+    $('#gameResult').textContent = 'Nice work! Today counts toward your streak. Next time: ' + NEXT[chosen] + '.';
+    $('#postQuestNote').value = '';
+    $('#postQuestReflection').hidden = false;
+    $('#postQuestReflection').classList.remove('reveal');
+    void $('#postQuestReflection').offsetWidth;
+    $('#postQuestReflection').classList.add('reveal');
     $('#realMove').hidden = true;
     $('#answerChoices').replaceChildren();
     $('#gameTitle').textContent = NAMES[mission] + ' complete!';
@@ -885,6 +888,28 @@
     $('#replayMission').textContent = 'Play again with a new problem';
     $('#nextMission').hidden = false;
     celebrate();
+  });
+  function closePostQuestReflection() {
+    $('#postQuestReflection').hidden = true;
+    $('#postQuestNote').value = '';
+    lastSessionAt = '';
+    $('#replayMission').focus();
+  }
+  $('#skipPostQuest').addEventListener('click', closePostQuestReflection);
+  $('#savePostQuest').addEventListener('click', () => {
+    const note = $('#postQuestNote').value.trim().slice(0, 280);
+    if (note && lastSessionAt) {
+      const data = player();
+      const plays = Array.isArray(data.plays) ? [...data.plays] : [];
+      const index = plays.findIndex(entry => entry?.at === lastSessionAt && entry.path === path && entry.mission === mission);
+      if (index >= 0) {
+        plays[index] = { ...plays[index], note };
+        update({ plays });
+        $('#gameResult').textContent += storageWorks
+          ? ' Note saved on this device.' : ' Note saved for now. It may go away when you close this page.';
+      }
+    }
+    closePostQuestReflection();
   });
   $('#replayMission').addEventListener('click', () => start(mission));
   $('#nextMission').addEventListener('click', () => {
