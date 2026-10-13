@@ -7,6 +7,28 @@
   const OLD_KEY = 'chosen2026-character-quest-v1';
   const NAMES = { cue: 'Cue Hunt', clear: 'Make It Clear', pass: 'Pass It On' };
   const NEXT = { notice: 'Watch for the cue', clear: 'Make it easier to see or hear', together: 'Try with a partner' };
+  const SCENE_MOMENTS = {
+    '01': ['Welcome to Nazareth', 'Nia and Simon show us the village of Nazareth.'],
+    '02': ['Mary & Joseph / My Beloved', 'Mary and Joseph talk about the home they hope to share.'],
+    '03': ['Gabriel / Chosen', 'Gabriel brings Mary news that changes her life.'],
+    '04': ['The Secret', 'Mary tells her friends a secret.'],
+    '05': ['Brotherhood', 'Joseph works with his friends on the table.'],
+    '06': ['Mary Tells Joseph / It’s Not Mine', 'Mary tells Joseph the truth. He struggles to believe her.'],
+    '07': ['Two Roads of Faith', 'Mary stays with Elizabeth. Joseph faces his own choice.'],
+    '08': ['Reunion / Still Yours', 'Joseph comes to Mary. They speak again.'],
+    '09': ['What Will He Be? / The Town Turns', 'The children dance. The town talks about Mary and Joseph.'],
+    '10': ['The Census and the Journey', 'Mary and Joseph leave Nazareth for Bethlehem.'],
+    '11': ['No Room', 'Joseph asks for a room. The town is full.'],
+    '12': ['Good News / Shepherds / Finale', 'Shepherds hear the good news and come to the manger.']
+  };
+  function sceneMoment(scene) {
+    const item = scene && SCENE_MOMENTS[scene.scene];
+    return item && item[0] === scene.title ? item[1] : '';
+  }
+  function openingWords(value) {
+    const words = String(value || '').trim().split(/\s+/).filter(Boolean);
+    return words.slice(0, 9).join(' ') + (words.length > 9 ? '…' : '');
+  }
   const PATHS = {
     act: {
       cue: ['Pick a scene. What line or move comes just before your part?', 'Look away. Say when you would start.', ['Wait for the line or move.', 'If your friend pauses, keep watching.'], 'Try your start once. Wait for the right line or move.'],
@@ -419,14 +441,21 @@
       if (!response.ok) return;
       const script = await response.json();
       if (!script.approved || !script.companyPublish || !Array.isArray(script.blocks)) return;
-      const names = new Set(String(currentPerson.roles || '').split('/').map(cleanRole)
+      const castRoles = String(currentPerson.roles || '');
+      const names = new Set(castRoles.split('/').map(cleanRole)
         .filter(name => name && !['ENSEMBLE', 'DANCER', 'CHOIR', 'SINGER', 'CREW'].includes(name)));
+      if (/\bELI\b/i.test(castRoles) && /\bINNKEEPER\b/i.test(castRoles)) names.add('INNKEEPER ELI');
       for (let i = 0; i < script.blocks.length; i += 1) {
         const block = script.blocks[i];
-        if (block.type !== 'character' || !names.has(cleanRole(block.text))) continue;
+        const role = cleanRole(block.text);
+        if (block.type !== 'character' || !names.has(role)) continue;
         for (let next = i + 1; next < script.blocks.length && script.blocks[next].type !== 'character'; next += 1) {
-          if (script.blocks[next].type === 'dialogue') {
-            roleCache.set(scene.scene, cleanRole(block.text));
+          const line = script.blocks[next];
+          // Eli's approved italic lines are typed as stage blocks in the feed.
+          const eliLine = role === 'INNKEEPER ELI' && next === i + 1 && line.type === 'stage' &&
+            ['Yes?', 'I have people everywhere.', 'I don’t even have floor left.', 'I’m sorry.'].includes(line.text);
+          if (line.type === 'dialogue' || eliLine) {
+            roleCache.set(scene.scene, { role, line: openingWords(line.text) });
             if (chosenScene === scene.scene) renderDailyTask();
             return;
           }
@@ -454,21 +483,23 @@
     document.querySelector('label[for="sceneChoice"]').hidden = !choices.length;
     if (chosenScene) select.value = chosenScene;
     const scene = choices.find(item => item.scene === chosenScene);
-    const role = scene ? roleCache.get(scene.scene) : '';
+    const roleInfo = scene ? roleCache.get(scene.scene) : null;
+    const role = roleInfo?.role || '';
+    const lineStart = roleInfo?.line || '';
     const track = scene && path === 'sing' ? publishedTracks.find(item =>
       item.scenes.some(number => Number(number) === Number(scene.scene)) &&
       !/instrumental/i.test(item.title)) : null;
     const task = {
-      act: role
-        ? `You play ${role} here. Read one of your lines. Close the script. Say it from memory. Check it. Try again.`
-        : 'Read your part. Close the script. Say a line or show a silent move. Check it. Try again.',
+      act: lineStart
+        ? `You play ${role}. Find the line that starts “${lineStart}”. Find what comes before it. Hide the script. Say your line. Check it. Try again.`
+        : 'Find your part. Hide the script. Say a line or show a silent move. Check it. Try again.',
       sing: track
         ? `Use the current “${track.title}” track. Pause before your part. Sing from memory. Check the words. Try again.`
         : 'Pick a song part you are learning. Sing it from memory. Check the words. Try again.',
       dance: 'Use only the steps your leader taught for this scene. Try a short part from memory. Check your notes. Keep space clear.',
       crew: 'Say your approved start cue and next step out loud. Check the current plan. Do not use show gear at home.'
     }[path];
-    $('#sceneTask').textContent = scene ? `Scene ${Number(scene.scene)}: ${scene.title}. ${task}` :
+    $('#sceneTask').textContent = scene ? `Scene ${Number(scene.scene)}: ${scene.title}. ${sceneMoment(scene) ? 'Story: ' + sceneMoment(scene) + ' ' : ''}${task}` :
       sceneLoading ? 'Loading today’s scene…' : `Pick a current scene in Scripts. ${task}`;
     const link = $('#sceneLink');
     link.href = scene && /^scene-\d{2}\.html$/.test(scene.readUrl) ? scene.readUrl : 'scripts.html';
@@ -536,7 +567,9 @@
     variation = playsFor(name) % 2;
     $('#gameBoard').hidden = false;
     $('#gameTitle').textContent = NAMES[name];
-    $('#gameSetup').textContent = 'Answer two questions. If you miss one, try again.';
+    const scene = scenesForPerson().find(item => item.scene === chosenScene);
+    $('#gameSetup').textContent = (sceneMoment(scene) ? `Story: ${sceneMoment(scene)} ` : '') +
+      'Answer two questions. If you miss one, try again.';
     $('#gameResult').textContent = '';
     $('#replayMission').hidden = true;
     $('#nextMission').hidden = true;
