@@ -6,6 +6,7 @@
   const KEY = 'chosen2026-show-quest-v2';
   const OLD_KEY = 'chosen2026-character-quest-v1';
   const NAMES = { cue: 'Cue Hunt', clear: 'Make It Clear', pass: 'Pass It On' };
+  const JOB_NAMES = { act: 'Act', sing: 'Sing', dance: 'Dance', crew: 'Make the show' };
   const NEXT = { notice: 'Watch for the cue', clear: 'Make it easier to see or hear', together: 'Try with a partner' };
   const SCENE_MOMENTS = {
     '01': ['Welcome to Nazareth', 'Nia and Simon show us the village of Nazareth.'],
@@ -522,7 +523,7 @@
     link.textContent = scene ? `Open Scene ${Number(scene.scene)}` : 'Open scripts';
     $('#practiceTrack').hidden = !track;
     if (track) $('#practiceTrack').textContent = `Open “${track.title}” in Music`;
-    $('#previewTitle').textContent = NAMES[mission] || NAMES.cue;
+    $('#previewTitle').textContent = `${JOB_NAMES[path] || JOB_NAMES.act} ✦ ${NAMES[mission] || NAMES.cue}`;
     const sceneName = scene ? `Scene ${Number(scene.scene)}: ${scene.title}. ` :
       sceneLoading ? 'Loading scenes. ' : 'Pick a current scene in Scripts. ';
     const firstLine = path === 'act' && lineStart ? `Your ${role} line starts “${lineStart}”. ` : '';
