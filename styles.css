@@ -590,7 +590,7 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
 .homePracticeTasks .questShortcut i{font-size:.85rem}
 .homePracticeTasks .questShortcut b{font-size:1.08rem}
 @media(max-width:850px){
-  .homeSearchSection .searchForm{grid-template-columns:1fr;gap:8px}
+  .homeSearch.homeSearchSection .searchForm{grid-template-columns:1fr;gap:8px}
 }
 @media(max-width:650px){
   .nextActions .primary{flex:1 1 100%;width:100%}
