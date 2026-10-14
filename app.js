@@ -64,6 +64,75 @@ async function selectedCompanyPerson() {
   }
 }
 
+
+function homeQuestDayKey(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return '';
+  const parts = Object.fromEntries(new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit'
+  }).formatToParts(date).map(part => [part.type, part.value]));
+  return `${parts.year}-${parts.month}-${parts.day}`;
+}
+
+function homeQuestWeekKey(value) {
+  const key = homeQuestDayKey(value);
+  if (!key) return '';
+  const day = new Date(key + 'T00:00:00Z');
+  const monday = new Date(day.getTime() - ((day.getUTCDay() + 6) % 7) * 86400000);
+  return monday.toISOString().slice(0, 10);
+}
+
+async function renderHomeQuest(content) {
+  const lead = document.querySelector('#homeQuestLead');
+  const meta = document.querySelector('#homeQuestMeta');
+  const link = document.querySelector('#homeQuestLink');
+  if (!lead || !meta || !link) return;
+
+  lead.textContent = 'Try one short game for your next rehearsal. All jobs count.';
+  meta.textContent = 'Pick a scene when you play. Your progress stays on this device.';
+  link.textContent = 'Play Show Quest ✦';
+
+  let selectedId = '';
+  let saved = {};
+  try {
+    selectedId = localStorage.getItem('chosen2026-person') || '';
+    const all = JSON.parse(localStorage.getItem('chosen2026-show-quest-v2') || '{}');
+    saved = all && typeof all === 'object' ? all : {};
+  } catch (_) { return; }
+
+  const person = selectedId ? await selectedCompanyPerson() : null;
+  if (selectedId && !person) return; // Keep the guest text if the person cannot be checked.
+
+  const data = saved[person?.id || 'guest'];
+  if (!data || typeof data !== 'object') return;
+
+  const approved = resourceList(content.scripts).filter(item =>
+    item.approved === true && item.companyPublish === true &&
+    /^scene-\d{2}\.html$/.test(item.readUrl || ''));
+  const scene = approved.find(item => item.scene === data.preferredScene &&
+    (!person?.scenes?.length || person.scenes.some(number => Number(number) === Number(item.scene))));
+  const sceneLabel = scene ? `Scene ${Number(scene.scene)}: ${scene.title}` : 'Pick a scene when you play';
+  const paths = { act: 'Act', sing: 'Sing', dance: 'Dance', crew: 'Make the show' };
+  const plays = Array.isArray(data.plays) ? data.plays.filter(item => item && item.at) : [];
+  const path = paths[data.preferredPath] ? data.preferredPath : plays.at(-1)?.path;
+  const today = homeQuestDayKey(new Date());
+  const thisWeek = homeQuestWeekKey(new Date());
+  const days = new Set(plays.filter(item => item.path === path &&
+    homeQuestWeekKey(item.at) === thisWeek).map(item => homeQuestDayKey(item.at)));
+  const count = Math.min(days.size, 3);
+  const didToday = plays.some(item => homeQuestDayKey(item.at) === today);
+
+  if (plays.length) {
+    lead.textContent = didToday
+      ? 'Nice work today! Want to try a new twist?'
+      : 'Your next small win is ready. Try one game today.';
+    link.textContent = didToday ? 'Play another game ✦' : "Play today's quest ✦";
+    meta.textContent = `${sceneLabel}. ${count} of 3 days this week${path && paths[path] ? ' for ' + paths[path] : ''}. Saved on this device.`;
+  } else {
+    meta.textContent = `${sceneLabel}. Your progress stays on this device.`;
+  }
+}
+
 function showPersonPath(person, message, links) {
   const panel = document.querySelector('#personPath');
   if (!panel || !person) return;
@@ -296,22 +365,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     const nrNote = document.querySelector('#nrNote');
     const nrLink = document.querySelector('#nrLink');
     const nrPersonalLink = document.querySelector('#nrPersonalLink');
-    const homeCallCard = document.querySelector('#homeCallCard');
+    void renderHomeQuest(d);
+    window.addEventListener('pageshow', event => {
+      if (event.persisted) void renderHomeQuest(d);
+    });
 
     try {
-      if (localStorage.getItem('chosen2026-person')) {
-        if (nrPersonalLink) {
-          nrPersonalLink.textContent = 'Open My Calls';
-          nrPersonalLink.href = 'schedule.html';
-        }
-        if (homeCallCard) {
-          homeCallCard.href = 'schedule.html';
-          homeCallCard.querySelector('b').textContent = 'Open My Calls';
-          homeCallCard.querySelector('span').textContent =
-            'See your personal rehearsal report and scheduled-through times';
-        }
+      if (localStorage.getItem('chosen2026-person') && nrPersonalLink) {
+        nrPersonalLink.textContent = 'Open My Calls';
+        nrPersonalLink.href = 'schedule.html';
       }
-    } catch (e) {}
+    } catch (_) {}
 
     if (x) {
       const start = new Date(x.start);

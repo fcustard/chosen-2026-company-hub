@@ -571,3 +571,31 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
  .sitebar #nav:not(.sceneBackNav) .navMore summary{min-height:48px;padding:10px 12px}
  .sitebar #nav:not(.sceneBackNav) .navMoreMenu{position:static;box-shadow:none;min-width:0;margin-left:12px;border:0;border-left:2px solid #c69845;border-radius:0;padding:0 0 0 8px}
 }
+
+/* Home: the call stays first; the short game is the next clear step. */
+.nextActions{align-items:center}
+.nextActions .primary{flex:1 1 160px}
+.nextActions .nextTextLink{display:inline-flex;align-items:center;min-height:44px;padding:8px 4px;font-weight:800;color:#243247;text-underline-offset:3px}
+.homeQuest{margin-top:17px;padding:17px 18px;border:2px solid #c89a3c;border-radius:15px;background:#fff8e8}
+.homeQuest .ey{margin:0 0 4px;color:#72500d;font-size:.76rem}
+.homeQuest h3{margin:0;font:700 1.35rem/1.15 Georgia,serif;color:var(--ink)}
+.homeQuest p{margin:7px 0 0;color:#39475a;line-height:1.4}
+.homeQuest .homeQuestMeta{font-size:.86rem;color:#526075}
+.homeQuest .btn{margin-top:12px;width:100%;min-height:48px;gap:7px}
+.homeSearchSection{margin:18px 0 38px;padding:16px 20px;border:1px solid var(--line);border-radius:16px;background:var(--p);box-shadow:0 10px 24px rgba(13,23,38,.05)}
+.homeSearch.homeSearchSection .searchForm{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:16px;align-items:center;margin:0}
+.homeSearchSection label{font-size:1rem}
+.homeSearchSection .homeSearchControls{margin:0}
+.homePracticeTasks .questShortcut{border:2px solid #c89a3c;background:#fff8e8}
+.homePracticeTasks .questShortcut i{font-size:.85rem}
+.homePracticeTasks .questShortcut b{font-size:1.08rem}
+@media(max-width:850px){
+  .homeSearch.homeSearchSection .searchForm{grid-template-columns:1fr;gap:8px}
+}
+@media(max-width:650px){
+  .nextActions .primary{flex:1 1 100%;width:100%}
+  .nextActions .nextTextLink{flex:1 1 auto}
+  .homeSearchSection{padding:16px;margin-top:12px}
+  .homeSearchSection .homeSearchControls{flex-direction:column}
+  .homeSearchSection .homeSearchControls button{min-height:48px}
+}
