@@ -599,3 +599,12 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
   .homeSearchSection .homeSearchControls{flex-direction:column}
   .homeSearchSection .homeSearchControls button{min-height:48px}
 }
+
+/* One shared subscription URL for Apple and Google calendar setup. */
+.calendarFeedRow{max-width:760px;margin:20px 0 0;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--p)}
+.calendarFeedRow label{display:block;margin-bottom:8px;font-weight:700}
+.calendarFeedControls{display:flex;gap:8px}
+.calendarFeedControls input{flex:1 1 420px;min-width:0;min-height:44px;padding:9px 12px;border:1px solid #8d98a9;border-radius:8px;background:#fff;color:var(--ink)}
+.calendarFeedControls button{min-height:44px;padding:9px 16px;border:0;border-radius:8px;background:var(--n);color:#fff;font-weight:700;cursor:pointer}
+#calendarFeedStatus{display:block;min-height:1.4em;margin-top:8px}
+@media(max-width:600px){.calendarFeedControls{flex-direction:column}.calendarFeedControls button{width:100%}}
