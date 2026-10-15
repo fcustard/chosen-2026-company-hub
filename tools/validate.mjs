@@ -9,23 +9,29 @@ const site = read('data/site.json');
 
 const errors = [];
 
-// The optional Google subscription must point to the same public calendar as
-// the iCal feed, and the Schedule card needs a working fallback without JS.
+// The Apple and Google options must use the Hub's approved public feed.
+// Google opens its From URL screen; the copied URL is what users subscribe to.
 try {
-  const ical = new URL(site.links.appleCalendar);
+  const feed = new URL(site.links.calendarFeed);
+  const apple = new URL(site.links.appleCalendar);
   const google = new URL(site.links.googleCalendar);
-  const icalId = decodeURIComponent(ical.pathname.match(/^\/calendar\/ical\/([^/]+)\/public\/basic\.ics$/)?.[1] || '');
-  const calendarCard = fs.readFileSync('schedule.html', 'utf8').match(/<a\s+id="googleCalendarLink"[^>]*>/)?.[0] || '';
-  if (!icalId || ical.hostname !== 'calendar.google.com' ||
+  const schedule = fs.readFileSync('schedule.html', 'utf8');
+  const googleCard = schedule.match(/<a\s+id="googleCalendarLink"[^>]*>/)?.[0] || '';
+  const appleCard = schedule.match(/<a\s+data-link="appleCalendar"[^>]*>/)?.[0] || '';
+  if (feed.protocol !== 'https:' || !feed.pathname.endsWith('/chosen-calendar.ics') ||
+      apple.protocol !== 'webcal:' || apple.host !== feed.host ||
+      apple.pathname !== feed.pathname ||
       google.hostname !== 'calendar.google.com' ||
-      google.pathname !== '/calendar/r' ||
-      google.searchParams.get('cid') !== icalId ||
-      !calendarCard.includes('data-link="googleCalendar"') ||
-      !calendarCard.includes(`href="${site.links.googleCalendar}"`)) {
-    errors.push('Google Calendar card must subscribe to the public iCal calendar');
+      google.pathname !== '/calendar/u/0/r' ||
+      !googleCard.includes('data-link="googleCalendar"') ||
+      !googleCard.includes(`href="${site.links.googleCalendar}"`) ||
+      !appleCard ||
+      !schedule.includes(`value="${site.links.calendarFeed}"`) ||
+      !fs.existsSync('chosen-calendar.ics')) {
+    errors.push('Apple and Google Calendar must use the published Hub subscription feed');
   }
 } catch (_) {
-  errors.push('Google Calendar subscription URL is missing or invalid');
+  errors.push('Hub calendar subscription URL is missing or invalid');
 }
 
 // SCRIPT SAFETY CHECKS
