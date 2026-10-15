@@ -17,6 +17,10 @@ test('the feed includes every published schedule event and no private call detai
   }
   assert.ok(feed.split('\r\n').every(line => Buffer.byteLength(line, 'utf8') <= 75));
   assert.doesNotMatch(unfolded, /personalCallTimes|personalCallEndTimes|calledPeopleIds|calledGroups/);
+  const show = events.find(event => event.id === 'CHOSEN-20261220-SHOW');
+  assert.ok(show?.showDay?.showtime);
+  assert.ok(unfolded.includes('SUMMARY:CHOSEN 2026 - SHOW DAY (show at ' + show.showDay.showtime + ')'));
+  assert.ok(unfolded.includes('DESCRIPTION:Show begins at ' + show.showDay.showtime));
 });
 
 test('the same event ID survives a changed time without exporting names', () => {
