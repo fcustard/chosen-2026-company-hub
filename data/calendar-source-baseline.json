@@ -328,10 +328,12 @@
       "called": "5b56172ae479fafce34fae653e0721b988db3b84527c8c6975d03119cb871989",
       "work": "0de98ab9577e1bfdd6ba96d1104dee024ae1f8be3763ac39d9557df5e592b62a",
       "prep": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
-      "calledPeople": "e4d3d884281ced0f68d51b66218bdacd51896bcdab7ddd51f2c9bf8f7170480a",
-      "calledPeopleIds": "ebf8e3064c7a936e57ce2d0b193765f98b6c2c25aef6631772c34295eda99cf4",
-      "calledGroups": "9ef508e601057b73830ba1c7ee052847ecf3523e09c5862ca5382cd229a37f55",
-      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865"
+      "calledPeople": "64b4742188065305495142f3bd72ef8d3cd0d9d8a54a88c55937e11542aebccf",
+      "calledPeopleIds": "0d130ea70c1e2b5c63b26524a0e859342fddfa230ff814c9acecbbd46d340153",
+      "calledGroups": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exactCallStatus": "f4fc3d96f56f82a65da97fd194f0e0945dbb1fd03f6b8f50799ca6848acec865",
+      "personalCallTimes": "ff4f1fb4436ca6b61eb270eea31ed13e7129657b922c89bf269649e086b50409",
+      "personalCallEndTimes": "8a255b804d7c056379c78fe13b7c65d54a69b3994172caddabeaddf6d15e891c"
     },
     "CHOSEN-20261017-REH": {
       "start": "0b7d7c8886840495f7b4c9fdcdf5ee5ab64399a80b008595b9f75d61d2bf913d",
