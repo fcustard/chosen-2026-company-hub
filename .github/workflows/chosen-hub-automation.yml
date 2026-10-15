@@ -127,6 +127,9 @@ jobs:
       - name: Test Apps Script personal call feed helper
         run: node tools/test-apps-script-personal-calls.mjs
 
+      - name: Test subscription calendar feed
+        run: node --test tools/test-calendar-feed.mjs
+
       - name: Sync exact rehearsal calls from Master Calendar
         id: calendar_sync
         # Reviewed Hub overrides survive unchanged source rows. A conflicting
@@ -233,6 +236,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
 
           git add data/rehearsals.json || true
+          git add chosen-calendar.ics || true
           git add data/calendar-source-baseline.json || true
           git add data/company.json || true
           git add data/wardrobe.json || true

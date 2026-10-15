@@ -14,6 +14,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { buildCalendarFeed } from './calendar-feed.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -1474,6 +1475,9 @@ function main() {
   );
 
   OUTPUTS.forEach(output => write(output, content));
+  const calendar = buildCalendarFeed([...publicFuture, ...publicPast], new Date(content.updated));
+  fs.writeFileSync(abs('chosen-calendar.ics'), calendar, 'utf8');
+  console.log('✅ Wrote chosen-calendar.ics from the same published schedule');
 
   console.log('✅ CHOSEN Hub content build complete');
 }

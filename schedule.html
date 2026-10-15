@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0d1726">
   <title>Schedule | CHOSEN 2026</title>
-  <link rel="stylesheet" href="styles.css?v=20261012-menu2">
-  <script defer src="app.js?v=20261005-search"></script>
+  <link rel="stylesheet" href="styles.css?v=20261015-calendar1">
+  <script defer src="app.js?v=20261015-calendar1"></script>
 </head>
 
 <body data-page="schedule">
@@ -84,24 +84,33 @@
       <div class="head">
         <p class="ey">OPTIONAL</p>
         <h2>Add the calendar</h2>
-        <p>The Hub is the company source of truth. Calendar subscriptions may lag behind call changes while updates are paused. Check My Calls before you travel.</p>
+        <p>Both options use the Hub's approved schedule. Calendar apps may take time to show changes. Check My Calls for your own report and release times before you travel.</p>
       </div>
 
       <div class="util">
         <a data-link="appleCalendar" href="#">
           <b>Apple Calendar</b>
-          <p class="note">iPhone, iPad or Mac</p>
+          <p class="note">Subscribe on iPhone, iPad or Mac</p>
         </a>
 
-        <a id="googleCalendarLink" data-link="googleCalendar" href="https://calendar.google.com/calendar/r?cid=346797094726a81fdbe0c4f473f270de52aa9283f60b6e64c4971828081b00a4%40group.calendar.google.com" target="_blank" rel="noopener">
+        <a id="googleCalendarLink" data-link="googleCalendar" href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noopener">
           <b>Google Calendar</b>
-          <p class="note">Add in a computer browser, then view on your devices</p>
+          <p class="note">On a computer: Other calendars + &rarr; From URL. Paste the link below.</p>
         </a>
 
         <a data-link="liveSchedule" href="#">
           <b>Legacy Calendar View</b>
           <p class="note">Backup browser view</p>
         </a>
+      </div>
+      <div class="calendarFeedRow">
+        <label for="calendarFeedUrl">Calendar link to paste into Google</label>
+        <div class="calendarFeedControls">
+          <input id="calendarFeedUrl" type="text" readonly value="https://fcustard.github.io/chosen-2026-company-hub/chosen-calendar.ics">
+          <button id="copyCalendarFeed" type="button">Copy link</button>
+        </div>
+        <span id="calendarFeedStatus" role="status" aria-live="polite"></span>
+        <p class="note">If you already added the old CHOSEN calendar, remove that old subscription to avoid two copies of each event. Add this link as a subscription, not a one-time import.</p>
       </div>
     </section>
 
