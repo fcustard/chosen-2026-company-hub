@@ -66,15 +66,22 @@ export function buildCalendarFeed(rehearsals, generatedAt = new Date()) {
     }
     const status = /PENDING|TENTATIVE|HOLD|REVIEW/i.test(event.status || '')
       ? 'TENTATIVE' : 'CONFIRMED';
+    const showtime = event.showDay?.showtime;
+    // Show day spans setup through release; make the performance start visible.
+    // Read only the already-public showtime, never personal call fields.
+    const performance = typeof showtime === 'string' && /^\d{1,2}:\d{2} (?:AM|PM)$/.test(showtime)
+      ? showtime : '';
+    const description = (performance ? `Show begins at ${performance}. ` : '') +
+      'Check My Calls on the CHOSEN Hub for your personal report and release times. Changes may take time to appear in a subscribed calendar.';
     lines.push(
       'BEGIN:VEVENT',
       'UID:' + event.id + '@' + UID_DOMAIN,
       'DTSTAMP:' + stamp,
       'DTSTART:' + dateStamp(start),
       'DTEND:' + dateStamp(end),
-      'SUMMARY:' + textValue(event.title),
+      'SUMMARY:' + textValue(event.title + (performance ? ` (show at ${performance})` : '')),
       'LOCATION:' + textValue(event.location),
-      'DESCRIPTION:' + textValue('Check My Calls on the CHOSEN Hub for your personal report and release times. Changes may take time to appear in a subscribed calendar.'),
+      'DESCRIPTION:' + textValue(description),
       'URL:' + URL,
       'STATUS:' + status,
       'END:VEVENT'
