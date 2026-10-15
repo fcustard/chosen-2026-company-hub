@@ -1,8 +1,9 @@
 {
-  "reviewedAt": "2026-10-15T03:58:00Z",
+  "reviewedAt": "2026-10-15T04:03:00Z",
   "masterCalendar": "https://docs.google.com/spreadsheets/d/1-d6_f2Yw5dMG4fRCjinw3ksdJkRNbISwoVvk1yJV1ks/edit",
   "source": "Active Master People and Assignments",
   "updatedEventKeys": [
+    "CHOSEN-20261015-REH",
     "CHOSEN-20261021-REH",
     "CHOSEN-20261022-REH",
     "CHOSEN-20261024-REH",
@@ -10,5 +11,5 @@
     "CHOSEN-20261029-REH",
     "CHOSEN-20261031-REH"
   ],
-  "purpose": "Trigger and trace a guarded Hub calendar sync after the exact-call review."
+  "purpose": "Trigger and trace a guarded Hub sync after October 15 personal windows and future exact-call review."
 }
