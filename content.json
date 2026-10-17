@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T16:25:20.613Z",
+  "updated": "2026-10-17T18:01:36.985Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -13,38 +13,60 @@
     "calendarFeed": "https://fcustard.github.io/chosen-2026-company-hub/chosen-calendar.ics"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20261017-REH",
-    "eventKey": "CHOSEN-20261017-REH",
-    "start": "2026-10-17T14:00:00.000Z",
-    "end": "2026-10-17T18:00:00.000Z",
-    "date": "October 17, 2026",
-    "dateIso": "2026-10-17",
-    "day": "Saturday",
-    "dateLabel": "October 17, 2026",
-    "dayLabel": "Saturday",
-    "time": "10:00 AM–2:00 PM",
-    "title": "CHOSEN Rehearsal - Scenes 1 → 12 (ALL SCENCES)",
-    "status": "CONFIRMED",
-    "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "10:00 AM–2:00 PM — (Dancers, All Actors, Ensemble, EVERYONE!)",
-    "callGroups": [
-      "Full Company",
-      "Dancers",
-      "Ensemble"
+    "id": "CHOSEN-20261020-REH",
+    "eventKey": "CHOSEN-20261020-REH",
+    "start": "2026-10-20T23:00:00.000Z",
+    "end": "2026-10-21T01:00:00.000Z",
+    "date": "October 20, 2026",
+    "dateIso": "2026-10-20",
+    "day": "Tuesday",
+    "dateLabel": "October 20, 2026",
+    "dayLabel": "Tuesday",
+    "time": "7:00 PM–9:00 PM",
+    "title": "CHOSEN Rehearsal - Scene 4",
+    "status": "VIRTUAL",
+    "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+    "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
+    "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+    "callGroups": [],
+    "calledPeople": [
+      {
+        "displayName": "Jordyn Starks"
+      },
+      {
+        "displayName": "Tasha Simeon"
+      },
+      {
+        "displayName": "Tyfany Adaka"
+      },
+      {
+        "displayName": "Jéovanie André"
+      },
+      {
+        "displayName": "Ashley Pierre"
+      },
+      {
+        "displayName": "Shanice Palmer"
+      },
+      {
+        "displayName": "Moenike Custard"
+      }
     ],
-    "calledPeople": [],
-    "calledPeopleIds": [],
-    "calledGroups": [
-      "Full Company",
-      "Dancers",
-      "Ensemble"
+    "calledPeopleIds": [
+      "P-jordyn-starks",
+      "P-tasha-simeon",
+      "P-tyfany-adaka",
+      "P-jeovanie-andre",
+      "P-ashley-pierre",
+      "P-shanice-palmer",
+      "P-moenike-custard"
     ],
+    "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Large ensemble sequence integration; Costume fitting",
+    "work": "Review dialogue, character builiding",
     "focus": "",
-    "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting\n\nEveryone: Bring a snack and drink for the 12:00–12:15 PM break.\n\nAfter you sign in come to the Auditorium.\n\nPark on the East Side (the side without the stairs).",
+    "prep": "Actors: Dialogue & Character Building",
     "notice": "",
     "changeType": ""
   },
@@ -53,42 +75,6 @@
     "start": "2026-10-17T04:00:00.000Z",
     "end": "2026-10-24T03:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261017-REH",
-        "eventKey": "CHOSEN-20261017-REH",
-        "start": "2026-10-17T14:00:00.000Z",
-        "end": "2026-10-17T18:00:00.000Z",
-        "date": "October 17, 2026",
-        "dateIso": "2026-10-17",
-        "day": "Saturday",
-        "dateLabel": "October 17, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scenes 1 → 12 (ALL SCENCES)",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — (Dancers, All Actors, Ensemble, EVERYONE!)",
-        "callGroups": [
-          "Full Company",
-          "Dancers",
-          "Ensemble"
-        ],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [
-          "Full Company",
-          "Dancers",
-          "Ensemble"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Large ensemble sequence integration; Costume fitting",
-        "focus": "",
-        "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting\n\nEveryone: Bring a snack and drink for the 12:00–12:15 PM break.\n\nAfter you sign in come to the Auditorium.\n\nPark on the East Side (the side without the stairs).",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261020-REH",
         "eventKey": "CHOSEN-20261020-REH",
@@ -344,48 +330,12 @@
         "changeType": ""
       }
     ],
-    "count": 4
+    "count": 3
   },
   "schedule": {
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261017-REH",
-        "eventKey": "CHOSEN-20261017-REH",
-        "start": "2026-10-17T14:00:00.000Z",
-        "end": "2026-10-17T18:00:00.000Z",
-        "date": "October 17, 2026",
-        "dateIso": "2026-10-17",
-        "day": "Saturday",
-        "dateLabel": "October 17, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scenes 1 → 12 (ALL SCENCES)",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — (Dancers, All Actors, Ensemble, EVERYONE!)",
-        "callGroups": [
-          "Full Company",
-          "Dancers",
-          "Ensemble"
-        ],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [
-          "Full Company",
-          "Dancers",
-          "Ensemble"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Large ensemble sequence integration; Costume fitting",
-        "focus": "",
-        "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting\n\nEveryone: Bring a snack and drink for the 12:00–12:15 PM break.\n\nAfter you sign in come to the Auditorium.\n\nPark on the East Side (the side without the stairs).",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261020-REH",
         "eventKey": "CHOSEN-20261020-REH",
@@ -2064,6 +2014,42 @@
       }
     ],
     "pastRehearsals": [
+      {
+        "id": "CHOSEN-20261017-REH",
+        "eventKey": "CHOSEN-20261017-REH",
+        "start": "2026-10-17T14:00:00.000Z",
+        "end": "2026-10-17T18:00:00.000Z",
+        "date": "October 17, 2026",
+        "dateIso": "2026-10-17",
+        "day": "Saturday",
+        "dateLabel": "October 17, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Scenes 1 → 12 (ALL SCENCES)",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–2:00 PM — (Dancers, All Actors, Ensemble, EVERYONE!)",
+        "callGroups": [
+          "Full Company",
+          "Dancers",
+          "Ensemble"
+        ],
+        "calledPeople": [],
+        "calledPeopleIds": [],
+        "calledGroups": [
+          "Full Company",
+          "Dancers",
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Large ensemble sequence integration; Costume fitting",
+        "focus": "",
+        "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting\n\nEveryone: Bring a snack and drink for the 12:00–12:20 PM break.\n\nAfter you sign in come to the Auditorium.\n\nPark on the East Side (the side without the stairs).",
+        "notice": "",
+        "changeType": ""
+      },
       {
         "id": "CHOSEN-20261015-REH",
         "eventKey": "CHOSEN-20261015-REH",
@@ -4708,42 +4694,6 @@
     ],
     "allRehearsals": [
       {
-        "id": "CHOSEN-20261017-REH",
-        "eventKey": "CHOSEN-20261017-REH",
-        "start": "2026-10-17T14:00:00.000Z",
-        "end": "2026-10-17T18:00:00.000Z",
-        "date": "October 17, 2026",
-        "dateIso": "2026-10-17",
-        "day": "Saturday",
-        "dateLabel": "October 17, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scenes 1 → 12 (ALL SCENCES)",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM — (Dancers, All Actors, Ensemble, EVERYONE!)",
-        "callGroups": [
-          "Full Company",
-          "Dancers",
-          "Ensemble"
-        ],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [
-          "Full Company",
-          "Dancers",
-          "Ensemble"
-        ],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Large ensemble sequence integration; Costume fitting",
-        "focus": "",
-        "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting\n\nEveryone: Bring a snack and drink for the 12:00–12:15 PM break.\n\nAfter you sign in come to the Auditorium.\n\nPark on the East Side (the side without the stairs).",
-        "notice": "",
-        "changeType": ""
-      },
-      {
         "id": "CHOSEN-20261020-REH",
         "eventKey": "CHOSEN-20261020-REH",
         "start": "2026-10-20T23:00:00.000Z",
@@ -6416,6 +6366,42 @@
         "work": "Official show-day call; performance day",
         "focus": "",
         "prep": "Focus: SHOW DAY. FOOD WILL BE PROVIDED.  Please check the live schedule for final room and call details.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20261017-REH",
+        "eventKey": "CHOSEN-20261017-REH",
+        "start": "2026-10-17T14:00:00.000Z",
+        "end": "2026-10-17T18:00:00.000Z",
+        "date": "October 17, 2026",
+        "dateIso": "2026-10-17",
+        "day": "Saturday",
+        "dateLabel": "October 17, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Scenes 1 → 12 (ALL SCENCES)",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–2:00 PM — (Dancers, All Actors, Ensemble, EVERYONE!)",
+        "callGroups": [
+          "Full Company",
+          "Dancers",
+          "Ensemble"
+        ],
+        "calledPeople": [],
+        "calledPeopleIds": [],
+        "calledGroups": [
+          "Full Company",
+          "Dancers",
+          "Ensemble"
+        ],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Large ensemble sequence integration; Costume fitting",
+        "focus": "",
+        "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting\n\nEveryone: Bring a snack and drink for the 12:00–12:20 PM break.\n\nAfter you sign in come to the Auditorium.\n\nPark on the East Side (the side without the stairs).",
         "notice": "",
         "changeType": ""
       },
@@ -9070,21 +9056,21 @@
       {
         "id": "dancers",
         "name": "Dancers",
-        "count": 14
+        "count": 12
       },
       {
         "id": "ensemble",
         "name": "Ensemble",
-        "count": 6
+        "count": 4
       },
       {
         "id": "full-company",
         "name": "Full Company",
-        "count": 16
+        "count": 14
       }
     ],
-    "count": 28,
-    "pastCount": 23
+    "count": 27,
+    "pastCount": 24
   },
   "scripts": {
     "items": [
@@ -9100,7 +9086,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "02",
@@ -9114,7 +9100,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "03",
@@ -9128,7 +9114,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "04",
@@ -9142,7 +9128,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "05",
@@ -9156,7 +9142,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "06",
@@ -9170,7 +9156,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "07",
@@ -9184,7 +9170,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "08",
@@ -9198,7 +9184,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "09",
@@ -9212,7 +9198,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "10",
@@ -9226,7 +9212,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "11",
@@ -9240,7 +9226,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "12",
@@ -9254,7 +9240,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       }
     ],
     "current": [
@@ -9270,7 +9256,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "02",
@@ -9284,7 +9270,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "03",
@@ -9298,7 +9284,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "04",
@@ -9312,7 +9298,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "05",
@@ -9326,7 +9312,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "06",
@@ -9340,7 +9326,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "07",
@@ -9354,7 +9340,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "08",
@@ -9368,7 +9354,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "09",
@@ -9382,7 +9368,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "10",
@@ -9396,7 +9382,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "11",
@@ -9410,7 +9396,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       },
       {
         "scene": "12",
@@ -9424,11 +9410,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-17T16:25:09.311Z"
+        "updated": "2026-10-17T18:01:26.177Z"
       }
     ],
     "count": 12,
-    "updated": "2026-10-17T16:25:20.614Z",
+    "updated": "2026-10-17T18:01:36.985Z",
     "kind": "scripts"
   },
   "music": {
@@ -9587,7 +9573,7 @@
       }
     ],
     "count": 5,
-    "updated": "2026-10-17T16:25:20.614Z",
+    "updated": "2026-10-17T18:01:36.985Z",
     "kind": "music"
   }
 }
