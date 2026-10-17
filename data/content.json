@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T01:20:32.764Z",
+  "updated": "2026-10-17T04:29:28.043Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -44,14 +44,14 @@
     "callDataVersion": 3,
     "work": "Large ensemble sequence integration; Costume fitting",
     "focus": "",
-    "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting",
+    "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting\n\nEveryone: Bring a snack and drink for the 12:00–12:15 PM break.",
     "notice": "",
     "changeType": ""
   },
   "thisWeek": {
     "title": "This Week",
-    "start": "2026-10-16T04:00:00.000Z",
-    "end": "2026-10-23T03:59:59.000Z",
+    "start": "2026-10-17T04:00:00.000Z",
+    "end": "2026-10-24T03:59:59.000Z",
     "rehearsals": [
       {
         "id": "CHOSEN-20261017-REH",
@@ -85,7 +85,7 @@
         "callDataVersion": 3,
         "work": "Large ensemble sequence integration; Costume fitting",
         "focus": "",
-        "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting",
+        "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting\n\nEveryone: Bring a snack and drink for the 12:00–12:15 PM break.",
         "notice": "",
         "changeType": ""
       },
@@ -166,22 +166,10 @@
         "callGroups": [],
         "calledPeople": [
           {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
             "displayName": "Alyssa Johnson"
           },
           {
             "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
           },
           {
             "displayName": "Arielle Brown"
@@ -205,43 +193,18 @@
             "displayName": "DeAndra Gray"
           },
           {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
             "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
           },
           {
             "displayName": "Jordyn Starks"
           },
           {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
             "displayName": "Moenike Custard"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
           }
         ],
         "calledPeopleIds": [
-          "P-alexandria-platt",
-          "P-allania-mitchell",
           "P-alyssa-johnson",
           "P-anaia-downer",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
           "P-arielle-brown",
           "P-aubrie-lewis",
           "P-caleb-davilmar",
@@ -249,16 +212,9 @@
           "P-carmen-brown",
           "P-cedrick-massey",
           "P-deandra-gray",
-          "P-delvin-rogers-jr",
           "P-gabriella-fearon",
-          "P-gelvina-maxime",
-          "P-james-myers",
           "P-jordyn-starks",
-          "P-kennedy-mccalla",
-          "P-kourtney-ann-palmer",
-          "P-marissa-downie",
-          "P-moenike-custard",
-          "P-nelcia-fosttin"
+          "P-moenike-custard"
         ],
         "calledGroups": [],
         "exactCallStatus": "READY",
@@ -288,22 +244,10 @@
         "callGroups": [],
         "calledPeople": [
           {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
             "displayName": "Alyssa Johnson"
           },
           {
             "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
           },
           {
             "displayName": "Arielle Brown"
@@ -336,19 +280,10 @@
             "displayName": "DeAndra Gray"
           },
           {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
             "displayName": "Dorrien Jones"
           },
           {
             "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
           },
           {
             "displayName": "Jéovanie André"
@@ -357,25 +292,13 @@
             "displayName": "Jordyn Starks"
           },
           {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
             "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Marissa Downie"
           },
           {
             "displayName": "Michael Stover"
           },
           {
             "displayName": "Moenike Custard"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
           },
           {
             "displayName": "Shanice Palmer"
@@ -388,12 +311,8 @@
           }
         ],
         "calledPeopleIds": [
-          "P-alexandria-platt",
-          "P-allania-mitchell",
           "P-alyssa-johnson",
           "P-anaia-downer",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
           "P-arielle-brown",
           "P-ashley-pierre",
           "P-aubrie-lewis",
@@ -404,20 +323,13 @@
           "P-cedrick-massey",
           "P-chris-mcanuff",
           "P-deandra-gray",
-          "P-delvin-rogers-jr",
           "P-dorrien-jones",
           "P-gabriella-fearon",
-          "P-gelvina-maxime",
-          "P-james-myers",
           "P-jeovanie-andre",
           "P-jordyn-starks",
-          "P-kennedy-mccalla",
-          "P-kourtney-ann-palmer",
           "P-marcus-mainer",
-          "P-marissa-downie",
           "P-michael-stover",
           "P-moenike-custard",
-          "P-nelcia-fosttin",
           "P-shanice-palmer",
           "P-tasha-simeon",
           "P-tyfany-adaka"
@@ -470,7 +382,7 @@
         "callDataVersion": 3,
         "work": "Large ensemble sequence integration; Costume fitting",
         "focus": "",
-        "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting",
+        "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting\n\nEveryone: Bring a snack and drink for the 12:00–12:15 PM break.",
         "notice": "",
         "changeType": ""
       },
@@ -551,22 +463,10 @@
         "callGroups": [],
         "calledPeople": [
           {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
             "displayName": "Alyssa Johnson"
           },
           {
             "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
           },
           {
             "displayName": "Arielle Brown"
@@ -590,43 +490,18 @@
             "displayName": "DeAndra Gray"
           },
           {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
             "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
           },
           {
             "displayName": "Jordyn Starks"
           },
           {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
             "displayName": "Moenike Custard"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
           }
         ],
         "calledPeopleIds": [
-          "P-alexandria-platt",
-          "P-allania-mitchell",
           "P-alyssa-johnson",
           "P-anaia-downer",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
           "P-arielle-brown",
           "P-aubrie-lewis",
           "P-caleb-davilmar",
@@ -634,16 +509,9 @@
           "P-carmen-brown",
           "P-cedrick-massey",
           "P-deandra-gray",
-          "P-delvin-rogers-jr",
           "P-gabriella-fearon",
-          "P-gelvina-maxime",
-          "P-james-myers",
           "P-jordyn-starks",
-          "P-kennedy-mccalla",
-          "P-kourtney-ann-palmer",
-          "P-marissa-downie",
-          "P-moenike-custard",
-          "P-nelcia-fosttin"
+          "P-moenike-custard"
         ],
         "calledGroups": [],
         "exactCallStatus": "READY",
@@ -673,22 +541,10 @@
         "callGroups": [],
         "calledPeople": [
           {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
             "displayName": "Alyssa Johnson"
           },
           {
             "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
           },
           {
             "displayName": "Arielle Brown"
@@ -721,19 +577,10 @@
             "displayName": "DeAndra Gray"
           },
           {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
             "displayName": "Dorrien Jones"
           },
           {
             "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
           },
           {
             "displayName": "Jéovanie André"
@@ -742,25 +589,13 @@
             "displayName": "Jordyn Starks"
           },
           {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
             "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Marissa Downie"
           },
           {
             "displayName": "Michael Stover"
           },
           {
             "displayName": "Moenike Custard"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
           },
           {
             "displayName": "Shanice Palmer"
@@ -773,12 +608,8 @@
           }
         ],
         "calledPeopleIds": [
-          "P-alexandria-platt",
-          "P-allania-mitchell",
           "P-alyssa-johnson",
           "P-anaia-downer",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
           "P-arielle-brown",
           "P-ashley-pierre",
           "P-aubrie-lewis",
@@ -789,20 +620,13 @@
           "P-cedrick-massey",
           "P-chris-mcanuff",
           "P-deandra-gray",
-          "P-delvin-rogers-jr",
           "P-dorrien-jones",
           "P-gabriella-fearon",
-          "P-gelvina-maxime",
-          "P-james-myers",
           "P-jeovanie-andre",
           "P-jordyn-starks",
-          "P-kennedy-mccalla",
-          "P-kourtney-ann-palmer",
           "P-marcus-mainer",
-          "P-marissa-downie",
           "P-michael-stover",
           "P-moenike-custard",
-          "P-nelcia-fosttin",
           "P-shanice-palmer",
           "P-tasha-simeon",
           "P-tyfany-adaka"
@@ -1026,7 +850,7 @@
         "callDataVersion": 3,
         "work": "Scenes 1–6 with transitions",
         "focus": "",
-        "prep": "All Actors and Dancers in Scenes 1-6 must attend.",
+        "prep": "All Actors and Dancers in Scenes 1-6 must attend.\n\nEveryone: Bring a snack and drink for the 12:00–12:15 PM break.",
         "notice": "",
         "changeType": ""
       },
@@ -1247,12 +1071,6 @@
         "callGroups": [],
         "calledPeople": [
           {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
             "displayName": "Alyssa Johnson"
           },
           {
@@ -1260,12 +1078,6 @@
           },
           {
             "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Annetta Johnson"
           },
           {
             "displayName": "Ariella Davidson"
@@ -1278,9 +1090,6 @@
           },
           {
             "displayName": "Aubrie Lewis"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
           },
           {
             "displayName": "Caleb Davilmar"
@@ -1340,13 +1149,7 @@
             "displayName": "Jordyn Starks"
           },
           {
-            "displayName": "Kennedy McCalla"
-          },
-          {
             "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
           },
           {
             "displayName": "Lauryn Butler"
@@ -1362,9 +1165,6 @@
           },
           {
             "displayName": "Moenike Custard"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
           },
           {
             "displayName": "Rodney Jean"
@@ -1386,18 +1186,13 @@
           }
         ],
         "calledPeopleIds": [
-          "P-alexandria-platt",
-          "P-allania-mitchell",
           "P-alyssa-johnson",
           "P-amadeus-hills",
           "P-anaia-downer",
-          "P-annalise-mongeois",
-          "P-annetta-johnson",
           "P-ariella-davidson",
           "P-arielle-brown",
           "P-ashley-pierre",
           "P-aubrie-lewis",
-          "P-audrey-howell-mcclenney",
           "P-caleb-davilmar",
           "P-caris-hunte",
           "P-carmen-brown",
@@ -1417,15 +1212,12 @@
           "P-jayden-harris",
           "P-jeovanie-andre",
           "P-jordyn-starks",
-          "P-kennedy-mccalla",
           "P-kevin-hohn",
-          "P-kourtney-ann-palmer",
           "P-lauryn-butler",
           "P-marcus-mainer",
           "P-marissa-downie",
           "P-michael-stover",
           "P-moenike-custard",
-          "P-nelcia-fosttin",
           "P-rodney-jean",
           "P-sandra-johnson",
           "P-shanice-palmer",
@@ -4947,7 +4739,7 @@
         "callDataVersion": 3,
         "work": "Large ensemble sequence integration; Costume fitting",
         "focus": "",
-        "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting",
+        "prep": "Come prepared to go through scenes with full acting, songs, and dance.\n Those who have NOT been fitted for their costumes need to bring their black garments for the costume fitting\n\nEveryone: Bring a snack and drink for the 12:00–12:15 PM break.",
         "notice": "",
         "changeType": ""
       },
@@ -5028,22 +4820,10 @@
         "callGroups": [],
         "calledPeople": [
           {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
             "displayName": "Alyssa Johnson"
           },
           {
             "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
           },
           {
             "displayName": "Arielle Brown"
@@ -5067,43 +4847,18 @@
             "displayName": "DeAndra Gray"
           },
           {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
             "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
           },
           {
             "displayName": "Jordyn Starks"
           },
           {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
             "displayName": "Moenike Custard"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
           }
         ],
         "calledPeopleIds": [
-          "P-alexandria-platt",
-          "P-allania-mitchell",
           "P-alyssa-johnson",
           "P-anaia-downer",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
           "P-arielle-brown",
           "P-aubrie-lewis",
           "P-caleb-davilmar",
@@ -5111,16 +4866,9 @@
           "P-carmen-brown",
           "P-cedrick-massey",
           "P-deandra-gray",
-          "P-delvin-rogers-jr",
           "P-gabriella-fearon",
-          "P-gelvina-maxime",
-          "P-james-myers",
           "P-jordyn-starks",
-          "P-kennedy-mccalla",
-          "P-kourtney-ann-palmer",
-          "P-marissa-downie",
-          "P-moenike-custard",
-          "P-nelcia-fosttin"
+          "P-moenike-custard"
         ],
         "calledGroups": [],
         "exactCallStatus": "READY",
@@ -5150,22 +4898,10 @@
         "callGroups": [],
         "calledPeople": [
           {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
             "displayName": "Alyssa Johnson"
           },
           {
             "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Ariella Davidson"
           },
           {
             "displayName": "Arielle Brown"
@@ -5198,19 +4934,10 @@
             "displayName": "DeAndra Gray"
           },
           {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
             "displayName": "Dorrien Jones"
           },
           {
             "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
           },
           {
             "displayName": "Jéovanie André"
@@ -5219,25 +4946,13 @@
             "displayName": "Jordyn Starks"
           },
           {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
             "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Marissa Downie"
           },
           {
             "displayName": "Michael Stover"
           },
           {
             "displayName": "Moenike Custard"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
           },
           {
             "displayName": "Shanice Palmer"
@@ -5250,12 +4965,8 @@
           }
         ],
         "calledPeopleIds": [
-          "P-alexandria-platt",
-          "P-allania-mitchell",
           "P-alyssa-johnson",
           "P-anaia-downer",
-          "P-annalise-mongeois",
-          "P-ariella-davidson",
           "P-arielle-brown",
           "P-ashley-pierre",
           "P-aubrie-lewis",
@@ -5266,20 +4977,13 @@
           "P-cedrick-massey",
           "P-chris-mcanuff",
           "P-deandra-gray",
-          "P-delvin-rogers-jr",
           "P-dorrien-jones",
           "P-gabriella-fearon",
-          "P-gelvina-maxime",
-          "P-james-myers",
           "P-jeovanie-andre",
           "P-jordyn-starks",
-          "P-kennedy-mccalla",
-          "P-kourtney-ann-palmer",
           "P-marcus-mainer",
-          "P-marissa-downie",
           "P-michael-stover",
           "P-moenike-custard",
-          "P-nelcia-fosttin",
           "P-shanice-palmer",
           "P-tasha-simeon",
           "P-tyfany-adaka"
@@ -5503,7 +5207,7 @@
         "callDataVersion": 3,
         "work": "Scenes 1–6 with transitions",
         "focus": "",
-        "prep": "All Actors and Dancers in Scenes 1-6 must attend.",
+        "prep": "All Actors and Dancers in Scenes 1-6 must attend.\n\nEveryone: Bring a snack and drink for the 12:00–12:15 PM break.",
         "notice": "",
         "changeType": ""
       },
@@ -5724,12 +5428,6 @@
         "callGroups": [],
         "calledPeople": [
           {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
             "displayName": "Alyssa Johnson"
           },
           {
@@ -5737,12 +5435,6 @@
           },
           {
             "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Annetta Johnson"
           },
           {
             "displayName": "Ariella Davidson"
@@ -5755,9 +5447,6 @@
           },
           {
             "displayName": "Aubrie Lewis"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
           },
           {
             "displayName": "Caleb Davilmar"
@@ -5817,13 +5506,7 @@
             "displayName": "Jordyn Starks"
           },
           {
-            "displayName": "Kennedy McCalla"
-          },
-          {
             "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
           },
           {
             "displayName": "Lauryn Butler"
@@ -5839,9 +5522,6 @@
           },
           {
             "displayName": "Moenike Custard"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
           },
           {
             "displayName": "Rodney Jean"
@@ -5863,18 +5543,13 @@
           }
         ],
         "calledPeopleIds": [
-          "P-alexandria-platt",
-          "P-allania-mitchell",
           "P-alyssa-johnson",
           "P-amadeus-hills",
           "P-anaia-downer",
-          "P-annalise-mongeois",
-          "P-annetta-johnson",
           "P-ariella-davidson",
           "P-arielle-brown",
           "P-ashley-pierre",
           "P-aubrie-lewis",
-          "P-audrey-howell-mcclenney",
           "P-caleb-davilmar",
           "P-caris-hunte",
           "P-carmen-brown",
@@ -5894,15 +5569,12 @@
           "P-jayden-harris",
           "P-jeovanie-andre",
           "P-jordyn-starks",
-          "P-kennedy-mccalla",
           "P-kevin-hohn",
-          "P-kourtney-ann-palmer",
           "P-lauryn-butler",
           "P-marcus-mainer",
           "P-marissa-downie",
           "P-michael-stover",
           "P-moenike-custard",
-          "P-nelcia-fosttin",
           "P-rodney-jean",
           "P-sandra-johnson",
           "P-shanice-palmer",
@@ -9428,7 +9100,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "02",
@@ -9442,7 +9114,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "03",
@@ -9456,7 +9128,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "04",
@@ -9470,7 +9142,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "05",
@@ -9484,7 +9156,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "06",
@@ -9498,7 +9170,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "07",
@@ -9512,7 +9184,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "08",
@@ -9526,7 +9198,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "09",
@@ -9540,7 +9212,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "10",
@@ -9554,7 +9226,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "11",
@@ -9568,7 +9240,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "12",
@@ -9582,7 +9254,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       }
     ],
     "current": [
@@ -9598,7 +9270,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "02",
@@ -9612,7 +9284,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "03",
@@ -9626,7 +9298,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "04",
@@ -9640,7 +9312,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "05",
@@ -9654,7 +9326,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "06",
@@ -9668,7 +9340,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "07",
@@ -9682,7 +9354,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "08",
@@ -9696,7 +9368,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "09",
@@ -9710,7 +9382,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "10",
@@ -9724,7 +9396,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "11",
@@ -9738,7 +9410,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       },
       {
         "scene": "12",
@@ -9752,11 +9424,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-17T01:20:22.075Z"
+        "updated": "2026-10-17T04:29:17.952Z"
       }
     ],
     "count": 12,
-    "updated": "2026-10-17T01:20:32.764Z",
+    "updated": "2026-10-17T04:29:28.043Z",
     "kind": "scripts"
   },
   "music": {
@@ -9915,7 +9587,7 @@
       }
     ],
     "count": 5,
-    "updated": "2026-10-17T01:20:32.764Z",
+    "updated": "2026-10-17T04:29:28.044Z",
     "kind": "music"
   }
 }
