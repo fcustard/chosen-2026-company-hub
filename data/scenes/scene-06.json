@@ -1,13 +1,13 @@
 {
   "scene": "06",
-  "title": "Mary Tells Joseph / It’s Not Mine",
+  "title": "Mary & Joseph",
   "status": "CURRENT · Auto-published from master script",
   "approved": true,
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-18T01:19:17.816Z",
-  "contentHash": "933adec3cb665b0992cf589c63ee2f986b281c4c3933b351f906df17039ba525",
+  "sourceUpdated": "2026-10-18T04:57:02.218Z",
+  "contentHash": "b58a9667696785bd047f9ded700b73fa20995a5ff60fd19eb4c3f103f33c1900",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -17,22 +17,12 @@
     },
     {
       "type": "heading",
-      "text": "SCENE 6 — MARY & JOSEPH / “IT’S NOT MINE”",
+      "text": "SCENE 6 — MARY & JOSEPH",
       "namedStyleType": "HEADING_1"
     },
     {
       "type": "production-note",
-      "text": "Approximate Running Time: 7–8 minutes",
-      "namedStyleType": "SUBTITLE"
-    },
-    {
-      "type": "production-note",
-      "text": "Spoken Dialogue Before Song: approximately 3 minutes",
-      "namedStyleType": "SUBTITLE"
-    },
-    {
-      "type": "production-note",
-      "text": "Musical Number: “It’s Not Mine” — approximately 3–3½ minutes",
+      "text": "Approximate Running Time: 4–5 minutes",
       "namedStyleType": "SUBTITLE"
     },
     {
@@ -1432,377 +1422,8 @@
       "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "music",
-      "text": "MUSIC BEGINS",
-      "namedStyleType": "HEADING_4"
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "music",
-      "text": "“IT’S NOT MINE”",
-      "namedStyleType": "HEADING_4"
-    },
-    {
-      "type": "production-note",
-      "text": "TARGET: 3:00–3:15 MAX",
-      "namedStyleType": "SUBTITLE"
-    },
-    {
       "type": "stage",
-      "text": "The song grows directly out of Joseph attempting to restore order.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "A fractured version of the Brotherhood rhythm appears.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "music",
-      "text": "BANG. BANG. SCRAPE. CLAP. STOMP.",
-      "namedStyleType": "HEADING_4"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph reaches instinctively for a tool.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "stage",
-      "text": "Rhythmically",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "Measure twice...",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "stage",
-      "text": "He attempts the old pattern.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "music",
-      "text": "BANG. BANG.",
-      "namedStyleType": "HEADING_4"
-    },
-    {
-      "type": "stage",
-      "text": "Stops.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Nothing fits anymore.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "music",
-      "text": "VERSE 1 — WHAT HE KNOWS",
-      "namedStyleType": "HEADING_4"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph's language stays concrete.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "He knows",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "what they promised;",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "what they planned;",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "what he built;",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "what the evidence appears to mean.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "The musical thought moves toward",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "I know the road.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "I know the plan.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "I know what should have been.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "But this child is not mine.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "stage",
-      "text": "Mary tries to reach him from inside the number.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "She does not overpower him.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "music",
-      "text": "CHORUS — “IT’S NOT MINE”",
-      "namedStyleType": "HEADING_4"
-    },
-    {
-      "type": "stage",
-      "text": "At first, the phrase means only",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "the child.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Then the meaning begins expanding.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "It's not mine.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "This isn't what we planned.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "This isn't what I built.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "music",
-      "text": "VERSE 2 — THE FUTURE COLLAPSES",
-      "namedStyleType": "HEADING_4"
-    },
-    {
-      "type": "stage",
-      "text": "The “My Beloved” motif appears underneath—distorted or incomplete.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at the table.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "The phrase now means",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "The home I imagined isn't mine.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "The future I understood isn't mine.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "The story I thought I could control isn't mine.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "stage",
-      "text": "Keep this section emotionally direct rather than wordy.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "MARY'S SECTION",
-      "namedStyleType": "HEADING_2"
-    },
-    {
-      "type": "stage",
-      "text": "Mary finally gets musical space.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Her territory",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "I didn't choose the fear.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "I didn't choose the cost.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "I didn't choose to hurt you.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "I chose to trust God.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph catches one word",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "stage",
-      "text": "Spoken/sung",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "You chose this.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "lyric",
-      "text": "I chose to believe God.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "lyric",
-      "text": "And now you're asking me to choose it too.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "production-note",
-      "text": "That is the bridge.",
-      "namedStyleType": "SUBTITLE"
-    },
-    {
-      "type": "production-note",
-      "text": "Do not add another long argument inside the song.",
-      "namedStyleType": "SUBTITLE"
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "music",
-      "text": "FINAL CHORUS",
-      "namedStyleType": "HEADING_4"
-    },
-    {
-      "type": "stage",
-      "text": "The first “It's not mine” was almost an accusation.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "The final one is loss.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph looks at the table.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Then Mary.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "stage",
-      "text": "Quietly",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "It's not mine...",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "stage",
-      "text": "The music ends unresolved.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "SILENCE.",
+      "text": "Silence. Joseph reaches toward the unfinished table, then stops. Mary waits for him to look at her. He cannot.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -2363,7 +1984,7 @@
     },
     {
       "type": "production-note",
-      "text": "The other key rule I’m preserving is that the song does not solve the argument. “It’s Not Mine” lets Joseph express what he cannot contain, but the actual separation happens afterward in quiet dialogue.",
+      "text": "The scene stays spoken. After Joseph says the child is not his, let silence and the unfinished table carry what neither can say. Their separation happens in the quiet exchange that follows.",
       "namedStyleType": "SUBTITLE"
     },
     {
@@ -2388,7 +2009,7 @@
     },
     {
       "type": "production-note",
-      "text": "And visually, the Scene 6 progression should be very controlled: they begin relatively close, move farther apart as trust deteriorates, occasionally attempt to cross the gap during the song, and finish completely separated. This is an acting scene first; the physical distance itself becomes part of the storytelling.",
+      "text": "Visually, keep the movement controlled: they begin close, drift apart as trust deteriorates, make small attempts to close the gap, and finish separated. The distance becomes part of the story.",
       "namedStyleType": "SUBTITLE"
     }
   ]
