@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T00:29:08.809Z",
+  "updated": "2026-10-18T01:19:27.591Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -15,19 +15,19 @@
   "nextRehearsal": {
     "id": "CHOSEN-20261020-REH",
     "eventKey": "CHOSEN-20261020-REH",
-    "start": "2026-10-20T23:00:00.000Z",
-    "end": "2026-10-21T01:00:00.000Z",
+    "start": "2026-10-20T22:30:00.000Z",
+    "end": "2026-10-21T01:30:00.000Z",
     "date": "October 20, 2026",
     "dateIso": "2026-10-20",
     "day": "Tuesday",
     "dateLabel": "October 20, 2026",
     "dayLabel": "Tuesday",
-    "time": "7:00 PM–9:00 PM",
-    "title": "CHOSEN Rehearsal - Scene 4",
+    "time": "6:30 PM–9:30 PM",
+    "title": "CHOSEN Rehearsal - Scene 4; Leadership Meeting",
     "status": "VIRTUAL",
     "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
     "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-    "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+    "called": "6:30–7:30 PM — Scene 4: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)\n\n7:35 PM- 9:30 PM- Leadership Meeting: Fredrick, Moenike, Cedrick, Andre, Lounise",
     "callGroups": [],
     "calledPeople": [
       {
@@ -50,6 +50,18 @@
       },
       {
         "displayName": "Moenike Custard"
+      },
+      {
+        "displayName": "Cedrick Massey"
+      },
+      {
+        "displayName": "Fredrick Custard"
+      },
+      {
+        "displayName": "Andre Sartin"
+      },
+      {
+        "displayName": "Lounise Blaise"
       }
     ],
     "calledPeopleIds": [
@@ -59,14 +71,44 @@
       "P-jeovanie-andre",
       "P-ashley-pierre",
       "P-shanice-palmer",
-      "P-moenike-custard"
+      "P-moenike-custard",
+      "P-cedrick-massey",
+      "P-fredrick-custard",
+      "P-andre-sartin",
+      "P-lounise-blaise"
     ],
+    "personalCallTimes": {
+      "P-jordyn-starks": "6:30 PM",
+      "P-tasha-simeon": "6:30 PM",
+      "P-tyfany-adaka": "6:30 PM",
+      "P-jeovanie-andre": "6:30 PM",
+      "P-ashley-pierre": "6:30 PM",
+      "P-shanice-palmer": "6:30 PM",
+      "P-moenike-custard": "6:30 PM",
+      "P-cedrick-massey": "7:35 PM",
+      "P-fredrick-custard": "7:35 PM",
+      "P-andre-sartin": "7:35 PM",
+      "P-lounise-blaise": "7:35 PM"
+    },
+    "personalCallEndTimes": {
+      "P-jordyn-starks": "7:30 PM",
+      "P-tasha-simeon": "7:30 PM",
+      "P-tyfany-adaka": "7:30 PM",
+      "P-jeovanie-andre": "7:30 PM",
+      "P-ashley-pierre": "7:30 PM",
+      "P-shanice-palmer": "7:30 PM",
+      "P-moenike-custard": "9:30 PM",
+      "P-cedrick-massey": "9:30 PM",
+      "P-fredrick-custard": "9:30 PM",
+      "P-andre-sartin": "9:30 PM",
+      "P-lounise-blaise": "9:30 PM"
+    },
     "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Review dialogue, character builiding",
+    "work": "Review dialogue, character building; Production Meeting",
     "focus": "",
-    "prep": "Actors: Dialogue & Character Building",
+    "prep": "Actors: Dialogue & Character Building; Leadership Meeting",
     "notice": "",
     "changeType": ""
   },
@@ -78,19 +120,19 @@
       {
         "id": "CHOSEN-20261020-REH",
         "eventKey": "CHOSEN-20261020-REH",
-        "start": "2026-10-20T23:00:00.000Z",
-        "end": "2026-10-21T01:00:00.000Z",
+        "start": "2026-10-20T22:30:00.000Z",
+        "end": "2026-10-21T01:30:00.000Z",
         "date": "October 20, 2026",
         "dateIso": "2026-10-20",
         "day": "Tuesday",
         "dateLabel": "October 20, 2026",
         "dayLabel": "Tuesday",
-        "time": "7:00 PM–9:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 4",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 4; Leadership Meeting",
         "status": "VIRTUAL",
         "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
         "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+        "called": "6:30–7:30 PM — Scene 4: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)\n\n7:35 PM- 9:30 PM- Leadership Meeting: Fredrick, Moenike, Cedrick, Andre, Lounise",
         "callGroups": [],
         "calledPeople": [
           {
@@ -113,6 +155,18 @@
           },
           {
             "displayName": "Moenike Custard"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Andre Sartin"
+          },
+          {
+            "displayName": "Lounise Blaise"
           }
         ],
         "calledPeopleIds": [
@@ -122,14 +176,44 @@
           "P-jeovanie-andre",
           "P-ashley-pierre",
           "P-shanice-palmer",
-          "P-moenike-custard"
+          "P-moenike-custard",
+          "P-cedrick-massey",
+          "P-fredrick-custard",
+          "P-andre-sartin",
+          "P-lounise-blaise"
         ],
+        "personalCallTimes": {
+          "P-jordyn-starks": "6:30 PM",
+          "P-tasha-simeon": "6:30 PM",
+          "P-tyfany-adaka": "6:30 PM",
+          "P-jeovanie-andre": "6:30 PM",
+          "P-ashley-pierre": "6:30 PM",
+          "P-shanice-palmer": "6:30 PM",
+          "P-moenike-custard": "6:30 PM",
+          "P-cedrick-massey": "7:35 PM",
+          "P-fredrick-custard": "7:35 PM",
+          "P-andre-sartin": "7:35 PM",
+          "P-lounise-blaise": "7:35 PM"
+        },
+        "personalCallEndTimes": {
+          "P-jordyn-starks": "7:30 PM",
+          "P-tasha-simeon": "7:30 PM",
+          "P-tyfany-adaka": "7:30 PM",
+          "P-jeovanie-andre": "7:30 PM",
+          "P-ashley-pierre": "7:30 PM",
+          "P-shanice-palmer": "7:30 PM",
+          "P-moenike-custard": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-fredrick-custard": "9:30 PM",
+          "P-andre-sartin": "9:30 PM",
+          "P-lounise-blaise": "9:30 PM"
+        },
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Review dialogue, character builiding",
+        "work": "Review dialogue, character building; Production Meeting",
         "focus": "",
-        "prep": "Actors: Dialogue & Character Building",
+        "prep": "Actors: Dialogue & Character Building; Leadership Meeting",
         "notice": "",
         "changeType": ""
       },
@@ -148,7 +232,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM-8:30 PM Scene 12 Dancers\n\n6:30 PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
+        "called": "6:30 PM-8:30 PM Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n6:30 PM–9:30 PM — Scenes 2, 3,6,8: Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -205,7 +289,7 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Off-book principals; Practice Songs",
+        "work": "Choreography; Off-book principals; Practice Songs",
         "focus": "",
         "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs)",
         "notice": "",
@@ -226,7 +310,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM-8:00 PM Scene 12 Dancers\n\n6:30 PM-9:30 PM — Scene 4 \n\n7:30 PM-9:30 PM — Scene 5\n\n8:30 PM-9:30 PM — Scene 7",
+        "called": "6:30 PM-8:00 PM Scene 12 Dancers:  Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n6:30 PM-9:30 PM — Scene 4 \n\n7:30 PM-9:30 PM — Scene 5\n\n8:30 PM-9:30 PM — Scene 7",
         "callGroups": [],
         "calledPeople": [
           {
@@ -323,9 +407,9 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Music/choreo cleanup; Off-book work + music & dance review",
+        "work": "Choreography; Off-book work + music & dance review",
         "focus": "",
-        "prep": "Music/choreo cleanup; Off-book work + music & dance review",
+        "prep": "Choreography; Off-book work + music & dance review",
         "notice": "",
         "changeType": ""
       }
@@ -339,19 +423,19 @@
       {
         "id": "CHOSEN-20261020-REH",
         "eventKey": "CHOSEN-20261020-REH",
-        "start": "2026-10-20T23:00:00.000Z",
-        "end": "2026-10-21T01:00:00.000Z",
+        "start": "2026-10-20T22:30:00.000Z",
+        "end": "2026-10-21T01:30:00.000Z",
         "date": "October 20, 2026",
         "dateIso": "2026-10-20",
         "day": "Tuesday",
         "dateLabel": "October 20, 2026",
         "dayLabel": "Tuesday",
-        "time": "7:00 PM–9:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 4",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 4; Leadership Meeting",
         "status": "VIRTUAL",
         "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
         "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+        "called": "6:30–7:30 PM — Scene 4: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)\n\n7:35 PM- 9:30 PM- Leadership Meeting: Fredrick, Moenike, Cedrick, Andre, Lounise",
         "callGroups": [],
         "calledPeople": [
           {
@@ -374,6 +458,18 @@
           },
           {
             "displayName": "Moenike Custard"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Andre Sartin"
+          },
+          {
+            "displayName": "Lounise Blaise"
           }
         ],
         "calledPeopleIds": [
@@ -383,14 +479,44 @@
           "P-jeovanie-andre",
           "P-ashley-pierre",
           "P-shanice-palmer",
-          "P-moenike-custard"
+          "P-moenike-custard",
+          "P-cedrick-massey",
+          "P-fredrick-custard",
+          "P-andre-sartin",
+          "P-lounise-blaise"
         ],
+        "personalCallTimes": {
+          "P-jordyn-starks": "6:30 PM",
+          "P-tasha-simeon": "6:30 PM",
+          "P-tyfany-adaka": "6:30 PM",
+          "P-jeovanie-andre": "6:30 PM",
+          "P-ashley-pierre": "6:30 PM",
+          "P-shanice-palmer": "6:30 PM",
+          "P-moenike-custard": "6:30 PM",
+          "P-cedrick-massey": "7:35 PM",
+          "P-fredrick-custard": "7:35 PM",
+          "P-andre-sartin": "7:35 PM",
+          "P-lounise-blaise": "7:35 PM"
+        },
+        "personalCallEndTimes": {
+          "P-jordyn-starks": "7:30 PM",
+          "P-tasha-simeon": "7:30 PM",
+          "P-tyfany-adaka": "7:30 PM",
+          "P-jeovanie-andre": "7:30 PM",
+          "P-ashley-pierre": "7:30 PM",
+          "P-shanice-palmer": "7:30 PM",
+          "P-moenike-custard": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-fredrick-custard": "9:30 PM",
+          "P-andre-sartin": "9:30 PM",
+          "P-lounise-blaise": "9:30 PM"
+        },
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Review dialogue, character builiding",
+        "work": "Review dialogue, character building; Production Meeting",
         "focus": "",
-        "prep": "Actors: Dialogue & Character Building",
+        "prep": "Actors: Dialogue & Character Building; Leadership Meeting",
         "notice": "",
         "changeType": ""
       },
@@ -409,7 +535,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM-8:30 PM Scene 12 Dancers\n\n6:30 PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
+        "called": "6:30 PM-8:30 PM Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n6:30 PM–9:30 PM — Scenes 2, 3,6,8: Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -466,7 +592,7 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Off-book principals; Practice Songs",
+        "work": "Choreography; Off-book principals; Practice Songs",
         "focus": "",
         "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs)",
         "notice": "",
@@ -487,7 +613,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM-8:00 PM Scene 12 Dancers\n\n6:30 PM-9:30 PM — Scene 4 \n\n7:30 PM-9:30 PM — Scene 5\n\n8:30 PM-9:30 PM — Scene 7",
+        "called": "6:30 PM-8:00 PM Scene 12 Dancers:  Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n6:30 PM-9:30 PM — Scene 4 \n\n7:30 PM-9:30 PM — Scene 5\n\n8:30 PM-9:30 PM — Scene 7",
         "callGroups": [],
         "calledPeople": [
           {
@@ -584,9 +710,9 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Music/choreo cleanup; Off-book work + music & dance review",
+        "work": "Choreography; Off-book work + music & dance review",
         "focus": "",
-        "prep": "Music/choreo cleanup; Off-book work + music & dance review",
+        "prep": "Choreography; Off-book work + music & dance review",
         "notice": "",
         "changeType": ""
       },
@@ -4696,19 +4822,19 @@
       {
         "id": "CHOSEN-20261020-REH",
         "eventKey": "CHOSEN-20261020-REH",
-        "start": "2026-10-20T23:00:00.000Z",
-        "end": "2026-10-21T01:00:00.000Z",
+        "start": "2026-10-20T22:30:00.000Z",
+        "end": "2026-10-21T01:30:00.000Z",
         "date": "October 20, 2026",
         "dateIso": "2026-10-20",
         "day": "Tuesday",
         "dateLabel": "October 20, 2026",
         "dayLabel": "Tuesday",
-        "time": "7:00 PM–9:00 PM",
-        "title": "CHOSEN Rehearsal - Scene 4",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 4; Leadership Meeting",
         "status": "VIRTUAL",
         "location": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
         "locationShort": "https://us02web.zoom.us/j/86477873478?pwd=gVOG4wPq5ym2nQcTdQ1YQsC9I1mYcg.1",
-        "called": "7:00–9:00 PM — Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)",
+        "called": "6:30–7:30 PM — Scene 4: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)\n\n7:35 PM- 9:30 PM- Leadership Meeting: Fredrick, Moenike, Cedrick, Andre, Lounise",
         "callGroups": [],
         "calledPeople": [
           {
@@ -4731,6 +4857,18 @@
           },
           {
             "displayName": "Moenike Custard"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Andre Sartin"
+          },
+          {
+            "displayName": "Lounise Blaise"
           }
         ],
         "calledPeopleIds": [
@@ -4740,14 +4878,44 @@
           "P-jeovanie-andre",
           "P-ashley-pierre",
           "P-shanice-palmer",
-          "P-moenike-custard"
+          "P-moenike-custard",
+          "P-cedrick-massey",
+          "P-fredrick-custard",
+          "P-andre-sartin",
+          "P-lounise-blaise"
         ],
+        "personalCallTimes": {
+          "P-jordyn-starks": "6:30 PM",
+          "P-tasha-simeon": "6:30 PM",
+          "P-tyfany-adaka": "6:30 PM",
+          "P-jeovanie-andre": "6:30 PM",
+          "P-ashley-pierre": "6:30 PM",
+          "P-shanice-palmer": "6:30 PM",
+          "P-moenike-custard": "6:30 PM",
+          "P-cedrick-massey": "7:35 PM",
+          "P-fredrick-custard": "7:35 PM",
+          "P-andre-sartin": "7:35 PM",
+          "P-lounise-blaise": "7:35 PM"
+        },
+        "personalCallEndTimes": {
+          "P-jordyn-starks": "7:30 PM",
+          "P-tasha-simeon": "7:30 PM",
+          "P-tyfany-adaka": "7:30 PM",
+          "P-jeovanie-andre": "7:30 PM",
+          "P-ashley-pierre": "7:30 PM",
+          "P-shanice-palmer": "7:30 PM",
+          "P-moenike-custard": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-fredrick-custard": "9:30 PM",
+          "P-andre-sartin": "9:30 PM",
+          "P-lounise-blaise": "9:30 PM"
+        },
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Review dialogue, character builiding",
+        "work": "Review dialogue, character building; Production Meeting",
         "focus": "",
-        "prep": "Actors: Dialogue & Character Building",
+        "prep": "Actors: Dialogue & Character Building; Leadership Meeting",
         "notice": "",
         "changeType": ""
       },
@@ -4766,7 +4934,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM-8:30 PM Scene 12 Dancers\n\n6:30 PM–9:30 PM — Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
+        "called": "6:30 PM-8:30 PM Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n6:30 PM–9:30 PM — Scenes 2, 3,6,8: Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -4823,7 +4991,7 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Off-book principals; Practice Songs",
+        "work": "Choreography; Off-book principals; Practice Songs",
         "focus": "",
         "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs)",
         "notice": "",
@@ -4844,7 +5012,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM-8:00 PM Scene 12 Dancers\n\n6:30 PM-9:30 PM — Scene 4 \n\n7:30 PM-9:30 PM — Scene 5\n\n8:30 PM-9:30 PM — Scene 7",
+        "called": "6:30 PM-8:00 PM Scene 12 Dancers:  Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n6:30 PM-9:30 PM — Scene 4 \n\n7:30 PM-9:30 PM — Scene 5\n\n8:30 PM-9:30 PM — Scene 7",
         "callGroups": [],
         "calledPeople": [
           {
@@ -4941,9 +5109,9 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Music/choreo cleanup; Off-book work + music & dance review",
+        "work": "Choreography; Off-book work + music & dance review",
         "focus": "",
-        "prep": "Music/choreo cleanup; Off-book work + music & dance review",
+        "prep": "Choreography; Off-book work + music & dance review",
         "notice": "",
         "changeType": ""
       },
@@ -9086,7 +9254,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "02",
@@ -9100,7 +9268,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "03",
@@ -9114,7 +9282,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "04",
@@ -9128,7 +9296,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "05",
@@ -9142,7 +9310,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "06",
@@ -9156,7 +9324,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "07",
@@ -9170,7 +9338,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "08",
@@ -9184,7 +9352,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "09",
@@ -9198,7 +9366,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "10",
@@ -9212,7 +9380,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "11",
@@ -9226,7 +9394,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "12",
@@ -9240,7 +9408,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       }
     ],
     "current": [
@@ -9256,7 +9424,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "02",
@@ -9270,7 +9438,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "03",
@@ -9284,7 +9452,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "04",
@@ -9298,7 +9466,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "05",
@@ -9312,7 +9480,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "06",
@@ -9326,7 +9494,7 @@
         "id": "mary-tells-joseph-its-not-mine",
         "name": "Mary Tells Joseph / It’s Not Mine",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "07",
@@ -9340,7 +9508,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "08",
@@ -9354,7 +9522,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "09",
@@ -9368,7 +9536,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "10",
@@ -9382,7 +9550,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "11",
@@ -9396,7 +9564,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       },
       {
         "scene": "12",
@@ -9410,11 +9578,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-18T00:28:58.274Z"
+        "updated": "2026-10-18T01:19:17.816Z"
       }
     ],
     "count": 12,
-    "updated": "2026-10-18T00:29:08.810Z",
+    "updated": "2026-10-18T01:19:27.591Z",
     "kind": "scripts"
   },
   "music": {
@@ -9573,7 +9741,7 @@
       }
     ],
     "count": 5,
-    "updated": "2026-10-18T00:29:08.810Z",
+    "updated": "2026-10-18T01:19:27.591Z",
     "kind": "music"
   }
 }
