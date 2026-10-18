@@ -42,7 +42,7 @@ const CANONICAL_TITLES = new Map([
   ["03", "Gabriel / Chosen"],
   ["04", "The Secret"],
   ["05", "Brotherhood"],
-  ["06", "Mary Tells Joseph / It’s Not Mine"],
+  ["06", "Mary & Joseph"],
   ["07", "Two Roads of Faith"],
   ["08", "Reunion / Still Yours"],
   ["09", "What Will He Be? / The Town Turns"],
