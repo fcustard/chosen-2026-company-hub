@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T19:14:02.055Z",
+  "updated": "2026-10-19T22:55:41.474Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -2034,9 +2034,9 @@
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Directors return",
-        "status": "VIRTUAL",
-        "location": "Virtual / Off-site - details TBD",
-        "locationShort": "Virtual / Off-site - details TBD",
+        "status": "CONFIRMED",
+        "location": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–9:30 PM — Targeted cast (specific call list TBD from captain reports)",
         "callGroups": [],
         "calledPeople": [],
@@ -2046,7 +2046,7 @@
         "callDataVersion": 3,
         "work": "Targeted cleanup using captain reports",
         "focus": "",
-        "prep": "Virtual/off-site format is not yet final. Specific call list and connection/location details will be posted before rehearsal.",
+        "prep": "Targeted cast list TBD. Meet in the Studio at 6:30 PM; move to the Sanctuary at 8:00 PM.",
         "notice": "",
         "changeType": ""
       },
@@ -2062,9 +2062,9 @@
         "dayLabel": "Thursday",
         "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Problem scenes / understudy",
-        "status": "VIRTUAL",
-        "location": "Virtual / Off-site - details TBD",
-        "locationShort": "Virtual / Off-site - details TBD",
+        "status": "CONFIRMED",
+        "location": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–9:30 PM — Targeted cast + understudies/backups (specific call list TBD)",
         "callGroups": [],
         "calledPeople": [],
@@ -2074,7 +2074,7 @@
         "callDataVersion": 3,
         "work": "First-half/middle problem scenes; understudy practice",
         "focus": "",
-        "prep": "No TFC room is available. An off-site large room is preferred; if unavailable, rehearsal will shift to sectional/virtual work. Final location/format will be posted before travel.",
+        "prep": "Targeted cast and understudy call list TBD. Rehearsal in the Sanctuary, 6:30–9:30 PM.",
         "notice": "",
         "changeType": ""
       },
@@ -2090,9 +2090,9 @@
         "dayLabel": "Saturday",
         "time": "10:00 AM–2:00 PM",
         "title": "CHOSEN Rehearsal - Reintegration — displaced",
-        "status": "VIRTUAL",
-        "location": "Virtual / Off-site - details TBD",
-        "locationShort": "Virtual / Off-site - details TBD",
+        "status": "CONFIRMED",
+        "location": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM — (Dancers, All Actors, Ensemble, EVERYONE!)",
         "callGroups": [
           "Full Company",
@@ -2110,7 +2110,7 @@
         "callDataVersion": 3,
         "work": "Originally main-stage sequence runs, spacing, transitions, ensemble cleanup",
         "focus": "",
-        "prep": "Location TBA",
+        "prep": "Full-company rehearsal in the Sanctuary, 10:00 AM–2:00 PM.",
         "notice": "",
         "changeType": ""
       },
@@ -6465,9 +6465,9 @@
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Directors return",
-        "status": "VIRTUAL",
-        "location": "Virtual / Off-site - details TBD",
-        "locationShort": "Virtual / Off-site - details TBD",
+        "status": "CONFIRMED",
+        "location": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–9:30 PM — Targeted cast (specific call list TBD from captain reports)",
         "callGroups": [],
         "calledPeople": [],
@@ -6477,7 +6477,7 @@
         "callDataVersion": 3,
         "work": "Targeted cleanup using captain reports",
         "focus": "",
-        "prep": "Virtual/off-site format is not yet final. Specific call list and connection/location details will be posted before rehearsal.",
+        "prep": "Targeted cast list TBD. Meet in the Studio at 6:30 PM; move to the Sanctuary at 8:00 PM.",
         "notice": "",
         "changeType": ""
       },
@@ -6493,9 +6493,9 @@
         "dayLabel": "Thursday",
         "time": "6:30 PM–9:30 PM",
         "title": "CHOSEN Rehearsal - Problem scenes / understudy",
-        "status": "VIRTUAL",
-        "location": "Virtual / Off-site - details TBD",
-        "locationShort": "Virtual / Off-site - details TBD",
+        "status": "CONFIRMED",
+        "location": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "6:30–9:30 PM — Targeted cast + understudies/backups (specific call list TBD)",
         "callGroups": [],
         "calledPeople": [],
@@ -6505,7 +6505,7 @@
         "callDataVersion": 3,
         "work": "First-half/middle problem scenes; understudy practice",
         "focus": "",
-        "prep": "No TFC room is available. An off-site large room is preferred; if unavailable, rehearsal will shift to sectional/virtual work. Final location/format will be posted before travel.",
+        "prep": "Targeted cast and understudy call list TBD. Rehearsal in the Sanctuary, 6:30–9:30 PM.",
         "notice": "",
         "changeType": ""
       },
@@ -6521,9 +6521,9 @@
         "dayLabel": "Saturday",
         "time": "10:00 AM–2:00 PM",
         "title": "CHOSEN Rehearsal - Reintegration — displaced",
-        "status": "VIRTUAL",
-        "location": "Virtual / Off-site - details TBD",
-        "locationShort": "Virtual / Off-site - details TBD",
+        "status": "CONFIRMED",
+        "location": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
         "called": "10:00 AM–2:00 PM — (Dancers, All Actors, Ensemble, EVERYONE!)",
         "callGroups": [
           "Full Company",
@@ -6541,7 +6541,7 @@
         "callDataVersion": 3,
         "work": "Originally main-stage sequence runs, spacing, transitions, ensemble cleanup",
         "focus": "",
-        "prep": "Location TBA",
+        "prep": "Full-company rehearsal in the Sanctuary, 10:00 AM–2:00 PM.",
         "notice": "",
         "changeType": ""
       },
@@ -9608,7 +9608,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "02",
@@ -9622,7 +9622,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "03",
@@ -9636,7 +9636,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "04",
@@ -9650,7 +9650,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "05",
@@ -9664,7 +9664,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "06",
@@ -9678,7 +9678,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "07",
@@ -9692,7 +9692,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "08",
@@ -9706,7 +9706,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "09",
@@ -9720,7 +9720,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "10",
@@ -9734,7 +9734,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "11",
@@ -9748,7 +9748,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "12",
@@ -9762,7 +9762,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       }
     ],
     "current": [
@@ -9778,7 +9778,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "02",
@@ -9792,7 +9792,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "03",
@@ -9806,7 +9806,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "04",
@@ -9820,7 +9820,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "05",
@@ -9834,7 +9834,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "06",
@@ -9848,7 +9848,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "07",
@@ -9862,7 +9862,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "08",
@@ -9876,7 +9876,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "09",
@@ -9890,7 +9890,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "10",
@@ -9904,7 +9904,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "11",
@@ -9918,7 +9918,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       },
       {
         "scene": "12",
@@ -9932,11 +9932,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-19T19:13:51.991Z"
+        "updated": "2026-10-19T22:55:28.462Z"
       }
     ],
     "count": 12,
-    "updated": "2026-10-19T19:14:02.055Z",
+    "updated": "2026-10-19T22:55:41.474Z",
     "kind": "scripts"
   },
   "music": {
@@ -10095,7 +10095,7 @@
       }
     ],
     "count": 5,
-    "updated": "2026-10-19T19:14:02.056Z",
+    "updated": "2026-10-19T22:55:41.474Z",
     "kind": "music"
   }
 }
