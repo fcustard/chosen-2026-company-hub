@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T02:54:20.704Z",
+  "updated": "2026-10-20T02:56:37.310Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -10025,7 +10025,7 @@
         "status": "Current rehearsal track",
         "approved": true,
         "companyPublish": true,
-        "playUrl": "https://drive.google.com/file/d/1b3SgnYrfKTk6cTFDw0miIRLv2u43BkPC/view?usp=drivesdk",
+        "playUrl": "assets/audio/12_Chosen_Finale_Rehearsal_v1.mp3",
         "lyricsUrl": "#",
         "id": "chosen-finale",
         "name": "Chosen Finale",
@@ -10117,7 +10117,7 @@
         "status": "Current rehearsal track",
         "approved": true,
         "companyPublish": true,
-        "playUrl": "https://drive.google.com/file/d/1b3SgnYrfKTk6cTFDw0miIRLv2u43BkPC/view?usp=drivesdk",
+        "playUrl": "assets/audio/12_Chosen_Finale_Rehearsal_v1.mp3",
         "lyricsUrl": "#",
         "id": "chosen-finale",
         "name": "Chosen Finale",
@@ -10125,7 +10125,7 @@
       }
     ],
     "count": 6,
-    "updated": "2026-10-20T02:54:20.704Z",
+    "updated": "2026-10-20T02:56:37.310Z",
     "kind": "music"
   }
 }
