@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T01:22:19.732Z",
+  "updated": "2026-10-20T02:52:56.863Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -10015,6 +10015,21 @@
         "id": "what-will-he-be",
         "name": "What Will He Be?",
         "current": false
+      },
+      {
+        "title": "Chosen Finale",
+        "scenes": [
+          12
+        ],
+        "type": "Finale / Full Company",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "https://drive.google.com/file/d/1b3SgnYrfKTk6cTFDw0miIRLv2u43BkPC/view?usp=drivesdk",
+        "lyricsUrl": "#",
+        "id": "chosen-finale",
+        "name": "Chosen Finale",
+        "current": false
       }
     ],
     "current": [
@@ -10092,10 +10107,25 @@
         "id": "what-will-he-be",
         "name": "What Will He Be?",
         "current": false
+      },
+      {
+        "title": "Chosen Finale",
+        "scenes": [
+          12
+        ],
+        "type": "Finale / Full Company",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "https://drive.google.com/file/d/1b3SgnYrfKTk6cTFDw0miIRLv2u43BkPC/view?usp=drivesdk",
+        "lyricsUrl": "#",
+        "id": "chosen-finale",
+        "name": "Chosen Finale",
+        "current": false
       }
     ],
-    "count": 5,
-    "updated": "2026-10-20T01:22:19.732Z",
+    "count": 6,
+    "updated": "2026-10-20T02:52:56.863Z",
     "kind": "music"
   }
 }
