@@ -1475,7 +1475,9 @@ function main() {
   );
 
   OUTPUTS.forEach(output => write(output, content));
-  const calendar = buildCalendarFeed([...publicFuture, ...publicPast], new Date(content.updated));
+  const previousCalendar = fs.existsSync(abs('chosen-calendar.ics'))
+    ? fs.readFileSync(abs('chosen-calendar.ics'), 'utf8') : '';
+  const calendar = buildCalendarFeed([...publicFuture, ...publicPast], new Date(content.updated), previousCalendar);
   fs.writeFileSync(abs('chosen-calendar.ics'), calendar, 'utf8');
   console.log('✅ Wrote chosen-calendar.ics from the same published schedule');
 

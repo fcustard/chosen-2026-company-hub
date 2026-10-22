@@ -51,3 +51,55 @@ test('invalid or duplicate windows stop publication', () => {
   assert.throws(() => buildCalendarFeed([{...event, end:event.start}]), /Invalid/);
   assert.throws(() => buildCalendarFeed([]), /empty/);
 });
+
+const sample = { id:'CHOSEN-20261022-REH', start:'2026-10-22T22:30:00Z',
+  end:'2026-10-23T01:30:00Z', title:'Rehearsal', location:'Faith Center' };
+const firstStamp = new Date('2026-10-22T10:00:00Z');
+const nextStamp = new Date('2026-10-22T11:00:00Z');
+
+test('unchanged events keep their revision even across builds and private call changes', () => {
+  const first = buildCalendarFeed([sample], firstStamp);
+  const next = buildCalendarFeed([{...sample, personalCallTimes:{ jordyn:'8:00 PM' }}], nextStamp, first);
+  assert.equal(next, first);
+  assert.match(next, /LAST-MODIFIED:20261022T100000Z/);
+  assert.match(next, /SEQUENCE:0/);
+});
+
+test('public time, location and title changes advance the same event revision', () => {
+  let feed = buildCalendarFeed([sample], firstStamp);
+  let event = {...sample};
+  for (const [index, change] of [
+    {start:'2026-10-22T23:30:00Z'}, {location:'Studio'}, {title:'Updated rehearsal'}
+  ].entries()) {
+    event = {...event, ...change};
+    feed = buildCalendarFeed([event], nextStamp, feed);
+    assert.match(feed, new RegExp('SEQUENCE:' + (index + 1)));
+    assert.match(feed, /UID:CHOSEN-20261022-REH@/);
+    assert.match(feed, /LAST-MODIFIED:20261022T110000Z/);
+  }
+});
+
+test('removal publishes a persistent cancellation and reactivation advances its revision', () => {
+  const other = {...sample, id:'CHOSEN-20261024-REH'};
+  const first = buildCalendarFeed([sample, other], firstStamp);
+  const canceled = buildCalendarFeed([other], nextStamp, first);
+  const blocks = canceled.replace(/\r\n /g, '').split('BEGIN:VEVENT');
+  const removed = blocks.find(block => block.includes('UID:' + sample.id));
+  assert.match(removed, /STATUS:CANCELLED/);
+  assert.match(removed, /SEQUENCE:1/);
+  assert.match(removed, /SUMMARY:Canceled — Rehearsal/);
+  assert.equal(buildCalendarFeed([other], new Date('2026-10-22T12:00:00Z'), canceled), canceled);
+  const restored = buildCalendarFeed([sample, other], nextStamp, canceled);
+  const restoredBlock = restored.split('BEGIN:VEVENT').find(block => block.includes('UID:' + sample.id));
+  assert.match(restoredBlock, /STATUS:CONFIRMED/);
+  assert.match(restoredBlock, /SEQUENCE:2/);
+});
+
+test('existing feeds without revision fields migrate without changing identities', () => {
+  const legacy = buildCalendarFeed([sample], firstStamp)
+    .replace(/^LAST-MODIFIED:.*\r\n/gm, '').replace(/^SEQUENCE:.*\r\n/gm, '');
+  const next = buildCalendarFeed([sample], nextStamp, legacy);
+  assert.match(next, /DTSTAMP:20261022T100000Z/);
+  assert.match(next, /LAST-MODIFIED:20261022T100000Z/);
+  assert.match(next, /SEQUENCE:0/);
+});

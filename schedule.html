@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#0d1726">
   <title>Schedule | CHOSEN 2026</title>
   <link rel="stylesheet" href="styles.css?v=20261015-calendar1">
-  <script defer src="app.js?v=20261015-calendar1"></script>
+  <script defer src="app.js?v=20261022-calendar2"></script>
 </head>
 
 <body data-page="schedule">
@@ -83,24 +83,24 @@
     <section class="calendarTools">
       <div class="head">
         <p class="ey">OPTIONAL</p>
-        <h2>Add the calendar</h2>
-        <p>Both options use the Hub's approved schedule. Calendar apps may take time to show changes. Check My Calls for your own report and release times before you travel.</p>
+        <h2>Subscribe for calendar updates</h2>
+        <p>Subscribe once to receive changes to shared rehearsal dates, times and locations. This calendar shows shared schedule windows; it does not show who is called or personal report and release times. Check My Calls before you leave.</p>
       </div>
 
       <div class="util">
         <a data-link="appleCalendar" href="#">
-          <b>Apple Calendar</b>
-          <p class="note">Subscribe on iPhone, iPad or Mac</p>
+          <b>Subscribe in Apple Calendar</b>
+          <p class="note">iPhone, iPad or Mac: choose Subscribe when prompted</p>
         </a>
 
         <a id="googleCalendarLink" data-link="googleCalendar" href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noopener">
-          <b>Google Calendar</b>
+          <b>Subscribe in Google Calendar</b>
           <p class="note">On a computer: Other calendars + &rarr; From URL. Paste the link below.</p>
         </a>
 
-        <a data-link="liveSchedule" href="#">
-          <b>Legacy Calendar View</b>
-          <p class="note">Backup browser view</p>
+        <a href="schedule.html#upcomingSchedule">
+          <b>Check the latest schedule</b>
+          <p class="note">See published updates here while your calendar refreshes</p>
         </a>
       </div>
       <div class="calendarFeedRow">
@@ -110,7 +110,17 @@
           <button id="copyCalendarFeed" type="button">Copy link</button>
         </div>
         <span id="calendarFeedStatus" role="status" aria-live="polite"></span>
-        <p class="note">If you already added the old CHOSEN calendar, remove that old subscription to avoid two copies of each event. Add this link as a subscription, not a one-time import.</p>
+        <p class="note">Already subscribed to this link? Keep that subscription; you do not need to add it again after every change. Google and Apple control when your device refreshes, so changes may not appear immediately.</p>
+        <details class="calendarHelp">
+          <summary>My device still shows old information</summary>
+          <p>First open an outdated event and check which calendar it belongs to. Use one CHOSEN calendar to avoid duplicates.</p>
+          <ul>
+            <li><strong>Google:</strong> on a computer, use Other calendars + &rarr; From URL and paste the calendar link above. Import &amp; Export creates a separate copy that will not receive changes.</li>
+            <li><strong>Apple:</strong> add the link as a subscribed calendar. On a Mac, select the subscription, choose Get Info and set Auto-refresh; use View &rarr; Refresh Calendars to check now.</li>
+            <li><strong>Old copies:</strong> if an event was imported or copied into your personal calendar, it will stay separate. Hide the old CHOSEN calendar while checking the current subscription. Remove only confirmed old CHOSEN copies, keeping your other events.</li>
+          </ul>
+          <p>For same-day changes and your individual call, use <a href="company.html#my-role">My Calls on the Hub</a>. Do not assume everyone is called for the full shared calendar window.</p>
+        </details>
       </div>
     </section>
 
