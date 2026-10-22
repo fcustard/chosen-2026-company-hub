@@ -339,6 +339,22 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
+  const calendarFeedInput = document.querySelector('#calendarFeedUrl');
+  const copyCalendarFeed = document.querySelector('#copyCalendarFeed');
+  if (calendarFeedInput && copyCalendarFeed) {
+    copyCalendarFeed.addEventListener('click', async () => {
+      const status = document.querySelector('#calendarFeedStatus');
+      try {
+        await navigator.clipboard.writeText(calendarFeedInput.value);
+        if (status) status.textContent = 'Link copied. In Apple Calendar, use Add Subscription Calendar; in Google Calendar, use From URL.';
+      } catch (_) {
+        calendarFeedInput.focus();
+        calendarFeedInput.select();
+        if (status) status.textContent = 'Link selected. Copy it, then use Add Subscription Calendar in Apple Calendar or From URL in Google Calendar.';
+      }
+    });
+  }
+
   const d = await load();
 
   if (!d) return;
@@ -346,22 +362,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.querySelectorAll('[data-link]').forEach(a =>
     link(a, d.links?.[a.dataset.link])
   );
-  const calendarFeedInput = document.querySelector('#calendarFeedUrl');
-  const copyCalendarFeed = document.querySelector('#copyCalendarFeed');
-  if (calendarFeedInput && copyCalendarFeed) {
-    if (d.links?.calendarFeed) calendarFeedInput.value = d.links.calendarFeed;
-    copyCalendarFeed.addEventListener('click', async () => {
-      const status = document.querySelector('#calendarFeedStatus');
-      try {
-        await navigator.clipboard.writeText(calendarFeedInput.value);
-        if (status) status.textContent = 'Link copied. Paste it in Google Calendar.';
-      } catch (_) {
-        calendarFeedInput.focus();
-        calendarFeedInput.select();
-        if (status) status.textContent = 'Link selected. Copy it, then paste it in Google Calendar.';
-      }
-    });
-  }
+  if (calendarFeedInput && d.links?.calendarFeed) calendarFeedInput.value = d.links.calendarFeed;
 
 
   /*

@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#0d1726">
   <title>Schedule | CHOSEN 2026</title>
   <link rel="stylesheet" href="styles.css?v=20261015-calendar1">
-  <script defer src="app.js?v=20261022-calendar2"></script>
+  <script defer src="app.js?v=20261022-iphone1"></script>
 </head>
 
 <body data-page="schedule">
@@ -80,7 +80,7 @@
       <div id="upcomingSchedule" class="scheduleList"></div>
     </section>
 
-    <section class="calendarTools">
+    <section id="calendarSubscriptions" class="calendarTools">
       <div class="head">
         <p class="ey">OPTIONAL</p>
         <h2>Subscribe for calendar updates</h2>
@@ -88,9 +88,9 @@
       </div>
 
       <div class="util">
-        <a data-link="appleCalendar" href="#">
-          <b>Subscribe in Apple Calendar</b>
-          <p class="note">iPhone, iPad or Mac: choose Subscribe when prompted</p>
+        <a id="appleCalendarLink" data-link="appleCalendar" href="webcal://fcustard.github.io/chosen-2026-company-hub/chosen-calendar.ics">
+          <b>Subscribe on iPhone / Apple Calendar</b>
+          <p class="note">Opens the built-in Calendar app. No Google account needed.</p>
         </a>
 
         <a id="googleCalendarLink" data-link="googleCalendar" href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noopener">
@@ -103,8 +103,26 @@
           <p class="note">See published updates here while your calendar refreshes</p>
         </a>
       </div>
+      <div class="calendarFeedRow" aria-labelledby="iphoneCalendarSetup">
+        <h3 id="iphoneCalendarSetup">Using an iPhone?</h3>
+        <p>Use the Calendar app already on your iPhone. You do not need Google Calendar or a Google account.</p>
+        <ol>
+          <li>Open this page in Safari and tap <a href="webcal://fcustard.github.io/chosen-2026-company-hub/chosen-calendar.ics">Subscribe on iPhone / Apple Calendar</a>.</li>
+          <li>Review the CHOSEN calendar and confirm the subscription. Choose iCloud if offered to use it across your Apple devices.</li>
+          <li>Keep the subscription to receive future schedule changes. Your iPhone controls when those updates appear.</li>
+        </ol>
+        <details>
+          <summary>Apple Calendar didn’t open? Set it up manually</summary>
+          <ol>
+            <li>Copy the subscription link below.</li>
+            <li>Open <strong>Calendar &rarr; Calendars &rarr; Add Calendar &rarr; Add Subscription Calendar</strong>.</li>
+            <li>Paste the link and tap <strong>Find</strong> (or <strong>Subscribe</strong> on older iPhones). Name it CHOSEN 2026, choose iCloud if offered, then tap <strong>Done</strong> or <strong>Add</strong>.</li>
+          </ol>
+          <p><a href="https://support.apple.com/102301" target="_blank" rel="noopener">Apple’s subscription setup guide</a></p>
+        </details>
+      </div>
       <div class="calendarFeedRow">
-        <label for="calendarFeedUrl">Calendar link to paste into Google</label>
+        <label for="calendarFeedUrl">Subscription link for Apple or Google Calendar</label>
         <div class="calendarFeedControls">
           <input id="calendarFeedUrl" type="text" readonly value="https://fcustard.github.io/chosen-2026-company-hub/chosen-calendar.ics">
           <button id="copyCalendarFeed" type="button">Copy link</button>
@@ -116,7 +134,7 @@
           <p>First open an outdated event and check which calendar it belongs to. Use one CHOSEN calendar to avoid duplicates.</p>
           <ul>
             <li><strong>Google:</strong> on a computer, use Other calendars + &rarr; From URL and paste the calendar link above. Import &amp; Export creates a separate copy that will not receive changes.</li>
-            <li><strong>Apple:</strong> add the link as a subscribed calendar. On a Mac, select the subscription, choose Get Info and set Auto-refresh; use View &rarr; Refresh Calendars to check now.</li>
+            <li><strong>iPhone / Apple:</strong> use the iPhone subscription steps above. In Calendar &rarr; Calendars, make sure CHOSEN is selected. On a Mac, select the subscription, choose Get Info and set Auto-refresh; use View &rarr; Refresh Calendars to check now.</li>
             <li><strong>Old copies:</strong> if an event was imported or copied into your personal calendar, it will stay separate. Hide the old CHOSEN calendar while checking the current subscription. Remove only confirmed old CHOSEN copies, keeping your other events.</li>
           </ul>
           <p>For same-day changes and your individual call, use <a href="company.html#my-role">My Calls on the Hub</a>. Do not assume everyone is called for the full shared calendar window.</p>
