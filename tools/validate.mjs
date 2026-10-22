@@ -17,7 +17,7 @@ try {
   const google = new URL(site.links.googleCalendar);
   const schedule = fs.readFileSync('schedule.html', 'utf8');
   const googleCard = schedule.match(/<a\s+id="googleCalendarLink"[^>]*>/)?.[0] || '';
-  const appleCard = schedule.match(/<a\s+data-link="appleCalendar"[^>]*>/)?.[0] || '';
+  const appleCard = schedule.match(/<a\b[^>]*\bdata-link="appleCalendar"[^>]*>/)?.[0] || '';
   if (feed.protocol !== 'https:' || !feed.pathname.endsWith('/chosen-calendar.ics') ||
       apple.protocol !== 'webcal:' || apple.host !== feed.host ||
       apple.pathname !== feed.pathname ||
@@ -25,7 +25,7 @@ try {
       google.pathname !== '/calendar/u/0/r' ||
       !googleCard.includes('data-link="googleCalendar"') ||
       !googleCard.includes(`href="${site.links.googleCalendar}"`) ||
-      !appleCard ||
+      !appleCard.includes(`href="${site.links.appleCalendar}"`) ||
       !schedule.includes(`value="${site.links.calendarFeed}"`) ||
       !fs.existsSync('chosen-calendar.ics')) {
     errors.push('Apple and Google Calendar must use the published Hub subscription feed');
