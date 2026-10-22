@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T00:56:44.605Z",
+  "updated": "2026-10-22T05:34:05.688Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -13,21 +13,21 @@
     "calendarFeed": "https://fcustard.github.io/chosen-2026-company-hub/chosen-calendar.ics"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20261021-REH",
-    "eventKey": "CHOSEN-20261021-REH",
-    "start": "2026-10-21T22:30:00.000Z",
-    "end": "2026-10-22T01:30:00.000Z",
-    "date": "October 21, 2026",
-    "dateIso": "2026-10-21",
-    "day": "Wednesday",
-    "dateLabel": "October 21, 2026",
-    "dayLabel": "Wednesday",
+    "id": "CHOSEN-20261022-REH",
+    "eventKey": "CHOSEN-20261022-REH",
+    "start": "2026-10-22T22:30:00.000Z",
+    "end": "2026-10-23T01:30:00.000Z",
+    "date": "October 22, 2026",
+    "dateIso": "2026-10-22",
+    "day": "Thursday",
+    "dateLabel": "October 22, 2026",
+    "dayLabel": "Thursday",
     "time": "6:30 PM–9:30 PM",
-    "title": "CHOSEN Rehearsal - Scene 12; (Dance ONLY); Scene 12 Dancers Wardrobe Fitting; Scenes 2, 3, 6, 8; RECORDING Scene 3 & 8",
+    "title": "CHOSEN Rehearsal Scene 12; (Dance ONLY) Off-book Scenes 4,5,7; RECORDING Scene 5",
     "status": "CONFIRMED",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "6:30 PM-8:30 PM Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n8:30 PM–9:30 PM Scene 12 Dancers Wardrobe Fitting: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n\n6:30 PM–7:30 PM- Scenes 3 & 8 RECORDING: Mary (Jordyn), Joseph (Caleb), Eddie\n\n6:30 PM–9:30 PM — Scenes 2, 3,6,8: Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
+    "called": "6:30 PM-8:00 PM Scene 12 Dancers:  Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n6:30 PM-8:30 PM — Scene 4: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike)\n\n6:30 PM-7:30 PM- Scene 5 RECORDING:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris) \n \n7:30 PM-8:30 PM —  Scene 5:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
     "callGroups": [],
     "calledPeople": [
       {
@@ -40,7 +40,16 @@
         "displayName": "Arielle Brown"
       },
       {
+        "displayName": "Ashley Pierre"
+      },
+      {
         "displayName": "Aubrie Lewis"
+      },
+      {
+        "displayName": "Audrey Howell-McClenney"
+      },
+      {
+        "displayName": "Caleb Davilmar"
       },
       {
         "displayName": "Caris Hunte"
@@ -49,37 +58,68 @@
         "displayName": "Carmen Brown"
       },
       {
+        "displayName": "Cedrick Massey"
+      },
+      {
+        "displayName": "Chris Mcanuff"
+      },
+      {
         "displayName": "DeAndra Gray"
+      },
+      {
+        "displayName": "Dorrien Jones"
       },
       {
         "displayName": "Gabriella Fearon"
       },
       {
+        "displayName": "Jéovanie André"
+      },
+      {
         "displayName": "Jordyn Starks"
       },
       {
-        "displayName": "Caleb Davilmar"
+        "displayName": "Marcus Mainer"
       },
       {
-        "displayName": "Cedrick Massey"
+        "displayName": "Michael Stover"
       },
       {
-        "displayName": "Edison Browne"
+        "displayName": "Moenike Custard"
+      },
+      {
+        "displayName": "Shanice Palmer"
+      },
+      {
+        "displayName": "Tasha Simeon"
+      },
+      {
+        "displayName": "Tyfany Adaka"
       }
     ],
     "calledPeopleIds": [
       "P-alyssa-johnson",
       "P-anaia-downer",
       "P-arielle-brown",
+      "P-ashley-pierre",
       "P-aubrie-lewis",
+      "P-audrey-howell-mcclenney",
+      "P-caleb-davilmar",
       "P-caris-hunte",
       "P-carmen-brown",
-      "P-deandra-gray",
-      "P-gabriella-fearon",
-      "P-jordyn-starks",
-      "P-caleb-davilmar",
       "P-cedrick-massey",
-      "P-edison-browne"
+      "P-chris-mcanuff",
+      "P-deandra-gray",
+      "P-dorrien-jones",
+      "P-gabriella-fearon",
+      "P-jeovanie-andre",
+      "P-jordyn-starks",
+      "P-marcus-mainer",
+      "P-michael-stover",
+      "P-moenike-custard",
+      "P-shanice-palmer",
+      "P-tasha-simeon",
+      "P-tyfany-adaka"
     ],
     "personalCallTimes": {
       "P-alyssa-johnson": "6:30 PM",
@@ -91,144 +131,58 @@
       "P-deandra-gray": "6:30 PM",
       "P-gabriella-fearon": "6:30 PM",
       "P-jordyn-starks": "6:30 PM",
+      "P-tasha-simeon": "6:30 PM",
+      "P-tyfany-adaka": "6:30 PM",
+      "P-jeovanie-andre": "6:30 PM",
+      "P-ashley-pierre": "6:30 PM",
+      "P-shanice-palmer": "6:30 PM",
+      "P-moenike-custard": "6:30 PM",
       "P-caleb-davilmar": "6:30 PM",
-      "P-cedrick-massey": "6:30 PM",
-      "P-edison-browne": "6:30 PM"
+      "P-marcus-mainer": "6:30 PM",
+      "P-dorrien-jones": "6:30 PM",
+      "P-michael-stover": "6:30 PM",
+      "P-chris-mcanuff": "6:30 PM",
+      "P-audrey-howell-mcclenney": "8:30 PM",
+      "P-cedrick-massey": "8:30 PM"
     },
     "personalCallEndTimes": {
-      "P-alyssa-johnson": "9:30 PM",
-      "P-anaia-downer": "9:30 PM",
-      "P-arielle-brown": "9:30 PM",
-      "P-aubrie-lewis": "9:30 PM",
-      "P-caris-hunte": "9:30 PM",
-      "P-carmen-brown": "9:30 PM",
-      "P-deandra-gray": "9:30 PM",
-      "P-gabriella-fearon": "9:30 PM",
+      "P-alyssa-johnson": "8:00 PM",
+      "P-anaia-downer": "8:00 PM",
+      "P-arielle-brown": "8:00 PM",
+      "P-aubrie-lewis": "8:00 PM",
+      "P-caris-hunte": "8:00 PM",
+      "P-carmen-brown": "8:00 PM",
+      "P-deandra-gray": "8:00 PM",
+      "P-gabriella-fearon": "8:00 PM",
       "P-jordyn-starks": "9:30 PM",
+      "P-tasha-simeon": "8:30 PM",
+      "P-tyfany-adaka": "8:30 PM",
+      "P-jeovanie-andre": "8:30 PM",
+      "P-ashley-pierre": "8:30 PM",
+      "P-shanice-palmer": "8:30 PM",
+      "P-moenike-custard": "8:30 PM",
       "P-caleb-davilmar": "9:30 PM",
-      "P-cedrick-massey": "9:30 PM",
-      "P-edison-browne": "7:30 PM"
+      "P-marcus-mainer": "9:30 PM",
+      "P-dorrien-jones": "9:30 PM",
+      "P-michael-stover": "9:30 PM",
+      "P-chris-mcanuff": "9:30 PM",
+      "P-audrey-howell-mcclenney": "9:30 PM",
+      "P-cedrick-massey": "9:30 PM"
     },
     "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Choreography; Off-book principals; Practice Songs; recording & wardrobe fitting",
+    "work": "Choreography; Off-book work + music & dance review; recording & wardrobe fitting",
     "focus": "",
-    "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs; dancers work on choreography; record songs; wardrobe fitting",
+    "prep": "Choreography; Off-book work + music & dance review",
     "notice": "",
     "changeType": ""
   },
   "thisWeek": {
     "title": "This Week",
-    "start": "2026-10-21T04:00:00.000Z",
-    "end": "2026-10-28T03:59:59.000Z",
+    "start": "2026-10-22T04:00:00.000Z",
+    "end": "2026-10-29T03:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261021-REH",
-        "eventKey": "CHOSEN-20261021-REH",
-        "start": "2026-10-21T22:30:00.000Z",
-        "end": "2026-10-22T01:30:00.000Z",
-        "date": "October 21, 2026",
-        "dateIso": "2026-10-21",
-        "day": "Wednesday",
-        "dateLabel": "October 21, 2026",
-        "dayLabel": "Wednesday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 12; (Dance ONLY); Scene 12 Dancers Wardrobe Fitting; Scenes 2, 3, 6, 8; RECORDING Scene 3 & 8",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM-8:30 PM Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n8:30 PM–9:30 PM Scene 12 Dancers Wardrobe Fitting: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n\n6:30 PM–7:30 PM- Scenes 3 & 8 RECORDING: Mary (Jordyn), Joseph (Caleb), Eddie\n\n6:30 PM–9:30 PM — Scenes 2, 3,6,8: Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Alyssa Johnson"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Arielle Brown"
-          },
-          {
-            "displayName": "Aubrie Lewis"
-          },
-          {
-            "displayName": "Caris Hunte"
-          },
-          {
-            "displayName": "Carmen Brown"
-          },
-          {
-            "displayName": "DeAndra Gray"
-          },
-          {
-            "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          },
-          {
-            "displayName": "Edison Browne"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-alyssa-johnson",
-          "P-anaia-downer",
-          "P-arielle-brown",
-          "P-aubrie-lewis",
-          "P-caris-hunte",
-          "P-carmen-brown",
-          "P-deandra-gray",
-          "P-gabriella-fearon",
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-cedrick-massey",
-          "P-edison-browne"
-        ],
-        "personalCallTimes": {
-          "P-alyssa-johnson": "6:30 PM",
-          "P-anaia-downer": "6:30 PM",
-          "P-arielle-brown": "6:30 PM",
-          "P-aubrie-lewis": "6:30 PM",
-          "P-caris-hunte": "6:30 PM",
-          "P-carmen-brown": "6:30 PM",
-          "P-deandra-gray": "6:30 PM",
-          "P-gabriella-fearon": "6:30 PM",
-          "P-jordyn-starks": "6:30 PM",
-          "P-caleb-davilmar": "6:30 PM",
-          "P-cedrick-massey": "6:30 PM",
-          "P-edison-browne": "6:30 PM"
-        },
-        "personalCallEndTimes": {
-          "P-alyssa-johnson": "9:30 PM",
-          "P-anaia-downer": "9:30 PM",
-          "P-arielle-brown": "9:30 PM",
-          "P-aubrie-lewis": "9:30 PM",
-          "P-caris-hunte": "9:30 PM",
-          "P-carmen-brown": "9:30 PM",
-          "P-deandra-gray": "9:30 PM",
-          "P-gabriella-fearon": "9:30 PM",
-          "P-jordyn-starks": "9:30 PM",
-          "P-caleb-davilmar": "9:30 PM",
-          "P-cedrick-massey": "9:30 PM",
-          "P-edison-browne": "7:30 PM"
-        },
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Choreography; Off-book principals; Practice Songs; recording & wardrobe fitting",
-        "focus": "",
-        "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs; dancers work on choreography; record songs; wardrobe fitting",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261022-REH",
         "eventKey": "CHOSEN-20261022-REH",
@@ -608,30 +562,23 @@
         "prep": "All Actors and Dancers in Scenes 1-6 must attend.\n\nEveryone: Bring a snack and a drink for the 12:00–12:20 PM break.",
         "notice": "",
         "changeType": ""
-      }
-    ],
-    "count": 3
-  },
-  "schedule": {
-    "title": "Schedule",
-    "timezone": "America/New_York",
-    "rehearsals": [
+      },
       {
-        "id": "CHOSEN-20261021-REH",
-        "eventKey": "CHOSEN-20261021-REH",
-        "start": "2026-10-21T22:30:00.000Z",
-        "end": "2026-10-22T01:30:00.000Z",
-        "date": "October 21, 2026",
-        "dateIso": "2026-10-21",
+        "id": "CHOSEN-20261028-REH",
+        "eventKey": "CHOSEN-20261028-REH",
+        "start": "2026-10-28T22:30:00.000Z",
+        "end": "2026-10-29T01:30:00.000Z",
+        "date": "October 28, 2026",
+        "dateIso": "2026-10-28",
         "day": "Wednesday",
-        "dateLabel": "October 21, 2026",
+        "dateLabel": "October 28, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 12; (Dance ONLY); Scene 12 Dancers Wardrobe Fitting; Scenes 2, 3, 6, 8; RECORDING Scene 3 & 8",
+        "title": "CHOSEN Rehearsal - Scene 12 Dancers; Scenes 7–9 (Actors)",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM-8:30 PM Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n8:30 PM–9:30 PM Scene 12 Dancers Wardrobe Fitting: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n\n6:30 PM–7:30 PM- Scenes 3 & 8 RECORDING: Mary (Jordyn), Joseph (Caleb), Eddie\n\n6:30 PM–9:30 PM — Scenes 2, 3,6,8: Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
+        "called": "6:30 PM–9:30 PM —  Scene 12 Dancers\n \n6:30 PM–7:30 PM- Scene 8\n\n7:30 PM–8:30 PM–Scene 7\n\n8:30 PM–9:30 PM–Scene 9",
         "callGroups": [],
         "calledPeople": [
           {
@@ -644,7 +591,16 @@
             "displayName": "Arielle Brown"
           },
           {
+            "displayName": "Ashley Pierre"
+          },
+          {
             "displayName": "Aubrie Lewis"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Caleb Davilmar"
           },
           {
             "displayName": "Caris Hunte"
@@ -653,75 +609,121 @@
             "displayName": "Carmen Brown"
           },
           {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
             "displayName": "DeAndra Gray"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
           },
           {
             "displayName": "Gabriella Fearon"
           },
           {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
             "displayName": "Jordyn Starks"
           },
           {
-            "displayName": "Caleb Davilmar"
+            "displayName": "Lauryn Butler"
           },
           {
-            "displayName": "Cedrick Massey"
+            "displayName": "Marcus Mainer"
           },
           {
-            "displayName": "Edison Browne"
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Moenike Custard"
+          },
+          {
+            "displayName": "Rodney Jean"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Victorya Champagne"
           }
         ],
         "calledPeopleIds": [
           "P-alyssa-johnson",
           "P-anaia-downer",
           "P-arielle-brown",
+          "P-ashley-pierre",
           "P-aubrie-lewis",
+          "P-audrey-howell-mcclenney",
+          "P-caleb-davilmar",
           "P-caris-hunte",
           "P-carmen-brown",
-          "P-deandra-gray",
-          "P-gabriella-fearon",
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
           "P-cedrick-massey",
-          "P-edison-browne"
+          "P-chris-mcanuff",
+          "P-deandra-gray",
+          "P-dorrien-jones",
+          "P-fredrick-custard",
+          "P-gabriela-sardinas",
+          "P-gabriella-fearon",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jayden-harris",
+          "P-jeovanie-andre",
+          "P-jordyn-starks",
+          "P-lauryn-butler",
+          "P-marcus-mainer",
+          "P-marissa-downie",
+          "P-michael-stover",
+          "P-moenike-custard",
+          "P-rodney-jean",
+          "P-shanice-palmer",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-victorya-champagne"
         ],
-        "personalCallTimes": {
-          "P-alyssa-johnson": "6:30 PM",
-          "P-anaia-downer": "6:30 PM",
-          "P-arielle-brown": "6:30 PM",
-          "P-aubrie-lewis": "6:30 PM",
-          "P-caris-hunte": "6:30 PM",
-          "P-carmen-brown": "6:30 PM",
-          "P-deandra-gray": "6:30 PM",
-          "P-gabriella-fearon": "6:30 PM",
-          "P-jordyn-starks": "6:30 PM",
-          "P-caleb-davilmar": "6:30 PM",
-          "P-cedrick-massey": "6:30 PM",
-          "P-edison-browne": "6:30 PM"
-        },
-        "personalCallEndTimes": {
-          "P-alyssa-johnson": "9:30 PM",
-          "P-anaia-downer": "9:30 PM",
-          "P-arielle-brown": "9:30 PM",
-          "P-aubrie-lewis": "9:30 PM",
-          "P-caris-hunte": "9:30 PM",
-          "P-carmen-brown": "9:30 PM",
-          "P-deandra-gray": "9:30 PM",
-          "P-gabriella-fearon": "9:30 PM",
-          "P-jordyn-starks": "9:30 PM",
-          "P-caleb-davilmar": "9:30 PM",
-          "P-cedrick-massey": "9:30 PM",
-          "P-edison-browne": "7:30 PM"
-        },
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Choreography; Off-book principals; Practice Songs; recording & wardrobe fitting",
+        "work": "Off-book / music / scene links",
         "focus": "",
-        "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs; dancers work on choreography; record songs; wardrobe fitting",
+        "prep": "Scene 12 Dancers; Scenes 7–9 (Actors)",
         "notice": "",
         "changeType": ""
-      },
+      }
+    ],
+    "count": 3
+  },
+  "schedule": {
+    "title": "Schedule",
+    "timezone": "America/New_York",
+    "rehearsals": [
       {
         "id": "CHOSEN-20261022-REH",
         "eventKey": "CHOSEN-20261022-REH",
@@ -2268,6 +2270,112 @@
       }
     ],
     "pastRehearsals": [
+      {
+        "id": "CHOSEN-20261021-REH",
+        "eventKey": "CHOSEN-20261021-REH",
+        "start": "2026-10-21T22:30:00.000Z",
+        "end": "2026-10-22T01:30:00.000Z",
+        "date": "October 21, 2026",
+        "dateIso": "2026-10-21",
+        "day": "Wednesday",
+        "dateLabel": "October 21, 2026",
+        "dayLabel": "Wednesday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 12; (Dance ONLY); Scene 12 Dancers Wardrobe Fitting; Scenes 2, 3, 6, 8; RECORDING Scene 3 & 8",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30 PM-8:30 PM Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n8:30 PM–9:30 PM Scene 12 Dancers Wardrobe Fitting: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n\n6:30 PM–7:30 PM- Scenes 3 & 8 RECORDING: Mary (Jordyn), Joseph (Caleb), Eddie\n\n6:30 PM–9:30 PM — Scenes 2, 3,6,8: Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Alyssa Johnson"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Arielle Brown"
+          },
+          {
+            "displayName": "Aubrie Lewis"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Carmen Brown"
+          },
+          {
+            "displayName": "DeAndra Gray"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Edison Browne"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-alyssa-johnson",
+          "P-anaia-downer",
+          "P-arielle-brown",
+          "P-aubrie-lewis",
+          "P-caris-hunte",
+          "P-carmen-brown",
+          "P-deandra-gray",
+          "P-gabriella-fearon",
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-cedrick-massey",
+          "P-edison-browne"
+        ],
+        "personalCallTimes": {
+          "P-alyssa-johnson": "6:30 PM",
+          "P-anaia-downer": "6:30 PM",
+          "P-arielle-brown": "6:30 PM",
+          "P-aubrie-lewis": "6:30 PM",
+          "P-caris-hunte": "6:30 PM",
+          "P-carmen-brown": "6:30 PM",
+          "P-deandra-gray": "6:30 PM",
+          "P-gabriella-fearon": "6:30 PM",
+          "P-jordyn-starks": "6:30 PM",
+          "P-caleb-davilmar": "6:30 PM",
+          "P-cedrick-massey": "6:30 PM",
+          "P-edison-browne": "6:30 PM"
+        },
+        "personalCallEndTimes": {
+          "P-alyssa-johnson": "9:30 PM",
+          "P-anaia-downer": "9:30 PM",
+          "P-arielle-brown": "9:30 PM",
+          "P-aubrie-lewis": "9:30 PM",
+          "P-caris-hunte": "9:30 PM",
+          "P-carmen-brown": "9:30 PM",
+          "P-deandra-gray": "9:30 PM",
+          "P-gabriella-fearon": "9:30 PM",
+          "P-jordyn-starks": "9:30 PM",
+          "P-caleb-davilmar": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-edison-browne": "7:30 PM"
+        },
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Choreography; Off-book principals; Practice Songs; recording & wardrobe fitting",
+        "focus": "",
+        "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs; dancers work on choreography; record songs; wardrobe fitting",
+        "notice": "",
+        "changeType": ""
+      },
       {
         "id": "CHOSEN-20261017-REH",
         "eventKey": "CHOSEN-20261017-REH",
@@ -4948,112 +5056,6 @@
     ],
     "allRehearsals": [
       {
-        "id": "CHOSEN-20261021-REH",
-        "eventKey": "CHOSEN-20261021-REH",
-        "start": "2026-10-21T22:30:00.000Z",
-        "end": "2026-10-22T01:30:00.000Z",
-        "date": "October 21, 2026",
-        "dateIso": "2026-10-21",
-        "day": "Wednesday",
-        "dateLabel": "October 21, 2026",
-        "dayLabel": "Wednesday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scene 12; (Dance ONLY); Scene 12 Dancers Wardrobe Fitting; Scenes 2, 3, 6, 8; RECORDING Scene 3 & 8",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM-8:30 PM Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n8:30 PM–9:30 PM Scene 12 Dancers Wardrobe Fitting: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n\n6:30 PM–7:30 PM- Scenes 3 & 8 RECORDING: Mary (Jordyn), Joseph (Caleb), Eddie\n\n6:30 PM–9:30 PM — Scenes 2, 3,6,8: Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Alyssa Johnson"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Arielle Brown"
-          },
-          {
-            "displayName": "Aubrie Lewis"
-          },
-          {
-            "displayName": "Caris Hunte"
-          },
-          {
-            "displayName": "Carmen Brown"
-          },
-          {
-            "displayName": "DeAndra Gray"
-          },
-          {
-            "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          },
-          {
-            "displayName": "Edison Browne"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-alyssa-johnson",
-          "P-anaia-downer",
-          "P-arielle-brown",
-          "P-aubrie-lewis",
-          "P-caris-hunte",
-          "P-carmen-brown",
-          "P-deandra-gray",
-          "P-gabriella-fearon",
-          "P-jordyn-starks",
-          "P-caleb-davilmar",
-          "P-cedrick-massey",
-          "P-edison-browne"
-        ],
-        "personalCallTimes": {
-          "P-alyssa-johnson": "6:30 PM",
-          "P-anaia-downer": "6:30 PM",
-          "P-arielle-brown": "6:30 PM",
-          "P-aubrie-lewis": "6:30 PM",
-          "P-caris-hunte": "6:30 PM",
-          "P-carmen-brown": "6:30 PM",
-          "P-deandra-gray": "6:30 PM",
-          "P-gabriella-fearon": "6:30 PM",
-          "P-jordyn-starks": "6:30 PM",
-          "P-caleb-davilmar": "6:30 PM",
-          "P-cedrick-massey": "6:30 PM",
-          "P-edison-browne": "6:30 PM"
-        },
-        "personalCallEndTimes": {
-          "P-alyssa-johnson": "9:30 PM",
-          "P-anaia-downer": "9:30 PM",
-          "P-arielle-brown": "9:30 PM",
-          "P-aubrie-lewis": "9:30 PM",
-          "P-caris-hunte": "9:30 PM",
-          "P-carmen-brown": "9:30 PM",
-          "P-deandra-gray": "9:30 PM",
-          "P-gabriella-fearon": "9:30 PM",
-          "P-jordyn-starks": "9:30 PM",
-          "P-caleb-davilmar": "9:30 PM",
-          "P-cedrick-massey": "9:30 PM",
-          "P-edison-browne": "7:30 PM"
-        },
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Choreography; Off-book principals; Practice Songs; recording & wardrobe fitting",
-        "focus": "",
-        "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs; dancers work on choreography; record songs; wardrobe fitting",
-        "notice": "",
-        "changeType": ""
-      },
-      {
         "id": "CHOSEN-20261022-REH",
         "eventKey": "CHOSEN-20261022-REH",
         "start": "2026-10-22T22:30:00.000Z",
@@ -6594,6 +6596,112 @@
         "work": "Official show-day call; performance day",
         "focus": "",
         "prep": "Focus: SHOW DAY. FOOD WILL BE PROVIDED.  Please check the live schedule for final room and call details.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20261021-REH",
+        "eventKey": "CHOSEN-20261021-REH",
+        "start": "2026-10-21T22:30:00.000Z",
+        "end": "2026-10-22T01:30:00.000Z",
+        "date": "October 21, 2026",
+        "dateIso": "2026-10-21",
+        "day": "Wednesday",
+        "dateLabel": "October 21, 2026",
+        "dayLabel": "Wednesday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scene 12; (Dance ONLY); Scene 12 Dancers Wardrobe Fitting; Scenes 2, 3, 6, 8; RECORDING Scene 3 & 8",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30 PM-8:30 PM Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n8:30 PM–9:30 PM Scene 12 Dancers Wardrobe Fitting: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n\n6:30 PM–7:30 PM- Scenes 3 & 8 RECORDING: Mary (Jordyn), Joseph (Caleb), Eddie\n\n6:30 PM–9:30 PM — Scenes 2, 3,6,8: Mary (Jordyn), Joseph (Caleb), Gabriel (Cedrick)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Alyssa Johnson"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Arielle Brown"
+          },
+          {
+            "displayName": "Aubrie Lewis"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Carmen Brown"
+          },
+          {
+            "displayName": "DeAndra Gray"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Edison Browne"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-alyssa-johnson",
+          "P-anaia-downer",
+          "P-arielle-brown",
+          "P-aubrie-lewis",
+          "P-caris-hunte",
+          "P-carmen-brown",
+          "P-deandra-gray",
+          "P-gabriella-fearon",
+          "P-jordyn-starks",
+          "P-caleb-davilmar",
+          "P-cedrick-massey",
+          "P-edison-browne"
+        ],
+        "personalCallTimes": {
+          "P-alyssa-johnson": "6:30 PM",
+          "P-anaia-downer": "6:30 PM",
+          "P-arielle-brown": "6:30 PM",
+          "P-aubrie-lewis": "6:30 PM",
+          "P-caris-hunte": "6:30 PM",
+          "P-carmen-brown": "6:30 PM",
+          "P-deandra-gray": "6:30 PM",
+          "P-gabriella-fearon": "6:30 PM",
+          "P-jordyn-starks": "6:30 PM",
+          "P-caleb-davilmar": "6:30 PM",
+          "P-cedrick-massey": "6:30 PM",
+          "P-edison-browne": "6:30 PM"
+        },
+        "personalCallEndTimes": {
+          "P-alyssa-johnson": "9:30 PM",
+          "P-anaia-downer": "9:30 PM",
+          "P-arielle-brown": "9:30 PM",
+          "P-aubrie-lewis": "9:30 PM",
+          "P-caris-hunte": "9:30 PM",
+          "P-carmen-brown": "9:30 PM",
+          "P-deandra-gray": "9:30 PM",
+          "P-gabriella-fearon": "9:30 PM",
+          "P-jordyn-starks": "9:30 PM",
+          "P-caleb-davilmar": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-edison-browne": "7:30 PM"
+        },
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Choreography; Off-book principals; Practice Songs; recording & wardrobe fitting",
+        "focus": "",
+        "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs; dancers work on choreography; record songs; wardrobe fitting",
         "notice": "",
         "changeType": ""
       },
@@ -9297,8 +9405,8 @@
         "count": 14
       }
     ],
-    "count": 26,
-    "pastCount": 24
+    "count": 25,
+    "pastCount": 25
   },
   "scripts": {
     "items": [
@@ -9314,7 +9422,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "02",
@@ -9328,7 +9436,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "03",
@@ -9342,7 +9450,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "04",
@@ -9356,7 +9464,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "05",
@@ -9370,7 +9478,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "06",
@@ -9384,7 +9492,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "07",
@@ -9398,7 +9506,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "08",
@@ -9412,7 +9520,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "09",
@@ -9426,7 +9534,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "10",
@@ -9440,7 +9548,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "11",
@@ -9454,7 +9562,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "12",
@@ -9468,7 +9576,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       }
     ],
     "current": [
@@ -9484,7 +9592,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "02",
@@ -9498,7 +9606,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "03",
@@ -9512,7 +9620,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "04",
@@ -9526,7 +9634,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "05",
@@ -9540,7 +9648,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "06",
@@ -9554,7 +9662,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "07",
@@ -9568,7 +9676,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "08",
@@ -9582,7 +9690,7 @@
         "id": "reunion-still-yours",
         "name": "Reunion / Still Yours",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "09",
@@ -9596,7 +9704,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "10",
@@ -9610,7 +9718,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "11",
@@ -9624,7 +9732,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       },
       {
         "scene": "12",
@@ -9638,11 +9746,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-21T22:40:00.559Z"
+        "updated": "2026-10-22T05:33:53.122Z"
       }
     ],
     "count": 12,
-    "updated": "2026-10-22T00:56:44.606Z",
+    "updated": "2026-10-22T05:34:05.689Z",
     "kind": "scripts"
   },
   "music": {
@@ -9831,7 +9939,7 @@
       }
     ],
     "count": 6,
-    "updated": "2026-10-22T00:56:44.606Z",
+    "updated": "2026-10-22T05:34:05.689Z",
     "kind": "music"
   }
 }
