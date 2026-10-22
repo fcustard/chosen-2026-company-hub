@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-22T19:45:10.207Z",
-  "contentHash": "5c93a2adb62157e9f7ca522897d253614d848b34ce265576cd6db91e80300f28",
+  "sourceUpdated": "2026-10-22T22:30:58.596Z",
+  "contentHash": "942587bfb6d5924a03adf7199f645743ddbccb1dfb177be39161e7341fd4678e",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -22,17 +22,17 @@
     },
     {
       "type": "production-note",
-      "text": "Target Runtime: 5:30–5:50",
+      "text": "Target Runtime: re-time with final duet and spoken scene",
       "namedStyleType": "SUBTITLE"
     },
     {
       "type": "production-note",
-      "text": "Spoken Dialogue: approx. 3:40–4:00",
+      "text": "Spoken Dialogue: approx. 3:40–4:00 (re-time in rehearsal)",
       "namedStyleType": "SUBTITLE"
     },
     {
       "type": "stage",
-      "text": "Musical Reprise: approx. 1:30–1:40",
+      "text": "Standalone song: approx. 3:10–3:25 (includes spoken sections)",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1563,102 +1563,547 @@
     },
     {
       "type": "music",
-      "text": "“STILL YOURS” / “MY BELOVED” REPRISE",
+      "text": "“STILL YOURS” — FINAL STANDALONE DUET",
       "namedStyleType": "HEADING_4"
     },
     {
-      "type": "production-note",
-      "text": "TARGET: 1:30–1:40 MAX",
-      "namedStyleType": "SUBTITLE"
-    },
-    {
       "type": "stage",
-      "text": "Do not turn this into another full ballad.",
+      "text": "Song target: approximately 3:10–3:25; time the scene with the final track.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "It is a transformed fragment of “My Beloved.”",
+      "text": "The spoken Middle 8 and hand exchange remain inside the song. Joseph offers; Mary chooses whether and when to take his hand.",
       "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "music",
-      "text": "Joseph’s musical territory",
+      "text": "[Intro]",
       "namedStyleType": "HEADING_4"
     },
     {
-      "type": "lyric",
-      "text": "I promised you a road",
-      "namedStyleType": "TITLE"
+      "type": "spacer",
+      "text": ""
     },
     {
-      "type": "lyric",
-      "text": "I thought that I could see,",
-      "namedStyleType": "TITLE"
+      "type": "music",
+      "text": "[Verse 1: Joseph]",
+      "namedStyleType": "HEADING_4"
     },
     {
-      "type": "lyric",
-      "text": "a house, a table, years ahead—",
-      "namedStyleType": "TITLE"
+      "type": "dialogue",
+      "text": "I had a road.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "lyric",
-      "text": "a life for you and me.",
-      "namedStyleType": "TITLE"
+      "type": "dialogue",
+      "text": "I had a room.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I had a table in my mind.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "I had a roof",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I meant to raise,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "A future measured out in lines.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "I held the plan so tightly,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I could not hear your pain.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "When your truth stood at my doorway,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I shut the door again.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "I cannot make them quiet.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I cannot make this right.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "But I can stand beside you",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Through the staring and the night.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[Verse 2: Mary]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "You made me a promise.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I wore it like a shawl.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "When the whispers found my window,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I had nothing warm at all.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "I carried heaven’s answer",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "And watched your face turn cold.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "You waited for an angel",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "When you had me to hold.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "I do not need a hero.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I do not need a shield.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I need truth that stays beside me",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "When the whole town knows what’s real.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[Chorus: Joseph, Mary, Both]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still, still yours,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "If you’ll let me be.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still, still mine?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Can I believe what I see?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Both",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not the house we imagined,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not the life we rehearsed,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "But a hand can be offered",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Where a heart has been hurt.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am still here.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still here.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Both",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still yours.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[Middle 8: spoken call and response]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I won’t speak over you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then don’t.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I won’t stand in front of you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then stand close.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I won’t answer for you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then listen.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I won’t carry this for you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "You can’t.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "But I can carry it with you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then stay.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I’ll stay.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[Bridge: spoken hand exchange, then sung]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Here is my hand.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Only if you want it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Leave it there.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Let me come to it.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I will not take.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I will not hide.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "stage",
-      "text": "Then the transformation",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "The road I knew is gone,",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "the future isn’t clear,",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "but I can choose to stand beside you",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "even while I’m scared.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "stage",
-      "text": "Mary answers from her own agency",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "I said yes before I knew",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "what yes would ask of me.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "I cannot promise where this road goes—",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "lyric",
-      "text": "only that I’ll walk willingly.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "stage",
-      "text": "The music returns to the familiar motif.",
+      "text": "STAGING: Joseph extends his hand without approaching. Mary looks at it and at him. She chooses to take it. Let the moment breathe.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1666,68 +2111,138 @@
       "text": ""
     },
     {
-      "type": "heading",
-      "text": "THE HAND",
-      "namedStyleType": "HEADING_2"
+      "type": "dialogue",
+      "text": "Both",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "stage",
-      "text": "Joseph slowly extends his hand.",
-      "namedStyleType": "HEADING_6"
+      "type": "dialogue",
+      "text": "Love is not the road we pictured.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "stage",
-      "text": "He does not reach for Mary.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "He offers.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Mary looks at his hand.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Then at Joseph.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph waits.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Do not hurry this silence. The reconciliation belongs to Mary too.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "transition",
-      "text": "Finally—",
-      "namedStyleType": "HEADING_5"
+      "type": "dialogue",
+      "text": "Love is choosing side by side.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "spacer",
       "text": ""
     },
     {
-      "type": "stage",
-      "text": "MARY TAKES HIS HAND",
-      "namedStyleType": "HEADING_6"
+      "type": "music",
+      "text": "[Final Chorus]",
+      "namedStyleType": "HEADING_4"
     },
     {
-      "type": "stage",
-      "text": "The harmony opens. The physical choice is the climax.",
-      "namedStyleType": "HEADING_6"
+      "type": "dialogue",
+      "text": "Both",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
+      "type": "dialogue",
+      "text": "Still, still yours,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "With the whispers at the door.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still, still yours,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not the way we were before.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Not the house we imagined,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not the life we rehearsed,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "But a hand can be offered",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Where a heart has been hurt.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not because it’s easy.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not because it’s clear.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Both",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "But because we choose it",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Here.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[Break]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "dialogue",
@@ -1735,9 +2250,13 @@
       "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "dialogue",
@@ -1745,9 +2264,13 @@
       "namedStyleType": "NORMAL_TEXT"
     },
     {
-      "type": "character",
-      "text": "MARY & JOSEPH",
-      "namedStyleType": "HEADING_3"
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Both",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "dialogue",
@@ -1755,9 +2278,98 @@
       "namedStyleType": "NORMAL_TEXT"
     },
     {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Hand in hand,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Breath by breath,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still afraid,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still unsure,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Still I choose you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still yours.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "music",
-      "text": "Music resolves warmly, but not triumphantly.",
+      "text": "[Tag]",
       "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Joseph",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still yours.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Mary",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still yours.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Both",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still yours.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Music resolves warmly, with the choice to walk together carrying into the spoken ending.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "spacer",
@@ -1765,7 +2377,7 @@
     },
     {
       "type": "heading",
-      "text": "AFTER THE REPRISE",
+      "text": "AFTER THE SONG",
       "namedStyleType": "HEADING_2"
     },
     {
