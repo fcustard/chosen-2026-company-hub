@@ -679,6 +679,42 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   if (document.body.dataset.page === 'music') {
     const list = document.querySelector('#musicList');
+    let lyricSheets = {};
+    try {
+      const response = await fetch('data/lyrics.json', { cache: 'no-store' });
+      if (!response.ok) throw new Error(`Lyrics data returned HTTP ${response.status}`);
+      lyricSheets = await response.json();
+    } catch (error) {
+      console.error('Unable to load published lyric sheets.', error);
+    }
+
+    const renderTrackLyrics = track => {
+      const id = track.id || String(track.title || track.name || '').toLowerCase()
+        .normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      const sheet = lyricSheets[id];
+      if (!sheet) return '';
+      const source = sheet.reuse ? lyricSheets[sheet.reuse] : sheet;
+      if (!source || !Array.isArray(source.sections) || !source.sections.length) return '';
+      const heading = sheet.availability === 'instrumental'
+        ? 'Read vocal lyrics'
+        : sheet.availability === 'full' ? 'Read lyrics' : 'Read scripted words';
+      const sections = source.sections.map(section => `
+        <section class="track-lyrics-section">
+          <h4>${esc(section.heading)}</h4>
+          <p class="track-lyrics-text">${esc(section.text)}</p>
+        </section>`).join('');
+      return `
+        <details class="track-lyrics">
+          <summary>${heading} · ${esc(sheet.label || source.label || 'Rehearsal text')}</summary>
+          <div class="track-lyrics-body">
+            <p class="track-lyrics-note">${esc(sheet.note || source.note || '')}</p>
+            ${source.credit ? `<p class="track-lyrics-credit">${esc(source.credit)}</p>` : ''}
+            ${sections}
+            ${/^scene-\d{2}\.html$/.test(source.source || '') ? `<p><a href="${esc(source.source)}">Read the full scene</a></p>` : ''}
+          </div>
+        </details>`;
+    };
+
     let music = resourceList(d.music);
     const person = await selectedCompanyPerson();
 
@@ -740,6 +776,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                            Your browser does not support audio playback.
                          </audio>`
                       : ''}
+                    ${renderTrackLyrics(x)}
                   </div>
 
                   <div class="actions">

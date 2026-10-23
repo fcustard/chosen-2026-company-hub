@@ -1,0 +1,197 @@
+{
+  "welcome-to-nazareth": {
+    "availability": "excerpt",
+    "label": "Scripted hook",
+    "note": "The current Scene 1 script contains this company hook; its full verse and chorus lyric text is not yet finalized there. Use the scene script for staging and spoken material.",
+    "source": "scene-01.html",
+    "sections": [
+      {
+        "heading": "Opening company hook",
+        "text": "OHHH-OH, OOOH-OOH-OOH...\nWELCOME TO NAZARETH!\nOOOH-OOOH-OOOH...\nWELCOME TO NAZARETH!"
+      },
+      {
+        "heading": "Final company hook",
+        "text": "OHHH-OH, OOOH-OOH-OOH...\nWELCOME TO NAZARETH!\nOOOH-OOOH-OOOH...\nWELCOME TO NAZARETH!"
+      }
+    ]
+  },
+  "chosen": {
+    "availability": "full",
+    "label": "Lyric sheet",
+    "note": "From the CHOSEN song lyric sheet. Rehearse against the audio for any arrangement changes.",
+    "source": "https://docs.google.com/document/d/12-5qZkyeE8mIro1SYjEDXXkQF0BNSrBeFIRlp4mlb5o/edit",
+    "credit": "By Fredrick Custard",
+    "sections": [
+      {
+        "heading": "VERSE 1",
+        "text": "I knew the road to the well,\nI knew the shape of the day,\nI knew the life I was promised\nWould not be taken away.\n\n\nI knew the voice of my mother,\nI knew the work of my hands,\nI knew the quiet kind of future\nA girl like me could plan.\n\n\nThen the air begins to tremble,\nThen the light begins to rise,\nAnd a messenger of heaven\nIs standing before my eyes."
+      },
+      {
+        "heading": "PRE-CHORUS 1",
+        "text": "And I want to run,\nI want to hide,\nBut somehow Your voice\nIs already inside."
+      },
+      {
+        "heading": "CHORUS 1",
+        "text": "Chosen,\nNot ready, not strong,\nI don’t know where this road will lead,\nBut I hear You calling.\n\n\nChosen,\nCan that be my name?\nCan heaven ask these hands of mine\nTo hold what I can’t name?\n\n\nI am afraid,\nBut I am listening.\nCould I be chosen?"
+      },
+      {
+        "heading": "VERSE 2",
+        "text": "What will Joseph see\nWhen he looks into my eyes?\nWill he hear the truth in me,\nOr only hear the lies?\n\n\nWhat will the village say\nWhen the whispers start to grow?\nHow do I carry heaven\nWhen no one else can know?\n\n\nI thought faith was something steady,\nLike a lamp beside the door.\nNow it feels like stepping forward\nWhere there is no floor."
+      },
+      {
+        "heading": "PRE-CHORUS 2",
+        "text": "How can this be?\nHow can this be?\nI am small,\nBut still You see me."
+      },
+      {
+        "heading": "CHORUS 2",
+        "text": "Chosen,\nNot ready, not strong,\nI don’t know what this yes will cost,\nBut I hear You calling.\n\n\nChosen,\nIs this why You came?\nCan mercy ask a life like mine\nTo never be the same?\n\n\nI am afraid,\nBut I am still listening.\nCould I be chosen?"
+      },
+      {
+        "heading": "BRIDGE",
+        "text": "I give You the wedding.\nI give You the name.\nI give You the future\nI had already claimed.\n\n\nI give You the questions.\nI give You the cost.\nI give You the life\nI thought was my own.\n\n\nIf faith is one step\nBefore the road is shown,\nThen I will take it trembling,\nBut I will not walk alone."
+      },
+      {
+        "heading": "FINAL CHORUS",
+        "text": "Chosen,\nNot because I understand.\nChosen,\nNot because I know the plan.\n\n\nBut if You are the One who calls me,\nI will trust the One who knows.\nLet the world misunderstand me,\nStill my answer will be Yours.\n\n\nI am afraid,\nBut I am willing.\nI am Yours.\nI am chosen."
+      },
+      {
+        "heading": "TAG",
+        "text": "Let it be as You have spoken.\nI am Yours.\nI am chosen."
+      }
+    ]
+  },
+  "chosen-instrumental": {
+    "availability": "instrumental",
+    "label": "Practice lyrics",
+    "note": "This track is instrumental. These are the lyrics for the vocal version of “Chosen.”",
+    "reuse": "chosen"
+  },
+  "brotherhood": {
+    "availability": "working",
+    "label": "Scripted vocal phrases",
+    "note": "The current Scene 5 script includes these spoken and sung phrases, and says the call and response may still be shaped musically. Confirm the complete words against the final vocal track.",
+    "source": "scene-05.html",
+    "sections": [
+      {
+        "heading": "Rhythmic work calls",
+        "text": "ALL\nMEASURE.\nALL\nMARK.\nALL\nCUT.\nJOSEPH\nAGAIN.\nALL\nLIFT.\nALL\nSET!\nJOSEPH\nToo high!\nJOSEPH\nToo low.\nJOSEPH\nMove!\nJOSEPH\nSlow.\nJOSEPH\nTogether.\nALL\nHIT!"
+      },
+      {
+        "heading": "Rhythmic spoken section",
+        "text": "JOSEPH\nIf it's heavy—\nALL\nWe lift it!\nJOSEPH\nIf it's crooked—\nALL\nWe fix it!\nJOSEPH\nIf it's broken—\nALL\nWe mend it!\nCALEB\nIf it's food!!!!\nALL\nCALEB!!!\nCALEB\nI was going to say share it.\nEZRA\nNo, you weren't.\nJOSEPH\nSide by side—\nJOSEPH\nHand to hand—\nJOSEPH\nKnow the measure—\nJOSEPH\nKnow the plan—\nJOSEPH\nAnd if the plan goes bad—"
+      },
+      {
+        "heading": "Call and response",
+        "text": "JOSEPH\nYou don't build alone.\nMEN\nNo.\nJOSEPH\nYou don't stand alone.\nMEN\nNo.\nJOSEPH\nWhen one man loses his footing—\nMEN\nWe hold him.\nJOSEPH\nWhen one man misses the measure—\nMEN\nWe show him!"
+      },
+      {
+        "heading": "Brotherhood refrain",
+        "text": "ALL\nWe Work together.\nWe Stand together.\nWe Build together.\nALL\nThe Brotherhood!!!"
+      }
+    ]
+  },
+  "still-yours": {
+    "availability": "full",
+    "label": "Current script lyric",
+    "note": "Includes the spoken Middle 8 and hand exchange within the song.",
+    "source": "scene-08.html",
+    "sections": [
+      {
+        "heading": "Verse 1: Joseph",
+        "text": "I had a road.\nI had a room.\nI had a table in my mind.\nI had a roof\nI meant to raise,\nA future measured out in lines.\nI held the plan so tightly,\nI could not hear your pain.\nWhen your truth stood at my doorway,\nI shut the door again.\nI cannot make them quiet.\nI cannot make this right.\nBut I can stand beside you\nThrough the staring and the night."
+      },
+      {
+        "heading": "Verse 2: Mary",
+        "text": "You made me a promise.\nI wore it like a shawl.\nWhen the whispers found my window,\nI had nothing warm at all.\nI carried heaven’s answer\nAnd watched your face turn cold.\nYou waited for an angel\nWhen you had me to hold.\nI do not need a hero.\nI do not need a shield.\nI need truth that stays beside me\nWhen the whole town knows what’s real."
+      },
+      {
+        "heading": "Chorus: Joseph, Mary, Both",
+        "text": "Joseph\nStill, still yours,\nIf you’ll let me be.\nMary\nStill, still mine?\nCan I believe what I see?\nBoth\nNot the house we imagined,\nNot the life we rehearsed,\nBut a hand can be offered\nWhere a heart has been hurt.\nJoseph\nI am still here.\nMary\nStill here.\nBoth\nStill yours."
+      },
+      {
+        "heading": "Middle 8: spoken call and response",
+        "text": "Joseph\nI won’t speak over you.\nMary\nThen don’t.\nJoseph\nI won’t stand in front of you.\nMary\nThen stand close.\nJoseph\nI won’t answer for you.\nMary\nThen listen.\nJoseph\nI won’t carry this for you.\nMary\nYou can’t.\nJoseph\nBut I can carry it with you.\nMary\nThen stay.\nJoseph\nI’ll stay."
+      },
+      {
+        "heading": "Bridge: spoken hand exchange, then sung",
+        "text": "Joseph\nHere is my hand.\nOnly if you want it.\nMary\nLeave it there.\nLet me come to it.\nJoseph\nI will not take.\nMary\nI will not hide.\nBoth\nLove is not the road we pictured.\nLove is choosing side by side."
+      },
+      {
+        "heading": "Final Chorus",
+        "text": "Both\nStill, still yours,\nWith the whispers at the door.\nStill, still yours,\nNot the way we were before.\nNot the house we imagined,\nNot the life we rehearsed,\nBut a hand can be offered\nWhere a heart has been hurt.\nMary\nNot because it’s easy.\nJoseph\nNot because it’s clear.\nBoth\nBut because we choose it\nHere."
+      },
+      {
+        "heading": "Break",
+        "text": "Joseph\nWhatever comes...\nMary\nWhatever comes...\nBoth\nWe’ll walk together.\nHand in hand,\nBreath by breath,\nStill afraid,\nStill unsure,\nStill I choose you.\nStill yours."
+      },
+      {
+        "heading": "Tag",
+        "text": "Joseph\nStill yours.\nMary\nStill yours.\nBoth\nStill yours."
+      }
+    ]
+  },
+  "what-will-he-be": {
+    "availability": "working",
+    "label": "Working lyric",
+    "note": "The current Scene 9 script explicitly marks this as lyrical territory, not final lyrics. Treat it as a rehearsal draft until the director approves the final words.",
+    "source": "scene-09.html",
+    "sections": [
+      {
+        "heading": "INTRO",
+        "text": "CHILD 3\nWill he laugh too loud? / Will he sleep all day?\nCHILD 1\nWill he race through every market stall / and leave his things in everybody’s way?\nCHILD 2\nWill he love stories?\nSIMON\nWill he climb trees?\nNIA\nWill he ask a hundred questions / before anyone can breathe?"
+      },
+      {
+        "heading": "CHORUS 1",
+        "text": "What will he be? What will he be?\nWhen he is born, for all to see?\nWill he be different or the same?\nWill the whole world know his name?\nWhat will he be? What will he be?"
+      },
+      {
+        "heading": "VERSE 1",
+        "text": "CHILD 2\nWill he build things out of wood?\nJOSEPH\nMaybe.\nCHILD 3\nMake a chair that’s strong and good?\nJOSEPH\nI hope.\nCHILD 1\nWill you teach him everything?\nJOSEPH\nEverything I know.\nCHILD 1\nThat’s Good!\nCHILDREN\nWill he like to run and play?\nHelp a friend along the way?\nWill he dance and flip about?\nWill he laugh and scream and shout?"
+      },
+      {
+        "heading": "CHORUS 2 (Part 1)",
+        "text": "What will he be? What will he be?\nWhen he is born, for all to see?\nWill he be different or the same?\nWill the whole world know his name?\nWhat will he be? What will he be?"
+      },
+      {
+        "heading": "CHORUS 2 (Part 2)",
+        "text": "CHILDREN\nWhat will he be?\nGOSSIPER 1\nWhose child is it?\nCHILDREN\nWhat will he be?\nVILLAGER WOMAN 1\nBefore the wedding.\nCHILDREN\nWhen he is born, for all to see?\nGOSSIPER 2\nDoes Joseph know?\nCHILDREN\nWill he be different or the same?\nWill the whole world know his name?\nWhat will he be?\nGOSSIPER 4\nOf course, he knows.\nCHILDREN\nWhat will he be?"
+      },
+      {
+        "heading": "CHORUS 3",
+        "text": "CHILDREN\nWhat will he be?\nGOSSIPER 3\nThen why is he still with her?\nCHILDREN\nWhat will he be?\nVILLAGER WOMAN 2\nShe says there was an angel.\nCHILDREN\nWhen he is born, for all to see?\nGOSSIPER 4\nAn Angel?!\nCHILDREN\nWill he be different or the same?\nWill the whole world know his name?\nWhat will he be?\nGOSSIPER 3\nThat’s what I heard.\nCHILDREN\nWhat will he be?\nGOSSIPER 4\nAy Dios Mio! (eye roll)"
+      }
+    ]
+  },
+  "chosen-finale": {
+    "availability": "full",
+    "label": "Current script lyric",
+    "note": "From the current Scene 12 finale. The Wise Men and dance staging continue around the song.",
+    "source": "scene-12.html",
+    "sections": [
+      {
+        "heading": "Verse — warm, intimate",
+        "text": "From an ordinary place,\nUnderneath a quiet sky,\nHeaven kept a promise,\nAnd the Light of hope arrived.\nNo throne, no grand procession,\nJust a child beneath a star.\nGod called ordinary people\nAnd met them where they are."
+      },
+      {
+        "heading": "Chorus — begin to open",
+        "text": "Chosen to believe,\nChosen to say yes,\nChosen to keep walking\nWhen we cannot see what’s next.\nChosen to carry hope,\nChosen to carry light.\nThe story didn’t end in Bethlehem—\nHis love still shines tonight."
+      },
+      {
+        "heading": "Bridge — stronger rhythmic build",
+        "text": "They didn’t know the road—\nStill they said yes.\nThey didn’t know the cost—\nStill they said yes.\nThrough every fear and question,\nThey chose to trust His voice.\nThey were chosen for the calling,\nAnd they answered with a choice."
+      },
+      {
+        "heading": "Final Chorus — Full Company",
+        "text": "Chosen to believe,\nChosen to say yes,\nChosen to keep walking\nWhen we cannot see what’s next.\nChosen to carry hope,\nChosen to carry light.\nThe story didn’t end in Bethlehem—\nWe are chosen to carry the Light."
+      },
+      {
+        "heading": "Final Tag",
+        "text": "The promise has come.\nThe Savior is here.\nNow His calling is ours to hear.\nThey were chosen.\nWe are chosen.\nAnd so are you.\nChosen to love.\nChosen to serve.\nChosen to carry His light."
+      },
+      {
+        "heading": "Final sustained word",
+        "text": "Chosen."
+      }
+    ]
+  }
+}
