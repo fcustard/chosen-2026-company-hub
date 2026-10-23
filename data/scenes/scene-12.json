@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-23T00:53:59.876Z",
-  "contentHash": "e0bc4b8bb26c94070b43d6a25413e9a1446478b50e305409b512cb9e31f47242",
+  "sourceUpdated": "2026-10-23T05:46:08.915Z",
+  "contentHash": "6cc60a04729519a99980e72c18a8500402f4725da0acce057a21972bd27214ab",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -1775,6 +1775,56 @@
       "namedStyleType": "HEADING_6"
     },
     {
+      "type": "music",
+      "text": "“CHOSEN (FINALE)” — SUNG LYRIC",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "music",
+      "text": "[Verse — warm, intimate]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "From an ordinary place,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Underneath a quiet sky,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Heaven kept a promise,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "And the Light of hope arrived.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "No throne, no grand procession,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Just a child beneath a star.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "God called ordinary people",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "And met them where they are.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
       "type": "heading",
       "text": "THREE WISE MEN APPEAR IN THE AISLES.",
       "namedStyleType": "HEADING_2"
@@ -1797,6 +1847,51 @@
     {
       "type": "spacer",
       "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[Chorus — begin to open]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen to believe,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen to say yes,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen to keep walking",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "When we cannot see what’s next.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen to carry hope,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen to carry light.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "The story didn’t end in Bethlehem—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "His love still shines tonight.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "transition",
@@ -1847,6 +1942,51 @@
       "type": "stage",
       "text": "Do not stop the finale to announce these callbacks. They should be discoveries inside the same musical river.",
       "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "music",
+      "text": "[Bridge — stronger rhythmic build]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "They didn’t know the road—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still they said yes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "They didn’t know the cost—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still they said yes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Through every fear and question,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "They chose to trust His voice.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "They were chosen for the calling,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "And they answered with a choice.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "heading",
@@ -1945,18 +2085,113 @@
     },
     {
       "type": "stage",
-      "text": "The title idea “CHOSEN” may become the final resolved sung thought, but it should emerge from the established finale rather than feel attached as a second ending.",
+      "text": "The “Chosen (Finale)” lyric resolves the title thought within this same arrangement. No spoken explanation follows.",
       "namedStyleType": "HEADING_6"
     },
     {
-      "type": "stage",
-      "text": "No spoken explanation follows it.",
-      "namedStyleType": "HEADING_6"
+      "type": "music",
+      "text": "[Final Chorus — Full Company]",
+      "namedStyleType": "HEADING_4"
     },
     {
-      "type": "transition",
-      "text": "FINAL SUNG STATEMENT.",
-      "namedStyleType": "HEADING_5"
+      "type": "dialogue",
+      "text": "Chosen to believe,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen to say yes,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen to keep walking",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "When we cannot see what’s next.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen to carry hope,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen to carry light.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "The story didn’t end in Bethlehem—",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "We are chosen to carry the Light.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "music",
+      "text": "[Final Tag]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "The promise has come.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "The Savior is here.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Now His calling is ours to hear.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "They were chosen.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "We are chosen.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "And so are you.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen to love.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen to serve.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen to carry His light.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "music",
+      "text": "[Final sustained word]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen.",
+      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "transition",
