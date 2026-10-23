@@ -44,7 +44,7 @@ const CANONICAL_TITLES = new Map([
   ["05", "Brotherhood"],
   ["06", "Mary & Joseph"],
   ["07", "Two Roads of Faith"],
-  ["08", "Reunion / Still Yours"],
+  ["08", "The Reunion"],
   ["09", "What Will He Be? / The Town Turns"],
   ["10", "The Census and the Journey"],
   ["11", "No Room"],
