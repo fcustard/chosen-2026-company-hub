@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T10:26:18.466Z",
+  "updated": "2026-10-23T14:45:46.323Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -9814,7 +9814,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-10-23T10:26:18.467Z",
+    "updated": "2026-10-23T14:45:46.323Z",
     "kind": "scripts"
   },
   "music": {
@@ -9877,6 +9877,21 @@
         ],
         "id": "brotherhood",
         "name": "Brotherhood",
+        "current": false
+      },
+      {
+        "title": "Still Yours",
+        "type": "Mary / Joseph",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "assets/audio/08_Still_Yours_Rehearsal_v1.mp3",
+        "lyricsUrl": "#",
+        "scenes": [
+          8
+        ],
+        "id": "still-yours",
+        "name": "Still Yours",
         "current": false
       },
       {
@@ -9972,6 +9987,21 @@
         "current": false
       },
       {
+        "title": "Still Yours",
+        "type": "Mary / Joseph",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "assets/audio/08_Still_Yours_Rehearsal_v1.mp3",
+        "lyricsUrl": "#",
+        "scenes": [
+          8
+        ],
+        "id": "still-yours",
+        "name": "Still Yours",
+        "current": false
+      },
+      {
         "title": "What Will He Be?",
         "scenes": [
           9
@@ -10002,8 +10032,8 @@
         "current": false
       }
     ],
-    "count": 6,
-    "updated": "2026-10-23T10:26:18.467Z",
+    "count": 7,
+    "updated": "2026-10-23T14:45:46.323Z",
     "kind": "music"
   }
 }
