@@ -1,13 +1,13 @@
 {
   "scene": "08",
-  "title": "Reunion / Still Yours",
+  "title": "The Reunion",
   "status": "CURRENT · Auto-published from master script",
   "approved": true,
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-23T15:19:12.723Z",
-  "contentHash": "942587bfb6d5924a03adf7199f645743ddbccb1dfb177be39161e7341fd4678e",
+  "sourceUpdated": "2026-10-23T16:14:49.470Z",
+  "contentHash": "0a886dfd06e612a8b661affef9fb55f3e92dd473897d00dccee77e88351ec5e8",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "type": "heading",
-      "text": "SCENE 8 — REUNION / “STILL YOURS”",
+      "text": "SCENE 8 — THE REUNION",
       "namedStyleType": "HEADING_1"
     },
     {
