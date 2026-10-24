@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T16:50:49.609Z",
+  "updated": "2026-10-24T19:07:10.629Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -13,46 +13,28 @@
     "calendarFeed": "https://fcustard.github.io/chosen-2026-company-hub/chosen-calendar.ics"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20261024-REH",
-    "eventKey": "CHOSEN-20261024-REH",
-    "start": "2026-10-24T14:00:00.000Z",
-    "end": "2026-10-24T18:00:00.000Z",
-    "date": "October 24, 2026",
-    "dateIso": "2026-10-24",
-    "day": "Saturday",
-    "dateLabel": "October 24, 2026",
-    "dayLabel": "Saturday",
-    "time": "10:00 AM–2:00 PM",
-    "title": "CHOSEN Rehearsal - Sequence Run 1–6 (Dancers, Actors, Ensemble)",
+    "id": "CHOSEN-20261028-REH",
+    "eventKey": "CHOSEN-20261028-REH",
+    "start": "2026-10-28T22:30:00.000Z",
+    "end": "2026-10-29T01:30:00.000Z",
+    "date": "October 28, 2026",
+    "dateIso": "2026-10-28",
+    "day": "Wednesday",
+    "dateLabel": "October 28, 2026",
+    "dayLabel": "Wednesday",
+    "time": "6:30 PM–9:30 PM",
+    "title": "CHOSEN Rehearsal - Scene 12 Dancers; Scenes 7–9 (Actors)",
     "status": "CONFIRMED",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "10:00 AM–2:00 PM —Scenes 1–6 Cast (Dancers, Actors, Ensemble)",
+    "called": "6:30 PM–9:30 PM —  Scene 12 Dancers\n \n6:30 PM–7:30 PM- Scene 8\n\n7:30 PM–8:30 PM–Scene 7\n\n8:30 PM–9:30 PM–Scene 9",
     "callGroups": [],
     "calledPeople": [
-      {
-        "displayName": "Alexandria Platt"
-      },
-      {
-        "displayName": "Allania Mitchell"
-      },
       {
         "displayName": "Alyssa Johnson"
       },
       {
-        "displayName": "Amadeus Hills"
-      },
-      {
         "displayName": "Anaia Downer"
-      },
-      {
-        "displayName": "Annalise Mongeois"
-      },
-      {
-        "displayName": "Annetta Johnson"
-      },
-      {
-        "displayName": "Ariella Davidson"
       },
       {
         "displayName": "Arielle Brown"
@@ -79,25 +61,13 @@
         "displayName": "Cedrick Massey"
       },
       {
-        "displayName": "Charla-Yvonne Cornelius"
-      },
-      {
         "displayName": "Chris Mcanuff"
-      },
-      {
-        "displayName": "Dana Quamina"
       },
       {
         "displayName": "DeAndra Gray"
       },
       {
-        "displayName": "Delvin Rogers Jr"
-      },
-      {
         "displayName": "Dorrien Jones"
-      },
-      {
-        "displayName": "Edison Browne"
       },
       {
         "displayName": "Fredrick Custard"
@@ -124,15 +94,6 @@
         "displayName": "Jordyn Starks"
       },
       {
-        "displayName": "Kennedy McCalla"
-      },
-      {
-        "displayName": "Kevin Hohn"
-      },
-      {
-        "displayName": "Kourtney—Ann Palmer"
-      },
-      {
         "displayName": "Lauryn Butler"
       },
       {
@@ -148,13 +109,7 @@
         "displayName": "Moenike Custard"
       },
       {
-        "displayName": "Nelcia Fosttin"
-      },
-      {
         "displayName": "Rodney Jean"
-      },
-      {
-        "displayName": "Sandra Johnson"
       },
       {
         "displayName": "Shanice Palmer"
@@ -170,14 +125,8 @@
       }
     ],
     "calledPeopleIds": [
-      "P-alexandria-platt",
-      "P-allania-mitchell",
       "P-alyssa-johnson",
-      "P-amadeus-hills",
       "P-anaia-downer",
-      "P-annalise-mongeois",
-      "P-annetta-johnson",
-      "P-ariella-davidson",
       "P-arielle-brown",
       "P-ashley-pierre",
       "P-aubrie-lewis",
@@ -186,13 +135,9 @@
       "P-caris-hunte",
       "P-carmen-brown",
       "P-cedrick-massey",
-      "P-charla-yvonne-cornelius",
       "P-chris-mcanuff",
-      "P-dana-quamina",
       "P-deandra-gray",
-      "P-delvin-rogers-jr",
       "P-dorrien-jones",
-      "P-edison-browne",
       "P-fredrick-custard",
       "P-gabriela-sardinas",
       "P-gabriella-fearon",
@@ -201,17 +146,12 @@
       "P-jayden-harris",
       "P-jeovanie-andre",
       "P-jordyn-starks",
-      "P-kennedy-mccalla",
-      "P-kevin-hohn",
-      "P-kourtney-ann-palmer",
       "P-lauryn-butler",
       "P-marcus-mainer",
       "P-marissa-downie",
       "P-michael-stover",
       "P-moenike-custard",
-      "P-nelcia-fosttin",
       "P-rodney-jean",
-      "P-sandra-johnson",
       "P-shanice-palmer",
       "P-tasha-simeon",
       "P-tyfany-adaka",
@@ -220,9 +160,9 @@
     "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Scenes 1–6 with transitions",
+    "work": "Off-book / music / scene links",
     "focus": "",
-    "prep": "All Actors and Dancers in Scenes 1-6 must attend.\n\nEveryone: Bring a snack and a drink for the 12:00–12:30 PM break. \n\r\n📌 Important Rehearsal Reminders\r\n⏰ Punctuality is essential! Rehearsal begins promptly at 10:00 AM.\r\n🎭 All actors should know their lines and work toward being completely off-script.\r\n💃 Dancers must be prepared to execute choreography with proper timing, energy, and precision.\r\n🎬 Actors should be ready for their assigned scenes and pay close attention to direction.\r\n🔁 During the final run-through, our goal is to move continuously through Scenes 1–6 with minimal interruptions.\r\n📱 Please review your assigned scenes and rehearsal materials in the CHOSEN Company Hub.\r\n⏳ All participants must respect the allotted rehearsal times. Every minute counts!",
+    "prep": "Scene 12 Dancers; Scenes 7–9 (Actors)",
     "notice": "",
     "changeType": ""
   },
@@ -231,220 +171,6 @@
     "start": "2026-10-24T04:00:00.000Z",
     "end": "2026-10-31T03:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261024-REH",
-        "eventKey": "CHOSEN-20261024-REH",
-        "start": "2026-10-24T14:00:00.000Z",
-        "end": "2026-10-24T18:00:00.000Z",
-        "date": "October 24, 2026",
-        "dateIso": "2026-10-24",
-        "day": "Saturday",
-        "dateLabel": "October 24, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Sequence Run 1–6 (Dancers, Actors, Ensemble)",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM —Scenes 1–6 Cast (Dancers, Actors, Ensemble)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
-            "displayName": "Alyssa Johnson"
-          },
-          {
-            "displayName": "Amadeus Hills"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Annetta Johnson"
-          },
-          {
-            "displayName": "Ariella Davidson"
-          },
-          {
-            "displayName": "Arielle Brown"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Aubrie Lewis"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Caris Hunte"
-          },
-          {
-            "displayName": "Carmen Brown"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          },
-          {
-            "displayName": "Charla-Yvonne Cornelius"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Dana Quamina"
-          },
-          {
-            "displayName": "DeAndra Gray"
-          },
-          {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Edison Browne"
-          },
-          {
-            "displayName": "Fredrick Custard"
-          },
-          {
-            "displayName": "Gabriela Sardinas"
-          },
-          {
-            "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Jayden Harris"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
-            "displayName": "Lauryn Butler"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Moenike Custard"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
-          },
-          {
-            "displayName": "Rodney Jean"
-          },
-          {
-            "displayName": "Sandra Johnson"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Victorya Champagne"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-alexandria-platt",
-          "P-allania-mitchell",
-          "P-alyssa-johnson",
-          "P-amadeus-hills",
-          "P-anaia-downer",
-          "P-annalise-mongeois",
-          "P-annetta-johnson",
-          "P-ariella-davidson",
-          "P-arielle-brown",
-          "P-ashley-pierre",
-          "P-aubrie-lewis",
-          "P-audrey-howell-mcclenney",
-          "P-caleb-davilmar",
-          "P-caris-hunte",
-          "P-carmen-brown",
-          "P-cedrick-massey",
-          "P-charla-yvonne-cornelius",
-          "P-chris-mcanuff",
-          "P-dana-quamina",
-          "P-deandra-gray",
-          "P-delvin-rogers-jr",
-          "P-dorrien-jones",
-          "P-edison-browne",
-          "P-fredrick-custard",
-          "P-gabriela-sardinas",
-          "P-gabriella-fearon",
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-jayden-harris",
-          "P-jeovanie-andre",
-          "P-jordyn-starks",
-          "P-kennedy-mccalla",
-          "P-kevin-hohn",
-          "P-kourtney-ann-palmer",
-          "P-lauryn-butler",
-          "P-marcus-mainer",
-          "P-marissa-downie",
-          "P-michael-stover",
-          "P-moenike-custard",
-          "P-nelcia-fosttin",
-          "P-rodney-jean",
-          "P-sandra-johnson",
-          "P-shanice-palmer",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-victorya-champagne"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scenes 1–6 with transitions",
-        "focus": "",
-        "prep": "All Actors and Dancers in Scenes 1-6 must attend.\n\nEveryone: Bring a snack and a drink for the 12:00–12:30 PM break. \n\r\n📌 Important Rehearsal Reminders\r\n⏰ Punctuality is essential! Rehearsal begins promptly at 10:00 AM.\r\n🎭 All actors should know their lines and work toward being completely off-script.\r\n💃 Dancers must be prepared to execute choreography with proper timing, energy, and precision.\r\n🎬 Actors should be ready for their assigned scenes and pay close attention to direction.\r\n🔁 During the final run-through, our goal is to move continuously through Scenes 1–6 with minimal interruptions.\r\n📱 Please review your assigned scenes and rehearsal materials in the CHOSEN Company Hub.\r\n⏳ All participants must respect the allotted rehearsal times. Every minute counts!",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261028-REH",
         "eventKey": "CHOSEN-20261028-REH",
@@ -782,226 +508,12 @@
         "changeType": ""
       }
     ],
-    "count": 3
+    "count": 2
   },
   "schedule": {
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261024-REH",
-        "eventKey": "CHOSEN-20261024-REH",
-        "start": "2026-10-24T14:00:00.000Z",
-        "end": "2026-10-24T18:00:00.000Z",
-        "date": "October 24, 2026",
-        "dateIso": "2026-10-24",
-        "day": "Saturday",
-        "dateLabel": "October 24, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Sequence Run 1–6 (Dancers, Actors, Ensemble)",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM —Scenes 1–6 Cast (Dancers, Actors, Ensemble)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
-            "displayName": "Alyssa Johnson"
-          },
-          {
-            "displayName": "Amadeus Hills"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Annetta Johnson"
-          },
-          {
-            "displayName": "Ariella Davidson"
-          },
-          {
-            "displayName": "Arielle Brown"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Aubrie Lewis"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Caris Hunte"
-          },
-          {
-            "displayName": "Carmen Brown"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          },
-          {
-            "displayName": "Charla-Yvonne Cornelius"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Dana Quamina"
-          },
-          {
-            "displayName": "DeAndra Gray"
-          },
-          {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Edison Browne"
-          },
-          {
-            "displayName": "Fredrick Custard"
-          },
-          {
-            "displayName": "Gabriela Sardinas"
-          },
-          {
-            "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Jayden Harris"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
-            "displayName": "Lauryn Butler"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Moenike Custard"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
-          },
-          {
-            "displayName": "Rodney Jean"
-          },
-          {
-            "displayName": "Sandra Johnson"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Victorya Champagne"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-alexandria-platt",
-          "P-allania-mitchell",
-          "P-alyssa-johnson",
-          "P-amadeus-hills",
-          "P-anaia-downer",
-          "P-annalise-mongeois",
-          "P-annetta-johnson",
-          "P-ariella-davidson",
-          "P-arielle-brown",
-          "P-ashley-pierre",
-          "P-aubrie-lewis",
-          "P-audrey-howell-mcclenney",
-          "P-caleb-davilmar",
-          "P-caris-hunte",
-          "P-carmen-brown",
-          "P-cedrick-massey",
-          "P-charla-yvonne-cornelius",
-          "P-chris-mcanuff",
-          "P-dana-quamina",
-          "P-deandra-gray",
-          "P-delvin-rogers-jr",
-          "P-dorrien-jones",
-          "P-edison-browne",
-          "P-fredrick-custard",
-          "P-gabriela-sardinas",
-          "P-gabriella-fearon",
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-jayden-harris",
-          "P-jeovanie-andre",
-          "P-jordyn-starks",
-          "P-kennedy-mccalla",
-          "P-kevin-hohn",
-          "P-kourtney-ann-palmer",
-          "P-lauryn-butler",
-          "P-marcus-mainer",
-          "P-marissa-downie",
-          "P-michael-stover",
-          "P-moenike-custard",
-          "P-nelcia-fosttin",
-          "P-rodney-jean",
-          "P-sandra-johnson",
-          "P-shanice-palmer",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-victorya-champagne"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scenes 1–6 with transitions",
-        "focus": "",
-        "prep": "All Actors and Dancers in Scenes 1-6 must attend.\n\nEveryone: Bring a snack and a drink for the 12:00–12:30 PM break. \n\r\n📌 Important Rehearsal Reminders\r\n⏰ Punctuality is essential! Rehearsal begins promptly at 10:00 AM.\r\n🎭 All actors should know their lines and work toward being completely off-script.\r\n💃 Dancers must be prepared to execute choreography with proper timing, energy, and precision.\r\n🎬 Actors should be ready for their assigned scenes and pay close attention to direction.\r\n🔁 During the final run-through, our goal is to move continuously through Scenes 1–6 with minimal interruptions.\r\n📱 Please review your assigned scenes and rehearsal materials in the CHOSEN Company Hub.\r\n⏳ All participants must respect the allotted rehearsal times. Every minute counts!",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261028-REH",
         "eventKey": "CHOSEN-20261028-REH",
@@ -2168,6 +1680,220 @@
       }
     ],
     "pastRehearsals": [
+      {
+        "id": "CHOSEN-20261024-REH",
+        "eventKey": "CHOSEN-20261024-REH",
+        "start": "2026-10-24T14:00:00.000Z",
+        "end": "2026-10-24T18:00:00.000Z",
+        "date": "October 24, 2026",
+        "dateIso": "2026-10-24",
+        "day": "Saturday",
+        "dateLabel": "October 24, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Sequence Run 1–6 (Dancers, Actors, Ensemble)",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–2:00 PM —Scenes 1–6 Cast (Dancers, Actors, Ensemble)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Alexandria Platt"
+          },
+          {
+            "displayName": "Allania Mitchell"
+          },
+          {
+            "displayName": "Alyssa Johnson"
+          },
+          {
+            "displayName": "Amadeus Hills"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Annetta Johnson"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Arielle Brown"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Aubrie Lewis"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Carmen Brown"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Dana Quamina"
+          },
+          {
+            "displayName": "DeAndra Gray"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Kennedy McCalla"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Kourtney—Ann Palmer"
+          },
+          {
+            "displayName": "Lauryn Butler"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Moenike Custard"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Rodney Jean"
+          },
+          {
+            "displayName": "Sandra Johnson"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-alexandria-platt",
+          "P-allania-mitchell",
+          "P-alyssa-johnson",
+          "P-amadeus-hills",
+          "P-anaia-downer",
+          "P-annalise-mongeois",
+          "P-annetta-johnson",
+          "P-ariella-davidson",
+          "P-arielle-brown",
+          "P-ashley-pierre",
+          "P-aubrie-lewis",
+          "P-audrey-howell-mcclenney",
+          "P-caleb-davilmar",
+          "P-caris-hunte",
+          "P-carmen-brown",
+          "P-cedrick-massey",
+          "P-charla-yvonne-cornelius",
+          "P-chris-mcanuff",
+          "P-dana-quamina",
+          "P-deandra-gray",
+          "P-delvin-rogers-jr",
+          "P-dorrien-jones",
+          "P-edison-browne",
+          "P-fredrick-custard",
+          "P-gabriela-sardinas",
+          "P-gabriella-fearon",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jayden-harris",
+          "P-jeovanie-andre",
+          "P-jordyn-starks",
+          "P-kennedy-mccalla",
+          "P-kevin-hohn",
+          "P-kourtney-ann-palmer",
+          "P-lauryn-butler",
+          "P-marcus-mainer",
+          "P-marissa-downie",
+          "P-michael-stover",
+          "P-moenike-custard",
+          "P-nelcia-fosttin",
+          "P-rodney-jean",
+          "P-sandra-johnson",
+          "P-shanice-palmer",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-victorya-champagne"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Scenes 1–6 with transitions",
+        "focus": "",
+        "prep": "All Actors and Dancers in Scenes 1-6 must attend.\n\nEveryone: Bring a snack and a drink for the 12:00–12:30 PM break. \n\r\n📌 Important Rehearsal Reminders\r\n⏰ Punctuality is essential! Rehearsal begins promptly at 10:00 AM.\r\n🎭 All actors should know their lines and work toward being completely off-script.\r\n💃 Dancers must be prepared to execute choreography with proper timing, energy, and precision.\r\n🎬 Actors should be ready for their assigned scenes and pay close attention to direction.\r\n🔁 During the final run-through, our goal is to move continuously through Scenes 1–6 with minimal interruptions.\r\n📱 Please review your assigned scenes and rehearsal materials in the CHOSEN Company Hub.\r\n⏳ All participants must respect the allotted rehearsal times. Every minute counts!",
+        "notice": "",
+        "changeType": ""
+      },
       {
         "id": "CHOSEN-20261022-REH",
         "eventKey": "CHOSEN-20261022-REH",
@@ -5120,220 +4846,6 @@
     ],
     "allRehearsals": [
       {
-        "id": "CHOSEN-20261024-REH",
-        "eventKey": "CHOSEN-20261024-REH",
-        "start": "2026-10-24T14:00:00.000Z",
-        "end": "2026-10-24T18:00:00.000Z",
-        "date": "October 24, 2026",
-        "dateIso": "2026-10-24",
-        "day": "Saturday",
-        "dateLabel": "October 24, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Sequence Run 1–6 (Dancers, Actors, Ensemble)",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–2:00 PM —Scenes 1–6 Cast (Dancers, Actors, Ensemble)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Alexandria Platt"
-          },
-          {
-            "displayName": "Allania Mitchell"
-          },
-          {
-            "displayName": "Alyssa Johnson"
-          },
-          {
-            "displayName": "Amadeus Hills"
-          },
-          {
-            "displayName": "Anaia Downer"
-          },
-          {
-            "displayName": "Annalise Mongeois"
-          },
-          {
-            "displayName": "Annetta Johnson"
-          },
-          {
-            "displayName": "Ariella Davidson"
-          },
-          {
-            "displayName": "Arielle Brown"
-          },
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Aubrie Lewis"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Caris Hunte"
-          },
-          {
-            "displayName": "Carmen Brown"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          },
-          {
-            "displayName": "Charla-Yvonne Cornelius"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Dana Quamina"
-          },
-          {
-            "displayName": "DeAndra Gray"
-          },
-          {
-            "displayName": "Delvin Rogers Jr"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Edison Browne"
-          },
-          {
-            "displayName": "Fredrick Custard"
-          },
-          {
-            "displayName": "Gabriela Sardinas"
-          },
-          {
-            "displayName": "Gabriella Fearon"
-          },
-          {
-            "displayName": "Gelvina Maxime"
-          },
-          {
-            "displayName": "James Myers"
-          },
-          {
-            "displayName": "Jayden Harris"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Kennedy McCalla"
-          },
-          {
-            "displayName": "Kevin Hohn"
-          },
-          {
-            "displayName": "Kourtney—Ann Palmer"
-          },
-          {
-            "displayName": "Lauryn Butler"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Marissa Downie"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Moenike Custard"
-          },
-          {
-            "displayName": "Nelcia Fosttin"
-          },
-          {
-            "displayName": "Rodney Jean"
-          },
-          {
-            "displayName": "Sandra Johnson"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          },
-          {
-            "displayName": "Victorya Champagne"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-alexandria-platt",
-          "P-allania-mitchell",
-          "P-alyssa-johnson",
-          "P-amadeus-hills",
-          "P-anaia-downer",
-          "P-annalise-mongeois",
-          "P-annetta-johnson",
-          "P-ariella-davidson",
-          "P-arielle-brown",
-          "P-ashley-pierre",
-          "P-aubrie-lewis",
-          "P-audrey-howell-mcclenney",
-          "P-caleb-davilmar",
-          "P-caris-hunte",
-          "P-carmen-brown",
-          "P-cedrick-massey",
-          "P-charla-yvonne-cornelius",
-          "P-chris-mcanuff",
-          "P-dana-quamina",
-          "P-deandra-gray",
-          "P-delvin-rogers-jr",
-          "P-dorrien-jones",
-          "P-edison-browne",
-          "P-fredrick-custard",
-          "P-gabriela-sardinas",
-          "P-gabriella-fearon",
-          "P-gelvina-maxime",
-          "P-james-myers",
-          "P-jayden-harris",
-          "P-jeovanie-andre",
-          "P-jordyn-starks",
-          "P-kennedy-mccalla",
-          "P-kevin-hohn",
-          "P-kourtney-ann-palmer",
-          "P-lauryn-butler",
-          "P-marcus-mainer",
-          "P-marissa-downie",
-          "P-michael-stover",
-          "P-moenike-custard",
-          "P-nelcia-fosttin",
-          "P-rodney-jean",
-          "P-sandra-johnson",
-          "P-shanice-palmer",
-          "P-tasha-simeon",
-          "P-tyfany-adaka",
-          "P-victorya-champagne"
-        ],
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Scenes 1–6 with transitions",
-        "focus": "",
-        "prep": "All Actors and Dancers in Scenes 1-6 must attend.\n\nEveryone: Bring a snack and a drink for the 12:00–12:30 PM break. \n\r\n📌 Important Rehearsal Reminders\r\n⏰ Punctuality is essential! Rehearsal begins promptly at 10:00 AM.\r\n🎭 All actors should know their lines and work toward being completely off-script.\r\n💃 Dancers must be prepared to execute choreography with proper timing, energy, and precision.\r\n🎬 Actors should be ready for their assigned scenes and pay close attention to direction.\r\n🔁 During the final run-through, our goal is to move continuously through Scenes 1–6 with minimal interruptions.\r\n📱 Please review your assigned scenes and rehearsal materials in the CHOSEN Company Hub.\r\n⏳ All participants must respect the allotted rehearsal times. Every minute counts!",
-        "notice": "",
-        "changeType": ""
-      },
-      {
         "id": "CHOSEN-20261028-REH",
         "eventKey": "CHOSEN-20261028-REH",
         "start": "2026-10-28T22:30:00.000Z",
@@ -6494,6 +6006,220 @@
         "work": "Official show-day call; performance day",
         "focus": "",
         "prep": "Focus: SHOW DAY. FOOD WILL BE PROVIDED.  Please check the live schedule for final room and call details.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20261024-REH",
+        "eventKey": "CHOSEN-20261024-REH",
+        "start": "2026-10-24T14:00:00.000Z",
+        "end": "2026-10-24T18:00:00.000Z",
+        "date": "October 24, 2026",
+        "dateIso": "2026-10-24",
+        "day": "Saturday",
+        "dateLabel": "October 24, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Sequence Run 1–6 (Dancers, Actors, Ensemble)",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–2:00 PM —Scenes 1–6 Cast (Dancers, Actors, Ensemble)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Alexandria Platt"
+          },
+          {
+            "displayName": "Allania Mitchell"
+          },
+          {
+            "displayName": "Alyssa Johnson"
+          },
+          {
+            "displayName": "Amadeus Hills"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Annetta Johnson"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Arielle Brown"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Aubrie Lewis"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Carmen Brown"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Dana Quamina"
+          },
+          {
+            "displayName": "DeAndra Gray"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Kennedy McCalla"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Kourtney—Ann Palmer"
+          },
+          {
+            "displayName": "Lauryn Butler"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Moenike Custard"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Rodney Jean"
+          },
+          {
+            "displayName": "Sandra Johnson"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-alexandria-platt",
+          "P-allania-mitchell",
+          "P-alyssa-johnson",
+          "P-amadeus-hills",
+          "P-anaia-downer",
+          "P-annalise-mongeois",
+          "P-annetta-johnson",
+          "P-ariella-davidson",
+          "P-arielle-brown",
+          "P-ashley-pierre",
+          "P-aubrie-lewis",
+          "P-audrey-howell-mcclenney",
+          "P-caleb-davilmar",
+          "P-caris-hunte",
+          "P-carmen-brown",
+          "P-cedrick-massey",
+          "P-charla-yvonne-cornelius",
+          "P-chris-mcanuff",
+          "P-dana-quamina",
+          "P-deandra-gray",
+          "P-delvin-rogers-jr",
+          "P-dorrien-jones",
+          "P-edison-browne",
+          "P-fredrick-custard",
+          "P-gabriela-sardinas",
+          "P-gabriella-fearon",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jayden-harris",
+          "P-jeovanie-andre",
+          "P-jordyn-starks",
+          "P-kennedy-mccalla",
+          "P-kevin-hohn",
+          "P-kourtney-ann-palmer",
+          "P-lauryn-butler",
+          "P-marcus-mainer",
+          "P-marissa-downie",
+          "P-michael-stover",
+          "P-moenike-custard",
+          "P-nelcia-fosttin",
+          "P-rodney-jean",
+          "P-sandra-johnson",
+          "P-shanice-palmer",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-victorya-champagne"
+        ],
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Scenes 1–6 with transitions",
+        "focus": "",
+        "prep": "All Actors and Dancers in Scenes 1-6 must attend.\n\nEveryone: Bring a snack and a drink for the 12:00–12:30 PM break. \n\r\n📌 Important Rehearsal Reminders\r\n⏰ Punctuality is essential! Rehearsal begins promptly at 10:00 AM.\r\n🎭 All actors should know their lines and work toward being completely off-script.\r\n💃 Dancers must be prepared to execute choreography with proper timing, energy, and precision.\r\n🎬 Actors should be ready for their assigned scenes and pay close attention to direction.\r\n🔁 During the final run-through, our goal is to move continuously through Scenes 1–6 with minimal interruptions.\r\n📱 Please review your assigned scenes and rehearsal materials in the CHOSEN Company Hub.\r\n⏳ All participants must respect the allotted rehearsal times. Every minute counts!",
         "notice": "",
         "changeType": ""
       },
@@ -9469,8 +9195,8 @@
         "count": 14
       }
     ],
-    "count": 24,
-    "pastCount": 26
+    "count": 23,
+    "pastCount": 27
   },
   "scripts": {
     "items": [
@@ -9486,7 +9212,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "02",
@@ -9500,7 +9226,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "03",
@@ -9514,7 +9240,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "04",
@@ -9528,7 +9254,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "05",
@@ -9542,7 +9268,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "06",
@@ -9556,7 +9282,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "07",
@@ -9570,7 +9296,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "08",
@@ -9584,7 +9310,7 @@
         "id": "the-reunion",
         "name": "The Reunion",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "09",
@@ -9598,7 +9324,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "10",
@@ -9612,7 +9338,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "11",
@@ -9626,7 +9352,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "12",
@@ -9640,7 +9366,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       }
     ],
     "current": [
@@ -9656,7 +9382,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "02",
@@ -9670,7 +9396,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "03",
@@ -9684,7 +9410,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "04",
@@ -9698,7 +9424,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "05",
@@ -9712,7 +9438,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "06",
@@ -9726,7 +9452,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "07",
@@ -9740,7 +9466,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "08",
@@ -9754,7 +9480,7 @@
         "id": "the-reunion",
         "name": "The Reunion",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "09",
@@ -9768,7 +9494,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "10",
@@ -9782,7 +9508,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "11",
@@ -9796,7 +9522,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       },
       {
         "scene": "12",
@@ -9810,11 +9536,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-24T16:50:37.506Z"
+        "updated": "2026-10-24T19:06:57.622Z"
       }
     ],
     "count": 12,
-    "updated": "2026-10-24T16:50:49.609Z",
+    "updated": "2026-10-24T19:07:10.629Z",
     "kind": "scripts"
   },
   "music": {
@@ -10033,7 +9759,7 @@
       }
     ],
     "count": 7,
-    "updated": "2026-10-24T16:50:49.609Z",
+    "updated": "2026-10-24T19:07:10.629Z",
     "kind": "music"
   }
 }
