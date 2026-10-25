@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-25T02:12:27.787Z",
-  "contentHash": "d8b84df729edf1b8d63ab121fe5d2ea89ccd47d541a572f3cc964a0d2a61f5eb",
+  "sourceUpdated": "2026-10-25T02:33:12.959Z",
+  "contentHash": "3c31ec804ef262d6bf583905119f037e700299bc7f9410ca300a742fc168ca70",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -3313,6 +3313,11 @@
     {
       "type": "stage",
       "text": "Around them, Nazareth prepares to move.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Shira offers to help Mary prepare for the journey. Mary squeezes Joseph's hand, then follows Shira along the lit side lane to change. Joseph remains in the marketplace.",
       "namedStyleType": "HEADING_6"
     },
     {

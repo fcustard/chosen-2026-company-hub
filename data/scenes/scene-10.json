@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-25T02:12:27.787Z",
-  "contentHash": "85223b1a0de75d8620675ebe866479670e7aefbd323554e7c78e438bd5d76fc8",
+  "sourceUpdated": "2026-10-25T02:33:12.959Z",
+  "contentHash": "6e0b1cabb446aebcbebebf1250c90b48888d7180d46f054515037e6e128ba0e3",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "type": "production-note",
-      "text": "Approximate Running Time: 5 minutes",
+      "text": "Approximate Running Time: 6–6½ minutes, including the measured change",
       "namedStyleType": "SUBTITLE"
     },
     {
@@ -48,11 +48,6 @@
     {
       "type": "production-note",
       "text": "Joseph",
-      "namedStyleType": "SUBTITLE"
-    },
-    {
-      "type": "production-note",
-      "text": "Roman Announcer",
       "namedStyleType": "SUBTITLE"
     },
     {
@@ -141,282 +136,33 @@
     },
     {
       "type": "stage",
-      "text": "The Roman motif continues briefly beneath the chaos.",
+      "text": "The Roman motif gives way to a steady preparation underscore beneath the chaos.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Joseph is no longer listening to the complaints. He is calculating.",
+      "text": "Joseph opens his satchel and checks the essentials for the journey.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Mary sees his face.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph?",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "We have to go to Bethlehem.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Bethlehem?",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "My family line. The House of David.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "stage",
-      "text": "Beat.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "That’s where I have to register.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "How far?",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph hesitates.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Joseph.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Far.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "How far is “far”?",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Far enough that I don’t want you making the journey.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "No.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Mary—",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "No.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Listen. You can stay here. I’ll register and come back as quickly as I can.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "We just decided we weren’t doing the difficult things apart.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "This is different.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Why?",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "stage",
-      "text": "Beat.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Because this difficulty has a road?",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph knows exactly what she means.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "I’m trying to protect you.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "stage",
-      "text": "Mary steps closer.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Then protect me while we walk.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "stage",
-      "text": "That stops him.",
+      "text": "His hands move too fast. He adds one item too many, stops, and sets that nonessential item aside. The choice is small, but deliberate.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Mary offers her hand.",
+      "text": "The village continues packing around him. Joseph watches Mary's exit for a moment, then lets the preparation continue without trying to hurry her.",
       "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "character",
-      "text": "MARY",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Together.",
-      "namedStyleType": "NORMAL_TEXT"
     },
     {
       "type": "stage",
-      "text": "Joseph takes it.",
+      "text": "Keep the underscore and village movement flexible until Mary's measured quick change is complete; no empty hold or scenic reset.",
       "namedStyleType": "HEADING_6"
     },
     {
-      "type": "character",
-      "text": "JOSEPH",
-      "namedStyleType": "HEADING_3"
-    },
-    {
-      "type": "dialogue",
-      "text": "Together.",
-      "namedStyleType": "NORMAL_TEXT"
-    },
-    {
-      "type": "spacer",
-      "text": ""
+      "type": "stage",
+      "text": "Mary returns with Shira in her journey costume, now wearing the fitted pregnancy prosthetic. Her return uses the same safe, lit side lane. Joseph sees her, closes the satchel, and offers his hand. She takes it.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "heading",
@@ -425,7 +171,7 @@
     },
     {
       "type": "music",
-      "text": "MUSIC SHIFTS INTO PREPARATION / JOURNEY UNDERSCORE",
+      "text": "MUSIC CARRIES THE PREPARATION INTO THE JOURNEY",
       "namedStyleType": "HEADING_4"
     },
     {
