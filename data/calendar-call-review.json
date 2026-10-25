@@ -11,5 +11,24 @@
     "CHOSEN-20261029-REH",
     "CHOSEN-20261031-REH"
   ],
-  "purpose": "Trigger and trace a guarded Hub sync after October 15 personal windows and future exact-call review."
+  "purpose": "Trigger and trace a guarded Hub sync after October 15 personal windows and future exact-call review.",
+  "lastReview": {
+    "reviewedAt": "2026-10-25T01:06:57Z",
+    "changedEventKeys": [
+      "CHOSEN-20261104-REH",
+      "CHOSEN-20261105-REH",
+      "CHOSEN-20261107-REH"
+    ],
+    "purpose": "Refresh the guarded Hub publication after approved Master Calendar call, title, work and preparation changes. Preserve source REVIEW flags and do not infer individual report/release times.",
+    "directorDecisions": [
+      {
+        "eventKey": "CHOSEN-20261104-REH",
+        "decision": "Confirm the source REVIEW call and reconcile Moenike Custard's Talia understudy assignment with active Assignments before activating exact personal calls."
+      },
+      {
+        "eventKey": "CHOSEN-20261105-REH",
+        "decision": "Confirm the selective Scene 1 dance changes and Scene 11-12 traveler selection, then finalize exact people and report/release windows; source remains REVIEW."
+      }
+    ]
+  }
 }
