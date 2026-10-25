@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T23:37:46.890Z",
+  "updated": "2026-10-25T00:25:59.990Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -164,7 +164,7 @@
     "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Off-book / music / scene links",
+    "work": "Off-book / music / scene links, Choreography; music & dance review; recording & wardrobe fitting",
     "focus": "",
     "prep": "Scene 12 Dancers; Scenes 7–9 (Actors)",
     "notice": "",
@@ -327,7 +327,7 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Off-book / music / scene links",
+        "work": "Off-book / music / scene links, Choreography; music & dance review; recording & wardrobe fitting",
         "focus": "",
         "prep": "Scene 12 Dancers; Scenes 7–9 (Actors)",
         "notice": "",
@@ -348,7 +348,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–9:30 PM — Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n 6:30 PM–8:00 PM–Scene 10: Mary (Jordyn), Joseph(Caleb), Child Storyteller Nia (Gelvina), Simon (James), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n\n8:00 PM–9:30 PM- Scene 11 & 12: Mary (Jordyn), Joseph(Caleb), Eli, Innkeeper (Kevin), Anna, Innkeeper's Wife(Charla), Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli, Innkeeper (Kevin), Anna, Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30 PM–9:30 PM — Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n 6:30 PM–8:00 PM–Scene 10: Mary (Jordyn), Joseph(Caleb), Child Storyteller Nia (Gelvina), Simon (James), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n\n8:00 PM–9:30 PM- Scene 11 & 12: Mary (Jordyn), Joseph(Caleb), Eli, Innkeeper (Kevin), Anna, Innkeeper's Wife(Charla), Child Storyteller Nia (Gelvina), Simon (James), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -674,7 +674,7 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Off-book / music / scene links",
+        "work": "Off-book / music / scene links, Choreography; music & dance review; recording & wardrobe fitting",
         "focus": "",
         "prep": "Scene 12 Dancers; Scenes 7–9 (Actors)",
         "notice": "",
@@ -695,7 +695,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–9:30 PM — Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n 6:30 PM–8:00 PM–Scene 10: Mary (Jordyn), Joseph(Caleb), Child Storyteller Nia (Gelvina), Simon (James), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n\n8:00 PM–9:30 PM- Scene 11 & 12: Mary (Jordyn), Joseph(Caleb), Eli, Innkeeper (Kevin), Anna, Innkeeper's Wife(Charla), Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli, Innkeeper (Kevin), Anna, Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30 PM–9:30 PM — Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n 6:30 PM–8:00 PM–Scene 10: Mary (Jordyn), Joseph(Caleb), Child Storyteller Nia (Gelvina), Simon (James), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n\n8:00 PM–9:30 PM- Scene 11 & 12: Mary (Jordyn), Joseph(Caleb), Eli, Innkeeper (Kevin), Anna, Innkeeper's Wife(Charla), Child Storyteller Nia (Gelvina), Simon (James), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -1079,19 +1079,19 @@
       {
         "id": "CHOSEN-20261104-REH",
         "eventKey": "CHOSEN-20261104-REH",
-        "start": "2026-11-04T23:30:00.000Z",
-        "end": "2026-11-05T02:30:00.000Z",
+        "start": "2026-11-04T18:30:00.000Z",
+        "end": "2026-11-04T21:30:00.000Z",
         "date": "November 4, 2026",
         "dateIso": "2026-11-04",
         "day": "Wednesday",
         "dateLabel": "November 4, 2026",
         "dayLabel": "Wednesday",
-        "time": "6:30 PM–9:30 PM",
+        "time": "1:30 PM–4:30 PM",
         "title": "CHOSEN Rehearsal - Problem scenes",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30PM–9:30 PM — Targeted cast (specific names TBD after Oct. 31 run notes)",
+        "called": "",
         "callGroups": [],
         "calledPeople": [],
         "calledPeopleIds": [],
@@ -5009,7 +5009,7 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Off-book / music / scene links",
+        "work": "Off-book / music / scene links, Choreography; music & dance review; recording & wardrobe fitting",
         "focus": "",
         "prep": "Scene 12 Dancers; Scenes 7–9 (Actors)",
         "notice": "",
@@ -5030,7 +5030,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–9:30 PM — Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n 6:30 PM–8:00 PM–Scene 10: Mary (Jordyn), Joseph(Caleb), Child Storyteller Nia (Gelvina), Simon (James), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n\n8:00 PM–9:30 PM- Scene 11 & 12: Mary (Jordyn), Joseph(Caleb), Eli, Innkeeper (Kevin), Anna, Innkeeper's Wife(Charla), Child Storyteller Nia (Gelvina), Simon (James), Mary (Jordyn), Joseph(Caleb), Eli, Innkeeper (Kevin), Anna, Innkeeper's Wife(Charla), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Sheperd, (Delvin), Angel Voice (Cedrick)",
+        "called": "6:30 PM–9:30 PM — Scene 12 Dancers: Alyssa Johnson, Anaia Downer, Arielle Brown, Aubrie Lewis, Caris Hunte, Carmen Brown, DeAndra Gray, Gabriella Fearon\n\n 6:30 PM–8:00 PM–Scene 10: Mary (Jordyn), Joseph(Caleb), Child Storyteller Nia (Gelvina), Simon (James), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)\n\n8:00 PM–9:30 PM- Scene 11 & 12: Mary (Jordyn), Joseph(Caleb), Eli, Innkeeper (Kevin), Anna, Innkeeper's Wife(Charla), Child Storyteller Nia (Gelvina), Simon (James), Shepherd 1 (Edison), Shepherd 2(Jayden), Young Shepherd (Delvin), Angel Voice (Cedrick)",
         "callGroups": [],
         "calledPeople": [
           {
@@ -5414,19 +5414,19 @@
       {
         "id": "CHOSEN-20261104-REH",
         "eventKey": "CHOSEN-20261104-REH",
-        "start": "2026-11-04T23:30:00.000Z",
-        "end": "2026-11-05T02:30:00.000Z",
+        "start": "2026-11-04T18:30:00.000Z",
+        "end": "2026-11-04T21:30:00.000Z",
         "date": "November 4, 2026",
         "dateIso": "2026-11-04",
         "day": "Wednesday",
         "dateLabel": "November 4, 2026",
         "dayLabel": "Wednesday",
-        "time": "6:30 PM–9:30 PM",
+        "time": "1:30 PM–4:30 PM",
         "title": "CHOSEN Rehearsal - Problem scenes",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30PM–9:30 PM — Targeted cast (specific names TBD after Oct. 31 run notes)",
+        "called": "",
         "callGroups": [],
         "calledPeople": [],
         "calledPeopleIds": [],
@@ -9228,7 +9228,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "02",
@@ -9242,7 +9242,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "03",
@@ -9256,7 +9256,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "04",
@@ -9270,7 +9270,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "05",
@@ -9284,7 +9284,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "06",
@@ -9298,7 +9298,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "07",
@@ -9312,7 +9312,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "08",
@@ -9326,7 +9326,7 @@
         "id": "the-reunion",
         "name": "The Reunion",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "09",
@@ -9340,7 +9340,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "10",
@@ -9354,7 +9354,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "11",
@@ -9368,7 +9368,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "12",
@@ -9382,7 +9382,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       }
     ],
     "current": [
@@ -9398,7 +9398,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "02",
@@ -9412,7 +9412,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "03",
@@ -9426,7 +9426,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "04",
@@ -9440,7 +9440,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "05",
@@ -9454,7 +9454,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "06",
@@ -9468,7 +9468,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "07",
@@ -9482,7 +9482,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "08",
@@ -9496,7 +9496,7 @@
         "id": "the-reunion",
         "name": "The Reunion",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "09",
@@ -9510,7 +9510,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "10",
@@ -9524,7 +9524,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "11",
@@ -9538,7 +9538,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       },
       {
         "scene": "12",
@@ -9552,11 +9552,11 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-10-24T23:37:34.680Z"
+        "updated": "2026-10-25T00:25:48.991Z"
       }
     ],
     "count": 12,
-    "updated": "2026-10-24T23:37:46.890Z",
+    "updated": "2026-10-25T00:25:59.990Z",
     "kind": "scripts"
   },
   "music": {
@@ -9775,7 +9775,7 @@
       }
     ],
     "count": 7,
-    "updated": "2026-10-24T23:37:46.890Z",
+    "updated": "2026-10-25T00:25:59.990Z",
     "kind": "music"
   }
 }
