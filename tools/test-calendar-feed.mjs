@@ -1,3 +1,7 @@
+import { mkdtempSync, mkdirSync, copyFileSync, writeFileSync, rmSync } from 'node:fs';
+import { spawnSync } from 'node:child_process';
+import path from 'node:path';
+import os from 'node:os';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -102,4 +106,39 @@ test('existing feeds without revision fields migrate without changing identities
   assert.match(next, /DTSTAMP:20261022T100000Z/);
   assert.match(next, /LAST-MODIFIED:20261022T100000Z/);
   assert.match(next, /SEQUENCE:0/);
+});
+
+test('blank call text keeps formatted Sheet times in New York across daylight saving time', () => {
+  const fixtureRoot = mkdtempSync(path.join(os.tmpdir(), 'chosen-sheet-time-'));
+  try {
+    mkdirSync(path.join(fixtureRoot, 'tools'));
+    mkdirSync(path.join(fixtureRoot, 'data'));
+    for (const file of ['build.mjs', 'calendar-feed.mjs']) {
+      copyFileSync(new URL('./' + file, import.meta.url), path.join(fixtureRoot, 'tools', file));
+    }
+    const events = [
+      { id: 'CHOSEN-20261028-REH', start: 'Oct 28, 2026 6:30 PM', end: 'Oct 28, 2026 9:30 PM',
+        expectedStart: '2026-10-28T22:30:00.000Z', expectedEnd: '2026-10-29T01:30:00.000Z' },
+      { id: 'CHOSEN-20261104-REH', start: 'Nov 4, 2026 6:30 PM', end: 'Nov 4, 2026 9:30 PM',
+        expectedStart: '2026-11-04T23:30:00.000Z', expectedEnd: '2026-11-05T02:30:00.000Z' },
+    ].map(event => ({ ...event, title: 'Rehearsal', location: 'Faith Center', status: 'CONFIRMED', called: '' }));
+    writeFileSync(path.join(fixtureRoot, 'data/rehearsals.json'), JSON.stringify(events));
+    const build = () => {
+      const result = spawnSync(process.execPath, [path.join(fixtureRoot, 'tools/build.mjs')], { encoding: 'utf8', env: { ...process.env, TZ: 'UTC' } });
+      assert.equal(result.status, 0, result.stderr);
+      return JSON.parse(readFileSync(path.join(fixtureRoot, 'data/content.json'), 'utf8'));
+    };
+    const content = build();
+    for (const event of events) {
+      const published = content.schedule.allRehearsals.find(item => item.id === event.id);
+      assert.equal(published.start, event.expectedStart);
+      assert.equal(published.end, event.expectedEnd);
+      assert.equal(published.time, '6:30 PM–9:30 PM');
+    }
+    const feed = readFileSync(path.join(fixtureRoot, 'chosen-calendar.ics'), 'utf8');
+    build();
+    assert.equal(readFileSync(path.join(fixtureRoot, 'chosen-calendar.ics'), 'utf8'), feed);
+  } finally {
+    rmSync(fixtureRoot, { recursive: true, force: true });
+  }
 });

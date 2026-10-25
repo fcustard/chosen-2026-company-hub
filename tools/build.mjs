@@ -335,6 +335,23 @@ function parseDateValue(value, options = {}) {
     });
   }
 
+
+  // Sheets' formatted month-name values are New York wall-clock times.
+  // Native Date parsing would interpret them in the Actions runner's UTC zone
+  // when a blank call description provides no authored time-range fallback.
+  const sheetDateTime = text.match(/^([A-Za-z]{3}) (\d{1,2}), (\d{4}) (\d{1,2}):(\d{2}) (AM|PM)$/i);
+  if (sheetDateTime) {
+    const [, monthName, day, year, hour, minute, marker] = sheetDateTime;
+    const month = ['jan', 'feb', 'mar', 'apr', 'may', 'jun',
+      'jul', 'aug', 'sep', 'oct', 'nov', 'dec'].indexOf(monthName.toLowerCase()) + 1;
+    if (!month || Number(hour) < 1 || Number(hour) > 12 || Number(minute) > 59) return null;
+    return zonedTimeToUtc({
+      year: Number(year), month, day: Number(day),
+      hour: Number(hour) % 12 + (marker.toUpperCase() === 'PM' ? 12 : 0),
+      minute: Number(minute),
+    });
+  }
+
   const hasTimezone = /(?:Z|[+-]\d{2}:?\d{2})$/i.test(text);
   if (hasTimezone) {
     const date = new Date(text);
