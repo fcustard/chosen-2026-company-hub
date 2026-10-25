@@ -2,6 +2,7 @@
 
 import fs from 'node:fs/promises';
 import { createCalendarBaseline, mergeCalendarRehearsals } from './calendar-merge.mjs';
+import { syncFutureCalendar } from './future-calendar-source.mjs';
 
 const configured = process.env.CALENDAR_FEED_URL;
 
@@ -22,6 +23,28 @@ if (canceled.schemaVersion !== 1 || !Array.isArray(canceled.ids) ||
   throw new Error('Reviewed calendar cancellations file is invalid.');
 }
 const REVIEWED_CANCELLATIONS = new Set(canceled.ids);
+
+// The legacy Apps Script resolves every historical name against today's
+// active people, so an explicit withdrawal makes that feed reject old calls.
+// Read approved future rows from the same Sheets instead, with the same
+// guarded merge and complete Personal Calls contract. Keep history verbatim.
+const formerMembers = JSON.parse(await fs.readFile(`${DATA_DIR}/former-company-members.json`, 'utf8')).members;
+if (formerMembers.length) {
+  const published = JSON.parse(await fs.readFile(FINAL_PATH, 'utf8'));
+  const baseline = JSON.parse(await fs.readFile(BASELINE_PATH, 'utf8'));
+  const company = JSON.parse(await fs.readFile(`${DATA_DIR}/company.json`, 'utf8'));
+  const merged = await syncFutureCalendar(company, published, baseline, REVIEWED_CANCELLATIONS);
+  if (!PROBE_ONLY && !VERIFY_ONLY) {
+    if (!SEED_BASELINE) {
+      await fs.writeFile(TEMP_PATH, JSON.stringify(merged.rehearsals, null, 2) + '\n');
+      await fs.rename(TEMP_PATH, FINAL_PATH);
+    }
+    await fs.writeFile(`${BASELINE_PATH}.tmp`, JSON.stringify(merged.baseline, null, 2) + '\n');
+    await fs.rename(`${BASELINE_PATH}.tmp`, BASELINE_PATH);
+  }
+  console.log(`Future Master Calendar CSV sync verified: ${merged.changes.length} changed event(s); historical calls preserved.`);
+  process.exit(0);
+}
 
 /*
  * IMPORTANT

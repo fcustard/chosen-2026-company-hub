@@ -17,3 +17,12 @@ Some participants connected the older native **CHOSEN 2026 - Rehearsals & Produc
 The native Google mirror and the public subscription use the same shared fields. Google descriptions include the Hub My Calls link and `CHOSEN Event Key: …` marker. They do not include named or personal calls. Label pending windows as tentative. Do not change the historical calendar entries as part of a future-schedule sync.
 
 Google/Apple decide when subscribers' devices fetch changes. `REFRESH-INTERVAL` and `X-PUBLISHED-TTL` request hourly refresh but do not force it. An imported ICS file or copied event is a separate snapshot and cannot be remotely updated. The Schedule page explains how to check the subscribed calendar and replace old copies without touching unrelated personal events. Use the Hub for same-day changes.
+
+
+## Withdrawals and historical calls
+
+Mark a withdrawn person inactive and unpublished in Master People and their Assignments. Record their stable ID, display name and last historical call date in `data/former-company-members.json`. Remove their active public roster entry and future exact calls, while retaining past attendance, calls and fittings. A former ID is accepted only through its explicit historical boundary; a future call to that ID still fails validation.
+
+When former members are recorded, the calendar sync reads approved future rows directly from the same Master Calendar and Personal Calls tabs. This avoids the legacy Apps Script resolving historical names against only today's active company. Company sync runs first. Header checks and an explicit public-field allowlist exclude Internal Notes; exact names resolve against the active company; Personal Calls must provide complete, valid windows. The guarded merge still blocks conflicting reviewed overrides and missing future events. Failed or empty reads never authorize deleting events. Historical rehearsal objects and their source fingerprints are preserved verbatim.
+
+October 28 and October 29 now have complete director-reviewed individual windows in Personal Calls. The public subscription and native Google calendar continue to contain shared schedule windows only.

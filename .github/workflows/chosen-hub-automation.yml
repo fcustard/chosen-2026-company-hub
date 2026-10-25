@@ -122,13 +122,33 @@ jobs:
         run: node tools/sync-exact-calls.mjs
 
       - name: Test guarded calendar merge
-        run: node tools/test-calendar-merge.mjs
+        run: |
+          node tools/test-calendar-merge.mjs
+          node --test tools/test-future-calendar-source.mjs
 
       - name: Test Apps Script personal call feed helper
         run: node tools/test-apps-script-personal-calls.mjs
 
       - name: Test subscription calendar feed
         run: node --test tools/test-calendar-feed.mjs
+
+      - name: Sync company people and assignments from Admin Master Sheets
+        env:
+          COMPANY_FEED_URL: ${{ vars.COMPANY_FEED_URL }}
+        run: |
+          set +e
+          node tools/sync-company.mjs
+          status=$?
+          set -e
+
+          if [ "$status" -ne 0 ]; then
+            echo "::warning::Company sync failed. Continuing with existing data/company.json so Master Calendar and script changes can still publish."
+
+            if [ ! -s data/company.json ]; then
+              echo "::error::data/company.json is missing or empty, so the Hub cannot safely continue."
+              exit "$status"
+            fi
+          fi
 
       - name: Sync exact rehearsal calls from Master Calendar
         id: calendar_sync
@@ -154,24 +174,6 @@ jobs:
             echo "- Review the **Sync exact rehearsal calls from Master Calendar** log for the precise event and field."
           } >> "$GITHUB_STEP_SUMMARY"
           exit 1
-
-      - name: Sync company people and assignments from Admin Master Sheets
-        env:
-          COMPANY_FEED_URL: ${{ vars.COMPANY_FEED_URL }}
-        run: |
-          set +e
-          node tools/sync-company.mjs
-          status=$?
-          set -e
-
-          if [ "$status" -ne 0 ]; then
-            echo "::warning::Company sync failed. Continuing with existing data/company.json so Master Calendar and script changes can still publish."
-
-            if [ ! -s data/company.json ]; then
-              echo "::error::data/company.json is missing or empty, so the Hub cannot safely continue."
-              exit "$status"
-            fi
-          fi
 
       - name: Validate exact personalized calls
         run: |
