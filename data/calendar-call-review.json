@@ -13,21 +13,23 @@
   ],
   "purpose": "Trigger and trace a guarded Hub sync after October 15 personal windows and future exact-call review.",
   "lastReview": {
-    "reviewedAt": "2026-10-25T01:06:57Z",
+    "reviewedAt": "2026-10-25T01:31:09.536898+00:00",
     "changedEventKeys": [
+      "CHOSEN-20261028-REH",
+      "CHOSEN-20261029-REH",
+      "CHOSEN-20261031-REH",
       "CHOSEN-20261104-REH",
-      "CHOSEN-20261105-REH",
       "CHOSEN-20261107-REH"
     ],
-    "purpose": "Refresh the guarded Hub publication after approved Master Calendar call, title, work and preparation changes. Preserve source REVIEW flags and do not infer individual report/release times.",
+    "purpose": "Director confirmed Jayden as Scene 9 Villager Man 2 and the October 28 personal windows, withdrew Rodney from production, narrowed October 29 to named Scene 12 dancers and speaking actors, and confirmed November 4 actors-only scope and 8:30 PM transition. Complete October 28/29 windows are now in Personal Calls.",
     "directorDecisions": [
       {
         "eventKey": "CHOSEN-20261104-REH",
-        "decision": "Confirm the source REVIEW call and reconcile Moenike Custard's Talia understudy assignment with active Assignments before activating exact personal calls."
+        "decision": "Reconcile the Talia understudy assignment before activating the source REVIEW personal call."
       },
       {
         "eventKey": "CHOSEN-20261105-REH",
-        "decision": "Confirm the selective actors/dancers and exact report/release windows before activating personal calls; source remains REVIEW."
+        "decision": "Finalize selective actors/dancers and personal report/release windows; source remains REVIEW."
       }
     ]
   }

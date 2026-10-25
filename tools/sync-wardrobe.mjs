@@ -8,7 +8,8 @@ if (!response.headers.get('content-type')?.includes('csv')) throw new Error('War
 const plan = parseWardrobe(parseCsv(csv));
 const company = JSON.parse(await fs.readFile('data/company.json', 'utf8'));
 const rehearsals = JSON.parse(await fs.readFile('data/rehearsals.json', 'utf8'));
-validateFittings(plan, company, rehearsals);
+const formerMembers = JSON.parse(await fs.readFile('data/former-company-members.json', 'utf8')).members;
+validateFittings(plan, company, rehearsals, formerMembers);
 const destination = 'data/wardrobe.json';
 let existing = null;
 try { existing = JSON.parse(await fs.readFile(destination, 'utf8')); }

@@ -174,7 +174,9 @@ jobs:
           fi
 
       - name: Validate exact personalized calls
-        run: node tools/validate-exact-personalization.mjs
+        run: |
+          node --test tools/test-exact-personalization.mjs
+          node tools/validate-exact-personalization.mjs
 
       - name: Refresh wardrobe calendar from Master Calendar
         run: |

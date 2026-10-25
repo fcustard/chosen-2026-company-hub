@@ -582,7 +582,7 @@
     {
       "id": "jayden-harris",
       "name": "Jayden Harris",
-      "roles": "MERCHANT 2 / SHEPHERD 2 / ENSEMBLE",
+      "roles": "MERCHANT 2 / SHEPHERD 2 / VILLAGER MAN 2 / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -814,26 +814,6 @@
         1,
         9,
         12
-      ]
-    },
-    {
-      "id": "rodney-jean",
-      "name": "Rodney Jean",
-      "roles": "VILLAGER MAN 2 / DANCER / UNDERSTUDY FOR SHEPHERD 2",
-      "scenes": [
-        1,
-        9,
-        12
-      ],
-      "understudy": "SHEPHERD 2",
-      "danceEnsemble": true,
-      "groups": [
-        "Dancers",
-        "Ensemble",
-        "Principals/Featured"
-      ],
-      "danceScenes": [
-        1
       ]
     },
     {

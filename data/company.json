@@ -1426,7 +1426,7 @@
       "id": "P-jayden-harris",
       "name": "Jayden Harris",
       "companyType": "Performer",
-      "primaryAssignment": "MERCHANT 2/SHEPHERD 2/ ENSEMBLE/Understudy for Ezra (Joseph's Friend)",
+      "primaryAssignment": "MERCHANT 2 / SHEPHERD 2 / VILLAGER MAN 2 / ENSEMBLE / Understudy for Ezra (Joseph's Friend)",
       "departments": [
         "Cast"
       ],
@@ -1434,7 +1434,7 @@
         "Ensemble",
         "Principals/Featured"
       ],
-      "roles": "MERCHANT 2/SHEPHERD 2/ ENSEMBLE/Understudy for Ezra (Joseph's Friend)",
+      "roles": "MERCHANT 2 / SHEPHERD 2 / VILLAGER MAN 2 / ENSEMBLE / Understudy for Ezra (Joseph's Friend)",
       "scenes": [
         1,
         9,
@@ -1449,7 +1449,7 @@
           "personId": "P-jayden-harris",
           "type": "Cast Role",
           "department": "Cast",
-          "assignment": "MERCHANT 2/SHEPHERD 2/ ENSEMBLE/Understudy for Ezra (Joseph's Friend)",
+          "assignment": "MERCHANT 2 / SHEPHERD 2 / VILLAGER MAN 2 / ENSEMBLE / Understudy for Ezra (Joseph's Friend)",
           "scope": "1, 9, 10, 12",
           "callGroups": [
             "Ensemble",
@@ -2044,63 +2044,6 @@
           "scope": "",
           "callGroups": [
             "Media"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "P-rodney-jean",
-      "name": "Rodney Jean",
-      "companyType": "Performer",
-      "primaryAssignment": "VILLAGER MAN 2 / DANCER / UNDERSTUDY FOR SHEPHERD 2",
-      "departments": [
-        "Cast"
-      ],
-      "groups": [
-        "Dancers",
-        "Ensemble",
-        "Principals/Featured"
-      ],
-      "roles": "VILLAGER MAN 2 / DANCER / UNDERSTUDY FOR SHEPHERD 2",
-      "scenes": [
-        1,
-        9,
-        12
-      ],
-      "understudy": "SHEPHERD 2",
-      "danceEnsemble": true,
-      "reviewStatus": "READY",
-      "assignments": [
-        {
-          "personId": "P-rodney-jean",
-          "type": "Cast Role",
-          "department": "Cast",
-          "assignment": "VILLAGER MAN 2 / DANCER / UNDERSTUDY FOR SHEPHERD 2",
-          "scope": "1, 9, 12",
-          "callGroups": [
-            "Dancers",
-            "Ensemble",
-            "Principals/Featured"
-          ]
-        },
-        {
-          "personId": "P-rodney-jean",
-          "type": "Understudy",
-          "department": "Cast",
-          "assignment": "SHEPHERD 2",
-          "scope": "12",
-          "callGroups": [
-            "Principals/Featured"
-          ]
-        },
-        {
-          "personId": "P-rodney-jean",
-          "type": "Dance Ensemble",
-          "department": "Dance",
-          "assignment": "Dance Ensemble",
-          "scope": "Scene 1",
-          "callGroups": [
-            "Dancers"
           ]
         }
       ]

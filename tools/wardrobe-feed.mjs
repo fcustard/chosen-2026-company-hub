@@ -74,10 +74,11 @@ export function parseWardrobe(rows) {
   };
 }
 
-export function validateFittings(plan, company, rehearsals) {
+export function validateFittings(plan, company, rehearsals, formerMembers = []) {
   const seen = new Set(), occupied = new Map();
   for (const f of plan.fittings.filter(f => !f.buffer)) {
-    const person = company.people.find(p => p.name === f.performer);
+    const person = company.people.find(p => p.name === f.performer) ||
+      formerMembers.find(p => p.name === f.performer && /^\d{4}-\d{2}-\d{2}$/.test(f.date) && f.date <= p.historicalThroughDate);
     if (!person) throw new Error(`Unknown fitting performer: ${f.performer}`);
     const key = `${f.date}/${person.id}`;
     if (seen.has(key)) throw new Error(`Duplicate fitting: ${f.performer}`);

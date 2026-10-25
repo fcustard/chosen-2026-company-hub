@@ -180,7 +180,7 @@ window.CHOSEN_COMPANY_DATA = [
   },
   {
     "name": "Jayden Harris",
-    "roles": "MERCHANT 2 / SHEPHERD 2 / ENSEMBLE",
+    "roles": "MERCHANT 2 / SHEPHERD 2 / VILLAGER MAN 2 / ENSEMBLE",
     "scenes": "1, 9, 10, 12",
     "understudy": "Understudy for Ezra (Joseph's Friend)",
     "danceEnsemble": false

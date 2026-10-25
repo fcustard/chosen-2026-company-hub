@@ -15,7 +15,12 @@ assert.throws(() => validateFittings({ fittings: [{ ...sample, time: '6:20–6:3
 const plan = JSON.parse(await fs.readFile('data/wardrobe.json', 'utf8'));
 const company = JSON.parse(await fs.readFile('data/company.json', 'utf8'));
 const rehearsals = JSON.parse(await fs.readFile('data/rehearsals.json', 'utf8'));
-validateFittings(plan, company, rehearsals);
+const formerMembers = JSON.parse(await fs.readFile('data/former-company-members.json', 'utf8')).members;
+validateFittings(plan, company, rehearsals, formerMembers);
+const former = [{ id: 'P-a', name: 'A', historicalThroughDate: '2026-10-24' }];
+assert.doesNotThrow(() => validateFittings({ fittings: [sample] }, { people: [] }, calls, former));
+assert.throws(() => validateFittings({ fittings: [{ ...sample, date: '2026-10-28' }] }, { people: [] }, calls, former), /Unknown fitting/);
+assert.throws(() => validateFittings({ fittings: [{ ...sample, performer: 'Mistyped' }] }, { people: [] }, calls, former), /Unknown fitting/);
 for (const row of plan.schedule) {
   assert(row.date && row.time && row.phase && row.group && row.task && row.alignment && row.goal, 'Incomplete wardrobe planning row');
 }

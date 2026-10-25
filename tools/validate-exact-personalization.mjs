@@ -32,6 +32,18 @@ if (
 }
 
 const people = companyEnvelope.people;
+// Withdrawals must not erase or invalidate genuine historical call records.
+// Each exception is explicit and date-bounded; future calls still require an
+// active published person, and unknown historical IDs still fail validation.
+const formerPath = 'data/former-company-members.json';
+const formerMembers = fs.existsSync(formerPath)
+  ? read(formerPath).members : [];
+const formerThrough = new Map(formerMembers.map(person => [
+  person.id, String(person.historicalThroughDate || '').replaceAll('-', '')
+]));
+for (const [id, through] of formerThrough) {
+  if (!id || !/^\d{8}$/.test(through)) throw new Error('Invalid former company member history boundary.');
+}
 const peopleById = new Map();
 const knownGroups = new Set();
 
@@ -90,6 +102,9 @@ for (const rehearsal of rehearsals) {
 
   for (const personId of ids) {
     if (!peopleById.has(personId)) {
+      const eventDate = String(id).match(/^CHOSEN-(\d{8})-/)?.[1];
+      const through = formerThrough.get(personId);
+      if (eventDate && through && eventDate <= through) continue;
       errors.push(`${id}: calledPeopleId "${personId}" is not in data/company.json`);
     }
   }
