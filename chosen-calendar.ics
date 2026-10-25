@@ -23,12 +23,12 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:CHOSEN-20261029-REH@chosen-2026-company-hub.fcustard.github.io
-DTSTAMP:20261022T153529Z
-LAST-MODIFIED:20261022T153529Z
-SEQUENCE:0
+DTSTAMP:20261025T014125Z
+LAST-MODIFIED:20261025T014125Z
+SEQUENCE:1
 DTSTART:20261029T223000Z
 DTEND:20261030T013000Z
-SUMMARY:CHOSEN Rehearsal -Scenes 10–12 (Dancers & Actors)
+SUMMARY:CHOSEN Rehearsal - Scenes 10–12 (Dancers & Speaking Actors)
 LOCATION:The Faith Center | 5555 NW 95th Ave\, Sunrise\, FL 33351
 DESCRIPTION:Check My Calls on the CHOSEN Hub for your personal report and r
  elease times. Changes may take time to appear in a subscribed calendar.
@@ -52,12 +52,12 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:CHOSEN-20261104-REH@chosen-2026-company-hub.fcustard.github.io
-DTSTAMP:20261025T011015Z
-LAST-MODIFIED:20261025T011015Z
-SEQUENCE:3
+DTSTAMP:20261025T014125Z
+LAST-MODIFIED:20261025T014125Z
+SEQUENCE:4
 DTSTART:20261104T233000Z
 DTEND:20261105T023000Z
-SUMMARY:CHOSEN Rehearsal - Scenes 3\, 4\,5\,7\,8 (ACTORS ONLY)
+SUMMARY:CHOSEN Rehearsal - Scenes 3\, 4\, 5\, 7\, 8 (ACTORS ONLY)
 LOCATION:The Faith Center | 5555 NW 95th Ave\, Sunrise\, FL 33351
 DESCRIPTION:Check My Calls on the CHOSEN Hub for your personal report and r
  elease times. Changes may take time to appear in a subscribed calendar.
