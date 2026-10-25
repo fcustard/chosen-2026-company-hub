@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-25T02:33:12.959Z",
-  "contentHash": "6cc60a04729519a99980e72c18a8500402f4725da0acce057a21972bd27214ab",
+  "sourceUpdated": "2026-10-25T03:38:39.143Z",
+  "contentHash": "07788dd04c7ef3b09b8c30c796334835c596f81795c36340e70d0f35e3a17e73",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -310,6 +310,11 @@
     {
       "type": "stage",
       "text": "Anna may remain just outside the family image.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "During “Silent Night,” Joseph and Mary lower the swaddled child into the lined manger together. Joseph supports the head as Mary steadies the wrap; both release only when the doll is stable. The child remains in the marked manger as the shepherd field comes alive.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1299,6 +1304,11 @@
     },
     {
       "type": "stage",
+      "text": "After the shepherds have seen the child in the manger, Mary lifts him with both hands and holds him close. Joseph remains beside her; no one else takes the doll.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
       "text": "Mary looks at the child.",
       "namedStyleType": "HEADING_6"
     },
@@ -1417,7 +1427,7 @@
     },
     {
       "type": "stage",
-      "text": "Joseph picks up the baby from Mary and turns toward the shepherds.",
+      "text": "Mary offers the child to Joseph. He receives the swaddled baby from her arms and turns toward the shepherds.",
       "namedStyleType": "HEADING_6"
     },
     {
