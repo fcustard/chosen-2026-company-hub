@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-26T14:08:09.035Z",
-  "contentHash": "07788dd04c7ef3b09b8c30c796334835c596f81795c36340e70d0f35e3a17e73",
+  "sourceUpdated": "2026-10-26T19:28:16.580Z",
+  "contentHash": "ed019b21d711992de1728b58caff32b6ac461a9cd1875e250c895d8e05d614ef",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -1467,6 +1467,11 @@
     {
       "type": "spacer",
       "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "Joseph settles low beside the marked manger with the same swaddled child held securely in his arms. Mary stays close. He keeps the doll through the final image; there is no further handoff or second manger placement.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
