@@ -9,12 +9,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:CHOSEN-20261028-REH@chosen-2026-company-hub.fcustard.github.io
-DTSTAMP:20261024T233746Z
-LAST-MODIFIED:20261024T233746Z
-SEQUENCE:1
+DTSTAMP:20261026T001621Z
+LAST-MODIFIED:20261026T001621Z
+SEQUENCE:2
 DTSTART:20261028T223000Z
 DTEND:20261029T013000Z
-SUMMARY:CHOSEN Rehearsal - Scene 12 Dancers\; Scenes 7–9 (Actors ONLY)
+SUMMARY:CHOSEN Rehearsal - Scene 12 Dancers\; Scenes 7–9 (Actors ONLY)\; 
+ Scene 8 Recording
 LOCATION:The Faith Center | 5555 NW 95th Ave\, Sunrise\, FL 33351
 DESCRIPTION:Check My Calls on the CHOSEN Hub for your personal report and r
  elease times. Changes may take time to appear in a subscribed calendar.
