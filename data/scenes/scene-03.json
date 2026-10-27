@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-27T07:44:10.806Z",
-  "contentHash": "216ff5bb59dfd8acd680523d6fc3f3e5fbb118860ea4810f87a366025bce121b",
+  "sourceUpdated": "2026-10-27T18:57:57.064Z",
+  "contentHash": "fa96c7db2b3651ba2c22c942b96238747e874b87079240ff0f1686ea3afca102",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "type": "heading",
-      "text": "SCENE 3 — Mary (Jordyn), Talia (Tasha), Shira(Tyfany), Adina(Jeovanie), Dafna(Ashley)",
+      "text": "SCENE 3 — GABRIEL / CHOSEN",
       "namedStyleType": "HEADING_1"
     },
     {
@@ -1303,235 +1303,726 @@
       "namedStyleType": "HEADING_6"
     },
     {
-      "type": "heading",
-      "text": "SONG JOURNEY",
-      "namedStyleType": "HEADING_2"
-    },
-    {
-      "type": "heading",
-      "text": "SECTION 1 — WHY ME?",
-      "namedStyleType": "HEADING_2"
-    },
-    {
-      "type": "stage",
-      "text": "Mary confronts the word chosen.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "She is not royalty.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Not powerful.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Not extraordinary by the world's standards.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Why would God place something this enormous in the hands of someone from Nazareth?",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "The lyrical thought should be",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "Why would being chosen feel this frightening?",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "SECTION 2 — WHAT WILL THIS COST?",
-      "namedStyleType": "HEADING_2"
-    },
-    {
-      "type": "stage",
-      "text": "Mary sees everything from Scene 2 in a new light",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Joseph;",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "their wedding;",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "the house;",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "the table;",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "her family;",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "her name;",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "what Nazareth will say;",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "whether Joseph will stay.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Fragments of the musical language of “My Beloved” may briefly appear underneath “Chosen.”",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Not a full reprise.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "Just enough for the audience to feel the future that is now endangered.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "SECTION 3 — I CANNOT SEE THE ROAD",
-      "namedStyleType": "HEADING_2"
-    },
-    {
-      "type": "stage",
-      "text": "Mary begins understanding that Gabriel is not going to give her the entire future.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "She does not know",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "what Joseph will do;",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "how people will react;",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "where this road ends;",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "what obedience will cost.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "The central realization",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "I do not have to see the whole road to take the next step.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "spacer",
-      "text": ""
-    },
-    {
-      "type": "heading",
-      "text": "SECTION 4 — CHOSEN BECOMES A CHOICE",
-      "namedStyleType": "HEADING_2"
-    },
-    {
-      "type": "stage",
-      "text": "The word changes meaning.",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "stage",
-      "text": "At the beginning of the song",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "God chose me.",
-      "namedStyleType": "TITLE"
-    },
-    {
-      "type": "stage",
-      "text": "By the end",
-      "namedStyleType": "HEADING_6"
-    },
-    {
-      "type": "lyric",
-      "text": "Will I choose to trust God?",
-      "namedStyleType": "TITLE"
-    },
-    {
       "type": "music",
-      "text": "Possible central lyrical territory",
+      "text": "[VERSE 1]",
       "namedStyleType": "HEADING_4"
     },
     {
-      "type": "lyric",
-      "text": "Chosen doesn't mean unafraid.",
-      "namedStyleType": "TITLE"
+      "type": "dialogue",
+      "text": "I knew the road to the well,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I knew the shape of the day,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I knew the life I was promised",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Would not be taken away.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "stage",
-      "text": "and/or",
+      "text": "BLOCKING: Mary stays where the dialogue leaves her, near the unfinished table. Do not move into a new “song position.”",
       "namedStyleType": "HEADING_6"
     },
     {
-      "type": "lyric",
-      "text": "If You chose me, give me courage to choose You.",
-      "namedStyleType": "TITLE"
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "I knew the voice of my mother,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I knew the work of my hands,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I knew the quiet kind of future",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "A girl like me could plan.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "stage",
-      "text": "The music grows emotionally—",
+      "text": "BLOCKING: On “the future,” touch or straighten the unfinished table. Let it represent the home, marriage, and life Mary expected. Gabriel stays grounded and mostly still.",
       "namedStyleType": "HEADING_6"
     },
     {
-      "type": "stage",
-      "text": "but avoid turning it into a giant power-ballad finish.",
-      "namedStyleType": "HEADING_6"
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Then the air begins to tremble,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then the light begins to rise,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "And a messenger of heaven",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Is standing before my eyes.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
     },
     {
       "type": "stage",
-      "text": "This should feel like Mary becoming steady, not invincible.",
+      "text": "BLOCKING: Mary looks back to Gabriel. The room she knows now feels unfamiliar. Gabriel does not chase or circle her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[PRE-CHORUS 1]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "And I want to run,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I want to hide,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Mary takes one instinctive step toward the exit or away from Gabriel, then stops herself.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "But somehow Your voice",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Is already inside.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Mary turns back toward Gabriel. Keep the movement simple.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[CHORUS 1]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not ready, not strong,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t know where this road will lead,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "But I hear You calling.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Mary moves only slightly downstage into open space. She is testing the word “chosen,” not celebrating it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Can that be my name?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Can heaven ask these hands of mine",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "To hold what I can’t name?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: On “these hands of mine,” one brief look at her hands is enough.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "I am afraid,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "But I am listening.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Could I be chosen?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Stop moving. Let the question hang.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[VERSE 2]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "What will Joseph see",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "When he looks into my eyes?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Will he hear the truth in me,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Or only hear the lies?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Mary moves toward the place Joseph exited, but does not leave.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "What will the village say",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "When the whispers start to grow?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "How do I carry heaven",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "When no one else can know?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Become aware of the village outside the room. Do not mime people gossiping.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "I thought faith was something steady,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Like a lamp beside the door.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Now it feels like stepping forward",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Where there is no floor.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Mary shifts her weight forward and begins the idea of a step, but stops before fully taking it. She wants to move, but fear still holds her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[PRE-CHORUS 2]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "How can this be?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "How can this be?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am small,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "But still You see me.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Stay grounded. Let the questions work on Mary instead of adding more movement.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[CHORUS 2]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not ready, not strong,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I don’t know what this yes will cost,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "But I hear You calling.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: On “what this yes will cost,” look back at the unfinished table, but do not return to it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Is this why You came?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Can mercy ask a life like mine",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "To never be the same?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "I am afraid,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "But I am still listening.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Could I be chosen?",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Mary is still frightened, but she no longer retreats.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[BRIDGE]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "I give You the wedding.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I give You the name.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I give You the future",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I had already claimed.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Mary returns to the unfinished table. Place the cloth or simple object she has been holding onto the table.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "I give You the questions.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I give You the cost.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I give You the life",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I thought was my own.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Remove her hand from the table. This is a quiet release, not a dramatic gesture.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "If faith is one step",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Before the road is shown,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Then I will take it trembling,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "But I will not walk alone.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Mary now completes the step she could not take earlier. One deliberate step forward. She still cannot see the road, but now she chooses to move.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[FINAL CHORUS]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not because I understand.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Chosen,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Not because I know the plan.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Mary becomes steady, not triumphant. Use very little movement.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "But if You are the One who calls me,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I will trust the One who knows.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Let the world misunderstand me,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "Still my answer will be Yours.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: On “Let the world misunderstand me,” briefly acknowledge the village outside. On “Still my answer will be Yours,” return focus to Gabriel.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "dialogue",
+      "text": "I am afraid,",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "But I am willing.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am Yours.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am chosen.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Hold still on “But I am willing.” This is the emotional peak. No heroic pose or giant finish.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "music",
+      "text": "[TAG]",
+      "namedStyleType": "HEADING_4"
+    },
+    {
+      "type": "dialogue",
+      "text": "Let it be as You have spoken.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am Yours.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "dialogue",
+      "text": "I am chosen.",
+      "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Let the music settle. No victory pose. In the song, Mary makes the decision privately within herself. The spoken acceptance that follows is when she gives that decision to Gabriel — her final “yes.”",
       "namedStyleType": "HEADING_6"
     },
     {

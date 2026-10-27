@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-10-27T07:44:10.806Z",
-  "contentHash": "0a886dfd06e612a8b661affef9fb55f3e92dd473897d00dccee77e88351ec5e8",
+  "sourceUpdated": "2026-10-27T18:57:57.064Z",
+  "contentHash": "cb21e53e77f9cf1de25cae59565a6af8003a3ba16f843a2753f9cefb8a4df720",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -1590,6 +1590,15 @@
       "text": ""
     },
     {
+      "type": "stage",
+      "text": "BLOCKING: Stay exactly where the spoken scene leaves you. Mary and Joseph remain several feet apart. No musical reset. Joseph does not rush toward Mary.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "music",
       "text": "[Verse 1: Joseph]",
       "namedStyleType": "HEADING_4"
@@ -1633,6 +1642,15 @@
       "text": ""
     },
     {
+      "type": "stage",
+      "text": "BLOCKING: Joseph stays mostly planted. Let the future he imagined live in his eyes, not in extra movement.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "dialogue",
       "text": "I held the plan so tightly,",
       "namedStyleType": "NORMAL_TEXT"
@@ -1657,6 +1675,15 @@
       "text": ""
     },
     {
+      "type": "stage",
+      "text": "BLOCKING: On “your truth stood at my doorway,” Joseph looks directly at Mary. If he is still holding her tool satchel, loosen the grip instead of clutching it.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "dialogue",
       "text": "I cannot make them quiet.",
       "namedStyleType": "NORMAL_TEXT"
@@ -1675,6 +1702,15 @@
       "type": "dialogue",
       "text": "Through the staring and the night.",
       "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Near “I can stand beside you,” Joseph may set the satchel gently on a nearby safe surface or simply release some physical tension. He does NOT approach Mary yet. He wants closeness, but he does not assume he has permission.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -1710,6 +1746,15 @@
       "text": ""
     },
     {
+      "type": "stage",
+      "text": "BLOCKING: Mary does not move toward Joseph yet. If she already has the cloth or household task in her hands, she may hold or lightly work with it as emotional protection. Do not begin new business just because the song starts.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "dialogue",
       "text": "I carried heaven’s answer",
       "namedStyleType": "NORMAL_TEXT"
@@ -1728,6 +1773,15 @@
       "type": "dialogue",
       "text": "When you had me to hold.",
       "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: On “watched your face turn cold,” Mary looks directly at Joseph.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -1758,6 +1812,15 @@
       "text": ""
     },
     {
+      "type": "stage",
+      "text": "BLOCKING: On “I do not need a hero,” Mary turns fully toward Joseph. On “truth that stays beside me,” take one small step toward center — toward the possibility of trust, not into his space.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "music",
       "text": "[Chorus: Joseph, Mary, Both]",
       "namedStyleType": "HEADING_4"
@@ -1782,6 +1845,15 @@
       "text": ""
     },
     {
+      "type": "stage",
+      "text": "BLOCKING: Joseph stays where he is. The line is an offer, not permission to approach.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "dialogue",
       "text": "Mary",
       "namedStyleType": "NORMAL_TEXT"
@@ -1795,6 +1867,15 @@
       "type": "dialogue",
       "text": "Can I believe what I see?",
       "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Mary studies Joseph. Do not soften too quickly.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -1824,6 +1905,15 @@
       "type": "dialogue",
       "text": "Where a heart has been hurt.",
       "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Do NOT offer or take a hand here. The lyric plants the idea; the bridge will fulfill it.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -1866,6 +1956,15 @@
       "type": "dialogue",
       "text": "Still yours.",
       "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Remain separated. The relationship is not repaired yet.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -1933,6 +2032,15 @@
       "text": ""
     },
     {
+      "type": "stage",
+      "text": "BLOCKING: This is Joseph’s first physical approach. Mary has given permission. He takes one controlled step closer, then stops.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "dialogue",
       "text": "Joseph",
       "namedStyleType": "NORMAL_TEXT"
@@ -1955,6 +2063,15 @@
       "type": "dialogue",
       "text": "Then listen.",
       "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Joseph does exactly that. No extra movement.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -2017,6 +2134,15 @@
       "text": ""
     },
     {
+      "type": "stage",
+      "text": "BLOCKING: Hold a real pause after “Then stay.” Joseph does not touch Mary.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "dialogue",
       "text": "Joseph",
       "namedStyleType": "NORMAL_TEXT"
@@ -2025,6 +2151,15 @@
       "type": "dialogue",
       "text": "I’ll stay.",
       "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: “I’ll stay” is a promise, not a move.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -2055,6 +2190,15 @@
       "text": ""
     },
     {
+      "type": "stage",
+      "text": "BLOCKING: Joseph extends his hand without stepping closer.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "dialogue",
       "text": "Mary",
       "namedStyleType": "NORMAL_TEXT"
@@ -2068,6 +2212,15 @@
       "type": "dialogue",
       "text": "Let me come to it.",
       "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: Joseph freezes. He does not reach farther. Mary looks at his hand, then at him.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -2103,7 +2256,7 @@
     },
     {
       "type": "stage",
-      "text": "STAGING: Joseph extends his hand without approaching. Mary looks at it and at him. She chooses to take it. Let the moment breathe.",
+      "text": "BLOCKING: Mary closes the final distance and chooses to take Joseph’s hand. Let the moment breathe.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -2124,6 +2277,15 @@
       "type": "dialogue",
       "text": "Love is choosing side by side.",
       "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: As singing returns, gradually shift from facing one another to standing side by side. Keep the hand connection.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -2158,6 +2320,15 @@
       "type": "dialogue",
       "text": "Not the way we were before.",
       "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: No spins, embraces, circling, or presentational duet choreography. On “not the way we were before,” let both characters understand that this is a new commitment, not a return to Scene 2.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -2235,6 +2406,15 @@
       "text": ""
     },
     {
+      "type": "stage",
+      "text": "BLOCKING: Look at one another and hold still on “Here.” Let the choice land.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "music",
       "text": "[Break]",
       "namedStyleType": "HEADING_4"
@@ -2306,6 +2486,15 @@
       "text": ""
     },
     {
+      "type": "stage",
+      "text": "BLOCKING: Keep the handhold. Do not begin walking home yet.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
       "type": "dialogue",
       "text": "Still I choose you.",
       "namedStyleType": "NORMAL_TEXT"
@@ -2361,6 +2550,15 @@
       "type": "dialogue",
       "text": "Still yours.",
       "namedStyleType": "NORMAL_TEXT"
+    },
+    {
+      "type": "spacer",
+      "text": ""
+    },
+    {
+      "type": "stage",
+      "text": "BLOCKING: On the final “Still yours,” remain together and begin turning your attention toward the road back to Nazareth. Do not walk until the spoken scene resumes after “Together?” / “Together.”",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
