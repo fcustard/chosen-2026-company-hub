@@ -87,7 +87,8 @@
     "approved": true,
     "companyPublish": true,
     "playUrl": "assets/audio/08_Still_Yours_Instrumental_Rehearsal_v1.mp3",
-    "lyricsUrl": "#"
+    "lyricsUrl": "#",
+    "id": "still-yours-instrumental"
   },
   {
     "title": "What Will He Be?",
