@@ -193,5 +193,11 @@
         "text": "Chosen."
       }
     ]
+  },
+  "still-yours-instrumental": {
+    "availability": "instrumental",
+    "label": "Practice lyrics",
+    "note": "This track is instrumental. These are the lyrics for the vocal version of “Still Yours.”",
+    "reuse": "still-yours"
   }
 }

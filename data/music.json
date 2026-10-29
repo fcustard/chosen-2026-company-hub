@@ -78,6 +78,18 @@
     ]
   },
   {
+    "title": "Still Yours (Instrumental)",
+    "scenes": [
+      8
+    ],
+    "type": "Instrumental rehearsal",
+    "status": "Current rehearsal track",
+    "approved": true,
+    "companyPublish": true,
+    "playUrl": "assets/audio/08_Still_Yours_Instrumental_Rehearsal_v1.mp3",
+    "lyricsUrl": "#"
+  },
+  {
     "title": "What Will He Be?",
     "scenes": [
       9
