@@ -69,6 +69,13 @@ body[data-page="lines"] .linesPractice [hidden] { display: none !important; }
 .lineButtons { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 16px; }
 .lineButtons .btn { cursor: pointer; }
 .linesHelp p { color: #e9e0cf; }
+.lineReviewControls { margin:22px 0; padding:20px 24px; border:1px solid var(--line); border-radius:18px; background:#fffdf8; }
+.lineReviewControls .linesField { max-width:360px; }
+.lineReviewControls [role="status"] { font-weight:800; margin:14px 0 8px; }
+.lineReviewControls .note { margin:0; }
+.linesNotice .btn { margin-top:14px; }
+
+@media(max-width:480px){.lineReviewControls{padding:18px}}
 
 @media (max-width: 760px) {
   .linesControls { grid-template-columns: 1fr; }

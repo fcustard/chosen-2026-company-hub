@@ -6,10 +6,10 @@
   <meta name="theme-color" content="#0d1726">
   <title>Lines & Off-Book Practice | CHOSEN 2026</title>
   <link rel="stylesheet" href="styles.css?v=20261012-menu2">
-  <link rel="stylesheet" href="line-practice.css?v=20260928-readable">
-  <script defer src="app.js?v=20261030-flow1"></script>
-  <script defer src="line-practice.js?v=20260928-connected-tasks"></script>
-  <link rel="stylesheet" href="site-flow.css?v=20261030-flow1">
+  <link rel="stylesheet" href="line-practice.css?v=20261030-prep1">
+  <script defer src="app.js?v=20261030-prep1"></script>
+  <script defer src="line-practice.js?v=20261030-prep1"></script>
+  <link rel="stylesheet" href="site-flow.css?v=20261030-prep1">
 </head>
 
 <body data-page="lines">
@@ -64,6 +64,19 @@
       </div>
 
       <div id="linesSummary" class="linesSummary" hidden></div>
+
+      <div id="lineReviewControls" class="lineReviewControls" hidden>
+        <div class="linesField">
+          <label for="lineProgressFilter">3. Focus your practice</label>
+          <select id="lineProgressFilter" disabled>
+            <option value="all">All cards</option>
+            <option value="work">Need work</option>
+            <option value="unmarked">Not marked yet</option>
+          </select>
+        </div>
+        <p id="lineFilterStatus" role="status" aria-live="polite"></p>
+        <p id="lineProgressNote" class="note">Marks stay on this device for each spoken role. Changing the view keeps your role, scene, and saved progress.</p>
+      </div>
 
       <div id="lineCards" class="lineCards"></div>
     </section>

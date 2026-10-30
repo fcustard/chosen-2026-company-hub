@@ -33,3 +33,11 @@
 @media(max-width:850px){.hasPerson .homeHero .hero-grid{grid-template-columns:1fr}.hasPerson .homePersonalCall{grid-row:1}.hasPerson .homeIntro{grid-row:2}}
 @media(max-width:650px){.sub{padding-top:18px;margin-top:18px}.sub h1{font-size:2rem}.hubUpdates{grid-template-columns:1fr}.callPublicationNotice{padding:16px}.homeCallMore summary{font-size:.95rem}}
 @media print{.sceneNext,.callPublicationNotice{display:none}}
+.homePrepProgress{padding:18px 20px;margin:20px 0;background:#fffdf8;border:1px solid #ddd7ca;border-radius:14px}
+.homePrepProgress [role="status"]{font-weight:800;margin:0 0 10px}
+.homePrepProgress progress{display:block;width:100%;height:12px;accent-color:#927025;margin:0 0 12px}
+.homePrepProgress .homePrepHint{margin:0}
+.homePrepCheck{display:flex;align-items:flex-start;gap:12px;min-height:44px;padding:12px 0;margin-top:10px;font-weight:800;cursor:pointer;color:#243247}
+.homePrepCheck input{flex:none;width:22px;height:22px;margin:2px 0 0;accent-color:#254c32}
+.homePrepCheck input:focus-visible{outline:3px solid #927025;outline-offset:4px}
+.homePrepCheck:has(input:checked) span{color:#254c32}

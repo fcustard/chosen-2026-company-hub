@@ -1309,7 +1309,10 @@ function buildResourcePayload(input, kind) {
   const items = resourceItemsFrom(input)
     .filter(isPublishedResource)
     .map(normalizeResourceItem)
-    .filter(Boolean);
+    .filter(Boolean)
+    .map(item => kind === 'scripts' && /^data\/scenes\/scene-\d{2}\.json$/.test(item.source || '')
+      ? { ...item, contentHash: read(item.source, {})?.contentHash || '' }
+      : item);
 
   const current = items.filter(item => item.current);
   const visibleCurrent = current.length ? current : items;
