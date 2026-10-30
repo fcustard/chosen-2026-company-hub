@@ -36,6 +36,10 @@ function lines(v = '') {
   return esc(v).replace(/\r?\n/g, '<br>');
 }
 
+function publicationBadges(status) {
+  return `<div class="callPublicationBadges"><span class="status">${esc(status.eventLabel)}</span><span class="status ${status.pending ? 'assignmentsPending' : 'assignmentsPublished'}">${esc(status.personalLabel)}</span></div>`;
+}
+
 function isDriveTrackUrl(u) {
   return /^https:\/\/drive\.google\.com\//i.test(String(u || ''));
 }
@@ -62,6 +66,33 @@ async function selectedCompanyPerson() {
   } catch (_) {
     return null;
   }
+}
+
+function resourceScopeControls(list, person, noun) {
+  if (!list || !person) return;
+  const items = [...list.querySelectorAll('[data-assigned]')];
+  const assigned = items.filter(item => item.dataset.assigned === 'true');
+  let mine = assigned.length > 0 && !location.hash.startsWith('#track-');
+  const controls = document.createElement('div');
+  controls.className = 'resourceScope';
+  controls.innerHTML = `<div class="actions"><button class="btn" type="button" data-scope="mine"${assigned.length ? '' : ' disabled'}>My ${noun}</button><button class="btn" type="button" data-scope="all">All ${noun}</button></div><p class="note" role="status"></p>`;
+  list.before(controls);
+  const render = () => {
+    items.forEach(item => { item.hidden = mine && item.dataset.assigned !== 'true'; });
+    controls.querySelectorAll('[data-scope]').forEach(button => {
+      const on = (button.dataset.scope === 'mine') === mine;
+      button.setAttribute('aria-pressed', String(on));
+      button.classList.toggle('primary', on);
+    });
+    controls.querySelector('[role="status"]').textContent = mine
+      ? `${assigned.length} ${noun} connected to ${person.name}'s assigned scenes.`
+      : assigned.length ? `Showing all ${items.length} published ${noun}.`
+      : `No scene-linked ${noun} were found for this person. Showing all published ${noun}.`;
+  };
+  controls.querySelectorAll('[data-scope]').forEach(button => button.addEventListener('click', () => {
+    mine = button.dataset.scope === 'mine'; render();
+  }));
+  render();
 }
 
 
@@ -385,7 +416,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (document.body.dataset.page === 'home') {
     document.addEventListener('chosen-person-change', () => void renderHomeQuest(d));
     try {
-      const { initHomeDashboard } = await import('./home-dashboard.js?v=20261030-home1');
+      const { initHomeDashboard } = await import('./home-dashboard.js?v=20261030-flow1');
       await initHomeDashboard(d);
     } catch (error) {
       console.error('Unable to load the personal rehearsal plan.', error);
@@ -404,6 +435,7 @@ document.addEventListener('DOMContentLoaded', async () => {
    */
 
   if (document.body.dataset.page === 'week') {
+    const { callPublicationStatus } = await import('./personal-calls.js?v=20261030-flow1');
     const w = d.thisWeek || {};
 
     weekLabel.textContent =
@@ -432,7 +464,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <p class="ey">${esc(displayDateLabel(x) || x.date)}</p>
                 <h2>${esc(x.title)}</h2>
               </div>
-              <span class="status">${esc(x.status)}</span>
+              ${publicationBadges(callPublicationStatus(x))}
             </div>
 
             <div class="rehFacts">
@@ -537,7 +569,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     ].map(Number));
     const ordered = [...scripts].sort((a, b) => Number(a.scene) - Number(b.scene));
     if (person) showPersonPath(person,
-      `${scenes.size ? `Your scenes: ${[...scenes].sort((a, b) => a - b).join(', ')}. ` : ''}All scenes below are in show order.`,
+      `${scenes.size ? `Your scenes: ${[...scenes].sort((a, b) => a - b).join(', ')}. ` : ''}Switch to All scenes for the full show order.`,
       [['My Calls', 'schedule.html'], ['My Lines roles', 'lines.html'],
         ...(person.danceEnsemble ? [['Dance tracks', 'music.html']] : [])]);
 
@@ -546,7 +578,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         ? ordered
             .map(
               s => `
-                <article class="row scriptRow${scenes.has(Number(s.scene)) ? ' yourScene' : ''}">
+                <article class="row scriptRow${scenes.has(Number(s.scene)) ? ' yourScene' : ''}" data-assigned="${scenes.has(Number(s.scene))}">
                   <div class="badge">
                     ${esc(s.scene || s.id || '')}
                   </div>
@@ -568,6 +600,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             'Scripts coming soon',
             'No current script materials are published to the company Hub yet.'
           );
+      resourceScopeControls(list, person, 'scenes');
     }
   }
 
@@ -644,9 +677,9 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
     }
 
-    const danceScenes = new Set((person?.danceScenes || []).map(Number));
+    const danceScenes = new Set([...(person?.scenes || []), ...(person?.danceScenes || [])].map(Number));
     if (person) showPersonPath(person,
-      danceScenes.size ? `Your dance scenes: ${[...danceScenes].join(', ')}` : 'Current company tracks',
+      danceScenes.size ? `Your assigned scenes: ${[...danceScenes].sort((a,b) => a-b).join(', ')}` : 'Current company tracks',
       [['My Calls', 'schedule.html'], ['My scene scripts', 'scripts.html'], ['My Lines roles', 'lines.html']]);
     if (danceScenes.size) music = [...music].sort((a, b) =>
       Number((b.scenes || []).some(scene => danceScenes.has(Number(scene)))) -
@@ -657,11 +690,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         ? music
             .map(
               x => `
-                <article class="row" id="track-${String(x.title || x.name || '').replace(/[^a-zA-Z0-9_-]/g, '-')}">
+                <article class="row" data-assigned="${(x.scenes || []).some(scene => danceScenes.has(Number(scene)))}" id="track-${String(x.title || x.name || '').replace(/[^a-zA-Z0-9_-]/g, '-')}">
                   <div class="badge">♪</div>
 
                   <div>
-                    <h3>${esc(x.title || x.name || 'Untitled track')}${(x.scenes || []).some(scene => danceScenes.has(Number(scene))) ? ' · Your dance scene' : ''}</h3>
+                    <h3>${esc(x.title || x.name || 'Untitled track')}${(x.scenes || []).some(scene => danceScenes.has(Number(scene))) ? ' · Your assigned scene' : ''}</h3>
                     <p>
                       ${esc(x.type || 'Music')} · ${esc(x.status || 'Current')}
                     </p>
@@ -691,6 +724,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             'Music coming soon',
             'No current rehearsal tracks are published to the company Hub yet.'
           );
+      resourceScopeControls(list, person, 'tracks');
       if (location.hash.startsWith('#track-')) {
         requestAnimationFrame(() =>
           document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView()
@@ -767,7 +801,7 @@ document.addEventListener('DOMContentLoaded', async () => {
      * These helpers keep My Calls exact without relying on broad
      * group fallbacks.
      */
-    const { samePersonId, personMatchesCall } = await import('./personal-calls.js?v=20261030-home1');
+    const { samePersonId, personMatchesCall, callPublicationStatus } = await import('./personal-calls.js?v=20261030-flow1');
 
     try {
       const personId =
@@ -797,7 +831,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             );
           }
 
-          personalView = !!person;
+          personalView = !!person && new URLSearchParams(location.search).get('view') !== 'all';
         }
       }
     } catch (e) {}
@@ -1268,9 +1302,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                   </h2>
                 </div>
 
-                <span class="status">
-                  ${esc(x.status)}
-                </span>
+                ${publicationBadges(callPublicationStatus(x))}
               </div>
 
               <div class="scheduleFacts">
@@ -1496,6 +1528,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
     }
 
+    const pendingCount = all.filter(call => new Date(call.end) >= now &&
+      ['REVIEW', 'PENDING', 'HOLD'].includes(String(call.exactCallStatus || '').trim().toUpperCase())).length;
+    if (pendingCount && upcomingList) {
+      const notice = document.createElement('div');
+      notice.className = 'callPublicationNotice';
+      notice.innerHTML = `<strong>${pendingCount} upcoming company event${pendingCount === 1 ? '' : 's'} ${pendingCount === 1 ? 'has' : 'have'} personal assignments awaiting confirmation.</strong><p>An event can be confirmed while its personal call list is still being reviewed. An event missing from My Calls does not confirm that you are excused. Check the company schedule or ask production before planning your attendance.</p><a href="schedule.html?view=all#upcomingSchedule">Review the company schedule →</a>`;
+      upcomingList.before(notice);
+    }
     if (location.hash.startsWith('#call-')) selected = [];
     renderPersonalControls();
     renderFilters();

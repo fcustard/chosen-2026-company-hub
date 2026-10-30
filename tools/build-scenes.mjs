@@ -661,6 +661,8 @@ function renderSceneReader({
   <meta name="theme-color" content="#0d1726">
   <title>${safeTitle} | CHOSEN 2026</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="site-flow.css?v=20261030-flow1">
+  <script type="module" src="scene-actions.js?v=20261030-flow1"></script>
   <style>
     :root {
       --chosen-navy: #0d1726;

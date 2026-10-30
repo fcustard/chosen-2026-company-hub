@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const search = document.querySelector('#fittingSearch');
-  const cards = [...document.querySelectorAll('.fittingCard')];
+  const cards = [...document.querySelectorAll('#currentFittings .fittingCard')];
   const count = document.querySelector('#fittingCount');
   function filterFittings() {
     const query = search.value.trim().toLocaleLowerCase();
@@ -11,11 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     count.textContent = `${visible} of ${cards.length} performers shown`;
   }
-  search.addEventListener('input', filterFittings);
-  document.querySelector('#clearFittingSearch').addEventListener('click', () => { search.value = ''; filterFittings(); search.focus(); });
+  search?.addEventListener('input', filterFittings);
+  document.querySelector('#clearFittingSearch')?.addEventListener('click', () => { search.value = ''; filterFittings(); search.focus(); });
   const month = document.querySelector('#wardrobeMonth');
   const sessions = [...document.querySelectorAll('.wardrobeSession')];
-  month.addEventListener('change', () => {
+  month?.addEventListener('change', () => {
     let visible = 0;
     for (const session of sessions) {
       session.hidden = !!month.value && session.dataset.month !== month.value;

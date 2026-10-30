@@ -75,3 +75,18 @@ export function personalCallSummary(person, call) {
   }
   return { report: valueFor(call.personalCallTimes), through: valueFor(call.personalCallEndTimes) };
 }
+
+export function callPublicationStatus(call) {
+  const event = String(call.status || '').trim().toUpperCase();
+  const assignments = String(call.exactCallStatus || '').trim().toUpperCase();
+  const eventLabel = event === 'CONFIRMED' ? 'Event confirmed'
+    : ['PENDING', 'TENTATIVE'].includes(event) ? 'Event awaiting confirmation'
+    : ['CANCELLED', 'CANCELED'].includes(event) ? 'Event cancelled'
+    : event === 'NO REHEARSAL' ? 'No rehearsal' : 'Check event instructions';
+  const personalLabel = assignments === 'READY' ? 'Personal assignments published'
+    : assignments === 'REVIEW' ? 'Personal assignments under review'
+    : assignments === 'PENDING' ? 'Personal assignments pending'
+    : assignments === 'HOLD' ? 'Personal assignments on hold'
+    : 'Personal assignments: check instructions';
+  return { eventLabel, personalLabel, pending: assignments !== 'READY' };
+}

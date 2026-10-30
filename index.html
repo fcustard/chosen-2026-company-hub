@@ -6,9 +6,10 @@
   <meta name="theme-color" content="#0d1726">
   <title>Company Hub | CHOSEN 2026</title>
   <link rel="stylesheet" href="styles.css?v=20261014-homequest1">
-  <script defer src="app.js?v=20261030-home1"></script>
-  <link rel="stylesheet" href="home-dashboard.css?v=20261030-home2">
+  <script defer src="app.js?v=20261030-flow1"></script>
+  <link rel="stylesheet" href="home-dashboard.css?v=20261030-flow1">
   <link rel="stylesheet" href="search.css?v=20261005-hero">
+  <link rel="stylesheet" href="site-flow.css?v=20261030-flow1">
 </head>
 
 <body data-page="home">
@@ -22,7 +23,7 @@
 
       <button id="menuBtn" class="menu" type="button" aria-controls="nav" aria-expanded="false">Menu</button>
 
-      <nav id="nav" aria-label="Primary"><a href="this-week.html">This Week</a><a href="scripts.html">Scripts</a><a href="practice.html">Practice</a><a href="music.html">Music</a><a href="schedule.html">My Calls</a><a href="search.html">Search</a><details class="navMore"><summary>More</summary><div class="navMoreMenu"><a href="lines.html">Lines</a><a href="schedule.html">Full Schedule</a><a href="resources.html">Resources</a><a href="company.html">Company</a><a href="production.html">Production</a></div></details></nav>
+      <nav id="nav" aria-label="Primary"><a href="schedule.html">My Calls</a><a href="scripts.html">Scripts</a><a href="music.html">Music</a><a href="practice.html">Practice</a><a href="this-week.html">This Week</a><a href="search.html">Search</a><details class="navMore"><summary>More</summary><div class="navMoreMenu"><a href="lines.html">Lines</a><a href="schedule.html?view=all">Full Schedule</a><a href="resources.html">Resources</a><a href="company.html">Company</a><a href="production.html">Production</a><a href="getting-started.html">Start Here</a></div></details></nav>
     </div>
   </header>
 
@@ -31,8 +32,9 @@
       <div class="hero-grid">
         <div class="homeIntro">
           <p class="k">CHOSEN · THE STORY BEFORE THE MANGER</p>
+          <p id="homeWelcome" class="homeWelcome" hidden></p>
           <h1 id="homeTitle">Know your call.<br>Come prepared.</h1>
-          <p>Find when you’re needed, what to review, and what to bring—all in one place.</p>
+          <p class="homeDescription">Find when you’re needed, what to review, and what to bring—all in one place.</p>
           <p class="homeMission">Your preparation helps our whole company tell the story with confidence.</p>
           <div class="homePersonPicker">
             <label for="homePerson">Choose your name</label>
@@ -57,6 +59,8 @@
         </div>
       </div>
     </section>
+
+    <section id="homeUpdates" class="homeUpdates" aria-label="Published updates" hidden></section>
 
     <section id="homePreparation" class="homePreparation" aria-labelledby="homePreparationTitle">
       <p class="ey">YOUR NEXT STEPS</p>

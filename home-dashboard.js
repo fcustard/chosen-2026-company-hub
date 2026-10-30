@@ -1,4 +1,4 @@
-import { findPerson, personMatchesCall, upcomingPublishedCalls, personalCallSummary, callAnchor } from './personal-calls.js?v=20261030-home1';
+import { findPerson, personMatchesCall, upcomingPublishedCalls, personalCallSummary, callAnchor, callPublicationStatus } from './personal-calls.js?v=20261030-flow1';
 
 const personKey = 'chosen2026-person';
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c =>
@@ -62,6 +62,15 @@ function locationHtml(call) {
     : esc(label);
 }
 
+export function relevantUpdates(updates, person, now = new Date()) {
+  const scenes = new Set([...(person?.scenes || []), ...(person?.danceScenes || [])].map(Number));
+  return (Array.isArray(updates) ? updates : []).filter(update =>
+    update.published === true && Date.parse(update.publishedAt) <= now.getTime() &&
+    Date.parse(update.expiresAt) > now.getTime() &&
+    (!update.scenes?.length || person && update.scenes.some(scene => scenes.has(Number(scene)))))
+    .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)).slice(0, 3);
+}
+
 export async function initHomeDashboard(content, { root = document, fetcher = fetch, storage,
   clock = () => new Date() } = {}) {
   const select = root.querySelector('#homePerson');
@@ -72,7 +81,7 @@ export async function initHomeDashboard(content, { root = document, fetcher = fe
   const change = root.querySelector('#homeChangePerson');
   if (!select || !panel || !preparation || !helper || !button || !change) return;
 
-  let people = [], selected = null, canRemember = true;
+  let people = [], selected = null, canRemember = true, updates = [];
   if (!storage) {
     try { storage = globalThis.localStorage; } catch (_) { canRemember = false; }
   }
@@ -110,6 +119,20 @@ export async function initHomeDashboard(content, { root = document, fetcher = fe
   function render() {
     const { call, pending, companyCall } = homeCallState(selected, content.schedule?.rehearsals, clock());
     select.value = selected?.id || '';
+    root.body?.classList.toggle('hasPerson', !!selected);
+    const welcome = root.querySelector('#homeWelcome');
+    if (welcome) {
+      welcome.hidden = !selected;
+      welcome.textContent = selected ? `Welcome back, ${selected.name.split(/\s+/)[0]}.` : '';
+    }
+    const heading = root.querySelector('#homeTitle');
+    if (heading) heading.innerHTML = selected ? 'Your rehearsal plan.' : 'Know your call.<br>Come prepared.';
+    const updatePanel = root.querySelector('#homeUpdates');
+    if (updatePanel) {
+      const visible = relevantUpdates(updates, selected, clock());
+      updatePanel.hidden = !visible.length;
+      updatePanel.innerHTML = `<p class="ey">${selected ? 'UPDATES FOR YOUR PREPARATION' : 'LATEST HUB UPDATES'}</p><h2>What changed?</h2><div class="hubUpdates">${visible.map(update => `<article><p class="updateDate">${esc(new Intl.DateTimeFormat('en-US', {month:'short',day:'numeric',timeZone:'America/New_York'}).format(new Date(update.publishedAt)))}</p><h3>${esc(update.title)}</h3><p>${esc(update.description)}</p>${/^(?:[a-z0-9-]+\.html)(?:[?#][^"<>]*)?$/i.test(update.url || '') ? `<a href="${esc(update.url)}">${esc(update.linkLabel || 'View update')} →</a>` : ''}</article>`).join('')}</div>`;
+    }
     change.hidden = !selected;
     helper.textContent = canRemember
       ? 'This device remembers your choice. Checking for a child or another family member? Change person anytime.'
@@ -126,6 +149,7 @@ export async function initHomeDashboard(content, { root = document, fetcher = fe
         <a class="homeDetailLink" href="schedule.html">Review the full schedule →</a><a class="homeDetailLink" href="company.html#help">Ask production for help →</a>`;
     } else {
       const times = personalCallSummary(selected, call);
+      const publication = callPublicationStatus(call);
       const url = 'schedule.html#' + callAnchor(call);
       const timeHtml = times.report
         ? `<div><dt>Your report time</dt><dd>${esc(times.report)}</dd></div>
@@ -133,12 +157,15 @@ export async function initHomeDashboard(content, { root = document, fetcher = fe
         : `<div><dt>Overall rehearsal window</dt><dd>${esc(call.time || 'See call details')}</dd></div>`;
       panel.innerHTML = `<p class="ey">${esc(selected.name)} · YOUR NEXT CONFIRMED CALL</p><h2 id="homeCallTitle">${esc(dateLabel(call))}</h2>
         <p class="homeCallName">${esc(call.title)}</p>
+        <div class="callPublicationBadges"><span class="status">${esc(publication.eventLabel)}</span><span class="status assignmentsPublished">${esc(publication.personalLabel)}</span></div>
+        <a class="homePersonSwitch" href="#homePerson">Change person</a>
         ${pending ? '<p class="homeCallNotice">An earlier or overlapping company call is still under review. Check the full schedule for updates.</p>' : ''}
         <dl class="homeCallFacts">${timeHtml}<div class="homeWhere"><dt>Where</dt><dd>${locationHtml(call)}</dd></div></dl>
         ${!times.report ? '<p class="homeCallNotice">Your personal report and scheduled-through times are not published here. Review your call block or confirm with production before you travel.</p>' : !times.through && !call.showDay ? '<p class="homeCallNotice">Your personal scheduled-through time is not published. Check the call details before planning pickup.</p>' : ''}
         ${times.showtime ? `<p>Show begins: <strong>${esc(times.showtime)}</strong>. Tentative show end: ${esc(times.tentativeEnd || 'To be confirmed')}; this is not a personal release time.</p>` : ''}
+        <details class="homeCallMore"><summary>Preparation and rehearsal focus</summary>
         ${call.work || call.focus ? `<p><strong>Focus:</strong> ${paragraphs(call.work || call.focus)}</p>` : ''}
-        ${call.prep ? `<p><strong>Prepare:</strong> ${paragraphs(call.prep)}</p>` : ''}
+        ${call.prep ? `<p><strong>Prepare:</strong> ${paragraphs(call.prep)}</p>` : ''}</details>
         ${call.notice ? `<p class="homeCallNotice"><strong>Important:</strong> ${paragraphs(call.notice)}</p>` : ''}
         <a class="homeDetailLink" href="${esc(url)}">View full call details →</a>
         <p class="homeCallReminder">Check again before you leave home.</p>`;
@@ -170,6 +197,13 @@ export async function initHomeDashboard(content, { root = document, fetcher = fe
     const roster = await response.json();
     if (!Array.isArray(roster.people) || !roster.people.length) throw new Error('Roster is empty');
     people = roster.people;
+    try {
+      const updateResponse = await fetcher('data/updates.json', { cache:'no-store' });
+      if (updateResponse.ok) {
+        const published = await updateResponse.json();
+        updates = Array.isArray(published) ? published : [];
+      }
+    } catch (_) { /* Personal calls remain usable without the optional updates feed. */ }
     select.innerHTML = '<option value="">Select your name…</option>' + people.map(person =>
       `<option value="${esc(person.id)}">${esc(person.name)}</option>`).join('');
     select.disabled = false;

@@ -409,6 +409,10 @@
       scenes.map(([sceneNo, title]) =>
         `<option value="${htmlEscape(sceneNo)}">Scene ${htmlEscape(sceneNo)} · ${htmlEscape(title)}</option>`
       ).join('');
+    const requestedScene = new URLSearchParams(window.location.search).get('scene');
+    if (requestedScene && sceneMap.has(requestedScene.padStart(2, '0'))) {
+      els.sceneSelect.value = requestedScene.padStart(2, '0');
+    }
   }
 
   function progressClass(status) {

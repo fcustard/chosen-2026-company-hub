@@ -1,4 +1,5 @@
 .productionIntro{padding-bottom:0;margin-bottom:26px}.productionIntro p{max-width:720px}
+.productionWeek{display:grid;gap:14px}.productionWeek .ey{margin-top:0}.productionArchive{background:var(--p);padding:18px;border:1px solid var(--line);border-radius:14px;margin:14px 0}.productionArchive>summary{min-height:44px;cursor:pointer;font-weight:800}.productionArchive .fittingGrid,.productionArchive .milestoneGrid{margin-top:18px}
 .productionJump{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}.productionJump a{font-weight:800;padding:10px 15px;border:1px solid var(--line);border-radius:10px;background:var(--p);text-decoration:none}
 .productionSection{scroll-margin-top:110px;margin:36px 0 50px}.productionSection h2{font:700 clamp(1.8rem,4vw,2.5rem) Georgia,serif;margin:0 0 12px}.productionSection h3{margin:0 0 8px}
 .productionPanel{background:var(--p);border:1px solid var(--line);border-radius:18px;padding:24px}.productionPanel p:last-child{margin-bottom:0}.productionPanel .ey{margin-top:0}
