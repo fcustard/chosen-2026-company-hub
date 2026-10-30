@@ -73,7 +73,7 @@
     {
       "id": "amadeus-hills",
       "name": "Amadeus Hills",
-      "roles": "ROMAN ANNOUNCER / DANCER / ENSEMBLE",
+      "roles": "DANCER / ENSEMBLE",
       "scenes": [
         1,
         10,
@@ -83,8 +83,7 @@
       "danceEnsemble": true,
       "groups": [
         "Dancers",
-        "Ensemble",
-        "Principals/Featured"
+        "Ensemble"
       ],
       "danceScenes": [
         1
@@ -582,7 +581,7 @@
     {
       "id": "jayden-harris",
       "name": "Jayden Harris",
-      "roles": "MERCHANT 2 / SHEPHERD 2 / VILLAGER MAN 2 / ENSEMBLE",
+      "roles": "MERCHANT 2 / SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -699,7 +698,7 @@
     {
       "id": "lauryn-butler",
       "name": "Lauryn Butler",
-      "roles": "ENSEMBLE",
+      "roles": "VILLAGER WOMAN 2 / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -710,7 +709,8 @@
       "understudy": null,
       "danceEnsemble": false,
       "groups": [
-        "Ensemble"
+        "Ensemble",
+        "Principals/Featured"
       ]
     },
     {
