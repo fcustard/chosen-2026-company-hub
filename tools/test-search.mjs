@@ -63,4 +63,11 @@ assert.equal(searchIndex(entries, 'which scene am I in?')[0].url, 'scripts.html'
 assert.equal(searchIndex(entries, 'what should I wear to rehearsal?')[0].url, 'production.html#wardrobe');
 assert.equal(searchIndex(entries, "I can't come to rehearsal")[0].url, 'https://example.org/absence');
 assert.equal(searchIndex(entries, 'unknown gibberish').length, 0);
+assert.equal(searchIndex(entries, 'new to CHOSEN')[0].url, 'getting-started.html');
+assert.equal(searchIndex(entries, 'Where do I start?')[0].url, 'getting-started.html');
+assert.equal(searchIndex(entries, 'How do I use the Hub?')[0].url, 'getting-started.html');
+assert.equal(searchIndex(entries, 'first rehearsal')[0].url, 'getting-started.html');
+assert.equal(searchIndex(entries, 'parent pickup')[0].url, 'getting-started.html#parents');
+assert.equal(searchIndex(entries, 'guardian')[0].url, 'getting-started.html#parents');
+assert.equal(searchIndex(entries, 'crew guide')[0].url, 'getting-started.html#crew');
 console.log('Search index checks passed.');

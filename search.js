@@ -63,6 +63,8 @@ function intentUrls(query) {
   if (/\b(my|which).*\b(scene|script)\b/.test(q)) urls.push('scripts.html');
   if (/\b(my|practice).*\blines?\b/.test(q)) urls.push('lines.html');
   if (/\b(where.*rehearsal|rehearsal location|what time.*rehearsal)\b/.test(q)) urls.push('schedule.html');
+  if (/\b(parent|guardian|child check in|child pick up|child pickup)\b/.test(q)) urls.push('getting-started.html#parents');
+  if (/\b(new to chosen|first rehearsal|getting started|where.*start|how.*begin|how.*use.*hub)\b/.test(q)) urls.push('getting-started.html');
   return urls;
 }
 
@@ -76,7 +78,9 @@ export function buildSearchIndex({ content = {}, scripts = [], music = [], resou
     { category: 'Help', title: 'Full rehearsal schedule', description: 'Browse published dates, times, and locations.', url: 'schedule.html', terms: 'rehearsal when where location date time' },
     { category: 'Help', title: 'Report absence or lateness', description: 'Tell the company when you will be absent or late.', url: content.links?.absence || 'index.html#help', terms: 'absence absent late missing rehearsal sick cannot attend report' },
     { category: 'Help', title: 'Ask for help', description: 'Contact the company with a question.', url: content.links?.help || 'getting-started.html', terms: 'help question contact support' },
-    { category: 'Help', title: 'Getting started', description: 'Quick answers and practice steps for the company.', url: 'getting-started.html', terms: 'faq new beginner how to start practice' },
+    { category: 'Help', title: 'New to CHOSEN? Start Here', description: 'Choose your name, check your call, and prepare with a short walkthrough.', url: 'getting-started.html', terms: 'faq new beginner getting started orientation welcome first rehearsal how to use hub' },
+    { category: 'Help', title: 'Parent and guardian quick start', description: 'Check a child’s call, preparation, check-in, and pickup procedures.', url: 'getting-started.html#parents', terms: 'parent guardian family youth child children check in pickup pick up' },
+    { category: 'Help', title: 'Production team quick start', description: 'Find your department, review planning work, and confirm instructions with your lead.', url: 'getting-started.html#crew', terms: 'crew volunteer backstage tech department guide orientation beginner' },
     { category: 'Production', title: 'Wardrobe & fittings', description: 'Costumes, fittings, and wardrobe calendar.', url: 'production.html#wardrobe', terms: 'costume clothing wardrobe fitting rotation' },
     { category: 'Production', title: 'Wardrobe calendar', description: 'See the current wardrobe schedule.', url: 'production.html#wardrobe-calendar', terms: 'fitting date costume schedule' },
     { category: 'Production', title: 'Production departments', description: 'Behind-the-scenes assignments and teams.', url: 'production.html#departments', terms: 'crew tech production team department' },

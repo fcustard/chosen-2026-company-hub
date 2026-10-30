@@ -15,6 +15,7 @@ name: CHOSEN Hub Automation
       - "scene-actions.js"
       - "preparation-checklist.js"
       - "line-practice.*"
+      - "start-here.*"
       - "site-flow.css"
       - "*.html"
       - "styles.css"
