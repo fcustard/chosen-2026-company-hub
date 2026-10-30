@@ -416,7 +416,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (document.body.dataset.page === 'home') {
     document.addEventListener('chosen-person-change', () => void renderHomeQuest(d));
     try {
-      const { initHomeDashboard } = await import('./home-dashboard.js?v=20261030-prep1');
+      const { initHomeDashboard } = await import('./home-dashboard.js?v=20261030-chosen1');
       await initHomeDashboard(d);
     } catch (error) {
       console.error('Unable to load the personal rehearsal plan.', error);

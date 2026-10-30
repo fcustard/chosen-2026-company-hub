@@ -99,6 +99,7 @@ export async function initHomeDashboard(content, { root = document, fetcher = fe
     checklist = null;
     if (!selected || !call) {
       preparation.innerHTML = `<p class="ey">YOUR NEXT STEPS</p><h2 id="homePreparationTitle">A clear plan for rehearsal.</h2>
+        <p>Your preparation helps us tell this story clearly.</p>
         <p>${selected ? 'No upcoming personal call is confirmed here yet. Check the full schedule or ask production before planning your arrival.' : 'Choose your name above to see your call and the published materials for your scenes.'}</p>
         <div class="homePrepLinks"><a href="scripts.html">Browse current scenes</a><a href="music.html">Browse rehearsal tracks</a><a href="production.html">Production team plan</a></div>`;
       return;
@@ -114,6 +115,7 @@ export async function initHomeDashboard(content, { root = document, fetcher = fe
     const scriptLinks = prep.scripts.map(item => `<li><a href="${esc(item.readUrl)}">Scene ${Number(item.scene)}: ${esc(item.title || item.name)}</a></li>`).join('');
     const musicLinks = prep.music.map(item => `<li><a href="music.html#track-${esc(String(item.title || item.name || '').replace(/[^a-zA-Z0-9_-]/g, '-'))}">${esc(item.title || item.name)}</a></li>`).join('');
     preparation.innerHTML = `<p class="ey">PREPARE FOR YOUR NEXT CALL</p><h2 id="homePreparationTitle">Your rehearsal plan.</h2>
+      <p>Your preparation helps us tell this story clearly.</p>
       <p>${prep.callSpecific ? 'Your assigned scenes within this call' : 'Your assigned scenes'}${prep.scenes.length ? ': ' + prep.scenes.join(', ') + '.' : ': follow the instructions below.'}
       ${!prep.callSpecific && prep.scenes.length ? 'This call does not name specific scenes; use its preparation notes to guide your practice.' : ''}</p>
       ${checklist ? `<div class="homePrepProgress"><p role="status" aria-live="polite" id="homePrepStatus">${checked.size} of ${checklist.tasks.length} preparation steps checked</p><progress id="homePrepMeter" value="${checked.size}" max="${checklist.tasks.length}" aria-label="Preparation checklist"></progress><p id="homePrepSaveNote" class="homePrepHint">${checklistStore.persistent ? 'Saved on this device for this person and rehearsal.' : 'Progress is available for this page visit; browser storage is unavailable.'} These are your reminders; checking a box does not notify production or confirm attendance. Review again if instructions or materials change.</p></div>` : ''}
@@ -153,7 +155,7 @@ export async function initHomeDashboard(content, { root = document, fetcher = fe
       welcome.textContent = selected ? `Welcome back, ${selected.name.split(/\s+/)[0]}.` : '';
     }
     const heading = root.querySelector('#homeTitle');
-    if (heading) heading.innerHTML = selected ? 'Your rehearsal plan.' : 'Know your call.<br>Come prepared.';
+    if (heading) heading.innerHTML = selected ? 'Your rehearsal plan.' : 'Chosen by God.<br>Ready to serve.';
     const updatePanel = root.querySelector('#homeUpdates');
     if (updatePanel) {
       const visible = relevantUpdates(updates, selected, clock());

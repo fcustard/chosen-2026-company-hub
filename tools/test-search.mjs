@@ -73,4 +73,7 @@ assert.equal(searchIndex(entries, 'crew guide')[0].url, 'getting-started.html#cr
 assert.equal(searchIndex(entries, 'Why are we producing CHOSEN?')[0].url, 'company-guide.html#purpose');
 assert.equal(searchIndex(entries, 'Bible references')[0].url, 'company-guide.html#purpose');
 assert.equal(searchIndex(entries, 'production goal')[0].url, 'company-guide.html#purpose');
+assert.equal(searchIndex(entries, 'What does chosen by God mean?')[0].url, 'company-guide.html#purpose');
+assert.equal(searchIndex(entries, 'How God chooses ordinary people')[0].url, 'company-guide.html#purpose');
+assert.equal(searchIndex(entries, 'called to trust')[0].url, 'company-guide.html#purpose');
 console.log('Search index checks passed.');
