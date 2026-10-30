@@ -24,6 +24,7 @@
 .welcomePage details[open]>summary::after{content:'−'}
 .welcomePage summary small{display:block;font-weight:400;color:#455268;font-size:.94rem;line-height:1.45;margin-top:4px}
 .welcomePage summary:focus-visible,.welcomePage a:focus-visible{outline:3px solid #927025;outline-offset:3px}
+.welcomePage summary:focus-visible{outline-offset:-4px}
 .welcomePage details[open]>summary{background:#f5efdf;border-bottom:1px solid #ddd7ca}
 .welcomePathBody{padding:6px 22px 18px}
 .welcomePathBody .steps{margin-top:14px}
