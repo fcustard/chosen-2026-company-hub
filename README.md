@@ -1,5 +1,7 @@
 # CHOSEN 2026 Company Hub V1
 
+Home now lets a company member choose their name, see their next confirmed call, and open approved material for their assigned scenes. Home and My Calls share `personal-calls.js`; exact call records marked REVIEW never fall back to broad role text. Missing personal times remain clearly labeled as an overall rehearsal window. The remembered selection uses the existing device-local person key, including legacy ID migration and family-member switching. Run `node --test tools/test-home-dashboard.mjs` to check call matching, selection, missing-time warnings, show-day calls, and publication filtering. Homepage presentation lives in `home-dashboard.css` and `home-dashboard.js`; rehearsal and roster data remain owned by the existing feeds.
+
 Master Script sync retries temporary timeouts, network failures, HTTP 408/429, and server errors up to three times, with a 60-second deadline per request (including the response body) and 2/4-second backoff. Direct `publish-script` requests still fail if a fresh valid feed cannot be fetched; they never report the previous scripts as a successful update. Routine runs may retain the existing complete set of 12 scenes after exhausted transport retries. Authorization errors and malformed feed content stop publishing immediately. Run `node --test tools/test-script-feed.mjs` to verify retries and preservation safeguards.
 
 Production Team lives at `production.html`. The automation refreshes `data/wardrobe.json` from the **Wardrobe Schedule** tab in the Master Calendar, validates approved fittings against published personal calls, and rebuilds the page from that plan and the current production roster. Failed exports keep the last validated plan, with its source-check timestamp visible. Update classroom staffing and fitting status in the wardrobe tab; do not edit generated `production.html` by hand. Run `node tools/sync-wardrobe.mjs`, `npm run validate`, and `npm run build` when publishing changes locally. Primary navigation changes also belong in `templates/resources-page.html` so regenerated Resources keeps the link.
@@ -32,3 +34,4 @@ V1 uses the established CHOSEN navy/gold/ivory and star/light language without a
 
 Security:
 GitHub Pages is public. Do not place private contact details, minors' data, passwords, or sensitive notes in the repository.
+

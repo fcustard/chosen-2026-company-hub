@@ -1,0 +1,58 @@
+/* Homepage only: one personal call action, then a short preparation path. */
+.homeHero .hero-grid{align-items:start;gap:36px}
+.homeIntro>p{max-width:42ch}
+.homeHero .homeMission{font-size:.95rem;color:#e6d6b3}
+.homePersonPicker{margin-top:24px}
+.homePersonPicker label{display:block;font-weight:800;margin-bottom:8px}
+.homePersonPicker select{display:block;width:100%;max-width:470px;min-height:50px;padding:12px;border:1px solid #e4d8bd;border-radius:10px;background:#fffdf8;color:#111a28;font:inherit}
+.homePersonPicker select:disabled{opacity:1;color:#526075}
+.homeHero #homePersonHelp{font-size:.87rem;line-height:1.5;margin:10px 0 14px;color:#e0e5ed;max-width:48ch}
+.homePickerActions{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.homePickerActions .btn{min-width:210px}
+.homePickerActions button{min-height:44px;border:0;background:transparent;color:#f0d79a;text-decoration:underline;text-underline-offset:4px;font:700 .95rem Arial,sans-serif;cursor:pointer;padding:8px 0}
+.homePickerActions button[hidden]{display:none}
+.homeHero .homeStartLink{font-size:.95rem;margin:20px 0 12px}
+.homeStartLink a,.homeHero .hubTrust a{text-underline-offset:4px}
+.homeHero .hubTrust{font-size:.8rem;color:#c4ccd8}
+.homePersonalCall{scroll-margin-top:110px;min-width:0}
+.homeHero .homePersonalCall p{color:#39475a;font-size:1rem;overflow-wrap:anywhere}
+.homeHero .homePersonalCall .ey{color:#76510e;font-size:.76rem;line-height:1.65}
+.homePersonalCall h2{font-size:2rem;line-height:1.15;overflow-wrap:anywhere}
+.homePersonalCall .homeCallName{font-weight:700}
+.homeCallFacts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0}
+.homeCallFacts>div{background:#f3efe6;border-radius:10px;padding:12px;min-width:0}
+.homeCallFacts dt{font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:#526075}
+.homeCallFacts dd{margin:5px 0 0;font-size:1.25rem;font-weight:800;overflow-wrap:anywhere}
+.homeCallFacts .homeWhere{grid-column:1/-1}
+.homeCallFacts .homeWhere dd{font-size:1rem;font-weight:500}
+.homeDetailLink{display:inline-flex;align-items:center;min-height:44px;font-weight:800;text-underline-offset:4px}
+.homeHero .homePersonalCall .homeCallNotice{background:#fff4d5;border-left:3px solid #b58220;padding:12px;border-radius:6px;color:#493712}
+.homeHero .homePersonalCall .homeCallReminder{font-size:.88rem;color:#526075;margin-bottom:0}
+.homeCompanyPreview{border-top:1px solid #ddd7ca;margin-top:22px;padding-top:18px}
+.homeCompanyPreview p{margin:6px 0}
+.homePreparation{background:#fffdf8;border:1px solid #ddd7ca;border-radius:18px;padding:28px;margin:30px 0}
+.homePreparation>h2{font:700 clamp(1.8rem,4vw,2.4rem)/1.15 Georgia,serif;margin:8px 0 12px}
+.homePreparation>.ey{margin:0}
+.homePreparation>p:not(.ey){color:#526075}
+.homePrepSteps{list-style:none;counter-reset:prep;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:28px 0 0;padding:0}
+.homePrepSteps>li{counter-increment:prep;min-width:0;border-top:2px solid #e6d8b7;padding-top:18px}
+.homePrepSteps>li:before{content:'0' counter(prep);display:block;color:#805e17;font-weight:900;font-size:.9rem;margin-bottom:8px}
+.homePrepSteps h3{font-size:1.08rem;margin:0 0 10px}
+.homePrepSteps p{font-size:.95rem;line-height:1.6;overflow-wrap:anywhere}
+.homeMaterialList{list-style:none;padding:0;margin:0}
+.homeMaterialList li{margin:0 0 7px}
+.homeMaterialList a,.homePrepLinks a{display:inline-flex;align-items:center;min-height:44px;text-underline-offset:3px;overflow-wrap:anywhere}
+.homeMaterialList a{font-weight:700;font-size:.95rem}
+.homeMaterialLabel{font-weight:800;margin-bottom:8px}
+.homePrepSteps .homePrepHint{font-size:.85rem;color:#526075}
+.homePrepLinks{display:flex;gap:8px 20px;flex-wrap:wrap}
+.homePrepSteps .homePrepLinks{display:block}
+.homePrepSteps .homePrepLinks a{display:flex}
+.homePractice{margin:24px 0 36px}
+.homePractice .homeQuest{display:flex;gap:24px;justify-content:space-between;align-items:center;margin:0;border:1px solid #ddd7ca;background:#eee7d8}
+.homePractice .homeQuest h2{margin:0;font:700 1.5rem/1.2 Georgia,serif}
+.homePractice .homeQuest .btn{width:auto;flex:0 0 auto;margin:0;background:#fffdf8;color:#111a28;min-width:180px}
+.homeSearchSection{margin:30px 0}
+@media(max-width:850px){.homePrepSteps{grid-template-columns:1fr}.homePreparation{padding:22px}.homeHero .hero-grid{gap:24px}}
+@media(max-width:650px){.homeHero{padding-top:28px}.homeHero h1{font-size:2.6rem}.homePersonPicker select{max-width:none}.homePickerActions .btn{width:100%}.homePersonalCall{padding:20px}.homePersonalCall h2{font-size:1.7rem}.homeCallFacts{grid-template-columns:1fr}.homePractice .homeQuest{display:block}.homePractice .homeQuest .btn{width:100%;margin-top:18px}.homePreparation{padding:20px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

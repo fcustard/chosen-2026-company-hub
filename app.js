@@ -82,7 +82,9 @@ function homeQuestWeekKey(value) {
   return monday.toISOString().slice(0, 10);
 }
 
+let homeQuestRenderVersion = 0;
 async function renderHomeQuest(content) {
+  const version = ++homeQuestRenderVersion;
   const lead = document.querySelector('#homeQuestLead');
   const meta = document.querySelector('#homeQuestMeta');
   const link = document.querySelector('#homeQuestLink');
@@ -101,6 +103,7 @@ async function renderHomeQuest(content) {
   } catch (_) { return; }
 
   const person = selectedId ? await selectedCompanyPerson() : null;
+  if (version !== homeQuestRenderVersion) return;
   if (selectedId && !person) return; // Keep the guest text if the person cannot be checked.
 
   const data = saved[person?.id || 'guest'];
@@ -357,7 +360,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const d = await load();
 
-  if (!d) return;
+  if (!d) {
+    const helper = document.querySelector('#homePersonHelp');
+    if (helper) helper.textContent = 'The rehearsal plan could not load. Refresh this page or open My Calls.';
+    const title = document.querySelector('#homeCallTitle');
+    if (title) title.textContent = 'Call information is temporarily unavailable';
+    const select = document.querySelector('#homePerson');
+    if (select) select.innerHTML = '<option value="">Company names are temporarily unavailable</option>';
+    return;
+  }
 
   document.querySelectorAll('[data-link]').forEach(a =>
     link(a, d.links?.[a.dataset.link])
@@ -372,129 +383,18 @@ document.addEventListener('DOMContentLoaded', async () => {
    */
 
   if (document.body.dataset.page === 'home') {
-    const rehearsals = d.schedule?.rehearsals || [];
-    const x = getNextPublishedRehearsal(rehearsals);
-
-    const nrDay = document.querySelector('#nrDay');
-    const nrDate = document.querySelector('#nrDate');
-    const nrTime = document.querySelector('#nrTime');
-    const nrLocation = document.querySelector('#nrLocation');
-    const nrFocus = document.querySelector('#nrFocus');
-    const nrNote = document.querySelector('#nrNote');
-    const nrLink = document.querySelector('#nrLink');
-    const nrPersonalLink = document.querySelector('#nrPersonalLink');
-    void renderHomeQuest(d);
-    window.addEventListener('pageshow', event => {
-      if (event.persisted) void renderHomeQuest(d);
-    });
-
+    document.addEventListener('chosen-person-change', () => void renderHomeQuest(d));
     try {
-      if (localStorage.getItem('chosen2026-person') && nrPersonalLink) {
-        nrPersonalLink.textContent = 'Open My Calls';
-        nrPersonalLink.href = 'schedule.html';
-      }
-    } catch (_) {}
-
-    if (x) {
-      const start = new Date(x.start);
-      const end = new Date(x.end);
-
-      const dayLabel =
-        x.day ||
-        new Intl.DateTimeFormat('en-US', {
-          weekday: 'long',
-          timeZone: 'America/New_York'
-        }).format(start);
-
-      const dateLabel =
-        displayDateLabel(x) ||
-        new Intl.DateTimeFormat('en-US', {
-          month: 'long',
-          day: 'numeric',
-          year: 'numeric',
-          timeZone: 'America/New_York'
-        }).format(start);
-
-      const startTime =
-        new Intl.DateTimeFormat('en-US', {
-          hour: 'numeric',
-          minute: '2-digit',
-          timeZone: 'America/New_York'
-        }).format(start);
-
-      const endTime =
-        new Intl.DateTimeFormat('en-US', {
-          hour: 'numeric',
-          minute: '2-digit',
-          timeZone: 'America/New_York'
-        }).format(end);
-
-      const timeLabel =
-        x.time ||
-        `${startTime} – ${endTime}`;
-
-      if (nrDay) {
-        nrDay.textContent = dayLabel;
-      }
-
-      if (nrDate) {
-        nrDate.textContent = dateLabel;
-      }
-
-      if (nrTime) {
-        nrTime.innerHTML = `<strong>Overall rehearsal window</strong><br>${esc(timeLabel)}`;
-      }
-
-      if (nrLocation) {
-        nrLocation.innerHTML = thisWeekLocationHtml(x);
-      }
-
-      if (nrFocus) {
-        nrFocus.textContent =
-          x.focus ||
-          x.work ||
-          x.title ||
-          'Upcoming rehearsal';
-      }
-
-      if (nrLink) {
-        nrLink.textContent = 'View full schedule';
-        nrLink.href = 'schedule.html';
-        nrLink.removeAttribute('target');
-        nrLink.removeAttribute('rel');
-      }
-    } else {
-      if (nrNote) {
-        nrNote.hidden = true;
-      }
-
-      if (nrDay) {
-        nrDay.textContent = '';
-      }
-
-      if (nrDate) {
-        nrDate.textContent = 'No published rehearsal';
-      }
-
-      if (nrTime) {
-        nrTime.textContent = '';
-      }
-
-      if (nrLocation) {
-        nrLocation.textContent = '';
-      }
-
-      if (nrFocus) {
-        nrFocus.textContent = 'Check the schedule.';
-      }
-
-      if (nrLink) {
-        nrLink.textContent = 'Open rehearsal plan';
-        nrLink.href = 'schedule.html';
-        nrLink.removeAttribute('target');
-        nrLink.removeAttribute('rel');
-      }
+      const { initHomeDashboard } = await import('./home-dashboard.js?v=20261030-home1');
+      await initHomeDashboard(d);
+    } catch (error) {
+      console.error('Unable to load the personal rehearsal plan.', error);
+      const helper = document.querySelector('#homePersonHelp');
+      if (helper) helper.textContent = 'Your plan could not load. Refresh this page or choose your name in Company.';
+      const title = document.querySelector('#homeCallTitle');
+      if (title) title.textContent = 'Open My Calls for your current plan';
     }
+    void renderHomeQuest(d);
   }
 
   /*
@@ -867,34 +767,7 @@ document.addEventListener('DOMContentLoaded', async () => {
      * These helpers keep My Calls exact without relying on broad
      * group fallbacks.
      */
-    function canonicalPersonId(value = '') {
-      return String(value || '')
-        .trim()
-        .toLowerCase()
-        .replace(/^p[-_]/, '')
-        .replace(/[_\s]+/g, '-');
-    }
-
-    function samePersonId(a = '', b = '') {
-      const aa = canonicalPersonId(a);
-      const bb = canonicalPersonId(b);
-
-      return !!aa && !!bb && aa === bb;
-    }
-
-    function normalizedName(value = '') {
-      return norm(value)
-        .replace(/[^a-z0-9]+/g, ' ')
-        .trim()
-        .replace(/\s+/g, ' ');
-    }
-
-    function samePersonName(a = '', b = '') {
-      const aa = normalizedName(a);
-      const bb = normalizedName(b);
-
-      return !!aa && !!bb && aa === bb;
-    }
+    const { samePersonId, personMatchesCall } = await import('./personal-calls.js?v=20261030-home1');
 
     try {
       const personId =
@@ -1185,169 +1058,7 @@ document.addEventListener('DOMContentLoaded', async () => {
      * Do not infer broad role groups when
      * Exact Calls data exists.
      */
-    function personMatches(x) {
-      if (!person) return true;
-
-      const status =
-        String(
-          x.exactCallStatus || ''
-        )
-          .trim()
-          .toUpperCase();
-
-      const hasExactCallData =
-        Number(x.callDataVersion) === 3 ||
-        Object.prototype.hasOwnProperty.call(
-          x,
-          'exactCallStatus'
-        ) ||
-        Array.isArray(x.calledPeopleIds) ||
-        Array.isArray(x.calledGroups);
-
-      if (hasExactCallData) {
-        if (status !== 'READY') {
-          return false;
-        }
-
-        const personId =
-          String(person.id || '').trim();
-
-        const personName =
-          String(
-            person.name ||
-              person.displayName ||
-              ''
-          ).trim();
-
-        const calledPeopleIds =
-          Array.isArray(x.calledPeopleIds)
-            ? x.calledPeopleIds
-                .map(v =>
-                  String(v || '').trim()
-                )
-                .filter(Boolean)
-            : [];
-
-        const calledPeople =
-          Array.isArray(x.calledPeople)
-            ? x.calledPeople
-                .map(item => {
-                  if (
-                    item &&
-                    typeof item === 'object'
-                  ) {
-                    return String(
-                      item.displayName ||
-                        item.name ||
-                        item.id ||
-                        ''
-                    ).trim();
-                  }
-
-                  return String(item || '').trim();
-                })
-                .filter(Boolean)
-            : [];
-
-        const calledGroups =
-          normalizeGroupList(x.calledGroups);
-
-        const calledGroupKeys =
-          new Set(
-            calledGroups.map(group =>
-              norm(group)
-            )
-          );
-
-        if (
-          personId &&
-          calledPeopleIds.some(id =>
-            samePersonId(id, personId)
-          )
-        ) {
-          return true;
-        }
-
-        if (
-          personName &&
-          calledPeople.some(name =>
-            samePersonName(name, personName)
-          )
-        ) {
-          return true;
-        }
-
-        if (
-          calledGroupKeys.has(
-            norm('Full Company')
-          )
-        ) {
-          return true;
-        }
-
-        const personGroups =
-          Array.isArray(person.groups)
-            ? person.groups
-                .map(v =>
-                  String(v || '').trim()
-                )
-                .filter(Boolean)
-            : [];
-
-        return personGroups.some(
-          group =>
-            calledGroupKeys.has(norm(group))
-        );
-      }
-
-      /*
-       * Legacy fallback only.
-       */
-      const calledText =
-        String(x.called || '')
-          .toLowerCase();
-
-      const fullName =
-        String(person.name || '')
-          .toLowerCase();
-
-      if (
-        fullName &&
-        calledText.includes(fullName)
-      ) {
-        return true;
-      }
-
-      const legacyGroups =
-        normalizeGroupList(x.callGroups);
-
-      if (
-        legacyGroups.includes(
-          'Full Company'
-        )
-      ) {
-        return true;
-      }
-
-      const safeLegacyGroups =
-        new Set([
-          'Dancers',
-          'Children/Youth',
-          'Choir/Vocalists',
-          'Crew/Tech'
-        ]);
-
-      const personGroups =
-        Array.isArray(person.groups)
-          ? person.groups
-          : [];
-
-      return personGroups.some(
-        group =>
-          safeLegacyGroups.has(group) &&
-          legacyGroups.includes(group)
-      );
-    }
+    const personMatches = x => personMatchesCall(person, x);
 
     function groupMatches(x) {
       if (
@@ -1832,3 +1543,4 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 });
+

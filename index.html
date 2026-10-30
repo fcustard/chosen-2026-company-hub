@@ -6,7 +6,8 @@
   <meta name="theme-color" content="#0d1726">
   <title>Company Hub | CHOSEN 2026</title>
   <link rel="stylesheet" href="styles.css?v=20261014-homequest1">
-  <script defer src="app.js?v=20261014-homequest1"></script>
+  <script defer src="app.js?v=20261030-home1"></script>
+  <link rel="stylesheet" href="home-dashboard.css?v=20261030-home1">
   <link rel="stylesheet" href="search.css?v=20261005-hero">
 </head>
 
@@ -26,46 +27,43 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero homeHero" aria-labelledby="homeTitle">
       <div class="hero-grid">
-        <div>
+        <div class="homeIntro">
           <p class="k">CHOSEN · THE STORY BEFORE THE MANGER</p>
-          <h1>Know your call. Come prepared.</h1>
-          <p>Choose your name to see when you are needed. Then read your scene, practice lines, and play rehearsal tracks here.</p>
-          <p class="hubTrust">Official company information</p>
+          <h1 id="homeTitle">Know your call.<br>Come prepared.</h1>
+          <p>Find when you’re needed, what to review, and what to bring—all in one place.</p>
+          <p class="homeMission">Your preparation helps our whole company tell the story with confidence.</p>
+          <div class="homePersonPicker">
+            <label for="homePerson">Choose your name</label>
+            <select id="homePerson" aria-describedby="homePersonHelp" disabled>
+              <option value="">Loading company names…</option>
+            </select>
+            <p id="homePersonHelp">This device remembers your choice. Change person anytime.</p>
+            <div class="homePickerActions">
+              <a id="homeCallButton" class="btn gold" href="company.html#my-role">See my next call</a>
+              <button id="homeChangePerson" type="button" hidden>Change person</button>
+            </div>
+          </div>
+          <p class="homeStartLink"><a href="getting-started.html">New to CHOSEN? Start here →</a></p>
+          <p class="hubTrust">Official company information · <a href="company.html#my-role">Open My Calls in Company</a></p>
           <div id="announcement" class="announce" hidden></div>
         </div>
-
-        <div class="next">
-          <p class="ey">NEXT REHEARSAL <span id="nrDay"></span></p>
-          <h2 id="nrDate">Loading…</h2>
-
-          <div class="nextline">
-            <span id="nrTime"></span>
-            <span id="nrLocation"></span>
-          </div>
-
-          <p id="nrFocus"></p>
-          <p id="nrNote" class="nextNote">Your report and scheduled-through times may differ. Check My Calls before you leave.</p>
-          <div class="actions nextActions">
-            <a id="nrPersonalLink" class="btn primary" href="company.html#my-role">Find my call</a>
-            <a id="nrLink" class="nextTextLink" href="schedule.html">Full schedule</a>
-            <a class="nextTextLink" href="this-week.html">This week's plan</a>
-          </div>
-          <div class="homeQuest" aria-labelledby="homeQuestTitle">
-            <div>
-              <p class="ey">GET READY FOR SHOW DAY</p>
-              <h3 id="homeQuestTitle">One small win today</h3>
-              <p id="homeQuestLead" aria-live="polite">Try one short game for your next rehearsal. All jobs count.</p>
-              <p id="homeQuestMeta" class="homeQuestMeta" aria-live="polite">Pick a scene when you play. Your progress stays on this device.</p>
-            </div>
-            <a id="homeQuestLink" class="btn gold" href="practice.html">Play Show Quest <span aria-hidden="true">✦</span></a>
-          </div>
+        <div id="my-next-call" class="next homePersonalCall" tabindex="-1" aria-labelledby="homeCallTitle" aria-live="polite" aria-atomic="true">
+          <p class="ey">YOUR REHEARSAL PLAN</p>
+          <h2 id="homeCallTitle">Start with your name.</h2>
+          <p>Choose your name to see your personal call and preparation notes.</p>
+          <a class="homeDetailLink" href="schedule.html">View the full company schedule →</a>
         </div>
       </div>
     </section>
 
-
+    <section id="homePreparation" class="homePreparation" aria-labelledby="homePreparationTitle">
+      <p class="ey">YOUR NEXT STEPS</p>
+      <h2 id="homePreparationTitle">A clear plan for rehearsal.</h2>
+      <p>Choose your name above to see your call and the published materials for your scenes.</p>
+      <div class="homePrepLinks"><a href="scripts.html">Browse current scenes</a><a href="music.html">Browse rehearsal tracks</a><a href="production.html">Production team plan</a></div>
+    </section>
 
     <section class="homeSearch homeSearchSection" aria-label="Search the hub">
       <form class="searchForm" action="search.html" method="get" role="search">
@@ -77,36 +75,15 @@
       </form>
     </section>
 
-    <section>
-      <div class="head">
-        <p class="ey">GET REHEARSAL READY</p>
-        <h2>Keep getting better.</h2>
-        <p>One small step each day adds up.</p>
-      </div>
-      <div class="dash homeTasks homePracticeTasks">
-        <a class="card questShortcut" href="practice.html">
-          <i>01 · QUICK GAME</i>
-          <b>Play Show Quest</b>
-          <span>Try one small skill for your next rehearsal</span>
-        </a>
-
-        <a class="card" href="scripts.html">
-          <i>02</i>
-          <b>Read my scene</b>
-          <span>Official company scenes and printable PDFs</span>
-        </a>
-
-        <a class="card" href="lines.html">
-          <i>03</i>
-          <b>Practice my lines</b>
-          <span>Choose a role, read the cue, and check your line</span>
-        </a>
-
-        <a class="card" href="music.html">
-          <i>04</i>
-          <b>Play rehearsal tracks</b>
-          <span>Listen to the current published tracks</span>
-        </a>
+    <section class="homePractice" aria-labelledby="homeQuestTitle">
+      <div class="homeQuest">
+        <div>
+          <p class="ey">BUILD A PRACTICE HABIT</p>
+          <h2 id="homeQuestTitle">One small win today.</h2>
+          <p id="homeQuestLead" aria-live="polite">Try one short game for your next rehearsal. All jobs count.</p>
+          <p id="homeQuestMeta" class="homeQuestMeta" aria-live="polite">Pick a scene when you play. Your progress stays on this device.</p>
+        </div>
+        <a id="homeQuestLink" class="btn" href="practice.html">Play Show Quest <span aria-hidden="true">✦</span></a>
       </div>
     </section>
 
@@ -152,3 +129,4 @@
   </footer>
 </body>
 </html>
+

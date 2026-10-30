@@ -10,6 +10,8 @@ name: CHOSEN Hub Automation
       - "tools/**"
       - "resources/**"
       - "app.js"
+      - "home-dashboard.*"
+      - "personal-calls.js"
       - "*.html"
       - "styles.css"
       - "production.css"
@@ -261,3 +263,4 @@ jobs:
 
           git commit -m "Automated Hub content update"
           git push origin HEAD:main
+
