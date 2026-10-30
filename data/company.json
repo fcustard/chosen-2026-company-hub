@@ -2,7 +2,7 @@
   "ok": true,
   "schemaVersion": 1,
   "source": "CHOSEN 2026 Admin Master Sheets",
-  "generatedAt": "2026-10-30T22:22:49.605Z",
+  "generatedAt": "2026-10-30T23:31:50.040Z",
   "people": [
     {
       "id": "P-abi",
@@ -209,17 +209,16 @@
       "id": "P-amadeus-hills",
       "name": "Amadeus Hills",
       "companyType": "Performer",
-      "primaryAssignment": "ROMAN ANNOUNCER/ DANCER/ ENSEMBLE",
+      "primaryAssignment": "DANCER / ENSEMBLE",
       "departments": [
         "Cast",
         "Dance"
       ],
       "groups": [
         "Dancers",
-        "Ensemble",
-        "Principals/Featured"
+        "Ensemble"
       ],
-      "roles": "ROMAN ANNOUNCER/ DANCER/ ENSEMBLE",
+      "roles": "DANCER / ENSEMBLE",
       "scenes": [
         1,
         10,
@@ -233,11 +232,10 @@
           "personId": "P-amadeus-hills",
           "type": "Cast Role",
           "department": "Cast",
-          "assignment": "ROMAN ANNOUNCER/ DANCER/ ENSEMBLE",
+          "assignment": "DANCER / ENSEMBLE",
           "scope": "1, 10, 12",
           "callGroups": [
-            "Ensemble",
-            "Principals/Featured"
+            "Ensemble"
           ]
         },
         {
@@ -1426,7 +1424,7 @@
       "id": "P-jayden-harris",
       "name": "Jayden Harris",
       "companyType": "Performer",
-      "primaryAssignment": "MERCHANT 2 / SHEPHERD 2 / VILLAGER MAN 2 / ENSEMBLE / Understudy for Ezra (Joseph's Friend)",
+      "primaryAssignment": "MERCHANT 2 / SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE / Understudy for Ezra (Joseph's Friend)",
       "departments": [
         "Cast"
       ],
@@ -1434,7 +1432,7 @@
         "Ensemble",
         "Principals/Featured"
       ],
-      "roles": "MERCHANT 2 / SHEPHERD 2 / VILLAGER MAN 2 / ENSEMBLE / Understudy for Ezra (Joseph's Friend)",
+      "roles": "MERCHANT 2 / SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE / Understudy for Ezra (Joseph's Friend)",
       "scenes": [
         1,
         9,
@@ -1449,7 +1447,7 @@
           "personId": "P-jayden-harris",
           "type": "Cast Role",
           "department": "Cast",
-          "assignment": "MERCHANT 2 / SHEPHERD 2 / VILLAGER MAN 2 / ENSEMBLE / Understudy for Ezra (Joseph's Friend)",
+          "assignment": "MERCHANT 2 / SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE / Understudy for Ezra (Joseph's Friend)",
           "scope": "1, 9, 10, 12",
           "callGroups": [
             "Ensemble",
@@ -1740,7 +1738,8 @@
           "assignment": "VILLAGER WOMAN 2/ENSEMBLE",
           "scope": "1, 9,10,11, 12",
           "callGroups": [
-            "Ensemble"
+            "Ensemble",
+            "Principals/Featured"
           ]
         }
       ]
