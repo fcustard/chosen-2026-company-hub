@@ -65,6 +65,7 @@ function intentUrls(query) {
   if (/\b(where.*rehearsal|rehearsal location|what time.*rehearsal)\b/.test(q)) urls.push('schedule.html');
   if (/\b(parent|guardian|child check in|child pick up|child pickup)\b/.test(q)) urls.push('getting-started.html#parents');
   if (/\b(new to chosen|first rehearsal|getting started|where.*start|how.*begin|how.*use.*hub)\b/.test(q)) urls.push('getting-started.html');
+  if (/\b(why.*(?:chosen|production|story)|purpose.*(?:chosen|production)|scriptur(?:e|es)|bible references|production goal)\b/.test(q)) urls.push('company-guide.html#purpose');
   return urls;
 }
 
@@ -81,6 +82,7 @@ export function buildSearchIndex({ content = {}, scripts = [], music = [], resou
     { category: 'Help', title: 'New to CHOSEN? Start Here', description: 'Choose your name, check your call, and prepare with a short walkthrough.', url: 'getting-started.html', terms: 'faq new beginner getting started orientation welcome first rehearsal how to use hub' },
     { category: 'Help', title: 'Parent and guardian quick start', description: 'Check a child’s call, preparation, check-in, and pickup procedures.', url: 'getting-started.html#parents', terms: 'parent guardian family youth child children check in pickup pick up' },
     { category: 'Help', title: 'Production team quick start', description: 'Find your department, review planning work, and confirm instructions with your lead.', url: 'getting-started.html#crew', terms: 'crew volunteer backstage tech department guide orientation beginner' },
+    { category: 'Help', title: 'Our purpose: Jesus at the center', description: 'Why we tell the CHOSEN story, the response we hope for, and the Bible passages that guide our work.', url: 'company-guide.html#purpose', terms: 'why chosen purpose production goal Jesus Savior faith Bible Scripture gospel mission story' },
     { category: 'Production', title: 'Wardrobe & fittings', description: 'Costumes, fittings, and wardrobe calendar.', url: 'production.html#wardrobe', terms: 'costume clothing wardrobe fitting rotation' },
     { category: 'Production', title: 'Wardrobe calendar', description: 'See the current wardrobe schedule.', url: 'production.html#wardrobe-calendar', terms: 'fitting date costume schedule' },
     { category: 'Production', title: 'Production departments', description: 'Behind-the-scenes assignments and teams.', url: 'production.html#departments', terms: 'crew tech production team department' },

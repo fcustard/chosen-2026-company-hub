@@ -70,4 +70,7 @@ assert.equal(searchIndex(entries, 'first rehearsal')[0].url, 'getting-started.ht
 assert.equal(searchIndex(entries, 'parent pickup')[0].url, 'getting-started.html#parents');
 assert.equal(searchIndex(entries, 'guardian')[0].url, 'getting-started.html#parents');
 assert.equal(searchIndex(entries, 'crew guide')[0].url, 'getting-started.html#crew');
+assert.equal(searchIndex(entries, 'Why are we producing CHOSEN?')[0].url, 'company-guide.html#purpose');
+assert.equal(searchIndex(entries, 'Bible references')[0].url, 'company-guide.html#purpose');
+assert.equal(searchIndex(entries, 'production goal')[0].url, 'company-guide.html#purpose');
 console.log('Search index checks passed.');

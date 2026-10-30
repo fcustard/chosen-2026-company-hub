@@ -2,6 +2,7 @@
 .welcomePage .welcomeHero{border:0;background:transparent;box-shadow:none;padding:24px 0 30px;margin-bottom:12px;max-width:820px}
 .welcomeHero h1{font-size:clamp(2.6rem,6vw,4.4rem);letter-spacing:-.03em;line-height:1.06;margin:12px 0 20px}
 .welcomeHero .lead{max-width:48ch;margin-bottom:12px}
+.welcomePage .welcomeScripture{font-size:.94rem;line-height:1.6;color:#455268;margin:10px 0 0}
 .welcomeActions{display:flex;align-items:center;flex-wrap:wrap;gap:14px 22px;margin:24px 0 16px}
 .welcomeActions .btn{font-size:1.05rem;text-decoration:none;min-height:50px}
 .welcomeActions>a:not(.btn):not(.action){display:inline-flex;align-items:center;min-height:44px;font-weight:800}
