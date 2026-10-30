@@ -1,4 +1,5 @@
 import { findPerson, personMatchesCall, upcomingPublishedCalls, personalCallSummary, callAnchor, callPublicationStatus } from './personal-calls.js?v=20261030-flow1';
+import { preparationChecklist, createPreparationStore } from './preparation-checklist.js?v=20261030-prep1';
 
 const personKey = 'chosen2026-person';
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c =>
@@ -85,6 +86,8 @@ export async function initHomeDashboard(content, { root = document, fetcher = fe
   if (!storage) {
     try { storage = globalThis.localStorage; } catch (_) { canRemember = false; }
   }
+  const checklistStore = createPreparationStore(storage);
+  let checklist = null;
   const readSaved = () => { try { return storage.getItem(personKey); } catch (_) { canRemember = false; return ''; } };
   const remember = id => {
     try { if (id) storage.setItem(personKey, id); else storage.removeItem(personKey); }
@@ -93,6 +96,7 @@ export async function initHomeDashboard(content, { root = document, fetcher = fe
   const notify = () => root.dispatchEvent(new CustomEvent('chosen-person-change'));
 
   function renderPreparation(call) {
+    checklist = null;
     if (!selected || !call) {
       preparation.innerHTML = `<p class="ey">YOUR NEXT STEPS</p><h2 id="homePreparationTitle">A clear plan for rehearsal.</h2>
         <p>${selected ? 'No upcoming personal call is confirmed here yet. Check the full schedule or ask production before planning your arrival.' : 'Choose your name above to see your call and the published materials for your scenes.'}</p>
@@ -100,21 +104,44 @@ export async function initHomeDashboard(content, { root = document, fetcher = fe
       return;
     }
     const prep = preparationForCall(selected, call, content);
+    checklist = preparationChecklist(selected, call, prep);
+    const checked = new Set(checklistStore.completed(checklist));
+    const check = id => {
+      const task = checklist?.tasks.find(item => item.id === id);
+      return task ? `<label class="homePrepCheck"><input type="checkbox" data-prep-task="${id}"${checked.has(id) ? ' checked' : ''}><span>${esc(task.label)}</span></label>` : '';
+    };
     const detailUrl = 'schedule.html#' + callAnchor(call);
     const scriptLinks = prep.scripts.map(item => `<li><a href="${esc(item.readUrl)}">Scene ${Number(item.scene)}: ${esc(item.title || item.name)}</a></li>`).join('');
     const musicLinks = prep.music.map(item => `<li><a href="music.html#track-${esc(String(item.title || item.name || '').replace(/[^a-zA-Z0-9_-]/g, '-'))}">${esc(item.title || item.name)}</a></li>`).join('');
     preparation.innerHTML = `<p class="ey">PREPARE FOR YOUR NEXT CALL</p><h2 id="homePreparationTitle">Your rehearsal plan.</h2>
       <p>${prep.callSpecific ? 'Your assigned scenes within this call' : 'Your assigned scenes'}${prep.scenes.length ? ': ' + prep.scenes.join(', ') + '.' : ': follow the instructions below.'}
       ${!prep.callSpecific && prep.scenes.length ? 'This call does not name specific scenes; use its preparation notes to guide your practice.' : ''}</p>
+      ${checklist ? `<div class="homePrepProgress"><p role="status" aria-live="polite" id="homePrepStatus">${checked.size} of ${checklist.tasks.length} preparation steps checked</p><progress id="homePrepMeter" value="${checked.size}" max="${checklist.tasks.length}" aria-label="Preparation checklist"></progress><p id="homePrepSaveNote" class="homePrepHint">${checklistStore.persistent ? 'Saved on this device for this person and rehearsal.' : 'Progress is available for this page visit; browser storage is unavailable.'} These are your reminders; checking a box does not notify production or confirm attendance. Review again if instructions or materials change.</p></div>` : ''}
       <ol class="homePrepSteps">
-        <li><div><h3>Check your call</h3><p>Review the full instructions and check again before you leave.</p><a href="${esc(detailUrl)}">Open call details →</a></div></li>
+        <li><div><h3>Check your call</h3><p>Review the full instructions and check again before you leave.</p><a href="${esc(detailUrl)}">Open call details →</a>${check('call')}</div></li>
         <li><div><h3>Review your material</h3>${scriptLinks ? `<ul class="homeMaterialList">${scriptLinks}</ul>` : '<p>No scene script is matched to this call. Follow your department instructions.</p>'}
           ${musicLinks ? `<p class="homeMaterialLabel">Tracks for these scenes</p><ul class="homeMaterialList">${musicLinks}</ul>` : '<p>No published track is matched to these scenes.</p>'}
-          <p class="homePrepHint">Use the material your rehearsal leader has assigned.</p></div></li>
+          <p class="homePrepHint">Use the material your rehearsal leader has assigned.</p>${check('scripts')}${check('music')}</div></li>
         <li><div><h3>Practice and pack</h3>${call.prep ? `<p>${paragraphs(call.prep)}</p>` : '<p>Check the call details for what to prepare and bring.</p>'}
-          <div class="homePrepLinks">${prep.scripts.length ? '<a href="lines.html">Practice spoken lines</a>' : ''}<a href="resources.html">Rehearsal videos & resources</a><a href="production.html">Wardrobe & production plan</a></div></div></li>
+          <div class="homePrepLinks">${prep.scripts.length ? '<a href="lines.html">Practice spoken lines</a>' : ''}<a href="resources.html">Rehearsal videos & resources</a><a href="production.html">Wardrobe & production plan</a></div>${check('pack')}</div></li>
       </ol>`;
   }
+
+  preparation.addEventListener('change', event => {
+    const input = event.target;
+    const id = input?.dataset?.prepTask;
+    if (!id || !checklist) return;
+    checklistStore.mark(checklist, id, input.checked);
+    const count = checklistStore.completed(checklist).length;
+    const status = preparation.querySelector('#homePrepStatus');
+    const meter = preparation.querySelector('#homePrepMeter');
+    if (status) status.textContent = `${count} of ${checklist.tasks.length} preparation steps checked`;
+    if (meter) meter.value = count;
+    if (!checklistStore.persistent) {
+      const note = preparation.querySelector('#homePrepSaveNote');
+      if (note) note.textContent = 'Progress is available for this page visit; browser storage is unavailable. These are your reminders; checking a box does not notify production or confirm attendance.';
+    }
+  });
 
   function render() {
     const { call, pending, companyCall } = homeCallState(selected, content.schedule?.rehearsals, clock());

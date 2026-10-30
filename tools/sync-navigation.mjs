@@ -8,7 +8,7 @@ for (const name of files) {
   if (!/<nav id="nav" aria-label="Primary">/.test(old)) continue;
   let html = old.replace(/<nav id="nav" aria-label="Primary">[\s\S]*?<\/nav>/, primaryNavigation(name));
   if (!html.includes('site-flow.css')) html = html.replace('</head>', '  <link rel="stylesheet" href="site-flow.css?v=20261030-flow1">\n</head>');
-  html = html.replace(/app\.js\?v=[^"\s]+/g, 'app.js?v=20261030-flow1');
+  // Asset versions belong to their entry pages; navigation builds must preserve them.
   if (html !== old) await fs.writeFile(file, html);
 }
 console.log('Primary navigation and shared layout are consistent across Hub pages.');

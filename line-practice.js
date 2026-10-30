@@ -36,12 +36,17 @@
     reset: document.getElementById('resetLineProgress'),
     summary: document.getElementById('linesSummary'),
     cards: document.getElementById('lineCards'),
+    reviewControls: document.getElementById('lineReviewControls'),
+    progressFilter: document.getElementById('lineProgressFilter'),
+    filterStatus: document.getElementById('lineFilterStatus'),
+    progressNote: document.getElementById('lineProgressNote'),
   };
 
   let allLines = [];
   let allScenes = [];
   let actorViewOverrides = [];
   let memoryProgress = {};
+  let canStoreProgress = true;
 
   function text(value) {
     return String(value ?? '').replace(/\s+/g, ' ').trim();
@@ -75,11 +80,13 @@
   }
 
   function getProgress() {
+    if (!canStoreProgress) return memoryProgress;
     try {
       const value = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
       return value && typeof value === 'object' && !Array.isArray(value)
         ? value : memoryProgress;
     } catch (error) {
+      canStoreProgress = false;
       return memoryProgress;
     }
   }
@@ -90,6 +97,7 @@
       localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
     } catch (error) {
       // Keep the current session usable if browser storage is disabled.
+      canStoreProgress = false;
     }
   }
 
@@ -427,24 +435,35 @@
     return 'Not marked';
   }
 
+  function selectPracticeLines(lines, roleKey, sceneChoice, filter, progress) {
+    const scoped = lines.filter(line => line.speakerKey === roleKey &&
+      (sceneChoice === 'all' || line.sceneNumber === sceneChoice));
+    const visible = scoped.filter(line => filter === 'work' ? progress[line.key] === 'work'
+      : filter === 'unmarked' ? !['known', 'work'].includes(progress[line.key]) : true);
+    return { scoped, visible };
+  }
+
   function render() {
     const roleKey = els.roleSelect.value;
     const sceneChoice = els.sceneSelect.value || 'all';
     const progress = getProgress();
+    const filter = els.progressFilter.value || 'all';
 
     els.cards.innerHTML = '';
     els.summary.hidden = true;
+    els.reviewControls.hidden = !roleKey;
+    els.progressFilter.disabled = !roleKey;
+    els.filterStatus.textContent = '';
+    els.progressNote.textContent = canStoreProgress
+      ? 'Marks stay on this device for each spoken role. Changing the view keeps your role, scene, and saved progress.'
+      : 'Browser storage is unavailable. Marks are kept for this page visit only; changing the view keeps your role and scene.';
 
     if (!roleKey) {
       els.cards.innerHTML = '<div class="linesNotice"><b>Choose a role to begin.</b><p class="note">The page will show cue cards for that role only.</p></div>';
       return;
     }
 
-    let lines = allLines.filter(line => line.speakerKey === roleKey);
-
-    if (sceneChoice !== 'all') {
-      lines = lines.filter(line => line.sceneNumber === sceneChoice);
-    }
+    const { scoped: lines, visible } = selectPracticeLines(allLines, roleKey, sceneChoice, filter, progress);
 
     if (!lines.length) {
       els.cards.innerHTML = '<div class="linesNotice"><b>No lines found for this choice.</b><p class="note">Try All scenes or choose another role.</p></div>';
@@ -454,13 +473,14 @@
     const knownCount = lines.filter(line => progress[line.key] === 'known').length;
     const workCount = lines.filter(line => progress[line.key] === 'work').length;
     const remainingCount = lines.length - knownCount - workCount;
+    els.filterStatus.textContent = `Showing ${visible.length} of ${lines.length} cards in this role and scene${filter === 'work' ? ' · Need work' : filter === 'unmarked' ? ' · Not marked yet' : ''}.`;
 
     els.summary.hidden = false;
     els.summary.innerHTML = `
       <div>
         <p class="ey">PRACTICE SET</p>
         <h2>${htmlEscape(els.roleSelect.selectedOptions[0]?.textContent || lines[0].speaker)}</h2>
-        <p class="note">${lines.length} line card${lines.length === 1 ? '' : 's'} loaded.</p>
+        <p class="note">${lines.length} line card${lines.length === 1 ? '' : 's'} in this role and scene.</p>
       </div>
       <div class="lineStats" aria-label="Line progress">
         <span><b>${knownCount}</b> known</span>
@@ -469,14 +489,19 @@
       </div>
     `;
 
-    els.cards.innerHTML = lines.map((line, index) => {
+    if (!visible.length) {
+      els.cards.innerHTML = `<div class="linesNotice"><b>${filter === 'work' ? 'No lines marked Need work in this role and scene.' : 'No unmarked lines in this role and scene.'}</b><p class="note">${filter === 'work' ? 'Choose All cards to keep practicing or mark a cue for another pass.' : 'Your saved marks are still available in All cards.'}</p><button type="button" class="btn primary showAllCardsBtn">Show all cards</button></div>`;
+      return;
+    }
+
+    els.cards.innerHTML = visible.map((line, index) => {
       const status = progress[line.key] || '';
       const cueSpeaker = line.cueSpeaker ? `${htmlEscape(line.cueSpeaker)}:` : 'Cue:';
 
       return `
         <article class="lineCard ${progressClass(status)}" data-line-key="${htmlEscape(line.key)}">
           <div class="lineCardTop">
-            <p class="ey">Scene ${htmlEscape(line.sceneNumber)} · Card ${index + 1} of ${lines.length}</p>
+            <p class="ey">Scene ${htmlEscape(line.sceneNumber)} · Card ${index + 1} of ${visible.length}</p>
             <span class="lineStatus">${htmlEscape(progressLabel(status))}</span>
           </div>
 
@@ -515,8 +540,14 @@
       delete progress[key];
     }
 
+    const position = Array.from(els.cards.querySelectorAll('.lineCard')).indexOf(card);
     setProgress(progress);
     render();
+    const cards = els.cards.querySelectorAll('.lineCard');
+    const next = cards[Math.min(position, cards.length - 1)];
+    const focus = next?.querySelector('.showLineBtn') ||
+      els.cards.querySelector('.showAllCardsBtn') || els.progressFilter;
+    focus.focus({preventScroll:true});
   }
 
   function resetCurrentRole() {
@@ -545,12 +576,20 @@
     });
 
     els.sceneSelect.addEventListener('change', render);
+    els.progressFilter.addEventListener('change', render);
 
     els.reset.addEventListener('click', resetCurrentRole);
 
     els.cards.addEventListener('click', event => {
       const target = event.target;
       if (!(target instanceof HTMLElement)) return;
+
+      if (target.closest('.showAllCardsBtn')) {
+        els.progressFilter.value = 'all';
+        render();
+        els.progressFilter.focus();
+        return;
+      }
 
       const card = target.closest('.lineCard');
       if (!card) return;
@@ -604,6 +643,8 @@
       fillRoleSelect(allLines);
       await showSelectedPerson(uniqueRoles(allLines));
       fillSceneSelect(els.roleSelect.value);
+      const requestedFocus = new URLSearchParams(window.location.search).get('focus');
+      if (['work', 'unmarked'].includes(requestedFocus)) els.progressFilter.value = requestedFocus;
 
       els.loading.hidden = true;
       els.controls.hidden = false;

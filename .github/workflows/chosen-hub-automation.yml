@@ -13,6 +13,8 @@ name: CHOSEN Hub Automation
       - "home-dashboard.*"
       - "personal-calls.js"
       - "scene-actions.js"
+      - "preparation-checklist.js"
+      - "line-practice.*"
       - "site-flow.css"
       - "*.html"
       - "styles.css"

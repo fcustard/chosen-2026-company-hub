@@ -100,9 +100,10 @@ function harness({ saved = '', roster = [person], calls = [call], blocked = fals
     scrollIntoView() {}
     cloneNode() { return Object.assign(new Element(), { href: this.href, textContent: this.textContent }); }
     replaceWith(next) { elements['#homeCallButton'] = next; }
-    fire(name) { return this.handlers[name]?.({ preventDefault() {} }); }
+    querySelector(id) { return elements[id]; }
+    fire(name, event = { preventDefault() {} }) { return this.handlers[name]?.(event); }
   }
-  const elements = Object.fromEntries(['homePerson', 'my-next-call', 'homePreparation', 'homePersonHelp', 'homeCallButton', 'homeChangePerson'].map(id => ['#' + id, new Element()]));
+  const elements = Object.fromEntries(['homePerson', 'my-next-call', 'homePreparation', 'homePersonHelp', 'homeCallButton', 'homeChangePerson', 'homePrepStatus', 'homePrepMeter', 'homePrepSaveNote'].map(id => ['#' + id, new Element()]));
   const values = new Map(saved ? [['chosen2026-person', saved]] : []);
   const root = { querySelector: id => elements[id], dispatchEvent() {} };
   const storage = { getItem: key => { if (blocked) throw Error('blocked'); return values.get(key); },
@@ -182,4 +183,25 @@ test('homepage has one primary call action and one Show Quest entry', () => {
   assert.equal((html.match(/href="practice.html"/g) || []).length, 2); // Navigation plus the single practice card.
   assert(html.indexOf('id="homePreparation"') < html.indexOf('id="homeQuestTitle"'));
   assert.match(fs.readFileSync(new URL('../app.js', import.meta.url), 'utf8'), /const personMatches = x => personMatchesCall\(person, x\)/);
+});
+
+test('homepage checklist saves a checked step and keeps family progress separate', async () => {
+  const other = {...person,id:'other',name:'Other Performer'};
+  const h = harness({saved:'mary',roster:[person,other],calls:[{...call,calledPeopleIds:['P-mary','P-other']}]});
+  await h.init();
+  assert.match(h.elements['#homePreparation'].innerHTML,/0 of 4 preparation steps checked/);
+  h.elements['#homePreparation'].fire('change',{target:{dataset:{prepTask:'call'},checked:true}});
+  assert.equal(h.elements['#homePrepStatus'].textContent,'1 of 4 preparation steps checked');
+  h.elements['#homePerson'].value='other'; h.elements['#homePerson'].fire('change');
+  assert.doesNotMatch(h.elements['#homePreparation'].innerHTML,/data-prep-task="call" checked/);
+  h.elements['#homePerson'].value='mary'; h.elements['#homePerson'].fire('change');
+  assert.match(h.elements['#homePreparation'].innerHTML,/data-prep-task="call" checked/);
+  await h.init();
+  assert.match(h.elements['#homePreparation'].innerHTML,/1 of 4 preparation steps checked/);
+});
+
+test('unresolved personal calls do not display preparation checkboxes', async () => {
+  const h=harness({saved:'mary',calls:[{...call,exactCallStatus:'REVIEW'}]});
+  await h.init();
+  assert.doesNotMatch(h.elements['#homePreparation'].innerHTML,/data-prep-task=/);
 });
