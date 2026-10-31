@@ -11,6 +11,12 @@
       "name": "Sandra Johnson",
       "historicalThroughDate": "2026-10-25",
       "reason": "Director-confirmed removal. Preserve past calls and attendance; remove all current assignments and future calls."
+    },
+    {
+      "id": "P-amadeus-hills",
+      "name": "Amadeus Hills",
+      "historicalThroughDate": "2026-10-30",
+      "reason": "Director-confirmed removal from the entire production. Preserve past calls and attendance; remove all current assignments and future calls."
     }
   ]
 }

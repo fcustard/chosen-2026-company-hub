@@ -71,25 +71,6 @@
       ]
     },
     {
-      "id": "amadeus-hills",
-      "name": "Amadeus Hills",
-      "roles": "DANCER / ENSEMBLE",
-      "scenes": [
-        1,
-        10,
-        12
-      ],
-      "understudy": null,
-      "danceEnsemble": true,
-      "groups": [
-        "Dancers",
-        "Ensemble"
-      ],
-      "danceScenes": [
-        1
-      ]
-    },
-    {
       "id": "anaia-downer",
       "name": "Anaia Downer",
       "roles": "GOSSIPER 1 / DANCER / ENSEMBLE",
@@ -588,7 +569,7 @@
         10,
         12
       ],
-      "understudy": "Ezra (Joseph's Friend)",
+      "understudy": null,
       "danceEnsemble": false,
       "groups": [
         "Ensemble",
