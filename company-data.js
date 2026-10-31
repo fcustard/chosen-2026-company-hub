@@ -18,12 +18,6 @@ window.CHOSEN_COMPANY_DATA = [
     "danceEnsemble": true
   },
   {
-    "name": "Amadeus Hills",
-    "roles": "ROMAN ANNOUNCER / DANCER / ENSEMBLE",
-    "scenes": "1, 10, 12",
-    "danceEnsemble": false
-  },
-  {
     "name": "Anaia Downer",
     "roles": "GOSSIPER 1 / DANCER / ENSEMBLE",
     "scenes": "1, 9, 10, 11, 12",
@@ -180,9 +174,8 @@ window.CHOSEN_COMPANY_DATA = [
   },
   {
     "name": "Jayden Harris",
-    "roles": "MERCHANT 2 / SHEPHERD 2 / VILLAGER MAN 2 / ENSEMBLE",
+    "roles": "MERCHANT 2 / SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE",
     "scenes": "1, 9, 10, 12",
-    "understudy": "Understudy for Ezra (Joseph's Friend)",
     "danceEnsemble": false
   },
   {
@@ -218,7 +211,7 @@ window.CHOSEN_COMPANY_DATA = [
   },
   {
     "name": "Lauryn Butler",
-    "roles": "ENSEMBLE",
+    "roles": "VILLAGER WOMAN 2 / ENSEMBLE",
     "scenes": "1, 9, 10, 11, 12",
     "danceEnsemble": false
   },
