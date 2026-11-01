@@ -118,26 +118,6 @@
       ]
     },
     {
-      "id": "annetta-johnson",
-      "name": "Annetta Johnson",
-      "roles": "VILLAGE AUNTIE (Elizabeth's Friend)/ ENSEMBLE",
-      "scenes": [
-        1,
-        7,
-        10,
-        12
-      ],
-      "understudy": null,
-      "danceEnsemble": false,
-      "groups": [
-        "Ensemble",
-        "Principals/Featured"
-      ],
-      "legacyIds": [
-        "annette-jordan"
-      ]
-    },
-    {
       "id": "ariella-davidson",
       "name": "Ariella Davidson",
       "roles": "CHILD 2 / DANCER / ENSEMBLE",
