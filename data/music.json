@@ -116,12 +116,16 @@
   },
   {
     "title": "Silent Night",
-    "type": "Birth Sequence",
-    "status": "Arrangement pending",
+    "type": "Post-reveal vocal sequence — SC11-D into Scene 12",
+    "status": "Arrangement pending — vocals after reveal, silence and Mary-to-Joseph handoff",
     "approved": false,
     "companyPublish": false,
     "playUrl": "#",
-    "lyricsUrl": "#"
+    "lyricsUrl": "#",
+    "scenes": [
+      11,
+      12
+    ]
   },
   {
     "id": "scene-10-departure-change-cover",
@@ -144,6 +148,19 @@
     ],
     "type": "Instrumental journey underscore",
     "status": "Arrangement pending — audio not yet produced",
+    "approved": false,
+    "companyPublish": false,
+    "playUrl": "#",
+    "lyricsUrl": "#"
+  },
+  {
+    "id": "scene-11-silent-night-instrumental",
+    "title": "Silent Night (Scene 11 Instrumental Cover)",
+    "scenes": [
+      11
+    ],
+    "type": "Instrumental change / manger cover — SC11-A/B",
+    "status": "Arrangement pending — repeatable cover and fade before baby cry; audio not yet produced",
     "approved": false,
     "companyPublish": false,
     "playUrl": "#",
