@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-11-01T12:05:22.595Z",
-  "contentHash": "ed019b21d711992de1728b58caff32b6ac461a9cd1875e250c895d8e05d614ef",
+  "sourceUpdated": "2026-11-01T12:52:47.130Z",
+  "contentHash": "e0a29117673fe3c7f0085777a5db85192d0792d1815c68e37e297209231cefd9",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "type": "production-note",
-      "text": "Musical Material: continuation of “Silent Night” → shepherd underscore → “Welcome to Nazareth” reprise/finale",
+      "text": "Musical Material: continuation of the post-reveal vocal “Silent Night” from Scene 11 → shepherd underscore → “Welcome to Nazareth” reprise/finale.",
       "namedStyleType": "SUBTITLE"
     },
     {
@@ -175,7 +175,7 @@
     },
     {
       "type": "stage",
-      "text": "The baby has cried. The world has gone still.",
+      "text": "The baby has cried. Mary was revealed already seated without the prosthetic; the pre-birth instrumental gave way to silence. The world has gone still.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -284,7 +284,7 @@
     },
     {
       "type": "stage",
-      "text": "Only now does the quiet musical phrase from Scene 11 continue.",
+      "text": "Continue the post-reveal vocal “Silent Night” from Scene 11. Do not restart its earlier instrumental change cover or repeat the baby-cry cue.",
       "namedStyleType": "HEADING_6"
     },
     {

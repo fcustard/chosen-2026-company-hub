@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-11-01T12:05:22.595Z",
-  "contentHash": "10735ae0a37161a5e11a362a8c2ca3218b1aa5c78afc77137f1bc95fd8b7eaf4",
+  "sourceUpdated": "2026-11-01T12:52:47.130Z",
+  "contentHash": "743faabe55ff4462e882e340003e6138b481daa8eb4b35bb97671f2474389825",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -22,17 +22,17 @@
     },
     {
       "type": "production-note",
-      "text": "Approximate Running Time: 4–5 minutes plus musical transition",
+      "text": "Running Time: confirm after timing Mary's prosthetic removal, concealed return, and birth reveal.",
       "namedStyleType": "SUBTITLE"
     },
     {
       "type": "production-note",
-      "text": "Musical Treatment: Rhythmic “No Room” sequence + underscore + “Silent Night” transition",
+      "text": "Musical Treatment: rhythmic “No Room” sequence → instrumental “Silent Night” change/manger cover → silence, baby cry and family reveal → vocal “Silent Night” into Scene 12.",
       "namedStyleType": "SUBTITLE"
     },
     {
       "type": "production-note",
-      "text": "Characters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Bethlehem Helper, optional Bethlehem Woman",
+      "text": "Characters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Innkeeper Eli, Anna / Innkeeper's Wife, and Bethlehem ensemble.",
       "namedStyleType": "SUBTITLE"
     },
     {
@@ -1404,7 +1404,7 @@
     },
     {
       "type": "stage",
-      "text": "He notices the feeding trough.",
+      "text": "He notices the feeding trough and marks where it can remain, clear of Mary's resting place.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1419,12 +1419,12 @@
     },
     {
       "type": "stage",
-      "text": "Then he cleans it carefully.",
+      "text": "He checks the space around it. The careful cleaning and lining will follow while Anna helps Mary.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "He takes cloth from their belongings and lays it out.",
+      "text": "He finds the clean cloth among their belongings and keeps it ready.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1573,12 +1573,12 @@
     },
     {
       "type": "stage",
-      "text": "Mary settles.",
+      "text": "Mary settles briefly at the shelter edge, with room for Joseph to kneel beside her.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Anna prepares discreetly nearby.",
+      "text": "Anna prepares the private same-side route and stays close.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1618,7 +1618,7 @@
     },
     {
       "type": "stage",
-      "text": "That is enough.",
+      "text": "That is enough. After their shared moment, Mary accepts Anna's support. Anna helps Mary exit through the agreed masked same-side opening into the private change bay. Joseph remains in the shelter.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1627,37 +1627,37 @@
     },
     {
       "type": "heading",
-      "text": "STYLIZED BIRTH SEQUENCE",
+      "text": "“SILENT NIGHT” — INSTRUMENTAL / MANGER PREPARATION",
       "namedStyleType": "HEADING_2"
     },
     {
       "type": "stage",
-      "text": "A restrained instrumental underscore begins.",
+      "text": "SC11-A — INSTRUMENTAL COVER: as Mary and Anna exit, begin a sparse instrumental “Silent Night,” with no vocals. Joseph turns to the manger, cleans it carefully, and arranges the clean lining. His work is tender and purposeful; he occasionally looks toward Mary's exit. Keep the manger stationary and the approved return lane clear.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "No literal childbirth.",
+      "text": "The birth is implied offstage; no literal childbirth is shown.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Use fabric, silhouettes, scenic masking, carefully composed bodies, and light to preserve privacy and dignity.",
+      "text": "At the private same-side bay, a dedicated dresser assists Mary in removing W01, adjusting the approved birth look and journey layers, and checking mic-pack/cable placement. Anna accompanies Mary in character; she is not the sole dresser or privacy operator. Return W01 to its labeled covered bag. Rehearse the actual change and route.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Anna assists Mary discreetly.",
+      "text": "Keep a quiet shelter image on LED 11B. Focus stage light on Joseph, leaving the masked change and return route concealed from front and side seats.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Joseph remains present without becoming the childbirth expert.",
+      "text": "The instrumental has a repeatable middle and can hold as needed. Joseph remains available within the shelter; his preparation shows care, not an attempt to control the birth.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "production-note",
-      "text": "Time compresses through breath, light, movement, music and stillness.",
+      "text": "Time passes through the instrumental, Joseph's purposeful preparation, and restrained changes in light. The arrangement and measured change time remain to be confirmed; do not use a fixed countdown.",
       "namedStyleType": "SUBTITLE"
     },
     {
@@ -1667,22 +1667,22 @@
     },
     {
       "type": "stage",
-      "text": "The stage moves toward near-darkness.",
+      "text": "SC11-B — CONCEALED RETURN: after Wardrobe confirms costume readiness and Sound confirms mic readiness, Stage Management cues Mary and Anna's unseen return. Use the agreed low-light masked route; Mary settles into her approved seated position, without the prosthetic. Do not reveal her walking in.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The underscore falls away.",
+      "text": "Anna retrieves the one swaddled performance doll from the clean same-side preset and places it securely in Mary's arms after Mary is seated. Anna clears the central image and reports the seated-position / secure-doll ready check to Stage Management.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Then—",
+      "text": "Only after Wardrobe, Sound, and the backstage lead confirm readiness does Stage Management call SC11-C: fade the instrumental to silence, then cue the baby cry and the small warm family reveal. Keep the LED subdued; no full-stage blackout or screen flash.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Within the sheltered near-darkness, Anna places the swaddled performance doll securely into Mary's arms and clears the image. Stage management cues the baby cry only when Mary has a stable hold.",
+      "text": "The baby cry reveals Mary already seated with the child. It must not trigger her walk or return. Joseph turns toward the sound; Anna remains close enough to support the scene, outside the family image.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1717,12 +1717,12 @@
     },
     {
       "type": "stage",
-      "text": "Give the audience several seconds to hear the child and discover the image.",
+      "text": "Give the audience several seconds of silence to hear the child and discover Mary already seated. Keep all vocals out until the family reveal and the Mary-to-Joseph handoff have been allowed to land.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The smallest warmth slowly reveals",
+      "text": "A small warm stage light reveals Mary and the child with the cry, then gently includes Joseph",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1860,7 +1860,7 @@
     },
     {
       "type": "stage",
-      "text": "Only after the family has been allowed to exist in silence does the first musical phrase begin.",
+      "text": "SC11-D — VOCAL “SILENT NIGHT”: only after the cry, family reveal, held silence and the written Mary-to-Joseph handoff does the first voice enter. This continues the melody heard instrumentally during the change; it is one planned musical sequence with a silent birth-reveal break.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1929,7 +1929,7 @@
     },
     {
       "type": "production-note",
-      "text": "I’m also using your current locked musical choice of “Silent Night” after the birth rather than the earlier working title “Silent Wonder.”",
+      "text": "“Silent Night” now begins instrumentally while Mary exits with Anna and Joseph prepares the manger. The instrumental fades to silence before the baby cry and family reveal. Vocals begin only after the held silence and Mary-to-Joseph handoff, continuing into Scene 12.",
       "namedStyleType": "SUBTITLE"
     },
     {
@@ -1969,7 +1969,7 @@
     },
     {
       "type": "production-note",
-      "text": "STtrongly preserve the beat before “Silent Night” begins: baby cry → silence → Mary, Joseph and Jesus. Give the audience several seconds to simply see the family before the first voice enters. That silence may be more emotionally powerful than adding another line. The source similarly recommends letting the frantic Bethlehem sound disappear and ending with the simple “Joseph / I'm here” exchange before the stylized birth.",
+      "text": "Preserve this cue order: Mary's “Joseph” / Joseph's “I'm here” → Mary and Anna exit → instrumental “Silent Night” while Joseph prepares the manger and Wardrobe removes the prosthetic → concealed seated return and secure doll → instrumental fade → baby cry and small warm family reveal → held silence → Mary-to-Joseph handoff → vocal “Silent Night.” No full-stage blackout, literal birth image, or fixed change countdown.",
       "namedStyleType": "SUBTITLE"
     }
   ]
