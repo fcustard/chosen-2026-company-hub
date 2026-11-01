@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-11-01T00:04:57.607Z",
-  "contentHash": "1cc3f672309dfb17a60d38ead1aadadaa36ee7fa06d4eda2a78754c81e5610cd",
+  "sourceUpdated": "2026-11-01T02:19:05.246Z",
+  "contentHash": "014b7339162c57c33a77a1a666d23302f198c83e0c7bcc21be93352dda521c2f",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -22,12 +22,12 @@
     },
     {
       "type": "production-note",
-      "text": "Approximate Running Time: 6–6½ minutes, including the measured change",
+      "text": "Running Time: confirm after timing the revised costume/prosthetic change and journey.",
       "namedStyleType": "SUBTITLE"
     },
     {
       "type": "production-note",
-      "text": "Musical Treatment: Roman motif + 2–3-minute journey underscore",
+      "text": "Musical Treatment: Roman/preparation motif; extendable departure/change bridge; journey underscore. Final arrangement and timing pending.",
       "namedStyleType": "SUBTITLE"
     },
     {
@@ -151,17 +151,17 @@
     },
     {
       "type": "stage",
-      "text": "The village continues packing around him. Joseph watches Mary's exit for a moment, then lets the preparation continue without trying to hurry her.",
+      "text": "Mary and Joseph prepare together while the village packs around them.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Keep the underscore and village movement flexible until Mary's measured quick change is complete; no empty hold or scenic reset.",
+      "text": "Both remain onstage through the friends' farewells and Nia and Simon's gift.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Mary returns with Shira in her journey costume, now wearing the fitted pregnancy prosthetic. Her return uses the same safe, lit side lane. Joseph sees her, closes the satchel, and offers his hand. She takes it.",
+      "text": "Mary remains in her pre-journey costume for the farewell. The journey costume and fitted pregnancy prosthetic are added during the later shared exit in this scene.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -625,7 +625,7 @@
     },
     {
       "type": "stage",
-      "text": "The preparations are finished before anyone is ready for them to be.",
+      "text": "On Mary's final “Thank you” to Nia and Simon, begin SC10-A — DEPARTURE / CHANGE COVER: a warm instrumental traveling pulse that continues beneath the departure. The preparations are finished before anyone is ready for them to be.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -659,7 +659,7 @@
     },
     {
       "type": "stage",
-      "text": "A faint “Walk With You” motif emerges.",
+      "text": "A restrained instrumental echo of “Still Yours” may connect the departure to their promise. Keep the underscore gentle and leave room for the farewell; the score arrangement is to be created and rehearsed.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -674,7 +674,7 @@
     },
     {
       "type": "stage",
-      "text": "They begin.",
+      "text": "They begin together and leave the stage through the agreed lit side lane. Joseph retains the satchel and traveling staff; Mary takes her farewell gifts.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -684,7 +684,27 @@
     },
     {
       "type": "stage",
-      "text": "Then the road takes over.",
+      "text": "The screen carries the first stretch of the journey: the familiar Nazareth horizon dissolves slowly into a wide road and distant hills. Use environment-only imagery, a locked horizon, gentle cloud/light movement and a repeatable middle. Keep Bethlehem's full image withheld.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "A few travelers cross with bundles, then clear the couple's entrance lane. The music and road image can hold or repeat smoothly while both performers are offstage; no full blackout or scenic reset.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Wardrobe assists Mary into W02 journey layers and W01 fitted pregnancy prosthetic at the private same-side station. Joseph waits at the agreed ready position. Check secure closures, Mary's movement and mic-pack clearance before calling ready. Shira is not required to escort the change.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Once Wardrobe confirms Mary is ready and Sound confirms mic readiness, Stage Management calls SC10-B — ROAD ENTRANCE. The music advances from its cover section; Mary and Joseph return together. Mary is now in journey costume with the prosthetic fitted. Mary sets their walking pace, and Joseph adjusts to her.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
+      "text": "Her pregnancy is already established in the story. The return reveals her journey look and advanced pregnancy; it is not a new pregnancy event. The score lowers beneath their first road dialogue.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1372,7 +1392,7 @@
     },
     {
       "type": "stage",
-      "text": "The horizon changes.",
+      "text": "A distant glow suggests a settlement. Hold the open-road image until Joseph names Bethlehem.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1407,6 +1427,11 @@
     },
     {
       "type": "stage",
+      "text": "SC10-C — BETHLEHEM REVEAL: on Joseph's “Bethlehem,” reveal the full city image and resolve the traveling phrase. Prepare the crowded-city atmosphere without covering the dialogue.",
+      "namedStyleType": "HEADING_6"
+    },
+    {
+      "type": "stage",
       "text": "Relief.",
       "namedStyleType": "HEADING_6"
     },
@@ -1427,7 +1452,7 @@
     },
     {
       "type": "stage",
-      "text": "Then the city reveals itself.",
+      "text": "As they approach, the city's crowd and noise become clear.",
       "namedStyleType": "HEADING_6"
     },
     {
