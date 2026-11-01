@@ -32,5 +32,19 @@
         "decision": "Finalize selective actors/dancers and personal report/release windows; source remains REVIEW."
       }
     ]
+  },
+  "integrityReview": {
+    "reviewedAt": "2026-11-01T21:58:00Z",
+    "purpose": "Restore REVIEW for November 4 and 5 after unsupported READY activation; preserve current exact rosters and Annetta withdrawal.",
+    "directorDecisions": [
+      {
+        "eventKey": "CHOSEN-20261104-REH",
+        "decision": "REVIEW 2026-11-01: Talia understudy call names Moenike Custard, but no active Talia understudy assignment exists. Director must confirm/correct that assignment and approve personal report/release windows for the three blocks."
+      },
+      {
+        "eventKey": "CHOSEN-20261105-REH",
+        "decision": "REVIEW 2026-11-01: 42 active names retained, including Allania; Annetta withdrawn. Director must identify the 8:00-9:30 PM teen-dancer/actor subset and approve each person's report/release time before publishing individual calls."
+      }
+    ]
   }
 }
