@@ -31,12 +31,6 @@ window.CHOSEN_COMPANY_DATA = [
     "danceEnsemble": true
   },
   {
-    "name": "Annetta Johnson",
-    "roles": "VILLAGE AUNTIE (Elizabeth's Friend) / ENSEMBLE",
-    "scenes": "1, 7, 10, 12",
-    "danceEnsemble": false
-  },
-  {
     "name": "Ariella Davidson",
     "roles": "CHILD 2 / DANCER / ENSEMBLE",
     "scenes": "1, 9, 10, 11, 12",
