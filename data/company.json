@@ -2,7 +2,7 @@
   "ok": true,
   "schemaVersion": 1,
   "source": "CHOSEN 2026 Admin Master Sheets",
-  "generatedAt": "2026-11-01T21:10:01.450Z",
+  "generatedAt": "2026-11-01T21:21:23.106Z",
   "people": [
     {
       "id": "P-abi",
@@ -338,42 +338,6 @@
           "scope": "Scenes 1, 9, 12",
           "callGroups": [
             "Dancers"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "P-annetta-johnson",
-      "name": "Annetta Johnson",
-      "companyType": "Performer",
-      "primaryAssignment": "VILLAGE AUNTIE (Elizabeth's Friend)/ ENSEMBLE",
-      "departments": [
-        "Cast"
-      ],
-      "groups": [
-        "Ensemble",
-        "Principals/Featured"
-      ],
-      "roles": "VILLAGE AUNTIE (Elizabeth's Friend)/ ENSEMBLE",
-      "scenes": [
-        1,
-        7,
-        10,
-        12
-      ],
-      "understudy": null,
-      "danceEnsemble": false,
-      "reviewStatus": "READY",
-      "assignments": [
-        {
-          "personId": "P-annetta-johnson",
-          "type": "Cast Role",
-          "department": "Cast",
-          "assignment": "VILLAGE AUNTIE (Elizabeth's Friend)/ ENSEMBLE",
-          "scope": "1,7,10,12",
-          "callGroups": [
-            "Ensemble",
-            "Principals/Featured"
           ]
         }
       ]

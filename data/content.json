@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T21:10:08.228Z",
+  "updated": "2026-11-01T21:21:28.632Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -223,9 +223,6 @@
             "displayName": "Annalise Mongeois"
           },
           {
-            "displayName": "Annetta Johnson"
-          },
-          {
             "displayName": "Ariella Davidson"
           },
           {
@@ -343,7 +340,6 @@
           "P-alyssa-johnson",
           "P-anaia-downer",
           "P-annalise-mongeois",
-          "P-annetta-johnson",
           "P-ariella-davidson",
           "P-arielle-brown",
           "P-ashley-pierre",
@@ -518,9 +514,6 @@
             "displayName": "Annalise Mongeois"
           },
           {
-            "displayName": "Annetta Johnson"
-          },
-          {
             "displayName": "Ariella Davidson"
           },
           {
@@ -638,7 +631,6 @@
           "P-alyssa-johnson",
           "P-anaia-downer",
           "P-annalise-mongeois",
-          "P-annetta-johnson",
           "P-ariella-davidson",
           "P-arielle-brown",
           "P-ashley-pierre",
@@ -724,9 +716,6 @@
             "displayName": "Annalise Mongeois"
           },
           {
-            "displayName": "Annetta Johnson"
-          },
-          {
             "displayName": "Ariella Davidson"
           },
           {
@@ -844,7 +833,6 @@
           "P-alyssa-johnson",
           "P-anaia-downer",
           "P-annalise-mongeois",
-          "P-annetta-johnson",
           "P-ariella-davidson",
           "P-arielle-brown",
           "P-ashley-pierre",
@@ -5323,9 +5311,6 @@
             "displayName": "Annalise Mongeois"
           },
           {
-            "displayName": "Annetta Johnson"
-          },
-          {
             "displayName": "Ariella Davidson"
           },
           {
@@ -5443,7 +5428,6 @@
           "P-alyssa-johnson",
           "P-anaia-downer",
           "P-annalise-mongeois",
-          "P-annetta-johnson",
           "P-ariella-davidson",
           "P-arielle-brown",
           "P-ashley-pierre",
@@ -5529,9 +5513,6 @@
             "displayName": "Annalise Mongeois"
           },
           {
-            "displayName": "Annetta Johnson"
-          },
-          {
             "displayName": "Ariella Davidson"
           },
           {
@@ -5649,7 +5630,6 @@
           "P-alyssa-johnson",
           "P-anaia-downer",
           "P-annalise-mongeois",
-          "P-annetta-johnson",
           "P-ariella-davidson",
           "P-arielle-brown",
           "P-ashley-pierre",
@@ -10044,7 +10024,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "a3da7da6eeba618539bbf322fb32adb0a6a8fcc3004e73a33c049e02b9d041d7"
       },
       {
@@ -10059,7 +10039,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "f2f6083bdca8ba6659d9f7a652010469db2cb54bc736d937da82452846c7a450"
       },
       {
@@ -10074,7 +10054,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "fa96c7db2b3651ba2c22c942b96238747e874b87079240ff0f1686ea3afca102"
       },
       {
@@ -10089,7 +10069,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "231433b64e503570bb1bb788dc2221232c66e1e736bd6041b66e61cc1a2776d8"
       },
       {
@@ -10104,7 +10084,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "76387cabe01943567e86e9f23a25d95774df778a62209b53639d213d13023ca1"
       },
       {
@@ -10119,7 +10099,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "121f2ac8d3793813fb534d7fc6f6ad76b9f72ecbe7ec78676611be65da473db0"
       },
       {
@@ -10134,7 +10114,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "aba8923b1c4e357368387da261adc46f467c6dbfcac1a55820d1e142ee0a075e"
       },
       {
@@ -10149,7 +10129,7 @@
         "id": "the-reunion",
         "name": "The Reunion",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "cb21e53e77f9cf1de25cae59565a6af8003a3ba16f843a2753f9cefb8a4df720"
       },
       {
@@ -10164,7 +10144,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "bb5f2e50c0d3d7e4253760a32521fa3545e1bab4216748bc438649ef74e66287"
       },
       {
@@ -10179,7 +10159,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "014b7339162c57c33a77a1a666d23302f198c83e0c7bcc21be93352dda521c2f"
       },
       {
@@ -10194,7 +10174,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "743faabe55ff4462e882e340003e6138b481daa8eb4b35bb97671f2474389825"
       },
       {
@@ -10209,7 +10189,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "388410d337a8f752f896b093c7b6d2169cceeb7f3c5ead25ebc20f715c05a5c4"
       }
     ],
@@ -10226,7 +10206,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "a3da7da6eeba618539bbf322fb32adb0a6a8fcc3004e73a33c049e02b9d041d7"
       },
       {
@@ -10241,7 +10221,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "f2f6083bdca8ba6659d9f7a652010469db2cb54bc736d937da82452846c7a450"
       },
       {
@@ -10256,7 +10236,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "fa96c7db2b3651ba2c22c942b96238747e874b87079240ff0f1686ea3afca102"
       },
       {
@@ -10271,7 +10251,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "231433b64e503570bb1bb788dc2221232c66e1e736bd6041b66e61cc1a2776d8"
       },
       {
@@ -10286,7 +10266,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "76387cabe01943567e86e9f23a25d95774df778a62209b53639d213d13023ca1"
       },
       {
@@ -10301,7 +10281,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "121f2ac8d3793813fb534d7fc6f6ad76b9f72ecbe7ec78676611be65da473db0"
       },
       {
@@ -10316,7 +10296,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "aba8923b1c4e357368387da261adc46f467c6dbfcac1a55820d1e142ee0a075e"
       },
       {
@@ -10331,7 +10311,7 @@
         "id": "the-reunion",
         "name": "The Reunion",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "cb21e53e77f9cf1de25cae59565a6af8003a3ba16f843a2753f9cefb8a4df720"
       },
       {
@@ -10346,7 +10326,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "bb5f2e50c0d3d7e4253760a32521fa3545e1bab4216748bc438649ef74e66287"
       },
       {
@@ -10361,7 +10341,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "014b7339162c57c33a77a1a666d23302f198c83e0c7bcc21be93352dda521c2f"
       },
       {
@@ -10376,7 +10356,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "743faabe55ff4462e882e340003e6138b481daa8eb4b35bb97671f2474389825"
       },
       {
@@ -10391,12 +10371,12 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-11-01T21:09:58.479Z",
+        "updated": "2026-11-01T21:21:18.981Z",
         "contentHash": "388410d337a8f752f896b093c7b6d2169cceeb7f3c5ead25ebc20f715c05a5c4"
       }
     ],
     "count": 12,
-    "updated": "2026-11-01T21:10:08.235Z",
+    "updated": "2026-11-01T21:21:28.639Z",
     "kind": "scripts"
   },
   "music": {
@@ -10645,7 +10625,7 @@
       }
     ],
     "count": 8,
-    "updated": "2026-11-01T21:10:08.236Z",
+    "updated": "2026-11-01T21:21:28.639Z",
     "kind": "music"
   }
 }
