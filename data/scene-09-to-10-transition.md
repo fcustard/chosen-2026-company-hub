@@ -1,17 +1,29 @@
-# Scene 9 → Scene 10: approved Joseph preparation bridge
+# Scene 9 → Scene 10 and Scene 10 departure/change — current director plan
 
-Director decision: Keep the scene change continuous and visible while Mary changes into her journey costume with a fitted pregnancy prosthetic. No full blackout or scenic reset.
+Updated October 31, 2026. Supersedes the previous Mary/Shira Scene 9 exit and Joseph-alone change cover.
 
-1. Scene 9 ends with Joseph agreeing to leave as soon as they can. Shira offers to help Mary prepare; Mary exits with her along a safe, lit side lane to a private same-side costume-change station.
-2. Hold the familiar Nazareth market image. The Roman motif folds into a steady preparation underscore. Village packing continues around Joseph, who remains in a warm pool of light.
-3. Joseph opens Mary's handmade gift satchel (P01), checks the essentials, and overpacks **one palm-sized smooth wooden workshop offcut** from safe P03 stock. He realizes it is not needed for the journey, removes it and leaves it in a marked, same-side prop tray. Use a light, blunt, splinter-free non-throw piece; do not purchase a separate object or put a real tool in the bag.
-4. Joseph looks toward Mary's exit without hurrying her. Music and ensemble action may vamp in short phrases for the measured change. Mary returns with Shira in W02 travel layers and W01 fitted prosthetic. Joseph closes the satchel and offers his hand; she takes it.
-5. Scene 10 continues with the scripted friend-supplied blanket, provisions, and staff. The LED road animation begins only when Mary and Joseph depart Nazareth.
+## Continuous Scene 9 → Scene 10
+Mary and Joseph remain in the marketplace. Hold Nazareth, continue the Roman/preparation underscore, and let villagers pack. Joseph's satchel and smooth offcut action remains at the opening of Scene 10 while Mary is present. Keep the friends' farewells and Nia/Simon's gift onstage before the change.
 
-**Acquisition/coverage links:** Set/props Acquisition W01 prosthetic, W02 travel layers, W03 dresser coverage and W04 private same-side station are cross-department planning rows with sources, costs and named owners still unverified; they are excluded from existing scenic/props budget totals. Wardrobe Quick Changes QC01 and Alterations & Tasks WT01–WT04 track the fitting, pull, dresser/backup and private bay. Props P01/P03 track the offcut and marked tray. Do not place a purchase until inventory, fitting, quote and authorization are recorded.
+## Within Scene 10, after Mary's final “Thank you” to Nia and Simon
+1. Mary accepts the gift. Begin SC10-A departure/change cover. The village opens a path; the couple looks back, takes hands, and exits together through the agreed lit side lane.
+2. LED 10A lets Nazareth recede once, then dissolves into the LED 10B road loop/hold. Use environment-only imagery, a locked horizon, gentle cloud/light movement, and sparse traveler crosses. Clear the return lane. No full blackout or scenic reset.
+3. Wardrobe assists Mary into W02 travel layers and W01 fitted pregnancy prosthetic at private W04. Joseph waits at the separate agreed ready position. Music/road cover can repeat smoothly. Shira is not required to escort the change.
+4. Wardrobe ready plus Sound mic ready → Stage Management SC10-B. Both return together, Mary now in journey costume/prosthetic. Mary sets the pace; Joseph adjusts. Lower the underscore beneath their first road dialogue.
+5. Preserve the existing journey dialogue, rest/fatigue and relationship beats. On Joseph's later “Bethlehem,” call SC10-C / LED 10D and reveal the full city. Do not reveal Bethlehem during the change.
 
-Wardrobe and stage management must confirm the private route, public sightlines, change-bay task light and egress, mic-pack clearance, prosthetic secure fit, Mary's comfort walking, sitting and breathing, named dresser and backup, and actual cue duration. The 75–90 second estimate is a rehearsal target, not a fixed cue. A short underscore vamp and motivated packing cover a longer measured change.
+## Props
+Joseph retains P01 satchel and the traveling staff through the shared exit and return. The palm-sized smooth offcut from safe P03 stock stays in its marked tray. Track Mary's gift and the later blanket, provisions, water/rest and staff parking. No extra bag, prop quantity or purchase is authorized.
 
-The master script no longer restarts the census/Bethlehem exchange in Scene 10. Its first spoken sequence begins with the friends' practical preparation after Mary returns.
+## Music and media production brief
+SC10-A: instrumental departure pulse with a smooth repeatable middle; a restrained “Still Yours” motif may be tested.
+SC10-B: road-entry advance into a journey underscore, with space beneath spoken lines, warmth, fatigue and growing urgency. A 2–3-minute road section is a starting brief, not a locked scene duration.
+SC10-C: actor-triggered Bethlehem reveal and travel-phrase resolution.
+Audio files and the LED 10A-to-10B sequence must still be created/adapted and rehearsed. Do not publish a placeholder as a playable track.
 
-Authority: director approval of the continuous bridge; master script Scenes 9–10, wardrobe quick-change record, and set/props acquisition and transition tracker.
+## Wardrobe / stage management trial
+QC01 and WT01–WT04 now occur within Scene 10 after the final gift/“Thank you.” Confirm the private bay, lit route, shared return lane, named dresser and backup, Joseph ready position, secure prosthetic, comfort/movement and mic-pack clearance. Time the complete costume/prosthetic/mic process; no fixed 75–90-second countdown. Test the repeat/hold, readiness call, sound level under dialogue and return GO.
+
+Acquisition W01–W04 remain cross-department planning rows; stock, source, fitting, owners, costs and trial acceptance are not presumed complete. Existing approvals, dimensions and budget limits remain as recorded.
+
+Current public cue plan: scene-10-change-plan.html. Earlier illustrated overview PDFs have superseded Scenes 9–10 change cues; use the current scripts and this plan.

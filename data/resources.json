@@ -24,6 +24,18 @@
     "featured": true
   },
   {
+    "id": "scene-10-departure-change-plan",
+    "title": "Scene 10 Departure & Costume Change",
+    "category": "Production Planning",
+    "description": "Current shared exit after Mary's final Thank you, costume/prosthetic change, music and road-screen cover, shared return, and Bethlehem reveal.",
+    "status": "CURRENT",
+    "approved": true,
+    "companyPublish": true,
+    "fileUrl": "scene-10-change-plan.html",
+    "linkLabel": "Open the current Scene 10 cue plan",
+    "featured": true
+  },
+  {
     "id": "character-embodiment-workbook",
     "title": "Character Embodiment Workbook",
     "category": "Rehearsal Resources",

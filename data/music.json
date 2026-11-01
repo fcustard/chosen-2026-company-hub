@@ -122,5 +122,31 @@
     "companyPublish": false,
     "playUrl": "#",
     "lyricsUrl": "#"
+  },
+  {
+    "id": "scene-10-departure-change-cover",
+    "title": "Scene 10 Departure / Change Cover (SC10-A)",
+    "scenes": [
+      10
+    ],
+    "type": "Instrumental underscore — extendable cover",
+    "status": "Arrangement pending — audio not yet produced",
+    "approved": false,
+    "companyPublish": false,
+    "playUrl": "#",
+    "lyricsUrl": "#"
+  },
+  {
+    "id": "scene-10-journey-underscore",
+    "title": "Scene 10 Journey to Bethlehem (SC10-B/C)",
+    "scenes": [
+      10
+    ],
+    "type": "Instrumental journey underscore",
+    "status": "Arrangement pending — audio not yet produced",
+    "approved": false,
+    "companyPublish": false,
+    "playUrl": "#",
+    "lyricsUrl": "#"
   }
 ]
