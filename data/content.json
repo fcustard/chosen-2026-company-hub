@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T16:27:28.509Z",
+  "updated": "2026-11-02T16:56:44.560Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -256,7 +256,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.\n\nChild performers without acting lines or dance are released at 8:00 PM on November 5.",
+        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.\n\n8:00 PM RELEASE — Allania Mitchell, Annalise Mongeois, Ariella Davidson, Kennedy McCalla, Kourtney—Ann Palmer, and Nelcia Fosttin. These six performers are excused from the 8:00–9:30 PM block on November 5.",
         "callGroups": [],
         "calledPeople": [
           {
@@ -476,11 +476,11 @@
         },
         "personalCallEndTimes": {
           "P-alexandria-platt": "9:30 PM",
-          "P-allania-mitchell": "9:30 PM",
+          "P-allania-mitchell": "8:00 PM",
           "P-alyssa-johnson": "9:30 PM",
           "P-anaia-downer": "9:30 PM",
-          "P-annalise-mongeois": "9:30 PM",
-          "P-ariella-davidson": "9:30 PM",
+          "P-annalise-mongeois": "8:00 PM",
+          "P-ariella-davidson": "8:00 PM",
           "P-arielle-brown": "9:30 PM",
           "P-ashley-pierre": "9:30 PM",
           "P-aubrie-lewis": "9:30 PM",
@@ -504,15 +504,15 @@
           "P-jayden-harris": "9:30 PM",
           "P-jordyn-starks": "9:30 PM",
           "P-jeovanie-andre": "9:30 PM",
-          "P-kennedy-mccalla": "9:30 PM",
+          "P-kennedy-mccalla": "8:00 PM",
           "P-kevin-hohn": "9:30 PM",
-          "P-kourtney-ann-palmer": "9:30 PM",
+          "P-kourtney-ann-palmer": "8:00 PM",
           "P-lauryn-butler": "9:30 PM",
           "P-marcus-mainer": "9:30 PM",
           "P-marissa-downie": "9:30 PM",
           "P-michael-stover": "9:30 PM",
           "P-moenike-custard": "9:30 PM",
-          "P-nelcia-fosttin": "9:30 PM",
+          "P-nelcia-fosttin": "8:00 PM",
           "P-shanice-palmer": "9:30 PM",
           "P-tasha-simeon": "9:30 PM",
           "P-tyfany-adaka": "9:30 PM",
@@ -867,7 +867,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.\n\nChild performers without acting lines or dance are released at 8:00 PM on November 5.",
+        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.\n\n8:00 PM RELEASE — Allania Mitchell, Annalise Mongeois, Ariella Davidson, Kennedy McCalla, Kourtney—Ann Palmer, and Nelcia Fosttin. These six performers are excused from the 8:00–9:30 PM block on November 5.",
         "callGroups": [],
         "calledPeople": [
           {
@@ -1087,11 +1087,11 @@
         },
         "personalCallEndTimes": {
           "P-alexandria-platt": "9:30 PM",
-          "P-allania-mitchell": "9:30 PM",
+          "P-allania-mitchell": "8:00 PM",
           "P-alyssa-johnson": "9:30 PM",
           "P-anaia-downer": "9:30 PM",
-          "P-annalise-mongeois": "9:30 PM",
-          "P-ariella-davidson": "9:30 PM",
+          "P-annalise-mongeois": "8:00 PM",
+          "P-ariella-davidson": "8:00 PM",
           "P-arielle-brown": "9:30 PM",
           "P-ashley-pierre": "9:30 PM",
           "P-aubrie-lewis": "9:30 PM",
@@ -1115,15 +1115,15 @@
           "P-jayden-harris": "9:30 PM",
           "P-jordyn-starks": "9:30 PM",
           "P-jeovanie-andre": "9:30 PM",
-          "P-kennedy-mccalla": "9:30 PM",
+          "P-kennedy-mccalla": "8:00 PM",
           "P-kevin-hohn": "9:30 PM",
-          "P-kourtney-ann-palmer": "9:30 PM",
+          "P-kourtney-ann-palmer": "8:00 PM",
           "P-lauryn-butler": "9:30 PM",
           "P-marcus-mainer": "9:30 PM",
           "P-marissa-downie": "9:30 PM",
           "P-michael-stover": "9:30 PM",
           "P-moenike-custard": "9:30 PM",
-          "P-nelcia-fosttin": "9:30 PM",
+          "P-nelcia-fosttin": "8:00 PM",
           "P-shanice-palmer": "9:30 PM",
           "P-tasha-simeon": "9:30 PM",
           "P-tyfany-adaka": "9:30 PM",
@@ -5778,7 +5778,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.\n\nChild performers without acting lines or dance are released at 8:00 PM on November 5.",
+        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.\n\n8:00 PM RELEASE — Allania Mitchell, Annalise Mongeois, Ariella Davidson, Kennedy McCalla, Kourtney—Ann Palmer, and Nelcia Fosttin. These six performers are excused from the 8:00–9:30 PM block on November 5.",
         "callGroups": [],
         "calledPeople": [
           {
@@ -5998,11 +5998,11 @@
         },
         "personalCallEndTimes": {
           "P-alexandria-platt": "9:30 PM",
-          "P-allania-mitchell": "9:30 PM",
+          "P-allania-mitchell": "8:00 PM",
           "P-alyssa-johnson": "9:30 PM",
           "P-anaia-downer": "9:30 PM",
-          "P-annalise-mongeois": "9:30 PM",
-          "P-ariella-davidson": "9:30 PM",
+          "P-annalise-mongeois": "8:00 PM",
+          "P-ariella-davidson": "8:00 PM",
           "P-arielle-brown": "9:30 PM",
           "P-ashley-pierre": "9:30 PM",
           "P-aubrie-lewis": "9:30 PM",
@@ -6026,15 +6026,15 @@
           "P-jayden-harris": "9:30 PM",
           "P-jordyn-starks": "9:30 PM",
           "P-jeovanie-andre": "9:30 PM",
-          "P-kennedy-mccalla": "9:30 PM",
+          "P-kennedy-mccalla": "8:00 PM",
           "P-kevin-hohn": "9:30 PM",
-          "P-kourtney-ann-palmer": "9:30 PM",
+          "P-kourtney-ann-palmer": "8:00 PM",
           "P-lauryn-butler": "9:30 PM",
           "P-marcus-mainer": "9:30 PM",
           "P-marissa-downie": "9:30 PM",
           "P-michael-stover": "9:30 PM",
           "P-moenike-custard": "9:30 PM",
-          "P-nelcia-fosttin": "9:30 PM",
+          "P-nelcia-fosttin": "8:00 PM",
           "P-shanice-palmer": "9:30 PM",
           "P-tasha-simeon": "9:30 PM",
           "P-tyfany-adaka": "9:30 PM",
@@ -10950,7 +10950,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-02T16:27:28.514Z",
+    "updated": "2026-11-02T16:56:44.565Z",
     "kind": "scripts"
   },
   "music": {
@@ -11199,7 +11199,7 @@
       }
     ],
     "count": 8,
-    "updated": "2026-11-02T16:27:28.515Z",
+    "updated": "2026-11-02T16:56:44.565Z",
     "kind": "music"
   }
 }
