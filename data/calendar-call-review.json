@@ -63,6 +63,7 @@
       "November5": 42,
       "range": "Personal Calls!A286:G340"
     },
-    "purpose": "Sync approved source changes and complete personal windows; replace prior unresolved November 4 and 5 decisions."
+    "purpose": "Sync approved source changes and complete personal windows; replace prior unresolved November 4 and 5 decisions.",
+    "publicationScope": "Calendar-only activation of approved source calls; preserve existing script content."
   }
 }
