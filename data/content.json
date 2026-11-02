@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T16:15:41.553Z",
+  "updated": "2026-11-02T16:27:28.509Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -256,7 +256,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.",
+        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.\n\nChild performers without acting lines or dance are released at 8:00 PM on November 5.",
         "callGroups": [],
         "calledPeople": [
           {
@@ -867,7 +867,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.",
+        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.\n\nChild performers without acting lines or dance are released at 8:00 PM on November 5.",
         "callGroups": [],
         "calledPeople": [
           {
@@ -5778,7 +5778,7 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.",
+        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.\n\nChild performers without acting lines or dance are released at 8:00 PM on November 5.",
         "callGroups": [],
         "calledPeople": [
           {
@@ -10950,7 +10950,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-02T16:15:41.560Z",
+    "updated": "2026-11-02T16:27:28.514Z",
     "kind": "scripts"
   },
   "music": {
@@ -11199,7 +11199,7 @@
       }
     ],
     "count": 8,
-    "updated": "2026-11-02T16:15:41.561Z",
+    "updated": "2026-11-02T16:27:28.515Z",
     "kind": "music"
   }
 }
