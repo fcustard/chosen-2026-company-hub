@@ -65,5 +65,13 @@
     },
     "purpose": "Sync approved source changes and complete personal windows; replace prior unresolved November 4 and 5 decisions.",
     "publicationScope": "Calendar-only activation of approved source calls; preserve existing script content."
+  },
+  "november5ChildRelease": {
+    "date": "2026-11-02",
+    "directorRule": "Child performers without acting lines or dance are released at 8:00 PM on November 5.",
+    "status": "Rule approved; named exceptions need director identification because all six active Children/Youth have Scene 12 Dance Ensemble assignments.",
+    "namedReleaseChanges": [],
+    "supersedes": "Blanket inference that every finale ensemble performer must remain until 9:30 PM.",
+    "publicationScope": "Calendar-only sync; keep existing script content."
   }
 }
