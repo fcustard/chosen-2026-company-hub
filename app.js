@@ -1528,14 +1528,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
     }
 
-    const pendingCount = all.filter(call => new Date(call.end) >= now &&
-      ['REVIEW', 'PENDING', 'HOLD'].includes(String(call.exactCallStatus || '').trim().toUpperCase())).length;
-    if (pendingCount && upcomingList) {
-      const notice = document.createElement('div');
-      notice.className = 'callPublicationNotice';
-      notice.innerHTML = `<strong>${pendingCount} upcoming company event${pendingCount === 1 ? '' : 's'} ${pendingCount === 1 ? 'has' : 'have'} personal assignments awaiting confirmation.</strong><p>An event can be confirmed while its personal call list is still being reviewed. An event missing from My Calls does not confirm that you are excused. Check the company schedule or ask production before planning your attendance.</p><a href="schedule.html?view=all#upcomingSchedule">Review the company schedule →</a>`;
-      upcomingList.before(notice);
-    }
     if (location.hash.startsWith('#call-')) selected = [];
     renderPersonalControls();
     renderFilters();
