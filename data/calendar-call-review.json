@@ -115,7 +115,7 @@
     "pagesRun": 41486392040
   },
   "latestCalendarAudit": {
-    "reviewedAt": "2026-11-02T17:07:59Z",
+    "reviewedAt": "2026-11-02T22:48:00Z",
     "futureMappedGoogleEventsRead": 20,
     "googleMismatches": 0,
     "descriptionComparison": "Whitespace normalized, including wrapped Hub URL.",
@@ -125,6 +125,15 @@
     "activePeopleVerified": 55,
     "activeAssignmentsVerified": 85,
     "remainingDecisions": "Existing future selective/TBD calls remain REVIEW; November 5 named early-release decision is resolved.",
-    "newlyObservedChange": "Six director-approved November 5 releases at 8:00 PM are live; shared schedule window unchanged."
+    "newlyObservedChange": "Six director-approved November 5 releases at 8:00 PM are live; shared schedule window unchanged.",
+    "sourceChanges": [
+      "November 4 approved source title adds Scenes 2 and 6; the first block now reads 6:30–8:30 PM and overlaps Scenes 4/5 at 7:30–8:30 PM.",
+      "November 5 shortened call text omitted the six approved 8:00 PM releases; restored explicit note from AA37 without changing Personal Calls."
+    ],
+    "pendingDirectorDecision": {
+      "eventKey": "CHOSEN-20261104-REH",
+      "decision": "Confirm whether the Scenes 2, 3, 6 & 8 block ends at 7:30 PM or 8:30 PM, or if the overlap with Scenes 4 & 5 is intended. Current named people and personal report/release times are preserved."
+    },
+    "purpose": "Sync approved sheet changes; retain personal windows; no private calls in public calendar."
   }
 }
