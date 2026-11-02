@@ -46,5 +46,23 @@
         "decision": "REVIEW 2026-11-01: 42 active names retained, including Allania; Annetta withdrawn. Director must identify the 8:00-9:30 PM teen-dancer/actor subset and approve each person's report/release time before publishing individual calls."
       }
     ]
+  },
+  "directorApprovalNovember4And5": {
+    "date": "2026-11-02",
+    "source": "Director instruction in CHOSEN conversation",
+    "changedEventKeys": [
+      "CHOSEN-20261104-REH",
+      "CHOSEN-20261105-REH"
+    ],
+    "decisions": [
+      "APPROVED 2026-11-02: Director removed Moenike Custard's Talia understudy call for November 4 only. 13 exact actors; personal report/release times follow the three approved scene blocks in Who Is Called.",
+      "APPROVED 2026-11-02: Director confirmed 8:00-9:30 PM for Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends, plus ensemble for the final look before bows. All 42 active performer names remain called for the combined blocks; personal window 6:30-9:30 PM. Annetta remains withdrawn."
+    ],
+    "personalCalls": {
+      "November4": 13,
+      "November5": 42,
+      "range": "Personal Calls!A286:G340"
+    },
+    "purpose": "Sync approved source changes and complete personal windows; replace prior unresolved November 4 and 5 decisions."
   }
 }
