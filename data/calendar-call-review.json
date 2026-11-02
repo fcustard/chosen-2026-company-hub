@@ -69,9 +69,62 @@
   "november5ChildRelease": {
     "date": "2026-11-02",
     "directorRule": "Child performers without acting lines or dance are released at 8:00 PM on November 5.",
-    "status": "Rule approved; named exceptions need director identification because all six active Children/Youth have Scene 12 Dance Ensemble assignments.",
-    "namedReleaseChanges": [],
+    "status": "Resolved: director-approved date-specific named exceptions are recorded in Master Calendar F37/AA37 and Personal Calls; verified in live Hub after successful Pages publication.",
+    "namedReleaseChanges": [
+      {
+        "personId": "P-allania-mitchell",
+        "name": "Allania Mitchell",
+        "report": "6:30 PM",
+        "release": "8:00 PM"
+      },
+      {
+        "personId": "P-annalise-mongeois",
+        "name": "Annalise Mongeois",
+        "report": "6:30 PM",
+        "release": "8:00 PM"
+      },
+      {
+        "personId": "P-ariella-davidson",
+        "name": "Ariella Davidson",
+        "report": "6:30 PM",
+        "release": "8:00 PM"
+      },
+      {
+        "personId": "P-kennedy-mccalla",
+        "name": "Kennedy McCalla",
+        "report": "6:30 PM",
+        "release": "8:00 PM"
+      },
+      {
+        "personId": "P-kourtney-ann-palmer",
+        "name": "Kourtney—Ann Palmer",
+        "report": "6:30 PM",
+        "release": "8:00 PM"
+      },
+      {
+        "personId": "P-nelcia-fosttin",
+        "name": "Nelcia Fosttin",
+        "report": "6:30 PM",
+        "release": "8:00 PM"
+      }
+    ],
     "supersedes": "Blanket inference that every finale ensemble performer must remain until 9:30 PM.",
-    "publicationScope": "Calendar-only sync; keep existing script content."
+    "publicationScope": "Calendar-only sync; keep existing script content.",
+    "verifiedAt": "2026-11-02T17:07:59Z",
+    "source": "Master Calendar AA37 director approval dated 2026-11-02; date-specific exception overrides Scene 12 participation on November 5 only.",
+    "pagesRun": 41486392040
+  },
+  "latestCalendarAudit": {
+    "reviewedAt": "2026-11-02T17:07:59Z",
+    "futureMappedGoogleEventsRead": 20,
+    "googleMismatches": 0,
+    "descriptionComparison": "Whitespace normalized, including wrapped Hub URL.",
+    "publishedIcsBlob": "a55a4ff497b1b1a75b1a12a243b565ae19054eb3",
+    "verifiedRehearsalsBlob": "49eabed6709aee13812069e5ef7af94bbc906bc8",
+    "personalRowsVerified": 55,
+    "activePeopleVerified": 55,
+    "activeAssignmentsVerified": 85,
+    "remainingDecisions": "Existing future selective/TBD calls remain REVIEW; November 5 named early-release decision is resolved.",
+    "newlyObservedChange": "Six director-approved November 5 releases at 8:00 PM are live; shared schedule window unchanged."
   }
 }
