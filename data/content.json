@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T07:23:52.896Z",
+  "updated": "2026-11-02T16:15:41.553Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -27,12 +27,96 @@
     "status": "CONFIRMED",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "6:30-7:30 PM- Scene 3 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
+    "called": "6:30-7:30 PM- Scene 3 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
     "callGroups": [],
-    "calledPeople": [],
-    "calledPeopleIds": [],
+    "calledPeople": [
+      {
+        "displayName": "Ashley Pierre"
+      },
+      {
+        "displayName": "Audrey Howell-McClenney"
+      },
+      {
+        "displayName": "Caleb Davilmar"
+      },
+      {
+        "displayName": "Cedrick Massey"
+      },
+      {
+        "displayName": "Chris Mcanuff"
+      },
+      {
+        "displayName": "Dorrien Jones"
+      },
+      {
+        "displayName": "Jéovanie André"
+      },
+      {
+        "displayName": "Jordyn Starks"
+      },
+      {
+        "displayName": "Marcus Mainer"
+      },
+      {
+        "displayName": "Michael Stover"
+      },
+      {
+        "displayName": "Shanice Palmer"
+      },
+      {
+        "displayName": "Tasha Simeon"
+      },
+      {
+        "displayName": "Tyfany Adaka"
+      }
+    ],
+    "calledPeopleIds": [
+      "P-ashley-pierre",
+      "P-audrey-howell-mcclenney",
+      "P-caleb-davilmar",
+      "P-cedrick-massey",
+      "P-chris-mcanuff",
+      "P-dorrien-jones",
+      "P-jeovanie-andre",
+      "P-jordyn-starks",
+      "P-marcus-mainer",
+      "P-michael-stover",
+      "P-shanice-palmer",
+      "P-tasha-simeon",
+      "P-tyfany-adaka"
+    ],
+    "personalCallTimes": {
+      "P-ashley-pierre": "7:30 PM",
+      "P-audrey-howell-mcclenney": "8:30 PM",
+      "P-caleb-davilmar": "6:30 PM",
+      "P-cedrick-massey": "6:30 PM",
+      "P-chris-mcanuff": "7:30 PM",
+      "P-dorrien-jones": "7:30 PM",
+      "P-jeovanie-andre": "7:30 PM",
+      "P-jordyn-starks": "6:30 PM",
+      "P-marcus-mainer": "7:30 PM",
+      "P-michael-stover": "7:30 PM",
+      "P-shanice-palmer": "7:30 PM",
+      "P-tasha-simeon": "7:30 PM",
+      "P-tyfany-adaka": "7:30 PM"
+    },
+    "personalCallEndTimes": {
+      "P-ashley-pierre": "8:30 PM",
+      "P-audrey-howell-mcclenney": "9:30 PM",
+      "P-caleb-davilmar": "9:30 PM",
+      "P-cedrick-massey": "9:30 PM",
+      "P-chris-mcanuff": "9:30 PM",
+      "P-dorrien-jones": "9:30 PM",
+      "P-jeovanie-andre": "8:30 PM",
+      "P-jordyn-starks": "9:30 PM",
+      "P-marcus-mainer": "9:30 PM",
+      "P-michael-stover": "9:30 PM",
+      "P-shanice-palmer": "8:30 PM",
+      "P-tasha-simeon": "8:30 PM",
+      "P-tyfany-adaka": "8:30 PM"
+    },
     "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
     "work": "Choreography; Off-book principals; practice songs; recording",
     "focus": "",
@@ -60,12 +144,96 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30-7:30 PM- Scene 3 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
+        "called": "6:30-7:30 PM- Scene 3 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
         "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
+        "calledPeople": [
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-ashley-pierre",
+          "P-audrey-howell-mcclenney",
+          "P-caleb-davilmar",
+          "P-cedrick-massey",
+          "P-chris-mcanuff",
+          "P-dorrien-jones",
+          "P-jeovanie-andre",
+          "P-jordyn-starks",
+          "P-marcus-mainer",
+          "P-michael-stover",
+          "P-shanice-palmer",
+          "P-tasha-simeon",
+          "P-tyfany-adaka"
+        ],
+        "personalCallTimes": {
+          "P-ashley-pierre": "7:30 PM",
+          "P-audrey-howell-mcclenney": "8:30 PM",
+          "P-caleb-davilmar": "6:30 PM",
+          "P-cedrick-massey": "6:30 PM",
+          "P-chris-mcanuff": "7:30 PM",
+          "P-dorrien-jones": "7:30 PM",
+          "P-jeovanie-andre": "7:30 PM",
+          "P-jordyn-starks": "6:30 PM",
+          "P-marcus-mainer": "7:30 PM",
+          "P-michael-stover": "7:30 PM",
+          "P-shanice-palmer": "7:30 PM",
+          "P-tasha-simeon": "7:30 PM",
+          "P-tyfany-adaka": "7:30 PM"
+        },
+        "personalCallEndTimes": {
+          "P-ashley-pierre": "8:30 PM",
+          "P-audrey-howell-mcclenney": "9:30 PM",
+          "P-caleb-davilmar": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-chris-mcanuff": "9:30 PM",
+          "P-dorrien-jones": "9:30 PM",
+          "P-jeovanie-andre": "8:30 PM",
+          "P-jordyn-starks": "9:30 PM",
+          "P-marcus-mainer": "9:30 PM",
+          "P-michael-stover": "9:30 PM",
+          "P-shanice-palmer": "8:30 PM",
+          "P-tasha-simeon": "8:30 PM",
+          "P-tyfany-adaka": "8:30 PM"
+        },
         "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Choreography; Off-book principals; practice songs; recording",
         "focus": "",
@@ -88,12 +256,270 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–8:00 PM —Scene 1 & 9 (ALL Dancers, Actors, Ensemble) \n\n8:00 PM–9:30 PM- Scene 11 & 12 (TEEN Dancers & Actors)",
+        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.",
         "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
+        "calledPeople": [
+          {
+            "displayName": "Alexandria Platt"
+          },
+          {
+            "displayName": "Allania Mitchell"
+          },
+          {
+            "displayName": "Alyssa Johnson"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Arielle Brown"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Aubrie Lewis"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Carmen Brown"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Dana Quamina"
+          },
+          {
+            "displayName": "DeAndra Gray"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Kennedy McCalla"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Kourtney—Ann Palmer"
+          },
+          {
+            "displayName": "Lauryn Butler"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Moenike Custard"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-alexandria-platt",
+          "P-allania-mitchell",
+          "P-alyssa-johnson",
+          "P-anaia-downer",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-arielle-brown",
+          "P-ashley-pierre",
+          "P-aubrie-lewis",
+          "P-audrey-howell-mcclenney",
+          "P-caleb-davilmar",
+          "P-caris-hunte",
+          "P-carmen-brown",
+          "P-cedrick-massey",
+          "P-charla-yvonne-cornelius",
+          "P-chris-mcanuff",
+          "P-dana-quamina",
+          "P-deandra-gray",
+          "P-delvin-rogers-jr",
+          "P-dorrien-jones",
+          "P-edison-browne",
+          "P-fredrick-custard",
+          "P-gabriela-sardinas",
+          "P-gabriella-fearon",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jayden-harris",
+          "P-jordyn-starks",
+          "P-jeovanie-andre",
+          "P-kennedy-mccalla",
+          "P-kevin-hohn",
+          "P-kourtney-ann-palmer",
+          "P-lauryn-butler",
+          "P-marcus-mainer",
+          "P-marissa-downie",
+          "P-michael-stover",
+          "P-moenike-custard",
+          "P-nelcia-fosttin",
+          "P-shanice-palmer",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-victorya-champagne"
+        ],
+        "personalCallTimes": {
+          "P-alexandria-platt": "6:30 PM",
+          "P-allania-mitchell": "6:30 PM",
+          "P-alyssa-johnson": "6:30 PM",
+          "P-anaia-downer": "6:30 PM",
+          "P-annalise-mongeois": "6:30 PM",
+          "P-ariella-davidson": "6:30 PM",
+          "P-arielle-brown": "6:30 PM",
+          "P-ashley-pierre": "6:30 PM",
+          "P-aubrie-lewis": "6:30 PM",
+          "P-audrey-howell-mcclenney": "6:30 PM",
+          "P-caleb-davilmar": "6:30 PM",
+          "P-caris-hunte": "6:30 PM",
+          "P-carmen-brown": "6:30 PM",
+          "P-cedrick-massey": "6:30 PM",
+          "P-charla-yvonne-cornelius": "6:30 PM",
+          "P-chris-mcanuff": "6:30 PM",
+          "P-dana-quamina": "6:30 PM",
+          "P-deandra-gray": "6:30 PM",
+          "P-delvin-rogers-jr": "6:30 PM",
+          "P-dorrien-jones": "6:30 PM",
+          "P-edison-browne": "6:30 PM",
+          "P-fredrick-custard": "6:30 PM",
+          "P-gabriela-sardinas": "6:30 PM",
+          "P-gabriella-fearon": "6:30 PM",
+          "P-gelvina-maxime": "6:30 PM",
+          "P-james-myers": "6:30 PM",
+          "P-jayden-harris": "6:30 PM",
+          "P-jordyn-starks": "6:30 PM",
+          "P-jeovanie-andre": "6:30 PM",
+          "P-kennedy-mccalla": "6:30 PM",
+          "P-kevin-hohn": "6:30 PM",
+          "P-kourtney-ann-palmer": "6:30 PM",
+          "P-lauryn-butler": "6:30 PM",
+          "P-marcus-mainer": "6:30 PM",
+          "P-marissa-downie": "6:30 PM",
+          "P-michael-stover": "6:30 PM",
+          "P-moenike-custard": "6:30 PM",
+          "P-nelcia-fosttin": "6:30 PM",
+          "P-shanice-palmer": "6:30 PM",
+          "P-tasha-simeon": "6:30 PM",
+          "P-tyfany-adaka": "6:30 PM",
+          "P-victorya-champagne": "6:30 PM"
+        },
+        "personalCallEndTimes": {
+          "P-alexandria-platt": "9:30 PM",
+          "P-allania-mitchell": "9:30 PM",
+          "P-alyssa-johnson": "9:30 PM",
+          "P-anaia-downer": "9:30 PM",
+          "P-annalise-mongeois": "9:30 PM",
+          "P-ariella-davidson": "9:30 PM",
+          "P-arielle-brown": "9:30 PM",
+          "P-ashley-pierre": "9:30 PM",
+          "P-aubrie-lewis": "9:30 PM",
+          "P-audrey-howell-mcclenney": "9:30 PM",
+          "P-caleb-davilmar": "9:30 PM",
+          "P-caris-hunte": "9:30 PM",
+          "P-carmen-brown": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-charla-yvonne-cornelius": "9:30 PM",
+          "P-chris-mcanuff": "9:30 PM",
+          "P-dana-quamina": "9:30 PM",
+          "P-deandra-gray": "9:30 PM",
+          "P-delvin-rogers-jr": "9:30 PM",
+          "P-dorrien-jones": "9:30 PM",
+          "P-edison-browne": "9:30 PM",
+          "P-fredrick-custard": "9:30 PM",
+          "P-gabriela-sardinas": "9:30 PM",
+          "P-gabriella-fearon": "9:30 PM",
+          "P-gelvina-maxime": "9:30 PM",
+          "P-james-myers": "9:30 PM",
+          "P-jayden-harris": "9:30 PM",
+          "P-jordyn-starks": "9:30 PM",
+          "P-jeovanie-andre": "9:30 PM",
+          "P-kennedy-mccalla": "9:30 PM",
+          "P-kevin-hohn": "9:30 PM",
+          "P-kourtney-ann-palmer": "9:30 PM",
+          "P-lauryn-butler": "9:30 PM",
+          "P-marcus-mainer": "9:30 PM",
+          "P-marissa-downie": "9:30 PM",
+          "P-michael-stover": "9:30 PM",
+          "P-moenike-custard": "9:30 PM",
+          "P-nelcia-fosttin": "9:30 PM",
+          "P-shanice-palmer": "9:30 PM",
+          "P-tasha-simeon": "9:30 PM",
+          "P-tyfany-adaka": "9:30 PM",
+          "P-victorya-champagne": "9:30 PM"
+        },
         "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Transition drills +Choreography; Off-book principals; practice songs",
         "focus": "",
@@ -329,12 +755,96 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30-7:30 PM- Scene 3 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
+        "called": "6:30-7:30 PM- Scene 3 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
         "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
+        "calledPeople": [
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-ashley-pierre",
+          "P-audrey-howell-mcclenney",
+          "P-caleb-davilmar",
+          "P-cedrick-massey",
+          "P-chris-mcanuff",
+          "P-dorrien-jones",
+          "P-jeovanie-andre",
+          "P-jordyn-starks",
+          "P-marcus-mainer",
+          "P-michael-stover",
+          "P-shanice-palmer",
+          "P-tasha-simeon",
+          "P-tyfany-adaka"
+        ],
+        "personalCallTimes": {
+          "P-ashley-pierre": "7:30 PM",
+          "P-audrey-howell-mcclenney": "8:30 PM",
+          "P-caleb-davilmar": "6:30 PM",
+          "P-cedrick-massey": "6:30 PM",
+          "P-chris-mcanuff": "7:30 PM",
+          "P-dorrien-jones": "7:30 PM",
+          "P-jeovanie-andre": "7:30 PM",
+          "P-jordyn-starks": "6:30 PM",
+          "P-marcus-mainer": "7:30 PM",
+          "P-michael-stover": "7:30 PM",
+          "P-shanice-palmer": "7:30 PM",
+          "P-tasha-simeon": "7:30 PM",
+          "P-tyfany-adaka": "7:30 PM"
+        },
+        "personalCallEndTimes": {
+          "P-ashley-pierre": "8:30 PM",
+          "P-audrey-howell-mcclenney": "9:30 PM",
+          "P-caleb-davilmar": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-chris-mcanuff": "9:30 PM",
+          "P-dorrien-jones": "9:30 PM",
+          "P-jeovanie-andre": "8:30 PM",
+          "P-jordyn-starks": "9:30 PM",
+          "P-marcus-mainer": "9:30 PM",
+          "P-michael-stover": "9:30 PM",
+          "P-shanice-palmer": "8:30 PM",
+          "P-tasha-simeon": "8:30 PM",
+          "P-tyfany-adaka": "8:30 PM"
+        },
         "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Choreography; Off-book principals; practice songs; recording",
         "focus": "",
@@ -357,12 +867,270 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–8:00 PM —Scene 1 & 9 (ALL Dancers, Actors, Ensemble) \n\n8:00 PM–9:30 PM- Scene 11 & 12 (TEEN Dancers & Actors)",
+        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.",
         "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
+        "calledPeople": [
+          {
+            "displayName": "Alexandria Platt"
+          },
+          {
+            "displayName": "Allania Mitchell"
+          },
+          {
+            "displayName": "Alyssa Johnson"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Arielle Brown"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Aubrie Lewis"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Carmen Brown"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Dana Quamina"
+          },
+          {
+            "displayName": "DeAndra Gray"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Kennedy McCalla"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Kourtney—Ann Palmer"
+          },
+          {
+            "displayName": "Lauryn Butler"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Moenike Custard"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-alexandria-platt",
+          "P-allania-mitchell",
+          "P-alyssa-johnson",
+          "P-anaia-downer",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-arielle-brown",
+          "P-ashley-pierre",
+          "P-aubrie-lewis",
+          "P-audrey-howell-mcclenney",
+          "P-caleb-davilmar",
+          "P-caris-hunte",
+          "P-carmen-brown",
+          "P-cedrick-massey",
+          "P-charla-yvonne-cornelius",
+          "P-chris-mcanuff",
+          "P-dana-quamina",
+          "P-deandra-gray",
+          "P-delvin-rogers-jr",
+          "P-dorrien-jones",
+          "P-edison-browne",
+          "P-fredrick-custard",
+          "P-gabriela-sardinas",
+          "P-gabriella-fearon",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jayden-harris",
+          "P-jordyn-starks",
+          "P-jeovanie-andre",
+          "P-kennedy-mccalla",
+          "P-kevin-hohn",
+          "P-kourtney-ann-palmer",
+          "P-lauryn-butler",
+          "P-marcus-mainer",
+          "P-marissa-downie",
+          "P-michael-stover",
+          "P-moenike-custard",
+          "P-nelcia-fosttin",
+          "P-shanice-palmer",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-victorya-champagne"
+        ],
+        "personalCallTimes": {
+          "P-alexandria-platt": "6:30 PM",
+          "P-allania-mitchell": "6:30 PM",
+          "P-alyssa-johnson": "6:30 PM",
+          "P-anaia-downer": "6:30 PM",
+          "P-annalise-mongeois": "6:30 PM",
+          "P-ariella-davidson": "6:30 PM",
+          "P-arielle-brown": "6:30 PM",
+          "P-ashley-pierre": "6:30 PM",
+          "P-aubrie-lewis": "6:30 PM",
+          "P-audrey-howell-mcclenney": "6:30 PM",
+          "P-caleb-davilmar": "6:30 PM",
+          "P-caris-hunte": "6:30 PM",
+          "P-carmen-brown": "6:30 PM",
+          "P-cedrick-massey": "6:30 PM",
+          "P-charla-yvonne-cornelius": "6:30 PM",
+          "P-chris-mcanuff": "6:30 PM",
+          "P-dana-quamina": "6:30 PM",
+          "P-deandra-gray": "6:30 PM",
+          "P-delvin-rogers-jr": "6:30 PM",
+          "P-dorrien-jones": "6:30 PM",
+          "P-edison-browne": "6:30 PM",
+          "P-fredrick-custard": "6:30 PM",
+          "P-gabriela-sardinas": "6:30 PM",
+          "P-gabriella-fearon": "6:30 PM",
+          "P-gelvina-maxime": "6:30 PM",
+          "P-james-myers": "6:30 PM",
+          "P-jayden-harris": "6:30 PM",
+          "P-jordyn-starks": "6:30 PM",
+          "P-jeovanie-andre": "6:30 PM",
+          "P-kennedy-mccalla": "6:30 PM",
+          "P-kevin-hohn": "6:30 PM",
+          "P-kourtney-ann-palmer": "6:30 PM",
+          "P-lauryn-butler": "6:30 PM",
+          "P-marcus-mainer": "6:30 PM",
+          "P-marissa-downie": "6:30 PM",
+          "P-michael-stover": "6:30 PM",
+          "P-moenike-custard": "6:30 PM",
+          "P-nelcia-fosttin": "6:30 PM",
+          "P-shanice-palmer": "6:30 PM",
+          "P-tasha-simeon": "6:30 PM",
+          "P-tyfany-adaka": "6:30 PM",
+          "P-victorya-champagne": "6:30 PM"
+        },
+        "personalCallEndTimes": {
+          "P-alexandria-platt": "9:30 PM",
+          "P-allania-mitchell": "9:30 PM",
+          "P-alyssa-johnson": "9:30 PM",
+          "P-anaia-downer": "9:30 PM",
+          "P-annalise-mongeois": "9:30 PM",
+          "P-ariella-davidson": "9:30 PM",
+          "P-arielle-brown": "9:30 PM",
+          "P-ashley-pierre": "9:30 PM",
+          "P-aubrie-lewis": "9:30 PM",
+          "P-audrey-howell-mcclenney": "9:30 PM",
+          "P-caleb-davilmar": "9:30 PM",
+          "P-caris-hunte": "9:30 PM",
+          "P-carmen-brown": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-charla-yvonne-cornelius": "9:30 PM",
+          "P-chris-mcanuff": "9:30 PM",
+          "P-dana-quamina": "9:30 PM",
+          "P-deandra-gray": "9:30 PM",
+          "P-delvin-rogers-jr": "9:30 PM",
+          "P-dorrien-jones": "9:30 PM",
+          "P-edison-browne": "9:30 PM",
+          "P-fredrick-custard": "9:30 PM",
+          "P-gabriela-sardinas": "9:30 PM",
+          "P-gabriella-fearon": "9:30 PM",
+          "P-gelvina-maxime": "9:30 PM",
+          "P-james-myers": "9:30 PM",
+          "P-jayden-harris": "9:30 PM",
+          "P-jordyn-starks": "9:30 PM",
+          "P-jeovanie-andre": "9:30 PM",
+          "P-kennedy-mccalla": "9:30 PM",
+          "P-kevin-hohn": "9:30 PM",
+          "P-kourtney-ann-palmer": "9:30 PM",
+          "P-lauryn-butler": "9:30 PM",
+          "P-marcus-mainer": "9:30 PM",
+          "P-marissa-downie": "9:30 PM",
+          "P-michael-stover": "9:30 PM",
+          "P-moenike-custard": "9:30 PM",
+          "P-nelcia-fosttin": "9:30 PM",
+          "P-shanice-palmer": "9:30 PM",
+          "P-tasha-simeon": "9:30 PM",
+          "P-tyfany-adaka": "9:30 PM",
+          "P-victorya-champagne": "9:30 PM"
+        },
         "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Transition drills +Choreography; Off-book principals; practice songs",
         "focus": "",
@@ -4898,12 +5666,96 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30-7:30 PM- Scene 3 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Talia Understudy (Moenike), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
+        "called": "6:30-7:30 PM- Scene 3 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
         "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
+        "calledPeople": [
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-ashley-pierre",
+          "P-audrey-howell-mcclenney",
+          "P-caleb-davilmar",
+          "P-cedrick-massey",
+          "P-chris-mcanuff",
+          "P-dorrien-jones",
+          "P-jeovanie-andre",
+          "P-jordyn-starks",
+          "P-marcus-mainer",
+          "P-michael-stover",
+          "P-shanice-palmer",
+          "P-tasha-simeon",
+          "P-tyfany-adaka"
+        ],
+        "personalCallTimes": {
+          "P-ashley-pierre": "7:30 PM",
+          "P-audrey-howell-mcclenney": "8:30 PM",
+          "P-caleb-davilmar": "6:30 PM",
+          "P-cedrick-massey": "6:30 PM",
+          "P-chris-mcanuff": "7:30 PM",
+          "P-dorrien-jones": "7:30 PM",
+          "P-jeovanie-andre": "7:30 PM",
+          "P-jordyn-starks": "6:30 PM",
+          "P-marcus-mainer": "7:30 PM",
+          "P-michael-stover": "7:30 PM",
+          "P-shanice-palmer": "7:30 PM",
+          "P-tasha-simeon": "7:30 PM",
+          "P-tyfany-adaka": "7:30 PM"
+        },
+        "personalCallEndTimes": {
+          "P-ashley-pierre": "8:30 PM",
+          "P-audrey-howell-mcclenney": "9:30 PM",
+          "P-caleb-davilmar": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-chris-mcanuff": "9:30 PM",
+          "P-dorrien-jones": "9:30 PM",
+          "P-jeovanie-andre": "8:30 PM",
+          "P-jordyn-starks": "9:30 PM",
+          "P-marcus-mainer": "9:30 PM",
+          "P-michael-stover": "9:30 PM",
+          "P-shanice-palmer": "8:30 PM",
+          "P-tasha-simeon": "8:30 PM",
+          "P-tyfany-adaka": "8:30 PM"
+        },
         "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Choreography; Off-book principals; practice songs; recording",
         "focus": "",
@@ -4926,12 +5778,270 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30 PM–8:00 PM —Scene 1 & 9 (ALL Dancers, Actors, Ensemble) \n\n8:00 PM–9:30 PM- Scene 11 & 12 (TEEN Dancers & Actors)",
+        "called": "6:30 PM–8:00 PM — Scenes 1 & 9: All called dancers, actors, and ensemble.\n\n8:00 PM–9:30 PM — Scene 12 dancers and Scene 11 & 12 actors, including Mary's friends and Joseph's friends; ensemble for the final look before bows.",
         "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
+        "calledPeople": [
+          {
+            "displayName": "Alexandria Platt"
+          },
+          {
+            "displayName": "Allania Mitchell"
+          },
+          {
+            "displayName": "Alyssa Johnson"
+          },
+          {
+            "displayName": "Anaia Downer"
+          },
+          {
+            "displayName": "Annalise Mongeois"
+          },
+          {
+            "displayName": "Ariella Davidson"
+          },
+          {
+            "displayName": "Arielle Brown"
+          },
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Aubrie Lewis"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Caris Hunte"
+          },
+          {
+            "displayName": "Carmen Brown"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Charla-Yvonne Cornelius"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Dana Quamina"
+          },
+          {
+            "displayName": "DeAndra Gray"
+          },
+          {
+            "displayName": "Delvin Rogers Jr"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Edison Browne"
+          },
+          {
+            "displayName": "Fredrick Custard"
+          },
+          {
+            "displayName": "Gabriela Sardinas"
+          },
+          {
+            "displayName": "Gabriella Fearon"
+          },
+          {
+            "displayName": "Gelvina Maxime"
+          },
+          {
+            "displayName": "James Myers"
+          },
+          {
+            "displayName": "Jayden Harris"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Kennedy McCalla"
+          },
+          {
+            "displayName": "Kevin Hohn"
+          },
+          {
+            "displayName": "Kourtney—Ann Palmer"
+          },
+          {
+            "displayName": "Lauryn Butler"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Marissa Downie"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Moenike Custard"
+          },
+          {
+            "displayName": "Nelcia Fosttin"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Victorya Champagne"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-alexandria-platt",
+          "P-allania-mitchell",
+          "P-alyssa-johnson",
+          "P-anaia-downer",
+          "P-annalise-mongeois",
+          "P-ariella-davidson",
+          "P-arielle-brown",
+          "P-ashley-pierre",
+          "P-aubrie-lewis",
+          "P-audrey-howell-mcclenney",
+          "P-caleb-davilmar",
+          "P-caris-hunte",
+          "P-carmen-brown",
+          "P-cedrick-massey",
+          "P-charla-yvonne-cornelius",
+          "P-chris-mcanuff",
+          "P-dana-quamina",
+          "P-deandra-gray",
+          "P-delvin-rogers-jr",
+          "P-dorrien-jones",
+          "P-edison-browne",
+          "P-fredrick-custard",
+          "P-gabriela-sardinas",
+          "P-gabriella-fearon",
+          "P-gelvina-maxime",
+          "P-james-myers",
+          "P-jayden-harris",
+          "P-jordyn-starks",
+          "P-jeovanie-andre",
+          "P-kennedy-mccalla",
+          "P-kevin-hohn",
+          "P-kourtney-ann-palmer",
+          "P-lauryn-butler",
+          "P-marcus-mainer",
+          "P-marissa-downie",
+          "P-michael-stover",
+          "P-moenike-custard",
+          "P-nelcia-fosttin",
+          "P-shanice-palmer",
+          "P-tasha-simeon",
+          "P-tyfany-adaka",
+          "P-victorya-champagne"
+        ],
+        "personalCallTimes": {
+          "P-alexandria-platt": "6:30 PM",
+          "P-allania-mitchell": "6:30 PM",
+          "P-alyssa-johnson": "6:30 PM",
+          "P-anaia-downer": "6:30 PM",
+          "P-annalise-mongeois": "6:30 PM",
+          "P-ariella-davidson": "6:30 PM",
+          "P-arielle-brown": "6:30 PM",
+          "P-ashley-pierre": "6:30 PM",
+          "P-aubrie-lewis": "6:30 PM",
+          "P-audrey-howell-mcclenney": "6:30 PM",
+          "P-caleb-davilmar": "6:30 PM",
+          "P-caris-hunte": "6:30 PM",
+          "P-carmen-brown": "6:30 PM",
+          "P-cedrick-massey": "6:30 PM",
+          "P-charla-yvonne-cornelius": "6:30 PM",
+          "P-chris-mcanuff": "6:30 PM",
+          "P-dana-quamina": "6:30 PM",
+          "P-deandra-gray": "6:30 PM",
+          "P-delvin-rogers-jr": "6:30 PM",
+          "P-dorrien-jones": "6:30 PM",
+          "P-edison-browne": "6:30 PM",
+          "P-fredrick-custard": "6:30 PM",
+          "P-gabriela-sardinas": "6:30 PM",
+          "P-gabriella-fearon": "6:30 PM",
+          "P-gelvina-maxime": "6:30 PM",
+          "P-james-myers": "6:30 PM",
+          "P-jayden-harris": "6:30 PM",
+          "P-jordyn-starks": "6:30 PM",
+          "P-jeovanie-andre": "6:30 PM",
+          "P-kennedy-mccalla": "6:30 PM",
+          "P-kevin-hohn": "6:30 PM",
+          "P-kourtney-ann-palmer": "6:30 PM",
+          "P-lauryn-butler": "6:30 PM",
+          "P-marcus-mainer": "6:30 PM",
+          "P-marissa-downie": "6:30 PM",
+          "P-michael-stover": "6:30 PM",
+          "P-moenike-custard": "6:30 PM",
+          "P-nelcia-fosttin": "6:30 PM",
+          "P-shanice-palmer": "6:30 PM",
+          "P-tasha-simeon": "6:30 PM",
+          "P-tyfany-adaka": "6:30 PM",
+          "P-victorya-champagne": "6:30 PM"
+        },
+        "personalCallEndTimes": {
+          "P-alexandria-platt": "9:30 PM",
+          "P-allania-mitchell": "9:30 PM",
+          "P-alyssa-johnson": "9:30 PM",
+          "P-anaia-downer": "9:30 PM",
+          "P-annalise-mongeois": "9:30 PM",
+          "P-ariella-davidson": "9:30 PM",
+          "P-arielle-brown": "9:30 PM",
+          "P-ashley-pierre": "9:30 PM",
+          "P-aubrie-lewis": "9:30 PM",
+          "P-audrey-howell-mcclenney": "9:30 PM",
+          "P-caleb-davilmar": "9:30 PM",
+          "P-caris-hunte": "9:30 PM",
+          "P-carmen-brown": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-charla-yvonne-cornelius": "9:30 PM",
+          "P-chris-mcanuff": "9:30 PM",
+          "P-dana-quamina": "9:30 PM",
+          "P-deandra-gray": "9:30 PM",
+          "P-delvin-rogers-jr": "9:30 PM",
+          "P-dorrien-jones": "9:30 PM",
+          "P-edison-browne": "9:30 PM",
+          "P-fredrick-custard": "9:30 PM",
+          "P-gabriela-sardinas": "9:30 PM",
+          "P-gabriella-fearon": "9:30 PM",
+          "P-gelvina-maxime": "9:30 PM",
+          "P-james-myers": "9:30 PM",
+          "P-jayden-harris": "9:30 PM",
+          "P-jordyn-starks": "9:30 PM",
+          "P-jeovanie-andre": "9:30 PM",
+          "P-kennedy-mccalla": "9:30 PM",
+          "P-kevin-hohn": "9:30 PM",
+          "P-kourtney-ann-palmer": "9:30 PM",
+          "P-lauryn-butler": "9:30 PM",
+          "P-marcus-mainer": "9:30 PM",
+          "P-marissa-downie": "9:30 PM",
+          "P-michael-stover": "9:30 PM",
+          "P-moenike-custard": "9:30 PM",
+          "P-nelcia-fosttin": "9:30 PM",
+          "P-shanice-palmer": "9:30 PM",
+          "P-tasha-simeon": "9:30 PM",
+          "P-tyfany-adaka": "9:30 PM",
+          "P-victorya-champagne": "9:30 PM"
+        },
         "calledGroups": [],
-        "exactCallStatus": "REVIEW",
+        "exactCallStatus": "READY",
         "callDataVersion": 3,
         "work": "Transition drills +Choreography; Off-book principals; practice songs",
         "focus": "",
@@ -9840,7 +10950,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-02T07:23:52.903Z",
+    "updated": "2026-11-02T16:15:41.560Z",
     "kind": "scripts"
   },
   "music": {
@@ -10089,7 +11199,7 @@
       }
     ],
     "count": 8,
-    "updated": "2026-11-02T07:23:52.903Z",
+    "updated": "2026-11-02T16:15:41.561Z",
     "kind": "music"
   }
 }
