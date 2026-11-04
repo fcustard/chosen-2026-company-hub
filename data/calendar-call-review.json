@@ -130,10 +130,12 @@
       "November 4 approved source title adds Scenes 2 and 6; the first block now reads 6:30–8:30 PM and overlaps Scenes 4/5 at 7:30–8:30 PM.",
       "November 5 shortened call text omitted the six approved 8:00 PM releases; restored explicit note from AA37 without changing Personal Calls."
     ],
-    "pendingDirectorDecision": {
+    "purpose": "Sync approved sheet changes; retain personal windows; no private calls in public calendar.",
+    "resolvedDirectorDecision": {
       "eventKey": "CHOSEN-20261104-REH",
-      "decision": "Confirm whether the Scenes 2, 3, 6 & 8 block ends at 7:30 PM or 8:30 PM, or if the overlap with Scenes 4 & 5 is intended. Current named people and personal report/release times are preserved."
-    },
-    "purpose": "Sync approved sheet changes; retain personal windows; no private calls in public calendar."
+      "approvedOn": "2026-11-04",
+      "decision": "APPROVED 2026-11-04: Scenes 2, 3, 6 & 8 run from 6:30 to 8:30 PM. Scenes 4 & 5 run from 7:30 to 8:30 PM. The director approved the overlap from 7:30 to 8:30 PM.",
+      "source": "Master Calendar AA36 and director confirmation in chat"
+    }
   }
 }
