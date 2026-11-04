@@ -268,32 +268,32 @@
     {
       "date": "2026-11-04",
       "day": "Wed",
-      "time": "Within 6:30–9:30 PM — call list pending",
-      "phase": "SECOND FIT / REFIT",
-      "group": "Flagged performers included in the final rehearsal call only",
-      "task": "Verify corrected fit and full look; approve or return only remaining problem pieces.",
-      "alignment": "Master Calendar targeted cast is TBD. Confirm names and director-cleared rotations before assigning refit appointments.",
-      "goal": "Principal/featured fit locked where approved."
+      "time": "NO CALL — moved to Saturday, November 7",
+      "phase": "NO CALL — REFIT MOVED",
+      "group": "Principals and featured performers needing alterations",
+      "task": "Deferred to Saturday’s refit and costume check.",
+      "alignment": "Use the November 7 schedule for the combined fitting rotations.",
+      "goal": "Carry flagged looks forward to November 7."
     },
     {
       "date": "2026-11-05",
       "day": "Thu",
-      "time": "Within 6:30–9:30 PM — call list pending",
-      "phase": "SECOND FIT / REFIT",
-      "group": "Flagged performers included in the final rehearsal call only",
-      "task": "Movement/safety refit; check hems, closures, shoes and child comfort.",
-      "alignment": "Master Calendar targeted cast is TBD. Confirm names and director-cleared rotations before assigning refit appointments.",
-      "goal": "Dance/child fit locked where approved."
+      "time": "NO CALL — moved to Saturday, November 7",
+      "phase": "NO CALL — REFIT MOVED",
+      "group": "Dance ensemble and children needing alterations",
+      "task": "Deferred to Saturday’s refit and costume check.",
+      "alignment": "Use the November 7 schedule for the combined fitting rotations.",
+      "goal": "Carry flagged looks forward to November 7."
     },
     {
       "date": "2026-11-07",
       "day": "Sat",
       "time": "Within 10:00 AM–2:00 PM",
       "phase": "SECOND FIT / COSTUME CHECK",
-      "group": "Full Company flagged performers + missed refits",
-      "task": "Close outstanding fit issues; photograph approved looks; verify costume labeling and scene continuity.",
-      "alignment": "Full Company is called Nov. 7. Refit flagged performers in director-cleared rotations; no early arrival.",
-      "goal": "Most costume fits locked."
+      "group": "Flagged performers and missed refits",
+      "task": "Refit principals and featured performers, dancers and children who need alterations, and other flagged performers or missed refits. Verify fit, movement, hems, closures, shoes and comfort. Photograph approved looks and check costume labels.",
+      "alignment": "Includes the deferred November 4 and 5 wardrobe calls. Wardrobe and stage management will release flagged performers in short rotations during the full-company rehearsal. Individual slots are pending. No early arrival.",
+      "goal": "Lock corrected fits and record any remaining alterations."
     },
     {
       "date": "2026-11-11",
@@ -758,5 +758,5 @@
       "purpose": "Wardrobe ready for performance"
     }
   ],
-  "syncedAt": "2026-10-03T01:10:19.886Z"
+  "syncedAt": "2026-11-04T17:54:53.531Z"
 }
