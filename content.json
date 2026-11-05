@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T01:02:41.586Z",
+  "updated": "2026-11-05T07:49:12.065Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -13,25 +13,49 @@
     "calendarFeed": "https://fcustard.github.io/chosen-2026-company-hub/chosen-calendar.ics"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20261104-REH",
-    "eventKey": "CHOSEN-20261104-REH",
-    "start": "2026-11-04T23:30:00.000Z",
-    "end": "2026-11-05T02:30:00.000Z",
-    "date": "November 4, 2026",
-    "dateIso": "2026-11-04",
-    "day": "Wednesday",
-    "dateLabel": "November 4, 2026",
-    "dayLabel": "Wednesday",
+    "id": "CHOSEN-20261105-REH",
+    "eventKey": "CHOSEN-20261105-REH",
+    "start": "2026-11-05T23:30:00.000Z",
+    "end": "2026-11-06T02:30:00.000Z",
+    "date": "November 5, 2026",
+    "dateIso": "2026-11-05",
+    "day": "Thursday",
+    "dateLabel": "November 5, 2026",
+    "dayLabel": "Thursday",
     "time": "6:30 PM–9:30 PM",
-    "title": "CHOSEN Rehearsal - Scenes 2-8 (ACTORS ONLY)",
+    "title": "CHOSEN Rehearsal - Scenes 1,9,11,12 (Actors, Dancers, Ensemble)",
     "status": "CONFIRMED",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "6:30-8:30 PM- Scene 2,3,6 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
+    "called": "6:30 PM–8:00 PM — Scenes 1 & 9: (dancers, actors, and ensemble)\n8:00 PM–9:30 PM — Scenes 11 & 12 (dancers, actors, ensemble)\n\n8:00 PM RELEASE — Allania Mitchell, Annalise Mongeois, Ariella Davidson, Kennedy McCalla, Kourtney—Ann Palmer, and Nelcia Fosttin. These six performers are excused from the 8:00–9:30 PM block on November 5, per the director approval in AA37. All other personal report/release times stay the same.",
     "callGroups": [],
     "calledPeople": [
       {
+        "displayName": "Alexandria Platt"
+      },
+      {
+        "displayName": "Allania Mitchell"
+      },
+      {
+        "displayName": "Alyssa Johnson"
+      },
+      {
+        "displayName": "Anaia Downer"
+      },
+      {
+        "displayName": "Annalise Mongeois"
+      },
+      {
+        "displayName": "Ariella Davidson"
+      },
+      {
+        "displayName": "Arielle Brown"
+      },
+      {
         "displayName": "Ashley Pierre"
+      },
+      {
+        "displayName": "Aubrie Lewis"
       },
       {
         "displayName": "Audrey Howell-McClenney"
@@ -40,25 +64,85 @@
         "displayName": "Caleb Davilmar"
       },
       {
+        "displayName": "Caris Hunte"
+      },
+      {
+        "displayName": "Carmen Brown"
+      },
+      {
         "displayName": "Cedrick Massey"
+      },
+      {
+        "displayName": "Charla-Yvonne Cornelius"
       },
       {
         "displayName": "Chris Mcanuff"
       },
       {
+        "displayName": "Dana Quamina"
+      },
+      {
+        "displayName": "DeAndra Gray"
+      },
+      {
+        "displayName": "Delvin Rogers Jr"
+      },
+      {
         "displayName": "Dorrien Jones"
       },
       {
-        "displayName": "Jéovanie André"
+        "displayName": "Edison Browne"
+      },
+      {
+        "displayName": "Fredrick Custard"
+      },
+      {
+        "displayName": "Gabriela Sardinas"
+      },
+      {
+        "displayName": "Gabriella Fearon"
+      },
+      {
+        "displayName": "Gelvina Maxime"
+      },
+      {
+        "displayName": "James Myers"
+      },
+      {
+        "displayName": "Jayden Harris"
       },
       {
         "displayName": "Jordyn Starks"
       },
       {
+        "displayName": "Jéovanie André"
+      },
+      {
+        "displayName": "Kennedy McCalla"
+      },
+      {
+        "displayName": "Kevin Hohn"
+      },
+      {
+        "displayName": "Kourtney—Ann Palmer"
+      },
+      {
+        "displayName": "Lauryn Butler"
+      },
+      {
         "displayName": "Marcus Mainer"
       },
       {
+        "displayName": "Marissa Downie"
+      },
+      {
         "displayName": "Michael Stover"
+      },
+      {
+        "displayName": "Moenike Custard"
+      },
+      {
+        "displayName": "Nelcia Fosttin"
       },
       {
         "displayName": "Shanice Palmer"
@@ -68,179 +152,157 @@
       },
       {
         "displayName": "Tyfany Adaka"
+      },
+      {
+        "displayName": "Victorya Champagne"
       }
     ],
     "calledPeopleIds": [
+      "P-alexandria-platt",
+      "P-allania-mitchell",
+      "P-alyssa-johnson",
+      "P-anaia-downer",
+      "P-annalise-mongeois",
+      "P-ariella-davidson",
+      "P-arielle-brown",
       "P-ashley-pierre",
+      "P-aubrie-lewis",
       "P-audrey-howell-mcclenney",
       "P-caleb-davilmar",
+      "P-caris-hunte",
+      "P-carmen-brown",
       "P-cedrick-massey",
+      "P-charla-yvonne-cornelius",
       "P-chris-mcanuff",
+      "P-dana-quamina",
+      "P-deandra-gray",
+      "P-delvin-rogers-jr",
       "P-dorrien-jones",
-      "P-jeovanie-andre",
+      "P-edison-browne",
+      "P-fredrick-custard",
+      "P-gabriela-sardinas",
+      "P-gabriella-fearon",
+      "P-gelvina-maxime",
+      "P-james-myers",
+      "P-jayden-harris",
       "P-jordyn-starks",
+      "P-jeovanie-andre",
+      "P-kennedy-mccalla",
+      "P-kevin-hohn",
+      "P-kourtney-ann-palmer",
+      "P-lauryn-butler",
       "P-marcus-mainer",
+      "P-marissa-downie",
       "P-michael-stover",
+      "P-moenike-custard",
+      "P-nelcia-fosttin",
       "P-shanice-palmer",
       "P-tasha-simeon",
-      "P-tyfany-adaka"
+      "P-tyfany-adaka",
+      "P-victorya-champagne"
     ],
     "personalCallTimes": {
-      "P-ashley-pierre": "7:30 PM",
-      "P-audrey-howell-mcclenney": "8:30 PM",
+      "P-alexandria-platt": "6:30 PM",
+      "P-allania-mitchell": "6:30 PM",
+      "P-alyssa-johnson": "6:30 PM",
+      "P-anaia-downer": "6:30 PM",
+      "P-annalise-mongeois": "6:30 PM",
+      "P-ariella-davidson": "6:30 PM",
+      "P-arielle-brown": "6:30 PM",
+      "P-ashley-pierre": "6:30 PM",
+      "P-aubrie-lewis": "6:30 PM",
+      "P-audrey-howell-mcclenney": "6:30 PM",
       "P-caleb-davilmar": "6:30 PM",
+      "P-caris-hunte": "6:30 PM",
+      "P-carmen-brown": "6:30 PM",
       "P-cedrick-massey": "6:30 PM",
-      "P-chris-mcanuff": "7:30 PM",
-      "P-dorrien-jones": "7:30 PM",
-      "P-jeovanie-andre": "7:30 PM",
+      "P-charla-yvonne-cornelius": "6:30 PM",
+      "P-chris-mcanuff": "6:30 PM",
+      "P-dana-quamina": "6:30 PM",
+      "P-deandra-gray": "6:30 PM",
+      "P-delvin-rogers-jr": "6:30 PM",
+      "P-dorrien-jones": "6:30 PM",
+      "P-edison-browne": "6:30 PM",
+      "P-fredrick-custard": "6:30 PM",
+      "P-gabriela-sardinas": "6:30 PM",
+      "P-gabriella-fearon": "6:30 PM",
+      "P-gelvina-maxime": "6:30 PM",
+      "P-james-myers": "6:30 PM",
+      "P-jayden-harris": "6:30 PM",
       "P-jordyn-starks": "6:30 PM",
-      "P-marcus-mainer": "7:30 PM",
-      "P-michael-stover": "7:30 PM",
-      "P-shanice-palmer": "7:30 PM",
-      "P-tasha-simeon": "7:30 PM",
-      "P-tyfany-adaka": "7:30 PM"
+      "P-jeovanie-andre": "6:30 PM",
+      "P-kennedy-mccalla": "6:30 PM",
+      "P-kevin-hohn": "6:30 PM",
+      "P-kourtney-ann-palmer": "6:30 PM",
+      "P-lauryn-butler": "6:30 PM",
+      "P-marcus-mainer": "6:30 PM",
+      "P-marissa-downie": "6:30 PM",
+      "P-michael-stover": "6:30 PM",
+      "P-moenike-custard": "6:30 PM",
+      "P-nelcia-fosttin": "6:30 PM",
+      "P-shanice-palmer": "6:30 PM",
+      "P-tasha-simeon": "6:30 PM",
+      "P-tyfany-adaka": "6:30 PM",
+      "P-victorya-champagne": "6:30 PM"
     },
     "personalCallEndTimes": {
-      "P-ashley-pierre": "8:30 PM",
+      "P-alexandria-platt": "9:30 PM",
+      "P-allania-mitchell": "8:00 PM",
+      "P-alyssa-johnson": "9:30 PM",
+      "P-anaia-downer": "9:30 PM",
+      "P-annalise-mongeois": "8:00 PM",
+      "P-ariella-davidson": "8:00 PM",
+      "P-arielle-brown": "9:30 PM",
+      "P-ashley-pierre": "9:30 PM",
+      "P-aubrie-lewis": "9:30 PM",
       "P-audrey-howell-mcclenney": "9:30 PM",
       "P-caleb-davilmar": "9:30 PM",
+      "P-caris-hunte": "9:30 PM",
+      "P-carmen-brown": "9:30 PM",
       "P-cedrick-massey": "9:30 PM",
+      "P-charla-yvonne-cornelius": "9:30 PM",
       "P-chris-mcanuff": "9:30 PM",
+      "P-dana-quamina": "9:30 PM",
+      "P-deandra-gray": "9:30 PM",
+      "P-delvin-rogers-jr": "9:30 PM",
       "P-dorrien-jones": "9:30 PM",
-      "P-jeovanie-andre": "8:30 PM",
+      "P-edison-browne": "9:30 PM",
+      "P-fredrick-custard": "9:30 PM",
+      "P-gabriela-sardinas": "9:30 PM",
+      "P-gabriella-fearon": "9:30 PM",
+      "P-gelvina-maxime": "9:30 PM",
+      "P-james-myers": "9:30 PM",
+      "P-jayden-harris": "9:30 PM",
       "P-jordyn-starks": "9:30 PM",
+      "P-jeovanie-andre": "9:30 PM",
+      "P-kennedy-mccalla": "8:00 PM",
+      "P-kevin-hohn": "9:30 PM",
+      "P-kourtney-ann-palmer": "8:00 PM",
+      "P-lauryn-butler": "9:30 PM",
       "P-marcus-mainer": "9:30 PM",
+      "P-marissa-downie": "9:30 PM",
       "P-michael-stover": "9:30 PM",
-      "P-shanice-palmer": "8:30 PM",
-      "P-tasha-simeon": "8:30 PM",
-      "P-tyfany-adaka": "8:30 PM"
+      "P-moenike-custard": "9:30 PM",
+      "P-nelcia-fosttin": "8:00 PM",
+      "P-shanice-palmer": "9:30 PM",
+      "P-tasha-simeon": "9:30 PM",
+      "P-tyfany-adaka": "9:30 PM",
+      "P-victorya-champagne": "9:30 PM"
     },
     "calledGroups": [],
     "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Choreography; Off-book principals; practice songs; recording",
+    "work": "Transition drills +Choreography; Off-book principals; practice songs",
     "focus": "",
-    "prep": "Choreography; Off-book principals; practice songs; recording\n\nWardrobe fittings moved to Saturday, November 7, during the 10:00 AM–2:00 PM rehearsal.",
+    "prep": "Prepare to be off-book for scenes (acting and singing); prepare to rehearse and clean songs; clean blocking and transitions; dancers work on choreography; record songs\n\nWardrobe fittings moved to Saturday, November 7, during the 10:00 AM–2:00 PM rehearsal.",
     "notice": "",
     "changeType": ""
   },
   "thisWeek": {
     "title": "This Week",
-    "start": "2026-11-04T05:00:00.000Z",
-    "end": "2026-11-11T04:59:59.000Z",
+    "start": "2026-11-05T05:00:00.000Z",
+    "end": "2026-11-12T04:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261104-REH",
-        "eventKey": "CHOSEN-20261104-REH",
-        "start": "2026-11-04T23:30:00.000Z",
-        "end": "2026-11-05T02:30:00.000Z",
-        "date": "November 4, 2026",
-        "dateIso": "2026-11-04",
-        "day": "Wednesday",
-        "dateLabel": "November 4, 2026",
-        "dayLabel": "Wednesday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 2-8 (ACTORS ONLY)",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30-8:30 PM- Scene 2,3,6 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-ashley-pierre",
-          "P-audrey-howell-mcclenney",
-          "P-caleb-davilmar",
-          "P-cedrick-massey",
-          "P-chris-mcanuff",
-          "P-dorrien-jones",
-          "P-jeovanie-andre",
-          "P-jordyn-starks",
-          "P-marcus-mainer",
-          "P-michael-stover",
-          "P-shanice-palmer",
-          "P-tasha-simeon",
-          "P-tyfany-adaka"
-        ],
-        "personalCallTimes": {
-          "P-ashley-pierre": "7:30 PM",
-          "P-audrey-howell-mcclenney": "8:30 PM",
-          "P-caleb-davilmar": "6:30 PM",
-          "P-cedrick-massey": "6:30 PM",
-          "P-chris-mcanuff": "7:30 PM",
-          "P-dorrien-jones": "7:30 PM",
-          "P-jeovanie-andre": "7:30 PM",
-          "P-jordyn-starks": "6:30 PM",
-          "P-marcus-mainer": "7:30 PM",
-          "P-michael-stover": "7:30 PM",
-          "P-shanice-palmer": "7:30 PM",
-          "P-tasha-simeon": "7:30 PM",
-          "P-tyfany-adaka": "7:30 PM"
-        },
-        "personalCallEndTimes": {
-          "P-ashley-pierre": "8:30 PM",
-          "P-audrey-howell-mcclenney": "9:30 PM",
-          "P-caleb-davilmar": "9:30 PM",
-          "P-cedrick-massey": "9:30 PM",
-          "P-chris-mcanuff": "9:30 PM",
-          "P-dorrien-jones": "9:30 PM",
-          "P-jeovanie-andre": "8:30 PM",
-          "P-jordyn-starks": "9:30 PM",
-          "P-marcus-mainer": "9:30 PM",
-          "P-michael-stover": "9:30 PM",
-          "P-shanice-palmer": "8:30 PM",
-          "P-tasha-simeon": "8:30 PM",
-          "P-tyfany-adaka": "8:30 PM"
-        },
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Choreography; Off-book principals; practice songs; recording",
-        "focus": "",
-        "prep": "Choreography; Off-book principals; practice songs; recording\n\nWardrobe fittings moved to Saturday, November 7, during the 10:00 AM–2:00 PM rehearsal.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261105-REH",
         "eventKey": "CHOSEN-20261105-REH",
@@ -732,6 +794,34 @@
         "prep": "Prepare for Full Show run-thru with music, dance, dialouge, and blocking!\n\nWardrobe refits and costume checks for flagged performers, including the calls moved from November 4 and 5, will take place in rotations during the 10:00 AM–2:00 PM rehearsal. Individual slots are pending.",
         "notice": "",
         "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20261111-REH",
+        "eventKey": "CHOSEN-20261111-REH",
+        "start": "2026-11-11T23:30:00.000Z",
+        "end": "2026-11-12T02:30:00.000Z",
+        "date": "November 11, 2026",
+        "dateIso": "2026-11-11",
+        "day": "Wednesday",
+        "dateLabel": "November 11, 2026",
+        "dayLabel": "Wednesday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Director-away maintenance",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30PM–9:30 PM — Targeted cast (specific virtual call list TBD)",
+        "callGroups": [],
+        "calledPeople": [],
+        "calledPeopleIds": [],
+        "calledGroups": [],
+        "exactCallStatus": "REVIEW",
+        "callDataVersion": 3,
+        "work": "Lead-led virtual review; no new blocking/choreo/creative changes",
+        "focus": "",
+        "prep": "Virtual rehearsal. Specific call list and connection link will be posted before rehearsal. No new blocking/choreography/creative changes.",
+        "notice": "",
+        "changeType": ""
       }
     ],
     "count": 3
@@ -740,118 +830,6 @@
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261104-REH",
-        "eventKey": "CHOSEN-20261104-REH",
-        "start": "2026-11-04T23:30:00.000Z",
-        "end": "2026-11-05T02:30:00.000Z",
-        "date": "November 4, 2026",
-        "dateIso": "2026-11-04",
-        "day": "Wednesday",
-        "dateLabel": "November 4, 2026",
-        "dayLabel": "Wednesday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 2-8 (ACTORS ONLY)",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30-8:30 PM- Scene 2,3,6 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-ashley-pierre",
-          "P-audrey-howell-mcclenney",
-          "P-caleb-davilmar",
-          "P-cedrick-massey",
-          "P-chris-mcanuff",
-          "P-dorrien-jones",
-          "P-jeovanie-andre",
-          "P-jordyn-starks",
-          "P-marcus-mainer",
-          "P-michael-stover",
-          "P-shanice-palmer",
-          "P-tasha-simeon",
-          "P-tyfany-adaka"
-        ],
-        "personalCallTimes": {
-          "P-ashley-pierre": "7:30 PM",
-          "P-audrey-howell-mcclenney": "8:30 PM",
-          "P-caleb-davilmar": "6:30 PM",
-          "P-cedrick-massey": "6:30 PM",
-          "P-chris-mcanuff": "7:30 PM",
-          "P-dorrien-jones": "7:30 PM",
-          "P-jeovanie-andre": "7:30 PM",
-          "P-jordyn-starks": "6:30 PM",
-          "P-marcus-mainer": "7:30 PM",
-          "P-michael-stover": "7:30 PM",
-          "P-shanice-palmer": "7:30 PM",
-          "P-tasha-simeon": "7:30 PM",
-          "P-tyfany-adaka": "7:30 PM"
-        },
-        "personalCallEndTimes": {
-          "P-ashley-pierre": "8:30 PM",
-          "P-audrey-howell-mcclenney": "9:30 PM",
-          "P-caleb-davilmar": "9:30 PM",
-          "P-cedrick-massey": "9:30 PM",
-          "P-chris-mcanuff": "9:30 PM",
-          "P-dorrien-jones": "9:30 PM",
-          "P-jeovanie-andre": "8:30 PM",
-          "P-jordyn-starks": "9:30 PM",
-          "P-marcus-mainer": "9:30 PM",
-          "P-michael-stover": "9:30 PM",
-          "P-shanice-palmer": "8:30 PM",
-          "P-tasha-simeon": "8:30 PM",
-          "P-tyfany-adaka": "8:30 PM"
-        },
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Choreography; Off-book principals; practice songs; recording",
-        "focus": "",
-        "prep": "Choreography; Off-book principals; practice songs; recording\n\nWardrobe fittings moved to Saturday, November 7, during the 10:00 AM–2:00 PM rehearsal.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261105-REH",
         "eventKey": "CHOSEN-20261105-REH",
@@ -1868,6 +1846,118 @@
       }
     ],
     "pastRehearsals": [
+      {
+        "id": "CHOSEN-20261104-REH",
+        "eventKey": "CHOSEN-20261104-REH",
+        "start": "2026-11-04T23:30:00.000Z",
+        "end": "2026-11-05T02:30:00.000Z",
+        "date": "November 4, 2026",
+        "dateIso": "2026-11-04",
+        "day": "Wednesday",
+        "dateLabel": "November 4, 2026",
+        "dayLabel": "Wednesday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scenes 2-8 (ACTORS ONLY)",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30-8:30 PM- Scene 2,3,6 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-ashley-pierre",
+          "P-audrey-howell-mcclenney",
+          "P-caleb-davilmar",
+          "P-cedrick-massey",
+          "P-chris-mcanuff",
+          "P-dorrien-jones",
+          "P-jeovanie-andre",
+          "P-jordyn-starks",
+          "P-marcus-mainer",
+          "P-michael-stover",
+          "P-shanice-palmer",
+          "P-tasha-simeon",
+          "P-tyfany-adaka"
+        ],
+        "personalCallTimes": {
+          "P-ashley-pierre": "7:30 PM",
+          "P-audrey-howell-mcclenney": "8:30 PM",
+          "P-caleb-davilmar": "6:30 PM",
+          "P-cedrick-massey": "6:30 PM",
+          "P-chris-mcanuff": "7:30 PM",
+          "P-dorrien-jones": "7:30 PM",
+          "P-jeovanie-andre": "7:30 PM",
+          "P-jordyn-starks": "6:30 PM",
+          "P-marcus-mainer": "7:30 PM",
+          "P-michael-stover": "7:30 PM",
+          "P-shanice-palmer": "7:30 PM",
+          "P-tasha-simeon": "7:30 PM",
+          "P-tyfany-adaka": "7:30 PM"
+        },
+        "personalCallEndTimes": {
+          "P-ashley-pierre": "8:30 PM",
+          "P-audrey-howell-mcclenney": "9:30 PM",
+          "P-caleb-davilmar": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-chris-mcanuff": "9:30 PM",
+          "P-dorrien-jones": "9:30 PM",
+          "P-jeovanie-andre": "8:30 PM",
+          "P-jordyn-starks": "9:30 PM",
+          "P-marcus-mainer": "9:30 PM",
+          "P-michael-stover": "9:30 PM",
+          "P-shanice-palmer": "8:30 PM",
+          "P-tasha-simeon": "8:30 PM",
+          "P-tyfany-adaka": "8:30 PM"
+        },
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Choreography; Off-book principals; practice songs; recording",
+        "focus": "",
+        "prep": "Choreography; Off-book principals; practice songs; recording\n\nWardrobe fittings moved to Saturday, November 7, during the 10:00 AM–2:00 PM rehearsal.",
+        "notice": "",
+        "changeType": ""
+      },
       {
         "id": "CHOSEN-20261031-REH",
         "eventKey": "CHOSEN-20261031-REH",
@@ -5652,118 +5742,6 @@
     ],
     "allRehearsals": [
       {
-        "id": "CHOSEN-20261104-REH",
-        "eventKey": "CHOSEN-20261104-REH",
-        "start": "2026-11-04T23:30:00.000Z",
-        "end": "2026-11-05T02:30:00.000Z",
-        "date": "November 4, 2026",
-        "dateIso": "2026-11-04",
-        "day": "Wednesday",
-        "dateLabel": "November 4, 2026",
-        "dayLabel": "Wednesday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 2-8 (ACTORS ONLY)",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30-8:30 PM- Scene 2,3,6 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
-        "callGroups": [],
-        "calledPeople": [
-          {
-            "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
-          },
-          {
-            "displayName": "Caleb Davilmar"
-          },
-          {
-            "displayName": "Cedrick Massey"
-          },
-          {
-            "displayName": "Chris Mcanuff"
-          },
-          {
-            "displayName": "Dorrien Jones"
-          },
-          {
-            "displayName": "Jéovanie André"
-          },
-          {
-            "displayName": "Jordyn Starks"
-          },
-          {
-            "displayName": "Marcus Mainer"
-          },
-          {
-            "displayName": "Michael Stover"
-          },
-          {
-            "displayName": "Shanice Palmer"
-          },
-          {
-            "displayName": "Tasha Simeon"
-          },
-          {
-            "displayName": "Tyfany Adaka"
-          }
-        ],
-        "calledPeopleIds": [
-          "P-ashley-pierre",
-          "P-audrey-howell-mcclenney",
-          "P-caleb-davilmar",
-          "P-cedrick-massey",
-          "P-chris-mcanuff",
-          "P-dorrien-jones",
-          "P-jeovanie-andre",
-          "P-jordyn-starks",
-          "P-marcus-mainer",
-          "P-michael-stover",
-          "P-shanice-palmer",
-          "P-tasha-simeon",
-          "P-tyfany-adaka"
-        ],
-        "personalCallTimes": {
-          "P-ashley-pierre": "7:30 PM",
-          "P-audrey-howell-mcclenney": "8:30 PM",
-          "P-caleb-davilmar": "6:30 PM",
-          "P-cedrick-massey": "6:30 PM",
-          "P-chris-mcanuff": "7:30 PM",
-          "P-dorrien-jones": "7:30 PM",
-          "P-jeovanie-andre": "7:30 PM",
-          "P-jordyn-starks": "6:30 PM",
-          "P-marcus-mainer": "7:30 PM",
-          "P-michael-stover": "7:30 PM",
-          "P-shanice-palmer": "7:30 PM",
-          "P-tasha-simeon": "7:30 PM",
-          "P-tyfany-adaka": "7:30 PM"
-        },
-        "personalCallEndTimes": {
-          "P-ashley-pierre": "8:30 PM",
-          "P-audrey-howell-mcclenney": "9:30 PM",
-          "P-caleb-davilmar": "9:30 PM",
-          "P-cedrick-massey": "9:30 PM",
-          "P-chris-mcanuff": "9:30 PM",
-          "P-dorrien-jones": "9:30 PM",
-          "P-jeovanie-andre": "8:30 PM",
-          "P-jordyn-starks": "9:30 PM",
-          "P-marcus-mainer": "9:30 PM",
-          "P-michael-stover": "9:30 PM",
-          "P-shanice-palmer": "8:30 PM",
-          "P-tasha-simeon": "8:30 PM",
-          "P-tyfany-adaka": "8:30 PM"
-        },
-        "calledGroups": [],
-        "exactCallStatus": "READY",
-        "callDataVersion": 3,
-        "work": "Choreography; Off-book principals; practice songs; recording",
-        "focus": "",
-        "prep": "Choreography; Off-book principals; practice songs; recording\n\nWardrobe fittings moved to Saturday, November 7, during the 10:00 AM–2:00 PM rehearsal.",
-        "notice": "",
-        "changeType": ""
-      },
-      {
         "id": "CHOSEN-20261105-REH",
         "eventKey": "CHOSEN-20261105-REH",
         "start": "2026-11-05T23:30:00.000Z",
@@ -6774,6 +6752,118 @@
         "work": "Official show-day call; performance day",
         "focus": "",
         "prep": "Focus: SHOW DAY. FOOD WILL BE PROVIDED.  Please check the live schedule for final room and call details.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20261104-REH",
+        "eventKey": "CHOSEN-20261104-REH",
+        "start": "2026-11-04T23:30:00.000Z",
+        "end": "2026-11-05T02:30:00.000Z",
+        "date": "November 4, 2026",
+        "dateIso": "2026-11-04",
+        "day": "Wednesday",
+        "dateLabel": "November 4, 2026",
+        "dayLabel": "Wednesday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scenes 2-8 (ACTORS ONLY)",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30-8:30 PM- Scene 2,3,6 & 8: Joseph (Caleb), Mary (Jordyn), Gabriel (Cedrick)\n\n7:30-8:30 PM- Scene 4 &5: Mary (Jordyn), Talia (Tasha), Shira (Tyfany), Adina (Jeovanie), Dafna (Ashley), Shira Understudy (Shanice), Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris)          \n\n8:30 PM-9:30 PM — Scene 7:  Joseph (Caleb), Levi (Marcus), Caleb (Dorrien), Malachi (Michael), Ezra (Chris), Mary (Jordyn), Elizabeth (Audrey), Angel (Cedrick)",
+        "callGroups": [],
+        "calledPeople": [
+          {
+            "displayName": "Ashley Pierre"
+          },
+          {
+            "displayName": "Audrey Howell-McClenney"
+          },
+          {
+            "displayName": "Caleb Davilmar"
+          },
+          {
+            "displayName": "Cedrick Massey"
+          },
+          {
+            "displayName": "Chris Mcanuff"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Jéovanie André"
+          },
+          {
+            "displayName": "Jordyn Starks"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Michael Stover"
+          },
+          {
+            "displayName": "Shanice Palmer"
+          },
+          {
+            "displayName": "Tasha Simeon"
+          },
+          {
+            "displayName": "Tyfany Adaka"
+          }
+        ],
+        "calledPeopleIds": [
+          "P-ashley-pierre",
+          "P-audrey-howell-mcclenney",
+          "P-caleb-davilmar",
+          "P-cedrick-massey",
+          "P-chris-mcanuff",
+          "P-dorrien-jones",
+          "P-jeovanie-andre",
+          "P-jordyn-starks",
+          "P-marcus-mainer",
+          "P-michael-stover",
+          "P-shanice-palmer",
+          "P-tasha-simeon",
+          "P-tyfany-adaka"
+        ],
+        "personalCallTimes": {
+          "P-ashley-pierre": "7:30 PM",
+          "P-audrey-howell-mcclenney": "8:30 PM",
+          "P-caleb-davilmar": "6:30 PM",
+          "P-cedrick-massey": "6:30 PM",
+          "P-chris-mcanuff": "7:30 PM",
+          "P-dorrien-jones": "7:30 PM",
+          "P-jeovanie-andre": "7:30 PM",
+          "P-jordyn-starks": "6:30 PM",
+          "P-marcus-mainer": "7:30 PM",
+          "P-michael-stover": "7:30 PM",
+          "P-shanice-palmer": "7:30 PM",
+          "P-tasha-simeon": "7:30 PM",
+          "P-tyfany-adaka": "7:30 PM"
+        },
+        "personalCallEndTimes": {
+          "P-ashley-pierre": "8:30 PM",
+          "P-audrey-howell-mcclenney": "9:30 PM",
+          "P-caleb-davilmar": "9:30 PM",
+          "P-cedrick-massey": "9:30 PM",
+          "P-chris-mcanuff": "9:30 PM",
+          "P-dorrien-jones": "9:30 PM",
+          "P-jeovanie-andre": "8:30 PM",
+          "P-jordyn-starks": "9:30 PM",
+          "P-marcus-mainer": "9:30 PM",
+          "P-michael-stover": "9:30 PM",
+          "P-shanice-palmer": "8:30 PM",
+          "P-tasha-simeon": "8:30 PM",
+          "P-tyfany-adaka": "8:30 PM"
+        },
+        "calledGroups": [],
+        "exactCallStatus": "READY",
+        "callDataVersion": 3,
+        "work": "Choreography; Off-book principals; practice songs; recording",
+        "focus": "",
+        "prep": "Choreography; Off-book principals; practice songs; recording\n\nWardrobe fittings moved to Saturday, November 7, during the 10:00 AM–2:00 PM rehearsal.",
         "notice": "",
         "changeType": ""
       },
@@ -10581,8 +10671,8 @@
         "count": 14
       }
     ],
-    "count": 20,
-    "pastCount": 30
+    "count": 19,
+    "pastCount": 31
   },
   "scripts": {
     "items": [
@@ -10598,7 +10688,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "a3da7da6eeba618539bbf322fb32adb0a6a8fcc3004e73a33c049e02b9d041d7"
       },
       {
@@ -10613,7 +10703,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "f2f6083bdca8ba6659d9f7a652010469db2cb54bc736d937da82452846c7a450"
       },
       {
@@ -10628,7 +10718,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "fa96c7db2b3651ba2c22c942b96238747e874b87079240ff0f1686ea3afca102"
       },
       {
@@ -10643,7 +10733,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "231433b64e503570bb1bb788dc2221232c66e1e736bd6041b66e61cc1a2776d8"
       },
       {
@@ -10658,7 +10748,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "76387cabe01943567e86e9f23a25d95774df778a62209b53639d213d13023ca1"
       },
       {
@@ -10673,7 +10763,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "121f2ac8d3793813fb534d7fc6f6ad76b9f72ecbe7ec78676611be65da473db0"
       },
       {
@@ -10688,7 +10778,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "aba8923b1c4e357368387da261adc46f467c6dbfcac1a55820d1e142ee0a075e"
       },
       {
@@ -10703,7 +10793,7 @@
         "id": "the-reunion",
         "name": "The Reunion",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "cb21e53e77f9cf1de25cae59565a6af8003a3ba16f843a2753f9cefb8a4df720"
       },
       {
@@ -10718,7 +10808,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "bb5f2e50c0d3d7e4253760a32521fa3545e1bab4216748bc438649ef74e66287"
       },
       {
@@ -10733,7 +10823,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "014b7339162c57c33a77a1a666d23302f198c83e0c7bcc21be93352dda521c2f"
       },
       {
@@ -10748,7 +10838,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "743faabe55ff4462e882e340003e6138b481daa8eb4b35bb97671f2474389825"
       },
       {
@@ -10763,7 +10853,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "388410d337a8f752f896b093c7b6d2169cceeb7f3c5ead25ebc20f715c05a5c4"
       }
     ],
@@ -10780,7 +10870,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "a3da7da6eeba618539bbf322fb32adb0a6a8fcc3004e73a33c049e02b9d041d7"
       },
       {
@@ -10795,7 +10885,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "f2f6083bdca8ba6659d9f7a652010469db2cb54bc736d937da82452846c7a450"
       },
       {
@@ -10810,7 +10900,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "fa96c7db2b3651ba2c22c942b96238747e874b87079240ff0f1686ea3afca102"
       },
       {
@@ -10825,7 +10915,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "231433b64e503570bb1bb788dc2221232c66e1e736bd6041b66e61cc1a2776d8"
       },
       {
@@ -10840,7 +10930,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "76387cabe01943567e86e9f23a25d95774df778a62209b53639d213d13023ca1"
       },
       {
@@ -10855,7 +10945,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "121f2ac8d3793813fb534d7fc6f6ad76b9f72ecbe7ec78676611be65da473db0"
       },
       {
@@ -10870,7 +10960,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "aba8923b1c4e357368387da261adc46f467c6dbfcac1a55820d1e142ee0a075e"
       },
       {
@@ -10885,7 +10975,7 @@
         "id": "the-reunion",
         "name": "The Reunion",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "cb21e53e77f9cf1de25cae59565a6af8003a3ba16f843a2753f9cefb8a4df720"
       },
       {
@@ -10900,7 +10990,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "bb5f2e50c0d3d7e4253760a32521fa3545e1bab4216748bc438649ef74e66287"
       },
       {
@@ -10915,7 +11005,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "014b7339162c57c33a77a1a666d23302f198c83e0c7bcc21be93352dda521c2f"
       },
       {
@@ -10930,7 +11020,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "743faabe55ff4462e882e340003e6138b481daa8eb4b35bb97671f2474389825"
       },
       {
@@ -10945,12 +11035,12 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-11-04T20:29:14.376Z",
+        "updated": "2026-11-05T07:49:01.287Z",
         "contentHash": "388410d337a8f752f896b093c7b6d2169cceeb7f3c5ead25ebc20f715c05a5c4"
       }
     ],
     "count": 12,
-    "updated": "2026-11-05T01:02:41.593Z",
+    "updated": "2026-11-05T07:49:12.072Z",
     "kind": "scripts"
   },
   "music": {
@@ -11199,7 +11289,7 @@
       }
     ],
     "count": 8,
-    "updated": "2026-11-05T01:02:41.593Z",
+    "updated": "2026-11-05T07:49:12.073Z",
     "kind": "music"
   }
 }
