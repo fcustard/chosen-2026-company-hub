@@ -148,6 +148,7 @@
     "purpose": "Sync the new approved actor scene blocks from the sheet. Keep REVIEW and leave personal report and release times for director review.",
     "source": "Master Calendar rows 39–41; columns X:AA",
     "decisionsNeeded": "Set personal report and release times. The sheet says On-site, while old internal notes still say virtual. Confirm the format before posting travel plans.",
-    "publicationScope": "Calendar-only sync. Keep existing script content."
+    "publicationScope": "Calendar-only sync. Keep existing script content.",
+    "publicTitleFix": "Public titles in Master Calendar P39:P41 now show shared scene work only. Actor scope stays in the private source. Run the calendar sync again after this fix."
   }
 }
