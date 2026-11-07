@@ -2678,12 +2678,11 @@
     "title": "CHOSEN Rehearsal - Scenes 2, 3, 4 & 8",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "6:30–8:00 PM | Scenes 2, 3 & 8 — Jordyn Starks, Caleb Davilmar, Cedrick Massey, Audrey Howell-McClenney\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+    "called": "6:30–8:00 PM | Scenes 2, 3 & 8 — Jordyn Starks, Caleb Davilmar, Cedrick Massey\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
     "work": "Clean scenes, blocking, and transitions",
     "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
     "calledPeople": [
       "Ashley Pierre",
-      "Audrey Howell-McClenney",
       "Caleb Davilmar",
       "Cedrick Massey",
       "Gabriela Sardinas",
@@ -2695,7 +2694,6 @@
     ],
     "calledPeopleIds": [
       "P-ashley-pierre",
-      "P-audrey-howell-mcclenney",
       "P-caleb-davilmar",
       "P-cedrick-massey",
       "P-gabriela-sardinas",
@@ -2711,7 +2709,6 @@
     "id": "CHOSEN-20261111-REH",
     "personalCallTimes": {
       "P-ashley-pierre": "8:00 PM",
-      "P-audrey-howell-mcclenney": "6:30 PM",
       "P-caleb-davilmar": "6:30 PM",
       "P-cedrick-massey": "6:30 PM",
       "P-gabriela-sardinas": "8:00 PM",
@@ -2723,7 +2720,6 @@
     },
     "personalCallEndTimes": {
       "P-ashley-pierre": "9:30 PM",
-      "P-audrey-howell-mcclenney": "8:00 PM",
       "P-caleb-davilmar": "8:00 PM",
       "P-cedrick-massey": "8:00 PM",
       "P-gabriela-sardinas": "9:30 PM",
@@ -2741,12 +2737,11 @@
     "title": "CHOSEN Rehearsal - Scenes 4, 6 & 8",
     "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
     "status": "CONFIRMED",
-    "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar, Audrey Howell-McClenney\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+    "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
     "work": "Clean scenes, blocking, and transitions",
     "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
     "calledPeople": [
       "Ashley Pierre",
-      "Audrey Howell-McClenney",
       "Caleb Davilmar",
       "Gabriela Sardinas",
       "Jéovanie André",
@@ -2757,7 +2752,6 @@
     ],
     "calledPeopleIds": [
       "P-ashley-pierre",
-      "P-audrey-howell-mcclenney",
       "P-caleb-davilmar",
       "P-gabriela-sardinas",
       "P-jeovanie-andre",
@@ -2772,7 +2766,6 @@
     "id": "CHOSEN-20261112-REH",
     "personalCallTimes": {
       "P-ashley-pierre": "8:00 PM",
-      "P-audrey-howell-mcclenney": "6:30 PM",
       "P-caleb-davilmar": "6:30 PM",
       "P-gabriela-sardinas": "8:00 PM",
       "P-jeovanie-andre": "8:00 PM",
@@ -2783,7 +2776,6 @@
     },
     "personalCallEndTimes": {
       "P-ashley-pierre": "9:30 PM",
-      "P-audrey-howell-mcclenney": "8:00 PM",
       "P-caleb-davilmar": "8:00 PM",
       "P-gabriela-sardinas": "9:30 PM",
       "P-jeovanie-andre": "9:30 PM",

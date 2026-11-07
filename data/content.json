@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T08:10:28.591Z",
+  "updated": "2026-11-07T13:08:34.277Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -444,14 +444,11 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 2, 3 & 8 — Jordyn Starks, Caleb Davilmar, Cedrick Massey, Audrey Howell-McClenney\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+        "called": "6:30–8:00 PM | Scenes 2, 3 & 8 — Jordyn Starks, Caleb Davilmar, Cedrick Massey\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
         "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
           },
           {
             "displayName": "Caleb Davilmar"
@@ -480,7 +477,6 @@
         ],
         "calledPeopleIds": [
           "P-ashley-pierre",
-          "P-audrey-howell-mcclenney",
           "P-caleb-davilmar",
           "P-cedrick-massey",
           "P-gabriela-sardinas",
@@ -492,7 +488,6 @@
         ],
         "personalCallTimes": {
           "P-ashley-pierre": "8:00 PM",
-          "P-audrey-howell-mcclenney": "6:30 PM",
           "P-caleb-davilmar": "6:30 PM",
           "P-cedrick-massey": "6:30 PM",
           "P-gabriela-sardinas": "8:00 PM",
@@ -504,7 +499,6 @@
         },
         "personalCallEndTimes": {
           "P-ashley-pierre": "9:30 PM",
-          "P-audrey-howell-mcclenney": "8:00 PM",
           "P-caleb-davilmar": "8:00 PM",
           "P-cedrick-massey": "8:00 PM",
           "P-gabriela-sardinas": "9:30 PM",
@@ -538,14 +532,11 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar, Audrey Howell-McClenney\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+        "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
         "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
           },
           {
             "displayName": "Caleb Davilmar"
@@ -571,7 +562,6 @@
         ],
         "calledPeopleIds": [
           "P-ashley-pierre",
-          "P-audrey-howell-mcclenney",
           "P-caleb-davilmar",
           "P-gabriela-sardinas",
           "P-jeovanie-andre",
@@ -582,7 +572,6 @@
         ],
         "personalCallTimes": {
           "P-ashley-pierre": "8:00 PM",
-          "P-audrey-howell-mcclenney": "6:30 PM",
           "P-caleb-davilmar": "6:30 PM",
           "P-gabriela-sardinas": "8:00 PM",
           "P-jeovanie-andre": "8:00 PM",
@@ -593,7 +582,6 @@
         },
         "personalCallEndTimes": {
           "P-ashley-pierre": "9:30 PM",
-          "P-audrey-howell-mcclenney": "8:00 PM",
           "P-caleb-davilmar": "8:00 PM",
           "P-gabriela-sardinas": "9:30 PM",
           "P-jeovanie-andre": "9:30 PM",
@@ -839,14 +827,11 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 2, 3 & 8 — Jordyn Starks, Caleb Davilmar, Cedrick Massey, Audrey Howell-McClenney\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+        "called": "6:30–8:00 PM | Scenes 2, 3 & 8 — Jordyn Starks, Caleb Davilmar, Cedrick Massey\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
         "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
           },
           {
             "displayName": "Caleb Davilmar"
@@ -875,7 +860,6 @@
         ],
         "calledPeopleIds": [
           "P-ashley-pierre",
-          "P-audrey-howell-mcclenney",
           "P-caleb-davilmar",
           "P-cedrick-massey",
           "P-gabriela-sardinas",
@@ -887,7 +871,6 @@
         ],
         "personalCallTimes": {
           "P-ashley-pierre": "8:00 PM",
-          "P-audrey-howell-mcclenney": "6:30 PM",
           "P-caleb-davilmar": "6:30 PM",
           "P-cedrick-massey": "6:30 PM",
           "P-gabriela-sardinas": "8:00 PM",
@@ -899,7 +882,6 @@
         },
         "personalCallEndTimes": {
           "P-ashley-pierre": "9:30 PM",
-          "P-audrey-howell-mcclenney": "8:00 PM",
           "P-caleb-davilmar": "8:00 PM",
           "P-cedrick-massey": "8:00 PM",
           "P-gabriela-sardinas": "9:30 PM",
@@ -933,14 +915,11 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar, Audrey Howell-McClenney\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+        "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
         "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
           },
           {
             "displayName": "Caleb Davilmar"
@@ -966,7 +945,6 @@
         ],
         "calledPeopleIds": [
           "P-ashley-pierre",
-          "P-audrey-howell-mcclenney",
           "P-caleb-davilmar",
           "P-gabriela-sardinas",
           "P-jeovanie-andre",
@@ -977,7 +955,6 @@
         ],
         "personalCallTimes": {
           "P-ashley-pierre": "8:00 PM",
-          "P-audrey-howell-mcclenney": "6:30 PM",
           "P-caleb-davilmar": "6:30 PM",
           "P-gabriela-sardinas": "8:00 PM",
           "P-jeovanie-andre": "8:00 PM",
@@ -988,7 +965,6 @@
         },
         "personalCallEndTimes": {
           "P-ashley-pierre": "9:30 PM",
-          "P-audrey-howell-mcclenney": "8:00 PM",
           "P-caleb-davilmar": "8:00 PM",
           "P-gabriela-sardinas": "9:30 PM",
           "P-jeovanie-andre": "9:30 PM",
@@ -6018,14 +5994,11 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 2, 3 & 8 — Jordyn Starks, Caleb Davilmar, Cedrick Massey, Audrey Howell-McClenney\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+        "called": "6:30–8:00 PM | Scenes 2, 3 & 8 — Jordyn Starks, Caleb Davilmar, Cedrick Massey\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
         "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
           },
           {
             "displayName": "Caleb Davilmar"
@@ -6054,7 +6027,6 @@
         ],
         "calledPeopleIds": [
           "P-ashley-pierre",
-          "P-audrey-howell-mcclenney",
           "P-caleb-davilmar",
           "P-cedrick-massey",
           "P-gabriela-sardinas",
@@ -6066,7 +6038,6 @@
         ],
         "personalCallTimes": {
           "P-ashley-pierre": "8:00 PM",
-          "P-audrey-howell-mcclenney": "6:30 PM",
           "P-caleb-davilmar": "6:30 PM",
           "P-cedrick-massey": "6:30 PM",
           "P-gabriela-sardinas": "8:00 PM",
@@ -6078,7 +6049,6 @@
         },
         "personalCallEndTimes": {
           "P-ashley-pierre": "9:30 PM",
-          "P-audrey-howell-mcclenney": "8:00 PM",
           "P-caleb-davilmar": "8:00 PM",
           "P-cedrick-massey": "8:00 PM",
           "P-gabriela-sardinas": "9:30 PM",
@@ -6112,14 +6082,11 @@
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar, Audrey Howell-McClenney\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+        "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
         "callGroups": [],
         "calledPeople": [
           {
             "displayName": "Ashley Pierre"
-          },
-          {
-            "displayName": "Audrey Howell-McClenney"
           },
           {
             "displayName": "Caleb Davilmar"
@@ -6145,7 +6112,6 @@
         ],
         "calledPeopleIds": [
           "P-ashley-pierre",
-          "P-audrey-howell-mcclenney",
           "P-caleb-davilmar",
           "P-gabriela-sardinas",
           "P-jeovanie-andre",
@@ -6156,7 +6122,6 @@
         ],
         "personalCallTimes": {
           "P-ashley-pierre": "8:00 PM",
-          "P-audrey-howell-mcclenney": "6:30 PM",
           "P-caleb-davilmar": "6:30 PM",
           "P-gabriela-sardinas": "8:00 PM",
           "P-jeovanie-andre": "8:00 PM",
@@ -6167,7 +6132,6 @@
         },
         "personalCallEndTimes": {
           "P-ashley-pierre": "9:30 PM",
-          "P-audrey-howell-mcclenney": "8:00 PM",
           "P-caleb-davilmar": "8:00 PM",
           "P-gabriela-sardinas": "9:30 PM",
           "P-jeovanie-andre": "9:30 PM",
@@ -11364,7 +11328,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-07T08:10:28.597Z",
+    "updated": "2026-11-07T13:08:34.283Z",
     "kind": "scripts"
   },
   "music": {
@@ -11643,7 +11607,7 @@
       }
     ],
     "count": 9,
-    "updated": "2026-11-07T08:10:28.597Z",
+    "updated": "2026-11-07T13:08:34.283Z",
     "kind": "music"
   }
 }
