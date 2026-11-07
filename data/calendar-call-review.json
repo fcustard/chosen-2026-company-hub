@@ -115,26 +115,26 @@
     "pagesRun": 41486392040
   },
   "latestCalendarAudit": {
-    "reviewedAt": "2026-11-07T03:01:50.249Z",
+    "reviewedAt": "2026-11-07T06:12:55.765Z",
     "futureMappedGoogleEventsRead": 18,
     "activeFutureGoogleEvents": 17,
     "googleMismatches": 0,
     "descriptionComparison": "Spaces and wrapped Hub links match. The canceled Google record keeps its old title. Its status is cancelled.",
     "publishedIcsBlob": "df72fbc2a705f4cf7ff16f85b4981b35813a4149",
-    "verifiedRehearsalsBlob": "8f881b5d63678a59fc7d45bf7c795bf28ee85463",
+    "verifiedRehearsalsBlob": "48bf49b24f62dba5c26b2d60ebd5f58e349a1088",
     "activePeopleVerified": 55,
     "activeAssignmentsVerified": 84,
     "personalFutureRows": 0,
     "pagesRun": 42331260216,
     "remainingDecisions": "November 18 and 19 have names in the sheet. Keep REVIEW until the director sets each person's report and release times. Other pending calls still need review.",
-    "newlyObservedChange": "November 30 is canceled. The Hub and Google show the cancellation. November 19 now has Scenes 1 & 9 at 6:30–8:30 PM and Scene 12 at 8:30–9:30 PM. November 21 has 42 valid named performers.",
+    "newlyObservedChange": "Sync the new November 11 and 12 prep notes. Calls and times stay the same.",
     "notifiedSourceChanges": [
-      "CHOSEN-20261130-REH cancellation and sync recovery",
-      "CHOSEN-20261119-REH scene blocks",
-      "CHOSEN-20261118-REH and CHOSEN-20261119-REH source names stay REVIEW",
-      "CHOSEN-20261121-REH exact names"
+      "November 11 and 12 prep: Bring water."
     ],
-    "purpose": "Record this check so the same news is not sent again."
+    "purpose": "Sync the latest prep notes from the sheet.",
+    "sourceChanges": [
+      "November 11 and 12 prep now says Bring water. Removed the snack request to match the sheet."
+    ]
   },
   "novemberNextWeekSourceReview": {
     "reviewedAt": "2026-11-07T00:54:00Z",
