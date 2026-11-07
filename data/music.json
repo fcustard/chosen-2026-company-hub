@@ -66,6 +66,19 @@
     "lyricsUrl": "#"
   },
   {
+    "id": "gabriel-voice-scene-07",
+    "title": "Gabriel Voice (Scene 7)",
+    "scenes": [
+      7
+    ],
+    "type": "Spoken voice rehearsal cue",
+    "status": "Current rehearsal track",
+    "approved": true,
+    "companyPublish": true,
+    "playUrl": "assets/audio/07_Gabriel_Voice_Rehearsal_v1.mp3",
+    "lyricsUrl": "#"
+  },
+  {
     "title": "Still Yours",
     "type": "Mary / Joseph",
     "status": "Current rehearsal track",
@@ -113,6 +126,19 @@
     "approved": true,
     "companyPublish": true,
     "playUrl": "assets/audio/09_What_Will_He_Be_with_vocals_rehearsal_v1.mp3",
+    "lyricsUrl": "#"
+  },
+  {
+    "id": "gabriel-voice-scene-12",
+    "title": "Gabriel Voice (Scene 12)",
+    "scenes": [
+      12
+    ],
+    "type": "Spoken voice rehearsal cue",
+    "status": "Current rehearsal track",
+    "approved": true,
+    "companyPublish": true,
+    "playUrl": "assets/audio/12_Gabriel_Voice_Rehearsal_v1.mp3",
     "lyricsUrl": "#"
   },
   {
