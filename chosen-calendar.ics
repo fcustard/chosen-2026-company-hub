@@ -109,20 +109,6 @@ URL:https://fcustard.github.io/chosen-2026-company-hub/schedule.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:CHOSEN-20261130-REH@chosen-2026-company-hub.fcustard.github.io
-DTSTAMP:20261022T153529Z
-LAST-MODIFIED:20261022T153529Z
-SEQUENCE:0
-DTSTART:20261130T233000Z
-DTEND:20261201T023000Z
-SUMMARY:CHOSEN Rehearsal - Tentative recovery rehearsal
-LOCATION:TBD
-DESCRIPTION:Check My Calls on the CHOSEN Hub for your personal report and r
- elease times. Changes may take time to appear in a subscribed calendar.
-URL:https://fcustard.github.io/chosen-2026-company-hub/schedule.html
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
 UID:CHOSEN-20261202-REH@chosen-2026-company-hub.fcustard.github.io
 DTSTAMP:20261022T153529Z
 LAST-MODIFIED:20261022T153529Z
@@ -718,6 +704,20 @@ DESCRIPTION:Check My Calls on the CHOSEN Hub for your personal report and r
  elease times. Changes may take time to appear in a subscribed calendar.
 URL:https://fcustard.github.io/chosen-2026-company-hub/schedule.html
 STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:CHOSEN-20261130-REH@chosen-2026-company-hub.fcustard.github.io
+DTSTAMP:20261107T025122Z
+LAST-MODIFIED:20261107T025122Z
+SEQUENCE:1
+DTSTART:20261130T233000Z
+DTEND:20261201T023000Z
+SUMMARY:Canceled — CHOSEN Rehearsal - Tentative recovery rehearsal
+LOCATION:TBD
+DESCRIPTION:Check My Calls on the CHOSEN Hub for your personal report and r
+ elease times. Changes may take time to appear in a subscribed calendar.
+URL:https://fcustard.github.io/chosen-2026-company-hub/schedule.html
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:CHOSEN-20261020-REH@chosen-2026-company-hub.fcustard.github.io
