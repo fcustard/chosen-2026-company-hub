@@ -213,5 +213,13 @@
     "sourceChanges": "Added Scene 10 for Mary and Joseph, 8:00–9:30 PM, alongside the existing Scene 4 block. Caleb's release changes to 9:30 PM; Jordyn's 6:30–9:30 PM call remains. Master Calendar D40:F40, P40:Q40, U40 and AA40 plus Personal Calls F353 updated.",
     "overlap": "Mary is called for Scene 4 and Scene 10 in the same block; directing team coordination needed. Existing Scene 4 was not removed.",
     "publicationScope": "Calendar-only sync. Keep existing script content."
+  },
+  "calendarPublication": {
+    "requestedAt": "2026-11-07T17:16:44.354Z",
+    "eventKeys": [
+      "CHOSEN-20261111-REH",
+      "CHOSEN-20261112-REH"
+    ],
+    "purpose": "Publish director-approved November 11/12 calendar changes using the calendar-only workflow; do not wait on a separate Master Script refresh."
   }
 }
