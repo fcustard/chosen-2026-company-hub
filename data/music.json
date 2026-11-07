@@ -103,6 +103,19 @@
     "lyricsUrl": "#"
   },
   {
+    "id": "what-will-he-be-with-vocals",
+    "title": "What Will He Be? (With Vocals)",
+    "scenes": [
+      9
+    ],
+    "type": "Rehearsal track — with vocals",
+    "status": "Current rehearsal track",
+    "approved": true,
+    "companyPublish": true,
+    "playUrl": "assets/audio/09_What_Will_He_Be_with_vocals_rehearsal_v1.mp3",
+    "lyricsUrl": "#"
+  },
+  {
     "title": "Chosen Finale",
     "scenes": [
       12

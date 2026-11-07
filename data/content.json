@@ -11439,6 +11439,21 @@
         "current": false
       },
       {
+        "id": "what-will-he-be-with-vocals",
+        "title": "What Will He Be? (With Vocals)",
+        "scenes": [
+          9
+        ],
+        "type": "Rehearsal track — with vocals",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "assets/audio/09_What_Will_He_Be_with_vocals_rehearsal_v1.mp3",
+        "lyricsUrl": "#",
+        "name": "What Will He Be? (With Vocals)",
+        "current": false
+      },
+      {
         "title": "Chosen Finale",
         "scenes": [
           12
@@ -11576,6 +11591,21 @@
         "current": false
       },
       {
+        "id": "what-will-he-be-with-vocals",
+        "title": "What Will He Be? (With Vocals)",
+        "scenes": [
+          9
+        ],
+        "type": "Rehearsal track — with vocals",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "assets/audio/09_What_Will_He_Be_with_vocals_rehearsal_v1.mp3",
+        "lyricsUrl": "#",
+        "name": "What Will He Be? (With Vocals)",
+        "current": false
+      },
+      {
         "title": "Chosen Finale",
         "scenes": [
           12
@@ -11606,8 +11636,8 @@
         "current": false
       }
     ],
-    "count": 9,
-    "updated": "2026-11-07T14:13:34.043Z",
+    "count": 10,
+    "updated": "2026-11-07T16:03:39.493Z",
     "kind": "music"
   }
 }
