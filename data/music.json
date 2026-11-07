@@ -115,6 +115,19 @@
     "lyricsUrl": "#"
   },
   {
+    "id": "chosen-finale-without-lead-vocal",
+    "title": "Chosen Finale (Without Lead Vocal)",
+    "scenes": [
+      12
+    ],
+    "type": "Rehearsal track — without lead vocal",
+    "status": "Current rehearsal track",
+    "approved": true,
+    "companyPublish": true,
+    "playUrl": "assets/audio/12_Chosen_Finale_Without_Lead_Vocal_Rehearsal_v1.mp3",
+    "lyricsUrl": "#"
+  },
+  {
     "title": "Silent Night",
     "type": "Post-reveal vocal sequence — SC11-D into Scene 12",
     "status": "Arrangement pending — vocals after reveal, silence and Mary-to-Joseph handoff",
