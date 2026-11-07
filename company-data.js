@@ -132,7 +132,7 @@ window.CHOSEN_COMPANY_DATA = [
   },
   {
     "name": "Etta Wright",
-    "roles": "MERCHANT 1 / VILLAGER WOMAN 3 / ENSEMBLE",
+    "roles": "WARDROBE — Back Stage Costumes, Props",
     "scenes": "1, 9, 10, 11, 12",
     "danceEnsemble": false
   },
@@ -168,7 +168,7 @@ window.CHOSEN_COMPANY_DATA = [
   },
   {
     "name": "Jayden Harris",
-    "roles": "MERCHANT 2 / SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE",
+    "roles": "SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE",
     "scenes": "1, 9, 10, 12",
     "danceEnsemble": false
   },
@@ -240,14 +240,8 @@ window.CHOSEN_COMPANY_DATA = [
     "danceEnsemble": true
   },
   {
-    "name": "Sandra Johnson",
-    "roles": "VILLAGER / VILLAGE AUNTIE (Elizabeth's Friend) / ENSEMBLE",
-    "scenes": "1, 7, 10, 11, 12",
-    "danceEnsemble": false
-  },
-  {
     "name": "Shanice Palmer",
-    "roles": "GOSSIPER 2",
+    "roles": "MERCHANT 1 / MERCHANT 2 / GOSSIPER 2",
     "scenes": "1, 4, 9, 10, 11, 12",
     "understudy": "Understudy for Shira",
     "danceEnsemble": false

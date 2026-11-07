@@ -1343,7 +1343,7 @@
       "id": "P-jayden-harris",
       "name": "Jayden Harris",
       "companyType": "Performer",
-      "primaryAssignment": "MERCHANT 2 / SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE",
+      "primaryAssignment": "SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE",
       "departments": [
         "Cast"
       ],
@@ -1351,7 +1351,7 @@
         "Ensemble",
         "Principals/Featured"
       ],
-      "roles": "MERCHANT 2 / SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE",
+      "roles": "SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -1366,7 +1366,7 @@
           "personId": "P-jayden-harris",
           "type": "Cast Role",
           "department": "Cast",
-          "assignment": "MERCHANT 2 / SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE",
+          "assignment": "SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE",
           "scope": "1, 9, 10, 12",
           "callGroups": [
             "Ensemble",
@@ -1990,14 +1990,14 @@
       "id": "P-shanice-palmer",
       "name": "Shanice Palmer",
       "companyType": "Performer",
-      "primaryAssignment": "MERCHANT 1/GOSSIPER 2 /Understudy for Shira",
+      "primaryAssignment": "MERCHANT 1 / MERCHANT 2 / GOSSIPER 2 / Understudy for Shira",
       "departments": [
         "Cast"
       ],
       "groups": [
         "Principals/Featured"
       ],
-      "roles": "MERCHANT 1/GOSSIPER 2 /Understudy for Shira",
+      "roles": "MERCHANT 1 / MERCHANT 2 / GOSSIPER 2 / Understudy for Shira",
       "scenes": [
         1,
         4,
@@ -2014,7 +2014,7 @@
           "personId": "P-shanice-palmer",
           "type": "Cast Role",
           "department": "Cast",
-          "assignment": "GOSSIPER 2 /Understudy for Shira",
+          "assignment": "MERCHANT 1 / MERCHANT 2 / GOSSIPER 2",
           "scope": "1,4,9,10,11,12",
           "callGroups": [
             "Principals/Featured"

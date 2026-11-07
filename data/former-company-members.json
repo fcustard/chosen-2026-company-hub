@@ -10,7 +10,7 @@
       "id": "P-sandra-johnson",
       "name": "Sandra Johnson",
       "historicalThroughDate": "2026-10-25",
-      "reason": "Director-confirmed removal. Preserve past calls and attendance; remove all current assignments and future calls."
+      "reason": "Director reconfirmed withdrawal November 7, 2026: no longer able to participate. No active roles, future calls or wardrobe work. Preserve historical attendance and calls."
     },
     {
       "id": "P-amadeus-hills",
@@ -22,7 +22,10 @@
       "id": "P-annetta-johnson",
       "name": "Annetta Johnson",
       "historicalThroughDate": "2026-10-31",
-      "reason": "Director-confirmed withdrawal effective November 1, 2026. Preserve past calls, attendance and intake records; remove all current assignments and future calls."
+      "reason": "Director reconfirmed withdrawal November 7, 2026: no longer able to participate. No active roles, future calls or wardrobe work. Preserve historical attendance and calls.",
+      "aliases": [
+        "Annette Jordan"
+      ]
     }
   ]
 }

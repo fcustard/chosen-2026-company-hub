@@ -542,7 +542,7 @@
     {
       "id": "jayden-harris",
       "name": "Jayden Harris",
-      "roles": "MERCHANT 2 / SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE",
+      "roles": "SHEPHERD 2 / ROMAN ANNOUNCER / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -780,7 +780,7 @@
     {
       "id": "shanice-palmer",
       "name": "Shanice Palmer",
-      "roles": "GOSSIPER 2",
+      "roles": "MERCHANT 1 / MERCHANT 2 / GOSSIPER 2",
       "scenes": [
         1,
         4,

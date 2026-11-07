@@ -7,7 +7,7 @@
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
   "sourceUpdated": "2026-11-07T07:03:35.388Z",
-  "contentHash": "a3da7da6eeba618539bbf322fb32adb0a6a8fcc3004e73a33c049e02b9d041d7",
+  "contentHash": "2bf6130ead2ac4e445385804bdfc6689329e8b3b4f3b54178e6d873597770368",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -28,6 +28,11 @@
     {
       "type": "production-note",
       "text": "Musical Number: “Welcome to Nazareth”",
+      "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "production-note",
+      "text": "Casting: Shanice Palmer speaks all Merchant 1 and Merchant 2 lines in Scene 1. She also keeps her Gossiper 2 lines. Keep both merchant parts in the script.",
       "namedStyleType": "SUBTITLE"
     },
     {
