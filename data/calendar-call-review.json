@@ -115,7 +115,7 @@
     "pagesRun": 41486392040
   },
   "latestCalendarAudit": {
-    "reviewedAt": "2026-11-07T06:12:55.765Z",
+    "reviewedAt": "2026-11-07T08:09:55.281Z",
     "futureMappedGoogleEventsRead": 18,
     "activeFutureGoogleEvents": 17,
     "googleMismatches": 0,
@@ -124,16 +124,18 @@
     "verifiedRehearsalsBlob": "48bf49b24f62dba5c26b2d60ebd5f58e349a1088",
     "activePeopleVerified": 55,
     "activeAssignmentsVerified": 84,
-    "personalFutureRows": 0,
+    "personalFutureRows": 19,
     "pagesRun": 42331260216,
-    "remainingDecisions": "November 18 and 19 have names in the sheet. Keep REVIEW until the director sets each person's report and release times. Other pending calls still need review.",
-    "newlyObservedChange": "Sync the new November 11 and 12 prep notes. Calls and times stay the same.",
+    "remainingDecisions": "November 14, 18 and 19 still need the director's named call plan and personal times. Keep REVIEW.",
+    "newlyObservedChange": "November 11 has 10 named calls. November 12 has 9. Each has a report and release time. Audrey is now in both exact-name lists.",
     "notifiedSourceChanges": [
-      "November 11 and 12 prep: Bring water."
+      "November 11 and 12 exact personal calls",
+      "Audrey restored to X39:X40"
     ],
-    "purpose": "Sync the latest prep notes from the sheet.",
+    "purpose": "Sync the exact-name list fix from the sheet.",
     "sourceChanges": [
-      "November 11 and 12 prep now says Bring water. Removed the snack request to match the sheet."
+      "November 11 and 12 now have exact names and personal call times.",
+      "Added Audrey Howell-McClenney to X39:X40 to match the approved scene blocks, call notes, and Personal Calls."
     ]
   },
   "novemberNextWeekSourceReview": {
