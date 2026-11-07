@@ -186,5 +186,24 @@
     "decision": "Audrey Howell-McClenney is not called on either date. This date-only change replaces the earlier call based on her Elizabeth role.",
     "sourceChanges": "Removed her from F39:F40, X39:X40 and the two Personal Calls rows. AA39:AA40 records the director's update.",
     "publicationScope": "Calendar-only sync. Keep existing script content."
+  },
+  "directorNovember11SceneChange": {
+    "approvedAt": "2026-11-07T17:14:01.836Z",
+    "source": "Director instruction in CHOSEN chat",
+    "eventKey": "CHOSEN-20261111-REH",
+    "sceneBlocks": [
+      {
+        "scene": 5,
+        "report": "6:30 PM",
+        "release": "8:00 PM"
+      },
+      {
+        "scene": 4,
+        "report": "8:00 PM",
+        "release": "9:30 PM"
+      }
+    ],
+    "sourceChanges": "Master Calendar D39:F39, P39:Q39, U39, X39, AA39 and corresponding Personal Calls updated. Current Scene 5 script includes Mary and Shira; their actors and existing Shira understudy report at 6:30 PM and remain for Scene 4. Joseph and friends report 6:30 PM and release 8:00 PM. Other Scene 4 actors report 8:00 PM. Cedrick is no longer called for the replaced first block. Audrey remains not called.",
+    "publicationScope": "Calendar-only sync. Keep existing script content."
   }
 }
