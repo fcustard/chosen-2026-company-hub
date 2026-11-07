@@ -36,6 +36,39 @@ function lines(v = '') {
   return esc(v).replace(/\r?\n/g, '<br>');
 }
 
+function prepHtml(value = '') {
+  const text = String(value);
+  const marker = '⚠️ IMPORTANT REMINDERS';
+  const markerIndex = text.indexOf(marker);
+  if (markerIndex < 0) return '<p>' + lines(text) + '</p>';
+
+  const intro = text.slice(0, markerIndex).trim();
+  const reminderText = text.slice(markerIndex + marker.length).trim();
+  const [listText, ...closingParagraphs] = reminderText.split(/\r?\n\s*\r?\n/);
+  const bullets = listText.split(/\r?\n/)
+    .map(line => line.replace(/^[•-]\s*/, '').trim())
+    .filter(Boolean);
+  const items = bullets.map(bullet => {
+    const label = esc(bullet).replace(
+      /(Sanctuary stage|OFF SCRIPT|\b\d{1,2}:\d{2} [AP]M\b)/g,
+      '<strong>$1</strong>'
+    );
+    return '<li>' + label + '</li>';
+  }).join('');
+  const closing = closingParagraphs.map(paragraph =>
+    '<p>' + lines(paragraph) + '</p>'
+  ).join('');
+
+  return [
+    intro ? '<p>' + lines(intro) + '</p>' : '',
+    '<section class="call-reminders" aria-label="Important reminders">',
+    '<h3>⚠️ IMPORTANT REMINDERS</h3>',
+    '<ul>' + items + '</ul>',
+    closing,
+    '</section>'
+  ].join('');
+}
+
 function publicationBadges(status) {
   return `<div class="callPublicationBadges"><span class="status">${esc(status.eventLabel)}</span><span class="status ${status.pending ? 'assignmentsPending' : 'assignmentsPublished'}">${esc(status.personalLabel)}</span></div>`;
 }
@@ -492,7 +525,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
               <div>
                 <b>PREP</b>
-                <p>${lines(x.prep)}</p>
+                ${prepHtml(x.prep)}
               </div>
 
               ${
@@ -1368,9 +1401,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                       ? `
                         <div>
                           <b>PREP</b>
-                          <p>
-                            ${lines(x.prep)}
-                          </p>
+                          ${prepHtml(x.prep)}
                         </div>
                       `
                       : ''
@@ -1575,4 +1606,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 });
+
 

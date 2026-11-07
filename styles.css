@@ -637,3 +637,35 @@ footer{background:var(--n);color:#fff;text-align:center;padding:28px}footer b{di
   white-space:pre-line;
   overflow-wrap:anywhere;
 }
+
+/* Preparation reminders on Schedule and This Week. */
+.call-reminders {
+  margin-top: 1.25rem;
+  padding: 1.25rem;
+  border: 1px solid #decda9;
+  border-left: 4px solid #bd871d;
+  border-radius: 12px;
+  background: #fffaf0;
+}
+.call-reminders h3 {
+  margin: 0 0 1rem;
+  color: #805207;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.call-reminders ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+.call-reminders li {
+  margin: 0 0 0.75rem;
+  line-height: 1.65;
+}
+.call-reminders li:last-child {
+  margin-bottom: 0;
+}
+.call-reminders p {
+  margin: 1rem 0 0;
+  line-height: 1.65;
+}
+
