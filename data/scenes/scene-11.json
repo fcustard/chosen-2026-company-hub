@@ -6,8 +6,8 @@
   "companyPublish": true,
   "source": "Master script Google Doc",
   "sourceDocTitle": "CHOSEN: THE STORY BEFORE THE MANGER-SCRIPT",
-  "sourceUpdated": "2026-11-07T07:03:35.388Z",
-  "contentHash": "743faabe55ff4462e882e340003e6138b481daa8eb4b35bb97671f2474389825",
+  "sourceUpdated": "2026-11-07T14:13:21.908Z",
+  "contentHash": "41fd9c8532e68cde052c9fec22509a240e6c132ced6e61632d07bd202e6f69eb",
   "publicationNote": "This scene was auto-published from the CHOSEN master script.",
   "blocks": [
     {
@@ -22,18 +22,23 @@
     },
     {
       "type": "production-note",
-      "text": "Running Time: confirm after timing Mary's prosthetic removal, concealed return, and birth reveal.",
+      "text": "Running Time: time this scene at rehearsal. Include Mary's change and the baby reveal.",
       "namedStyleType": "SUBTITLE"
     },
     {
       "type": "production-note",
-      "text": "Musical Treatment: rhythmic “No Room” sequence → instrumental “Silent Night” change/manger cover → silence, baby cry and family reveal → vocal “Silent Night” into Scene 12.",
+      "text": "Music: “No Room” beat → “Silent Night” with no singing → silence and baby cry → quiet “Silent Night” singing into Scene 12.",
       "namedStyleType": "SUBTITLE"
     },
     {
       "type": "production-note",
-      "text": "Characters: Mary, Joseph, Innkeepers / Bethlehem Villagers, Innkeeper Eli, Anna / Innkeeper's Wife, and Bethlehem ensemble.",
+      "text": "Characters: Mary, Joseph, Innkeeper 1, Innkeeper 2, Innkeeper Eli, Anna (Eli's wife), and Bethlehem villagers. Some villagers speak the VOICE lines.",
       "namedStyleType": "SUBTITLE"
+    },
+    {
+      "type": "stage",
+      "text": "Before rehearsal: the director must mark each door stop, the crate spot, Mary's two seats, and the hidden exit and return path. Keep the return on the same side as the change spot. Check the hidden path from front and side seats. Place the water, cloths, and one wrapped baby doll before the scene. Mary and Joseph bring their bag, staff, blanket, and gifts from Scene 10. At the shelter, set these beside the resting spot, clear of all paths. Keep them there into Scene 12. The stage manager calls SC11-A, B, C, and D. These are the four cue names used below.",
+      "namedStyleType": "HEADING_6"
     },
     {
       "type": "spacer",
@@ -51,12 +56,12 @@
     },
     {
       "type": "stage",
-      "text": "The knock that ended Scene 10 continues without blackout.",
+      "text": "Keep the lights on. Use the knock from the end of Scene 10. Do not add a second knock.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "A door opens.",
+      "text": "Innkeeper 1 opens the first door.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -96,7 +101,7 @@
     },
     {
       "type": "stage",
-      "text": "Joseph turns and summons confidence.",
+      "text": "Joseph turns to Mary. He tries to look calm.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -121,7 +126,7 @@
     },
     {
       "type": "stage",
-      "text": "They move.",
+      "text": "Mary and Joseph walk to the second door. Mary sets the pace.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -140,7 +145,7 @@
     },
     {
       "type": "stage",
-      "text": "A tired Innkeeper opens. Behind them, people are already packed into every usable space.",
+      "text": "Innkeeper 2 opens the door and looks tired. People fill the room behind the door.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -175,7 +180,7 @@
     },
     {
       "type": "stage",
-      "text": "The Innkeeper looks toward Mary and genuinely wishes the answer were different.",
+      "text": "Innkeeper 2 looks at Mary with a sad face.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -190,7 +195,7 @@
     },
     {
       "type": "stage",
-      "text": "Beat.",
+      "text": "Pause.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -205,7 +210,7 @@
     },
     {
       "type": "stage",
-      "text": "Joseph takes that in.",
+      "text": "Joseph pauses and looks down.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -220,7 +225,7 @@
     },
     {
       "type": "stage",
-      "text": "The door closes.",
+      "text": "Innkeeper 2 closes the door.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -235,7 +240,7 @@
     },
     {
       "type": "stage",
-      "text": "Mary studies him. She hears the strain under the certainty.",
+      "text": "Mary looks at Joseph. She can tell he is worried.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -270,12 +275,12 @@
     },
     {
       "type": "stage",
-      "text": "Beat.",
+      "text": "Pause.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "They move.",
+      "text": "Mary and Joseph walk to the next door together.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -289,12 +294,12 @@
     },
     {
       "type": "music",
-      "text": "UNDERSCORE BEGINS",
+      "text": "SOFT MUSIC STARTS",
       "namedStyleType": "HEADING_4"
     },
     {
       "type": "stage",
-      "text": "The knocking becomes part of the score.",
+      "text": "Match each knock to the music's beat.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -344,7 +349,7 @@
     },
     {
       "type": "heading",
-      "text": "SHUT.",
+      "text": "The door shuts.",
       "namedStyleType": "HEADING_2"
     },
     {
@@ -359,7 +364,7 @@
     },
     {
       "type": "stage",
-      "text": "Joseph moves faster.",
+      "text": "Joseph knocks with more haste. He stays near Mary. He does not pull her along.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -389,27 +394,27 @@
     },
     {
       "type": "heading",
-      "text": "SHUT.",
+      "text": "The door shuts.",
       "namedStyleType": "HEADING_2"
     },
     {
       "type": "stage",
-      "text": "The rhythm builds: KNOCK. NO ROOM. KNOCK. FULL. KNOCK-KNOCK. SORRY.",
+      "text": "Keep the knocks and replies on the beat: KNOCK. NO ROOM. KNOCK. FULL. KNOCK-KNOCK. SORRY.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Bethlehem moves around them: travelers, children, bundles, animals, families, people searching for their own names and their own places.",
+      "text": "Villagers cross with their bags and bundles. Keep a clear path for Mary and Joseph.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "No one is cruel by design. Everyone is already carrying something.",
+      "text": "The villagers are tired and busy. Do not laugh at Mary or Joseph.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Joseph’s explanations get shorter.",
+      "text": "Joseph says less with each knock.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -439,17 +444,17 @@
     },
     {
       "type": "heading",
-      "text": "SHUT.",
+      "text": "The door shuts.",
       "namedStyleType": "HEADING_2"
     },
     {
       "type": "stage",
-      "text": "Everyone seems to have somewhere to go.",
+      "text": "Villagers keep moving past the couple.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "No one has a place for them.",
+      "text": "Mary and Joseph stay close to each other.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -468,17 +473,17 @@
     },
     {
       "type": "heading",
-      "text": "LABOR BECOMES REAL",
+      "text": "MARY FEELS A BIRTH PAIN",
       "namedStyleType": "HEADING_2"
     },
     {
       "type": "stage",
-      "text": "Mary steadies herself. Her breathing changes.",
+      "text": "Mary stops and takes slow breaths. She keeps her feet steady.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Joseph turns instantly.",
+      "text": "Joseph turns to Mary at once.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -503,7 +508,7 @@
     },
     {
       "type": "stage",
-      "text": "She breathes through it.",
+      "text": "Mary takes slow breaths through the pain.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -578,7 +583,7 @@
     },
     {
       "type": "stage",
-      "text": "Beat.",
+      "text": "Pause.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -593,12 +598,12 @@
     },
     {
       "type": "stage",
-      "text": "The objective changes.",
+      "text": "Joseph looks for any safe place.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Joseph is no longer searching for a proper room. Only somewhere safe.",
+      "text": "He stops looking for a fine room. Mary needs shelter now.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -643,7 +648,7 @@
     },
     {
       "type": "stage",
-      "text": "Joseph catches himself.",
+      "text": "Joseph stops and looks at Mary.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -687,7 +692,7 @@
     },
     {
       "type": "stage",
-      "text": "Joseph reaches another door.",
+      "text": "Mary and Joseph reach Eli's door together.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -697,7 +702,7 @@
     },
     {
       "type": "stage",
-      "text": "The door opens.",
+      "text": "Eli opens the door.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -722,7 +727,7 @@
     },
     {
       "type": "stage",
-      "text": "That is all he has for a moment.",
+      "text": "Joseph pauses. He struggles to find more words.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -752,7 +757,7 @@
     },
     {
       "type": "stage",
-      "text": "Beat.",
+      "text": "Pause.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -767,7 +772,7 @@
     },
     {
       "type": "stage",
-      "text": "Beat.",
+      "text": "Pause.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -782,7 +787,7 @@
     },
     {
       "type": "stage",
-      "text": "Eli is genuinely pained.",
+      "text": "Eli looks at Mary with a sad face.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -812,7 +817,7 @@
     },
     {
       "type": "stage",
-      "text": "Joseph’s hope empties.",
+      "text": "Joseph lowers his eyes.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -827,7 +832,7 @@
     },
     {
       "type": "stage",
-      "text": "The door closes.",
+      "text": "Eli closes his door and stays inside.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -837,7 +842,7 @@
     },
     {
       "type": "stage",
-      "text": "No music. No crowd rhythm.",
+      "text": "Stop the crowd sounds. No music plays.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -847,7 +852,7 @@
     },
     {
       "type": "stage",
-      "text": "For the first time, there is no next door in his mind.",
+      "text": "Joseph stops searching. He does not know where to go.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -891,7 +896,7 @@
     },
     {
       "type": "stage",
-      "text": "He gestures helplessly at everything.",
+      "text": "Joseph opens his hands and looks around.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -941,7 +946,7 @@
     },
     {
       "type": "stage",
-      "text": "Mary moves toward him as much as she comfortably can.",
+      "text": "Mary takes a small step toward Joseph.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -996,7 +1001,7 @@
     },
     {
       "type": "stage",
-      "text": "That lands.",
+      "text": "Joseph goes still and listens.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1011,7 +1016,7 @@
     },
     {
       "type": "stage",
-      "text": "Joseph looks at her, emptied of answers.",
+      "text": "Joseph looks at Mary. He has no answer.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1066,7 +1071,7 @@
     },
     {
       "type": "stage",
-      "text": "Beat.",
+      "text": "Pause.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1081,7 +1086,7 @@
     },
     {
       "type": "stage",
-      "text": "Give the moment room.",
+      "text": "Pause. Let them stand together in silence.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1110,7 +1115,7 @@
     },
     {
       "type": "stage",
-      "text": "Anna, Eli’s wife, has stepped out from the household. She has heard enough.",
+      "text": "Anna, Eli's wife, opens Eli's door and steps out. She has heard the couple.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1125,7 +1130,7 @@
     },
     {
       "type": "stage",
-      "text": "Joseph’s face falls again.",
+      "text": "Joseph looks down again.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1150,7 +1155,7 @@
     },
     {
       "type": "stage",
-      "text": "Anna hesitates, almost embarrassed to offer it.",
+      "text": "Anna pauses. She looks shy about her offer.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1190,7 +1195,7 @@
     },
     {
       "type": "stage",
-      "text": "Beat.",
+      "text": "Pause.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1205,22 +1210,22 @@
     },
     {
       "type": "stage",
-      "text": "Joseph looks toward Mary. This is not what he wanted for her.",
+      "text": "Joseph looks at Mary. He wishes he could offer more.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Another contraction begins.",
+      "text": "Mary feels another birth pain.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Joseph moves toward Mary, but waits for her cue.",
+      "text": "Joseph moves close. He waits for Mary to ask for help.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Mary breathes through it.",
+      "text": "Mary takes slow breaths.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1265,7 +1270,7 @@
     },
     {
       "type": "stage",
-      "text": "Joseph understands the lesson before she has to repeat it.",
+      "text": "Joseph nods. He accepts Mary's choice.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1304,22 +1309,22 @@
     },
     {
       "type": "stage",
-      "text": "The animal shelter is revealed.",
+      "text": "Anna leads Mary and Joseph to the shelter. Bring up a dim light there.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Do not make it beautiful yet.",
+      "text": "Keep the shelter plain.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "It is rough, dim, straw-covered, practical and imperfect.",
+      "text": "It looks rough and dry. Use the set and straw already placed for this scene.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "A feeding trough sits nearby. Animal sounds may be heard, but avoid comic animal business.",
+      "text": "The manger is nearby. A manger is a box used to feed animals. Soft animal sounds may play. Keep this moment calm.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1344,7 +1349,7 @@
     },
     {
       "type": "stage",
-      "text": "Anna hears the gratitude in that.",
+      "text": "Anna gives Mary a small, kind nod.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1354,7 +1359,7 @@
     },
     {
       "type": "stage",
-      "text": "This time his builder instinct is useful.",
+      "text": "Joseph looks for a safe spot where Mary can rest.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1379,12 +1384,12 @@
     },
     {
       "type": "stage",
-      "text": "Joseph clears straw, checks the ground, shifts a crate, tests what is stable.",
+      "text": "Joseph points to the small crate on “May I move this?” After Anna agrees, he moves it to its marked spot. He clears Mary's path. He checks her seat.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "He is not trying to transform the shelter into the house he imagined.",
+      "text": "Keep this work small and calm.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1404,12 +1409,12 @@
     },
     {
       "type": "stage",
-      "text": "He notices the feeding trough and marks where it can remain, clear of Mary's resting place.",
+      "text": "Mary moves to the safe resting spot. Anna stays close to help. Joseph looks at the manger. It stays on its mark, clear of Mary's seat and path.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Stops.",
+      "text": "He stops.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1419,17 +1424,17 @@
     },
     {
       "type": "stage",
-      "text": "He checks the space around it. The careful cleaning and lining will follow while Anna helps Mary.",
+      "text": "Joseph checks the space around the manger. He will clean and line it while Mary is offstage.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "He finds the clean cloth among their belongings and keeps it ready.",
+      "text": "Joseph takes a clean cloth from their bag. He sets it beside the manger.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Anna returns with water and a clean cloth.",
+      "text": "Anna steps to the nearby supply spot. She picks up the water and a second clean cloth, then comes back.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1469,7 +1474,7 @@
     },
     {
       "type": "stage",
-      "text": "Mary’s relief is immediate.",
+      "text": "Mary lets out a soft breath of relief.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1494,7 +1499,7 @@
     },
     {
       "type": "stage",
-      "text": "Beat.",
+      "text": "Pause.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1524,12 +1529,12 @@
     },
     {
       "type": "stage",
-      "text": "Anna begins preparing.",
+      "text": "Anna sets the water and cloth within reach.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "No grand speech. She simply helps.",
+      "text": "Anna stays close to Mary. She helps with small, calm moves.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1543,42 +1548,42 @@
     },
     {
       "type": "stage",
-      "text": "Bethlehem’s noise begins to disappear.",
+      "text": "Fade the town sounds.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The knocking rhythm is gone.",
+      "text": "Keep the knocking stopped.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Crowd movement thins.",
+      "text": "Villagers leave in small groups. Keep Mary's exit path clear.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The LED simplifies rather than becomes more spectacular.",
+      "text": "Keep the back screen dark and still. Show only the quiet shelter.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Lighting narrows.",
+      "text": "Focus the light on the shelter.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The production begins removing things.",
+      "text": "Do not move large set pieces here.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Mary settles briefly at the shelter edge, with room for Joseph to kneel beside her.",
+      "text": "Mary sits at the shelter's edge. Leave room for Joseph beside her.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Anna prepares the private same-side route and stays close.",
+      "text": "Anna checks that Mary's hidden exit path is clear. She stays close.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1618,7 +1623,7 @@
     },
     {
       "type": "stage",
-      "text": "That is enough. After their shared moment, Mary accepts Anna's support. Anna helps Mary exit through the agreed masked same-side opening into the private change bay. Joseph remains in the shelter.",
+      "text": "Pause. Then Joseph lets go of Mary's hand. Anna helps Mary stand. Mary and Anna leave through the marked, hidden opening on the same side. Joseph stays at the shelter.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1627,62 +1632,62 @@
     },
     {
       "type": "heading",
-      "text": "“SILENT NIGHT” — INSTRUMENTAL / MANGER PREPARATION",
+      "text": "“SILENT NIGHT” — MUSIC WHILE JOSEPH PREPARES THE MANGER",
       "namedStyleType": "HEADING_2"
     },
     {
       "type": "stage",
-      "text": "SC11-A — INSTRUMENTAL COVER: as Mary and Anna exit, begin a sparse instrumental “Silent Night,” with no vocals. Joseph turns to the manger, cleans it carefully, and arranges the clean lining. His work is tender and purposeful; he occasionally looks toward Mary's exit. Keep the manger stationary and the approved return lane clear.",
+      "text": "SC11-A — MUSIC STARTS: as Mary and Anna leave, play soft “Silent Night” with no singing. Joseph cleans the manger and lays the clean cloth inside. He looks toward Mary's exit now and then. Do not move the manger. Keep Mary's return path clear.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The birth is implied offstage; no literal childbirth is shown.",
+      "text": "The birth happens out of sight. Do not act out the birth onstage.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "At the private same-side bay, a dedicated dresser assists Mary in removing W01, adjusting the approved birth look and journey layers, and checking mic-pack/cable placement. Anna accompanies Mary in character; she is not the sole dresser or privacy operator. Return W01 to its labeled covered bag. Rehearse the actual change and route.",
+      "text": "At the private change spot, the dresser helps Mary remove W01, the false belly. Anna stays with Mary. The dresser adjusts Mary's clothes and checks her mic and wires. Put W01 in its labeled, covered bag. Anna does not have to do the change alone.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Keep a quiet shelter image on LED 11B. Focus stage light on Joseph, leaving the masked change and return route concealed from front and side seats.",
+      "text": "Keep the quiet shelter picture, LED 11B, on the back screen. Light Joseph. Hide Mary's change spot and return path from all seats.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The instrumental has a repeatable middle and can hold as needed. Joseph remains available within the shelter; his preparation shows care, not an attempt to control the birth.",
+      "text": "The music must have a part that can repeat. Repeat it if Mary needs more time. Joseph works slowly and with care.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "production-note",
-      "text": "Time passes through the instrumental, Joseph's purposeful preparation, and restrained changes in light. The arrangement and measured change time remain to be confirmed; do not use a fixed countdown.",
+      "text": "Rehearse the real change and walk back. Time both. Do not rush Mary to fit a set number of seconds.",
       "namedStyleType": "SUBTITLE"
     },
     {
       "type": "stage",
-      "text": "Do not make the star the event yet. If visible, it should emerge with extraordinary restraint.",
+      "text": "If the star is on, keep it faint. Save the bright star for later.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "SC11-B — CONCEALED RETURN: after Wardrobe confirms costume readiness and Sound confirms mic readiness, Stage Management cues Mary and Anna's unseen return. Use the agreed low-light masked route; Mary settles into her approved seated position, without the prosthetic. Do not reveal her walking in.",
+      "text": "SC11-B — HIDDEN RETURN: Wardrobe tells the stage manager Mary's clothes are ready. Sound says her mic is ready. Then the stage manager cues Mary and Anna to return by the hidden path. Mary sits on her marked seat without the false belly. The audience must not see her walk in.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Anna retrieves the one swaddled performance doll from the clean same-side preset and places it securely in Mary's arms after Mary is seated. Anna clears the central image and reports the seated-position / secure-doll ready check to Stage Management.",
+      "text": "Once Mary is seated, Anna gets the one wrapped baby doll from its nearby spot. She puts it safely in Mary's arms. Anna steps to the side. She tells the backstage lead Mary is seated and has the doll. The lead tells the stage manager they are ready.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Only after Wardrobe, Sound, and the backstage lead confirm readiness does Stage Management call SC11-C: fade the instrumental to silence, then cue the baby cry and the small warm family reveal. Keep the LED subdued; no full-stage blackout or screen flash.",
+      "text": "SC11-C — BABY REVEAL: wait for the ready reports from Wardrobe, Sound, and the backstage lead. The stage manager cues the music to fade out. Once it is silent, cue the baby cry and a small warm light on Mary and the baby. Keep the back screen dim. Do not flash the screen or turn all lights off.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The baby cry reveals Mary already seated with the child. It must not trigger her walk or return. Joseph turns toward the sound; Anna remains close enough to support the scene, outside the family image.",
+      "text": "Mary is already seated with the baby before the cry. The cry cues the reveal. It does not cue her walk in. Joseph turns toward the cry. Anna stays close, to one side of the family.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1697,32 +1702,32 @@
     },
     {
       "type": "stage",
-      "text": "Everything stops.",
+      "text": "After Joseph turns, everyone holds still.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Do not immediately sing.",
+      "text": "Do not sing yet.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Do not immediately move.",
+      "text": "Do not add more movement yet.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Do not immediately brighten the LED.",
+      "text": "Keep the back screen dim.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Give the audience several seconds of silence to hear the child and discover Mary already seated. Keep all vocals out until the family reveal and the Mary-to-Joseph handoff have been allowed to land.",
+      "text": "Hold a few seconds of silence after the cry ends. Let the audience see Mary and the baby. Wait until after Mary gives Joseph the baby to start singing.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "A small warm stage light reveals Mary and the child with the cry, then gently includes Joseph",
+      "text": "The warm light shows Mary and the baby. Let it spread softly to include Joseph",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1742,7 +1747,7 @@
     },
     {
       "type": "stage",
-      "text": "Anna remains slightly outside the central image.",
+      "text": "Anna stands to one side. She does not block the family.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1757,7 +1762,7 @@
     },
     {
       "type": "stage",
-      "text": "Mary looks at Joseph.",
+      "text": "Joseph says nothing.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1767,7 +1772,7 @@
     },
     {
       "type": "stage",
-      "text": "After everything, they are here.",
+      "text": "Hold this quiet family moment.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1781,12 +1786,12 @@
     },
     {
       "type": "stage",
-      "text": "Protect silence before this action.",
+      "text": "Keep the silence before Mary speaks.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Joseph remains close but does not assume.",
+      "text": "Joseph stays close. He waits for Mary to invite him.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1806,32 +1811,32 @@
     },
     {
       "type": "stage",
-      "text": "She invites him closer.",
+      "text": "Mary looks at Joseph and invites him close.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Joseph comes.",
+      "text": "Joseph moves close to Mary.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Mary places the child into his arms.",
+      "text": "Mary gives Joseph the same wrapped baby doll. He supports it with both hands. Mary lets go once he has a firm hold.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Joseph receives him carefully.",
+      "text": "Joseph holds the baby close and still.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Do not rush to dialogue.",
+      "text": "Pause before any more words.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The man who once said, “The child... it’s not mine,” now holds the child without needing to explain himself.",
+      "text": "Joseph shows his love by holding the child. He does not need to explain it.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1846,7 +1851,7 @@
     },
     {
       "type": "stage",
-      "text": "This physical action completes the emotional thought. Scene 12 can give it words.",
+      "text": "Let this quiet action show his love. Scene 12 gives him words.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1855,57 +1860,57 @@
     },
     {
       "type": "heading",
-      "text": "“SILENT NIGHT” TRANSITION",
+      "text": "“SILENT NIGHT” — SINGING INTO SCENE 12",
       "namedStyleType": "HEADING_2"
     },
     {
       "type": "stage",
-      "text": "SC11-D — VOCAL “SILENT NIGHT”: only after the cry, family reveal, held silence and the written Mary-to-Joseph handoff does the first voice enter. This continues the melody heard instrumentally during the change; it is one planned musical sequence with a silent birth-reveal break.",
+      "text": "SC11-D — SINGING STARTS: wait until Joseph holds the baby and the quiet pause has ended. Then cue the first soft voice. Use the same tune heard while Mary changed. The music has paused for the cry and family reveal.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "One soft voice begins “Silent Night.” It should emerge from the world rather than feel like a presented solo.",
+      "text": "One voice sings “Silent Night” softly. Keep the focus on the family.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Anna may begin, or the first voice may come from offstage while Anna simply watches.",
+      "text": "Before rehearsal, the music lead must choose the first singer: Anna or a singer offstage. Write that name on the music cue sheet.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "A second voice may join, then perhaps two or three more Bethlehem voices.",
+      "text": "A few more voices may join softly, as set by the music lead.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Do not build to full-company volume here.",
+      "text": "Keep the singing soft. Do not use the full company here.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The manger remains the emotional center.",
+      "text": "Keep the family beside the manger as the main focus.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "The shelter itself has not transformed. What happened there has transformed its meaning.",
+      "text": "Keep the same plain shelter. Let the family make this moment special.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "As the musical transition continues, a separate pool of night slowly appears elsewhere: open field, darkness, the suggestion of shepherds.",
+      "text": "As the song continues, slowly light the separate field area for the shepherds.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "Keep the manger visible simultaneously.",
+      "text": "Keep Mary, Joseph, the baby, and the manger in view.",
       "namedStyleType": "HEADING_6"
     },
     {
       "type": "stage",
-      "text": "No blackout.",
+      "text": "Keep the lights on through the change to Scene 12.",
       "namedStyleType": "HEADING_6"
     },
     {
@@ -1924,17 +1929,17 @@
     },
     {
       "type": "production-note",
-      "text": "Scene 11 should feel like the pressure cooker immediately before the birth. The source is very specific that Bethlehem is not a collection of villains; the tragedy is that there is need everywhere and no one seems to have room for one more need. The scene should therefore escalate through repetition, urgency, physical exhaustion, and finally silence rather than through shouting.",
+      "text": "The town is full. Its people are tired and busy. Play the scene with care. Build the rush through the knocks and moves. Do not shout at the couple.",
       "namedStyleType": "SUBTITLE"
     },
     {
       "type": "production-note",
-      "text": "“Silent Night” now begins instrumentally while Mary exits with Anna and Joseph prepares the manger. The instrumental fades to silence before the baby cry and family reveal. Vocals begin only after the held silence and Mary-to-Joseph handoff, continuing into Scene 12.",
+      "text": "Start “Silent Night” with no singing as Mary and Anna leave. Fade it out before the baby cry. Sing only after the reveal, the quiet pause, and the baby handoff.",
       "namedStyleType": "SUBTITLE"
     },
     {
       "type": "production-note",
-      "text": "The emotional center of this scene is the sequence",
+      "text": "Keep these lines calm and clear",
       "namedStyleType": "SUBTITLE"
     },
     {
@@ -1949,7 +1954,7 @@
     },
     {
       "type": "production-note",
-      "text": "followed later by",
+      "text": "Later, keep this exchange simple",
       "namedStyleType": "SUBTITLE"
     },
     {
@@ -1964,12 +1969,12 @@
     },
     {
       "type": "production-note",
-      "text": "That completes a major part of Joseph's builder arc. The source specifically frames this as the moment when his gifts become useful after he stops trying to control the entire story. He cannot create a room, shorten the road, control Caesar, or prevent labor. But when an imperfect shelter is offered, he knows how to clear it, prepare it and make it safer for Mary.",
+      "text": "Joseph cannot fix every hard thing. He can stay with Mary and help. His care shows in how he prepares her seat and the manger.",
       "namedStyleType": "SUBTITLE"
     },
     {
       "type": "production-note",
-      "text": "Preserve this cue order: Mary's “Joseph” / Joseph's “I'm here” → Mary and Anna exit → instrumental “Silent Night” while Joseph prepares the manger and Wardrobe removes the prosthetic → concealed seated return and secure doll → instrumental fade → baby cry and small warm family reveal → held silence → Mary-to-Joseph handoff → vocal “Silent Night.” No full-stage blackout, literal birth image, or fixed change countdown.",
+      "text": "Cue order: Mary says “Joseph.” Joseph says “I'm here.” Mary and Anna leave. Music starts; Joseph prepares the manger. Mary changes. Mary and Anna return unseen. Mary sits and takes the doll. All teams report ready. Music fades out. The baby cries; warm light reveals the family. Hold the silence. Mary gives Joseph the baby. Singing starts. Continue into Scene 12.",
       "namedStyleType": "SUBTITLE"
     }
   ]
