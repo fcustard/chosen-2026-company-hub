@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T16:09:43.477Z",
+  "updated": "2026-11-07T17:17:26.419Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -440,11 +440,11 @@
         "dateLabel": "November 11, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 2, 3, 4 & 8",
+        "title": "CHOSEN Rehearsal - Scenes 5 & 4",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 2, 3 & 8 — Jordyn Starks, Caleb Davilmar, Cedrick Massey\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+        "called": "6:30–8:00 PM | Scene 5 — Caleb Davilmar, Chris Mcanuff, Dorrien Jones, Marcus Mainer, Michael Stover, Jordyn Starks, Tyfany Adaka, Shanice Palmer\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
         "callGroups": [],
         "calledPeople": [
           {
@@ -454,7 +454,7 @@
             "displayName": "Caleb Davilmar"
           },
           {
-            "displayName": "Cedrick Massey"
+            "displayName": "Chris Mcanuff"
           },
           {
             "displayName": "Gabriela Sardinas"
@@ -473,47 +473,65 @@
           },
           {
             "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Michael Stover"
           }
         ],
         "calledPeopleIds": [
           "P-ashley-pierre",
           "P-caleb-davilmar",
-          "P-cedrick-massey",
+          "P-chris-mcanuff",
           "P-gabriela-sardinas",
           "P-jeovanie-andre",
           "P-jordyn-starks",
           "P-shanice-palmer",
           "P-tasha-simeon",
-          "P-tyfany-adaka"
+          "P-tyfany-adaka",
+          "P-dorrien-jones",
+          "P-marcus-mainer",
+          "P-michael-stover"
         ],
         "personalCallTimes": {
           "P-ashley-pierre": "8:00 PM",
           "P-caleb-davilmar": "6:30 PM",
-          "P-cedrick-massey": "6:30 PM",
+          "P-chris-mcanuff": "6:30 PM",
           "P-gabriela-sardinas": "8:00 PM",
           "P-jeovanie-andre": "8:00 PM",
           "P-jordyn-starks": "6:30 PM",
-          "P-shanice-palmer": "8:00 PM",
+          "P-shanice-palmer": "6:30 PM",
           "P-tasha-simeon": "8:00 PM",
-          "P-tyfany-adaka": "8:00 PM"
+          "P-tyfany-adaka": "6:30 PM",
+          "P-dorrien-jones": "6:30 PM",
+          "P-marcus-mainer": "6:30 PM",
+          "P-michael-stover": "6:30 PM"
         },
         "personalCallEndTimes": {
           "P-ashley-pierre": "9:30 PM",
           "P-caleb-davilmar": "8:00 PM",
-          "P-cedrick-massey": "8:00 PM",
+          "P-chris-mcanuff": "8:00 PM",
           "P-gabriela-sardinas": "9:30 PM",
           "P-jeovanie-andre": "9:30 PM",
           "P-jordyn-starks": "9:30 PM",
           "P-shanice-palmer": "9:30 PM",
           "P-tasha-simeon": "9:30 PM",
-          "P-tyfany-adaka": "9:30 PM"
+          "P-tyfany-adaka": "9:30 PM",
+          "P-dorrien-jones": "8:00 PM",
+          "P-marcus-mainer": "8:00 PM",
+          "P-michael-stover": "8:00 PM"
         },
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Clean scenes, blocking, and transitions",
+        "work": "6:30–8:00 PM — Scene 5; 8:00–9:30 PM — Scene 4. Clean scenes, blocking, and transitions.",
         "focus": "",
-        "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
+        "prep": "6:30–8:00 PM — Scene 5\n8:00–9:30 PM — Scene 4\n\nOn-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
         "notice": "",
         "changeType": ""
       },
@@ -528,11 +546,11 @@
         "dateLabel": "November 12, 2026",
         "dayLabel": "Thursday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 4, 6 & 8",
+        "title": "CHOSEN Rehearsal - Scenes 4, 6, 8 & 10",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+        "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer\n\n8:00–9:30 PM | Scene 10 — Mary (Jordyn Starks) and Joseph (Caleb Davilmar) review. This overlaps Scene 4; Mary is needed in both. Directing team to coordinate.",
         "callGroups": [],
         "calledPeople": [
           {
@@ -582,7 +600,7 @@
         },
         "personalCallEndTimes": {
           "P-ashley-pierre": "9:30 PM",
-          "P-caleb-davilmar": "8:00 PM",
+          "P-caleb-davilmar": "9:30 PM",
           "P-gabriela-sardinas": "9:30 PM",
           "P-jeovanie-andre": "9:30 PM",
           "P-jordyn-starks": "9:30 PM",
@@ -593,9 +611,9 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Clean scenes, blocking, and transitions",
+        "work": "6:30–8:00 PM — Scenes 6 & 8; 8:00–9:30 PM — Scene 4 and Scene 10 (Mary and Joseph review). Clean scenes, blocking, and transitions.",
         "focus": "",
-        "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
+        "prep": "6:30–8:00 PM — Scenes 6 & 8\n8:00–9:30 PM — Scene 4 and Scene 10 review. These blocks overlap; the directing team will need to coordinate shared performers.\n\nOn-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
         "notice": "",
         "changeType": ""
       }
@@ -823,11 +841,11 @@
         "dateLabel": "November 11, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 2, 3, 4 & 8",
+        "title": "CHOSEN Rehearsal - Scenes 5 & 4",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 2, 3 & 8 — Jordyn Starks, Caleb Davilmar, Cedrick Massey\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+        "called": "6:30–8:00 PM | Scene 5 — Caleb Davilmar, Chris Mcanuff, Dorrien Jones, Marcus Mainer, Michael Stover, Jordyn Starks, Tyfany Adaka, Shanice Palmer\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
         "callGroups": [],
         "calledPeople": [
           {
@@ -837,7 +855,7 @@
             "displayName": "Caleb Davilmar"
           },
           {
-            "displayName": "Cedrick Massey"
+            "displayName": "Chris Mcanuff"
           },
           {
             "displayName": "Gabriela Sardinas"
@@ -856,47 +874,65 @@
           },
           {
             "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Michael Stover"
           }
         ],
         "calledPeopleIds": [
           "P-ashley-pierre",
           "P-caleb-davilmar",
-          "P-cedrick-massey",
+          "P-chris-mcanuff",
           "P-gabriela-sardinas",
           "P-jeovanie-andre",
           "P-jordyn-starks",
           "P-shanice-palmer",
           "P-tasha-simeon",
-          "P-tyfany-adaka"
+          "P-tyfany-adaka",
+          "P-dorrien-jones",
+          "P-marcus-mainer",
+          "P-michael-stover"
         ],
         "personalCallTimes": {
           "P-ashley-pierre": "8:00 PM",
           "P-caleb-davilmar": "6:30 PM",
-          "P-cedrick-massey": "6:30 PM",
+          "P-chris-mcanuff": "6:30 PM",
           "P-gabriela-sardinas": "8:00 PM",
           "P-jeovanie-andre": "8:00 PM",
           "P-jordyn-starks": "6:30 PM",
-          "P-shanice-palmer": "8:00 PM",
+          "P-shanice-palmer": "6:30 PM",
           "P-tasha-simeon": "8:00 PM",
-          "P-tyfany-adaka": "8:00 PM"
+          "P-tyfany-adaka": "6:30 PM",
+          "P-dorrien-jones": "6:30 PM",
+          "P-marcus-mainer": "6:30 PM",
+          "P-michael-stover": "6:30 PM"
         },
         "personalCallEndTimes": {
           "P-ashley-pierre": "9:30 PM",
           "P-caleb-davilmar": "8:00 PM",
-          "P-cedrick-massey": "8:00 PM",
+          "P-chris-mcanuff": "8:00 PM",
           "P-gabriela-sardinas": "9:30 PM",
           "P-jeovanie-andre": "9:30 PM",
           "P-jordyn-starks": "9:30 PM",
           "P-shanice-palmer": "9:30 PM",
           "P-tasha-simeon": "9:30 PM",
-          "P-tyfany-adaka": "9:30 PM"
+          "P-tyfany-adaka": "9:30 PM",
+          "P-dorrien-jones": "8:00 PM",
+          "P-marcus-mainer": "8:00 PM",
+          "P-michael-stover": "8:00 PM"
         },
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Clean scenes, blocking, and transitions",
+        "work": "6:30–8:00 PM — Scene 5; 8:00–9:30 PM — Scene 4. Clean scenes, blocking, and transitions.",
         "focus": "",
-        "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
+        "prep": "6:30–8:00 PM — Scene 5\n8:00–9:30 PM — Scene 4\n\nOn-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
         "notice": "",
         "changeType": ""
       },
@@ -911,11 +947,11 @@
         "dateLabel": "November 12, 2026",
         "dayLabel": "Thursday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 4, 6 & 8",
+        "title": "CHOSEN Rehearsal - Scenes 4, 6, 8 & 10",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+        "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer\n\n8:00–9:30 PM | Scene 10 — Mary (Jordyn Starks) and Joseph (Caleb Davilmar) review. This overlaps Scene 4; Mary is needed in both. Directing team to coordinate.",
         "callGroups": [],
         "calledPeople": [
           {
@@ -965,7 +1001,7 @@
         },
         "personalCallEndTimes": {
           "P-ashley-pierre": "9:30 PM",
-          "P-caleb-davilmar": "8:00 PM",
+          "P-caleb-davilmar": "9:30 PM",
           "P-gabriela-sardinas": "9:30 PM",
           "P-jeovanie-andre": "9:30 PM",
           "P-jordyn-starks": "9:30 PM",
@@ -976,9 +1012,9 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Clean scenes, blocking, and transitions",
+        "work": "6:30–8:00 PM — Scenes 6 & 8; 8:00–9:30 PM — Scene 4 and Scene 10 (Mary and Joseph review). Clean scenes, blocking, and transitions.",
         "focus": "",
-        "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
+        "prep": "6:30–8:00 PM — Scenes 6 & 8\n8:00–9:30 PM — Scene 4 and Scene 10 review. These blocks overlap; the directing team will need to coordinate shared performers.\n\nOn-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
         "notice": "",
         "changeType": ""
       },
@@ -5990,11 +6026,11 @@
         "dateLabel": "November 11, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 2, 3, 4 & 8",
+        "title": "CHOSEN Rehearsal - Scenes 5 & 4",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 2, 3 & 8 — Jordyn Starks, Caleb Davilmar, Cedrick Massey\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+        "called": "6:30–8:00 PM | Scene 5 — Caleb Davilmar, Chris Mcanuff, Dorrien Jones, Marcus Mainer, Michael Stover, Jordyn Starks, Tyfany Adaka, Shanice Palmer\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
         "callGroups": [],
         "calledPeople": [
           {
@@ -6004,7 +6040,7 @@
             "displayName": "Caleb Davilmar"
           },
           {
-            "displayName": "Cedrick Massey"
+            "displayName": "Chris Mcanuff"
           },
           {
             "displayName": "Gabriela Sardinas"
@@ -6023,47 +6059,65 @@
           },
           {
             "displayName": "Tyfany Adaka"
+          },
+          {
+            "displayName": "Dorrien Jones"
+          },
+          {
+            "displayName": "Marcus Mainer"
+          },
+          {
+            "displayName": "Michael Stover"
           }
         ],
         "calledPeopleIds": [
           "P-ashley-pierre",
           "P-caleb-davilmar",
-          "P-cedrick-massey",
+          "P-chris-mcanuff",
           "P-gabriela-sardinas",
           "P-jeovanie-andre",
           "P-jordyn-starks",
           "P-shanice-palmer",
           "P-tasha-simeon",
-          "P-tyfany-adaka"
+          "P-tyfany-adaka",
+          "P-dorrien-jones",
+          "P-marcus-mainer",
+          "P-michael-stover"
         ],
         "personalCallTimes": {
           "P-ashley-pierre": "8:00 PM",
           "P-caleb-davilmar": "6:30 PM",
-          "P-cedrick-massey": "6:30 PM",
+          "P-chris-mcanuff": "6:30 PM",
           "P-gabriela-sardinas": "8:00 PM",
           "P-jeovanie-andre": "8:00 PM",
           "P-jordyn-starks": "6:30 PM",
-          "P-shanice-palmer": "8:00 PM",
+          "P-shanice-palmer": "6:30 PM",
           "P-tasha-simeon": "8:00 PM",
-          "P-tyfany-adaka": "8:00 PM"
+          "P-tyfany-adaka": "6:30 PM",
+          "P-dorrien-jones": "6:30 PM",
+          "P-marcus-mainer": "6:30 PM",
+          "P-michael-stover": "6:30 PM"
         },
         "personalCallEndTimes": {
           "P-ashley-pierre": "9:30 PM",
           "P-caleb-davilmar": "8:00 PM",
-          "P-cedrick-massey": "8:00 PM",
+          "P-chris-mcanuff": "8:00 PM",
           "P-gabriela-sardinas": "9:30 PM",
           "P-jeovanie-andre": "9:30 PM",
           "P-jordyn-starks": "9:30 PM",
           "P-shanice-palmer": "9:30 PM",
           "P-tasha-simeon": "9:30 PM",
-          "P-tyfany-adaka": "9:30 PM"
+          "P-tyfany-adaka": "9:30 PM",
+          "P-dorrien-jones": "8:00 PM",
+          "P-marcus-mainer": "8:00 PM",
+          "P-michael-stover": "8:00 PM"
         },
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Clean scenes, blocking, and transitions",
+        "work": "6:30–8:00 PM — Scene 5; 8:00–9:30 PM — Scene 4. Clean scenes, blocking, and transitions.",
         "focus": "",
-        "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
+        "prep": "6:30–8:00 PM — Scene 5\n8:00–9:30 PM — Scene 4\n\nOn-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
         "notice": "",
         "changeType": ""
       },
@@ -6078,11 +6132,11 @@
         "dateLabel": "November 12, 2026",
         "dayLabel": "Thursday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 4, 6 & 8",
+        "title": "CHOSEN Rehearsal - Scenes 4, 6, 8 & 10",
         "status": "CONFIRMED",
         "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer",
+        "called": "6:30–8:00 PM | Scenes 6 & 8 — Jordyn Starks, Caleb Davilmar\n\n8:00–9:30 PM | Scene 4 — Jordyn Starks, Tyfany Adaka, Tasha Simeon, Jéovanie André, Ashley Pierre, Gabriela Sardinas, Shanice Palmer\n\n8:00–9:30 PM | Scene 10 — Mary (Jordyn Starks) and Joseph (Caleb Davilmar) review. This overlaps Scene 4; Mary is needed in both. Directing team to coordinate.",
         "callGroups": [],
         "calledPeople": [
           {
@@ -6132,7 +6186,7 @@
         },
         "personalCallEndTimes": {
           "P-ashley-pierre": "9:30 PM",
-          "P-caleb-davilmar": "8:00 PM",
+          "P-caleb-davilmar": "9:30 PM",
           "P-gabriela-sardinas": "9:30 PM",
           "P-jeovanie-andre": "9:30 PM",
           "P-jordyn-starks": "9:30 PM",
@@ -6143,9 +6197,9 @@
         "calledGroups": [],
         "exactCallStatus": "READY",
         "callDataVersion": 3,
-        "work": "Clean scenes, blocking, and transitions",
+        "work": "6:30–8:00 PM — Scenes 6 & 8; 8:00–9:30 PM — Scene 4 and Scene 10 (Mary and Joseph review). Clean scenes, blocking, and transitions.",
         "focus": "",
-        "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
+        "prep": "6:30–8:00 PM — Scenes 6 & 8\n8:00–9:30 PM — Scene 4 and Scene 10 review. These blocks overlap; the directing team will need to coordinate shared performers.\n\nOn-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
         "notice": "",
         "changeType": ""
       },
@@ -11328,7 +11382,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-07T16:09:43.484Z",
+    "updated": "2026-11-07T17:17:26.426Z",
     "kind": "scripts"
   },
   "music": {
@@ -11637,7 +11691,7 @@
       }
     ],
     "count": 10,
-    "updated": "2026-11-07T16:09:43.484Z",
+    "updated": "2026-11-07T17:17:26.427Z",
     "kind": "music"
   }
 }
