@@ -147,8 +147,19 @@
     ],
     "purpose": "Sync the new approved actor scene blocks from the sheet. Keep REVIEW and leave personal report and release times for director review.",
     "source": "Master Calendar rows 39–41; columns X:AA",
-    "decisionsNeeded": "Set personal report and release times. The sheet says On-site, while old internal notes still say virtual. Confirm the format before posting travel plans.",
+    "decisionsNeeded": "Approve who is needed for each block and each person's report and release times. The on-site format is confirmed.",
     "publicationScope": "Calendar-only sync. Keep existing script content.",
-    "publicTitleFix": "Public titles in Master Calendar P39:P41 now show shared scene work only. Actor scope stays in the private source. Run the calendar sync again after this fix."
+    "publicTitleFix": "Public titles in Master Calendar P39:P41 now show shared scene work only. Actor scope stays in the private source. Run the calendar sync again after this fix.",
+    "formatApproval": {
+      "approvedAt": "2026-11-07T01:05:12Z",
+      "source": "Director confirmation in CHOSEN chat: These are all on-site and not Virtual.",
+      "eventKeys": [
+        "CHOSEN-20261111-REH",
+        "CHOSEN-20261112-REH",
+        "CHOSEN-20261114-REH"
+      ],
+      "format": "On-site at The Faith Center",
+      "sourceRange": "Master Calendar Q39:R41"
+    }
   }
 }
