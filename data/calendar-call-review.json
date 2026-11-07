@@ -174,5 +174,17 @@
     "publicTitleFix": "Removed private call groups from P42:P43. Scene work is unchanged.",
     "decisionsNeeded": "For November 18 and 19, choose who is needed for each block and set each person's report and release times. Keep REVIEW.",
     "publicationScope": "Calendar-only sync. Keep existing script content."
+  },
+  "directorAudreyNovember11And12": {
+    "approvedAt": "2026-11-07T13:07:58.986Z",
+    "source": "Director instruction in CHOSEN chat: Remove Audrey Howell-McClenney from the rehearsal scheduled for November 11 and 12th.",
+    "eventKeys": [
+      "CHOSEN-20261111-REH",
+      "CHOSEN-20261112-REH"
+    ],
+    "personId": "P-audrey-howell-mcclenney",
+    "decision": "Audrey Howell-McClenney is not called on either date. This date-only change replaces the earlier call based on her Elizabeth role.",
+    "sourceChanges": "Removed her from F39:F40, X39:X40 and the two Personal Calls rows. AA39:AA40 records the director's update.",
+    "publicationScope": "Calendar-only sync. Keep existing script content."
   }
 }
