@@ -10826,6 +10826,21 @@
         "id": "chosen-finale",
         "name": "Chosen Finale",
         "current": false
+      },
+      {
+        "id": "chosen-finale-without-lead-vocal",
+        "title": "Chosen Finale (Without Lead Vocal)",
+        "scenes": [
+          12
+        ],
+        "type": "Rehearsal track — without lead vocal",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "assets/audio/12_Chosen_Finale_Without_Lead_Vocal_Rehearsal_v1.mp3",
+        "lyricsUrl": "#",
+        "name": "Chosen Finale (Without Lead Vocal)",
+        "current": false
       }
     ],
     "current": [
@@ -10948,10 +10963,25 @@
         "id": "chosen-finale",
         "name": "Chosen Finale",
         "current": false
+      },
+      {
+        "id": "chosen-finale-without-lead-vocal",
+        "title": "Chosen Finale (Without Lead Vocal)",
+        "scenes": [
+          12
+        ],
+        "type": "Rehearsal track — without lead vocal",
+        "status": "Current rehearsal track",
+        "approved": true,
+        "companyPublish": true,
+        "playUrl": "assets/audio/12_Chosen_Finale_Without_Lead_Vocal_Rehearsal_v1.mp3",
+        "lyricsUrl": "#",
+        "name": "Chosen Finale (Without Lead Vocal)",
+        "current": false
       }
     ],
-    "count": 8,
-    "updated": "2026-11-07T01:32:36.651Z",
+    "count": 9,
+    "updated": "2026-11-07T02:37:20.199Z",
     "kind": "music"
   }
 }
