@@ -115,28 +115,26 @@
     "pagesRun": 41486392040
   },
   "latestCalendarAudit": {
-    "reviewedAt": "2026-11-02T22:48:00Z",
-    "futureMappedGoogleEventsRead": 20,
+    "reviewedAt": "2026-11-07T03:01:50.249Z",
+    "futureMappedGoogleEventsRead": 18,
+    "activeFutureGoogleEvents": 17,
     "googleMismatches": 0,
-    "descriptionComparison": "Whitespace normalized, including wrapped Hub URL.",
-    "publishedIcsBlob": "a55a4ff497b1b1a75b1a12a243b565ae19054eb3",
-    "verifiedRehearsalsBlob": "49eabed6709aee13812069e5ef7af94bbc906bc8",
-    "personalRowsVerified": 55,
+    "descriptionComparison": "Spaces and wrapped Hub links match. The canceled Google record keeps its old title. Its status is cancelled.",
+    "publishedIcsBlob": "df72fbc2a705f4cf7ff16f85b4981b35813a4149",
+    "verifiedRehearsalsBlob": "8f881b5d63678a59fc7d45bf7c795bf28ee85463",
     "activePeopleVerified": 55,
-    "activeAssignmentsVerified": 85,
-    "remainingDecisions": "Existing future selective/TBD calls remain REVIEW; November 5 named early-release decision is resolved.",
-    "newlyObservedChange": "Six director-approved November 5 releases at 8:00 PM are live; shared schedule window unchanged.",
-    "sourceChanges": [
-      "November 4 approved source title adds Scenes 2 and 6; the first block now reads 6:30–8:30 PM and overlaps Scenes 4/5 at 7:30–8:30 PM.",
-      "November 5 shortened call text omitted the six approved 8:00 PM releases; restored explicit note from AA37 without changing Personal Calls."
+    "activeAssignmentsVerified": 84,
+    "personalFutureRows": 0,
+    "pagesRun": 42331260216,
+    "remainingDecisions": "November 18 and 19 have names in the sheet. Keep REVIEW until the director sets each person's report and release times. Other pending calls still need review.",
+    "newlyObservedChange": "November 30 is canceled. The Hub and Google show the cancellation. November 19 now has Scenes 1 & 9 at 6:30–8:30 PM and Scene 12 at 8:30–9:30 PM. November 21 has 42 valid named performers.",
+    "notifiedSourceChanges": [
+      "CHOSEN-20261130-REH cancellation and sync recovery",
+      "CHOSEN-20261119-REH scene blocks",
+      "CHOSEN-20261118-REH and CHOSEN-20261119-REH source names stay REVIEW",
+      "CHOSEN-20261121-REH exact names"
     ],
-    "purpose": "Sync approved sheet changes; retain personal windows; no private calls in public calendar.",
-    "resolvedDirectorDecision": {
-      "eventKey": "CHOSEN-20261104-REH",
-      "approvedOn": "2026-11-04",
-      "decision": "APPROVED 2026-11-04: Scenes 2, 3, 6 & 8 run from 6:30 to 8:30 PM. Scenes 4 & 5 run from 7:30 to 8:30 PM. The director approved the overlap from 7:30 to 8:30 PM.",
-      "source": "Master Calendar AA36 and director confirmation in chat"
-    }
+    "purpose": "Record this check so the same news is not sent again."
   },
   "novemberNextWeekSourceReview": {
     "reviewedAt": "2026-11-07T00:54:00Z",
