@@ -161,5 +161,18 @@
       "format": "On-site at The Faith Center",
       "sourceRange": "Master Calendar Q39:R41"
     }
+  },
+  "november18To21SourceReview": {
+    "reviewedAt": "2026-11-07T01:31:39Z",
+    "changedEventKeys": [
+      "CHOSEN-20261118-REH",
+      "CHOSEN-20261119-REH",
+      "CHOSEN-20261121-REH"
+    ],
+    "source": "Approved Master Calendar rows 42–44",
+    "purpose": "Sync the new scene work and shared titles. Keep exact people, groups, and personal times out of the public feed.",
+    "publicTitleFix": "Removed private call groups from P42:P43. Scene work is unchanged.",
+    "decisionsNeeded": "For November 18 and 19, choose who is needed for each block and set each person's report and release times. Keep REVIEW.",
+    "publicationScope": "Calendar-only sync. Keep existing script content."
   }
 }
