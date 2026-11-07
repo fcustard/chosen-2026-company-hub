@@ -137,5 +137,17 @@
       "decision": "APPROVED 2026-11-04: Scenes 2, 3, 6 & 8 run from 6:30 to 8:30 PM. Scenes 4 & 5 run from 7:30 to 8:30 PM. The director approved the overlap from 7:30 to 8:30 PM.",
       "source": "Master Calendar AA36 and director confirmation in chat"
     }
+  },
+  "novemberNextWeekSourceReview": {
+    "reviewedAt": "2026-11-07T00:54:00Z",
+    "changedEventKeys": [
+      "CHOSEN-20261111-REH",
+      "CHOSEN-20261112-REH",
+      "CHOSEN-20261114-REH"
+    ],
+    "purpose": "Sync the new approved actor scene blocks from the sheet. Keep REVIEW and leave personal report and release times for director review.",
+    "source": "Master Calendar rows 39–41; columns X:AA",
+    "decisionsNeeded": "Set personal report and release times. The sheet says On-site, while old internal notes still say virtual. Confirm the format before posting travel plans.",
+    "publicationScope": "Calendar-only sync. Keep existing script content."
   }
 }
