@@ -1,0 +1,200 @@
+{
+  "prepared_date": "2026-11-08",
+  "campaign": "Come See Me in CHOSEN",
+  "event": {
+    "title": "CHOSEN: The Story Before the Manger",
+    "date": "Sunday, December 20, 2026",
+    "time": "6:00 PM",
+    "timezone": "America/New_York",
+    "venue": "The Faith Center",
+    "address": "5555 NW 95th Avenue, Sunrise, FL 33351",
+    "admission": "Free admission",
+    "url": "https://fcustard.github.io/chosen-2026-company-hub/chosen.html",
+    "flyers": "https://fcustard.github.io/chosen-2026-company-hub/cast-flyers.html",
+    "kit": "https://fcustard.github.io/chosen-2026-company-hub/cast-launch-kit.html"
+  },
+  "goal": "One feed Post, two Stories, and five personal invitations per cast member during November 9–15.",
+  "captions": [
+    {
+      "id": "caption-1",
+      "title": "Come see me",
+      "text": "Come see me in CHOSEN: The Story Before the Manger! I’m so excited to be part of this Christmas production, and I’d love for you to be there.\n\nSunday, December 20, 2026 • 6:00 PM\nThe Faith Center\n5555 NW 95th Avenue, Sunrise, FL 33351\nFree admission\n\nBring someone with you! Show details: https://fcustard.github.io/chosen-2026-company-hub/chosen.html\n\n#CHOSEN2026 #TheFaithCenter #SunriseFL"
+    },
+    {
+      "id": "caption-2",
+      "title": "A personal invitation",
+      "text": "I’ve been spending time getting ready for something special, and now I get to invite you! Come see me in CHOSEN: The Story Before the Manger—a Christmas story told through music, dance, and drama.\n\nSunday, December 20, 2026 • 6:00 PM\nThe Faith Center\n5555 NW 95th Avenue, Sunrise, FL 33351\nFree admission\n\nI’d love to see you there. Save the date: https://fcustard.github.io/chosen-2026-company-hub/chosen.html\n\n#CHOSEN2026 #TheFaithCenter #SunriseFL"
+    },
+    {
+      "id": "caption-3",
+      "title": "Short and simple",
+      "text": "Your Christmas plans just got a little more special. Come see me in CHOSEN: The Story Before the Manger!\n\nSunday, December 20, 2026 • 6:00 PM\nThe Faith Center\n5555 NW 95th Avenue, Sunrise, FL 33351\nFree admission\n\nSave the date and invite a friend: https://fcustard.github.io/chosen-2026-company-hub/chosen.html\n\n#CHOSEN2026 #TheFaithCenter #SunriseFL"
+    }
+  ],
+  "stories": [
+    {
+      "id": "story-1",
+      "title": "Story 1 — launch",
+      "text": "Come see me in CHOSEN!\nDecember 20 • 6 PM\nThe Faith Center • Free admission"
+    },
+    {
+      "id": "story-2",
+      "title": "Story 2 — reminder",
+      "text": "Save December 20 for CHOSEN!\n6 PM at The Faith Center\nFree admission • Bring a friend"
+    },
+    {
+      "id": "story-3",
+      "title": "Story 3 — personal invite",
+      "text": "I’d love to see you there!\nCHOSEN • December 20 • 6 PM\nThe Faith Center • Free admission"
+    }
+  ],
+  "personal": {
+    "id": "personal-invite",
+    "title": "Send a personal invitation",
+    "text": "Hey! I’m part of CHOSEN: The Story Before the Manger, and I’d love for you to come see it. It’s Sunday, December 20 at 6 PM at The Faith Center in Sunrise. Admission is free! Want to come? Here are the details: https://fcustard.github.io/chosen-2026-company-hub/chosen.html"
+  },
+  "whatsapp": {
+    "id": "cast-whatsapp",
+    "title": "Cast WhatsApp announcement — ready to send",
+    "text": "Hey CHOSEN family! Our “Come See Me in CHOSEN” flyers are ready!\n\nFind your name and save your Post and Story flyers here:\nhttps://fcustard.github.io/chosen-2026-company-hub/cast-flyers.html\n\nOur launch week is November 9–15. Here’s the goal:\n• Share your Post flyer once.\n• Share your Story flyer twice.\n• Personally invite five people.\n\nCaptions and the full sharing plan are here:\nhttps://fcustard.github.io/chosen-2026-company-hub/cast-launch-kit.html\n\nSend your guests this show link:\nhttps://fcustard.github.io/chosen-2026-company-hub/chosen.html\n\nThe show is Sunday, December 20 at 6 PM at The Faith Center. Admission is free!\n\nParents and guardians, please help your child share. If you spot a flyer mistake or cannot find your name, let Ms. Lounise know before posting. Let’s invite our people!"
+  },
+  "church": {
+    "id": "church-announcement",
+    "title": "Church announcement — draft for the media team",
+    "text": "You’re invited to CHOSEN: The Story Before the Manger, a Christmas stage production told through music, dance, and drama. Join us Sunday, December 20, 2026 at 6 PM at The Faith Center, 5555 NW 95th Avenue in Sunrise. Admission is free. Bring your family and invite a friend. Find show details at https://fcustard.github.io/chosen-2026-company-hub/chosen.html"
+  },
+  "video": {
+    "id": "video-prompt",
+    "title": "A short video invitation",
+    "text": "“Hey, I’m part of CHOSEN: The Story Before the Manger! Come see us December 20 at 6 PM at The Faith Center in Sunrise. Admission is free. Bring a friend—I’d love to see you there!”"
+  },
+  "schedule": [
+    {
+      "date": "Mon, Nov. 9",
+      "task": "Post your flyer",
+      "detail": "Choose one caption. Share your Post flyer and your first Story. Add the guest link."
+    },
+    {
+      "date": "Tue, Nov. 10",
+      "task": "Invite five people",
+      "detail": "Send five personal invitations to people you know. Follow up with anyone who replies."
+    },
+    {
+      "date": "Wed, Nov. 11",
+      "task": "Share your second Story",
+      "detail": "Use Story 2. Add the guest link so people can save the date."
+    },
+    {
+      "date": "Thu, Nov. 12",
+      "task": "Record an invitation",
+      "detail": "Use the short video prompt if you can. Record at home or at your next scheduled call; no extra rehearsal is needed."
+    },
+    {
+      "date": "Fri, Nov. 13",
+      "task": "Follow up",
+      "detail": "Reply to questions and share the show details with anyone who is interested."
+    },
+    {
+      "date": "Sat, Nov. 14",
+      "task": "Share a personal moment",
+      "detail": "Share your invitation video or an approved rehearsal image. Keep story surprises for the show."
+    },
+    {
+      "date": "Sun, Nov. 15",
+      "task": "Check your week",
+      "detail": "Check that you shared one Post, two Stories, and five personal invitations. Tell the production administrator if you need help."
+    }
+  ],
+  "rollout": [
+    {
+      "dates": "Nov. 9–15",
+      "focus": "Cast invitation launch and official show announcement"
+    },
+    {
+      "dates": "Nov. 16–29",
+      "focus": "Cast spotlights, personal invitations, and approved rehearsal glimpses"
+    },
+    {
+      "dates": "Nov. 30–Dec. 13",
+      "focus": "Performance previews and community invitations"
+    },
+    {
+      "dates": "Dec. 14–20",
+      "focus": "Countdown, directions, confirmed arrival details, and final reminders"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "launch-kit",
+      "task": "Captions, Story text, personal invitation, and cast WhatsApp draft",
+      "status": "Prepared",
+      "owner": "Production leadership",
+      "next": "Use the launch kit; cast WhatsApp message is prepared, not sent."
+    },
+    {
+      "id": "guest-page",
+      "task": "Guest invitation page, directions, and calendar download",
+      "status": "Prepared",
+      "owner": "Production leadership",
+      "next": "Verify the published guest page and share its link."
+    },
+    {
+      "id": "coordinator",
+      "task": "Choose one marketing coordinator and backup",
+      "status": "Needs assignment",
+      "owner": "Production leadership",
+      "next": "Name the person who collects assets, tracks dates, and confirms placements while the directors are away."
+    },
+    {
+      "id": "church-placement",
+      "task": "Church screens, service announcement, email/app, and social placements",
+      "status": "Needs confirmation",
+      "owner": "Church media / communications",
+      "next": "Confirm who publishes each item, the first publication date, and the approved master event graphic."
+    },
+    {
+      "id": "handles",
+      "task": "Official church social account tags",
+      "status": "Needs confirmation",
+      "owner": "Church media / communications",
+      "next": "Confirm exact handles before adding tags; launch copy works without account tags."
+    },
+    {
+      "id": "phone",
+      "task": "Actual iPhone or Android Post and Story download completion",
+      "status": "Needs phone check",
+      "owner": "Marketing coordinator",
+      "next": "Open the flyer gallery on a phone, save one Post and one Story, and confirm both appear in Photos or Downloads."
+    },
+    {
+      "id": "unidentified",
+      "task": "Identify the 14 remaining unnamed source portraits",
+      "status": "Needs names",
+      "owner": "Production administrator / photo team",
+      "next": "Match each source photo to a confirmed performer. Keep the 33 available cast flyer pairs in circulation."
+    },
+    {
+      "id": "video",
+      "task": "Collect short cast video invitations and approve the first Reel",
+      "status": "Ready to collect",
+      "owner": "Marketing coordinator / video editor",
+      "next": "Collect clear vertical video, add readable captions and event details, then obtain production review before posting."
+    },
+    {
+      "id": "arrival",
+      "task": "Confirm guest arrival information",
+      "status": "Needs confirmation",
+      "owner": "Venue / production leadership",
+      "next": "Confirm doors-open time, parking instructions, seating/registration policy, accessibility contact, and running time before advertising those details."
+    },
+    {
+      "id": "results",
+      "task": "Launch-week sharing check",
+      "status": "Not started",
+      "owner": "Marketing coordinator",
+      "next": "On Nov. 15, record participation, actual channel placements, questions received, and remaining help needed. Do not count prepared items as posted."
+    }
+  ],
+  "publication_note": "Copy is prepared for use. No WhatsApp messages, social posts, emails, or church announcements have been sent or scheduled by this preparation."
+}
+

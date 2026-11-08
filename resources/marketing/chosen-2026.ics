@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CHOSEN 2026//Christmas Production//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:chosen-2026-1220@fcustard.github.io
+DTSTAMP:20261108T230000Z
+DTSTART:20261220T230000Z
+SUMMARY:CHOSEN: The Story Before the Manger
+LOCATION:The Faith Center\, 5555 NW 95th Avenue\, Sunrise FL 33351
+DESCRIPTION:Free admission. Show details: https://fcustard.github.io/chos
+ en-2026-company-hub/chosen.html
+URL:https://fcustard.github.io/chosen-2026-company-hub/chosen.html
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

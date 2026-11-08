@@ -24,6 +24,30 @@
     "featured": true
   },
   {
+    "id": "cast-launch-kit",
+    "title": "Cast Launch Kit — Captions & Sharing Plan",
+    "category": "Cast Promotion",
+    "description": "Copy a caption, save your flyer, and invite your people. Includes Story text, personal invitations, and the November 9–15 sharing plan.",
+    "status": "CURRENT",
+    "approved": true,
+    "companyPublish": true,
+    "fileUrl": "cast-launch-kit.html",
+    "linkLabel": "Open the cast launch kit",
+    "featured": true
+  },
+  {
+    "id": "guest-invitation",
+    "title": "CHOSEN — Share With Your Guests",
+    "category": "Cast Promotion",
+    "description": "Show details, directions, and a calendar download for friends and family.",
+    "status": "CURRENT",
+    "approved": true,
+    "companyPublish": true,
+    "fileUrl": "chosen.html",
+    "linkLabel": "Open the guest invitation",
+    "featured": false
+  },
+  {
     "id": "company-guide",
     "title": "CHOSEN 2026 Company Guide",
     "category": "Company Essentials",
@@ -120,3 +144,4 @@
     "featured": false
   }
 ]
+

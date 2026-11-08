@@ -15,12 +15,14 @@
     "build:resources": "node tools/build-resources.mjs",
     "build:hub": "node tools/build.mjs",
     "build:production": "node tools/build-production.mjs",
-    "build": "npm run build:company && npm run build:scenes && npm run build:pdfs && npm run build:resources && npm run build:hub && npm run build:production && npm run build:navigation",
+    "build": "npm run build:company && npm run build:scenes && npm run build:pdfs && npm run build:resources && npm run build:hub && npm run build:production && npm run build:marketing && npm run build:navigation",
     "check": "npm run validate && npm run build",
     "validate:search": "node tools/test-search.mjs",
     "validate:home": "node --test tools/test-home-dashboard.mjs",
     "build:navigation": "node tools/sync-navigation.mjs",
     "validate:flow": "node --test tools/test-site-flow.mjs",
-    "validate:preparation": "node --test tools/test-preparation.mjs"
+    "validate:preparation": "node --test tools/test-preparation.mjs",
+    "build:marketing": "node tools/build-marketing-launch.mjs"
   }
 }
+
