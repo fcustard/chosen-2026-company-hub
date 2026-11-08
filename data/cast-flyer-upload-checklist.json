@@ -363,7 +363,7 @@
         1402
       ],
       "blob_sha": "d8bde59519d40acaec0e07241eb9c962409259d7",
-      "matches_repository": false,
+      "matches_repository": true,
       "format_ratio_correct": true,
       "verified": false,
       "previous_verification": {
@@ -382,7 +382,7 @@
         1672
       ],
       "blob_sha": "30559bfb412c443db9d047f16a7b88722138dee5",
-      "matches_repository": false,
+      "matches_repository": true,
       "format_ratio_correct": true,
       "verified": false,
       "previous_verification": {
@@ -401,7 +401,7 @@
         1402
       ],
       "blob_sha": "47f21cd4f2254ca7e9aff9a6a936979ac1e3cbce",
-      "matches_repository": false,
+      "matches_repository": true,
       "format_ratio_correct": true,
       "verified": false,
       "previous_verification": {
@@ -420,7 +420,7 @@
         1672
       ],
       "blob_sha": "fb38481196055c173312e9115cc9b59e633b8cae",
-      "matches_repository": false,
+      "matches_repository": true,
       "format_ratio_correct": true,
       "verified": false,
       "previous_verification": {
@@ -699,7 +699,7 @@
         1402
       ],
       "blob_sha": "ddc11409200b7ac02326ba3ccace7493ea26b2de",
-      "matches_repository": false,
+      "matches_repository": true,
       "format_ratio_correct": true,
       "verified": false,
       "previous_verification": {
@@ -718,7 +718,7 @@
         1672
       ],
       "blob_sha": "ab72c07dde43aeb94cc82257d4935907595b00cb",
-      "matches_repository": false,
+      "matches_repository": true,
       "format_ratio_correct": true,
       "verified": false,
       "previous_verification": {
@@ -1156,7 +1156,11 @@
     "related_alignment": "Annalise Mongeois remains Child 2, aligned with Full Company Info and scene guide.",
     "images_reviewed": true,
     "drive_replacements_saved": true,
-    "hub_publication": "pending",
-    "verification": "pending live readback"
+    "hub_publication": "deployed successfully",
+    "verification": "Corrected role labels and all six image blobs verified in repository; automated build and Pages deployment succeeded. Live page rendering and mobile downloads remain unverified because browser check stalled and direct page fetch was unavailable.",
+    "repository_commit": "b460fbe9f10f38d47840317c9fdb6e97a097f53f",
+    "deployment_verified": true,
+    "deployment_run": "https://github.com/fcustard/chosen-2026-company-hub/actions/runs/42529145638",
+    "repository_labels_verified": true
   }
 }
