@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-11-08T16:17:55.242484+00:00",
+  "checked_at": "2026-11-08T18:41:24.020Z",
   "repository_commit": "5b7fbecb44e8d9d85bc71646379e877dea8362c6",
   "page_url": "https://fcustard.github.io/chosen-2026-company-hub/cast-flyers.html",
   "resources_link_verified": true,
-  "performer_count": 31,
-  "download_count": 62,
-  "verified_count": 62,
+  "performer_count": 32,
+  "download_count": 64,
+  "verified_count": 64,
   "performers": [
     "Alexandria Platt",
     "Anaia Downer",
@@ -37,7 +37,8 @@
     "Shanice Palmer",
     "Tasha Simeon",
     "Tyfany Adaka",
-    "Victorya Champagne"
+    "Victorya Champagne",
+    "Jordyn Starks"
   ],
   "files": [
     {
@@ -845,16 +846,43 @@
       "matches_repository": true,
       "format_ratio_correct": true,
       "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/jordyn-starks-post.png",
+      "status": 200,
+      "bytes": 1907341,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "54cfc2c455a79bb2459cf69fc655b73f2d84a293",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true,
+      "checked_at": "2026-11-08T18:41:24.020Z"
+    },
+    {
+      "path": "resources/cast-flyers/jordyn-starks-story.png",
+      "status": 200,
+      "bytes": 1924881,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "c005669b0150affb1f2b7bfe0da97f913740aa18",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true,
+      "checked_at": "2026-11-08T18:41:24.020Z"
     }
   ],
   "browser_checks": {
-    "name_search": "passed this run: Shanice returns 1 performer; clearing restores 31",
-    "post_download": "passed this run: actual browser click produced completed PNG download",
-    "story_download": "passed this run: actual browser click produced completed PNG download",
-    "phone_width_layout": "previous passed check at 375 CSS pixels retained from 2026-11-08T13:53:48.408515+00:00; not rerun this session",
-    "physical_phone_download": "not tested; requires Android or iOS browser",
-    "phone_width_download_event": "not verified; current browser has no mobile emulation/viewport control",
-    "desktop_layout": "passed this run: live page visible, no horizontal overflow at 1363 CSS pixels"
+    "name_search": "passed this run: Jordyn returns one card",
+    "phone_width_layout": "passed this run: Jordyn card visible at 375 CSS pixels, scrollWidth 360; temporary viewport reset",
+    "post_download": "Jordyn Post click attempted at phone width; download event timed out; completion unverified",
+    "story_download": "Not checked this run; historical prior success applies only to previous tested image.",
+    "physical_phone_download": "Not tested; requires Android or iOS browser",
+    "phone_width_download_event": "Attempted but timed out; not verified"
   },
   "outstanding_source_photos": [
     {
@@ -929,40 +957,34 @@
     }
   ],
   "notes": [
-    "This run independently verified all 62 published image bodies, PNG decoding, dimensions and repository blob hashes.",
-    "All 62 download links are unique, match verified live files, and belong to 31 clearly labeled cast cards.",
-    "Resources to gallery navigation and actual Post/Story download clicks were checked in the live desktop browser.",
-    "Jordyn portrait confirmed; finished flyers are missing. No images were regenerated or duplicated.",
-    "Earlier phone-width layout check is historical evidence only; physical/mobile download completion is not claimed."
+    "Jordyn's two published images independently retrieved and matched against approved repository blob hashes this run.",
+    "Kevin's two new flyers visually checked for name, roles, date, 6 PM, free admission and venue address.",
+    "No completed approved images recreated or reuploaded."
   ],
   "pending_flyers": [
     {
-      "name": "Jordyn Starks",
-      "role": "as Mary",
+      "name": "Kevin Hohn",
+      "role": "as Customer 1 & Eli (Innkeeper 4)",
       "formats": [
         "Post (4:5 PNG)",
         "Story (9:16 PNG)"
       ],
-      "status": "approved_ready_to_publish",
-      "portrait_name": "2X1A1797 edited 1_Jordyn Starks.png",
-      "portrait_drive_file_id": "13FrfMnTiAsYQMNJPxI8tLdmVZYHmz0zg",
-      "portrait_dimensions": [
-        3986,
-        5160
-      ],
-      "evidence": "Both approved Library PNGs visually checked: Jordyn Starks as Mary, December 20, 2026, 6:00 PM, free admission.",
-      "next_action": "Publish both images and generated card; verify live files and browser downloads."
+      "status": "prepared_blobs_uploaded_not_live",
+      "portrait_name": "IMG_20261108_134055_Kevin Hohn.jpg",
+      "portrait_drive_file_id": "1Jn_7mE1aljo5C0M156kAQ6DA9f8H3sSb",
+      "approval": "User approved updated images to go on hub.",
+      "next_action": "Publish one batch of two images and gallery card; verify live files."
     }
   ],
   "source_audit": {
     "approved_download_folder": "1_bL8RM73BtVmw12GkJgftBkPzbkzdrV_",
     "approved_png_count": 62,
-    "published_png_count": 62,
+    "published_png_count": 64,
     "missing_approved_download_files": [],
     "name_and_size_matches": 62,
-    "named_portrait_subjects": 32,
+    "named_portrait_subjects": 33,
     "unidentified_source_photos": 14,
-    "new_image_uploads_this_run": 0,
+    "new_image_uploads_this_run": 2,
     "duplicate_image_uploads_this_run": 0
   },
   "upload_failure_investigation": {
@@ -974,7 +996,7 @@
     "Read this checklist and current data/cast-flyers.json first.",
     "Compare current approved folder files and repository paths/hash before uploading; skip unchanged files.",
     "Do not recreate or upload alternate versions of completed approved flyers.",
-    "Jordyn approved Post and Story files are prepared; inspect jordyn_publication before retrying and skip matching repository blobs.",
+    "Jordyn is live and both file hashes verified; skip matching blobs.",
     "Keep all 14 unidentified portraits pending until names are supplied; they may include duplicate photos.",
     "When new approved files arrive, upload at most two images per batch in one Git change, check the live image bytes, then checkpoint completion.",
     "If a rate limit occurs, stop new upload requests, record status and Retry-After if supplied, honor that interval, and resume only unverified items.",
@@ -1001,10 +1023,11 @@
       "Resources to gallery navigation and actual Post/Story download clicks were checked in the live desktop browser.",
       "Jordyn portrait confirmed; finished flyers are missing. No images were regenerated or duplicated.",
       "Earlier phone-width layout check is historical evidence only; physical/mobile download completion is not claimed."
-    ]
+    ],
+    "source": "Historical verification retained; current updates recorded per file."
   },
   "jordyn_publication": {
-    "status": "prepared_not_yet_live",
+    "status": "live_verified",
     "approval": "User explicitly approved publishing both flyers to public company hub and GitHub repository.",
     "files": [
       {
@@ -1012,16 +1035,18 @@
         "sha256": "5aafb0c114691f01d46b5ed4c126020c54ca9e2c2a80c8075cfc69591a3becda",
         "bytes": 1907341,
         "blob_sha": "54cfc2c455a79bb2459cf69fc655b73f2d84a293",
-        "uploaded": false,
-        "live_verified": false
+        "uploaded": true,
+        "live_verified": true,
+        "checked_at": "2026-11-08T18:41:24.020Z"
       },
       {
         "path": "resources/cast-flyers/jordyn-starks-story.png",
         "sha256": "2c44eb31f60648686a620913cc1d987d057fff7bae6263bbc7d9de2e3ef5780e",
         "bytes": 1924881,
         "blob_sha": "c005669b0150affb1f2b7bfe0da97f913740aa18",
-        "uploaded": false,
-        "live_verified": false
+        "uploaded": true,
+        "live_verified": true,
+        "checked_at": "2026-11-08T18:41:24.020Z"
       }
     ]
   }
