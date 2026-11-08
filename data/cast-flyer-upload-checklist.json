@@ -1157,10 +1157,27 @@
     "images_reviewed": true,
     "drive_replacements_saved": true,
     "hub_publication": "deployed successfully",
-    "verification": "Corrected role labels and all six image blobs verified in repository; automated build and Pages deployment succeeded. Live page rendering and mobile downloads remain unverified because browser check stalled and direct page fetch was unavailable.",
+    "verification": "Verified live public gallery after browser refresh: Alexandria Platt = Ensemble, Ariella Davidson = Child 3, Nelcia Fostin = Child 1. All six live PNG downloads returned HTTP 200 and matched corrected repository blob hashes. Post and Story image wording visually reviewed. Physical mobile download completion remains unverified.",
     "repository_commit": "b460fbe9f10f38d47840317c9fdb6e97a097f53f",
     "deployment_verified": true,
     "deployment_run": "https://github.com/fcustard/chosen-2026-company-hub/actions/runs/42529145638",
-    "repository_labels_verified": true
+    "repository_labels_verified": true,
+    "live_page_verified": true,
+    "six_live_images_verified": true,
+    "remaining_checkin_labels_corrected": {
+      "date": "2026-11-08",
+      "workbooks": [
+        "1UDEabMu0tYe4OQghCdGxjIbYcZN5aiojVVAu5U09_24",
+        "1CQoqAHnN8YQRimmxype1Ukj0Ubhr-JmF7HlnohD82HM"
+      ],
+      "sheet": "Tomorrow Check-In",
+      "cells": [
+        "B5",
+        "B12",
+        "B45"
+      ],
+      "readback_verified": true
+    },
+    "historical_snapshot": "September CHOSEN_2026_Wardrobe_Master_FORM_WORKFLOW_V4.xlsx marked SUPERSEDED_2026-11-08; historical bytes retained. Current native wardrobe workbooks have corrected assignments."
   }
 }
