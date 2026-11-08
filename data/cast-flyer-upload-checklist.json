@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-11-08T18:41:24.020Z",
-  "repository_commit": "5b7fbecb44e8d9d85bc71646379e877dea8362c6",
+  "checked_at": "2026-11-08T18:43:59.730Z",
+  "repository_commit": "8c2c4c863aa6aa75b6f4cd3881222ea9a16d316b",
   "page_url": "https://fcustard.github.io/chosen-2026-company-hub/cast-flyers.html",
   "resources_link_verified": true,
-  "performer_count": 32,
-  "download_count": 64,
-  "verified_count": 64,
+  "performer_count": 33,
+  "download_count": 66,
+  "verified_count": 66,
   "performers": [
     "Alexandria Platt",
     "Anaia Downer",
@@ -28,7 +28,9 @@
     "James Myers",
     "Jayden Harris",
     "Jéovanie André",
+    "Jordyn Starks",
     "Kennedy McCalla",
+    "Kevin Hohn",
     "Kourtney—Ann Palmer",
     "Lauryn Butler",
     "Marcus Mainer",
@@ -37,8 +39,7 @@
     "Shanice Palmer",
     "Tasha Simeon",
     "Tyfany Adaka",
-    "Victorya Champagne",
-    "Jordyn Starks"
+    "Victorya Champagne"
   ],
   "files": [
     {
@@ -874,15 +875,46 @@
       "format_ratio_correct": true,
       "verified": true,
       "checked_at": "2026-11-08T18:41:24.020Z"
+    },
+    {
+      "path": "resources/cast-flyers/kevin-hohn-post.png",
+      "bytes": 1878868,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "sha256": "407ecc36d63a12cec96af9eb5f4a148bc829abe724cf89b9c3a8d80ad86a5c5e",
+      "blob_sha": "dcf6c04b61f42f384d594c2b375d9d38f7381755",
+      "status": 200,
+      "matches_repository": true,
+      "verified": true,
+      "format_ratio_correct": true,
+      "checked_at": "2026-11-08T18:43:07.168Z"
+    },
+    {
+      "path": "resources/cast-flyers/kevin-hohn-story.png",
+      "bytes": 1843740,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "sha256": "626183d51fa45650f10f0e7f857cc30020880379f84e35247ea5c0cd3bff98ee",
+      "blob_sha": "ce3c6080c6271343af742e66b2f966ba152d9b3a",
+      "status": 200,
+      "matches_repository": true,
+      "verified": true,
+      "format_ratio_correct": true,
+      "checked_at": "2026-11-08T18:43:07.362Z"
     }
   ],
   "browser_checks": {
-    "name_search": "passed this run: Jordyn returns one card",
-    "phone_width_layout": "passed this run: Jordyn card visible at 375 CSS pixels, scrollWidth 360; temporary viewport reset",
+    "name_search": "Passed this run: Jordyn and Kevin each return one card; live gallery has 33 cards and 66 unique download links.",
+    "phone_width_layout": "Jordyn verified at 375 CSS pixels with no horizontal overflow; Kevin viewport attempt remained at desktop width, so new Kevin phone layout is unverified.",
     "post_download": "Jordyn Post click attempted at phone width; download event timed out; completion unverified",
     "story_download": "Not checked this run; historical prior success applies only to previous tested image.",
     "physical_phone_download": "Not tested; requires Android or iOS browser",
-    "phone_width_download_event": "Attempted but timed out; not verified"
+    "phone_width_download_event": "Attempted but timed out; not verified",
+    "desktop_layout": "Kevin card visually verified in live browser; correct portrait loaded at natural width 1122; both download buttons present."
   },
   "outstanding_source_photos": [
     {
@@ -959,27 +991,16 @@
   "notes": [
     "Jordyn's two published images independently retrieved and matched against approved repository blob hashes this run.",
     "Kevin's two new flyers visually checked for name, roles, date, 6 PM, free admission and venue address.",
-    "No completed approved images recreated or reuploaded."
+    "No completed approved images recreated or reuploaded.",
+    "Kevin Post and Story independently downloaded from live GitHub Pages, matched repository blob hashes and correct PNG dimensions.",
+    "All 66 links unique; prior 62 file verifications retained, with Jordyn and Kevin independently checked this run.",
+    "Physical-phone saving and Kevin phone-width layout remain pending; no successful download event was observed in this browser session."
   ],
-  "pending_flyers": [
-    {
-      "name": "Kevin Hohn",
-      "role": "as Customer 1 & Eli (Innkeeper 4)",
-      "formats": [
-        "Post (4:5 PNG)",
-        "Story (9:16 PNG)"
-      ],
-      "status": "prepared_blobs_uploaded_not_live",
-      "portrait_name": "IMG_20261108_134055_Kevin Hohn.jpg",
-      "portrait_drive_file_id": "1Jn_7mE1aljo5C0M156kAQ6DA9f8H3sSb",
-      "approval": "User approved updated images to go on hub.",
-      "next_action": "Publish one batch of two images and gallery card; verify live files."
-    }
-  ],
+  "pending_flyers": [],
   "source_audit": {
     "approved_download_folder": "1_bL8RM73BtVmw12GkJgftBkPzbkzdrV_",
     "approved_png_count": 62,
-    "published_png_count": 64,
+    "published_png_count": 66,
     "missing_approved_download_files": [],
     "name_and_size_matches": 62,
     "named_portrait_subjects": 33,
@@ -996,7 +1017,7 @@
     "Read this checklist and current data/cast-flyers.json first.",
     "Compare current approved folder files and repository paths/hash before uploading; skip unchanged files.",
     "Do not recreate or upload alternate versions of completed approved flyers.",
-    "Jordyn is live and both file hashes verified; skip matching blobs.",
+    "Jordyn and Kevin Post/Story flyers are live and hashes verified; skip matching repository blobs.",
     "Keep all 14 unidentified portraits pending until names are supplied; they may include duplicate photos.",
     "When new approved files arrive, upload at most two images per batch in one Git change, check the live image bytes, then checkpoint completion.",
     "If a rate limit occurs, stop new upload requests, record status and Retry-After if supplied, honor that interval, and resume only unverified items.",
@@ -1049,5 +1070,44 @@
         "checked_at": "2026-11-08T18:41:24.020Z"
       }
     ]
+  },
+  "kevin_publication": {
+    "status": "live_verified",
+    "approval": "User explicitly approved updated images to go on the hub.",
+    "source_drive_file_id": "1Jn_7mE1aljo5C0M156kAQ6DA9f8H3sSb",
+    "files": [
+      {
+        "path": "resources/cast-flyers/kevin-hohn-post.png",
+        "bytes": 1878868,
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "sha256": "407ecc36d63a12cec96af9eb5f4a148bc829abe724cf89b9c3a8d80ad86a5c5e",
+        "blob_sha": "dcf6c04b61f42f384d594c2b375d9d38f7381755",
+        "status": 200,
+        "matches_repository": true,
+        "verified": true,
+        "format_ratio_correct": true,
+        "checked_at": "2026-11-08T18:43:07.168Z"
+      },
+      {
+        "path": "resources/cast-flyers/kevin-hohn-story.png",
+        "bytes": 1843740,
+        "dimensions": [
+          941,
+          1672
+        ],
+        "sha256": "626183d51fa45650f10f0e7f857cc30020880379f84e35247ea5c0cd3bff98ee",
+        "blob_sha": "ce3c6080c6271343af742e66b2f966ba152d9b3a",
+        "status": 200,
+        "matches_repository": true,
+        "verified": true,
+        "format_ratio_correct": true,
+        "checked_at": "2026-11-08T18:43:07.362Z"
+      }
+    ],
+    "card_verified": true,
+    "name_search_verified": true
   }
 }
