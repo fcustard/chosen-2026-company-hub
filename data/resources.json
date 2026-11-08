@@ -12,6 +12,18 @@
     "featured": true
   },
   {
+    "id": "cast-flyers",
+    "title": "Cast Flyers — Download Your Image",
+    "category": "Cast Promotion",
+    "description": "Find your name. Download a Post or Story flyer, then invite your friends. Sunday, December 20, 2026 at 6 PM. Free admission.",
+    "status": "CURRENT",
+    "approved": true,
+    "companyPublish": true,
+    "fileUrl": "cast-flyers.html",
+    "linkLabel": "Find and download your flyer",
+    "featured": true
+  },
+  {
     "id": "company-guide",
     "title": "CHOSEN 2026 Company Guide",
     "category": "Company Essentials",
