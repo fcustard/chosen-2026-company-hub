@@ -1,0 +1,936 @@
+{
+  "checked_at": "2026-11-08T13:53:48.408515+00:00",
+  "repository_commit": "598d2c0d980dacbcb1d96181731cf1d2cbb2f020",
+  "page_url": "https://fcustard.github.io/chosen-2026-company-hub/cast-flyers.html",
+  "resources_link_verified": true,
+  "performer_count": 31,
+  "download_count": 62,
+  "verified_count": 62,
+  "performers": [
+    "Alexandria Platt",
+    "Anaia Downer",
+    "Annalise Mongeois",
+    "Ariella Davidson",
+    "Ashley Pierre",
+    "Aubrie Lewis",
+    "Audrey Howell-McClenney",
+    "Caleb Davilmar",
+    "Caris Hunte",
+    "Carmen Brown",
+    "Cedrick Massey",
+    "Charla-Yvonne Cornelius",
+    "Chris McAnuff",
+    "DeAndra Gray",
+    "Dorrien Jones",
+    "Edison Browne",
+    "Gabriela Sardinas",
+    "Gabriella Fearon",
+    "James Myers",
+    "Jayden Harris",
+    "Jéovanie André",
+    "Kennedy McCalla",
+    "Kourtney—Ann Palmer",
+    "Lauryn Butler",
+    "Marcus Mainer",
+    "Marissa Downie",
+    "Nelcia Fostin",
+    "Shanice Palmer",
+    "Tasha Simeon",
+    "Tyfany Adaka",
+    "Victorya Champagne"
+  ],
+  "files": [
+    {
+      "path": "resources/cast-flyers/alexandria-platt-post.png",
+      "status": 200,
+      "bytes": 1886686,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "1b3dd94692d57083f5a91cd1c3cda2bf5732e683",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/alexandria-platt-story.png",
+      "status": 200,
+      "bytes": 1864135,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "f193365e4a21d3d7a6f83aa05209849b7cddf4c3",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/anaia-downer-post.png",
+      "status": 200,
+      "bytes": 1897687,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "a32cd8623383d8f0452417b381a633f239f4467d",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/anaia-downer-story.png",
+      "status": 200,
+      "bytes": 1857371,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "4a1a977f6bc080eb43efcbe90dc266f5ac001007",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/annalise-mongeois-post.png",
+      "status": 200,
+      "bytes": 1900879,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "bd1fadc49a483ac0977f954fb190bd30176c5449",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/annalise-mongeois-story.png",
+      "status": 200,
+      "bytes": 1829920,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "86c7c1996e413ce053e637b887edb88821e3641a",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/ariella-davidson-post.png",
+      "status": 200,
+      "bytes": 1920189,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "0b8e7ae79cad53e4a55aab826e678a71b80976aa",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/ariella-davidson-story.png",
+      "status": 200,
+      "bytes": 1921353,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "7028cb1b9a99e4a1c1b9fdbf61fb6704c086b90c",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/ashley-pierre-post.png",
+      "status": 200,
+      "bytes": 1954209,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "2371f7169e614236d4f940abf43b1d92a42710c4",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/ashley-pierre-story.png",
+      "status": 200,
+      "bytes": 1909167,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "6cbffa3bba0c6ca228c132a7d9b610ce6e1eafb3",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/aubrie-lewis-post.png",
+      "status": 200,
+      "bytes": 1960424,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "00887dfafe7f206ee4999d407e8fd67becaa8b2e",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/aubrie-lewis-story.png",
+      "status": 200,
+      "bytes": 1932746,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "89b1b58a6db45cdf405686de16b559331925a994",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/audrey-howell-mcclenney-post.png",
+      "status": 200,
+      "bytes": 1939767,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "1890a1b3263f5b636662da948ab6a401f3c263c7",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/audrey-howell-mcclenney-story.png",
+      "status": 200,
+      "bytes": 1906582,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "caccfdb97735ec4ef1bb298bb1ed03f684e79f1e",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/caleb-davilmar-post.png",
+      "status": 200,
+      "bytes": 1961214,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "6ada4b288337eded076c13f9efdc79db58aaf081",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/caleb-davilmar-story.png",
+      "status": 200,
+      "bytes": 1938646,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "2a9ec479e0d25ed9113ff79297a2db721353106a",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/caris-hunte-post.png",
+      "status": 200,
+      "bytes": 1968338,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "6027e9146476976380b8ae7a6ce5a62384ef42e2",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/caris-hunte-story.png",
+      "status": 200,
+      "bytes": 1921979,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "17b546e44053e2b1820d63e83d7e8a2aab7e36f4",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/carmen-brown-post.png",
+      "status": 200,
+      "bytes": 1862258,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "48059d0c67a299505e17c92cad90f74adfd0a1b3",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/carmen-brown-story.png",
+      "status": 200,
+      "bytes": 1870504,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "338d26e05b2a815c5e6e366cdc21aaa29722b905",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/cedrick-massey-post.png",
+      "status": 200,
+      "bytes": 1931589,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "f3835ecb7502914e3d645ca1d12ca4927eac764a",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/cedrick-massey-story.png",
+      "status": 200,
+      "bytes": 1863230,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "0fdf74984c720bce5a4ed397ec4d9e34c50b9c08",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/charla-yvonne-cornelius-post.png",
+      "status": 200,
+      "bytes": 1967006,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "0c3d6938fe3e7867eba565000473de786fc94a95",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/charla-yvonne-cornelius-story.png",
+      "status": 200,
+      "bytes": 1888369,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "534419d4157b7e38f1ddbdb49efe571dd3eb1c50",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/chris-mcanuff-post.png",
+      "status": 200,
+      "bytes": 1939191,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "1bf5e7b7f39379d97e8b40988c79b749859a5243",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/chris-mcanuff-story.png",
+      "status": 200,
+      "bytes": 1917408,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "18bb5e931cbfb1229c8070df2fcbd6dd7f8fd237",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/deandra-gray-post.png",
+      "status": 200,
+      "bytes": 2011760,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "b97253b738cb67cdcf546de0181bb8877870573c",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/deandra-gray-story.png",
+      "status": 200,
+      "bytes": 1958844,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "6247f122b63403a7aa0bafbe3df3b10d21452a66",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/dorrien-jones-post.png",
+      "status": 200,
+      "bytes": 1959336,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "ef8be0dc10a1a0ba24e13ab79adb7df071a543fd",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/dorrien-jones-story.png",
+      "status": 200,
+      "bytes": 1880793,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "c0d66c1fd90fd182eaa05e1b216e1a2336254dc0",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/edison-browne-post.png",
+      "status": 200,
+      "bytes": 1936290,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "9d52a064591e7790d56f9a3ced901af4c0cdbf15",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/edison-browne-story.png",
+      "status": 200,
+      "bytes": 1898058,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "7f3937685db63f5a57f72cf8eb9155e7efe39237",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/gabriela-sardinas-post.png",
+      "status": 200,
+      "bytes": 2073328,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "89ce817eb9be36aef161d96c01d1fa3fe0c3ca3f",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/gabriela-sardinas-story.png",
+      "status": 200,
+      "bytes": 2039332,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "6fd5316a30bfc1365223ef16ea74f8c9e7f07bd8",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/gabriella-fearon-post.png",
+      "status": 200,
+      "bytes": 1886993,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "6f20b66662b6e7c73df6e5203d707cd383c555b7",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/gabriella-fearon-story.png",
+      "status": 200,
+      "bytes": 1858421,
+      "dimensions": [
+        940,
+        1672
+      ],
+      "blob_sha": "c3e147849dc295eea62be92b88bd351b50f3e99c",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/james-myers-post.png",
+      "status": 200,
+      "bytes": 1875942,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "fefc6123c02a0484787ccbeaccd9b53e06a00f1f",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/james-myers-story.png",
+      "status": 200,
+      "bytes": 1858384,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "7143722d02778902fb15f6f780461a5e19f7d806",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/jayden-harris-post.png",
+      "status": 200,
+      "bytes": 1966274,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "c37576bf37807a9df9a7ab09c5daa316d6fa4a1e",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/jayden-harris-story.png",
+      "status": 200,
+      "bytes": 1934142,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "8fcf41ab8fec7cd897b8dc6a6647f54db0bb8c84",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/jeovanie-andre-post.png",
+      "status": 200,
+      "bytes": 2083370,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "b6002a6deb5474c94864904ad83b3a1ed1fae0c5",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/jeovanie-andre-story.png",
+      "status": 200,
+      "bytes": 2011100,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "e2d190c0ece33a94ae0ca3003582f7e97307d291",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/kennedy-mccalla-post.png",
+      "status": 200,
+      "bytes": 1905111,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "ac56f158fcacaeadf5329307e1b31e22f45fc078",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/kennedy-mccalla-story.png",
+      "status": 200,
+      "bytes": 1875481,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "d339f21545ea8672fae88f6356da6defde96b983",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/kourtney-ann-palmer-post.png",
+      "status": 200,
+      "bytes": 1878220,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "92a26bc014931a932ec05919ee7c697cf6a9035f",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/kourtney-ann-palmer-story.png",
+      "status": 200,
+      "bytes": 1871445,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "396fe7ad2d059eaa0f596457f36825081da91a7a",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/lauryn-butler-post.png",
+      "status": 200,
+      "bytes": 1879059,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "353c35ec375ae9571875f82350de07db7b2f04ee",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/lauryn-butler-story.png",
+      "status": 200,
+      "bytes": 1858803,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "f4d65c9d4546646fd64f2c1a2af1ffa55e024afc",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/marcus-mainer-post.png",
+      "status": 200,
+      "bytes": 1920881,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "fb91bbd4c5761569b2acb965ee80786e9fe289ab",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/marcus-mainer-story.png",
+      "status": 200,
+      "bytes": 1824023,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "00ac7f19362f0a3e224464409194e10aed5101f1",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/marissa-downie-post.png",
+      "status": 200,
+      "bytes": 1894609,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "97343ab39e0f3a0baad2b6fb3f3fbe64ef323d9f",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/marissa-downie-story.png",
+      "status": 200,
+      "bytes": 1829388,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "47bc11ef5506ad82555b92a3156d39f09ecd4195",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/nelcia-fostin-post.png",
+      "status": 200,
+      "bytes": 1949489,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "7efcbb0d1eb04ae5739af7936c5bfdeff653898c",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/nelcia-fostin-story.png",
+      "status": 200,
+      "bytes": 1877345,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "715b0dd8bf368c97ffe35dd2a67d5d8b0c922ba2",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/shanice-palmer-post.png",
+      "status": 200,
+      "bytes": 1936506,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "ad4fa50a5e5b9531aa5f48570ca0f22678c2f7ad",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/shanice-palmer-story.png",
+      "status": 200,
+      "bytes": 1930074,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "fdc3827b32ba98b88727234cf22498f74e17c6c1",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/tasha-simeon-post.png",
+      "status": 200,
+      "bytes": 1919613,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "ad3c9d7fd33463ca7d018b35e54ab87ad594bb78",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/tasha-simeon-story.png",
+      "status": 200,
+      "bytes": 1868018,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "0ed20d5b4f737353fbaf7a6793ad8e9636094106",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/tyfany-adaka-post.png",
+      "status": 200,
+      "bytes": 1983594,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "4f72c5a4b6347b1a8ac1ae3c5a3790afb7899a20",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/tyfany-adaka-story.png",
+      "status": 200,
+      "bytes": 1873461,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "127c967874b7da67b03328950221f83bd3da676f",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/victorya-champagne-post.png",
+      "status": 200,
+      "bytes": 1982559,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "blob_sha": "dee56ced5536053b5561b15294c52340ca38e4f0",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    },
+    {
+      "path": "resources/cast-flyers/victorya-champagne-story.png",
+      "status": 200,
+      "bytes": 1931637,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "blob_sha": "6c60ade3ec2c8c3ac27377506af3d52c85e87f05",
+      "matches_repository": true,
+      "format_ratio_correct": true,
+      "verified": true
+    }
+  ],
+  "browser_checks": {
+    "name_search": "passed: Shanice returns 1 performer; clearing search restores 31",
+    "post_download": "passed: browser download completed",
+    "story_download": "passed: browser download completed",
+    "phone_width_layout": "passed at 375 CSS pixels: no horizontal overflow; readable card and download controls",
+    "physical_phone_download": "not tested; browser downloads tested at desktop size",
+    "phone_width_download_event": "not confirmed in cross-origin preview iframe"
+  },
+  "outstanding_source_photos": [
+    {
+      "name": "2X1A1940-1.jpg",
+      "drive_file_id": "1_yycMH4g87MU8k1z5mVMMWAg6N2wY2PM",
+      "status": "awaiting identification; do not guess performer names"
+    },
+    {
+      "name": "2X1A1943-1.jpg",
+      "drive_file_id": "15YkhPQfapAumdeLubt6AeIh9E-ZREDpm",
+      "status": "awaiting identification; do not guess performer names"
+    },
+    {
+      "name": "2X1A1874 edited 1-1.jpg",
+      "drive_file_id": "1_UvQI7kjcvb1wBSRubLbT4tjcQFRnz2o",
+      "status": "awaiting identification; do not guess performer names"
+    },
+    {
+      "name": "2X1A1781 edited 1-1.jpg",
+      "drive_file_id": "1NRQRyXDVJAnfp296u_5GtfM1r_BVnOT-",
+      "status": "awaiting identification; do not guess performer names"
+    },
+    {
+      "name": "2X1A1780 edited 1-1.jpg",
+      "drive_file_id": "1jOXdmUeBRaYB36-D4KHnDOd6Ggs7huB0",
+      "status": "awaiting identification; do not guess performer names"
+    },
+    {
+      "name": "2X1A1919 edited 1-1.jpg",
+      "drive_file_id": "1kcWKJTDM8PnTR_yuJcXn6HfjT1mDmKps",
+      "status": "awaiting identification; do not guess performer names"
+    },
+    {
+      "name": "2X1A1917 edited 1-1.jpg",
+      "drive_file_id": "1QE2OrlCwxRlRUet35npCFXu71FoY35jW",
+      "status": "awaiting identification; do not guess performer names"
+    },
+    {
+      "name": "2X1A1914-1.jpg",
+      "drive_file_id": "1pD0rn8aWw1gWcM4lsvAggLx_e7_IwptH",
+      "status": "awaiting identification; do not guess performer names"
+    },
+    {
+      "name": "2X1A1912-1.jpg",
+      "drive_file_id": "1gZ9DZf8HDYjKO3qS2N1imELYy0BUCBQX",
+      "status": "awaiting identification; do not guess performer names"
+    },
+    {
+      "name": "2X1A1911-13.jpg",
+      "drive_file_id": "11OvJ1LbetpzmmwkgOlrJ3s2ZHNtVKpOs",
+      "status": "awaiting identification; do not guess performer names"
+    },
+    {
+      "name": "2X1A1911-1.jpg",
+      "drive_file_id": "1D9BeshkjL9GQic7t5itYFTXk4Nu7rNQr",
+      "status": "awaiting identification; do not guess performer names"
+    },
+    {
+      "name": "2X1A1909-1.jpg",
+      "drive_file_id": "1vpON6vGyGGFZetkSHSgBuvzPnuNY6ef2",
+      "status": "awaiting identification; do not guess performer names"
+    },
+    {
+      "name": "2X1A1901-1-1.jpg",
+      "drive_file_id": "12dWqJZNKNwmKNHz-hRbm8FuDsWJyG9KZ",
+      "status": "awaiting identification; do not guess performer names"
+    },
+    {
+      "name": "2X1A1901-1.jpg",
+      "drive_file_id": "1vLdRgDfC1_qaWH-sZ_XAJdb8Q04QCi15",
+      "status": "awaiting identification; do not guess performer names"
+    }
+  ],
+  "notes": [
+    "All 31 named portrait subjects already had Post and Story flyers uploaded before this verification run; no duplicate uploads or image regeneration were needed.",
+    "Every live image downloaded in full, decoded as PNG, matched its repository blob hash, and passed its Post/Story aspect ratio check.",
+    "Source Drive folder contains matching sizes for all 62 published PNGs.",
+    "Unlabeled source portraits are not assumed to represent distinct additional cast members."
+  ]
+}
