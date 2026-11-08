@@ -5,7 +5,7 @@
     {
       "id": "alexandria-platt",
       "name": "Alexandria Platt",
-      "roles": "CHILD 3 / DANCER / ENSEMBLE",
+      "roles": "DANCER / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -97,7 +97,7 @@
     {
       "id": "annalise-mongeois",
       "name": "Annalise Mongeois",
-      "roles": "CHILD 1 / DANCER / ENSEMBLE",
+      "roles": "CHILD 2 / DANCER / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -120,7 +120,7 @@
     {
       "id": "ariella-davidson",
       "name": "Ariella Davidson",
-      "roles": "CHILD 2 / DANCER / ENSEMBLE",
+      "roles": "CHILD 3 / DANCER / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -757,8 +757,8 @@
     },
     {
       "id": "nelcia-fosttin",
-      "name": "Nelcia Fosttin",
-      "roles": "DANCER / ENSEMBLE",
+      "name": "Nelcia Fostin",
+      "roles": "CHILD 1 / DANCER / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -769,7 +769,8 @@
       "danceEnsemble": true,
       "groups": [
         "Dancers",
-        "Ensemble"
+        "Ensemble",
+        "Children/Youth"
       ],
       "danceScenes": [
         1,

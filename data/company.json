@@ -38,7 +38,7 @@
       "id": "P-alexandria-platt",
       "name": "Alexandria Platt",
       "companyType": "Performer",
-      "primaryAssignment": "DANCER/ ENSEMBLE",
+      "primaryAssignment": "ENSEMBLE",
       "departments": [
         "Cast"
       ],
@@ -47,7 +47,7 @@
         "Ensemble",
         "Children/Youth"
       ],
-      "roles": "DANCER/ ENSEMBLE",
+      "roles": "DANCER / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -62,7 +62,7 @@
           "personId": "P-alexandria-platt",
           "type": "Cast Role",
           "department": "Cast",
-          "assignment": "CHILD 3/ DANCER/ ENSEMBLE",
+          "assignment": "DANCER / ENSEMBLE",
           "scope": "1, 9, 10, 12",
           "callGroups": [
             "Dancers",
@@ -298,7 +298,7 @@
       "id": "P-annalise-mongeois",
       "name": "Annalise Mongeois",
       "companyType": "Performer",
-      "primaryAssignment": "CHILD 2/DANCER/ ENSEMBLE",
+      "primaryAssignment": "CHILD 2 / DANCER / ENSEMBLE",
       "departments": [
         "Cast"
       ],
@@ -307,7 +307,7 @@
         "Ensemble",
         "Children/Youth"
       ],
-      "roles": "CHILD 2/DANCER/ ENSEMBLE",
+      "roles": "CHILD 2 / DANCER / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -322,7 +322,7 @@
           "personId": "P-annalise-mongeois",
           "type": "Cast Role",
           "department": "Cast",
-          "assignment": "CHILD 1/DANCER/ ENSEMBLE",
+          "assignment": "CHILD 2 / DANCER / ENSEMBLE",
           "scope": "1,9,10,12",
           "callGroups": [
             "Dancers",
@@ -346,7 +346,7 @@
       "id": "P-ariella-davidson",
       "name": "Ariella Davidson",
       "companyType": "Performer",
-      "primaryAssignment": "CHILD 1/ DANCER/ ENSEMBLE",
+      "primaryAssignment": "CHILD 3 / DANCER / ENSEMBLE",
       "departments": [
         "Cast"
       ],
@@ -355,7 +355,7 @@
         "Ensemble",
         "Children/Youth"
       ],
-      "roles": "CHILD 1/ DANCER/ ENSEMBLE",
+      "roles": "CHILD 3 / DANCER / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -371,7 +371,7 @@
           "personId": "P-ariella-davidson",
           "type": "Cast Role",
           "department": "Cast",
-          "assignment": "CHILD 2/ DANCER/ ENSEMBLE",
+          "assignment": "CHILD 3 / DANCER / ENSEMBLE",
           "scope": "1, 9, 10,11, 12",
           "callGroups": [
             "Dancers",
@@ -1882,17 +1882,18 @@
     },
     {
       "id": "P-nelcia-fosttin",
-      "name": "Nelcia Fosttin",
+      "name": "Nelcia Fostin",
       "companyType": "Performer",
-      "primaryAssignment": "DANCER/ ENSEMBLE",
+      "primaryAssignment": "CHILD 1 / DANCER / ENSEMBLE",
       "departments": [
         "Cast"
       ],
       "groups": [
         "Dancers",
-        "Ensemble"
+        "Ensemble",
+        "Children/Youth"
       ],
-      "roles": "DANCER/ ENSEMBLE",
+      "roles": "CHILD 1 / DANCER / ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -1907,11 +1908,12 @@
           "personId": "P-nelcia-fosttin",
           "type": "Cast Role",
           "department": "Cast",
-          "assignment": "DANCER/ ENSEMBLE",
+          "assignment": "CHILD 1 / DANCER / ENSEMBLE",
           "scope": "1, 9, 10, 12",
           "callGroups": [
             "Dancers",
-            "Ensemble"
+            "Ensemble",
+            "Children/Youth"
           ]
         },
         {

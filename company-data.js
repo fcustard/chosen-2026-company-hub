@@ -1,7 +1,7 @@
 window.CHOSEN_COMPANY_DATA = [
   {
     "name": "Alexandria Platt",
-    "roles": "CHILD 3 / DANCER / ENSEMBLE",
+    "roles": "DANCER / ENSEMBLE",
     "scenes": "1, 9, 10, 12",
     "danceEnsemble": true
   },
@@ -26,13 +26,13 @@ window.CHOSEN_COMPANY_DATA = [
   },
   {
     "name": "Annalise Mongeois",
-    "roles": "CHILD 1 / DANCER / ENSEMBLE",
+    "roles": "CHILD 2 / DANCER / ENSEMBLE",
     "scenes": "1, 9, 10, 12",
     "danceEnsemble": true
   },
   {
     "name": "Ariella Davidson",
-    "roles": "CHILD 2 / DANCER / ENSEMBLE",
+    "roles": "CHILD 3 / DANCER / ENSEMBLE",
     "scenes": "1, 9, 10, 11, 12",
     "danceEnsemble": true
   },
@@ -234,8 +234,8 @@ window.CHOSEN_COMPANY_DATA = [
     "danceEnsemble": true
   },
   {
-    "name": "Nelcia Fosttin",
-    "roles": "DANCER / ENSEMBLE",
+    "name": "Nelcia Fostin",
+    "roles": "CHILD 1 / DANCER / ENSEMBLE",
     "scenes": "1, 9, 10, 12",
     "danceEnsemble": true
   },

@@ -5,7 +5,7 @@
   "resources_link_verified": true,
   "performer_count": 33,
   "download_count": 66,
-  "verified_count": 66,
+  "verified_count": 60,
   "performers": [
     "Alexandria Platt",
     "Anaia Downer",
@@ -356,55 +356,79 @@
     },
     {
       "path": "resources/cast-flyers/ariella-davidson-post.png",
-      "status": 200,
-      "bytes": 1920189,
+      "status": null,
+      "bytes": 1861336,
       "dimensions": [
         1122,
         1402
       ],
-      "blob_sha": "0b8e7ae79cad53e4a55aab826e678a71b80976aa",
-      "matches_repository": true,
+      "blob_sha": "d8bde59519d40acaec0e07241eb9c962409259d7",
+      "matches_repository": false,
       "format_ratio_correct": true,
-      "verified": true
+      "verified": false,
+      "previous_verification": {
+        "status": 200,
+        "bytes": 1920189,
+        "blob_sha": "0b8e7ae79cad53e4a55aab826e678a71b80976aa",
+        "verified": true
+      }
     },
     {
       "path": "resources/cast-flyers/ariella-davidson-story.png",
-      "status": 200,
-      "bytes": 1921353,
+      "status": null,
+      "bytes": 1858906,
       "dimensions": [
         941,
         1672
       ],
-      "blob_sha": "7028cb1b9a99e4a1c1b9fdbf61fb6704c086b90c",
-      "matches_repository": true,
+      "blob_sha": "30559bfb412c443db9d047f16a7b88722138dee5",
+      "matches_repository": false,
       "format_ratio_correct": true,
-      "verified": true
+      "verified": false,
+      "previous_verification": {
+        "status": 200,
+        "bytes": 1921353,
+        "blob_sha": "7028cb1b9a99e4a1c1b9fdbf61fb6704c086b90c",
+        "verified": true
+      }
     },
     {
       "path": "resources/cast-flyers/alexandria-platt-post.png",
-      "status": 200,
-      "bytes": 1886686,
+      "status": null,
+      "bytes": 1813925,
       "dimensions": [
         1122,
         1402
       ],
-      "blob_sha": "1b3dd94692d57083f5a91cd1c3cda2bf5732e683",
-      "matches_repository": true,
+      "blob_sha": "47f21cd4f2254ca7e9aff9a6a936979ac1e3cbce",
+      "matches_repository": false,
       "format_ratio_correct": true,
-      "verified": true
+      "verified": false,
+      "previous_verification": {
+        "status": 200,
+        "bytes": 1886686,
+        "blob_sha": "1b3dd94692d57083f5a91cd1c3cda2bf5732e683",
+        "verified": true
+      }
     },
     {
       "path": "resources/cast-flyers/alexandria-platt-story.png",
-      "status": 200,
-      "bytes": 1864135,
+      "status": null,
+      "bytes": 1802722,
       "dimensions": [
         941,
         1672
       ],
-      "blob_sha": "f193365e4a21d3d7a6f83aa05209849b7cddf4c3",
-      "matches_repository": true,
+      "blob_sha": "fb38481196055c173312e9115cc9b59e633b8cae",
+      "matches_repository": false,
       "format_ratio_correct": true,
-      "verified": true
+      "verified": false,
+      "previous_verification": {
+        "status": 200,
+        "bytes": 1864135,
+        "blob_sha": "f193365e4a21d3d7a6f83aa05209849b7cddf4c3",
+        "verified": true
+      }
     },
     {
       "path": "resources/cast-flyers/gabriella-fearon-post.png",
@@ -668,29 +692,41 @@
     },
     {
       "path": "resources/cast-flyers/nelcia-fostin-post.png",
-      "status": 200,
-      "bytes": 1949489,
+      "status": null,
+      "bytes": 1847442,
       "dimensions": [
         1122,
         1402
       ],
-      "blob_sha": "7efcbb0d1eb04ae5739af7936c5bfdeff653898c",
-      "matches_repository": true,
+      "blob_sha": "ddc11409200b7ac02326ba3ccace7493ea26b2de",
+      "matches_repository": false,
       "format_ratio_correct": true,
-      "verified": true
+      "verified": false,
+      "previous_verification": {
+        "status": 200,
+        "bytes": 1949489,
+        "blob_sha": "7efcbb0d1eb04ae5739af7936c5bfdeff653898c",
+        "verified": true
+      }
     },
     {
       "path": "resources/cast-flyers/nelcia-fostin-story.png",
-      "status": 200,
-      "bytes": 1877345,
+      "status": null,
+      "bytes": 1788058,
       "dimensions": [
         941,
         1672
       ],
-      "blob_sha": "715b0dd8bf368c97ffe35dd2a67d5d8b0c922ba2",
-      "matches_repository": true,
+      "blob_sha": "ab72c07dde43aeb94cc82257d4935907595b00cb",
+      "matches_repository": false,
       "format_ratio_correct": true,
-      "verified": true
+      "verified": false,
+      "previous_verification": {
+        "status": 200,
+        "bytes": 1877345,
+        "blob_sha": "715b0dd8bf368c97ffe35dd2a67d5d8b0c922ba2",
+        "verified": true
+      }
     },
     {
       "path": "resources/cast-flyers/carmen-brown-post.png",
@@ -1109,5 +1145,18 @@
     ],
     "card_verified": true,
     "name_search_verified": true
+  },
+  "role_corrections": {
+    "date": "2026-11-08",
+    "assignments": {
+      "Alexandria Platt": "Ensemble",
+      "Ariella Davidson": "Child 3",
+      "Nelcia Fostin": "Child 1"
+    },
+    "related_alignment": "Annalise Mongeois remains Child 2, aligned with Full Company Info and scene guide.",
+    "images_reviewed": true,
+    "drive_replacements_saved": true,
+    "hub_publication": "pending",
+    "verification": "pending live readback"
   }
 }
