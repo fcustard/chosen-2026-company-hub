@@ -17,92 +17,95 @@
   "captions": [
     {
       "id": "caption-1",
-      "title": "Come see me",
-      "text": "Come see me in CHOSEN: The Story Before the Manger! I’m so excited to be part of this Christmas production, and I’d love for you to be there.\n\nSunday, December 20, 2026 • 6:00 PM\nThe Faith Center\n5555 NW 95th Avenue, Sunrise, FL 33351\nFree admission\n\nBring someone with you! Show details: https://fcustard.github.io/chosen-2026-company-hub/chosen.html\n\n#CHOSEN2026 #TheFaithCenter #SunriseFL"
+      "title": "Personal connection — come see me",
+      "purpose": "For friends and family who know you.",
+      "text": "I’d love to look out and see you there.\n\nI’m part of CHOSEN: The Story Before the Manger, and I get to help tell a Christmas story about courage, faith, and hope. Come see me—and bring someone with you!\n\nSunday, December 20, 2026 • 6:00 PM\nThe Faith Center\n5555 NW 95th Avenue, Sunrise, FL 33351\nFree admission\n\nSave the date: https://fcustard.github.io/chosen-2026-company-hub/chosen.html\n\n#CHOSEN2026 #TheFaithCenter #SunriseFL"
     },
     {
       "id": "caption-2",
-      "title": "A personal invitation",
-      "text": "I’ve been spending time getting ready for something special, and now I get to invite you! Come see me in CHOSEN: The Story Before the Manger—a Christmas story told through music, dance, and drama.\n\nSunday, December 20, 2026 • 6:00 PM\nThe Faith Center\n5555 NW 95th Avenue, Sunrise, FL 33351\nFree admission\n\nI’d love to see you there. Save the date: https://fcustard.github.io/chosen-2026-company-hub/chosen.html\n\n#CHOSEN2026 #TheFaithCenter #SunriseFL"
+      "title": "Shared experience — make room for hope",
+      "purpose": "For people looking for a meaningful Christmas outing.",
+      "text": "Make room for hope this Christmas.\n\nSpend an evening with people you love and experience Mary and Joseph’s journey through music, dance, and drama. I’m part of CHOSEN: The Story Before the Manger, and I’d love for you to share this evening with us.\n\nSunday, December 20, 2026 • 6:00 PM\nThe Faith Center\n5555 NW 95th Avenue, Sunrise, FL 33351\nFree admission\n\nSave the date and choose who you’ll bring: https://fcustard.github.io/chosen-2026-company-hub/chosen.html\n\n#CHOSEN2026 #TheFaithCenter #SunriseFL"
     },
     {
       "id": "caption-3",
-      "title": "Short and simple",
-      "text": "Your Christmas plans just got a little more special. Come see me in CHOSEN: The Story Before the Manger!\n\nSunday, December 20, 2026 • 6:00 PM\nThe Faith Center\n5555 NW 95th Avenue, Sunrise, FL 33351\nFree admission\n\nSave the date and invite a friend: https://fcustard.github.io/chosen-2026-company-hub/chosen.html\n\n#CHOSEN2026 #TheFaithCenter #SunriseFL"
+      "title": "Story curiosity — faith before the answer",
+      "purpose": "For people discovering the production for the first time.",
+      "text": "What does faith look like before you know how the story ends?\n\nBefore the manger, Mary and Joseph had choices to make. Follow their journey of courage and hope in CHOSEN: The Story Before the Manger—a Christmas stage production told through music, dance, and drama.\n\nSunday, December 20, 2026 • 6:00 PM\nThe Faith Center\n5555 NW 95th Avenue, Sunrise, FL 33351\nFree admission\n\nSave the date: https://fcustard.github.io/chosen-2026-company-hub/chosen.html\n\n#CHOSEN2026 #TheFaithCenter #SunriseFL"
     }
   ],
   "stories": [
     {
       "id": "story-1",
-      "title": "Story 1 — launch",
-      "text": "Come see me in CHOSEN!\nDecember 20 • 6 PM\nThe Faith Center • Free admission"
+      "title": "Story 1 — personal connection",
+      "text": "I’d love to see you there.\nCome see me in CHOSEN!\nDec. 20 • 6 PM • The Faith Center\nFree admission"
     },
     {
       "id": "story-2",
-      "title": "Story 2 — reminder",
-      "text": "Save December 20 for CHOSEN!\n6 PM at The Faith Center\nFree admission • Bring a friend"
+      "title": "Story 2 — shared experience",
+      "text": "Make room for hope this Christmas.\nBring someone you love to CHOSEN.\nDec. 20 • 6 PM • The Faith Center\nFree admission"
     },
     {
       "id": "story-3",
-      "title": "Story 3 — personal invite",
-      "text": "I’d love to see you there!\nCHOSEN • December 20 • 6 PM\nThe Faith Center • Free admission"
+      "title": "Story 3 — curiosity",
+      "text": "Faith before you know the ending.\nDiscover the story before the manger.\nCHOSEN • Dec. 20 • 6 PM\nThe Faith Center • Free admission"
     }
   ],
   "personal": {
     "id": "personal-invite",
     "title": "Send a personal invitation",
-    "text": "Hey! I’m part of CHOSEN: The Story Before the Manger, and I’d love for you to come see it. It’s Sunday, December 20 at 6 PM at The Faith Center in Sunrise. Admission is free! Want to come? Here are the details: https://fcustard.github.io/chosen-2026-company-hub/chosen.html"
+    "text": "Hey! I’m part of CHOSEN: The Story Before the Manger, and I’d really love to see you there. It’s a Christmas story about courage, faith, and hope, told through music, dance, and drama. It’s Sunday, December 20 at 6 PM at The Faith Center in Sunrise, and admission is free. Would you like to come? Here are the details: https://fcustard.github.io/chosen-2026-company-hub/chosen.html"
   },
   "whatsapp": {
     "id": "cast-whatsapp",
     "title": "Cast WhatsApp announcement — ready to send",
-    "text": "Hey CHOSEN family! Our “Come See Me in CHOSEN” flyers are ready!\n\nFind your name and save your Post and Story flyers here:\nhttps://fcustard.github.io/chosen-2026-company-hub/cast-flyers.html\n\nOur launch week is November 9–15. Here’s the goal:\n• Share your Post flyer once.\n• Share your Story flyer twice.\n• Personally invite five people.\n\nCaptions and the full sharing plan are here:\nhttps://fcustard.github.io/chosen-2026-company-hub/cast-launch-kit.html\n\nSend your guests this show link:\nhttps://fcustard.github.io/chosen-2026-company-hub/chosen.html\n\nThe show is Sunday, December 20 at 6 PM at The Faith Center. Admission is free!\n\nParents and guardians, please help your child share. If you spot a flyer mistake or cannot find your name, let Ms. Lounise know before posting. Let’s invite our people!"
+    "text": "Hey CHOSEN family! Our “Come See Me in CHOSEN” flyers are ready!\n\nFind your name and save your Post and Story flyers here:\nhttps://fcustard.github.io/chosen-2026-company-hub/cast-flyers.html\n\nOur launch week is November 9–15. Here’s the goal:\n• Share your Post flyer once.\n• Share your Story flyer twice.\n• Personally invite five people.\n\nPick a caption for your friends, a Christmas outing, or the story’s message. Video prompts and the sharing plan are here:\nhttps://fcustard.github.io/chosen-2026-company-hub/cast-launch-kit.html\n\nSend your guests this show link:\nhttps://fcustard.github.io/chosen-2026-company-hub/chosen.html\n\nThe show is Sunday, December 20 at 6 PM at The Faith Center. Admission is free!\n\nParents and guardians, please help your child share. If you spot a flyer mistake or cannot find your name, let Ms. Lounise know before posting. Use the kit’s response tracker to record your posts, invitations, replies, and people who say they plan to come. Let’s invite our people!"
   },
   "church": {
     "id": "church-announcement",
     "title": "Church announcement — draft for the media team",
-    "text": "You’re invited to CHOSEN: The Story Before the Manger, a Christmas stage production told through music, dance, and drama. Join us Sunday, December 20, 2026 at 6 PM at The Faith Center, 5555 NW 95th Avenue in Sunrise. Admission is free. Bring your family and invite a friend. Find show details at https://fcustard.github.io/chosen-2026-company-hub/chosen.html"
+    "text": "Make room for hope this Christmas. Before the manger, Mary and Joseph faced choices that required courage and faith. Experience their journey through music, dance, and drama in CHOSEN: The Story Before the Manger. Join us Sunday, December 20, 2026 at 6 PM at The Faith Center, 5555 NW 95th Avenue in Sunrise. Admission is free. Bring someone you love. Save the date at https://fcustard.github.io/chosen-2026-company-hub/chosen.html"
   },
   "video": {
     "id": "video-prompt",
     "title": "A short video invitation",
-    "text": "“Hey, I’m part of CHOSEN: The Story Before the Manger! Come see us December 20 at 6 PM at The Faith Center in Sunrise. Admission is free. Bring a friend—I’d love to see you there!”"
+    "text": "“One thing this story is teaching me is…”\n\nFinish that sentence in your own words. Then add:\n\n“Come experience CHOSEN with us December 20 at 6 PM at The Faith Center in Sunrise. Admission is free.”"
   },
   "schedule": [
     {
       "date": "Mon, Nov. 9",
       "task": "Post your flyer",
-      "detail": "Choose one caption. Share your Post flyer and your first Story. Add the guest link."
+      "detail": "Choose the personal-connection caption for people who know you. Share your Post flyer and first Story with the guest link."
     },
     {
       "date": "Tue, Nov. 10",
       "task": "Invite five people",
-      "detail": "Send five personal invitations to people you know. Follow up with anyone who replies."
+      "detail": "Send five personal invitations. Record how many people reply and how many say they plan to come."
     },
     {
       "date": "Wed, Nov. 11",
       "task": "Share your second Story",
-      "detail": "Use Story 2. Add the guest link so people can save the date."
+      "detail": "Use the shared-experience Story: Make room for hope this Christmas. Add the guest link."
     },
     {
       "date": "Thu, Nov. 12",
       "task": "Record an invitation",
-      "detail": "Use the short video prompt if you can. Record at home or at your next scheduled call; no extra rehearsal is needed."
+      "detail": "Choose a personal video prompt. Record one honest thought and your invitation at home or at your next scheduled call."
     },
     {
       "date": "Fri, Nov. 13",
       "task": "Follow up",
-      "detail": "Reply to questions and share the show details with anyone who is interested."
+      "detail": "Reply to interested people. Offer directions and the calendar link. Update your response tracker using actual replies."
     },
     {
       "date": "Sat, Nov. 14",
       "task": "Share a personal moment",
-      "detail": "Share your invitation video or an approved rehearsal image. Keep story surprises for the show."
+      "detail": "Share an approved rehearsal glimpse, costume detail, or personal invitation video. Give this post a different purpose from your flyer."
     },
     {
       "date": "Sun, Nov. 15",
       "task": "Check your week",
-      "detail": "Check that you shared one Post, two Stories, and five personal invitations. Tell the production administrator if you need help."
+      "detail": "Record your Post, Stories, invitations, replies, and people planning to attend. Export your totals for the coordinator. Leave unavailable link-click counts blank."
     }
   ],
   "rollout": [
@@ -134,9 +137,9 @@
     {
       "id": "guest-page",
       "task": "Guest invitation page, directions, and calendar download",
-      "status": "Prepared",
+      "status": "Live; message revised",
       "owner": "Production leadership",
-      "next": "Verify the published guest page and share its link."
+      "next": "Use the guest page with the hope-centered message and approved Mary and Joseph cast flyers. Rehearsal preview awaits source clips."
     },
     {
       "id": "coordinator",
@@ -176,9 +179,9 @@
     {
       "id": "video",
       "task": "Collect short cast video invitations and approve the first Reel",
-      "status": "Ready to collect",
+      "status": "Awaiting source clips",
       "owner": "Marketing coordinator / video editor",
-      "next": "Collect clear vertical video, add readable captions and event details, then obtain production review before posting."
+      "next": "Timed 25-second edit brief is ready. Supply a downloadable CHOSEN rehearsal video or approved short clips; the searched marketing folders and accessible Zoom recording lists did not provide usable footage."
     },
     {
       "id": "arrival",
@@ -189,12 +192,108 @@
     },
     {
       "id": "results",
-      "task": "Launch-week sharing check",
-      "status": "Not started",
+      "task": "Track launch participation and guest responses",
+      "status": "Tracker ready",
       "owner": "Marketing coordinator",
-      "next": "On Nov. 15, record participation, actual channel placements, questions received, and remaining help needed. Do not count prepared items as posted."
+      "next": "Use the device-saved tracker in the cast kit. Export actual Post, Story, invitation, reply, and attendance-plan counts for the coordinator; leave unavailable platform click totals blank."
     }
   ],
-  "publication_note": "Copy is prepared for use. No WhatsApp messages, social posts, emails, or church announcements have been sent or scheduled by this preparation."
+  "publication_note": "Copy is prepared for use. No WhatsApp messages, social posts, emails, or church announcements have been sent or scheduled by this preparation.",
+  "revised_date": "2026-11-08",
+  "guest_message": {
+    "headline": "Make room for hope this Christmas.",
+    "story": "Before the manger, Mary and Joseph faced choices that required courage and faith. Experience their journey through music, dance, and drama in CHOSEN: The Story Before the Manger.",
+    "invitation": "Bring someone you love."
+  },
+  "followup": {
+    "id": "personal-followup",
+    "title": "Follow up with someone who is interested",
+    "text": "I’m glad you’re thinking about coming! Would you like me to send you the directions? Here’s the show page so you can save the date: https://fcustard.github.io/chosen-2026-company-hub/chosen.html"
+  },
+  "video_prompts": [
+    {
+      "title": "Why it matters",
+      "prompt": "What part of this story connects with your life? Share one honest thought, then invite someone."
+    },
+    {
+      "title": "A rehearsal breakthrough",
+      "prompt": "What felt hard at first, and what clicked this week? Show one approved moment or tell us about it."
+    },
+    {
+      "title": "The person you hope to see",
+      "prompt": "Who would you love to have in the audience, and why? Make the invitation personal."
+    },
+    {
+      "title": "A glimpse of the work",
+      "prompt": "Show a quick approved rehearsal, costume detail, or backstage task. Tell us what is coming together."
+    }
+  ],
+  "metrics": {
+    "note": "Record actual responses. Leave unknown counts blank. These totals are self-reported and saved on this device.",
+    "fields": [
+      {
+        "id": "feedPosts",
+        "label": "Feed Posts shared",
+        "goal": 1
+      },
+      {
+        "id": "stories",
+        "label": "Stories shared",
+        "goal": 2
+      },
+      {
+        "id": "invitations",
+        "label": "Personal invitations sent",
+        "goal": 5
+      },
+      {
+        "id": "replies",
+        "label": "People who replied"
+      },
+      {
+        "id": "planning",
+        "label": "People who said they plan to attend"
+      },
+      {
+        "id": "linkClicks",
+        "label": "Guest-link clicks, if shown in your app"
+      }
+    ],
+    "coordinator": "Compare post participation, replies, people planning to attend, and available link clicks by content type. Keep reported plans separate from actual attendance. Link clicks are available only where the publishing platform provides them."
+  },
+  "preview_brief": {
+    "status": "Awaiting source clips",
+    "duration": "25 seconds",
+    "format": "Vertical 9:16 master, with a separate 16:9 church-screen version",
+    "hook": "What does faith look like before you know how the story ends?",
+    "shots": [
+      {
+        "time": "0–3 seconds",
+        "visual": "A real, approved rehearsal close-up: a face, a gesture, or a moment of focus.",
+        "text": "Faith before you know the ending."
+      },
+      {
+        "time": "3–9 seconds",
+        "visual": "Two short rehearsal clips showing acting and movement.",
+        "text": "Courage. Faith. Hope."
+      },
+      {
+        "time": "9–15 seconds",
+        "visual": "A cast member shares one honest thought; use readable captions.",
+        "text": "One thing this story is teaching me…"
+      },
+      {
+        "time": "15–19 seconds",
+        "visual": "An approved ensemble moment or costume detail.",
+        "text": "Make room for hope this Christmas."
+      },
+      {
+        "time": "19–25 seconds",
+        "visual": "Clear event end card, held long enough to read.",
+        "text": "CHOSEN: The Story Before the Manger | Dec. 20, 2026 | 6 PM | The Faith Center, Sunrise | Free admission"
+      }
+    ],
+    "delivery": "End with the guest-page link in the post caption. Keep text inside safe margins. Use clear speech or a cleared music bed, check captions, and review the final cut before public posting."
+  }
 }
 
