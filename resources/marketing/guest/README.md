@@ -75,3 +75,12 @@ For future campaign adaptations, reuse the approved hero characters and this tit
 Reference: approved `CHOSEN_banner_2816x768.png` for title treatment; existing `chosen-hero.webp` for generic characters, scene and lighting. The original wide banner is an earlier composition; this change updates the guest-page sharing card only.
 
 Verified: exact 1200×630 image and 320-pixel thumbnail inspected for spelling, event facts, visual hierarchy and safe framing.
+
+
+## Expanded guest company — November 11, 2026
+
+`data/guest-cast.json` adds 31 optimized named portraits from the same source photos as the previously approved public cast flyers, plus name/role credits for nine active performers without identified approved portraits. Mary and Joseph remain featured using their existing portraits. Six supporting cast cards preview the company; native details/summary expands the other 25 portraits, grouped by cast and dance/ensemble, and nine additional credits. The attendance action repeats beneath the company. Photo files are WebP, lazy-loaded with intrinsic dimensions; no faces are generated or retouched.
+
+The generator filters company additions against active performers in `data/company.json`. Public name spellings and roles follow the approved flyer records for those 33 performers; the nine additional credits follow the current company roster. Current roster still lists both Dana Quamina and Lauryn Butler as Villager Woman 2; no new casting reassignment is inferred. The withdrawal list is respected. No schedules, contact details, or private information are added. Source-photo identity matches named Drive files; no unnamed portraits are assigned. Separate signed consent records were not available; reuse is based on the user’s existing public-marketing approval and this guest-page instruction.
+
+Verification: full repository validation passed. Browser checked three-column desktop and two-column phone layouts, native cast expansion/collapse by click and Enter, and 320/390/768/1024-pixel frames without horizontal overflow. All 42 active performers are included exactly once (33 portraits and nine name credits); corrected child/ensemble roles and withdrawn names were checked. New portrait payload totals about 922 KB across 31 files.

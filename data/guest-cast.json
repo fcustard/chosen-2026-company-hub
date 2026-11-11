@@ -1,0 +1,411 @@
+{
+  "reviewed_date": "2026-11-11",
+  "roster_source": "data/company.json",
+  "photo_basis": "Named source portraits corresponding to the 33 cast flyers previously approved for public marketing. User authorized guest-page reuse November 11, 2026. No new photo identities inferred. No separate consent registry is claimed.",
+  "members": [
+    {
+      "name": "Marcus Mainer",
+      "slug": "marcus-mainer",
+      "role": "Levi",
+      "group": "cast",
+      "preview": false,
+      "image": "company/marcus-mainer.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1ih93PamE1ffShu2RNGfXpgbkw-h8CBvF"
+    },
+    {
+      "name": "Dorrien Jones",
+      "slug": "dorrien-jones",
+      "role": "Caleb",
+      "group": "cast",
+      "preview": false,
+      "image": "company/dorrien-jones.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1qCqt9RHNVIuMsOq2AM_uqHShNFYB2tT9"
+    },
+    {
+      "name": "Shanice Palmer",
+      "slug": "shanice-palmer",
+      "role": "Merchant 1, Merchant 2 & Gossiper 2",
+      "group": "cast",
+      "preview": false,
+      "image": "company/shanice-palmer.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1_K69C_8Z6oOdwcitXxi4qLvstj7EzZr3"
+    },
+    {
+      "name": "Audrey Howell-McClenney",
+      "slug": "audrey-howell-mcclenney",
+      "role": "Elizabeth",
+      "group": "cast",
+      "preview": true,
+      "image": "company/audrey-howell-mcclenney.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1VJByD7kgfwecO0JMWqvneAvdc-LaLqFg"
+    },
+    {
+      "name": "Jayden Harris",
+      "slug": "jayden-harris",
+      "role": "Roman Announcer & Shepherd 2",
+      "group": "cast",
+      "preview": false,
+      "image": "company/jayden-harris.webp",
+      "width": 567,
+      "height": 850,
+      "source_drive_id": "137n9SW1kzJXkVFDxVCDbW_Vafu7rLsWD"
+    },
+    {
+      "name": "Chris McAnuff",
+      "slug": "chris-mcanuff",
+      "role": "Ezra",
+      "group": "cast",
+      "preview": true,
+      "image": "company/chris-mcanuff.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1_p73hbIkwrwGwdMSYpova0Cr_aSzFd5c"
+    },
+    {
+      "name": "Marissa Downie",
+      "slug": "marissa-downie",
+      "role": "Villager Woman 1",
+      "group": "cast",
+      "preview": false,
+      "image": "company/marissa-downie.webp",
+      "width": 567,
+      "height": 850,
+      "source_drive_id": "15M-hwTNZIwpIDoqfM6v9E1bo6w61Upag"
+    },
+    {
+      "name": "James Myers",
+      "slug": "james-myers",
+      "role": "Simon",
+      "group": "cast",
+      "preview": false,
+      "image": "company/james-myers.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1ZXotbNQmiMWDeMi9oWYrzXvzLQ3JrFG6"
+    },
+    {
+      "name": "Lauryn Butler",
+      "slug": "lauryn-butler",
+      "role": "Villager Woman 2",
+      "group": "cast",
+      "preview": false,
+      "image": "company/lauryn-butler.webp",
+      "width": 567,
+      "height": 850,
+      "source_drive_id": "1Z8PSNYUcBDL26u_uyk5N2ycYsX6mpdhi"
+    },
+    {
+      "name": "Kennedy McCalla",
+      "slug": "kennedy-mccalla",
+      "role": "Dance Ensemble",
+      "group": "ensemble",
+      "preview": false,
+      "image": "company/kennedy-mccalla.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1bHNLzNTvQgmPifvflRytiIzB8Cqbvu9S"
+    },
+    {
+      "name": "Annalise Mongeois",
+      "slug": "annalise-mongeois",
+      "role": "Child 2",
+      "group": "cast",
+      "preview": false,
+      "image": "company/annalise-mongeois.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1nN76Rt4ewGu4_hhvRgZ4KZwS5sjkPkdz"
+    },
+    {
+      "name": "Ariella Davidson",
+      "slug": "ariella-davidson",
+      "role": "Child 3",
+      "group": "cast",
+      "preview": false,
+      "image": "company/ariella-davidson.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1yz516R3kOUUshJjP5tOS-Ui_9HvNW90x"
+    },
+    {
+      "name": "Alexandria Platt",
+      "slug": "alexandria-platt",
+      "role": "Ensemble",
+      "group": "ensemble",
+      "preview": false,
+      "image": "company/alexandria-platt.webp",
+      "width": 567,
+      "height": 850,
+      "source_drive_id": "1PqEoXIiOIWyR3IjAs-xh1d5trIMnShBI"
+    },
+    {
+      "name": "Gabriella Fearon",
+      "slug": "gabriella-fearon",
+      "role": "Dance Ensemble",
+      "group": "ensemble",
+      "preview": false,
+      "image": "company/gabriella-fearon.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1kHoCjBJ99GuBBQo7wdSSHXRdSYzCOc1b"
+    },
+    {
+      "name": "Anaia Downer",
+      "slug": "anaia-downer",
+      "role": "Gossiper 1",
+      "group": "cast",
+      "preview": false,
+      "image": "company/anaia-downer.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1-HWDfIx2NCI51GeJ4ugzZHzbsNy5L_VK"
+    },
+    {
+      "name": "Aubrie Lewis",
+      "slug": "aubrie-lewis",
+      "role": "Dance Ensemble",
+      "group": "ensemble",
+      "preview": false,
+      "image": "company/aubrie-lewis.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1ddEI7bSJRybtjOIYnwh144ne7eNySoVt"
+    },
+    {
+      "name": "Tasha Simeon",
+      "slug": "tasha-simeon",
+      "role": "Talia",
+      "group": "cast",
+      "preview": true,
+      "image": "company/tasha-simeon.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1MNumGHksXRD623Nv8YE3D7GAgOb3bdMe"
+    },
+    {
+      "name": "Jéovanie André",
+      "slug": "jeovanie-andre",
+      "role": "Adina",
+      "group": "cast",
+      "preview": true,
+      "image": "company/jeovanie-andre.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1mG7cX5PZlAuRLlEzKV3VtLinZRx3ygZQ"
+    },
+    {
+      "name": "DeAndra Gray",
+      "slug": "deandra-gray",
+      "role": "Dance Ensemble",
+      "group": "ensemble",
+      "preview": false,
+      "image": "company/deandra-gray.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1JURMWOSbYZIzJAh8QLAMNkcQcCW4L-tw"
+    },
+    {
+      "name": "Edison Browne",
+      "slug": "edison-browne",
+      "role": "Shepherd 1",
+      "group": "cast",
+      "preview": false,
+      "image": "company/edison-browne.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "12KrXHOBiRmv_9GQyh6x6qfLYkwjUSGir"
+    },
+    {
+      "name": "Caris Hunte",
+      "slug": "caris-hunte",
+      "role": "Dance Ensemble",
+      "group": "ensemble",
+      "preview": false,
+      "image": "company/caris-hunte.webp",
+      "width": 528,
+      "height": 850,
+      "source_drive_id": "1tzU7zrJ0ZHKpeNEmbeYf6Ct9H1U9mcTh"
+    },
+    {
+      "name": "Victorya Champagne",
+      "slug": "victorya-champagne",
+      "role": "Gossiper 3",
+      "group": "cast",
+      "preview": false,
+      "image": "company/victorya-champagne.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1I2JturTHUL0Ue3Fk-KvHcwy1UVUAvWm7"
+    },
+    {
+      "name": "Kourtney—Ann Palmer",
+      "slug": "kourtney-ann-palmer",
+      "role": "Dance Ensemble",
+      "group": "ensemble",
+      "preview": false,
+      "image": "company/kourtney-ann-palmer.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1h2dl-JMOYRjrtxOve1Qf6oqvGoKPRPW_"
+    },
+    {
+      "name": "Nelcia Fostin",
+      "slug": "nelcia-fostin",
+      "role": "Child 1",
+      "group": "cast",
+      "preview": false,
+      "image": "company/nelcia-fostin.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1qyyuYoIrL1lNLV4ZF2PnNQmNzbVlTmmX"
+    },
+    {
+      "name": "Carmen Brown",
+      "slug": "carmen-brown",
+      "role": "Dance Ensemble",
+      "group": "ensemble",
+      "preview": false,
+      "image": "company/carmen-brown.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1SZkWDWDfWyNaRrHawSJdhgHnlvAh2dBg"
+    },
+    {
+      "name": "Gabriela Sardinas",
+      "slug": "gabriela-sardinas",
+      "role": "Gossiper 4",
+      "group": "cast",
+      "preview": false,
+      "image": "company/gabriela-sardinas.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1Ec_G-bCVlZpfd3s_6o3WI3gs9fpwWHWp"
+    },
+    {
+      "name": "Tyfany Adaka",
+      "slug": "tyfany-adaka",
+      "role": "Shira",
+      "group": "cast",
+      "preview": true,
+      "image": "company/tyfany-adaka.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1D9qkZ9j1WxD-KC1h0tJV92SIfl2jbqwz"
+    },
+    {
+      "name": "Ashley Pierre",
+      "slug": "ashley-pierre",
+      "role": "Dafna",
+      "group": "cast",
+      "preview": false,
+      "image": "company/ashley-pierre.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "189AH1V1MzzrtxT_Q6PZ4OU8TgjCvJoIa"
+    },
+    {
+      "name": "Cedrick Massey",
+      "slug": "cedrick-massey",
+      "role": "Gabriel",
+      "group": "cast",
+      "preview": true,
+      "image": "company/cedrick-massey.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1Ggcl_MA890QAxyF0IXvIzHoLGoGbW_Wj"
+    },
+    {
+      "name": "Charla-Yvonne Cornelius",
+      "slug": "charla-yvonne-cornelius",
+      "role": "Anna & Woman Customer 1",
+      "group": "cast",
+      "preview": false,
+      "image": "company/charla-yvonne-cornelius.webp",
+      "width": 640,
+      "height": 828,
+      "source_drive_id": "1rNRZIfBZn5G-2ywtZJNgUI5SLFWGNYng"
+    },
+    {
+      "name": "Kevin Hohn",
+      "slug": "kevin-hohn",
+      "role": "Customer 1 & Eli (Innkeeper 4)",
+      "group": "cast",
+      "preview": false,
+      "image": "company/kevin-hohn.webp",
+      "width": 567,
+      "height": 850,
+      "source_drive_id": "1Jn_7mE1aljo5C0M156kAQ6DA9f8H3sSb"
+    },
+    {
+      "name": "Allania Mitchell",
+      "slug": "allania-mitchell",
+      "role": "Dance Ensemble",
+      "group": "credits",
+      "preview": false
+    },
+    {
+      "name": "Alyssa Johnson",
+      "slug": "alyssa-johnson",
+      "role": "Dance Ensemble",
+      "group": "credits",
+      "preview": false
+    },
+    {
+      "name": "Arielle Brown",
+      "slug": "arielle-brown",
+      "role": "Dance Ensemble",
+      "group": "credits",
+      "preview": false
+    },
+    {
+      "name": "Dana Quamina",
+      "slug": "dana-quamina",
+      "role": "Villager Woman 2 / Ensemble",
+      "group": "credits",
+      "preview": false
+    },
+    {
+      "name": "Delvin Rogers Jr",
+      "slug": "delvin-rogers-jr",
+      "role": "Young Shepherd / Dance Ensemble",
+      "group": "credits",
+      "preview": false
+    },
+    {
+      "name": "Fredrick Custard",
+      "slug": "fredrick-custard",
+      "role": "Villager Man / Innkeeper 1",
+      "group": "credits",
+      "preview": false
+    },
+    {
+      "name": "Gelvina Maxime",
+      "slug": "gelvina-maxime",
+      "role": "Nia / Dance Ensemble",
+      "group": "credits",
+      "preview": false
+    },
+    {
+      "name": "Michael Stover",
+      "slug": "michael-stover",
+      "role": "Malachi",
+      "group": "credits",
+      "preview": false
+    },
+    {
+      "name": "Moenike Custard",
+      "slug": "moenike-custard",
+      "role": "Dance Ensemble / Innkeeper 2",
+      "group": "credits",
+      "preview": false
+    }
+  ]
+}
