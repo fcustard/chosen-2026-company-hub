@@ -21,7 +21,7 @@ export function renderGuestPage(data) {
     description: 'Experience Mary and Joseph’s journey through music, dance, and drama. Make room for hope this Christmas.',
     startDate: '2026-12-20T18:00:00-05:00', eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
     eventStatus: 'https://schema.org/EventScheduled', isAccessibleForFree: true, url: e.url,
-    image: new URL(asset + 'chosen-social-20261111-v2.jpg', e.url).href,
+    image: new URL(asset + 'chosen-social-20261111-v3.jpg', e.url).href,
     location: { '@type': 'Place', name: e.venue, address: { '@type': 'PostalAddress', streetAddress: '5555 NW 95th Avenue', addressLocality: 'Sunrise', addressRegion: 'FL', postalCode: '33351', addressCountry: 'US' } },
     organizer: { '@type': 'Organization', name: e.venue, url: 'https://thefaithcenterint.org/' }
   };
@@ -38,13 +38,13 @@ export function renderGuestPage(data) {
 <meta property="og:title" content="CHOSEN: The Story Before the Manger">
 <meta property="og:description" content="Make room for hope this Christmas. December 20, 2026 · 6 PM · The Faith Center, Sunrise · Free admission.">
 <meta property="og:url" content="${esc(e.url)}">
-<meta property="og:image" content="${esc(new URL(asset + 'chosen-social-20261111-v2.jpg', e.url).href)}">
+<meta property="og:image" content="${esc(new URL(asset + 'chosen-social-20261111-v3.jpg', e.url).href)}">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="CHOSEN: The Story Before the Manger. Sunday, December 20, 2026, 6 PM, Sunrise, Florida. Free admission. Mary and Joseph beneath Bethlehem’s star.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="CHOSEN: The Story Before the Manger">
 <meta name="twitter:description" content="December 20, 2026 · 6 PM · The Faith Center, Sunrise · Free admission.">
-<meta name="twitter:image" content="${esc(new URL(asset + 'chosen-social-20261111-v2.jpg', e.url).href)}">
+<meta name="twitter:image" content="${esc(new URL(asset + 'chosen-social-20261111-v3.jpg', e.url).href)}">
 <meta name="twitter:image:alt" content="CHOSEN: The Story Before the Manger. December 20, 2026, 6 PM, Sunrise, Florida. Free admission.">
 <link rel="preload" as="image" href="${asset}chosen-hero.webp" media="(min-width: 1051px)">
 <link rel="preload" as="image" href="${asset}chosen-hero-mobile.webp" media="(max-width: 1050px)">
