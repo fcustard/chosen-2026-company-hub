@@ -8,7 +8,8 @@ export function renderGuestPage(data) {
   const directions = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(e.address);
   const calendar = '<a class="button gold" href="resources/marketing/chosen-2026.ics" download="chosen-2026.ics"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 11h18m-12 5h6"/></svg>Save the Date</a>';
   const preview = g.preview;
-  const hasPreview = Boolean(preview?.video && preview?.captions && preview?.poster);
+  const youtubeId = /^[A-Za-z0-9_-]{11}$/.test(preview?.youtube_id ?? '') ? preview.youtube_id : null;
+  const hasPreview = Boolean(youtubeId || (preview?.video && preview?.captions && preview?.poster));
   const guestAnswers = [
     { question: 'When is CHOSEN?', answer: `${e.date}, at ${e.time} Eastern.` },
     { question: 'Where is the show?', answer: `${e.venue}, ${e.address}.` },
@@ -43,9 +44,9 @@ export function renderGuestPage(data) {
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" as="image" href="${asset}chosen-hero.webp" media="(min-width: 1051px)">
 <link rel="preload" as="image" href="${asset}chosen-hero-mobile.webp" media="(max-width: 1050px)">
-<link rel="stylesheet" href="${asset}guest.css?v=20261111-5">
+<link rel="stylesheet" href="${asset}guest.css?v=20261111-6">
 <script type="application/ld+json">${json(schema)}</script>
-<script src="${asset}guest.js?v=20261111-1" defer></script>
+<script src="${asset}guest.js?v=20261111-2" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -73,7 +74,7 @@ export function renderGuestPage(data) {
   <div><p class="eyebrow ink">The story before the manger</p><h2 id="story-title">A promise.<br>A journey.<br><em>A choice to trust.</em></h2></div>
   <div class="story-copy"><p class="lead">${esc(g.story_lead)}</p><p>${esc(g.story)}</p><p class="story-invite">Make room for hope this Christmas.</p><a class="inline-action" href="resources/marketing/chosen-2026.ics" download="chosen-2026.ics">Save the Date <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
 </section>
-${hasPreview ? `<section class="preview-section wrap" id="preview" aria-labelledby="preview-title"><p class="eyebrow ink">A glimpse of CHOSEN</p><h2 id="preview-title">Step inside the story.</h2><video controls playsinline preload="none" poster="${esc(preview.poster)}"><source src="${esc(preview.video)}" type="video/mp4"><track kind="captions" src="${esc(preview.captions)}" srclang="en" label="English" default>Your browser does not support this video.</video><p>${esc(preview.description || 'A look behind the scenes of CHOSEN.')}</p></section>` : ''}
+${hasPreview ? `<section class="preview-section wrap" id="preview" aria-labelledby="preview-title"><p class="eyebrow ink">The official CHOSEN promo</p><h2 id="preview-title">Step inside the story.</h2>${youtubeId ? `<div class="promo-player" id="promo-player"><button class="promo-play" id="play-promo" type="button" data-youtube-id="${esc(youtubeId)}" aria-label="Play the CHOSEN promo"><img src="${esc(preview.poster || asset + 'chosen-hero.webp')}" alt="" width="1774" height="887" loading="lazy"><span class="promo-play-label"><span class="play-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="m8 5 11 7-11 7z"/></svg></span><span>Watch the Promo<small>${esc(preview.duration_label || '')}</small></span></span></button></div><p class="promo-description">${esc(preview.description)} <a href="${esc(preview.watch_url)}" target="_blank" rel="noopener">Watch on YouTube <span aria-hidden="true">↗</span></a></p><noscript><p><a href="${esc(preview.watch_url)}">Watch the CHOSEN promo on YouTube</a></p></noscript>` : `<video controls playsinline preload="none" poster="${esc(preview.poster)}"><source src="${esc(preview.video)}" type="video/mp4"><track kind="captions" src="${esc(preview.captions)}" srclang="en" label="English" default>Your browser does not support this video.</video><p>${esc(preview.description || 'A look behind the scenes of CHOSEN.')}</p>`}<div class="preview-action">${calendar}<span>December 20, 2026 · 6 PM · Free admission</span></div></section>` : ''}
 <section class="experience-section" aria-labelledby="experience-title"><div class="wrap">
   <div class="experience-heading"><p class="eyebrow">Experience CHOSEN</p><h2 id="experience-title">Feel the story.<br><em>Share the hope.</em></h2><p>An evening to experience together.</p></div>
   <div class="experience-grid"><article><span class="experience-number" aria-hidden="true">01</span><h3>Music</h3><p>A Christmas story carried through song.</p></article><article><span class="experience-number" aria-hidden="true">02</span><h3>Dance</h3><p>Movement that brings emotion to life.</p></article><article><span class="experience-number" aria-hidden="true">03</span><h3>Drama</h3><p>Mary and Joseph’s journey of faith and courage.</p></article></div>

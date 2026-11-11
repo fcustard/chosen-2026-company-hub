@@ -322,17 +322,21 @@
     "preview": {
       "video": null,
       "captions": null,
-      "poster": null,
-      "description": null,
+      "poster": "resources/marketing/guest/chosen-hero.webp",
+      "description": "Watch the official promo for CHOSEN: The Story Before the Manger.",
       "source": {
         "name": "Chosen Promo 2026.mp4",
         "drive_id": "1jPuRwmv6jLIgSJvrQqaMkdGqLIBgABma",
         "drive_url": "https://drive.google.com/file/d/1jPuRwmv6jLIgSJvrQqaMkdGqLIBgABma/view?usp=drivesdk",
         "size_bytes": 505676583,
-        "status": "pending_web_access",
+        "status": "youtube_supplied",
         "reviewed": false,
-        "notes": "Source located November 11, 2026 in the parent marketing folder. Connector download limit is 268435456 bytes; source exceeds it. Signed-out browser preview redirects to Google sign-in. Need an accessible smaller MP4 or public-viewable video-host link before content, captions and playback can be reviewed. Do not enable preview from this source pointer."
-      }
+        "notes": "YouTube copy supplied by the user. Metadata confirms Chosen Promo 2026 on Fredrick Custard’s channel, runtime PT1M18S. Captions processing on November 11, 2026; review captions before launch. Original Drive source preserved."
+      },
+      "youtube_id": "GWMRk6K9xSM",
+      "watch_url": "https://youtu.be/GWMRk6K9xSM",
+      "duration_label": "1 min 18 sec",
+      "captions_status": "processing"
     },
     "confirmed_guest_information": []
   }

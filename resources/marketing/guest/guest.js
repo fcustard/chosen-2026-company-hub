@@ -21,3 +21,18 @@ document.getElementById('share-show').addEventListener('click', async () => {
     if (error.name !== 'AbortError') await copyLink();
   }
 });
+
+const promoButton = document.getElementById('play-promo');
+if (promoButton) promoButton.addEventListener('click', () => {
+  const videoId = promoButton.dataset.youtubeId;
+  if (!/^[A-Za-z0-9_-]{11}$/.test(videoId)) return;
+  const player = document.createElement('iframe');
+  player.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&playsinline=1&rel=0&cc_load_policy=1&cc_lang_pref=en`;
+  player.title = 'CHOSEN: The Story Before the Manger — Official Promo';
+  player.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+  player.allowFullscreen = true;
+  player.referrerPolicy = 'strict-origin-when-cross-origin';
+  player.tabIndex = 0;
+  document.getElementById('promo-player').replaceChildren(player);
+  player.focus();
+});
