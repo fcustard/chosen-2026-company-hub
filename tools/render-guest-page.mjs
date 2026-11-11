@@ -39,11 +39,11 @@ export function renderGuestPage(data) {
 <meta property="og:url" content="${esc(e.url)}">
 <meta property="og:image" content="${esc(new URL(asset + 'chosen-social.jpg', e.url).href)}">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="CHOSEN promotional artwork featuring Jordyn Starks and Caleb Davilmar against an illustrated night sky">
+<meta property="og:image:alt" content="CHOSEN promo artwork: illustrated Mary and Joseph beneath a star, with the show title and event details">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" as="image" href="${asset}chosen-hero.webp" media="(min-width: 701px)">
 <link rel="preload" as="image" href="${asset}chosen-hero-mobile.webp" media="(max-width: 700px)">
-<link rel="stylesheet" href="${asset}guest.css?v=20261111-1">
+<link rel="stylesheet" href="${asset}guest.css?v=20261111-2">
 <script type="application/ld+json">${json(schema)}</script>
 <script src="${asset}guest.js?v=20261111-1" defer></script>
 </head>
@@ -55,18 +55,11 @@ export function renderGuestPage(data) {
   <a class="header-cta" href="resources/marketing/chosen-2026.ics" download="chosen-2026.ics">Save the Date<svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
 </header>
 <main id="main">
-<section class="hero" aria-labelledby="show-title">
-  <picture class="hero-art"><source media="(max-width:700px)" srcset="${asset}chosen-hero-mobile.webp"><img src="${asset}chosen-hero.webp" alt="CHOSEN promotional artwork featuring Jordyn Starks and Caleb Davilmar against an illustrated night sky" width="1800" height="1200" fetchpriority="high" decoding="async"></picture>
-  <div class="hero-shade" aria-hidden="true"></div>
-  <div class="hero-inner wrap"><div class="hero-copy">
-    <p class="eyebrow"><span aria-hidden="true">✦</span> The Faith Center presents</p>
-    <h1 id="show-title">CHOSEN</h1><p class="subtitle">The Story Before the Manger</p>
-    <div class="gold-rule" aria-hidden="true"></div>
-    <h2>${esc(g.hook)}</h2>
-    <p class="hero-description">A Christmas stage production<br class="desktop-break"> told through music, dance, and drama.</p>
-    <p class="hero-date"><time datetime="2026-12-20T18:00:00-05:00">Sunday, December 20 · 6:00 PM</time><span>Sunrise, Florida <i aria-hidden="true">·</i> <strong>Free admission</strong></span></p>
-    <div class="actions">${calendar}<a class="text-link" href="#details">Plan Your Visit <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div>
-  </div><p class="hero-caption">Featuring Jordyn Starks as Mary<br>and Caleb Davilmar as Joseph</p></div>
+<section class="hero hero--promo" aria-labelledby="show-title">
+  <h1 id="show-title" class="sr-only">CHOSEN: The Story Before the Manger</h1>
+  <picture class="hero-art"><source media="(max-width:700px)" srcset="${asset}chosen-hero-mobile.webp" width="1100" height="619"><img src="${asset}chosen-hero.webp" alt="CHOSEN promo artwork: illustrated Mary and Joseph beneath a star, with the show title and event details" width="2200" height="600" fetchpriority="high" decoding="async"></picture>
+  <div class="promo-content wrap"><div class="promo-copy"><p class="eyebrow"><span aria-hidden="true">✦</span> The Faith Center presents</p><h2>${esc(g.hook)}</h2><p class="hero-description">A Christmas stage production told through music, dance, and drama.</p></div>
+  <div class="promo-attend"><p class="hero-date"><time datetime="2026-12-20T18:00:00-05:00">Sunday, December 20, 2026 · 6:00 PM</time><span>Sunrise, Florida <i aria-hidden="true">·</i> <strong>Free admission</strong></span></p><div class="actions">${calendar}<a class="text-link" href="#details">Plan Your Visit <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div></div></div>
 </section>
 <div class="event-strip"><div class="wrap"><span>DECEMBER <b>20</b>, 2026</span><span>6:00 PM <small>EASTERN</small></span><span>THE FAITH CENTER <small>SUNRISE, FL</small></span><span class="free">FREE ADMISSION</span></div></div>
 <section class="story-section wrap" id="story" aria-labelledby="story-title">
