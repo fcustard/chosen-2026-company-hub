@@ -323,7 +323,16 @@
       "video": null,
       "captions": null,
       "poster": null,
-      "description": null
+      "description": null,
+      "source": {
+        "name": "Chosen Promo 2026.mp4",
+        "drive_id": "1jPuRwmv6jLIgSJvrQqaMkdGqLIBgABma",
+        "drive_url": "https://drive.google.com/file/d/1jPuRwmv6jLIgSJvrQqaMkdGqLIBgABma/view?usp=drivesdk",
+        "size_bytes": 505676583,
+        "status": "pending_web_access",
+        "reviewed": false,
+        "notes": "Source located November 11, 2026 in the parent marketing folder. Connector download limit is 268435456 bytes; source exceeds it. Signed-out browser preview redirects to Google sign-in. Need an accessible smaller MP4 or public-viewable video-host link before content, captions and playback can be reviewed. Do not enable preview from this source pointer."
+      }
     },
     "confirmed_guest_information": []
   }
