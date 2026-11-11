@@ -2,11 +2,17 @@
 const esc = value => String(value ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 const json = value => JSON.stringify(value).replaceAll('<', '\\u003c');
 const asset = 'resources/marketing/guest/';
-export function renderGuestPage(data) {
+export function renderGuestPage(data, company = []) {
   const e = data.event;
   const g = data.guest_page;
   const directions = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(e.address);
   const calendar = '<a class="button gold" href="resources/marketing/chosen-2026.ics" download="chosen-2026.ics"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 11h18m-12 5h6"/></svg>Save the Date</a>';
+  const companyCard = c => `<article class="company-card" data-performer="${esc(c.slug)}"><div class="company-portrait"><img src="${asset}${esc(c.image)}" alt="Portrait of ${esc(c.name)}" width="${c.width}" height="${c.height}" loading="lazy" decoding="async"></div><div class="company-info"><h4>${esc(c.name)}</h4><p>${esc(c.role)}</p></div></article>`;
+  const companyPreview = company.filter(c => c.preview);
+  const companyRest = company.filter(c => !c.preview && c.image);
+  const companyCredits = company.filter(c => !c.image);
+  const group = (label, members) => members.length ? `<section class="company-group" aria-label="${esc(label)}"><h4 class="company-group-title">${esc(label)}</h4><div class="company-grid">${members.map(companyCard).join('')}</div></section>` : '';
+  const companySection = company.length ? `<div class="company-section" aria-labelledby="company-title"><div class="company-heading"><p class="eyebrow ink">Meet the Company</p><h3 id="company-title">Many voices.<br><em>One story of hope.</em></h3><p>Meet the actors and dancers bringing CHOSEN to life.</p></div><div class="company-grid company-preview">${companyPreview.map(companyCard).join('')}</div><details class="company-expand"><summary><span class="when-closed">View Full Cast</span><span class="when-open">Show Fewer Cast Members</span><span class="company-toggle" aria-hidden="true">+</span></summary><div class="company-expanded">${group('The Cast',companyRest.filter(c => c.group === 'cast'))}${group('Dance & Ensemble',companyRest.filter(c => c.group === 'ensemble'))}${companyCredits.length ? `<section class="company-group" aria-labelledby="company-credits-title"><h4 class="company-group-title" id="company-credits-title">Also on Stage</h4><ul class="company-credits">${companyCredits.map(c => `<li data-performer="${esc(c.slug)}"><span>${esc(c.name)}</span><small>${esc(c.role)}</small></li>`).join('')}</ul></section>` : ''}</div></details><div class="company-attend">${calendar}<p>See them on stage.<br><strong>December 20 · 6 PM · Free admission</strong></p></div></div>` : '';
   const preview = g.preview;
   const youtubeId = /^[A-Za-z0-9_-]{11}$/.test(preview?.youtube_id ?? '') ? preview.youtube_id : null;
   const hasPreview = Boolean(youtubeId || (preview?.video && preview?.captions && preview?.poster));
@@ -48,7 +54,7 @@ export function renderGuestPage(data) {
 <meta name="twitter:image:alt" content="CHOSEN: The Story Before the Manger. December 20, 2026, 6 PM, Sunrise, Florida. Free admission.">
 <link rel="preload" as="image" href="${asset}chosen-hero.webp" media="(min-width: 1051px)">
 <link rel="preload" as="image" href="${asset}chosen-hero-mobile.webp" media="(max-width: 1050px)">
-<link rel="stylesheet" href="${asset}guest.css?v=20261111-6">
+<link rel="stylesheet" href="${asset}guest.css?v=20261111-company1">
 <script type="application/ld+json">${json(schema)}</script>
 <script src="${asset}guest.js?v=20261111-3" defer></script>
 </head>
@@ -85,6 +91,7 @@ ${hasPreview ? `<section class="preview-section wrap" id="preview" aria-labelled
 </div></section>
 <section class="cast-section wrap" id="cast" aria-labelledby="cast-title"><div class="section-heading"><div><p class="eyebrow ink">Meet Mary &amp; Joseph</p><h2 id="cast-title">The faces behind<br><em>the journey.</em></h2></div><p>Meet the performers bringing<br>Mary and Joseph’s story to life.</p></div>
   <div class="cast-grid">${g.cast.map(c => `<article class="cast-card"><div class="portrait-frame"><img src="${asset}${esc(c.image)}" alt="Portrait of ${esc(c.name)}, who plays ${esc(c.role)}" width="${c.width}" height="${c.height}" loading="lazy" decoding="async"><span class="role-tag">${esc(c.role)}</span></div><div class="cast-info"><div><p class="cast-role">AS ${esc(c.role).toUpperCase()}</p><h3>${esc(c.name)}</h3></div><a href="${esc(c.flyer)}" download aria-label="Download ${esc(c.name)}’s invitation flyer">Invitation flyer <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div></article>`).join('')}</div>
+${companySection}
 </section>
 <section class="hope-section"><div class="wrap"><span class="star" aria-hidden="true">✦</span><p class="eyebrow">A Christmas invitation</p><h2>Make room for hope.<br><em>Bring someone you love.</em></h2><p>Share an evening of music, dance, and drama<br class="desktop-break"> at The Faith Center.</p>${calendar}</div></section>
 <section class="visit-section wrap" id="details" aria-labelledby="visit-title"><div class="section-heading"><div><p class="eyebrow ink">Plan your visit</p><h2 id="visit-title">Your Christmas plans<br><em>start here.</em></h2></div><span class="admission-mark">Free<br><em>admission</em></span></div>
