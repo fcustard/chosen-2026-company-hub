@@ -294,6 +294,50 @@
       }
     ],
     "delivery": "End with the guest-page link in the post caption. Keep text inside safe margins. Use clear speech or a cleared music bed, check captions, and review the final cut before public posting."
+  },
+  "guest_page": {
+    "hook": "Before the manger, there was a choice to trust.",
+    "story_lead": "They could not see the whole journey. They chose to trust anyway.",
+    "story": "Before the manger, Mary and Joseph faced a future they could not fully see. Follow their journey of courage, faith, and trust through music, dance, and drama in CHOSEN: The Story Before the Manger.",
+    "share_text": "Make room for hope this Christmas. Join me for CHOSEN: The Story Before the Manger on December 20, 2026 at 6 PM at The Faith Center in Sunrise. Free admission. Bring someone you love.",
+    "google_calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=CHOSEN%3A%20The%20Story%20Before%20the%20Manger&dates=20261220T230000Z%2F20261220T230000Z&ctz=America%2FNew_York&details=Free%20admission.%20Show%20details%3A%20https%3A%2F%2Ffcustard.github.io%2Fchosen-2026-company-hub%2Fchosen.html&location=The%20Faith%20Center%2C%205555%20NW%2095th%20Avenue%2C%20Sunrise%2C%20FL%2033351",
+    "cast": [
+      {
+        "name": "Jordyn Starks",
+        "role": "Mary",
+        "image": "jordyn-starks.webp",
+        "width": 800,
+        "height": 1036,
+        "flyer": "resources/cast-flyers/jordyn-starks-post.png"
+      },
+      {
+        "name": "Caleb Davilmar",
+        "role": "Joseph",
+        "image": "caleb-davilmar.webp",
+        "width": 733,
+        "height": 1100,
+        "flyer": "resources/cast-flyers/caleb-davilmar-post.png"
+      }
+    ],
+    "preview": {
+      "video": null,
+      "captions": null,
+      "poster": "resources/marketing/guest/chosen-hero.webp",
+      "description": "Watch the official promo for CHOSEN: The Story Before the Manger.",
+      "source": {
+        "name": "Chosen Promo 2026.mp4",
+        "drive_id": "1jPuRwmv6jLIgSJvrQqaMkdGqLIBgABma",
+        "drive_url": "https://drive.google.com/file/d/1jPuRwmv6jLIgSJvrQqaMkdGqLIBgABma/view?usp=drivesdk",
+        "size_bytes": 505676583,
+        "status": "youtube_supplied",
+        "reviewed": false,
+        "notes": "YouTube copy supplied by user. Transcript reviewed November 11, 2026; auto captions are available but include suspect transcriptions at 0:06 and 0:51. Player is not forced to display them. Full playback/audio remained buffering in the review browser. Original Drive source preserved."
+      },
+      "youtube_id": "GWMRk6K9xSM",
+      "watch_url": "https://youtu.be/GWMRk6K9xSM",
+      "duration_label": "1 min 18 sec",
+      "captions_status": "available_auto_needs_correction"
+    },
+    "confirmed_guest_information": []
   }
 }
-
