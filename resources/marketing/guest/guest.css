@@ -16,3 +16,6 @@ svg.arrow{display:inline-block;width:14px;height:14px;fill:none;stroke:currentCo
 @media(max-width:1050px){.promo-content{gap:40px}.promo-content h2{font-size:29px}.promo-content .actions{gap:17px}.promo-content .button{padding-inline:18px}}
 @media(max-width:700px){.promo-content{display:block;padding-block:28px 34px}.promo-content h2{font-size:28px;max-width:370px}.promo-content .hero-description{font-size:13px}.promo-attend{margin-top:25px}.promo-content .hero-date{font-size:12px;margin-bottom:20px}.hero--promo .hero-art{height:auto}.hero--promo .hero-art img{height:auto}.promo-content .eyebrow{font-size:9px}}
 @media print{.hero--promo .hero-art{display:block}.promo-content{display:block}.promo-attend{margin-top:20px}.promo-content .eyebrow,.promo-content h2,.promo-content p{color:black}}
+/* Trim only the wide source banner's padded ends; retain its full artwork and copy. */
+@media(min-width:701px){.hero--promo .hero-art{overflow:hidden}.hero--promo .hero-art img{width:122.222222%;max-width:none;margin-left:-11.111111%}}
+@media(max-width:700px){.promo-attend{justify-self:auto;width:100%}}

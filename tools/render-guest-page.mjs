@@ -43,7 +43,7 @@ export function renderGuestPage(data) {
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" as="image" href="${asset}chosen-hero.webp" media="(min-width: 701px)">
 <link rel="preload" as="image" href="${asset}chosen-hero-mobile.webp" media="(max-width: 700px)">
-<link rel="stylesheet" href="${asset}guest.css?v=20261111-2">
+<link rel="stylesheet" href="${asset}guest.css?v=20261111-4">
 <script type="application/ld+json">${json(schema)}</script>
 <script src="${asset}guest.js?v=20261111-1" defer></script>
 </head>
