@@ -46,7 +46,7 @@ export function renderGuestPage(data) {
 <link rel="preload" as="image" href="${asset}chosen-hero-mobile.webp" media="(max-width: 1050px)">
 <link rel="stylesheet" href="${asset}guest.css?v=20261111-6">
 <script type="application/ld+json">${json(schema)}</script>
-<script src="${asset}guest.js?v=20261111-2" defer></script>
+<script src="${asset}guest.js?v=20261111-3" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

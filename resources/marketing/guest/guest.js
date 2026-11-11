@@ -27,7 +27,7 @@ if (promoButton) promoButton.addEventListener('click', () => {
   const videoId = promoButton.dataset.youtubeId;
   if (!/^[A-Za-z0-9_-]{11}$/.test(videoId)) return;
   const player = document.createElement('iframe');
-  player.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&playsinline=1&rel=0&cc_load_policy=1&cc_lang_pref=en`;
+  player.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&playsinline=1&rel=0&cc_lang_pref=en`;
   player.title = 'CHOSEN: The Story Before the Manger — Official Promo';
   player.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
   player.allowFullscreen = true;

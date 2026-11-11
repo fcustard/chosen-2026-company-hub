@@ -331,12 +331,12 @@
         "size_bytes": 505676583,
         "status": "youtube_supplied",
         "reviewed": false,
-        "notes": "YouTube copy supplied by the user. Metadata confirms Chosen Promo 2026 on Fredrick Custard’s channel, runtime PT1M18S. Captions processing on November 11, 2026; review captions before launch. Original Drive source preserved."
+        "notes": "YouTube copy supplied by user. Transcript reviewed November 11, 2026; auto captions are available but include suspect transcriptions at 0:06 and 0:51. Player is not forced to display them. Full playback/audio remained buffering in the review browser. Original Drive source preserved."
       },
       "youtube_id": "GWMRk6K9xSM",
       "watch_url": "https://youtu.be/GWMRk6K9xSM",
       "duration_label": "1 min 18 sec",
-      "captions_status": "processing"
+      "captions_status": "available_auto_needs_correction"
     },
     "confirmed_guest_information": []
   }
