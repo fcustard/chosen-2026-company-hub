@@ -27,7 +27,7 @@ The calendar file specifies the confirmed start instant and does not specify a r
 - Caleb portrait: approved source `2X1A1795 edited 1-1_Caleb Davilmar.jpg` in the same folder; Drive ID `19ZL51hVIepKWT2n3NUCWhnE4FzwpT1kP`.
 - `chosen-hero.webp`: generated custom story artwork approved by the user on November 11, 2026, “Mary and Joseph Beneath Bethlehem’s Star.png”, Library ID `libfile_360d11c618f48191ab84d14261b2edb0`. Uses fictional Black Mary/Joseph in period robes, navy sky, Bethlehem, and gold light. No real cast likenesses or embedded text.
 - `chosen-hero-mobile.webp`: a crop of the same approved artwork, preserving both figures and the star.
-- `chosen-social.jpg`: a 1200×630 crop of the approved artwork. Event details remain in social metadata.
+- `chosen-social-20261111.jpg`: current 1200×630 branded sharing image created at the user’s request. It preserves fictional Mary/Joseph and adds the production title, subtitle, Sunday December 20, 2026, 6 PM, Sunrise, Florida, and free admission. JPEG optimized for sharing; the versioned filename avoids reusing the earlier image URL. The earlier `chosen-social.jpg` crop is retained.
 - Actor imagery is limited to the clearly labeled cast section and its original invitation flyer downloads. Original portraits are resized/compressed for web delivery.
 
 ## Verification scope
@@ -51,3 +51,11 @@ Browser checks: calendar download completed; Jordyn and Caleb invitation flyer d
 YouTube now exposes captions. Transcript review found suspect auto-caption text at 0:06 (“Barry”) and 0:51 (“Heat. Heat.”). Do not treat those as corrected or audio-verified. Caption auto-display was removed; viewers can still select captions in YouTube. Full video playback/audio remained buffering at 0:00 in the review browser, so end-to-end media verification is incomplete. The matching player loads and a direct Watch on YouTube fallback is always available. No YouTube account content or caption track was edited.
 
 Unconfirmed guest details remain omitted: doors, running time, seating, parking, access/age/group policies.
+
+## Branded sharing card — November 11, 2026
+
+The page’s Open Graph image, TheaterEvent image, and explicit Twitter/X card metadata use `chosen-social-20261111.jpg`. The website opening and promo poster continue to use their existing text-free art.
+
+Creative brief: edit the approved fictional Mary/Joseph artwork; preserve the navy/gold composition, faces, period costumes and atmosphere; add thumbnail-readable classical serif CHOSEN lettering and clear event details on the left. Exact copy: THE FAITH CENTER PRESENTS / CHOSEN / THE STORY BEFORE THE MANGER / SUNDAY, DECEMBER 20, 2026 / 6 PM · SUNRISE, FLORIDA / FREE ADMISSION. Built-in image generation edit, followed by technical resizing/JPEG compression. Generated source: `exec-1b08bed7-f270-45e2-a493-d1689a114bd5.png` (original generation retained separately).
+
+Validation: image copy visually checked against confirmed details, JPEG is exactly 1200×630, guest generation passed, and metadata references the versioned card consistently. Social services may retain a previously fetched page preview until their cache refreshes.
