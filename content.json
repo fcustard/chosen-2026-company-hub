@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T04:04:57.280Z",
+  "updated": "2026-11-12T12:36:03.887Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -96,8 +96,8 @@
   },
   "thisWeek": {
     "title": "This Week",
-    "start": "2026-11-11T05:00:00.000Z",
-    "end": "2026-11-18T04:59:59.000Z",
+    "start": "2026-11-12T05:00:00.000Z",
+    "end": "2026-11-19T04:59:59.000Z",
     "rehearsals": [
       {
         "id": "CHOSEN-20261112-REH",
@@ -208,9 +208,37 @@
         "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water and a snack.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
         "notice": "",
         "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20261118-REH",
+        "eventKey": "CHOSEN-20261118-REH",
+        "start": "2026-11-18T23:30:00.000Z",
+        "end": "2026-11-19T02:30:00.000Z",
+        "date": "November 18, 2026",
+        "dateIso": "2026-11-18",
+        "day": "Wednesday",
+        "dateLabel": "November 18, 2026",
+        "dayLabel": "Wednesday",
+        "time": "6:30 PM–9:30 PM",
+        "title": "CHOSEN Rehearsal - Scenes 3, 4, 5 & 8",
+        "status": "CONFIRMED",
+        "location": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "6:30–8:00 PM | Scenes 4 & 5\n\n  8:00–9:30 PM | Scene 8 & 3",
+        "callGroups": [],
+        "calledPeople": [],
+        "calledPeopleIds": [],
+        "calledGroups": [],
+        "exactCallStatus": "REVIEW",
+        "callDataVersion": 3,
+        "work": "Clean scenes, blocking, and transitions with props",
+        "focus": "",
+        "prep": "Meet in the Studio at 6:30 PM;\n Move to the Sanctuary at 8:00 PM.",
+        "notice": "",
+        "changeType": ""
       }
     ],
-    "count": 2
+    "count": 3
   },
   "schedule": {
     "title": "Schedule",
@@ -10974,7 +11002,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-12T04:04:57.284Z",
+    "updated": "2026-11-12T12:36:03.894Z",
     "kind": "scripts"
   },
   "music": {
@@ -11343,7 +11371,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-12T04:04:57.284Z",
+    "updated": "2026-11-12T12:36:03.894Z",
     "kind": "music"
   }
 }
