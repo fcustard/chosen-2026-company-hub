@@ -883,7 +883,7 @@
       "groups": [
         "Ensemble"
       ],
-      "roles": "VILLAGER WOMAN 2/ ENSEMBLE",
+      "roles": "ENSEMBLE",
       "scenes": [
         1,
         9,
@@ -899,7 +899,7 @@
           "personId": "P-dana-quamina",
           "type": "Cast Role",
           "department": "Cast",
-          "assignment": "VILLAGER WOMAN 2/ ENSEMBLE",
+          "assignment": "ENSEMBLE",
           "scope": "1, 9, 10, 11,12",
           "callGroups": [
             "Ensemble"
