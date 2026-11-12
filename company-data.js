@@ -100,7 +100,7 @@ window.CHOSEN_COMPANY_DATA = [
   },
   {
     "name": "Dana Quamina",
-    "roles": "VILLAGER WOMAN 2 / ENSEMBLE",
+    "roles": "ENSEMBLE",
     "scenes": "1, 9, 10, 11, 12",
     "danceEnsemble": false
   },
