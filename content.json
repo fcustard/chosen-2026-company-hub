@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T15:01:13.735Z",
+  "updated": "2026-11-14T19:50:51.366Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -13,30 +13,30 @@
     "calendarFeed": "https://fcustard.github.io/chosen-2026-company-hub/chosen-calendar.ics"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20261114-REH",
-    "eventKey": "CHOSEN-20261114-REH",
-    "start": "2026-11-14T15:00:00.000Z",
-    "end": "2026-11-14T19:00:00.000Z",
-    "date": "November 14, 2026",
-    "dateIso": "2026-11-14",
-    "day": "Saturday",
-    "dateLabel": "November 14, 2026",
-    "dayLabel": "Saturday",
-    "time": "10:00 AM–2:00 PM",
-    "title": "CHOSEN Rehearsal - Scenes 2–7",
+    "id": "CHOSEN-20261118-REH",
+    "eventKey": "CHOSEN-20261118-REH",
+    "start": "2026-11-18T23:30:00.000Z",
+    "end": "2026-11-19T02:30:00.000Z",
+    "date": "November 18, 2026",
+    "dateIso": "2026-11-18",
+    "day": "Wednesday",
+    "dateLabel": "November 18, 2026",
+    "dayLabel": "Wednesday",
+    "time": "6:30 PM–9:30 PM",
+    "title": "CHOSEN Rehearsal - Scenes 3, 4, 5 & 8",
     "status": "CONFIRMED",
-    "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "10:00 AM–12:00 PM | Scenes 2, 3 & 4 \n      \n  12:00–2:00 PM | Scenes 5, 6 & 7",
+    "location": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
+    "locationShort": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
+    "called": "6:30–8:00 PM | Scenes 4 & 5\n\n  8:00–9:30 PM | Scene 8 & 3",
     "callGroups": [],
     "calledPeople": [],
     "calledPeopleIds": [],
     "calledGroups": [],
     "exactCallStatus": "REVIEW",
     "callDataVersion": 3,
-    "work": "Clean scenes, blocking, and transitions",
+    "work": "Clean scenes, blocking, and transitions with props",
     "focus": "",
-    "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water and a snack.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
+    "prep": "Meet in the Studio at 6:30 PM;\n Move to the Sanctuary at 8:00 PM.",
     "notice": "",
     "changeType": ""
   },
@@ -45,34 +45,6 @@
     "start": "2026-11-14T05:00:00.000Z",
     "end": "2026-11-21T04:59:59.000Z",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261114-REH",
-        "eventKey": "CHOSEN-20261114-REH",
-        "start": "2026-11-14T15:00:00.000Z",
-        "end": "2026-11-14T19:00:00.000Z",
-        "date": "November 14, 2026",
-        "dateIso": "2026-11-14",
-        "day": "Saturday",
-        "dateLabel": "November 14, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scenes 2–7",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–12:00 PM | Scenes 2, 3 & 4 \n      \n  12:00–2:00 PM | Scenes 5, 6 & 7",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
-        "callDataVersion": 3,
-        "work": "Clean scenes, blocking, and transitions",
-        "focus": "",
-        "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water and a snack.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261118-REH",
         "eventKey": "CHOSEN-20261118-REH",
@@ -130,40 +102,12 @@
         "changeType": ""
       }
     ],
-    "count": 3
+    "count": 2
   },
   "schedule": {
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
-      {
-        "id": "CHOSEN-20261114-REH",
-        "eventKey": "CHOSEN-20261114-REH",
-        "start": "2026-11-14T15:00:00.000Z",
-        "end": "2026-11-14T19:00:00.000Z",
-        "date": "November 14, 2026",
-        "dateIso": "2026-11-14",
-        "day": "Saturday",
-        "dateLabel": "November 14, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scenes 2–7",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–12:00 PM | Scenes 2, 3 & 4 \n      \n  12:00–2:00 PM | Scenes 5, 6 & 7",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
-        "callDataVersion": 3,
-        "work": "Clean scenes, blocking, and transitions",
-        "focus": "",
-        "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water and a snack.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
-        "notice": "",
-        "changeType": ""
-      },
       {
         "id": "CHOSEN-20261118-REH",
         "eventKey": "CHOSEN-20261118-REH",
@@ -746,6 +690,34 @@
       }
     ],
     "pastRehearsals": [
+      {
+        "id": "CHOSEN-20261114-REH",
+        "eventKey": "CHOSEN-20261114-REH",
+        "start": "2026-11-14T15:00:00.000Z",
+        "end": "2026-11-14T19:00:00.000Z",
+        "date": "November 14, 2026",
+        "dateIso": "2026-11-14",
+        "day": "Saturday",
+        "dateLabel": "November 14, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Scenes 2–7",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–12:00 PM | Scenes 2, 3 & 4 \n      \n  12:00–2:00 PM | Scenes 5, 6 & 7",
+        "callGroups": [],
+        "calledPeople": [],
+        "calledPeopleIds": [],
+        "calledGroups": [],
+        "exactCallStatus": "REVIEW",
+        "callDataVersion": 3,
+        "work": "Clean scenes, blocking, and transitions",
+        "focus": "",
+        "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water and a snack.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
+        "notice": "",
+        "changeType": ""
+      },
       {
         "id": "CHOSEN-20261112-REH",
         "eventKey": "CHOSEN-20261112-REH",
@@ -5322,34 +5294,6 @@
     ],
     "allRehearsals": [
       {
-        "id": "CHOSEN-20261114-REH",
-        "eventKey": "CHOSEN-20261114-REH",
-        "start": "2026-11-14T15:00:00.000Z",
-        "end": "2026-11-14T19:00:00.000Z",
-        "date": "November 14, 2026",
-        "dateIso": "2026-11-14",
-        "day": "Saturday",
-        "dateLabel": "November 14, 2026",
-        "dayLabel": "Saturday",
-        "time": "10:00 AM–2:00 PM",
-        "title": "CHOSEN Rehearsal - Scenes 2–7",
-        "status": "CONFIRMED",
-        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "10:00 AM–12:00 PM | Scenes 2, 3 & 4 \n      \n  12:00–2:00 PM | Scenes 5, 6 & 7",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
-        "callDataVersion": 3,
-        "work": "Clean scenes, blocking, and transitions",
-        "focus": "",
-        "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water and a snack.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
-        "notice": "",
-        "changeType": ""
-      },
-      {
         "id": "CHOSEN-20261118-REH",
         "eventKey": "CHOSEN-20261118-REH",
         "start": "2026-11-18T23:30:00.000Z",
@@ -5926,6 +5870,34 @@
         "work": "Official show-day call; performance day",
         "focus": "",
         "prep": "Focus: SHOW DAY. FOOD WILL BE PROVIDED.  Please check the live schedule for final room and call details.",
+        "notice": "",
+        "changeType": ""
+      },
+      {
+        "id": "CHOSEN-20261114-REH",
+        "eventKey": "CHOSEN-20261114-REH",
+        "start": "2026-11-14T15:00:00.000Z",
+        "end": "2026-11-14T19:00:00.000Z",
+        "date": "November 14, 2026",
+        "dateIso": "2026-11-14",
+        "day": "Saturday",
+        "dateLabel": "November 14, 2026",
+        "dayLabel": "Saturday",
+        "time": "10:00 AM–2:00 PM",
+        "title": "CHOSEN Rehearsal - Scenes 2–7",
+        "status": "CONFIRMED",
+        "location": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "locationShort": "The Faith Center | 5555 NW 95th Ave, Sunrise, FL 33351",
+        "called": "10:00 AM–12:00 PM | Scenes 2, 3 & 4 \n      \n  12:00–2:00 PM | Scenes 5, 6 & 7",
+        "callGroups": [],
+        "calledPeople": [],
+        "calledPeopleIds": [],
+        "calledGroups": [],
+        "exactCallStatus": "REVIEW",
+        "callDataVersion": 3,
+        "work": "Clean scenes, blocking, and transitions",
+        "focus": "",
+        "prep": "On-site at The Faith Center. Clean scenes, blocking, and transitions.\n\n⚠️ IMPORTANT REMINDERS\n• Actors must be OFF SCRIPT and ready to work on their assigned scenes.\n• Rehearsal is on-site at The Faith Center. Follow the scene blocks under Who Is Called.\n• Arrive on time and follow the on-site directing team's instructions.\n• Respect scene transitions and return promptly when called.\n• Bring water and a snack.\n• Remain through your scheduled call unless released by leadership.\n\nLet's use each rehearsal to strengthen our characters, blocking, and transitions.",
         "notice": "",
         "changeType": ""
       },
@@ -10525,8 +10497,8 @@
         "count": 12
       }
     ],
-    "count": 14,
-    "pastCount": 35
+    "count": 13,
+    "pastCount": 36
   },
   "scripts": {
     "items": [
@@ -10542,7 +10514,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "2bf6130ead2ac4e445385804bdfc6689329e8b3b4f3b54178e6d873597770368"
       },
       {
@@ -10557,7 +10529,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "f2f6083bdca8ba6659d9f7a652010469db2cb54bc736d937da82452846c7a450"
       },
       {
@@ -10572,7 +10544,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "fa96c7db2b3651ba2c22c942b96238747e874b87079240ff0f1686ea3afca102"
       },
       {
@@ -10587,7 +10559,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "231433b64e503570bb1bb788dc2221232c66e1e736bd6041b66e61cc1a2776d8"
       },
       {
@@ -10602,7 +10574,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "76387cabe01943567e86e9f23a25d95774df778a62209b53639d213d13023ca1"
       },
       {
@@ -10617,7 +10589,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "121f2ac8d3793813fb534d7fc6f6ad76b9f72ecbe7ec78676611be65da473db0"
       },
       {
@@ -10632,7 +10604,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "aba8923b1c4e357368387da261adc46f467c6dbfcac1a55820d1e142ee0a075e"
       },
       {
@@ -10647,7 +10619,7 @@
         "id": "the-reunion",
         "name": "The Reunion",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "cb21e53e77f9cf1de25cae59565a6af8003a3ba16f843a2753f9cefb8a4df720"
       },
       {
@@ -10662,7 +10634,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "bb5f2e50c0d3d7e4253760a32521fa3545e1bab4216748bc438649ef74e66287"
       },
       {
@@ -10677,7 +10649,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "014b7339162c57c33a77a1a666d23302f198c83e0c7bcc21be93352dda521c2f"
       },
       {
@@ -10692,7 +10664,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "41fd9c8532e68cde052c9fec22509a240e6c132ced6e61632d07bd202e6f69eb"
       },
       {
@@ -10707,7 +10679,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "388410d337a8f752f896b093c7b6d2169cceeb7f3c5ead25ebc20f715c05a5c4"
       }
     ],
@@ -10724,7 +10696,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "2bf6130ead2ac4e445385804bdfc6689329e8b3b4f3b54178e6d873597770368"
       },
       {
@@ -10739,7 +10711,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "f2f6083bdca8ba6659d9f7a652010469db2cb54bc736d937da82452846c7a450"
       },
       {
@@ -10754,7 +10726,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "fa96c7db2b3651ba2c22c942b96238747e874b87079240ff0f1686ea3afca102"
       },
       {
@@ -10769,7 +10741,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "231433b64e503570bb1bb788dc2221232c66e1e736bd6041b66e61cc1a2776d8"
       },
       {
@@ -10784,7 +10756,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "76387cabe01943567e86e9f23a25d95774df778a62209b53639d213d13023ca1"
       },
       {
@@ -10799,7 +10771,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "121f2ac8d3793813fb534d7fc6f6ad76b9f72ecbe7ec78676611be65da473db0"
       },
       {
@@ -10814,7 +10786,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "aba8923b1c4e357368387da261adc46f467c6dbfcac1a55820d1e142ee0a075e"
       },
       {
@@ -10829,7 +10801,7 @@
         "id": "the-reunion",
         "name": "The Reunion",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "cb21e53e77f9cf1de25cae59565a6af8003a3ba16f843a2753f9cefb8a4df720"
       },
       {
@@ -10844,7 +10816,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "bb5f2e50c0d3d7e4253760a32521fa3545e1bab4216748bc438649ef74e66287"
       },
       {
@@ -10859,7 +10831,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "014b7339162c57c33a77a1a666d23302f198c83e0c7bcc21be93352dda521c2f"
       },
       {
@@ -10874,7 +10846,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "41fd9c8532e68cde052c9fec22509a240e6c132ced6e61632d07bd202e6f69eb"
       },
       {
@@ -10889,12 +10861,12 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-11-14T15:01:04.447Z",
+        "updated": "2026-11-14T19:50:40.780Z",
         "contentHash": "388410d337a8f752f896b093c7b6d2169cceeb7f3c5ead25ebc20f715c05a5c4"
       }
     ],
     "count": 12,
-    "updated": "2026-11-14T15:01:13.740Z",
+    "updated": "2026-11-14T19:50:51.372Z",
     "kind": "scripts"
   },
   "music": {
@@ -11263,7 +11235,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-14T15:01:13.740Z",
+    "updated": "2026-11-14T19:50:51.372Z",
     "kind": "music"
   }
 }
