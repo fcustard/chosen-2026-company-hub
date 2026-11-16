@@ -1,5 +1,5 @@
 {
-  "reviewed_date": "2026-11-11",
+  "reviewed_date": "2026-11-16",
   "roster_source": "data/company.json",
   "photo_basis": "Named source portraits corresponding to the 33 cast flyers previously approved for public marketing. User authorized guest-page reuse November 11, 2026. No new photo identities inferred. No separate consent registry is claimed.",
   "members": [
@@ -380,13 +380,6 @@
       "preview": false
     },
     {
-      "name": "Fredrick Custard",
-      "slug": "fredrick-custard",
-      "role": "Villager Man / Innkeeper 1",
-      "group": "credits",
-      "preview": false
-    },
-    {
       "name": "Gelvina Maxime",
       "slug": "gelvina-maxime",
       "role": "Nia / Dance Ensemble",
@@ -399,13 +392,31 @@
       "role": "Malachi",
       "group": "credits",
       "preview": false
-    },
-    {
-      "name": "Moenike Custard",
-      "slug": "moenike-custard",
-      "role": "Dance Ensemble / Innkeeper 2",
-      "group": "credits",
-      "preview": false
     }
-  ]
+  ],
+  "creative_team": {
+    "image": "fredrick-moenike-custard-directors.webp",
+    "width": 900,
+    "height": 1350,
+    "alt": "Fredrick Custard and Moenike Custard, the writers and directors of CHOSEN",
+    "source_drive_id": "1pD0rn8aWw1gWcM4lsvAggLx_e7_IwptH",
+    "people": [
+      {
+        "name": "Fredrick Custard",
+        "roles": [
+          "Director",
+          "Writer"
+        ]
+      },
+      {
+        "name": "Moenike Custard",
+        "roles": [
+          "Director",
+          "Writer",
+          "Choreographer"
+        ]
+      }
+    ],
+    "intro": "Written and directed by Fredrick Custard and Moenike Custard, with choreography for every dance number by Moenike Custard."
+  }
 }

@@ -2,7 +2,7 @@
 const esc = value => String(value ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 const json = value => JSON.stringify(value).replaceAll('<', '\\u003c');
 const asset = 'resources/marketing/guest/';
-export function renderGuestPage(data, company = []) {
+export function renderGuestPage(data, company = [], creativeTeam = null) {
   const e = data.event;
   const g = data.guest_page;
   const directions = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(e.address);
@@ -13,6 +13,7 @@ export function renderGuestPage(data, company = []) {
   const companyCredits = company.filter(c => !c.image);
   const group = (label, members) => members.length ? `<section class="company-group" aria-label="${esc(label)}"><h4 class="company-group-title">${esc(label)}</h4><div class="company-grid">${members.map(companyCard).join('')}</div></section>` : '';
   const companySection = company.length ? `<div class="company-section" aria-labelledby="company-title"><div class="company-heading"><p class="eyebrow ink">Meet the Company</p><h3 id="company-title">Many voices.<br><em>One story of hope.</em></h3><p>Meet the actors and dancers bringing CHOSEN to life.</p></div><div class="company-grid company-preview">${companyPreview.map(companyCard).join('')}</div><details class="company-expand"><summary><span class="when-closed">View Full Cast</span><span class="when-open">Show Fewer Cast Members</span><span class="company-toggle" aria-hidden="true">+</span></summary><div class="company-expanded">${group('The Cast',companyRest.filter(c => c.group === 'cast'))}${group('Dance & Ensemble',companyRest.filter(c => c.group === 'ensemble'))}${companyCredits.length ? `<section class="company-group" aria-labelledby="company-credits-title"><h4 class="company-group-title" id="company-credits-title">Also on Stage</h4><ul class="company-credits">${companyCredits.map(c => `<li data-performer="${esc(c.slug)}"><span>${esc(c.name)}</span><small>${esc(c.role)}</small></li>`).join('')}</ul></section>` : ''}</div></details><div class="company-attend">${calendar}<p>See them on stage.<br><strong>December 20 · 6 PM · Free admission</strong></p></div></div>` : '';
+  const creativeSection = creativeTeam?.people?.length ? `<section class="creative-section" id="creative-team" aria-labelledby="creative-title"><div class="wrap creative-grid"><div class="creative-photo"><img src="${asset}${esc(creativeTeam.image)}" alt="${esc(creativeTeam.alt)}" width="${creativeTeam.width}" height="${creativeTeam.height}" loading="lazy" decoding="async"></div><div class="creative-copy"><p class="eyebrow ink">Meet the Creative Team</p><h2 id="creative-title">The vision<br><em>behind CHOSEN.</em></h2><p class="creative-intro">${esc(creativeTeam.intro)}</p><div class="creative-credits">${creativeTeam.people.map(p => `<article data-creative="${esc(p.name)}"><h3>${esc(p.name)}</h3><p>${p.roles.map(esc).join(' &middot; ')}</p></article>`).join('')}</div></div></div></section>` : '';
   const preview = g.preview;
   const youtubeId = /^[A-Za-z0-9_-]{11}$/.test(preview?.youtube_id ?? '') ? preview.youtube_id : null;
   const hasPreview = Boolean(youtubeId || (preview?.video && preview?.captions && preview?.poster));
@@ -54,7 +55,7 @@ export function renderGuestPage(data, company = []) {
 <meta name="twitter:image:alt" content="CHOSEN: The Story Before the Manger. December 20, 2026, 6 PM, Sunrise, Florida. Free admission.">
 <link rel="preload" as="image" href="${asset}chosen-hero.webp" media="(min-width: 1051px)">
 <link rel="preload" as="image" href="${asset}chosen-hero-mobile.webp" media="(max-width: 1050px)">
-<link rel="stylesheet" href="${asset}guest.css?v=20261111-company1">
+<link rel="stylesheet" href="${asset}guest.css?v=20261116-creative1">
 <script type="application/ld+json">${json(schema)}</script>
 <script src="${asset}guest.js?v=20261111-3" defer></script>
 </head>
@@ -62,7 +63,7 @@ export function renderGuestPage(data, company = []) {
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="header-inner"><a class="small-brand" href="chosen.html" aria-label="CHOSEN home">CHOSEN<span>The Faith Center</span></a>
-  <nav aria-label="Show navigation"><a href="#story">The Story</a>${hasPreview ? '<a href="#preview">Preview</a>' : ''}<a href="#cast">The Cast</a><a href="#details">Plan Your Visit</a></nav>
+  <nav aria-label="Show navigation"><a href="#story">The Story</a>${hasPreview ? '<a href="#preview">Preview</a>' : ''}<a href="#cast">The Cast</a>${creativeSection ? '<a href="#creative-team">Creative Team</a>' : ''}<a href="#details">Plan Your Visit</a></nav>
   <a class="header-cta" href="resources/marketing/chosen-2026.ics" download="chosen-2026.ics">Save the Date<svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
 </header>
 <main id="main" tabindex="-1">
@@ -93,6 +94,7 @@ ${hasPreview ? `<section class="preview-section wrap" id="preview" aria-labelled
   <div class="cast-grid">${g.cast.map(c => `<article class="cast-card"><div class="portrait-frame"><img src="${asset}${esc(c.image)}" alt="Portrait of ${esc(c.name)}, who plays ${esc(c.role)}" width="${c.width}" height="${c.height}" loading="lazy" decoding="async"><span class="role-tag">${esc(c.role)}</span></div><div class="cast-info"><div><p class="cast-role">AS ${esc(c.role).toUpperCase()}</p><h3>${esc(c.name)}</h3></div><a href="${esc(c.flyer)}" download aria-label="Download ${esc(c.name)}’s invitation flyer">Invitation flyer <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div></article>`).join('')}</div>
 ${companySection}
 </section>
+${creativeSection}
 <section class="hope-section"><div class="wrap"><span class="star" aria-hidden="true">✦</span><p class="eyebrow">A Christmas invitation</p><h2>Make room for hope.<br><em>Bring someone you love.</em></h2><p>Share an evening of music, dance, and drama<br class="desktop-break"> at The Faith Center.</p>${calendar}</div></section>
 <section class="visit-section wrap" id="details" aria-labelledby="visit-title"><div class="section-heading"><div><p class="eyebrow ink">Plan your visit</p><h2 id="visit-title">Your Christmas plans<br><em>start here.</em></h2></div><span class="admission-mark">Free<br><em>admission</em></span></div>
   <div class="visit-grid"><div class="venue-panel"><p class="eyebrow">Join us in Sunrise</p><h3>${esc(e.venue)}</h3><address>5555 NW 95th Avenue<br>Sunrise, FL 33351</address><a class="button outline" href="${esc(directions)}" target="_blank" rel="noopener">Get Directions <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><p class="venue-note">Sunday, December 20, 2026<br><strong>6:00 PM Eastern</strong></p></div><div class="guest-faq"><p class="faq-intro">A few things to know before you go.</p>${guestAnswers.map(a => `<details><summary>${esc(a.question)}<span aria-hidden="true">+</span></summary><p>${esc(a.answer)}</p></details>`).join('')}<div class="calendar-options"><span>Add CHOSEN to your calendar</span><a href="resources/marketing/chosen-2026.ics" download="chosen-2026.ics">Apple / Outlook <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a href="${esc(g.google_calendar_url)}" target="_blank" rel="noopener">Google Calendar <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div></div></div>
