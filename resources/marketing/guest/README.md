@@ -89,3 +89,10 @@ Verification: full repository validation passed. Browser checked three-column de
 ## Creative credits — November 16, 2026
 
 Fredrick and Moenike Custard are removed from the guest-page cast and credited separately as directors and writers, with Moenike additionally credited as choreographer of every dance number. Their named shared portrait is reused from Drive without AI retouching, optimized to 900×1350 WebP. The public guest cast now has 40 performers and a separate two-person creative team. Creative names are excluded from cast generation. Operational rehearsal assignments/history are preserved.
+
+
+## Cast photo folder check — November 17, 2026
+
+Checked all 49 direct items in the source photo folder: 48 images and one flyer-download subfolder. Added the newly named `Gelvina Maxime.jpeg` (Drive ID `1A-08tNCeMcdbtZX_Y48PYIvh_cVueumB`) to her existing Nia / Dance Ensemble credit. Her portrait is resized/compressed for web use without retouching or generated changes. She appears once in Dance & Ensemble; the name-only duplicate is removed by the existing renderer. The guest page now has 34 cast portraits and six name-only cast credits, plus the separate creative team.
+
+Still without a named portrait in this folder: Allania Mitchell, Alyssa Johnson, Arielle Brown, Dana Quamina, Delvin Rogers Jr, Michael Stover. Thirteen filename-only images remain unassigned; no identities are inferred from faces. Metadata inventory: `docs/cast-photo-folder-audit-20261117.json`.

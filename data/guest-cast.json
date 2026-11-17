@@ -1,5 +1,5 @@
 {
-  "reviewed_date": "2026-11-16",
+  "reviewed_date": "2026-11-17",
   "roster_source": "data/company.json",
   "photo_basis": "Named source portraits corresponding to the 33 cast flyers previously approved for public marketing. User authorized guest-page reuse November 11, 2026. No new photo identities inferred. No separate consent registry is claimed.",
   "members": [
@@ -383,8 +383,12 @@
       "name": "Gelvina Maxime",
       "slug": "gelvina-maxime",
       "role": "Nia / Dance Ensemble",
-      "group": "credits",
-      "preview": false
+      "group": "ensemble",
+      "preview": false,
+      "image": "company/gelvina-maxime.webp",
+      "width": 637,
+      "height": 850,
+      "source_drive_id": "1A-08tNCeMcdbtZX_Y48PYIvh_cVueumB"
     },
     {
       "name": "Michael Stover",
