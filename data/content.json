@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T10:37:27.353Z",
+  "updated": "2026-11-17T16:34:14.567Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -23,11 +23,11 @@
     "dateLabel": "November 18, 2026",
     "dayLabel": "Wednesday",
     "time": "6:30 PM–9:30 PM",
-    "title": "CHOSEN Rehearsal - Scenes 3, 4, 5 & 8",
+    "title": "CHOSEN Rehearsal - ALL Dancers; Scenes 4, 5,(Actors)",
     "status": "CONFIRMED",
     "location": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "6:30–8:00 PM | Scenes 4 & 5\n\n  8:00–9:30 PM | Scene 8 & 3",
+    "called": "6:30–8:00 PM | ALL Dancers \n\n  8:00–9:30 PM | Scene 4 & 5",
     "callGroups": [],
     "calledPeople": [],
     "calledPeopleIds": [],
@@ -56,11 +56,11 @@
         "dateLabel": "November 18, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 3, 4, 5 & 8",
+        "title": "CHOSEN Rehearsal - ALL Dancers; Scenes 4, 5,(Actors)",
         "status": "CONFIRMED",
         "location": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 4 & 5\n\n  8:00–9:30 PM | Scene 8 & 3",
+        "called": "6:30–8:00 PM | ALL Dancers \n\n  8:00–9:30 PM | Scene 4 & 5",
         "callGroups": [],
         "calledPeople": [],
         "calledPeopleIds": [],
@@ -325,11 +325,11 @@
         "dateLabel": "November 18, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 3, 4, 5 & 8",
+        "title": "CHOSEN Rehearsal - ALL Dancers; Scenes 4, 5,(Actors)",
         "status": "CONFIRMED",
         "location": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 4 & 5\n\n  8:00–9:30 PM | Scene 8 & 3",
+        "called": "6:30–8:00 PM | ALL Dancers \n\n  8:00–9:30 PM | Scene 4 & 5",
         "callGroups": [],
         "calledPeople": [],
         "calledPeopleIds": [],
@@ -5510,11 +5510,11 @@
         "dateLabel": "November 18, 2026",
         "dayLabel": "Wednesday",
         "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 3, 4, 5 & 8",
+        "title": "CHOSEN Rehearsal - ALL Dancers; Scenes 4, 5,(Actors)",
         "status": "CONFIRMED",
         "location": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
         "locationShort": "The Faith Center — Studio (6:30–8:00 PM), then Sanctuary (8:00–9:30 PM) | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:00 PM | Scenes 4 & 5\n\n  8:00–9:30 PM | Scene 8 & 3",
+        "called": "6:30–8:00 PM | ALL Dancers \n\n  8:00–9:30 PM | Scene 4 & 5",
         "callGroups": [],
         "calledPeople": [],
         "calledPeopleIds": [],
@@ -10720,7 +10720,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "2bf6130ead2ac4e445385804bdfc6689329e8b3b4f3b54178e6d873597770368"
       },
       {
@@ -10735,7 +10735,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "f2f6083bdca8ba6659d9f7a652010469db2cb54bc736d937da82452846c7a450"
       },
       {
@@ -10750,7 +10750,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "fa96c7db2b3651ba2c22c942b96238747e874b87079240ff0f1686ea3afca102"
       },
       {
@@ -10765,7 +10765,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "231433b64e503570bb1bb788dc2221232c66e1e736bd6041b66e61cc1a2776d8"
       },
       {
@@ -10780,7 +10780,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "76387cabe01943567e86e9f23a25d95774df778a62209b53639d213d13023ca1"
       },
       {
@@ -10795,7 +10795,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "121f2ac8d3793813fb534d7fc6f6ad76b9f72ecbe7ec78676611be65da473db0"
       },
       {
@@ -10810,7 +10810,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "aba8923b1c4e357368387da261adc46f467c6dbfcac1a55820d1e142ee0a075e"
       },
       {
@@ -10825,7 +10825,7 @@
         "id": "the-reunion",
         "name": "The Reunion",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "cb21e53e77f9cf1de25cae59565a6af8003a3ba16f843a2753f9cefb8a4df720"
       },
       {
@@ -10840,7 +10840,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "bb5f2e50c0d3d7e4253760a32521fa3545e1bab4216748bc438649ef74e66287"
       },
       {
@@ -10855,7 +10855,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "014b7339162c57c33a77a1a666d23302f198c83e0c7bcc21be93352dda521c2f"
       },
       {
@@ -10870,7 +10870,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "41fd9c8532e68cde052c9fec22509a240e6c132ced6e61632d07bd202e6f69eb"
       },
       {
@@ -10885,7 +10885,7 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "388410d337a8f752f896b093c7b6d2169cceeb7f3c5ead25ebc20f715c05a5c4"
       }
     ],
@@ -10902,7 +10902,7 @@
         "id": "welcome-to-nazareth",
         "name": "Welcome to Nazareth",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "2bf6130ead2ac4e445385804bdfc6689329e8b3b4f3b54178e6d873597770368"
       },
       {
@@ -10917,7 +10917,7 @@
         "id": "mary-and-joseph-my-beloved",
         "name": "Mary & Joseph / My Beloved",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "f2f6083bdca8ba6659d9f7a652010469db2cb54bc736d937da82452846c7a450"
       },
       {
@@ -10932,7 +10932,7 @@
         "id": "gabriel-chosen",
         "name": "Gabriel / Chosen",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "fa96c7db2b3651ba2c22c942b96238747e874b87079240ff0f1686ea3afca102"
       },
       {
@@ -10947,7 +10947,7 @@
         "id": "the-secret",
         "name": "The Secret",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "231433b64e503570bb1bb788dc2221232c66e1e736bd6041b66e61cc1a2776d8"
       },
       {
@@ -10962,7 +10962,7 @@
         "id": "brotherhood",
         "name": "Brotherhood",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "76387cabe01943567e86e9f23a25d95774df778a62209b53639d213d13023ca1"
       },
       {
@@ -10977,7 +10977,7 @@
         "id": "mary-and-joseph",
         "name": "Mary & Joseph",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "121f2ac8d3793813fb534d7fc6f6ad76b9f72ecbe7ec78676611be65da473db0"
       },
       {
@@ -10992,7 +10992,7 @@
         "id": "two-roads-of-faith",
         "name": "Two Roads of Faith",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "aba8923b1c4e357368387da261adc46f467c6dbfcac1a55820d1e142ee0a075e"
       },
       {
@@ -11007,7 +11007,7 @@
         "id": "the-reunion",
         "name": "The Reunion",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "cb21e53e77f9cf1de25cae59565a6af8003a3ba16f843a2753f9cefb8a4df720"
       },
       {
@@ -11022,7 +11022,7 @@
         "id": "what-will-he-be-the-town-turns",
         "name": "What Will He Be? / The Town Turns",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "bb5f2e50c0d3d7e4253760a32521fa3545e1bab4216748bc438649ef74e66287"
       },
       {
@@ -11037,7 +11037,7 @@
         "id": "the-census-and-the-journey",
         "name": "The Census and the Journey",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "014b7339162c57c33a77a1a666d23302f198c83e0c7bcc21be93352dda521c2f"
       },
       {
@@ -11052,7 +11052,7 @@
         "id": "no-room",
         "name": "No Room",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "41fd9c8532e68cde052c9fec22509a240e6c132ced6e61632d07bd202e6f69eb"
       },
       {
@@ -11067,12 +11067,12 @@
         "id": "good-news-shepherds-finale",
         "name": "Good News / Shepherds / Finale",
         "current": true,
-        "updated": "2026-11-17T10:37:17.539Z",
+        "updated": "2026-11-17T16:34:04.820Z",
         "contentHash": "388410d337a8f752f896b093c7b6d2169cceeb7f3c5ead25ebc20f715c05a5c4"
       }
     ],
     "count": 12,
-    "updated": "2026-11-17T10:37:27.359Z",
+    "updated": "2026-11-17T16:34:14.574Z",
     "kind": "scripts"
   },
   "music": {
@@ -11441,7 +11441,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-17T10:37:27.359Z",
+    "updated": "2026-11-17T16:34:14.574Z",
     "kind": "music"
   }
 }
