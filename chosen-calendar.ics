@@ -8,21 +8,6 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:CHOSEN-20261118-REH@chosen-2026-company-hub.fcustard.github.io
-DTSTAMP:20261117T163849Z
-LAST-MODIFIED:20261117T163849Z
-SEQUENCE:3
-DTSTART:20261118T233000Z
-DTEND:20261119T023000Z
-SUMMARY:CHOSEN Rehearsal - Dance and Scenes 4 & 5
-LOCATION:The Faith Center — Studio (6:30–8:00 PM)\, then Sanctuary (8:0
- 0–9:30 PM) | 5555 NW 95th Ave\, Sunrise\, FL 33351
-DESCRIPTION:Check My Calls on the CHOSEN Hub for your personal report and r
- elease times. Changes may take time to appear in a subscribed calendar.
-URL:https://fcustard.github.io/chosen-2026-company-hub/schedule.html
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:CHOSEN-20261119-REH@chosen-2026-company-hub.fcustard.github.io
 DTSTAMP:20261107T013236Z
 LAST-MODIFIED:20261107T013236Z
@@ -704,6 +689,21 @@ DESCRIPTION:Check My Calls on the CHOSEN Hub for your personal report and r
  elease times. Changes may take time to appear in a subscribed calendar.
 URL:https://fcustard.github.io/chosen-2026-company-hub/schedule.html
 STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:CHOSEN-20261118-REH@chosen-2026-company-hub.fcustard.github.io
+DTSTAMP:20261118T182034Z
+LAST-MODIFIED:20261118T182034Z
+SEQUENCE:4
+DTSTART:20261118T233000Z
+DTEND:20261119T023000Z
+SUMMARY:Canceled — CHOSEN Rehearsal - Dance and Scenes 4 & 5
+LOCATION:The Faith Center — Studio (6:30–8:00 PM)\, then Sanctuary (8:0
+ 0–9:30 PM) | 5555 NW 95th Ave\, Sunrise\, FL 33351
+DESCRIPTION:Check My Calls on the CHOSEN Hub for your personal report and r
+ elease times. Changes may take time to appear in a subscribed calendar.
+URL:https://fcustard.github.io/chosen-2026-company-hub/schedule.html
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:CHOSEN-20261130-REH@chosen-2026-company-hub.fcustard.github.io
