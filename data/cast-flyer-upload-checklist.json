@@ -27,11 +27,11 @@
     "Gabriella Fearon",
     "James Myers",
     "Jayden Harris",
-    "Jéovanie André",
+    "J�ovanie Andr�",
     "Jordyn Starks",
     "Kennedy McCalla",
     "Kevin Hohn",
-    "Kourtney—Ann Palmer",
+    "Kourtney-Ann Palmer",
     "Lauryn Butler",
     "Marcus Mainer",
     "Marissa Downie",
@@ -1179,5 +1179,20 @@
       "readback_verified": true
     },
     "historical_snapshot": "September CHOSEN_2026_Wardrobe_Master_FORM_WORKFLOW_V4.xlsx marked SUPERSEDED_2026-11-08; historical bytes retained. Current native wardrobe workbooks have corrected assignments."
+  },
+  "photo_update_20261119": {
+    "status": "prepared",
+    "source_folder": "1pinOkx6nTwIQJnXb_72y8g_nnV_lZx84",
+    "added": "Delvin Rogers Jr.",
+    "gelvina_credit": "as Nia",
+    "guest_portrait_added": "resources/marketing/guest/company/delvin-rogers-jr.webp",
+    "flyers": [
+      "delvin-rogers-jr-post.png",
+      "delvin-rogers-jr-story.png",
+      "gelvina-maxime-post.png",
+      "gelvina-maxime-story.png"
+    ],
+    "visual_review_complete": true,
+    "live_verification_pending": true
   }
 }

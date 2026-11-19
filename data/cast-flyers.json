@@ -90,7 +90,7 @@
     "slug": "tasha-simeon"
   },
   {
-    "name": "Jéovanie André",
+    "name": "J�ovanie Andr�",
     "role": "as Adina",
     "slug": "jeovanie-andre"
   },
@@ -115,7 +115,7 @@
     "slug": "victorya-champagne"
   },
   {
-    "name": "Kourtney—Ann Palmer",
+    "name": "Kourtney-Ann Palmer",
     "role": "Dance Ensemble",
     "slug": "kourtney-ann-palmer"
   },
@@ -166,7 +166,14 @@
   },
   {
     "name": "Gelvina Maxime",
-    "role": "as Nia / Dance Ensemble",
-    "slug": "gelvina-maxime"
+    "role": "as Nia",
+    "slug": "gelvina-maxime",
+    "imageVersion": "20261119"
+  },
+  {
+    "name": "Delvin Rogers Jr.",
+    "role": "as Young Shepherd",
+    "slug": "delvin-rogers-jr",
+    "imageVersion": "20261119"
   }
 ]

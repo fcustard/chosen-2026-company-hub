@@ -1,7 +1,7 @@
 {
-  "reviewed_date": "2026-11-17",
+  "reviewed_date": "2026-11-19",
   "roster_source": "data/company.json",
-  "photo_basis": "Named source portraits corresponding to the 33 cast flyers previously approved for public marketing. User authorized guest-page reuse November 11, 2026. No new photo identities inferred. No separate consent registry is claimed.",
+  "photo_basis": "Named source portraits corresponding to the 33 cast flyers previously approved for public marketing. User authorized guest-page reuse November 11, 2026. No new photo identities inferred. No separate consent registry is claimed. November 19: user authorized new named Drive photos for Hub and save-the-date page; added Delvin Rogers Jr. and corrected Gelvina Maxime marketing credit to Nia.",
   "members": [
     {
       "name": "Marcus Mainer",
@@ -191,7 +191,7 @@
       "source_drive_id": "1MNumGHksXRD623Nv8YE3D7GAgOb3bdMe"
     },
     {
-      "name": "Jéovanie André",
+      "name": "J�ovanie Andr�",
       "slug": "jeovanie-andre",
       "role": "Adina",
       "group": "cast",
@@ -246,7 +246,7 @@
       "source_drive_id": "1I2JturTHUL0Ue3Fk-KvHcwy1UVUAvWm7"
     },
     {
-      "name": "Kourtney—Ann Palmer",
+      "name": "Kourtney-Ann Palmer",
       "slug": "kourtney-ann-palmer",
       "role": "Dance Ensemble",
       "group": "ensemble",
@@ -376,14 +376,18 @@
       "name": "Delvin Rogers Jr",
       "slug": "delvin-rogers-jr",
       "role": "Young Shepherd / Dance Ensemble",
-      "group": "credits",
-      "preview": false
+      "group": "cast",
+      "preview": false,
+      "image": "company/delvin-rogers-jr.webp",
+      "width": 640,
+      "height": 640,
+      "source_drive_id": "1nBXzseBzBTRgkT5cuSK4_CH4OSKBAIlR"
     },
     {
       "name": "Gelvina Maxime",
       "slug": "gelvina-maxime",
-      "role": "Nia / Dance Ensemble",
-      "group": "ensemble",
+      "role": "Nia",
+      "group": "cast",
       "preview": false,
       "image": "company/gelvina-maxime.webp",
       "width": 637,
