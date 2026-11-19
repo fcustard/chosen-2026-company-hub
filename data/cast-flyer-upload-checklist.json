@@ -1181,7 +1181,7 @@
     "historical_snapshot": "September CHOSEN_2026_Wardrobe_Master_FORM_WORKFLOW_V4.xlsx marked SUPERSEDED_2026-11-08; historical bytes retained. Current native wardrobe workbooks have corrected assignments."
   },
   "photo_update_20261119": {
-    "status": "prepared",
+    "status": "published",
     "source_folder": "1pinOkx6nTwIQJnXb_72y8g_nnV_lZx84",
     "added": "Delvin Rogers Jr.",
     "gelvina_credit": "as Nia",
@@ -1193,6 +1193,18 @@
       "gelvina-maxime-story.png"
     ],
     "visual_review_complete": true,
-    "live_verification_pending": true
+    "live_verification_pending": true,
+    "repository_commit": "d53a94c1474a51e60b002e058f2aad4ac4843c61",
+    "deployment_status": "success",
+    "deployment_run": "https://github.com/fcustard/chosen-2026-company-hub/actions/runs/44623571025",
+    "repository_readback_verified": true,
+    "public_page_and_download_checks": "Unavailable: browser transport closed and local execution environment became unavailable; public URLs could not be fetched by web reader.",
+    "remaining_named_portraits": [
+      "Allania Mitchell",
+      "Alyssa Johnson",
+      "Arielle Brown",
+      "Dana Quamina",
+      "Michael Stover"
+    ]
   }
 }
