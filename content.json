@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T00:04:27.231Z",
+  "updated": "2026-11-19T07:13:23.189Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -42,8 +42,8 @@
   },
   "thisWeek": {
     "title": "This Week",
-    "start": "2026-11-18T05:00:00.000Z",
-    "end": "2026-11-25T04:59:59.000Z",
+    "start": "2026-11-19T05:00:00.000Z",
+    "end": "2026-11-26T04:59:59.000Z",
     "rehearsals": [
       {
         "id": "CHOSEN-20261119-REH",
@@ -10988,7 +10988,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-19T00:04:27.236Z",
+    "updated": "2026-11-19T07:13:23.196Z",
     "kind": "scripts"
   },
   "music": {
@@ -11357,7 +11357,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-19T00:04:27.236Z",
+    "updated": "2026-11-19T07:13:23.196Z",
     "kind": "music"
   }
 }
