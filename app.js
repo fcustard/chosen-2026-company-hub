@@ -1612,8 +1612,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // Show the weather notice on Hub pages, including direct My Calls links.
 function showWeatherNotice() {
-  if (Date.now() >= Date.parse('2026-11-20T05:00:00Z')) return;
-  const key = 'chosen-weather-cancel-20261118-v1';
+  if (Date.now() >= Date.parse('2026-11-21T19:00:00Z')) return;
+  const key = 'chosen-weather-cancel-20261119-v1';
   const previousFocus = document.activeElement;
   const style = document.createElement('style');
   style.textContent = `
@@ -1630,8 +1630,8 @@ function showWeatherNotice() {
   banner.className = 'chosen-weather-banner';
   banner.setAttribute('role', 'status');
   const heading = document.createElement('strong');
-  heading.textContent = 'November 18 rehearsal is canceled';
-  banner.append(heading, document.createTextNode('Do not come to church for rehearsal. We canceled due to the weather. Stay safe.'));
+  heading.textContent = 'November 19 rehearsal is canceled';
+  banner.append(heading, document.createTextNode('Continued flooding and rain-impacted areas: do not come to church for rehearsal. Please stay safe. Saturday, November 21: full-company rehearsal, 10:00 AM–2:00 PM in the Sanctuary. This is our last rehearsal of November.'));
   const header = document.querySelector('header');
   if (header) header.after(banner); else document.body.prepend(banner);
   let seen = false;
@@ -1641,7 +1641,7 @@ function showWeatherNotice() {
   dialog.className = 'chosen-weather-dialog';
   dialog.setAttribute('aria-labelledby', 'chosen-weather-title');
   dialog.setAttribute('aria-describedby', 'chosen-weather-text');
-  dialog.innerHTML = '<h2 id="chosen-weather-title">Rehearsal canceled</h2><p><strong>Wednesday, November 18, 2026</strong></p><p id="chosen-weather-text">Do not come to church for rehearsal. We canceled rehearsal due to the weather.</p><p>Stay safe. Check My Calls for the next update.</p><button type="button" autofocus>Got it</button>';
+  dialog.innerHTML = '<h2 id="chosen-weather-title">🚨 Rehearsal update</h2><p><strong>Thursday, November 19 is CANCELED</strong></p><p id="chosen-weather-text">Rehearsal is canceled due to continued flooding and rain-impacted areas. Do not come to church for rehearsal. Please stay safe!</p><p><strong>Saturday, November 21 • 10:00 AM–2:00 PM • Sanctuary</strong></p><p>Our full-company rehearsal is extremely important: it is our <strong>last rehearsal of November</strong>. Please arrive on time, OFF SCRIPT, and ready to work.</p><p>Let’s stay focused as we prepare for Tech Week and show day on <strong>Sunday, December 20</strong>.</p><button type="button" autofocus>Got it</button>';
   document.body.append(dialog);
   const dismiss = () => { try { sessionStorage.setItem(key, 'seen'); } catch {} };
   dialog.querySelector('button').addEventListener('click', () => dialog.close());

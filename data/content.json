@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T16:34:34.082Z",
+  "updated": "2026-11-19T18:47:02.514Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -13,30 +13,208 @@
     "calendarFeed": "https://fcustard.github.io/chosen-2026-company-hub/chosen-calendar.ics"
   },
   "nextRehearsal": {
-    "id": "CHOSEN-20261119-REH",
-    "eventKey": "CHOSEN-20261119-REH",
-    "start": "2026-11-19T23:30:00.000Z",
-    "end": "2026-11-20T02:30:00.000Z",
-    "date": "November 19, 2026",
-    "dateIso": "2026-11-19",
-    "day": "Thursday",
-    "dateLabel": "November 19, 2026",
-    "dayLabel": "Thursday",
-    "time": "6:30 PM–9:30 PM",
-    "title": "CHOSEN Rehearsal - Scenes 1, 9 & 12",
+    "id": "CHOSEN-20261121-REH",
+    "eventKey": "CHOSEN-20261121-REH",
+    "start": "2026-11-21T15:00:00.000Z",
+    "end": "2026-11-21T19:00:00.000Z",
+    "date": "November 21, 2026",
+    "dateIso": "2026-11-21",
+    "day": "Saturday",
+    "dateLabel": "November 21, 2026",
+    "dayLabel": "Saturday",
+    "time": "10:00 AM–2:00 PM",
+    "title": "CHOSEN Rehearsal -MAJOR LOCK CHECKPOINT! Scenes 1-12",
     "status": "CONFIRMED",
     "location": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
     "locationShort": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
-    "called": "6:30–8:30 PM | Scenes 1 & 9\n\n 8:30–9:30 PM | Scenes 12",
-    "callGroups": [],
-    "calledPeople": [],
-    "calledPeopleIds": [],
-    "calledGroups": [],
-    "exactCallStatus": "REVIEW",
+    "called": "10:00 AM–2:00 PM — (Dancers, All Actors, Ensemble, EVERYONE!)",
+    "callGroups": [
+      "Full Company",
+      "Dancers",
+      "Ensemble"
+    ],
+    "calledPeople": [
+      {
+        "displayName": "Alexandria Platt"
+      },
+      {
+        "displayName": "Allania Mitchell"
+      },
+      {
+        "displayName": "Alyssa Johnson"
+      },
+      {
+        "displayName": "Anaia Downer"
+      },
+      {
+        "displayName": "Annalise Mongeois"
+      },
+      {
+        "displayName": "Ariella Davidson"
+      },
+      {
+        "displayName": "Arielle Brown"
+      },
+      {
+        "displayName": "Ashley Pierre"
+      },
+      {
+        "displayName": "Aubrie Lewis"
+      },
+      {
+        "displayName": "Audrey Howell-McClenney"
+      },
+      {
+        "displayName": "Caleb Davilmar"
+      },
+      {
+        "displayName": "Caris Hunte"
+      },
+      {
+        "displayName": "Carmen Brown"
+      },
+      {
+        "displayName": "Cedrick Massey"
+      },
+      {
+        "displayName": "Charla-Yvonne Cornelius"
+      },
+      {
+        "displayName": "Chris Mcanuff"
+      },
+      {
+        "displayName": "Dana Quamina"
+      },
+      {
+        "displayName": "DeAndra Gray"
+      },
+      {
+        "displayName": "Delvin Rogers Jr"
+      },
+      {
+        "displayName": "Dorrien Jones"
+      },
+      {
+        "displayName": "Edison Browne"
+      },
+      {
+        "displayName": "Fredrick Custard"
+      },
+      {
+        "displayName": "Gabriela Sardinas"
+      },
+      {
+        "displayName": "Gabriella Fearon"
+      },
+      {
+        "displayName": "Gelvina Maxime"
+      },
+      {
+        "displayName": "James Myers"
+      },
+      {
+        "displayName": "Jayden Harris"
+      },
+      {
+        "displayName": "Jéovanie André"
+      },
+      {
+        "displayName": "Jordyn Starks"
+      },
+      {
+        "displayName": "Kennedy McCalla"
+      },
+      {
+        "displayName": "Kevin Hohn"
+      },
+      {
+        "displayName": "Kourtney—Ann Palmer"
+      },
+      {
+        "displayName": "Lauryn Butler"
+      },
+      {
+        "displayName": "Marcus Mainer"
+      },
+      {
+        "displayName": "Marissa Downie"
+      },
+      {
+        "displayName": "Michael Stover"
+      },
+      {
+        "displayName": "Moenike Custard"
+      },
+      {
+        "displayName": "Nelcia Fostin"
+      },
+      {
+        "displayName": "Shanice Palmer"
+      },
+      {
+        "displayName": "Tasha Simeon"
+      },
+      {
+        "displayName": "Tyfany Adaka"
+      },
+      {
+        "displayName": "Victorya Champagne"
+      }
+    ],
+    "calledPeopleIds": [
+      "P-alexandria-platt",
+      "P-allania-mitchell",
+      "P-alyssa-johnson",
+      "P-anaia-downer",
+      "P-annalise-mongeois",
+      "P-ariella-davidson",
+      "P-arielle-brown",
+      "P-ashley-pierre",
+      "P-aubrie-lewis",
+      "P-audrey-howell-mcclenney",
+      "P-caleb-davilmar",
+      "P-caris-hunte",
+      "P-carmen-brown",
+      "P-cedrick-massey",
+      "P-charla-yvonne-cornelius",
+      "P-chris-mcanuff",
+      "P-dana-quamina",
+      "P-deandra-gray",
+      "P-delvin-rogers-jr",
+      "P-dorrien-jones",
+      "P-edison-browne",
+      "P-fredrick-custard",
+      "P-gabriela-sardinas",
+      "P-gabriella-fearon",
+      "P-gelvina-maxime",
+      "P-james-myers",
+      "P-jayden-harris",
+      "P-jeovanie-andre",
+      "P-jordyn-starks",
+      "P-kennedy-mccalla",
+      "P-kevin-hohn",
+      "P-kourtney-ann-palmer",
+      "P-lauryn-butler",
+      "P-marcus-mainer",
+      "P-marissa-downie",
+      "P-michael-stover",
+      "P-moenike-custard",
+      "P-nelcia-fosttin",
+      "P-shanice-palmer",
+      "P-tasha-simeon",
+      "P-tyfany-adaka",
+      "P-victorya-champagne"
+    ],
+    "calledGroups": [
+      "Full Company",
+      "Dancers",
+      "Ensemble"
+    ],
+    "exactCallStatus": "READY",
     "callDataVersion": 3,
-    "work": "Clean scenes, blocking, and transitions with props",
+    "work": "Originally main-stage sequence runs, spacing, transitions, ensemble cleanup with props",
     "focus": "",
-    "prep": "Rehearsal in the Sanctuary, 6:30–9:30 PM.",
+    "prep": "Full-company rehearsal in the Sanctuary, 10:00 AM–2:00 PM.\n\nIMPORTANT: Saturday, November 21 is our last rehearsal of November. Attendance is essential as we prepare for Tech Week and show day on Sunday, December 20. Arrive on time, OFF SCRIPT, and ready to work. Bring water and a snack.",
     "notice": "",
     "changeType": ""
   },
@@ -46,34 +224,6 @@
     "end": "2026-11-26T04:59:59.000Z",
     "rehearsals": [
       {
-        "id": "CHOSEN-20261119-REH",
-        "eventKey": "CHOSEN-20261119-REH",
-        "start": "2026-11-19T23:30:00.000Z",
-        "end": "2026-11-20T02:30:00.000Z",
-        "date": "November 19, 2026",
-        "dateIso": "2026-11-19",
-        "day": "Thursday",
-        "dateLabel": "November 19, 2026",
-        "dayLabel": "Thursday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 1, 9 & 12",
-        "status": "CONFIRMED",
-        "location": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM | Scenes 1 & 9\n\n 8:30–9:30 PM | Scenes 12",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
-        "callDataVersion": 3,
-        "work": "Clean scenes, blocking, and transitions with props",
-        "focus": "",
-        "prep": "Rehearsal in the Sanctuary, 6:30–9:30 PM.",
-        "notice": "",
-        "changeType": ""
-      },
-      {
         "id": "CHOSEN-20261121-REH",
         "eventKey": "CHOSEN-20261121-REH",
         "start": "2026-11-21T15:00:00.000Z",
@@ -275,46 +425,18 @@
         "callDataVersion": 3,
         "work": "Originally main-stage sequence runs, spacing, transitions, ensemble cleanup with props",
         "focus": "",
-        "prep": "Full-company rehearsal in the Sanctuary, 10:00 AM–2:00 PM.",
+        "prep": "Full-company rehearsal in the Sanctuary, 10:00 AM–2:00 PM.\n\nIMPORTANT: Saturday, November 21 is our last rehearsal of November. Attendance is essential as we prepare for Tech Week and show day on Sunday, December 20. Arrive on time, OFF SCRIPT, and ready to work. Bring water and a snack.",
         "notice": "",
         "changeType": ""
       }
     ],
-    "count": 2
+    "count": 1
   },
   "schedule": {
     "title": "Schedule",
     "timezone": "America/New_York",
     "rehearsals": [
       {
-        "id": "CHOSEN-20261119-REH",
-        "eventKey": "CHOSEN-20261119-REH",
-        "start": "2026-11-19T23:30:00.000Z",
-        "end": "2026-11-20T02:30:00.000Z",
-        "date": "November 19, 2026",
-        "dateIso": "2026-11-19",
-        "day": "Thursday",
-        "dateLabel": "November 19, 2026",
-        "dayLabel": "Thursday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 1, 9 & 12",
-        "status": "CONFIRMED",
-        "location": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM | Scenes 1 & 9\n\n 8:30–9:30 PM | Scenes 12",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
-        "callDataVersion": 3,
-        "work": "Clean scenes, blocking, and transitions with props",
-        "focus": "",
-        "prep": "Rehearsal in the Sanctuary, 6:30–9:30 PM.",
-        "notice": "",
-        "changeType": ""
-      },
-      {
         "id": "CHOSEN-20261121-REH",
         "eventKey": "CHOSEN-20261121-REH",
         "start": "2026-11-21T15:00:00.000Z",
@@ -516,7 +638,7 @@
         "callDataVersion": 3,
         "work": "Originally main-stage sequence runs, spacing, transitions, ensemble cleanup with props",
         "focus": "",
-        "prep": "Full-company rehearsal in the Sanctuary, 10:00 AM–2:00 PM.",
+        "prep": "Full-company rehearsal in the Sanctuary, 10:00 AM–2:00 PM.\n\nIMPORTANT: Saturday, November 21 is our last rehearsal of November. Attendance is essential as we prepare for Tech Week and show day on Sunday, December 20. Arrive on time, OFF SCRIPT, and ready to work. Bring water and a snack.",
         "notice": "",
         "changeType": ""
       },
@@ -5444,34 +5566,6 @@
     ],
     "allRehearsals": [
       {
-        "id": "CHOSEN-20261119-REH",
-        "eventKey": "CHOSEN-20261119-REH",
-        "start": "2026-11-19T23:30:00.000Z",
-        "end": "2026-11-20T02:30:00.000Z",
-        "date": "November 19, 2026",
-        "dateIso": "2026-11-19",
-        "day": "Thursday",
-        "dateLabel": "November 19, 2026",
-        "dayLabel": "Thursday",
-        "time": "6:30 PM–9:30 PM",
-        "title": "CHOSEN Rehearsal - Scenes 1, 9 & 12",
-        "status": "CONFIRMED",
-        "location": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "locationShort": "The Faith Center — Sanctuary | 5555 NW 95th Ave, Sunrise, FL 33351",
-        "called": "6:30–8:30 PM | Scenes 1 & 9\n\n 8:30–9:30 PM | Scenes 12",
-        "callGroups": [],
-        "calledPeople": [],
-        "calledPeopleIds": [],
-        "calledGroups": [],
-        "exactCallStatus": "REVIEW",
-        "callDataVersion": 3,
-        "work": "Clean scenes, blocking, and transitions with props",
-        "focus": "",
-        "prep": "Rehearsal in the Sanctuary, 6:30–9:30 PM.",
-        "notice": "",
-        "changeType": ""
-      },
-      {
         "id": "CHOSEN-20261121-REH",
         "eventKey": "CHOSEN-20261121-REH",
         "start": "2026-11-21T15:00:00.000Z",
@@ -5673,7 +5767,7 @@
         "callDataVersion": 3,
         "work": "Originally main-stage sequence runs, spacing, transitions, ensemble cleanup with props",
         "focus": "",
-        "prep": "Full-company rehearsal in the Sanctuary, 10:00 AM–2:00 PM.",
+        "prep": "Full-company rehearsal in the Sanctuary, 10:00 AM–2:00 PM.\n\nIMPORTANT: Saturday, November 21 is our last rehearsal of November. Attendance is essential as we prepare for Tech Week and show day on Sunday, December 20. Arrive on time, OFF SCRIPT, and ready to work. Bring water and a snack.",
         "notice": "",
         "changeType": ""
       },
@@ -10619,7 +10713,7 @@
         "count": 12
       }
     ],
-    "count": 12,
+    "count": 11,
     "pastCount": 36
   },
   "scripts": {
@@ -10988,7 +11082,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-19T16:34:34.088Z",
+    "updated": "2026-11-19T18:47:02.518Z",
     "kind": "scripts"
   },
   "music": {
@@ -11357,7 +11451,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-19T16:34:34.088Z",
+    "updated": "2026-11-19T18:47:02.518Z",
     "kind": "music"
   }
 }
