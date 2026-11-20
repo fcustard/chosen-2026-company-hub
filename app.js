@@ -1607,47 +1607,30 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 });
 
-
-
-
-// Show the weather notice on Hub pages, including direct My Calls links.
-function showWeatherNotice() {
+// Remind the full company about Saturday, including on direct My Calls links.
+function showSaturdayRehearsalReminder() {
   if (Date.now() >= Date.parse('2026-11-21T19:00:00Z')) return;
-  const key = 'chosen-weather-cancel-20261119-v1';
-  const previousFocus = document.activeElement;
+
   const style = document.createElement('style');
   style.textContent = `
-.chosen-weather-banner{background:#0d1726;color:#fffdf8;border-bottom:4px solid #d9ae57;padding:18px max(18px,calc((100vw - 1080px)/2));font:17px/1.5 Arial,sans-serif}
-.chosen-weather-banner strong{display:block;color:#f3ce81;font-size:1.2rem}
-.chosen-weather-dialog{box-sizing:border-box;width:min(460px,calc(100vw - 32px));max-height:85vh;overflow:auto;padding:28px;border:2px solid #d9ae57;border-radius:16px;background:#fffdf8;color:#111a28;font:18px/1.55 Arial,sans-serif;box-shadow:0 24px 80px #0008}
-.chosen-weather-dialog::backdrop{background:#07101ecc}
-.chosen-weather-dialog h2{font-size:1.7rem;line-height:1.2;margin:0 0 18px}
-.chosen-weather-dialog p{margin:0 0 16px}
-.chosen-weather-dialog button{display:block;width:100%;min-height:48px;padding:12px 20px;border:0;border-radius:8px;background:#0d1726;color:#fff;font:700 18px Arial,sans-serif;cursor:pointer}
-.chosen-weather-dialog button:focus-visible{outline:3px solid #aa7215;outline-offset:4px}`;
+.chosen-rehearsal-banner{background:#0d1726;color:#fffdf8;border-bottom:4px solid #d9ae57;padding:12px max(18px,calc((100vw - 1080px)/2));font:16px/1.5 Arial,sans-serif}
+.chosen-rehearsal-banner strong{display:block;color:#f3ce81}
+.chosen-rehearsal-banner a{color:#f3ce81;text-decoration:underline}`;
   document.head.append(style);
+
   const banner = document.createElement('aside');
-  banner.className = 'chosen-weather-banner';
-  banner.setAttribute('role', 'status');
+  banner.className = 'chosen-rehearsal-banner';
+  banner.setAttribute('aria-label', 'Rehearsal reminder');
   const heading = document.createElement('strong');
-  heading.textContent = 'November 19 rehearsal is canceled';
-  banner.append(heading, document.createTextNode('Continued flooding and rain-impacted areas: do not come to church for rehearsal. Please stay safe. Saturday, November 21: full-company rehearsal, 10:00 AM–2:00 PM in the Sanctuary. This is our last rehearsal of November.'));
+  heading.textContent = 'Saturday, November 21 · Full-company rehearsal';
+  const calls = document.createElement('a');
+  calls.href = 'schedule.html';
+  calls.textContent = 'Check My Calls';
+  banner.append(heading, document.createTextNode('10:00 AM–2:00 PM in the Sanctuary. This is our last rehearsal in November. Please arrive on time and off script. '), calls);
+
   const header = document.querySelector('header');
   if (header) header.after(banner); else document.body.prepend(banner);
-  let seen = false;
-  try { seen = sessionStorage.getItem(key) === 'seen'; } catch {}
-  if (seen || typeof HTMLDialogElement === 'undefined') return;
-  const dialog = document.createElement('dialog');
-  dialog.className = 'chosen-weather-dialog';
-  dialog.setAttribute('aria-labelledby', 'chosen-weather-title');
-  dialog.setAttribute('aria-describedby', 'chosen-weather-text');
-  dialog.innerHTML = '<h2 id="chosen-weather-title">🚨 Rehearsal update</h2><p><strong>Thursday, November 19 is CANCELED</strong></p><p id="chosen-weather-text">Rehearsal is canceled due to continued flooding and rain-impacted areas. Do not come to church for rehearsal. Please stay safe!</p><p><strong>Saturday, November 21 • 10:00 AM–2:00 PM • Sanctuary</strong></p><p>Our full-company rehearsal is extremely important: it is our <strong>last rehearsal of November</strong>. Please arrive on time, OFF SCRIPT, and ready to work.</p><p>Let’s stay focused as we prepare for Tech Week and show day on <strong>Sunday, December 20</strong>.</p><button type="button" autofocus>Got it</button>';
-  document.body.append(dialog);
-  const dismiss = () => { try { sessionStorage.setItem(key, 'seen'); } catch {} };
-  dialog.querySelector('button').addEventListener('click', () => dialog.close());
-  dialog.addEventListener('close', () => { dismiss(); dialog.remove(); previousFocus?.focus?.(); });
-  dialog.addEventListener('cancel', dismiss);
-  dialog.showModal();
 }
-if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', showWeatherNotice);
-else showWeatherNotice();
+
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', showSaturdayRehearsalReminder);
+else showSaturdayRehearsalReminder();
