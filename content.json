@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T21:33:10.421Z",
+  "updated": "2026-11-20T21:35:05.306Z",
   "announcement": "",
   "links": {
     "liveSchedule": "https://script.google.com/macros/s/AKfycbyqkEKdzbK4XnoWadntdAKkQaizj1941aRB-7N4EZk_Ft1tSCFtNv09jlRQOKmNkY6u7Q/exec",
@@ -10795,15 +10795,15 @@
       },
       {
         "scene": "06",
-        "title": "Mary & Joseph",
+        "title": "It's Not Mine",
         "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-06.json",
         "readUrl": "scene-06.html",
         "pdfUrl": "scene-06.pdf",
-        "id": "mary-and-joseph",
-        "name": "Mary & Joseph",
+        "id": "its-not-mine",
+        "name": "It's Not Mine",
         "current": true,
         "updated": "2026-11-20T21:32:59.937Z",
         "contentHash": "121f2ac8d3793813fb534d7fc6f6ad76b9f72ecbe7ec78676611be65da473db0"
@@ -10977,15 +10977,15 @@
       },
       {
         "scene": "06",
-        "title": "Mary & Joseph",
+        "title": "It's Not Mine",
         "status": "CURRENT · Auto-published from master script",
         "approved": true,
         "companyPublish": true,
         "source": "data/scenes/scene-06.json",
         "readUrl": "scene-06.html",
         "pdfUrl": "scene-06.pdf",
-        "id": "mary-and-joseph",
-        "name": "Mary & Joseph",
+        "id": "its-not-mine",
+        "name": "It's Not Mine",
         "current": true,
         "updated": "2026-11-20T21:32:59.937Z",
         "contentHash": "121f2ac8d3793813fb534d7fc6f6ad76b9f72ecbe7ec78676611be65da473db0"
@@ -11082,7 +11082,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-20T21:33:10.427Z",
+    "updated": "2026-11-20T21:35:05.311Z",
     "kind": "scripts"
   },
   "music": {
@@ -11451,7 +11451,7 @@
       }
     ],
     "count": 12,
-    "updated": "2026-11-20T21:33:10.427Z",
+    "updated": "2026-11-20T21:35:05.311Z",
     "kind": "music"
   }
 }
