@@ -1,0 +1,70 @@
+.general-flyers {
+  max-width: 42rem;
+  margin: 1.75rem auto;
+  padding: clamp(1rem, 4vw, 1.75rem);
+  border: 1px solid #b89456;
+  border-radius: 0.75rem;
+  background: #101b28;
+  color: #fbf1dd;
+  text-align: center;
+  scroll-margin-top: 5rem;
+}
+
+.general-flyers h2 {
+  margin: 0;
+  color: #fbf1dd;
+  font: 700 clamp(1.5rem, 5vw, 2rem)/1.2 Georgia, serif;
+}
+
+.general-flyers p {
+  margin: 0.5rem 0 1.2rem;
+  color: #e4dccb;
+  line-height: 1.45;
+}
+
+.general-flyers-downloads {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+  max-width: 26rem;
+  margin-inline: auto;
+}
+
+.general-flyers-download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 0.6rem;
+  padding: 0.65rem 0.25rem;
+  border: 1px solid #c0a677;
+  border-radius: 0.55rem;
+  color: #fbf1dd;
+  font: 700 1rem/1.25 Arial, sans-serif;
+  text-decoration: none;
+}
+
+.general-flyers-download:hover,
+.general-flyers-download:focus-visible {
+  background: #26354a;
+}
+
+.general-flyers-download:focus-visible {
+  outline: 2px solid #ffdf9c;
+  outline-offset: 3px;
+}
+
+.general-flyers-download img {
+  display: block;
+  width: auto;
+  height: clamp(7.5rem, 24vw, 10rem);
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.general-flyers-download small {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}

@@ -1,4 +1,5 @@
 // Public invitation renderer. Keep attendance facts in marketing-launch.json.
+import { generalFlyersStylesheet, renderGeneralFlyers } from './render-general-flyers.mjs';
 const esc = value => String(value ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 const json = value => JSON.stringify(value).replaceAll('<', '\\u003c');
 const asset = 'resources/marketing/guest/';
@@ -56,6 +57,7 @@ export function renderGuestPage(data, company = [], creativeTeam = null) {
 <link rel="preload" as="image" href="${asset}chosen-hero.webp" media="(min-width: 1051px)">
 <link rel="preload" as="image" href="${asset}chosen-hero-mobile.webp" media="(max-width: 1050px)">
 <link rel="stylesheet" href="${asset}guest.css?v=20261116-creative1">
+${generalFlyersStylesheet}
 <script type="application/ld+json">${json(schema)}</script>
 <script src="${asset}guest.js?v=20261111-3" defer></script>
 </head>
@@ -63,7 +65,7 @@ export function renderGuestPage(data, company = [], creativeTeam = null) {
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="header-inner"><a class="small-brand" href="chosen.html" aria-label="CHOSEN home">CHOSEN<span>The Faith Center</span></a>
-  <nav aria-label="Show navigation"><a href="#story">The Story</a>${hasPreview ? '<a href="#preview">Preview</a>' : ''}<a href="#cast">The Cast</a>${creativeSection ? '<a href="#creative-team">Creative Team</a>' : ''}<a href="#details">Plan Your Visit</a></nav>
+  <nav aria-label="Show navigation"><a href="#story">The Story</a>${hasPreview ? '<a href="#preview">Preview</a>' : ''}<a href="#cast">The Cast</a>${creativeSection ? '<a href="#creative-team">Creative Team</a>' : ''}<a href="#details">Plan Your Visit</a><a href="#share-flyers">Share Flyers</a></nav>
   <a class="header-cta" href="resources/marketing/chosen-2026.ics" download="chosen-2026.ics">Save the Date<svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
 </header>
 <main id="main" tabindex="-1">
@@ -100,6 +102,7 @@ ${creativeSection}
   <div class="visit-grid"><div class="venue-panel"><p class="eyebrow">Join us in Sunrise</p><h3>${esc(e.venue)}</h3><address>5555 NW 95th Avenue<br>Sunrise, FL 33351</address><a class="button outline" href="${esc(directions)}" target="_blank" rel="noopener">Get Directions <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><p class="venue-note">Sunday, December 20, 2026<br><strong>6:00 PM Eastern</strong></p></div><div class="guest-faq"><p class="faq-intro">A few things to know before you go.</p>${guestAnswers.map(a => `<details><summary>${esc(a.question)}<span aria-hidden="true">+</span></summary><p>${esc(a.answer)}</p></details>`).join('')}<div class="calendar-options"><span>Add CHOSEN to your calendar</span><a href="resources/marketing/chosen-2026.ics" download="chosen-2026.ics">Apple / Outlook <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a href="${esc(g.google_calendar_url)}" target="_blank" rel="noopener">Google Calendar <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div></div></div>
 </section>
 <section class="invite-section"><div class="wrap"><p class="eyebrow ink">Good things are better together</p><h2>Who will you bring?</h2><p>Send a little hope their way. Invite someone to CHOSEN.</p><div class="share-actions"><a class="button dark" href="${esc('https://wa.me/?text=' + encodeURIComponent(g.share_text + '\n' + e.url))}" target="_blank" rel="noopener">Invite on WhatsApp <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><button class="button light" id="share-show" type="button">Share the Show <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></button><button class="copy-link" id="copy-show" type="button">Copy Link</button></div><p id="share-status" role="status" aria-live="polite"></p><p id="manual-share" hidden>Copy this link: <a href="${esc(e.url)}">${esc(e.url)}</a></p></div></section>
+<div class="wrap">${renderGeneralFlyers()}</div>
 </main>
 <footer><div class="wrap footer-inner"><a class="footer-brand" href="chosen.html">CHOSEN<span>The Story Before the Manger</span></a><p>The Faith Center · Sunrise, Florida<br>December 20, 2026 · 6:00 PM · Free admission</p><a href="https://thefaithcenterint.org/" target="_blank" rel="noopener">Visit The Faith Center <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div></footer>
 <div class="mobile-attend"><p>DEC 20 <span>6 PM · FREE ADMISSION</span></p><a href="resources/marketing/chosen-2026.ics" download="chosen-2026.ics">Save the Date <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
